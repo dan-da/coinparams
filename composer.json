@@ -2,11 +2,11 @@
     "name": "dan-da/coinparams",
     "description": "provides crypto currency specific information such as version numbers, DNS seeds, etc, available in JSON format",
     "license": "MIT",
-    
+
     "autoload": {
-        "classmap": [
-            "bindings/php/chainParams.php"
-        ]
+        "classmap": {
+            "bindings/php/"
+        }
     },
 
     "require-dev": {
