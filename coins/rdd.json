@@ -19,7 +19,7 @@
             "public": "0x6f",
             "scripthash": "0xc4"
         },
-        "name": "ReddCoin",
+        "name": "ReddCoin Testnet",
         "unit": "RDD",
         "testnet": true
     }

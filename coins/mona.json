@@ -46,7 +46,7 @@
             "scripthash": "0x75",
             "scripthash2": "0xc4"
         },
-        "name": "Monacoin",
+        "name": "Monacoin Testnet",
         "unit": "MONA",
         "testnet": true
     }

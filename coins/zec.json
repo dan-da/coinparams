@@ -45,7 +45,7 @@
             "public": "0x1d25",
             "scripthash": "0x1cba"
         },
-        "name": "Zcash",
+        "name": "Zcash Testnet",
         "unit": "ZEC",
         "testnet": true
     }

@@ -50,7 +50,7 @@
             "public": "0x8c",
             "scripthash": "0x13"
         },
-        "name": "Dash",
+        "name": "Dash Testnet",
         "unit": "DASH",
         "testnet": true
     }

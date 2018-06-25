@@ -33,7 +33,7 @@
             "public": "0x71",
             "scripthash": "0xc4"
         },
-        "name": "Dogecoin",
+        "name": "Dogecoin Testnet",
         "unit": "DOGE",
         "testnet": true
     }

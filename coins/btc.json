@@ -52,7 +52,7 @@
             "public": "0x6f",
             "scripthash": "0xc4"
         },
-        "name": "Bitcoin",
+        "name": "Bitcoin Testnet",
         "per1": 100000000,
         "unit": "BTC",
         "testnet": true
@@ -75,7 +75,7 @@
             "public": "0x6f",
             "scripthash": "0xc4"
         },
-        "name": "Bitcoin",
+        "name": "Bitcoin Regtest",
         "per1": 100000000,
         "unit": "BTC",
         "testnet": true

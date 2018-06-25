@@ -17,7 +17,7 @@
             "public": "0x1e",
             "scripthash": "0x5"
         },
-        "name": "DigiByte",
+        "name": "DigiByte Testnet",
         "per1": 100000000,
         "unit": "DGB",
         "testnet": false

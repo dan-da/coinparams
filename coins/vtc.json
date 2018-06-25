@@ -49,7 +49,7 @@
             "public": "0x4a",
             "scripthash": "0xc4"
         },
-        "name": "Vertcoin",
+        "name": "Vertcoin Testnet",
         "unit": "VTC",
         "testnet": true
     },
@@ -69,7 +69,7 @@
             "public": "0x6f",
             "scripthash": "0xc4"
         },
-        "name": "Vertcoin",
+        "name": "Vertcoin Regtest",
         "unit": "VTC",
         "testnet": true
     }

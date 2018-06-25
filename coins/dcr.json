@@ -49,7 +49,7 @@
             "public": "0xf21",
             "scripthash": "0xefc"
         },
-        "name": "Decred",
+        "name": "Decred Testnet",
         "unit": "DCR",
         "testnet": true
     }

@@ -36,7 +36,7 @@
             "scripthash": "0x3a",
             "scripthash2": "0xc4"
         },
-        "name": "Litecoin",
+        "name": "Litecoin Testnet",
         "unit": "LTC",
         "testnet": true
     }
