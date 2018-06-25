@@ -86,7 +86,7 @@
                 "public": "0x6f",
                 "scripthash": "0xc4"
             },
-            "name": "Bitcoin",
+            "name": "Bitcoin Testnet",
             "per1": 100000000,
             "unit": "BTC",
             "testnet": true
@@ -109,7 +109,7 @@
                 "public": "0x6f",
                 "scripthash": "0xc4"
             },
-            "name": "Bitcoin",
+            "name": "Bitcoin Regtest",
             "per1": 100000000,
             "unit": "BTC",
             "testnet": true
@@ -194,7 +194,7 @@
                 "public": "0x8c",
                 "scripthash": "0x13"
             },
-            "name": "Dash",
+            "name": "Dash Testnet",
             "unit": "DASH",
             "testnet": true
         }
@@ -250,7 +250,7 @@
                 "public": "0xf21",
                 "scripthash": "0xefc"
             },
-            "name": "Decred",
+            "name": "Decred Testnet",
             "unit": "DCR",
             "testnet": true
         }
@@ -274,7 +274,7 @@
                 "public": "0x1e",
                 "scripthash": "0x5"
             },
-            "name": "DigiByte",
+            "name": "DigiByte Testnet",
             "per1": 100000000,
             "unit": "DGB",
             "testnet": false
@@ -315,7 +315,7 @@
                 "public": "0x71",
                 "scripthash": "0xc4"
             },
-            "name": "Dogecoin",
+            "name": "Dogecoin Testnet",
             "unit": "DOGE",
             "testnet": true
         }
@@ -358,7 +358,7 @@
                 "scripthash": "0x3a",
                 "scripthash2": "0xc4"
             },
-            "name": "Litecoin",
+            "name": "Litecoin Testnet",
             "unit": "LTC",
             "testnet": true
         }
@@ -411,7 +411,7 @@
                 "scripthash": "0x75",
                 "scripthash2": "0xc4"
             },
-            "name": "Monacoin",
+            "name": "Monacoin Testnet",
             "unit": "MONA",
             "testnet": true
         }
@@ -517,7 +517,7 @@
                 "public": "0x6f",
                 "scripthash": "0xc4"
             },
-            "name": "ReddCoin",
+            "name": "ReddCoin Testnet",
             "unit": "RDD",
             "testnet": true
         }
@@ -573,7 +573,7 @@
                 "public": "0x4a",
                 "scripthash": "0xc4"
             },
-            "name": "Vertcoin",
+            "name": "Vertcoin Testnet",
             "unit": "VTC",
             "testnet": true
         },
@@ -593,7 +593,7 @@
                 "public": "0x6f",
                 "scripthash": "0xc4"
             },
-            "name": "Vertcoin",
+            "name": "Vertcoin Regtest",
             "unit": "VTC",
             "testnet": true
         }
@@ -645,7 +645,7 @@
                 "public": "0x1d25",
                 "scripthash": "0x1cba"
             },
-            "name": "Zcash",
+            "name": "Zcash Testnet",
             "unit": "ZEC",
             "testnet": true
         }
