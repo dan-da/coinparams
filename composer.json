@@ -1,0 +1,12 @@
+{
+    "name": "dan-da/coinparams",
+    
+    "autoload": {
+        "classmap": [
+            "bindings/php/chainParams.php"
+        ]
+    },
+
+    "require-dev": {
+    }
+}
