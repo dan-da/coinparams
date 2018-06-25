@@ -1,0 +1,25 @@
+{
+    "main": {
+        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "port": 12024,
+        "portRpc": 14022,
+        "protocol": {
+            "magic": "0xfac3b6da"
+        },
+        "seedsDns": [
+            "seed.digibyte.io",
+            "digiexplorer.info",
+            "digihash.co"
+        ],
+        "versions": {
+            "bip44": "0x80000014",
+            "private": "0x80",
+            "public": "0x1e",
+            "scripthash": "0x5"
+        },
+        "name": "DigiByte",
+        "per1": 100000000,
+        "unit": "DGB",
+        "testnet": false
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "main": {
+        "hashGenesisBlock": "0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3",
+        "versions": {
+            "bip44": "0x6",
+            "private": "0xc4",
+            "public": "0x44",
+            "scripthash": "0x5"
+        },
+        "name": "Peercoin",
+        "unit": "PPC",
+        "testnet": false
+    },
+    "test": null
+}

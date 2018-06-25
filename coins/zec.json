@@ -1,0 +1,52 @@
+{
+    "main": {
+        "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
+        "port": 8233,
+        "portRpc": 8232,
+        "protocol": {
+            "magic": "0x6427e924"
+        },
+        "seedsDns": [
+            "dnsseed.z.cash",
+            "dnsseed.str4d.xyz",
+            "dnsseed.znodes.org"
+        ],
+        "versions": {
+            "bip32": {
+                "private": "0x488ade4",
+                "public": "0x488b21e"
+            },
+            "bip44": "0x85",
+            "private": "0x80",
+            "public": "0x1cb8",
+            "scripthash": "0x1cbd"
+        },
+        "name": "Zcash",
+        "unit": "ZEC",
+        "testnet": false
+    },
+    "test": {
+        "hashGenesisBlock": "0x05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "port": 18233,
+        "portRpc": 18232,
+        "protocol": {
+            "magic": "0xbff91afa"
+        },
+        "seedsDns": [
+            "dnsseed.testnet.z.cash"
+        ],
+        "versions": {
+            "bip32": {
+                "private": "0x4358394",
+                "public": "0x43587cf"
+            },
+            "bip44": "0x85",
+            "private": "0xef",
+            "public": "0x1d25",
+            "scripthash": "0x1cba"
+        },
+        "name": "Zcash",
+        "unit": "ZEC",
+        "testnet": true
+    }
+}

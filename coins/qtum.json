@@ -1,0 +1,25 @@
+{
+    "main": {
+        "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
+        "port": 3888,
+        "protocol": {
+            "magic": "0xd3a6cff1"
+        },
+        "seedsDns": [
+            "qtum3.dynu.net"
+        ],
+        "versions": {
+            "bip32": {
+                "private": "0x488ade4",
+                "public": "0x488b21e"
+            },
+            "bip44": "0x8fd",
+            "private": "0x80",
+            "public": "0x3a",
+            "scripthash": "0x32"
+        },
+        "name": "Qtum",
+        "unit": "QTUM",
+        "testnet": false
+    }
+}

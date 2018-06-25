@@ -1,0 +1,33 @@
+{
+    "main": {
+        "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+        "port": 15714,
+        "portRpc": 15715,
+        "protocol": {
+            "magic": "0x5223570"
+        },
+        "seedsDns": [
+            "rat4.blackcoin.co",
+            "seed.blackcoin.co",
+            "archon.darkfox.id.au",
+            "foxy.seeds.darkfox.id.au",
+            "6.syllabear.us.to",
+            "bcseed.syllabear.us.to"
+        ],
+        "versions": {
+            "bip32": {
+                "private": "0x488ade4",
+                "public": "0x488b21e"
+            },
+            "bip44": "0xa",
+            "private": "0x99",
+            "public": "0x19",
+            "scripthash": "0x55"
+        },
+        "name": "BlackCoin",
+        "per1": 100000000,
+        "unit": "BLK",
+        "testnet": false
+    },
+    "test": null
+}
