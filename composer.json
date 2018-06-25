@@ -4,9 +4,9 @@
     "license": "MIT",
 
     "autoload": {
-        "classmap": {
+        "classmap": [ 
             "bindings/php/"
-        }
+        ]
     },
 
     "require-dev": {
