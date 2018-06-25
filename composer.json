@@ -1,5 +1,6 @@
 {
     "name": "dan-da/coinparams",
+    "description": "provides crypto currency specific information such as version numbers, DNS seeds, etc, available in JSON format",
     
     "autoload": {
         "classmap": [
