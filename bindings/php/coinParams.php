@@ -13,9 +13,9 @@ class coinParams {
     static public function get_coin($symbol, $silentfail=false) {
         $data = self::get_all_coins();
         
-        $info = @$data[$symbol];
+        $info = @$data[strtoupper($symbol)];
         if( !$info && !$silentfail ) {
-            throw new Exception("Coin not found: $symbol");
+            throw new \Exception("Coin not found: $symbol");
         }
         
         return $info;
@@ -32,7 +32,7 @@ class coinParams {
         
         $info = @$data[$network];
         if( !$info && !$silentfail ) {
-            throw new Exception("Network not found: $symbol/$network");
+            throw new \Exception("Network not found: $symbol/$network");
         }
         
         return $info;
@@ -48,7 +48,7 @@ class coinParams {
         $file = __DIR__ . '/../../coinparams.json';
         $buf = @file_get_contents($file);
         if( !$buf ) {
-            throw new Exception("Unable to read file $file");
+            throw new \Exception("Unable to read file $file");
         }
         return $buf;
     }
@@ -66,7 +66,7 @@ class coinParams {
         $buf = self::get_raw_json();
         $data = @json_decode($buf, true);
         if( !$data ) {
-            throw new Exception("Unable to parse json: " . json_last_error_msg());
+            throw new \Exception("Unable to parse json: " . json_last_error_msg());
         }
         return $data;
     }
