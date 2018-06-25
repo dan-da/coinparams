@@ -64,7 +64,7 @@ class coinParams {
             return $data;
         }
         $buf = self::get_raw_json();
-        $data = @json_decode($buf);
+        $data = @json_decode($buf, true);
         if( !$data ) {
             throw new Exception("Unable to parse json: " . json_last_error_msg());
         }
