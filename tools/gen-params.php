@@ -2,7 +2,7 @@
 
 /**
  * This tool reads all the JSON files in ./coins and
- * generates a master json file with all coins.
+ * generates a consolidated json file with all coins.
  *
  * todo: use json5 parser so that we can put comments into
  *       the original JSON files if desired.
