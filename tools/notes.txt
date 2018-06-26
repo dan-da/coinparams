@@ -20,5 +20,21 @@ portRpc            nRPCPort
 Fields in amount.h
 per1               COIN
 
+Fields in validation.cpp, also main.cpp
+messageMagic       strMessageMagic
+
+
 Bip44 from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 bip44               hexa    (testnet, regtest is always 0x1)
+
+
+
+
+
+
+
+
+Decred:
+    found messageMagic in Wallet::SignMessage() at
+    https://github.com/decred/dcrwallet/blob/master/wallet/wallet.go
+
