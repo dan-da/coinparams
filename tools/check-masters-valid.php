@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 /**
@@ -7,6 +8,12 @@
  */
 
 $fname = @$argv[1];
+
+// allow filepath or symbol to be provided.
+if($fname && !strstr($fname, '.json')) {
+    $fname = __DIR__ . '/../coins/' . strtolower($fname) . '.json';
+}
+
 $files = $fname ? [$fname] : glob(__DIR__ . '/../coins/*.json');
 
 foreach($files as $file) {
