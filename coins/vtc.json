@@ -29,7 +29,8 @@
         "bech32_hrp": "vtc",
         "hashGenesisBlock": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
         "portRpc": 5888,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Vertcoin Signed Message:\\n"
     },
     "test": {
         "unit": "VTC",
@@ -58,7 +59,8 @@
         "bech32_hrp": "tvtc",
         "hashGenesisBlock": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
         "portRpc": 15888,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Vertcoin Signed Message:\\n"
     },
     "regtest": {
         "unit": "VTC",
@@ -82,6 +84,7 @@
         "bech32_hrp": "bcrt",
         "hashGenesisBlock": "2399c0b047ebbbd1650d66867206c97317027b1a1932bc6fc17ce833dc4a85ce",
         "portRpc": 18443,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Vertcoin Signed Message:\\n"
     }
 }

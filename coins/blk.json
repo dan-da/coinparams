@@ -24,7 +24,8 @@
         },
         "bech32_hrp": null,
         "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "BlackCoin Signed Message:\\n"
     },
     "test": {
         "unit": "BLK",
@@ -48,6 +49,7 @@
         },
         "bech32_hrp": null,
         "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "BlackCoin Signed Message:\\n"
     }
 }

@@ -23,7 +23,8 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
         "portRpc": 9402,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Monacoin Signed Message:\\n"
     },
     "test": {
         "unit": "MONA",
@@ -49,7 +50,8 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
         "portRpc": 19402,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Monacoin Signed Message:\\n"
     },
     "regtest": {
         "unit": "MONA",
@@ -73,6 +75,7 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c",
         "portRpc": 19402,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Monacoin Signed Message:\\n"
     }
 }

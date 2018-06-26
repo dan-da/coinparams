@@ -26,7 +26,8 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
         "portRpc": 3889,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Qtum Signed Message:\\n"
     },
     "test": {
         "unit": "QTUM",
@@ -52,7 +53,8 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "0000e803ee215c0684ca0d2f9220594d3f828617972aad66feb2ba51f5e14222",
         "portRpc": 13889,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Qtum Signed Message:\\n"
     },
     "regtest": {
         "unit": "QTUM",
@@ -76,6 +78,7 @@
         "bech32_hrp": null,
         "hashGenesisBlock": "665ed5b402ac0b44efc37d8926332994363e8a7278b7ee9a58fb972efadae943",
         "portRpc": 13889,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Qtum Signed Message:\\n"
     }
 }

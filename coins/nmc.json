@@ -24,7 +24,8 @@
         "bech32_hrp": "nc",
         "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
         "portRpc": 8336,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
     },
     "test": {
         "unit": "NMC",
@@ -50,7 +51,8 @@
         "bech32_hrp": "tn",
         "hashGenesisBlock": "00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b0084a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
         "portRpc": 18336,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
     },
     "regtest": {
         "unit": "NMC",
@@ -74,6 +76,7 @@
         "bech32_hrp": "ncrt",
         "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
         "portRpc": 18443,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
     }
 }

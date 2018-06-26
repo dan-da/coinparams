@@ -29,7 +29,8 @@
         "bech32_hrp": "dgb",
         "hashGenesisBlock": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
         "portRpc": 8332,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "DigiByte Signed Message:\\n"
     },
     "test": {
         "unit": "DGB",
@@ -58,7 +59,8 @@
         "bech32_hrp": "dgbt",
         "hashGenesisBlock": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
         "portRpc": 18332,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "DigiByte Signed Message:\\n"
     },
     "regtest": {
         "unit": "DGB",
@@ -82,6 +84,7 @@
         "bech32_hrp": "dgbrt",
         "hashGenesisBlock": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",
         "portRpc": 18443,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "DigiByte Signed Message:\\n"
     }
 }

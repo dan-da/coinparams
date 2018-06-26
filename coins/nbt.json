@@ -21,6 +21,7 @@
         "name": "NuBits",
         "per1": 1000000,
         "unit": "NBT",
-        "testnet": false
+        "testnet": false,
+        "messageMagic": "Nu Signed Message:\\n"
     }
 }

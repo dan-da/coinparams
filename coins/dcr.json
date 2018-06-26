@@ -25,7 +25,8 @@
         "name": "Decred",
         "unit": "DCR",
         "per1": 100000000,
-        "testnet": false
+        "testnet": false,
+        "messageMagic": "Decred Signed Message:\\n"
     },
     "test": {
         "hashGenesisBlock": "5b7466edf6739adc9b32aaedc54e24bdc59a05f0ced855088835fe3cbe58375f",
@@ -53,6 +54,7 @@
         "name": "Decred Testnet",
         "unit": "DCR",
         "per1": 100000000,
-        "testnet": true
+        "testnet": true,
+        "messageMagic": "Decred Signed Message:\\n"
     }
 }

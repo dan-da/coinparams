@@ -35,7 +35,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
             "portRpc": 8332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "test": {
             "unit": "BCH",
@@ -68,7 +69,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "BCH",
@@ -92,7 +94,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
     "BLK": {
@@ -121,7 +124,8 @@
             },
             "bech32_hrp": null,
             "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "BlackCoin Signed Message:\\n"
         },
         "test": {
             "unit": "BLK",
@@ -145,7 +149,8 @@
             },
             "bech32_hrp": null,
             "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "BlackCoin Signed Message:\\n"
         }
     },
     "BTC": {
@@ -179,7 +184,8 @@
             "bech32_hrp": "bc",
             "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
             "portRpc": 8332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "test": {
             "unit": "BTC",
@@ -208,7 +214,8 @@
             "bech32_hrp": "tb",
             "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "BTC",
@@ -232,7 +239,8 @@
             "bech32_hrp": "bcrt",
             "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
             "portRpc": 18443,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
     "BTG": {
@@ -262,7 +270,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
             "portRpc": 8332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Gold Signed Message:\\n"
         },
         "test": {
             "unit": "BTG",
@@ -290,7 +299,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Gold Signed Message:\\n"
         },
         "regtest": {
             "unit": "BTG",
@@ -314,7 +324,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Gold Signed Message:\\n"
         }
     },
     "DASH": {
@@ -349,7 +360,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6",
             "portRpc": 9998,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
         },
         "test": {
             "unit": "DASH",
@@ -378,7 +390,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c",
             "portRpc": 19998,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "DASH",
@@ -402,7 +415,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
         }
     },
     "DCR": {
@@ -432,7 +446,8 @@
             "name": "Decred",
             "unit": "DCR",
             "per1": 100000000,
-            "testnet": false
+            "testnet": false,
+            "messageMagic": "Decred Signed Message:\\n"
         },
         "test": {
             "hashGenesisBlock": "5b7466edf6739adc9b32aaedc54e24bdc59a05f0ced855088835fe3cbe58375f",
@@ -460,7 +475,8 @@
             "name": "Decred Testnet",
             "unit": "DCR",
             "per1": 100000000,
-            "testnet": true
+            "testnet": true,
+            "messageMagic": "Decred Signed Message:\\n"
         }
     },
     "DGB": {
@@ -494,7 +510,8 @@
             "bech32_hrp": "dgb",
             "hashGenesisBlock": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
             "portRpc": 8332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DigiByte Signed Message:\\n"
         },
         "test": {
             "unit": "DGB",
@@ -523,7 +540,8 @@
             "bech32_hrp": "dgbt",
             "hashGenesisBlock": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
             "portRpc": 18332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DigiByte Signed Message:\\n"
         },
         "regtest": {
             "unit": "DGB",
@@ -547,7 +565,8 @@
             "bech32_hrp": "dgbrt",
             "hashGenesisBlock": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",
             "portRpc": 18443,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "DigiByte Signed Message:\\n"
         }
     },
     "DOGE": {
@@ -582,7 +601,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
             "portRpc": 22555,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Dogecoin Signed Message:\\n"
         },
         "test": {
             "unit": "DOGE",
@@ -609,7 +629,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
             "portRpc": 44555,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Dogecoin Signed Message:\\n"
         }
     },
     "LTC": {
@@ -641,7 +662,8 @@
             "bech32_hrp": "ltc",
             "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
             "portRpc": 9332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
         },
         "test": {
             "unit": "LTC",
@@ -669,7 +691,8 @@
             "bech32_hrp": "tltc",
             "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
             "portRpc": 19332,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "LTC",
@@ -693,7 +716,8 @@
             "bech32_hrp": "rltc",
             "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
             "portRpc": 19443,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
         }
     },
     "MONA": {
@@ -721,7 +745,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
             "portRpc": 9402,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Monacoin Signed Message:\\n"
         },
         "test": {
             "unit": "MONA",
@@ -747,7 +772,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
             "portRpc": 19402,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Monacoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "MONA",
@@ -771,7 +797,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c",
             "portRpc": 19402,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Monacoin Signed Message:\\n"
         }
     },
     "NBT": {
@@ -799,7 +826,8 @@
             "name": "NuBits",
             "per1": 1000000,
             "unit": "NBT",
-            "testnet": false
+            "testnet": false,
+            "messageMagic": "Nu Signed Message:\\n"
         }
     },
     "NMC": {
@@ -828,7 +856,8 @@
             "bech32_hrp": "nc",
             "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
             "portRpc": 8336,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "test": {
             "unit": "NMC",
@@ -854,7 +883,8 @@
             "bech32_hrp": "tn",
             "hashGenesisBlock": "00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b0084a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
             "portRpc": 18336,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "NMC",
@@ -878,7 +908,8 @@
             "bech32_hrp": "ncrt",
             "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
             "portRpc": 18443,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
     "PPC": {
@@ -906,7 +937,8 @@
             "name": "Peercoin",
             "unit": "PPC",
             "per1": 1000000,
-            "testnet": false
+            "testnet": false,
+            "messageMagic": "Peercoin Signed Message:\\n;"
         }
     },
     "QTUM": {
@@ -937,7 +969,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
             "portRpc": 3889,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Qtum Signed Message:\\n"
         },
         "test": {
             "unit": "QTUM",
@@ -963,7 +996,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "0000e803ee215c0684ca0d2f9220594d3f828617972aad66feb2ba51f5e14222",
             "portRpc": 13889,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Qtum Signed Message:\\n"
         },
         "regtest": {
             "unit": "QTUM",
@@ -987,7 +1021,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "665ed5b402ac0b44efc37d8926332994363e8a7278b7ee9a58fb972efadae943",
             "portRpc": 13889,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Qtum Signed Message:\\n"
         }
     },
     "RDD": {
@@ -1022,7 +1057,8 @@
             },
             "bech32_hrp": null,
             "hashGenesisBlock": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Reddcoin Signed Message:\\n"
         },
         "test": {
             "unit": "RDD",
@@ -1051,7 +1087,8 @@
             },
             "bech32_hrp": null,
             "hashGenesisBlock": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Reddcoin Signed Message:\\n"
         }
     },
     "VTC": {
@@ -1085,7 +1122,8 @@
             "bech32_hrp": "vtc",
             "hashGenesisBlock": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
             "portRpc": 5888,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Vertcoin Signed Message:\\n"
         },
         "test": {
             "unit": "VTC",
@@ -1114,7 +1152,8 @@
             "bech32_hrp": "tvtc",
             "hashGenesisBlock": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
             "portRpc": 15888,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Vertcoin Signed Message:\\n"
         },
         "regtest": {
             "unit": "VTC",
@@ -1138,7 +1177,8 @@
             "bech32_hrp": "bcrt",
             "hashGenesisBlock": "2399c0b047ebbbd1650d66867206c97317027b1a1932bc6fc17ce833dc4a85ce",
             "portRpc": 18443,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Vertcoin Signed Message:\\n"
         }
     },
     "ZEC": {
@@ -1171,7 +1211,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
             "portRpc": 8232,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
         },
         "test": {
             "unit": "ZEC",
@@ -1198,7 +1239,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
             "portRpc": 18232,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
         },
         "regtest": {
             "unit": "ZEC",
@@ -1222,7 +1264,8 @@
             "bech32_hrp": null,
             "hashGenesisBlock": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
             "portRpc": 18232,
-            "per1": 100000000
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
         }
     }
 }

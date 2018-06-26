@@ -27,7 +27,8 @@
         "bech32_hrp": "ltc",
         "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
         "portRpc": 9332,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Litecoin Signed Message:\\n"
     },
     "test": {
         "unit": "LTC",
@@ -55,7 +56,8 @@
         "bech32_hrp": "tltc",
         "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
         "portRpc": 19332,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Litecoin Signed Message:\\n"
     },
     "regtest": {
         "unit": "LTC",
@@ -79,6 +81,7 @@
         "bech32_hrp": "rltc",
         "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
         "portRpc": 19443,
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Litecoin Signed Message:\\n"
     }
 }

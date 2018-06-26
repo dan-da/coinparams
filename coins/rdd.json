@@ -30,7 +30,8 @@
         },
         "bech32_hrp": null,
         "hashGenesisBlock": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Reddcoin Signed Message:\\n"
     },
     "test": {
         "unit": "RDD",
@@ -59,6 +60,7 @@
         },
         "bech32_hrp": null,
         "hashGenesisBlock": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",
-        "per1": 100000000
+        "per1": 100000000,
+        "messageMagic": "Reddcoin Signed Message:\\n"
     }
 }
