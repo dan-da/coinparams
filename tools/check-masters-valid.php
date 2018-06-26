@@ -103,6 +103,15 @@ function check_valid_network($netname, $data) {
         }
     }
     
+    if(@$data['seedsDns'] !== null && !count(@$data['seedsDns'])) {
+        if($netname == 'main') {
+            err("key ['$netname']['seedsDns'] contains empty array");
+        }
+        else if($netname == 'test') {  // dns not needed for regtest.
+            warn("key ['$netname']['seedsDns'] contains empty array");
+        }
+    }
+    
     $version_keys = ['bip32', 'bip44', 'private', 'public', 'scripthash' ];
     foreach($version_keys as $k) {
         if( @$data['versions'][$k] === null ) {
