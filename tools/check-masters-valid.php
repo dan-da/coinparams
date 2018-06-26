@@ -95,7 +95,9 @@ function check_valid_network($netname, $data) {
                  'name',
                  'per1',
                  'unit',
-                 'testnet'];
+                 'testnet',
+                 'messageMagic',
+                 ];
     
     foreach( $top_keys as $k ) {
         if( @$data[$k] === null ) {

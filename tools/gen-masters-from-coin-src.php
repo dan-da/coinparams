@@ -3,7 +3,7 @@
 
 //globals;
 $stop_on_validation_error = false;    // set to true to view exception details.
-$skip_existing_files = false;          // set to false to overwrite existing files.
+$skip_existing_files = true;        // set to false to overwrite existing files.
 
 $symbol = @$argv[1];
 $name = @$argv[2];
@@ -73,6 +73,7 @@ function process_coin($symbol, $name, $project_url, $branch) {
 
     process_chainparamsbase($data, $raw_urlbase);
     process_amounts($data, $raw_urlbase);
+    process_message_magic($data, $raw_urlbase);
     process_bip44($data, $symbol);
     
     $json = json_encode($data, JSON_PRETTY_PRINT);
@@ -297,6 +298,34 @@ function process_amounts(&$data, $urlbase) {
     return true;
 }
 
+function process_message_magic(&$data, $urlbase) {
+
+    $url = $urlbase . '/src/validation.cpp';
+    echo "  |- Loading $url\n";
+    $buf = @file_get_contents($url);
+    if(!$buf) {
+        $url = $urlbase . '/src/main.cpp';
+        echo "  |- Loading $url\n";
+        $buf = @file_get_contents($url);
+    }
+
+    preg_match('/const .*string strMessageMagic = "(.*)";/', $buf, $matches);
+    ne(@$matches[1]);
+    
+    if(@$data['main']) {
+        $data['main']['messageMagic'] = @$matches[1];
+    }
+    if(@$data['test']) {
+        $data['test']['messageMagic'] = @$matches[1];
+    }
+    if(@$data['regtest']) {
+        $data['regtest']['messageMagic'] = @$matches[1];
+    }
+    
+    return true;
+}
+
+
 function process_bip44(&$data, $symbol) {
     
     static $bip44map = null;
@@ -332,6 +361,8 @@ function process_bip44(&$data, $symbol) {
         $data['regtest']['versions']['bip44'] = 1;
     }
 }
+
+
 
 // zero pads a string to an even length of characters.
 // intended for hex numbers.
