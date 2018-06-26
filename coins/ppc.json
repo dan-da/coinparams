@@ -1,15 +1,28 @@
 {
     "main": {
         "hashGenesisBlock": "0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3",
-        "versions": {
-            "bip44": "0x6",
-            "private": "0xc4",
-            "public": "0x44",
-            "scripthash": "0x5"
+        "port": 9901,
+        "portRpc": 9902,
+        "protocol": {
+            "magic": "0xe6e8e9e5"
         },
+        "versions": {
+            "bip44": 6,
+            "private": "0xb7",
+            "public": "0x37",
+            "scripthash": "0x75",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            }
+        },
+        "seedsDns": [
+            "seed.peercoin.net",
+            "seed.ppcoin.net"
+        ],
         "name": "Peercoin",
         "unit": "PPC",
+        "per1": 1000000,
         "testnet": false
-    },
-    "test": null
+    }
 }
