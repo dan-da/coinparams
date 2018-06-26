@@ -41,7 +41,9 @@
         },
         "port": 19999,
         "seedsDns": [
+            "dashdot.io",
             "masternode.io",
+            "testnet-seed.dashdot.io",
             "test.dnsseed.masternode.io"
         ],
         "versions": {

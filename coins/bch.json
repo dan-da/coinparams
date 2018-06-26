@@ -7,7 +7,20 @@
             "magic": "0xe8f3e1e3"
         },
         "port": 8333,
-        "seedsDns": [],
+        "seedsDns": [
+            "bitcoinabc.org",
+            "bitcoinforks.org",
+            "bitcoinunlimited.info",
+            "bitprim.org",
+            "deadalnix.me",
+            "criptolayer.net",
+            "seed.bitcoinabc.org",
+            "seed-abc.bitcoinforks.org",
+            "btccash-seeder.bitcoinunlimited.info",
+            "seed.bitprim.org",
+            "seed.deadalnix.me",
+            "seeder.criptolayer.net"
+        ],
         "versions": {
             "private": "0x80",
             "public": "0x00",
@@ -31,7 +44,16 @@
             "magic": "0xf4f3e5f4"
         },
         "port": 18333,
-        "seedsDns": [],
+        "seedsDns": [
+            "bitcoinabc.org",
+            "bitprim.org",
+            "deadalnix.me",
+            "criptolayer.net",
+            "testnet-seed.bitcoinabc.org",
+            "testnet-seed.bitprim.org",
+            "testnet-seed.deadalnix.me",
+            "testnet-seeder.criptolayer.net"
+        ],
         "versions": {
             "private": "0xef",
             "public": "0x6f",

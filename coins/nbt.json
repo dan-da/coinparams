@@ -6,7 +6,8 @@
         "protocol": {
             "magic": "0xd9b4bef9"
         },
-        "seedsDns": [],
+        "seedsDns": ["seed.nu.crypto-daio.co.uk",
+                     "seed.bc.crypto-daio.co.uk"],
         "versions": {
             "bip32": {
                 "private": "0x488ade4",
