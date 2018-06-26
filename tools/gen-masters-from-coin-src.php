@@ -146,7 +146,8 @@ function process_chainparam_network( &$gdata, $network, $buf, $meta) {
         
         unset($matches);
         preg_match_all('/vSeeds.emplace_back\("(.*)".*\)/', $buf, $matches) ||
-        preg_match_all('/vSeeds.push_back\(CDNSSeedData\("(.*)", "(.*)"\)\);/', $buf, $matches);
+        preg_match_all('/vSeeds.push_back\(.*CDNSSeedData\("(.*)",.*"(.*)"[,\)]/sU', $buf, $matches);
+        
         
         $data['seedsDns'] = @$matches[1];  // can be empty.
         if( @$matches[2]) {
