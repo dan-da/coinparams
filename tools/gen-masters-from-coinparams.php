@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 // This code generates 1 json file per coin from a master JSON file.

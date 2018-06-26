@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 /* This is a tool for retrieving coin params from iancoleman's bip39 generator
