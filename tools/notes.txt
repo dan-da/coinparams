@@ -1,0 +1,24 @@
+
+Fields in chainparams.cpp
+
+hashGenesisBlock:  checkpointData[0]
+magic:             pchMessageStart
+port:              nDefaultPort
+dns seeds:         vSeeds
+bip32/private:     base58Prefixes[EXT_SECRET_KEY]
+bip32/public:      base58Prefixes[EXT_PUBLIC_KEY]
+private:           base58Prefixes[SECRET_KEY]
+public:            base58Prefixes[PUBKEY_ADDRESS]
+p2sh:              base58Prefixes[SCRIPT_ADDRESS]
+
+???:               bech32_hrp
+
+
+Fields in hainparamsbase.cpp
+portRpc            nRPCPort
+
+Fields in amount.h
+per1               COIN
+
+Bip44 from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+bip44               hexa    (testnet, regtest is always 0x1)

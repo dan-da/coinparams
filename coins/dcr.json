@@ -24,6 +24,7 @@
         },
         "name": "Decred",
         "unit": "DCR",
+        "per1": 100000000,
         "testnet": false
     },
     "test": {
@@ -51,6 +52,7 @@
         },
         "name": "Decred Testnet",
         "unit": "DCR",
+        "per1": 100000000,
         "testnet": true
     }
 }

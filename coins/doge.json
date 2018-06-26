@@ -1,40 +1,62 @@
 {
     "main": {
-        "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
-        "port": 22556,
+        "unit": "DOGE",
+        "name": "Dogecoin",
+        "testnet": false,
         "protocol": {
             "magic": "0xc0c0c0c0"
         },
+        "port": 22556,
         "seedsDns": [
+            "dogecoin.com",
+            "multidoge.org",
+            "multidoge.org",
+            "doger.dogecoin.com",
             "seed.dogecoin.com",
             "seed.multidoge.org",
             "seed2.multidoge.org",
             "seed.doger.dogecoin.com"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x2fac398",
-                "public": "0x2facafd"
-            },
-            "bip44": "0x3",
             "private": "0x9e",
             "public": "0x1e",
-            "scripthash": "0x16"
+            "scripthash": "0x16",
+            "bip32": {
+                "public": "0x02facafd",
+                "private": "0x02fac398"
+            },
+            "bip44": 3
         },
-        "name": "Dogecoin",
-        "unit": "DOGE",
-        "testnet": false
+        "bech32_hrp": null,
+        "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
+        "portRpc": 22555,
+        "per1": 100000000
     },
     "test": {
-        "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+        "unit": "DOGE",
+        "name": "Dogecoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 44556,
+        "seedsDns": [
+            "jrn.me.uk",
+            "testseed.jrn.me.uk"
+        ],
         "versions": {
-            "bip44": "0x1",
             "private": "0xf1",
             "public": "0x71",
-            "scripthash": "0xc4"
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
         },
-        "name": "Dogecoin Testnet",
-        "unit": "DOGE",
-        "testnet": true
+        "bech32_hrp": null,
+        "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+        "portRpc": 44555,
+        "per1": 100000000
     }
 }

@@ -1,52 +1,84 @@
 {
     "main": {
-        "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
-        "port": 8233,
-        "portRpc": 8232,
+        "unit": "ZEC",
+        "name": "Zcash",
+        "testnet": false,
         "protocol": {
             "magic": "0x6427e924"
         },
+        "port": 8233,
         "seedsDns": [
+            "z.cash",
+            "str4d.xyz",
+            "znodes.org",
             "dnsseed.z.cash",
             "dnsseed.str4d.xyz",
             "dnsseed.znodes.org"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x488ade4",
-                "public": "0x488b21e"
-            },
-            "bip44": "0x85",
             "private": "0x80",
             "public": "0x1cb8",
-            "scripthash": "0x1cbd"
+            "scripthash": "0x1cbd",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 133
         },
-        "name": "Zcash",
-        "unit": "ZEC",
-        "testnet": false
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
+        "portRpc": 8232,
+        "per1": 100000000
     },
     "test": {
-        "hashGenesisBlock": "0x05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
-        "port": 18233,
-        "portRpc": 18232,
+        "unit": "ZEC",
+        "name": "Zcash - Test",
+        "testnet": true,
         "protocol": {
             "magic": "0xbff91afa"
         },
+        "port": 18233,
         "seedsDns": [
+            "z.cash",
             "dnsseed.testnet.z.cash"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x4358394",
-                "public": "0x43587cf"
-            },
-            "bip44": "0x85",
             "private": "0xef",
             "public": "0x1d25",
-            "scripthash": "0x1cba"
+            "scripthash": "0x1cba",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
         },
-        "name": "Zcash Testnet",
+        "bech32_hrp": null,
+        "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "portRpc": 18232,
+        "per1": 100000000
+    },
+    "regtest": {
         "unit": "ZEC",
-        "testnet": true
+        "name": "Zcash - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x5f3fe8aa"
+        },
+        "port": 18344,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x1d25",
+            "scripthash": "0x1cba",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
+        "portRpc": 18232,
+        "per1": 100000000
     }
 }

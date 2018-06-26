@@ -1,43 +1,84 @@
 {
     "main": {
-        "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
-        "port": 9333,
+        "unit": "LTC",
+        "name": "Litecoin",
+        "testnet": false,
         "protocol": {
             "magic": "0xdbb6c0fb"
         },
+        "port": 9333,
         "seedsDns": [
+            "seed-a.litecoin.loshan.co.uk",
+            "dnsseed.thrasher.io",
             "dnsseed.litecointools.com",
             "dnsseed.litecoinpool.org",
-            "dnsseed.ltc.xurious.com",
-            "dnsseed.koin-project.com",
-            "dnsseed.weminemnc.com"
+            "dnsseed.koin-project.com"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x19d9cfe",
-                "public": "0x19da462"
-            },
-            "bip44": "0x2",
             "private": "0xb0",
             "public": "0x30",
-            "scripthash": "0x32",
-            "scripthash2": "0x5"
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 2
         },
-        "name": "Litecoin",
-        "unit": "LTC",
-        "testnet": false
+        "bech32_hrp": "ltc",
+        "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+        "portRpc": 9332,
+        "per1": 100000000
     },
     "test": {
-        "hashGenesisBlock": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+        "unit": "LTC",
+        "name": "Litecoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xf1c8d2fd"
+        },
+        "port": 19335,
+        "seedsDns": [
+            "testnet-seed.litecointools.com",
+            "seed-b.litecoin.loshan.co.uk",
+            "dnsseed-testnet.thrasher.io"
+        ],
         "versions": {
-            "bip44": "0x1",
             "private": "0xef",
             "public": "0x6f",
-            "scripthash": "0x3a",
-            "scripthash2": "0xc4"
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
         },
-        "name": "Litecoin Testnet",
+        "bech32_hrp": "tltc",
+        "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+        "portRpc": 19332,
+        "per1": 100000000
+    },
+    "regtest": {
         "unit": "LTC",
-        "testnet": true
+        "name": "Litecoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 19444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "rltc",
+        "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+        "portRpc": 19443,
+        "per1": 100000000
     }
 }

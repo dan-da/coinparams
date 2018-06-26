@@ -10,10 +10,13 @@ $fname = @$argv[1];
 $files = $fname ? [$fname] : glob(__DIR__ . '/../coins/*.json');
 
 foreach($files as $file) {
+    echo "Validating " . basename($file) . "\n\n";
+
     $data = @json_decode( file_get_contents($file), true );
     
     if( !$data ) {
-        throw new Exception("Error reading file $file");
+        err("file $file is empty or could not be parsed");
+        continue;
     }
 
     check_valid_coin( $file, $data);
@@ -21,11 +24,15 @@ foreach($files as $file) {
 
 
 function check_valid_coin($file, $data) {
-    
-    echo "Validating " . basename($file) . "\n\n";
-    
-    if( !$data['main'] ) {
+        
+    if( !@$data['main'] ) {
         err("'main' network key missing");
+    }
+    if( !@$data['test'] ) {
+        warn("'test' network key missing");
+    }
+    if( !@$data['regtest'] ) {
+        warn("'regtest' network key missing");
     }
     
     foreach($data as $netname => $netinfo) {
@@ -114,5 +121,9 @@ function check_valid_network($netname, $data) {
 }
 
 function err($msg) {
-    fprintf(STDERR, "error - $msg\n\n" );
+    fprintf(STDERR, "  |- error : $msg\n\n" );
+}
+
+function warn($msg) {
+    fprintf(STDERR, "  |- warning : $msg\n\n" );
 }

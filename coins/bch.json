@@ -1,64 +1,36 @@
 {
     "main": {
-        "unit": "MONA",
-        "name": "Monacoin",
+        "unit": "BCH",
+        "name": "Bitcoin Cash",
         "testnet": false,
         "protocol": {
-            "magic": "0xdbb6c0fb"
+            "magic": "0xe8f3e1e3"
         },
-        "port": 9401,
-        "seedsDns": [
-            "dnsseed.monacoin.org"
-        ],
+        "port": 8333,
+        "seedsDns": [],
         "versions": {
-            "private": "0xb0",
-            "public": "0x32",
+            "private": "0x80",
+            "public": "0x00",
             "scripthash": "0x05",
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bip44": 22
+            "bip44": 145
         },
         "bech32_hrp": null,
-        "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
-        "portRpc": 9402,
+        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "portRpc": 8332,
         "per1": 100000000
     },
     "test": {
-        "unit": "MONA",
-        "name": "Monacoin - Test",
+        "unit": "BCH",
+        "name": "Bitcoin Cash - Test",
         "testnet": true,
         "protocol": {
-            "magic": "0xf1c8d2fd"
+            "magic": "0xf4f3e5f4"
         },
-        "port": 19403,
-        "seedsDns": [
-            "testnet-dnsseed.monacoin.org"
-        ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
-            "bip44": 1
-        },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
-        "portRpc": 19402,
-        "per1": 100000000
-    },
-    "regtest": {
-        "unit": "MONA",
-        "name": "Monacoin - Regtest",
-        "testnet": true,
-        "protocol": {
-            "magic": "0xdab5bffa"
-        },
-        "port": 20444,
+        "port": 18333,
         "seedsDns": [],
         "versions": {
             "private": "0xef",
@@ -71,8 +43,32 @@
             "bip44": 1
         },
         "bech32_hrp": null,
-        "hashGenesisBlock": "7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c",
-        "portRpc": 19402,
+        "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+        "portRpc": 18332,
+        "per1": 100000000
+    },
+    "regtest": {
+        "unit": "BCH",
+        "name": "Bitcoin Cash - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "portRpc": 18332,
         "per1": 100000000
     }
 }

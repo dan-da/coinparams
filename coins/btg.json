@@ -1,27 +1,82 @@
 {
     "main": {
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-        "port": 8338,
+        "unit": "BTG",
+        "name": "Bitcoin Gold",
+        "testnet": false,
         "protocol": {
             "magic": "0x446d47e1"
         },
+        "port": 8338,
         "seedsDns": [
             "eu-dnsseed.bitcoingold-official.org",
             "dnsseed.bitcoingold.org",
             "dnsseed.btcgpu.org"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x488ade4",
-                "public": "0x488b21e"
-            },
-            "bip44": "0x9c",
             "private": "0x80",
             "public": "0x26",
-            "scripthash": "0x17"
+            "scripthash": "0x17",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 156
         },
-        "name": "Bitcoin Gold",
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "portRpc": 8332,
+        "per1": 100000000
+    },
+    "test": {
         "unit": "BTG",
-        "testnet": false
+        "name": "Bitcoin Gold - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x456e48e2"
+        },
+        "port": 18338,
+        "seedsDns": [
+            "eu-test-dnsseed.bitcoingold-official.org",
+            "test-dnsseed.bitcoingold.org",
+            "test-dnsseed.btcgpu.org"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
+        "portRpc": 18332,
+        "per1": 100000000
+    },
+    "regtest": {
+        "unit": "BTG",
+        "name": "Bitcoin Gold - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "portRpc": 18332,
+        "per1": 100000000
     }
 }

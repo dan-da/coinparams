@@ -1,33 +1,53 @@
 {
     "main": {
-        "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+        "unit": "BLK",
+        "name": "Blackcoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x05223570"
+        },
         "port": 15714,
         "portRpc": 15715,
-        "protocol": {
-            "magic": "0x5223570"
-        },
         "seedsDns": [
-            "rat4.blackcoin.co",
-            "seed.blackcoin.co",
-            "archon.darkfox.id.au",
-            "foxy.seeds.darkfox.id.au",
-            "6.syllabear.us.to",
-            "bcseed.syllabear.us.to"
+            "vasin.nl",
+            "dnsseed.vasin.nl"
         ],
         "versions": {
-            "bip32": {
-                "private": "0x488ade4",
-                "public": "0x488b21e"
-            },
-            "bip44": "0xa",
             "private": "0x99",
             "public": "0x19",
-            "scripthash": "0x55"
+            "scripthash": "0x55",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 10
         },
-        "name": "BlackCoin",
-        "per1": 100000000,
-        "unit": "BLK",
-        "testnet": false
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+        "per1": 100000000
     },
-    "test": null
+    "test": {
+        "unit": "BLK",
+        "name": "Blackcoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 25714,
+        "portRpc": 25715,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
+        "per1": 100000000
+    }
 }

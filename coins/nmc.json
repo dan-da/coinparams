@@ -1,15 +1,79 @@
 {
     "main": {
-        "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
+        "unit": "NMC",
+        "name": "Namecoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xfeb4bef9"
+        },
+        "port": 8334,
+        "seedsDns": [
+            "nmc.seed.quisquis.de",
+            "seed.nmc.markasoftware.com"
+        ],
         "versions": {
-            "bip44": "0x7",
             "private": "0xb4",
             "public": "0x34",
-            "scripthash": "0x5"
+            "scripthash": "0x0d",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 7
         },
-        "name": "Namecoin",
-        "unit": "NMC",
-        "testnet": false
+        "bech32_hrp": "nc",
+        "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
+        "portRpc": 8336,
+        "per1": 100000000
     },
-    "test": null
+    "test": {
+        "unit": "NMC",
+        "name": "Namecoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xfeb5bffa"
+        },
+        "port": 18334,
+        "seedsDns": [
+            "dnsseed.test.namecoin.webbtc.com"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "tn",
+        "hashGenesisBlock": "00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b0084a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+        "portRpc": 18336,
+        "per1": 100000000
+    },
+    "regtest": {
+        "unit": "NMC",
+        "name": "Namecoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18445,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "ncrt",
+        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "portRpc": 18443,
+        "per1": 100000000
+    }
 }
