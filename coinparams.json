@@ -1,202 +1,384 @@
 {
+    "BCH": {
+        "main": {
+            "unit": "BCH",
+            "name": "Bitcoin Cash",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe8f3e1e3"
+            },
+            "port": 8333,
+            "seedsDns": [],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 145
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 8332,
+            "per1": 100000000
+        },
+        "test": {
+            "unit": "BCH",
+            "name": "Bitcoin Cash - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf4f3e5f4"
+            },
+            "port": 18333,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 18332,
+            "per1": 100000000
+        },
+        "regtest": {
+            "unit": "BCH",
+            "name": "Bitcoin Cash - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xfabfb5da"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18332,
+            "per1": 100000000
+        }
+    },
     "BLK": {
         "main": {
-            "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+            "unit": "BLK",
+            "name": "Blackcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x05223570"
+            },
             "port": 15714,
             "portRpc": 15715,
-            "protocol": {
-                "magic": "0x5223570"
-            },
             "seedsDns": [
-                "rat4.blackcoin.co",
-                "seed.blackcoin.co",
-                "archon.darkfox.id.au",
-                "foxy.seeds.darkfox.id.au",
-                "6.syllabear.us.to",
-                "bcseed.syllabear.us.to"
+                "vasin.nl",
+                "dnsseed.vasin.nl"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0xa",
                 "private": "0x99",
                 "public": "0x19",
-                "scripthash": "0x55"
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 10
             },
-            "name": "BlackCoin",
-            "per1": 100000000,
-            "unit": "BLK",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+            "per1": 100000000
         },
-        "test": null
+        "test": {
+            "unit": "BLK",
+            "name": "Blackcoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 25714,
+            "portRpc": 25715,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
+            "per1": 100000000
+        }
     },
     "BTC": {
         "main": {
-            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-            "port": 8333,
-            "portRpc": 8332,
+            "unit": "BTC",
+            "name": "Bitcoin",
+            "testnet": false,
             "protocol": {
                 "magic": "0xd9b4bef9"
             },
+            "port": 8333,
             "seedsDns": [
                 "seed.bitcoin.sipa.be",
                 "dnsseed.bluematt.me",
                 "dnsseed.bitcoin.dashjr.org",
                 "seed.bitcoinstats.com",
-                "bitseed.xf2.org",
-                "seed.bitcoin.jonasschnelli.ch"
+                "seed.bitcoin.jonasschnelli.ch",
+                "seed.btc.petertodd.org",
+                "seed.bitcoin.sprovoost.nl"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x0",
                 "private": "0x80",
-                "public": "0x0",
-                "scripthash": "0x5"
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 0
             },
-            "name": "Bitcoin",
-            "per1": 100000000,
-            "unit": "BTC",
-            "testnet": false
+            "bech32_hrp": "bc",
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 8332,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-            "port": 18333,
-            "portRpc": 18332,
+            "unit": "BTC",
+            "name": "Bitcoin - Test",
+            "testnet": true,
             "protocol": {
-                "magic": "0x709110b"
+                "magic": "0x0709110b"
             },
+            "port": 18333,
             "seedsDns": [
-                "testnet-seed.alexykot.me",
-                "testnet-seed.bitcoin.schildbach.de",
-                "testnet-seed.bitcoin.petertodd.org",
+                "testnet-seed.bitcoin.jonasschnelli.ch",
+                "seed.tbtc.petertodd.org",
+                "seed.testnet.bitcoin.sprovoost.nl",
                 "testnet-seed.bluematt.me"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Bitcoin Testnet",
-            "per1": 100000000,
-            "unit": "BTC",
-            "testnet": true
+            "bech32_hrp": "tb",
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 18332,
+            "per1": 100000000
         },
         "regtest": {
-            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-            "port": 18444,
-            "portRpc": 18332,
+            "unit": "BTC",
+            "name": "Bitcoin - Regtest",
+            "testnet": true,
             "protocol": {
                 "magic": "0xdab5bffa"
             },
+            "port": 18444,
             "seedsDns": [],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Bitcoin Regtest",
-            "per1": 100000000,
-            "unit": "BTC",
-            "testnet": true
+            "bech32_hrp": "bcrt",
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18443,
+            "per1": 100000000
         }
     },
     "BTG": {
         "main": {
-            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-            "port": 8338,
+            "unit": "BTG",
+            "name": "Bitcoin Gold",
+            "testnet": false,
             "protocol": {
                 "magic": "0x446d47e1"
             },
+            "port": 8338,
             "seedsDns": [
                 "eu-dnsseed.bitcoingold-official.org",
                 "dnsseed.bitcoingold.org",
                 "dnsseed.btcgpu.org"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x9c",
                 "private": "0x80",
                 "public": "0x26",
-                "scripthash": "0x17"
+                "scripthash": "0x17",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 156
             },
-            "name": "Bitcoin Gold",
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 8332,
+            "per1": 100000000
+        },
+        "test": {
             "unit": "BTG",
-            "testnet": false
+            "name": "Bitcoin Gold - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x456e48e2"
+            },
+            "port": 18338,
+            "seedsDns": [
+                "eu-test-dnsseed.bitcoingold-official.org",
+                "test-dnsseed.bitcoingold.org",
+                "test-dnsseed.btcgpu.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
+            "portRpc": 18332,
+            "per1": 100000000
+        },
+        "regtest": {
+            "unit": "BTG",
+            "name": "Bitcoin Gold - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18332,
+            "per1": 100000000
         }
     },
     "DASH": {
         "main": {
-            "hashGenesisBlock": "00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6",
-            "port": 9999,
-            "portRpc": 9998,
+            "unit": "DASH",
+            "name": "Dash",
+            "testnet": false,
             "protocol": {
                 "magic": "0xbd6b0cbf"
             },
+            "port": 9999,
             "seedsDns": [
                 "dash.org",
-                "dnsseed.dash.org",
                 "dashdot.io",
-                "dnsseed.dashdot.io",
                 "masternode.io",
-                "dnsseed.masternode.io",
                 "dashpay.io",
+                "dnsseed.dash.org",
+                "dnsseed.dashdot.io",
+                "dnsseed.masternode.io",
                 "dnsseed.dashpay.io"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x5",
                 "private": "0xcc",
                 "public": "0x4c",
-                "scripthash": "0x10"
+                "scripthash": "0x10",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 5
             },
-            "name": "Dash",
-            "unit": "DASH",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6",
+            "portRpc": 9998,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c",
+            "unit": "DASH",
+            "name": "Dash - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xffcae2ce"
+            },
             "port": 19999,
-            "portRpc": 19998,
             "seedsDns": [
-                "dashdot.io",
-                "testnet-seed.dashdot.io",
                 "masternode.io",
                 "test.dnsseed.masternode.io"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x8c",
-                "scripthash": "0x13"
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Dash Testnet",
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c",
+            "portRpc": 19998,
+            "per1": 100000000
+        },
+        "regtest": {
             "unit": "DASH",
-            "testnet": true
+            "name": "Dash - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 19994,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e",
+            "portRpc": 18332,
+            "per1": 100000000
         }
     },
     "DCR": {
@@ -225,6 +407,7 @@
             },
             "name": "Decred",
             "unit": "DCR",
+            "per1": 100000000,
             "testnet": false
         },
         "test": {
@@ -252,168 +435,319 @@
             },
             "name": "Decred Testnet",
             "unit": "DCR",
+            "per1": 100000000,
             "testnet": true
         }
     },
     "DGB": {
         "main": {
-            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-            "port": 12024,
-            "portRpc": 14022,
+            "unit": "DGB",
+            "name": "Digibyte",
+            "testnet": false,
             "protocol": {
-                "magic": "0xfac3b6da"
+                "magic": "0xdab6c3fa"
             },
+            "port": 12024,
             "seedsDns": [
+                "seed1.digibyte.io",
+                "seed2.digibyte.io",
+                "seed3.digibyte.io",
                 "seed.digibyte.io",
+                "digihash.co",
                 "digiexplorer.info",
-                "digihash.co"
+                "seed.digibyteprojects.com"
             ],
             "versions": {
-                "bip44": "0x80000014",
                 "private": "0x80",
                 "public": "0x1e",
-                "scripthash": "0x5"
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 20
             },
-            "name": "DigiByte Testnet",
-            "per1": 100000000,
+            "bech32_hrp": "dgb",
+            "hashGenesisBlock": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
+            "portRpc": 8332,
+            "per1": 100000000
+        },
+        "test": {
             "unit": "DGB",
-            "testnet": false
+            "name": "Digibyte - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xddbdc8fd"
+            },
+            "port": 12025,
+            "seedsDns": [
+                "seed1.digibyte.io",
+                "seed2.digibyte.io",
+                "seed3.digibyte.io",
+                "testnet-seed.digibyteprojects.com"
+            ],
+            "versions": {
+                "private": "0xfe",
+                "public": "0x7e",
+                "scripthash": "0x8c",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "dgbt",
+            "hashGenesisBlock": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
+            "portRpc": 18332,
+            "per1": 100000000
+        },
+        "regtest": {
+            "unit": "DGB",
+            "name": "Digibyte - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xfe",
+                "public": "0x7e",
+                "scripthash": "0x8c",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "dgbrt",
+            "hashGenesisBlock": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",
+            "portRpc": 18443,
+            "per1": 100000000
         }
     },
     "DOGE": {
         "main": {
-            "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
-            "port": 22556,
+            "unit": "DOGE",
+            "name": "Dogecoin",
+            "testnet": false,
             "protocol": {
                 "magic": "0xc0c0c0c0"
             },
+            "port": 22556,
             "seedsDns": [
+                "dogecoin.com",
+                "multidoge.org",
+                "multidoge.org",
+                "doger.dogecoin.com",
                 "seed.dogecoin.com",
                 "seed.multidoge.org",
                 "seed2.multidoge.org",
                 "seed.doger.dogecoin.com"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x2fac398",
-                    "public": "0x2facafd"
-                },
-                "bip44": "0x3",
                 "private": "0x9e",
                 "public": "0x1e",
-                "scripthash": "0x16"
+                "scripthash": "0x16",
+                "bip32": {
+                    "public": "0x02facafd",
+                    "private": "0x02fac398"
+                },
+                "bip44": 3
             },
-            "name": "Dogecoin",
-            "unit": "DOGE",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
+            "portRpc": 22555,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+            "unit": "DOGE",
+            "name": "Dogecoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 44556,
+            "seedsDns": [
+                "jrn.me.uk",
+                "testseed.jrn.me.uk"
+            ],
             "versions": {
-                "bip44": "0x1",
                 "private": "0xf1",
                 "public": "0x71",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Dogecoin Testnet",
-            "unit": "DOGE",
-            "testnet": true
+            "bech32_hrp": null,
+            "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+            "portRpc": 44555,
+            "per1": 100000000
         }
     },
     "LTC": {
         "main": {
-            "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
-            "port": 9333,
+            "unit": "LTC",
+            "name": "Litecoin",
+            "testnet": false,
             "protocol": {
                 "magic": "0xdbb6c0fb"
             },
+            "port": 9333,
             "seedsDns": [
+                "seed-a.litecoin.loshan.co.uk",
+                "dnsseed.thrasher.io",
                 "dnsseed.litecointools.com",
                 "dnsseed.litecoinpool.org",
-                "dnsseed.ltc.xurious.com",
-                "dnsseed.koin-project.com",
-                "dnsseed.weminemnc.com"
+                "dnsseed.koin-project.com"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x19d9cfe",
-                    "public": "0x19da462"
-                },
-                "bip44": "0x2",
                 "private": "0xb0",
                 "public": "0x30",
-                "scripthash": "0x32",
-                "scripthash2": "0x5"
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 2
             },
-            "name": "Litecoin",
-            "unit": "LTC",
-            "testnet": false
+            "bech32_hrp": "ltc",
+            "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+            "portRpc": 9332,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+            "unit": "LTC",
+            "name": "Litecoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf1c8d2fd"
+            },
+            "port": 19335,
+            "seedsDns": [
+                "testnet-seed.litecointools.com",
+                "seed-b.litecoin.loshan.co.uk",
+                "dnsseed-testnet.thrasher.io"
+            ],
             "versions": {
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0x3a",
-                "scripthash2": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Litecoin Testnet",
+            "bech32_hrp": "tltc",
+            "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+            "portRpc": 19332,
+            "per1": 100000000
+        },
+        "regtest": {
             "unit": "LTC",
-            "testnet": true
+            "name": "Litecoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "rltc",
+            "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+            "portRpc": 19443,
+            "per1": 100000000
         }
     },
     "MONA": {
         "main": {
-            "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
-            "port": 9401,
-            "portRpc": 9402,
+            "unit": "MONA",
+            "name": "Monacoin",
+            "testnet": false,
             "protocol": {
                 "magic": "0xdbb6c0fb"
             },
+            "port": 9401,
             "seedsDns": [
                 "dnsseed.monacoin.org"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x16",
                 "private": "0xb0",
-                "private2": "0xb2",
                 "public": "0x32",
-                "scripthash": "0x37",
-                "scripthash2": "0x5"
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 22
             },
-            "name": "Monacoin",
-            "unit": "MONA",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
+            "portRpc": 9402,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
-            "port": 19403,
-            "portRpc": 19402,
+            "unit": "MONA",
+            "name": "Monacoin - Test",
+            "testnet": true,
             "protocol": {
                 "magic": "0xf1c8d2fd"
             },
+            "port": 19403,
             "seedsDns": [
                 "testnet-dnsseed.monacoin.org"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0x75",
-                "scripthash2": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Monacoin Testnet",
+            "bech32_hrp": null,
+            "hashGenesisBlock": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
+            "portRpc": 19402,
+            "per1": 100000000
+        },
+        "regtest": {
             "unit": "MONA",
-            "testnet": true
+            "name": "Monacoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 20444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c",
+            "portRpc": 19402,
+            "per1": 100000000
         }
     },
     "NBT": {
@@ -443,92 +777,265 @@
     },
     "NMC": {
         "main": {
-            "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
+            "unit": "NMC",
+            "name": "Namecoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xfeb4bef9"
+            },
+            "port": 8334,
+            "seedsDns": [
+                "nmc.seed.quisquis.de",
+                "seed.nmc.markasoftware.com"
+            ],
             "versions": {
-                "bip44": "0x7",
                 "private": "0xb4",
                 "public": "0x34",
-                "scripthash": "0x5"
+                "scripthash": "0x0d",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 7
             },
-            "name": "Namecoin",
-            "unit": "NMC",
-            "testnet": false
+            "bech32_hrp": "nc",
+            "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
+            "portRpc": 8336,
+            "per1": 100000000
         },
-        "test": null
+        "test": {
+            "unit": "NMC",
+            "name": "Namecoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xfeb5bffa"
+            },
+            "port": 18334,
+            "seedsDns": [
+                "dnsseed.test.namecoin.webbtc.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tn",
+            "hashGenesisBlock": "00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b0084a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+            "portRpc": 18336,
+            "per1": 100000000
+        },
+        "regtest": {
+            "unit": "NMC",
+            "name": "Namecoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18445,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "ncrt",
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18443,
+            "per1": 100000000
+        }
     },
     "PPC": {
         "main": {
             "hashGenesisBlock": "0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3",
-            "versions": {
-                "bip44": "0x6",
-                "private": "0xc4",
-                "public": "0x44",
-                "scripthash": "0x5"
+            "port": 9901,
+            "portRpc": 9902,
+            "protocol": {
+                "magic": "0xe6e8e9e5"
             },
+            "versions": {
+                "bip44": 6,
+                "private": "0xb7",
+                "public": "0x37",
+                "scripthash": "0x75",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                }
+            },
+            "seedsDns": [
+                "seed.peercoin.net",
+                "seed.ppcoin.net"
+            ],
             "name": "Peercoin",
             "unit": "PPC",
+            "per1": 1000000,
             "testnet": false
-        },
-        "test": null
+        }
     },
     "QTUM": {
         "main": {
-            "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
-            "port": 3888,
+            "unit": "QTUM",
+            "name": "Qtum",
+            "testnet": false,
             "protocol": {
                 "magic": "0xd3a6cff1"
             },
+            "port": 3888,
             "seedsDns": [
-                "qtum3.dynu.net"
+                "qtum3.dynu.net",
+                "qtum5.dynu.net",
+                "qtum6.dynu.net",
+                "qtum7.dynu.net"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x8fd",
                 "private": "0x80",
                 "public": "0x3a",
-                "scripthash": "0x32"
+                "scripthash": "0x32",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 2301
             },
-            "name": "Qtum",
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
+            "portRpc": 3889,
+            "per1": 100000000
+        },
+        "test": {
             "unit": "QTUM",
-            "testnet": false
+            "name": "Qtum - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0615220d"
+            },
+            "port": 13888,
+            "seedsDns": [
+                "qtum4.dynu.net"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x78",
+                "scripthash": "0x6e",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000e803ee215c0684ca0d2f9220594d3f828617972aad66feb2ba51f5e14222",
+            "portRpc": 13889,
+            "per1": 100000000
+        },
+        "regtest": {
+            "unit": "QTUM",
+            "name": "Qtum - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xe1c6ddfd"
+            },
+            "port": 23888,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x78",
+                "scripthash": "0x6e",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "665ed5b402ac0b44efc37d8926332994363e8a7278b7ee9a58fb972efadae943",
+            "portRpc": 13889,
+            "per1": 100000000
         }
     },
     "RDD": {
         "main": {
-            "hashGenesisBlock": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
+            "unit": "RDD",
+            "name": "Reddcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xdbb6c0fb"
+            },
+            "port": 45444,
+            "portRpc": 45443,
+            "seedsDns": [
+                "reddcoin.com",
+                "dnsseed01.redd.ink",
+                "dnsseed02.redd.ink",
+                "dnsseed03.redd.ink",
+                "seed.reddcoin.com",
+                "dnsseed01.redd.ink",
+                "dnsseed02.redd.ink",
+                "dnsseed03.redd.ink"
+            ],
             "versions": {
-                "bip44": "0x4",
                 "private": "0xbd",
                 "public": "0x3d",
-                "scripthash": "0x5"
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 4
             },
-            "name": "ReddCoin",
-            "unit": "RDD",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",
+            "unit": "RDD",
+            "name": "Reddcoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdeb9c3fe"
+            },
+            "port": 55444,
+            "portRpc": 55443,
+            "seedsDns": [
+                "reddcoin.com",
+                "redd.ink",
+                "testnet-seed.reddcoin.com",
+                "testnet-dnsseed.redd.ink"
+            ],
             "versions": {
-                "bip44": "0x1",
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "ReddCoin Testnet",
-            "unit": "RDD",
-            "testnet": true
+            "bech32_hrp": null,
+            "hashGenesisBlock": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",
+            "per1": 100000000
         }
     },
     "VTC": {
         "main": {
-            "hashGenesisBlock": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
-            "port": 5889,
+            "unit": "VTC",
+            "name": "Vertcoin",
+            "testnet": false,
             "protocol": {
                 "magic": "0xdab5bffa"
             },
+            "port": 5889,
             "seedsDns": [
                 "useast1.vtconline.org",
                 "vtc.gertjaap.org",
@@ -539,25 +1046,28 @@
                 "vertcoin.mbl.cash"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x1c",
                 "private": "0x80",
                 "public": "0x47",
-                "scripthash": "0x5"
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 28
             },
-            "name": "Vertcoin",
-            "unit": "VTC",
-            "testnet": false
+            "bech32_hrp": "vtc",
+            "hashGenesisBlock": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
+            "portRpc": 5888,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
-            "port": 15889,
+            "unit": "VTC",
+            "name": "Vertcoin - Test",
+            "testnet": true,
             "protocol": {
-                "magic": "0x74726576"
+                "magic": "0x't';'r';'e';'v';"
             },
+            "port": 15889,
             "seedsDns": [
                 "jlovejoy.mit.edu",
                 "gertjaap.ddns.net",
@@ -565,89 +1075,127 @@
                 "tvtc.vertcoin.org"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
                 "private": "0xef",
                 "public": "0x4a",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Vertcoin Testnet",
-            "unit": "VTC",
-            "testnet": true
+            "bech32_hrp": "tvtc",
+            "hashGenesisBlock": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
+            "portRpc": 15888,
+            "per1": 100000000
         },
         "regtest": {
-            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-            "port": 18444,
+            "unit": "VTC",
+            "name": "Vertcoin - Regtest",
+            "testnet": true,
             "protocol": {
                 "magic": "0xdab5bffa"
             },
+            "port": 18444,
             "seedsDns": [],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
                 "private": "0xef",
                 "public": "0x6f",
-                "scripthash": "0xc4"
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Vertcoin Regtest",
-            "unit": "VTC",
-            "testnet": true
+            "bech32_hrp": "bcrt",
+            "hashGenesisBlock": "2399c0b047ebbbd1650d66867206c97317027b1a1932bc6fc17ce833dc4a85ce",
+            "portRpc": 18443,
+            "per1": 100000000
         }
     },
     "ZEC": {
         "main": {
-            "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
-            "port": 8233,
-            "portRpc": 8232,
+            "unit": "ZEC",
+            "name": "Zcash",
+            "testnet": false,
             "protocol": {
                 "magic": "0x6427e924"
             },
+            "port": 8233,
             "seedsDns": [
+                "z.cash",
+                "str4d.xyz",
+                "znodes.org",
                 "dnsseed.z.cash",
                 "dnsseed.str4d.xyz",
                 "dnsseed.znodes.org"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x488ade4",
-                    "public": "0x488b21e"
-                },
-                "bip44": "0x85",
                 "private": "0x80",
                 "public": "0x1cb8",
-                "scripthash": "0x1cbd"
+                "scripthash": "0x1cbd",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 133
             },
-            "name": "Zcash",
-            "unit": "ZEC",
-            "testnet": false
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
+            "portRpc": 8232,
+            "per1": 100000000
         },
         "test": {
-            "hashGenesisBlock": "0x05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
-            "port": 18233,
-            "portRpc": 18232,
+            "unit": "ZEC",
+            "name": "Zcash - Test",
+            "testnet": true,
             "protocol": {
                 "magic": "0xbff91afa"
             },
+            "port": 18233,
             "seedsDns": [
+                "z.cash",
                 "dnsseed.testnet.z.cash"
             ],
             "versions": {
-                "bip32": {
-                    "private": "0x4358394",
-                    "public": "0x43587cf"
-                },
-                "bip44": "0x85",
                 "private": "0xef",
                 "public": "0x1d25",
-                "scripthash": "0x1cba"
+                "scripthash": "0x1cba",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
             },
-            "name": "Zcash Testnet",
+            "bech32_hrp": null,
+            "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+            "portRpc": 18232,
+            "per1": 100000000
+        },
+        "regtest": {
             "unit": "ZEC",
-            "testnet": true
+            "name": "Zcash - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x5f3fe8aa"
+            },
+            "port": 18344,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x1d25",
+                "scripthash": "0x1cba",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
+            "portRpc": 18232,
+            "per1": 100000000
         }
     }
 }
