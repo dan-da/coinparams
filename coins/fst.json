@@ -1,0 +1,70 @@
+{
+    "main": {
+        "unit": "FST",
+        "name": "Fastcoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xdbb6c0fb"
+        },
+        "port": 9526,
+        "seedsDns": [
+            "dnsseed.fastcoin.ws",
+            "ns-1470.awsdns-55.org",
+            "ns-1863.awsdns-40.co.uk",
+            "fastcoinpool.org",
+            "weminemnc.com",
+            "s1.fastcoin.ws",
+            "u2.fastcoin.ws",
+            "a1.fastcoin.ws",
+            "dnsseed.fastcoinpool.org",
+            "dnsseed.weminemnc.com"
+        ],
+        "versions": {
+            "private": "0xe0",
+            "public": "0x60",
+            "scripthash": "0x14",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "ecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b",
+        "portRpc": 9527,
+        "per1": 100000000,
+        "messageMagic": "Fastcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "FST",
+        "name": "Fastcoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 19526,
+        "seedsDns": [
+            "fastcointools.com",
+            "xurious.com",
+            "wemine-testnet.com",
+            "testnet-seed.fastcointools.com",
+            "testnet-seed.ltc.xurious.com",
+            "dnsseed.wemine-testnet.com"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+        "portRpc": 19527,
+        "per1": 100000000,
+        "messageMagic": "Fastcoin Signed Message:\\n"
+    }
+}
