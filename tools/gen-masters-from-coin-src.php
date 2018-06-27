@@ -24,11 +24,9 @@ $coins = [
     'blk'   => ['Blackcoin', 'https://github.com/CoinBlack/blackcoin', 'master'],
     'mona'  => ['Monacoin', 'https://github.com/monacoinproject/monacoin', 'master-0.15', 'master'],
     'nmc'   => ['Namecoin', 'https://github.com/namecoin/namecoin-core', 'master'],
-    'ppc'   => ['Peercoin', 'https://github.com/peercoin/peercoin', 'master'],
     'bcd'   => ['Bitcoin Diamond', 'https://github.com/eveybcd/BitcoinDiamond', 'master'],
     'btcp'  => ['Bitcoin Private', 'https://github.com/BTCPrivate/BitcoinPrivate', 'master'],
     'kmd'   => ['Komodo', 'https://github.com/KomodoPlatform/komodo', 'master'],
-    'cnx'   => ['Kryptonex', 'https://github.com/Cryptonex/source', 'master'],
     'xzc'   => ['ZCoin', 'https://github.com/zcoinofficial/zcoin', 'master'],
     'smart' => ['SmartCash', 'https://github.com/SmartCash/Core-Smart', '1.2.x'],
     'block' => ['Blocknet', 'https://github.com/BlocknetDX/BlockDX', 'master'],
@@ -93,7 +91,9 @@ $coins = [
     'trc'   => ['Terracoin', 'https://github.com/terracoin/terracoin', 'master'],
     'aur'   => ['Auroracoin', 'https://github.com/aurarad/auroracoin', 'master'],
 //    ''   => ['', '', 'master'],
-    
+
+//    'ppc'   => ['Peercoin', 'https://github.com/peercoin/peercoin', 'master'],  // no chainparams.cpp
+//    'cnx'   => ['Kryptonex', 'https://github.com/Cryptonex/source', 'master'],  // no chainparams.cpp   
 //    'emc'   => ['Emercoin', 'https://github.com/emercoin/emercoin', 'master'],  // bip44 unset
 //    'btcd'  => ['BitcoinDark', 'https://github.com/jl777/btcd', 'master'],   // no chainparams.cpp
 //    'tpay'  => ['TokenPay', 'https://github.com/tokenpay/tokenpay', 'master'],     // not working yet.  can't find where COIN is defined for per1.        
@@ -244,7 +244,8 @@ function process_chainparam_network( &$gdata, $network, $buf, $meta) {
     
     try {
 
-        $suffix = $network == 'main' ? '' : ' - ' . ucfirst($network);
+        $netname = $network == 'test' ? 'testnet' : $network;
+        $suffix = $network == 'main' ? '' : ' - ' . ucfirst($netname);
         $data['unit'] = strtoupper($symbol);
         $data['name'] = $name . $suffix;
         $data['testnet'] = $network == 'main' ? false : true;
