@@ -1,0 +1,44 @@
+{
+    "main": {
+        "unit": "AUR",
+        "name": "Auroracoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x6cdca4fd"
+        },
+        "port": 12340,
+        "portRpc": 12341,
+        "seedsDns": [
+            "luxembourgh",
+            "united-states-west",
+            "united-states-east",
+            "iceland",
+            "the-netherlands",
+            "electrum2",
+            "electrum3",
+            "electrum4",
+            "s1.auroraseed.net",
+            "aurseed1.criptoe.com",
+            "s1.auroraseed.com",
+            "s1.auroraseed.org",
+            "s1.auroraseed.eu",
+            "electrum2.aurorcoin.is",
+            "electrum3.auroracoin.is",
+            "electrum4.auroracoin.is"
+        ],
+        "versions": {
+            "private": "0xb0",
+            "public": "0x17",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 85
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "2a8e100939494904af825b488596ddd536b3a96226ad02e0f7ab7ae472b27a8e",
+        "per1": 100000000,
+        "messageMagic": "Auroracoin Signed Message:\\n"
+    }
+}

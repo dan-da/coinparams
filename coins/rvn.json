@@ -1,0 +1,83 @@
+{
+    "main": {
+        "unit": "RVN",
+        "name": "Ravencoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x4e564152"
+        },
+        "port": 8767,
+        "seedsDns": [
+            "seed-raven.ravencoin.org",
+            "seed-raven.bitactivate.com"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x3c",
+            "scripthash": "0x7a",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 175
+        },
+        "bech32_hrp": "rc",
+        "hashGenesisBlock": "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90",
+        "portRpc": 8766,
+        "per1": 100000000,
+        "messageMagic": "Raven Signed Message:\\n"
+    },
+    "test": {
+        "unit": "RVN",
+        "name": "Ravencoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x544E5652"
+        },
+        "port": 18767,
+        "seedsDns": [
+            "seed-testnet-raven.ravencoin.org",
+            "seed-testnet-raven.bitactivate.com"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "tr",
+        "hashGenesisBlock": "000000055c6b201ac99ed634953f92bd52239f5b26e090ce3caab6ec81bec921",
+        "portRpc": 18766,
+        "per1": 100000000,
+        "messageMagic": "Raven Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "RVN",
+        "name": "Ravencoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x574F5243"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "rcrt",
+        "hashGenesisBlock": "0ae5a91dc8c60c02f68cf6579e153d428b2298f231c89e96cbeb609ecc00d9a0",
+        "portRpc": 18443,
+        "per1": 100000000,
+        "messageMagic": "Raven Signed Message:\\n"
+    }
+}

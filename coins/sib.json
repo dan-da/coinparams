@@ -1,0 +1,93 @@
+{
+    "main": {
+        "unit": "SIB",
+        "name": "SIBCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xbd6b0cbf"
+        },
+        "port": 1945,
+        "seedsDns": [
+            "sibcoin.net",
+            "chervonec.info",
+            "darknode1",
+            "darknode2",
+            "darknode3",
+            "dnsseed.sibcoin.net",
+            "dnsseed.chervonec.info",
+            "dnsseed1.darknode.ru",
+            "dnsseed2.darknode.ru",
+            "dnsseed3.darknode.ru"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x3f",
+            "scripthash": "0x28",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000c492bf73490420868bc577680bfc4c60116e7e85343bc624787c21efa4c",
+        "portRpc": 1944,
+        "per1": 100000000,
+        "messageMagic": "SibCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "SIB",
+        "name": "SIBCoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xffcae2ce"
+        },
+        "port": 11945,
+        "seedsDns": [
+            "dashdot.io",
+            "masternode.io",
+            "testnet-seed.dashdot.io",
+            "test.dnsseed.masternode.io"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x7d",
+            "scripthash": "0x64",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000617791d0e19f524387f67e558b2a928b670b9a3b387ae003ad7f9093017",
+        "portRpc": 11944,
+        "per1": 100000000,
+        "messageMagic": "SibCoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "SIB",
+        "name": "SIBCoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 18333,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x7d",
+            "scripthash": "0x64",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000007bfa2866f77d1f22f9da7fda73ea3c5185dc156f4f6f8b3a3caed27247e",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "SibCoin Signed Message:\\n"
+    }
+}

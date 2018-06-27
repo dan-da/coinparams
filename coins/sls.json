@@ -1,0 +1,30 @@
+{
+    "main": {
+        "unit": "SLS",
+        "name": "SaluS",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x21a7c5d3"
+        },
+        "port": 22534,
+        "portRpc": 22530,
+        "seedsDns": [
+            "198.50.243.69",
+            "198.50.243.69"
+        ],
+        "versions": {
+            "private": "0xbf",
+            "public": "0x3f",
+            "scripthash": "0x17",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000003f07d368792f736f3098ad7201bb821883fbb66b27a8ee65be273847e02",
+        "per1": 100000000,
+        "messageMagic": "SaluS Signed Message:\\n"
+    }
+}

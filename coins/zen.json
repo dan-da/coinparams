@@ -1,0 +1,74 @@
+{
+    "main": {
+        "unit": "ZEN",
+        "name": "Zencash",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x68736163"
+        },
+        "port": 9033,
+        "seedsDns": [
+            "zensystem.io",
+            "zenseed.network",
+            "blockoperations.com",
+            "zenchain.info",
+            "zenseed.network",
+            "zensystem.io",
+            "dnsseed.zensystem.io",
+            "dnsseed.zenseed.network",
+            "zpool.blockoperations.com",
+            "node1.zenchain.info",
+            "mainnet.zenseed.network",
+            "mainnet.zensystem.io"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x2089",
+            "scripthash": "0x2096",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 121
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+        "portRpc": 8231,
+        "per1": 100000000,
+        "messageMagic": "Zcash Signed Message:\\n"
+    },
+    "test": {
+        "unit": "ZEN",
+        "name": "Zencash - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xe6cdf2bf"
+        },
+        "port": 19033,
+        "seedsDns": [
+            "zensystem.io",
+            "blockoperations.com",
+            "scottrockcafe.com",
+            "zensystem.io",
+            "dnsseed.testnet.zensystem.io",
+            "zpool2.blockoperations.com",
+            "node.scottrockcafe.com",
+            "testnet.zensystem.io"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x2098",
+            "scripthash": "0x2092",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "portRpc": 18231,
+        "per1": 100000000,
+        "messageMagic": "Zcash Signed Message:\\n"
+    }
+}

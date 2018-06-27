@@ -1,0 +1,61 @@
+{
+    "main": {
+        "unit": "SPHR",
+        "name": "Sphere",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x3011b8a8"
+        },
+        "port": 37544,
+        "portRpc": 37545,
+        "seedsDns": [
+            "162.243.247.203",
+            "162.243.25.133",
+            "104.236.163.165",
+            "gqunlgogqx7x42zy.onion",
+            "162.243.247.203",
+            "162.243.25.133",
+            "104.236.163.165",
+            "gqunlgogqx7x42zy.onion"
+        ],
+        "versions": {
+            "private": "0x99",
+            "public": "0x19",
+            "scripthash": "0x55",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+        "per1": 100000000,
+        "messageMagic": "Sphere Signed Message:\\n"
+    },
+    "test": {
+        "unit": "SPHR",
+        "name": "Sphere - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x1249e78d"
+        },
+        "port": 27544,
+        "portRpc": 27545,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x7f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+        "per1": 100000000,
+        "messageMagic": "Sphere Signed Message:\\n"
+    }
+}

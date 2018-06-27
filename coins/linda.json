@@ -1,0 +1,52 @@
+{
+    "main": {
+        "unit": "LINDA",
+        "name": "Linda",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x0117d39c"
+        },
+        "port": 33820,
+        "portRpc": 33821,
+        "seedsDns": [],
+        "versions": {
+            "private": "0x99",
+            "public": "0x30",
+            "scripthash": "0x55",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000000fa793257f502f94a3531aebdaf91b070324a8f5041324b80f4b0f74c51",
+        "per1": 100000000,
+        "messageMagic": "Linda Signed Message:\\n"
+    },
+    "test": {
+        "unit": "LINDA",
+        "name": "Linda - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2ce"
+        },
+        "port": 28888,
+        "portRpc": 28889,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x17",
+            "scripthash": "0xbb",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00005862693a9c2692d3abb4d071f261c1c64db9824d89ae28d533e435f6d87c",
+        "per1": 100000000,
+        "messageMagic": "Linda Signed Message:\\n"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "main": {
+        "unit": "DMD",
+        "name": "Diamond",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xfdbde8e4"
+        },
+        "port": 17771,
+        "seedsDns": [
+            "dnsseed.bit.diamonds",
+            "37.120.186.85",
+            "185.194.140.60",
+            "188.68.39.1",
+            "188.68.52.172",
+            "dnsseed.bit.diamonds",
+            "37.120.186.85",
+            "185.194.140.60",
+            "188.68.39.1",
+            "188.68.52.172"
+        ],
+        "versions": {
+            "private": "0xda",
+            "public": "0x5a",
+            "scripthash": "0x08",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 152
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+        "portRpc": 17770,
+        "per1": 100000000,
+        "messageMagic": "Diamond Signed Message:\\n"
+    },
+    "test": {
+        "unit": "DMD",
+        "name": "Diamond - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xba657645"
+        },
+        "port": 51474,
+        "seedsDns": [
+            "dnsseed.bit.diamonds",
+            "dnsseed.bit.diamonds"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8b",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+        "portRpc": 17772,
+        "per1": 100000000,
+        "messageMagic": "Diamond Signed Message:\\n"
+    }
+}

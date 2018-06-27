@@ -1,0 +1,86 @@
+{
+    "main": {
+        "unit": "CRW",
+        "name": "Crown",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xdfb3ebb8"
+        },
+        "port": 9340,
+        "seedsDns": [
+            "fra-crwdns",
+            "blr-crwdns",
+            "sgp-crwdns",
+            "lon-crwdns",
+            "nyc-crwdns",
+            "tor-crwdns",
+            "sfo-crwdns",
+            "ams-crwdns",
+            "fra-crwdns.crowndns.info",
+            "blr-crwdns.crowndns.info",
+            "sgp-crwdns.crowndns.info",
+            "lon-crwdns.crowndns.info",
+            "nyc-crwdns.crowndns.info",
+            "tor-crwdns.crowndns.info",
+            "sfo-crwdns.crowndns.info",
+            "ams-crwdns.crowndns.info"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x00",
+            "scripthash": "0x1c",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 72
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",
+        "portRpc": 9341,
+        "per1": 100000000,
+        "messageMagic": "Crown Signed Message:\\n"
+    },
+    "test": {
+        "unit": "CRW",
+        "name": "Crown - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x060e180f"
+        },
+        "port": 19340,
+        "seedsDns": [
+            "fra-testnet-crwdns",
+            "blr-testnet-crwdns",
+            "sgp-testnet-crwdns",
+            "lon-testnet-crwdns",
+            "nyc-testnet-crwdns",
+            "tor-testnet-crwdns",
+            "sfo-testnet-crwdns",
+            "ams-testnet-crwdns",
+            "fra-testnet-crwdns.crowndns.info",
+            "blr-testnet-crwdns.crowndns.info",
+            "sgp-testnet-crwdns.crowndns.info",
+            "lon-testnet-crwdns.crowndns.info",
+            "nyc-testnet-crwdns.crowndns.info",
+            "tor-testnet-crwdns.crowndns.info",
+            "sfo-testnet-crwdns.crowndns.info",
+            "ams-testnet-crwdns.crowndns.info"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",
+        "portRpc": 19341,
+        "per1": 100000000,
+        "messageMagic": "Crown Signed Message:\\n"
+    }
+}

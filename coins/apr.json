@@ -1,0 +1,57 @@
+{
+    "main": {
+        "unit": "APR",
+        "name": "APR Coin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x2e92eca4"
+        },
+        "port": 3133,
+        "seedsDns": [
+            "167.99.171.144",
+            "206.189.160.179",
+            "167.99.171.144",
+            "206.189.160.179"
+        ],
+        "versions": {
+            "private": "0x2e",
+            "public": "0x0c",
+            "scripthash": "0x06",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000003ae9a3767e1a412e8ac769a4e99a7a1ca3cf2848c9e5abe1ea2fef8a2fd",
+        "portRpc": 3132,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "APR",
+        "name": "APR Coin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xbc922daa"
+        },
+        "port": 13133,
+        "seedsDns": [],
+        "versions": {
+            "private": "0x6c",
+            "public": "0x62",
+            "scripthash": "0x0c",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000a8cc5b18e27b3b0068d3a554d4f9b5661b092f4d467a8df2ca9407fef27",
+        "portRpc": 13132,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

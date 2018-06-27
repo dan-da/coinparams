@@ -1,0 +1,93 @@
+{
+    "main": {
+        "unit": "GIN",
+        "name": "GINcoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xbd6b0cbf"
+        },
+        "port": 10111,
+        "seedsDns": [
+            "gincoin.io",
+            "seed2.gincoin.io",
+            "seed3.gincoin.io",
+            "seed4.gincoin.io",
+            "seed5.gincoin.io",
+            "seed1.gincoin.io",
+            "seed2.gincoin.io",
+            "seed3.gincoin.io",
+            "seed4.gincoin.io",
+            "seed5.gincoin.io"
+        ],
+        "versions": {
+            "private": "0xc6",
+            "public": "0x26",
+            "scripthash": "0x0a",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000cd6bde619b2c3b23ad2e384328a450a37fa28731debf748c3b17f91f97d",
+        "portRpc": 10211,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "GIN",
+        "name": "GINcoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xffcae2ce"
+        },
+        "port": 12111,
+        "seedsDns": [
+            "test.gincoin.io",
+            "test.gincoin.io",
+            "test-s1.gincoin.io",
+            "test-s2.gincoin.io"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000ac0100fe889e7130e47d13819cc91eba5646dc1e8fc050c7a67532565ed",
+        "portRpc": 12211,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "GIN",
+        "name": "GINcoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 19111,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "5f8058aea61edae50983271d61c69161ca1ee90a556127aba1b18f414e3293b7",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    }
+}

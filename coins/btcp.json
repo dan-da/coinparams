@@ -1,0 +1,62 @@
+{
+    "main": {
+        "unit": "BTCP",
+        "name": "Bitcoin Private",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xcda2eaa8"
+        },
+        "port": 7933,
+        "seedsDns": [
+            "btcprivate.org",
+            "btcprivate.co",
+            "dnsseed.btcprivate.org",
+            "dnsseed.btcprivate.co"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x1325",
+            "scripthash": "0x13af",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 183
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+        "portRpc": 7932,
+        "per1": 100000000,
+        "messageMagic": "BitcoinPrivate Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BTCP",
+        "name": "Bitcoin Private - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xd6f61bf6"
+        },
+        "port": 17933,
+        "seedsDns": [
+            "btcprivate.org",
+            "btcprivate.co",
+            "dnsseed.testnet.btcprivate.org",
+            "dnsseed.testnet1.btcprivate.co"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x1957",
+            "scripthash": "0x19e0",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "portRpc": 17932,
+        "per1": 100000000,
+        "messageMagic": "BitcoinPrivate Signed Message:\\n"
+    }
+}

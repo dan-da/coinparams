@@ -1,0 +1,76 @@
+{
+    "main": {
+        "unit": "DEV",
+        "name": "DeviantCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xb8adb428"
+        },
+        "port": 22618,
+        "seedsDns": [
+            "seed1.deviantcoin.io",
+            "seed2.deviantcoin.io",
+            "seed3.deviantcoin.io",
+            "seed4.deviantcoin.io",
+            "seed5.deviantcoin.io",
+            "seed6.deviantcoin.io",
+            "seed7.deviantcoin.io",
+            "seed1.deviantcoin.io",
+            "seed2.deviantcoin.io",
+            "seed3.deviantcoin.io",
+            "seed4.deviantcoin.io",
+            "seed5.deviantcoin.io",
+            "seed6.deviantcoin.io",
+            "seed7.deviantcoin.io"
+        ],
+        "versions": {
+            "private": "0x89",
+            "public": "0x5a",
+            "scripthash": "0x0a",
+            "bip32": {
+                "public": "0x044d5066",
+                "private": "0x0441514b"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000e697a1e963f6ae8288419ffb0d59de9d232bac8efda8c6491d1c31e3139",
+        "portRpc": 22617,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "DEV",
+        "name": "DeviantCoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xcd557950"
+        },
+        "port": 51484,
+        "seedsDns": [
+            "fuzzbawls.pw",
+            "fuzzbawls.pw",
+            "s3v3nh4cks.ddns.net",
+            "192.168.100.2",
+            "deviant-testnet.seed.fuzzbawls.pw",
+            "deviant-testnet.seed2.fuzzbawls.pw",
+            "s3v3nh4cks.ddns.net",
+            "192.168.100.2"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x81",
+            "scripthash": "0x0e",
+            "bip32": {
+                "public": "0x2a4071b0",
+                "private": "0x2a407847"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000014bd7a053eb417c79a53bf206733927fab837ad1a5e06265b21f8d9e9e8",
+        "portRpc": 51485,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

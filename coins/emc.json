@@ -1,0 +1,64 @@
+{
+    "main": {
+        "unit": "EMC",
+        "name": "Emercoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe5e9e8e6"
+        },
+        "port": 6661,
+        "seedsDns": [
+            "emercoin.com",
+            "emercoin.net",
+            "emergate.net",
+            "emcdns",
+            "seed.emercoin.com",
+            "seed.emercoin.net",
+            "seed.emergate.net",
+            "seed.emc"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x21",
+            "scripthash": "0x5c",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d",
+        "portRpc": 6662,
+        "per1": 1000000,
+        "messageMagic": "EmerCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "EMC",
+        "name": "Emercoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cb"
+        },
+        "port": 6663,
+        "seedsDns": [
+            "emercoin",
+            "tnseed.emercoin.com"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212",
+        "portRpc": 6662,
+        "per1": 1000000,
+        "messageMagic": "EmerCoin Signed Message:\\n"
+    }
+}

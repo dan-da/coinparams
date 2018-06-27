@@ -1,0 +1,84 @@
+{
+    "main": {
+        "unit": "POLIS",
+        "name": "Polis",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xbd6b0cbf"
+        },
+        "port": 24126,
+        "seedsDns": [
+            "N1",
+            "N2",
+            "N3",
+            "node1.polispay.org",
+            "node2.polispay.org",
+            "node3.polispay.org"
+        ],
+        "versions": {
+            "private": "0x3c",
+            "public": "0x37",
+            "scripthash": "0x38",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000009701eb781a8113b1af1d814e2f060f6408a2c990db291bc5108a1345c1e",
+        "portRpc": 24127,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "POLIS",
+        "name": "Polis - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xffcae2ce"
+        },
+        "port": 21430,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000009038aeaea86784e959b0b4002793adad39fc9d6f8789ed2edf99ad5c8b",
+        "portRpc": 21431,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "POLIS",
+        "name": "Polis - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 19994,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000f3b4ec57f851b3706c056eda3120875896c9970495ae2efd49b46472a05",
+        "portRpc": 19998,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    }
+}

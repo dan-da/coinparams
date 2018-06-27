@@ -1,0 +1,95 @@
+{
+    "main": {
+        "unit": "XSN",
+        "name": "Stakenet",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xbd6c0cbf"
+        },
+        "port": 62583,
+        "seedsDns": [
+            "54.174.48.232",
+            "107.21.133.151",
+            "54.173.9.42",
+            "54.197.20.70",
+            "54.227.247.2",
+            "34.207.70.89",
+            "54.174.48.232",
+            "107.21.133.151",
+            "54.173.9.42",
+            "54.197.20.70",
+            "54.227.247.2",
+            "34.207.70.89"
+        ],
+        "versions": {
+            "private": "0xcc",
+            "public": "0x4c",
+            "scripthash": "0x10",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000c822abdbb23e28f79a49d29b41429737c6c7e15df40d1b1f1b35907ae34",
+        "portRpc": 51473,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "XSN",
+        "name": "Stakenet - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xffcae2ce"
+        },
+        "port": 29999,
+        "seedsDns": [
+            "18.195.52.21",
+            "masternode.io",
+            "18.195.52.21",
+            "test.dnsseed.masternode.io"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000005254b31cd4e41fdce02c5a571fe4b6ec6d65af0dc339a85bb749ee90763",
+        "portRpc": 19998,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "XSN",
+        "name": "Stakenet - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 19994,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "7229c32afcd2400f71cd72f55955c73bd384e41ed2e290c5a0488d0e6a15ddb4",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    }
+}

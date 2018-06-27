@@ -1,0 +1,82 @@
+{
+    "main": {
+        "unit": "ZCL",
+        "name": "ZClassic",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x6427e924"
+        },
+        "port": 8033,
+        "seedsDns": [
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "zclassic.org",
+            "chains.run",
+            "indieonion.org",
+            "rotorproject.org",
+            "dnsseed.zclassic.org",
+            "na1.zclassic.org",
+            "na2.zclassic.org",
+            "na3.zclassic.org",
+            "eu1.zclassic.org",
+            "eu2.zclassic.org",
+            "eu3.zclassic.org",
+            "as1.zclassic.org",
+            "as2.zclassic.org",
+            "as3.zclassic.org",
+            "seed.zcl.chains.run",
+            "dnsseed.indieonion.org",
+            "dnsseed.rotorproject.org"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x1cb8",
+            "scripthash": "0x1cbd",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 147
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+        "portRpc": 8023,
+        "per1": 100000000,
+        "messageMagic": "Zcash Signed Message:\\n"
+    },
+    "test": {
+        "unit": "ZCL",
+        "name": "ZClassic - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xbff91afa"
+        },
+        "port": 18233,
+        "seedsDns": [
+            "zclassic.org",
+            "dnsseed.testnet.zclassic.org"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x1d25",
+            "scripthash": "0x1cba",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "portRpc": 18023,
+        "per1": 100000000,
+        "messageMagic": "Zcash Signed Message:\\n"
+    }
+}

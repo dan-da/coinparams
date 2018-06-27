@@ -1,0 +1,101 @@
+{
+    "main": {
+        "unit": "SMART",
+        "name": "SmartCash",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x1eaba15c"
+        },
+        "port": 9678,
+        "seedsDns": [
+            "seed.smrt.cash",
+            "seed1.smrt.cash",
+            "seed2.smrt.cash",
+            "seed1.smartcash.org",
+            "seed2.smartcash.org",
+            "seed.smartcash.cc",
+            "seed2.smartcash.cc",
+            "seed3.smartcash.cc",
+            "seed4.smartcash.cc",
+            "seed.smrt.cash",
+            "seed1.smrt.cash",
+            "seed2.smrt.cash",
+            "seed1.smartcash.org",
+            "seed2.smartcash.org",
+            "seed.smartcash.cc",
+            "seed2.smartcash.cc",
+            "seed3.smartcash.cc",
+            "seed4.smartcash.cc"
+        ],
+        "versions": {
+            "private": "0xbf",
+            "public": "0x3f",
+            "scripthash": "0x12",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 224
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000007acc6970b812948d14ea5a0a13db0fdd07d5047c7e69101fa8b361e05a4",
+        "portRpc": 9679,
+        "per1": 100000000,
+        "messageMagic": "SmartCash Signed Message:\\n"
+    },
+    "test": {
+        "unit": "SMART",
+        "name": "SmartCash - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xeabefccf"
+        },
+        "port": 19678,
+        "seedsDns": [
+            "testnet.smartcash.cc",
+            "testnet.smrt.cash",
+            "testnet.smartcash.cc",
+            "testnet.smrt.cash"
+        ],
+        "versions": {
+            "private": "0xc1",
+            "public": "0x41",
+            "scripthash": "0x15",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000027235b5679bcd28c90d03d4bf1a9ba4c07c4efcc1c87d6c68cce25e6e5d",
+        "portRpc": 19679,
+        "per1": 100000000,
+        "messageMagic": "SmartCash Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "SMART",
+        "name": "SmartCash - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "portRpc": 19679,
+        "per1": 100000000,
+        "messageMagic": "SmartCash Signed Message:\\n"
+    }
+}

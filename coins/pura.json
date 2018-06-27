@@ -1,0 +1,91 @@
+{
+    "main": {
+        "unit": "PURA",
+        "name": "Pura",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x43c597b8"
+        },
+        "port": 44444,
+        "seedsDns": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "versions": {
+            "private": "0x96",
+            "public": "0x37",
+            "scripthash": "0x10",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd8",
+        "portRpc": 55555,
+        "per1": 100000000,
+        "messageMagic": "Pura Signed Message:\\n"
+    },
+    "test": {
+        "unit": "PURA",
+        "name": "Pura - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x42c596b7"
+        },
+        "port": 44443,
+        "seedsDns": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000622dfb4d5a2d83c43d60495419c82a0ee6659f210f5e8a0ed4ae7b40c59",
+        "portRpc": 55554,
+        "per1": 100000000,
+        "messageMagic": "Pura Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "PURA",
+        "name": "Pura - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x41c395b6"
+        },
+        "port": 44442,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8c",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b19",
+        "portRpc": 55553,
+        "per1": 100000000,
+        "messageMagic": "Pura Signed Message:\\n"
+    }
+}

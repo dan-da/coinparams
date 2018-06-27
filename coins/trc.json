@@ -1,0 +1,85 @@
+{
+    "main": {
+        "unit": "TRC",
+        "name": "Terracoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x56beba42"
+        },
+        "port": 13333,
+        "seedsDns": [
+            "terracoin.io",
+            "southofheaven.ca",
+            "seed.terracoin.io",
+            "dnsseed.southofheaven.ca"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x00",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 83
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000000804bbc6a621a9dbb564ce469f492e1ccf2d70f8a6b241e26a277afa2",
+        "portRpc": 13332,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "TRC",
+        "name": "Terracoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x0709110b"
+        },
+        "port": 18321,
+        "seedsDns": [
+            "terracoin.io",
+            "testnetseed.terracoin.io"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000000a48f093611895d7452e456b646d213d238e86dc2c0db7d15fe6c555d",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "TRC",
+        "name": "Terracoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "DarkCoin Signed Message:\\n"
+    }
+}

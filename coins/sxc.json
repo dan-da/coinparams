@@ -1,0 +1,66 @@
+{
+    "main": {
+        "unit": "SXC",
+        "name": "Sexcoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x6969cefa"
+        },
+        "port": 9560,
+        "seedsDns": [
+            "sexcoin.info",
+            "lavajumper.com",
+            "litecoinpool.org",
+            "dnsseed.sexcoin.info",
+            "dnsseed.lavajumper.com",
+            "dnsseed.litecoinpool.org"
+        ],
+        "versions": {
+            "private": "0xbe",
+            "public": "0x3e",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "f42b9553085a1af63d659d3907a42c3a0052bbfa2693d3acf990af85755f2279",
+        "portRpc": 9561,
+        "per1": 100000000,
+        "messageMagic": "Sexcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "SXC",
+        "name": "Sexcoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x6996cefa"
+        },
+        "port": 19560,
+        "seedsDns": [
+            "sexcoin.info",
+            "xurious.com",
+            "wemine-testnet.com",
+            "testnet-seed.sexcoin.info",
+            "testnet-seed.ltc.xurious.com",
+            "dnsseed.wemine-testnet.com"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x7c",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "73dc70a1698579360b62e724ecfeacfd938f45283162f3cf18f1b9eb3fc9fcd7",
+        "portRpc": 19561,
+        "per1": 100000000,
+        "messageMagic": "Sexcoin Signed Message:\\n"
+    }
+}

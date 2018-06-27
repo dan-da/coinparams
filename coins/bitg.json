@@ -1,0 +1,59 @@
+{
+    "main": {
+        "unit": "BITG",
+        "name": "Bitcoin Green",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xae12dc54"
+        },
+        "port": 9333,
+        "seedsDns": [
+            "seed1.savebitcoin.io",
+            "seed2.savebitcoin.io",
+            "seed3.savebitcoin.io",
+            "seed1.savebitcoin.io",
+            "seed2.savebitcoin.io",
+            "seed3.savebitcoin.io"
+        ],
+        "versions": {
+            "private": "0x2e",
+            "public": "0x26",
+            "scripthash": "0x06",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 222
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",
+        "portRpc": 9332,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BITG",
+        "name": "Bitcoin Green - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xbc322d4a"
+        },
+        "port": 19333,
+        "seedsDns": [],
+        "versions": {
+            "private": "0x6c",
+            "public": "0x62",
+            "scripthash": "0x0c",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",
+        "portRpc": 19332,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

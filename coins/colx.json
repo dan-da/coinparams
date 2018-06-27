@@ -1,0 +1,59 @@
+{
+    "main": {
+        "unit": "COLX",
+        "name": "ColossusXT",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xeafec591"
+        },
+        "port": 51572,
+        "seedsDns": [
+            "colx1",
+            "colx2",
+            "colx3",
+            "seed.colossuscoinxt.org",
+            "seed.colossusxt.org",
+            "seed.colxt.net"
+        ],
+        "versions": {
+            "private": "0xd4",
+            "public": "0x1e",
+            "scripthash": "0x0d",
+            "bip32": {
+                "public": "0x022d2533",
+                "private": "0x0221312b"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "a0ce8206c908357008c1b9a8ba2813aff0989ca7f72d62b14e652c55f02b4f5c",
+        "portRpc": 51473,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "COLX",
+        "name": "ColossusXT - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xbb667746"
+        },
+        "port": 51374,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8b",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "6cd37a546cfaafeee652fd0f3a85ba64c0f539f771a27fca9610cdc2f3278932",
+        "portRpc": 51475,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

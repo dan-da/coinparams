@@ -1,0 +1,84 @@
+{
+    "main": {
+        "unit": "VIA",
+        "name": "Viacoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xcbc6680f"
+        },
+        "port": 5223,
+        "seedsDns": [
+            "seed.viacoin.net",
+            "viaseeder.barbatos.fr",
+            "mainnet.viacoin.net"
+        ],
+        "versions": {
+            "private": "0xc7",
+            "public": "0x47",
+            "scripthash": "0x21",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 14
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba1",
+        "portRpc": 5222,
+        "per1": 100000000,
+        "messageMagic": "Viacoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "VIA",
+        "name": "Viacoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x92efc5a9"
+        },
+        "port": 25223,
+        "seedsDns": [
+            "testnet.viacoin.net",
+            "seed-testnet.viacoin.net"
+        ],
+        "versions": {
+            "private": "0xff",
+            "public": "0x7f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "770aa712aa08fdcbdecc1c8df1b3e2d4e17a7cf6e63a28b785b32e74c96cb27d",
+        "portRpc": 25222,
+        "per1": 100000000,
+        "messageMagic": "Viacoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "VIA",
+        "name": "Viacoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x377b972d"
+        },
+        "port": 15224,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "f0dae070f24fbc35311533a22aa85c0a616c84a1f22881612304d802acda286f",
+        "portRpc": 25222,
+        "per1": 100000000,
+        "messageMagic": "Viacoin Signed Message:\\n"
+    }
+}

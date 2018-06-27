@@ -1,0 +1,107 @@
+{
+    "main": {
+        "unit": "MNX",
+        "name": "Minex",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x5d4c4a4b"
+        },
+        "port": 8335,
+        "seedsDns": [
+            "138.197.73.48",
+            "138.197.73.123",
+            "159.203.70.193",
+            "88.198.33.35",
+            "95.85.35.152",
+            "78.46.93.126",
+            "91.233.111.28",
+            "bitcoin.sipa.be",
+            "bluematt.me",
+            "dashjr.org",
+            "bitcoinstats.com",
+            "bitcoin.jonasschnelli.ch",
+            "138.197.73.48",
+            "138.197.73.123",
+            "159.203.70.193",
+            "88.198.33.35",
+            "95.85.35.152",
+            "78.46.93.126",
+            "91.233.111.28",
+            "seed.bitcoin.sipa.be",
+            "dnsseed.bluematt.me",
+            "dnsseed.bitcoin.dashjr.org",
+            "seed.bitcoinstats.com",
+            "seed.bitcoin.jonasschnelli.ch"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x4b",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 182
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",
+        "portRpc": 17786,
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "MNX",
+        "name": "Minex - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x544c4a54"
+        },
+        "port": 8336,
+        "seedsDns": [
+            "138.197.90.246",
+            "139.59.154.41",
+            "138.197.90.246",
+            "139.59.154.41"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "6ef2e897f7acb347086f9860b2ad401f133fe1b103f77de771aac7b5e88cfe70",
+        "portRpc": 17788,
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "MNX",
+        "name": "Minex - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x5d4c4a4b"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",
+        "portRpc": 18332,
+        "per1": 100000000,
+        "messageMagic": "Bitcoin Signed Message:\\n"
+    }
+}

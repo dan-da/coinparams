@@ -1,0 +1,70 @@
+{
+    "main": {
+        "unit": "BTCZ",
+        "name": "BitcoinZ",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x6427e924"
+        },
+        "port": 1989,
+        "seedsDns": [
+            "b8491e7ea3502b8fcda9106923e68b92ef43c331dbf9cfb3c94af473bfbf308b.BTCZ",
+            "67f534b87f9a2412f845e39102f184e3a48798ed6e2a64d98b915aa12b625e9c.BTCZ",
+            "acdd520508bbfa96029867cf64b824fa5e41ebe47918bd4b7855d7a186ed795c.BTCZ",
+            "4437c91da6e4c4edca56b57bd52c2e11a3fd7d8b04bd9dec9584fb5220f54b05.BTCZ",
+            "0416c4d89c3c4078f7127b7b482c5c242328306f1706fe2edcdb7c94e2fdad45.BTCZ",
+            "e3dca99ba0e7b1d24cca73458f1d67f4014a60565bcf05e5748271922ce897a0.BTCZ",
+            "btcz.kovach.biz",
+            "seed.btcz.life",
+            "bzseed.secnode.tk",
+            "btzseed.blockhub.info",
+            "seed.btcz.biz",
+            "btczseed.1ds.us"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x1cb8",
+            "scripthash": "0x1cbd",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 177
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "f499ee3d498b4298ac6a64205b8addb7c43197e2a660229be65db8a4534d75c1",
+        "portRpc": 1979,
+        "per1": 100000000,
+        "messageMagic": "BitcoinZ Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BTCZ",
+        "name": "BitcoinZ - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xbff91afa"
+        },
+        "port": 11989,
+        "seedsDns": [
+            "978b674532d58328c4da63ab138c476ffa2f8a8b2b5a023a668fd3a97eb7c48b.TZB",
+            "rotorproject.org",
+            "testnetseed.btcz.biz",
+            "test-dnsseed.rotorproject.org"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x1d25",
+            "scripthash": "0x1cba",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "portRpc": 11979,
+        "per1": 100000000,
+        "messageMagic": "BitcoinZ Signed Message:\\n"
+    }
+}

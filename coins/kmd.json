@@ -1,0 +1,62 @@
+{
+    "main": {
+        "unit": "KMD",
+        "name": "Komodo",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x(ASS(ASS(ASSASSE8de4eef9"
+        },
+        "port": 7770,
+        "seedsDns": [
+            "komodoplatform.com",
+            "kolo.supernet.org",
+            "kolo.supernet.org",
+            "seeds.komodoplatform.com",
+            "static.kolo.supernet.org",
+            "dynamic.kolo.supernet.org"
+        ],
+        "versions": {
+            "private": "0xbc",
+            "public": "0x3c",
+            "scripthash": "0x55",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 141
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71",
+        "portRpc": 7771,
+        "per1": 100000000,
+        "messageMagic": "Komodo Signed Message:\\n"
+    },
+    "test": {
+        "unit": "KMD",
+        "name": "Komodo - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x627E1F5A"
+        },
+        "port": 17770,
+        "seedsDns": [
+            "z.cash",
+            "dns.testnet.z.cash"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x00",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "portRpc": 17771,
+        "per1": 100000000,
+        "messageMagic": "Komodo Signed Message:\\n"
+    }
+}

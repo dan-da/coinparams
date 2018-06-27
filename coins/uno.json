@@ -1,0 +1,64 @@
+{
+    "main": {
+        "unit": "UNO",
+        "name": "Unobtanium",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x03b5d503"
+        },
+        "port": 65534,
+        "seedsDns": [
+            "node1.unobtanium.uno",
+            "node2.unobtanium.uno",
+            "unobtanium.cryptap.us",
+            "node1.unobtanium.uno",
+            "node2.unobtanium.uno",
+            "unobtanium.cryptap.us"
+        ],
+        "versions": {
+            "private": "0xe0",
+            "public": "0x82",
+            "scripthash": "0x1e",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 92
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000004c2fc5fffb810dccc197d603690099a68305232e552d96ccbe8e2c52b75",
+        "portRpc": 65535,
+        "per1": 100000000,
+        "messageMagic": "Unobtanium Signed Message:\\n"
+    },
+    "test": {
+        "unit": "UNO",
+        "name": "Unobtanium - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x04030201"
+        },
+        "port": 65525,
+        "seedsDns": [
+            "23skidoo.info",
+            "testnet.unobtanium.info",
+            "23skidoo.info",
+            "testnet.unobtanium.info"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x44",
+            "scripthash": "0x1e",
+            "bip32": {
+                "public": "0x043586ce",
+                "private": "0x04358293"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "000004aa8e535bedb2186a3c1c2f3b119e70c2f61286b15ec98a81021c3a4a0c",
+        "portRpc": 65531,
+        "per1": 100000000,
+        "messageMagic": "Unobtanium Signed Message:\\n"
+    }
+}

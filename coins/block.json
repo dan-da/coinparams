@@ -1,0 +1,82 @@
+{
+    "main": {
+        "unit": "BLOCK",
+        "name": "Blocknet",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xa3a2a0a1"
+        },
+        "port": 41412,
+        "seedsDns": [
+            "178.62.90.213",
+            "138.197.73.214",
+            "34.235.49.248",
+            "35.157.52.158",
+            "18.196.208.65",
+            "13.251.15.150",
+            "13.229.39.34",
+            "52.56.35.74",
+            "35.177.173.53",
+            "35.178.142.231",
+            "35.176.65.103",
+            "178.62.90.213",
+            "138.197.73.214",
+            "34.235.49.248",
+            "35.157.52.158",
+            "18.196.208.65",
+            "13.251.15.150",
+            "13.229.39.34",
+            "52.56.35.74",
+            "35.177.173.53",
+            "35.178.142.231",
+            "35.176.65.103"
+        ],
+        "versions": {
+            "private": "0x9a",
+            "public": "0x1a",
+            "scripthash": "0x1c",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 328
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000eb7919102da5a07dc90905651664e6ebf0811c28f06573b9a0fd84ab7b8",
+        "portRpc": 41414,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BLOCK",
+        "name": "Blocknet - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xba657645"
+        },
+        "port": 41474,
+        "seedsDns": [
+            "178.62.90.213",
+            "138.197.73.214",
+            "34.235.49.248",
+            "178.62.90.213",
+            "138.197.73.214",
+            "34.235.49.248"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8b",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "00000f90ac260859e4515356719d94c9fb8cadb1a3dda186a64ac41ce4c3c7a7",
+        "portRpc": 41419,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

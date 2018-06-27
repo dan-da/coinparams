@@ -1,0 +1,96 @@
+{
+    "main": {
+        "unit": "BTX",
+        "name": "Bitcore",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xd9b4bef9"
+        },
+        "port": 8555,
+        "seedsDns": [
+            "188.68.52.172",
+            "37.120.186.85",
+            "37.120.190.76",
+            "188.68.52.172",
+            "37.120.186.85",
+            "37.120.190.76"
+        ],
+        "versions": {
+            "private": "0x80",
+            "public": "0x00",
+            "scripthash": "0x05",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 160
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+        "portRpc": 8556,
+        "per1": 100000000,
+        "messageMagic": "BitCore Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BTX",
+        "name": "Bitcore - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x0709110b"
+        },
+        "port": 18333,
+        "seedsDns": [
+            "188.68.52.172",
+            "37.120.186.85",
+            "37.120.190.76",
+            "188.68.52.172",
+            "37.120.186.85",
+            "37.120.190.76"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+        "portRpc": 50332,
+        "per1": 100000000,
+        "messageMagic": "BitCore Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "BTX",
+        "name": "Bitcore - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18444,
+        "seedsDns": [
+            "dnsseed1.bitcore.org",
+            "dnsseed2.bitcore.org",
+            "dnsseed1.bitcore.org",
+            "dnsseed2.bitcore.org"
+        ],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+        "portRpc": 50332,
+        "per1": 100000000,
+        "messageMagic": "BitCore Signed Message:\\n"
+    }
+}

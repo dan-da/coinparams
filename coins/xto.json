@@ -1,0 +1,42 @@
+{
+    "main": {
+        "unit": "XTO",
+        "name": "Tao",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe11ed11d"
+        },
+        "port": 15150,
+        "portRpc": 15151,
+        "seedsDns": [
+            "Seed01",
+            "Seed02",
+            "Seed03",
+            "Seed04",
+            "Seed05",
+            "Seed06",
+            "Seed07",
+            "taoexplorer.com",
+            "seed1.tao.network",
+            "seed2.tao.network",
+            "seed3.tao.network",
+            "seed4.tao.network",
+            "seed5.tao.network",
+            "seed6.tao.network"
+        ],
+        "versions": {
+            "private": "0x4c",
+            "public": "0x42",
+            "scripthash": "0x03",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0000c1c4b036f822bd91dc2006b5575b9c3617903925b8e738803e094cd23f20",
+        "per1": 100000000,
+        "messageMagic": "Tao Signed Message:\\n"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "main": {
+        "unit": "HXX",
+        "name": "Hexx",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x{ 'x{ 'x{ 'e{ 'h"
+        },
+        "port": 29100,
+        "seedsDns": [
+            "76.74.170.128",
+            "hxx-addnode01.chainsilo.com",
+            "hxx-addnode02.chainsilo.com",
+            "hxx-addnode03.chainsilo.com",
+            "hxx-addnode04.chainsilo.com",
+            "hxx-addnode05.chainsilo.com",
+            "76.74.170.128",
+            "hxx-addnode01.chainsilo.com",
+            "hxx-addnode02.chainsilo.com",
+            "hxx-addnode03.chainsilo.com",
+            "hxx-addnode04.chainsilo.com",
+            "hxx-addnode05.chainsilo.com"
+        ],
+        "versions": {
+            "private": "0xd2",
+            "public": "0x28",
+            "scripthash": "0x0a",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "322bad477efb4b33fa4b1f0b2861eaf543c61068da9898a95062fdb02ada486f",
+        "portRpc": 29200,
+        "per1": 100000000,
+        "messageMagic": "hexxcoin Signed Message:\\n"
+    }
+}

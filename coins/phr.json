@@ -1,0 +1,57 @@
+{
+    "main": {
+        "unit": "PHR",
+        "name": "Phore",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe9fdc491"
+        },
+        "port": 11771,
+        "seedsDns": [
+            "0",
+            "1",
+            "dns0.phore.io",
+            "phore.seed.rho.industries"
+        ],
+        "versions": {
+            "private": "0xd4",
+            "public": "0x37",
+            "scripthash": "0x0d",
+            "bip32": {
+                "public": "0x022d2533",
+                "private": "0x0221312b"
+            },
+            "bip44": 444
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",
+        "portRpc": 11772,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    },
+    "test": {
+        "unit": "PHR",
+        "name": "Phore - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xba657647"
+        },
+        "port": 11773,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x8b",
+            "scripthash": "0x13",
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",
+        "portRpc": 11774,
+        "per1": 100000000,
+        "messageMagic": "DarkNet Signed Message:\\n"
+    }
+}

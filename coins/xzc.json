@@ -1,0 +1,101 @@
+{
+    "main": {
+        "unit": "XZC",
+        "name": "ZCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xf1fed9e3"
+        },
+        "port": 8168,
+        "seedsDns": [
+            "sf1.zcoin.io",
+            "sf2.zcoin.io",
+            "london.zcoin.io",
+            "singapore.zcoin.io",
+            "nyc.zcoin.io",
+            "sf1.zcoin.io",
+            "sf2.zcoin.io",
+            "london.zcoin.io",
+            "singapore.zcoin.io",
+            "nyc.zcoin.io"
+        ],
+        "versions": {
+            "private": "0xd2",
+            "public": "0x52",
+            "scripthash": "0x07",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": 136
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233",
+        "portRpc": 8888,
+        "per1": 100000000,
+        "messageMagic": "Zcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "XZC",
+        "name": "ZCoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xeabefccf"
+        },
+        "port": 18168,
+        "seedsDns": [
+            "beta1.zcoin.io",
+            "beta2.zcoin.io",
+            "testnetbitcoin.jonasschnelli.ch",
+            "petertodd.org",
+            "bluematt.me",
+            "bitcoin.schildbach.de",
+            "beta1.zcoin.io",
+            "beta2.zcoin.io",
+            "testnet-seed.bitcoin.jonasschnelli.ch",
+            "seed.tbtc.petertodd.org",
+            "testnet-seed.bluematt.me",
+            "testnet-seed.bitcoin.schildbach.de"
+        ],
+        "versions": {
+            "private": "0xb9",
+            "public": "0x41",
+            "scripthash": "0xb2",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0x7ac038c193c2158c428c59f9ae0c02a07115141c6e9dc244ae96132e99b4e6420x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
+        "portRpc": 18888,
+        "per1": 100000000,
+        "messageMagic": "Zcoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "XZC",
+        "name": "ZCoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 18444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x41",
+            "scripthash": "0xb2",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "0x0080c7bf30bb2579ed9c93213475bf8fafc1f53807da908cde19cf405b9eb55b0x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
+        "portRpc": 28888,
+        "per1": 100000000,
+        "messageMagic": "Zcoin Signed Message:\\n"
+    }
+}

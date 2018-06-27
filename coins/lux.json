@@ -1,0 +1,66 @@
+{
+    "main": {
+        "unit": "LUX",
+        "name": "LUXCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xa7c973f9"
+        },
+        "port": 16969,
+        "seedsDns": [
+            "149.28.163.40",
+            "207.148.83.62",
+            "207.148.81.88",
+            "149.28.172.147",
+            "149.28.163.40",
+            "207.148.83.62",
+            "207.148.81.88",
+            "149.28.172.147"
+        ],
+        "versions": {
+            "private": "0x9b",
+            "public": "0x30",
+            "scripthash": "0x3f",
+            "bip32": {
+                "public": "0x0728a24e",
+                "private": "0x03d8a1e5"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": "bc",
+        "hashGenesisBlock": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
+        "portRpc": 9888,
+        "per1": 100000000,
+        "messageMagic": "Lux Signed Message:\\n"
+    },
+    "test": {
+        "unit": "LUX",
+        "name": "LUXCoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xab516754"
+        },
+        "port": 28333,
+        "seedsDns": [
+            "luxtest1",
+            "luxtest2",
+            "140.82.45.100",
+            "144.202.3.186"
+        ],
+        "versions": {
+            "private": "0x9b",
+            "public": "0x30",
+            "scripthash": "0x3f",
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": "tb",
+        "hashGenesisBlock": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",
+        "portRpc": 9777,
+        "per1": 100000000,
+        "messageMagic": "Lux Signed Message:\\n"
+    }
+}

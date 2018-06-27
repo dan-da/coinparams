@@ -1,0 +1,84 @@
+{
+    "main": {
+        "unit": "MOON",
+        "name": "Mooncoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe8c0f7f9"
+        },
+        "port": 44664,
+        "seedsDns": [
+            "bazco.in",
+            "bazco.in",
+            "bazco.in",
+            "node0.bazco.in",
+            "node1.bazco.in",
+            "bazco.in"
+        ],
+        "versions": {
+            "private": "0x83",
+            "public": "0x03",
+            "scripthash": "0x16",
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bip44": null
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "bd687cbbac4842724d4b1dfd2e1a6ce35d765db05635b3ebd3810ba66ac5aee9",
+        "portRpc": 44663,
+        "per1": 100000000,
+        "messageMagic": "Mooncoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "MOON",
+        "name": "Mooncoin - Test",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xf1c8d2fd"
+        },
+        "port": 19335,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+        "portRpc": 144663,
+        "per1": 100000000,
+        "messageMagic": "Mooncoin Signed Message:\\n"
+    },
+    "regtest": {
+        "unit": "MOON",
+        "name": "Mooncoin - Regtest",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdab5bffa"
+        },
+        "port": 19444,
+        "seedsDns": [],
+        "versions": {
+            "private": "0xef",
+            "public": "0x6f",
+            "scripthash": "0xc4",
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+        "portRpc": 144663,
+        "per1": 100000000,
+        "messageMagic": "Mooncoin Signed Message:\\n"
+    }
+}
