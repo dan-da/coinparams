@@ -43,7 +43,7 @@
     },
     "test": {
         "unit": "CRW",
-        "name": "Crown - Test",
+        "name": "Crown - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x060e180f"

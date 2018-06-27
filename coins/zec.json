@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "ZEC",
-        "name": "Zcash - Test",
+        "name": "Zcash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xbff91afa"

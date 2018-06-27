@@ -49,7 +49,7 @@
     },
     "test": {
         "unit": "BWK",
-        "name": "Bulwark - Test",
+        "name": "Bulwark - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xa0f4d9b5"

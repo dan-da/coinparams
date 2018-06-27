@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "APR",
-        "name": "APR Coin - Test",
+        "name": "APR Coin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xbc922daa"

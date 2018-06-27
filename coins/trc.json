@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "TRC",
-        "name": "Terracoin - Test",
+        "name": "Terracoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

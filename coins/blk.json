@@ -29,7 +29,7 @@
     },
     "test": {
         "unit": "BLK",
-        "name": "Blackcoin - Test",
+        "name": "Blackcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xefc0f2cd"

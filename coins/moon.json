@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "MOON",
-        "name": "Mooncoin - Test",
+        "name": "Mooncoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf1c8d2fd"

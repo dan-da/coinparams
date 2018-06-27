@@ -26,7 +26,7 @@
     },
     "test": {
         "unit": "LINDA",
-        "name": "Linda - Test",
+        "name": "Linda - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xefc0f2ce"

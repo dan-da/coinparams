@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "UNO",
-        "name": "Unobtanium - Test",
+        "name": "Unobtanium - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x04030201"

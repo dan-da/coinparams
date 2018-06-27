@@ -37,7 +37,7 @@
     },
     "test": {
         "unit": "DMD",
-        "name": "Diamond - Test",
+        "name": "Diamond - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xba657645"

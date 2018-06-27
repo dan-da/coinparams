@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "QTUM",
-        "name": "Qtum - Test",
+        "name": "Qtum - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0615220d"

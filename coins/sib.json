@@ -37,7 +37,7 @@
     },
     "test": {
         "unit": "SIB",
-        "name": "SIBCoin - Test",
+        "name": "SIBCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xffcae2ce"

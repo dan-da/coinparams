@@ -39,7 +39,7 @@
     },
     "test": {
         "unit": "BCH",
-        "name": "Bitcoin Cash - Test",
+        "name": "Bitcoin Cash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf4f3e5f4"

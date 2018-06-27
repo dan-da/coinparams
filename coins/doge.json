@@ -35,7 +35,7 @@
     },
     "test": {
         "unit": "DOGE",
-        "name": "Dogecoin - Test",
+        "name": "Dogecoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xdcb7c1fc"

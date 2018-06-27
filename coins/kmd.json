@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "KMD",
-        "name": "Komodo - Test",
+        "name": "Komodo - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x627E1F5A"

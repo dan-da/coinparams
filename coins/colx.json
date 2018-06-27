@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "COLX",
-        "name": "ColossusXT - Test",
+        "name": "ColossusXT - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xbb667746"

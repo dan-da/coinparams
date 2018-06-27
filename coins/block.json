@@ -49,7 +49,7 @@
     },
     "test": {
         "unit": "BLOCK",
-        "name": "Blocknet - Test",
+        "name": "Blocknet - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xba657645"

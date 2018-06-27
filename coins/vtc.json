@@ -34,7 +34,7 @@
     },
     "test": {
         "unit": "VTC",
-        "name": "Vertcoin - Test",
+        "name": "Vertcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x't';'r';'e';'v';"

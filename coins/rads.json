@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "RADS",
-        "name": "Radium - Test",
+        "name": "Radium - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x77cc77c3"

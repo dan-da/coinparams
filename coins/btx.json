@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "BTX",
-        "name": "Bitcore - Test",
+        "name": "Bitcore - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

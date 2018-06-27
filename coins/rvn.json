@@ -29,7 +29,7 @@
     },
     "test": {
         "unit": "RVN",
-        "name": "Ravencoin - Test",
+        "name": "Ravencoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x544E5652"

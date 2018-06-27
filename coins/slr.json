@@ -29,7 +29,7 @@
     },
     "test": {
         "unit": "SLR",
-        "name": "SolarCoin - Test",
+        "name": "SolarCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf1c8d2fd"

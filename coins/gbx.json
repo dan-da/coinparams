@@ -47,7 +47,7 @@
     },
     "test": {
         "unit": "GBX",
-        "name": "GoByte - Test",
+        "name": "GoByte - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x7ab32bd1"

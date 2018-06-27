@@ -433,7 +433,7 @@
     },
     "test": {
         "unit": "ALQO",
-        "name": "ALQO - Test",
+        "name": "ALQO - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x54654464"

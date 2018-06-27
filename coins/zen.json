@@ -39,7 +39,7 @@
     },
     "test": {
         "unit": "ZEN",
-        "name": "Zencash - Test",
+        "name": "Zencash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xe6cdf2bf"

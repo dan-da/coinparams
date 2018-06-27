@@ -41,7 +41,7 @@
     },
     "test": {
         "unit": "BSD",
-        "name": "BitSend - Test",
+        "name": "BitSend - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

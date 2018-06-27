@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "BITG",
-        "name": "Bitcoin Green - Test",
+        "name": "Bitcoin Green - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xbc322d4a"

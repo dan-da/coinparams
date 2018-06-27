@@ -30,7 +30,7 @@
     },
     "test": {
         "unit": "BTG",
-        "name": "Bitcoin Gold - Test",
+        "name": "Bitcoin Gold - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x456e48e2"

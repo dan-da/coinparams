@@ -45,7 +45,7 @@
     },
     "test": {
         "unit": "EMC2",
-        "name": "Einsteinium - Test",
+        "name": "Einsteinium - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xc1f0a2fa"

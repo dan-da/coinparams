@@ -37,7 +37,7 @@
     },
     "test": {
         "unit": "PIVX",
-        "name": "PIVX - Test",
+        "name": "PIVX - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xba657645"

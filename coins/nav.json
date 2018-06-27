@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "NAV",
-        "name": "Navcoin - Test",
+        "name": "Navcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x2052a23f"

@@ -35,7 +35,7 @@
     },
     "test": {
         "unit": "RDD",
-        "name": "Reddcoin - Test",
+        "name": "Reddcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xdeb9c3fe"

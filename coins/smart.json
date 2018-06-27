@@ -45,7 +45,7 @@
     },
     "test": {
         "unit": "SMART",
-        "name": "SmartCash - Test",
+        "name": "SmartCash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xeabefccf"

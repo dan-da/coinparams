@@ -28,7 +28,7 @@
     },
     "test": {
         "unit": "MONA",
-        "name": "Monacoin - Test",
+        "name": "Monacoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf1c8d2fd"

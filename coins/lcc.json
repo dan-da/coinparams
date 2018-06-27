@@ -28,7 +28,7 @@
     },
     "test": {
         "unit": "LCC",
-        "name": "Litecoin Cash - Test",
+        "name": "Litecoin Cash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xcfd3f5b6"

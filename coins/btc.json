@@ -34,7 +34,7 @@
     },
     "test": {
         "unit": "BTC",
-        "name": "Bitcoin - Test",
+        "name": "Bitcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

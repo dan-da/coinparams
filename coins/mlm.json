@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "MLM",
-        "name": "MktCoin - Test",
+        "name": "MktCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

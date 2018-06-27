@@ -29,7 +29,7 @@
     },
     "test": {
         "unit": "ZOI",
-        "name": "Zoin - Test",
+        "name": "Zoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x09bf5dae"

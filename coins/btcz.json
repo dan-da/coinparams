@@ -39,7 +39,7 @@
     },
     "test": {
         "unit": "BTCZ",
-        "name": "BitcoinZ - Test",
+        "name": "BitcoinZ - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xbff91afa"

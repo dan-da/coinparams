@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "ION",
-        "name": "ION - Test",
+        "name": "ION - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x69fc86db"

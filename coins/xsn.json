@@ -39,7 +39,7 @@
     },
     "test": {
         "unit": "XSN",
-        "name": "Stakenet - Test",
+        "name": "Stakenet - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xffcae2ce"

@@ -28,7 +28,7 @@
     },
     "test": {
         "unit": "GAME",
-        "name": "GameCredits - Test",
+        "name": "GameCredits - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

@@ -39,7 +39,7 @@
     },
     "test": {
         "unit": "BCD",
-        "name": "Bitcoin Diamond - Test",
+        "name": "Bitcoin Diamond - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x1820cd0b"

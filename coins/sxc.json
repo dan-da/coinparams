@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "SXC",
-        "name": "Sexcoin - Test",
+        "name": "Sexcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x6996cefa"

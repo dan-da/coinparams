@@ -32,7 +32,7 @@
     },
     "test": {
         "unit": "FLO",
-        "name": "FlorinCoin - Test",
+        "name": "FlorinCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf25ac0fd"

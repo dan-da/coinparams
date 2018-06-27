@@ -34,7 +34,7 @@
     },
     "test": {
         "unit": "DGB",
-        "name": "Digibyte - Test",
+        "name": "Digibyte - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xddbdc8fd"

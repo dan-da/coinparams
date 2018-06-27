@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "BCO",
-        "name": "BridgeCoin - Test",
+        "name": "BridgeCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xf1c8d2fd"

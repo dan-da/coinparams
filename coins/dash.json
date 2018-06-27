@@ -35,7 +35,7 @@
     },
     "test": {
         "unit": "DASH",
-        "name": "Dash - Test",
+        "name": "Dash - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xffcae2ce"

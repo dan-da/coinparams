@@ -33,7 +33,7 @@
     },
     "test": {
         "unit": "GRS",
-        "name": "Groestlcoin - Test",
+        "name": "Groestlcoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x0709110b"

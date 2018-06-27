@@ -45,7 +45,7 @@
     },
     "test": {
         "unit": "XMY",
-        "name": "Myriad - Test",
+        "name": "Myriad - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xa455f501"

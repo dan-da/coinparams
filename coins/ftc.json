@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "FTC",
-        "name": "Feathercoin - Test",
+        "name": "Feathercoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x716a6591"

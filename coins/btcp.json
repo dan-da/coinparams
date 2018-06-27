@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "BTCP",
-        "name": "Bitcoin Private - Test",
+        "name": "Bitcoin Private - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xd6f61bf6"

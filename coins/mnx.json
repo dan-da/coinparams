@@ -51,7 +51,7 @@
     },
     "test": {
         "unit": "MNX",
-        "name": "Minex - Test",
+        "name": "Minex - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0x544c4a54"

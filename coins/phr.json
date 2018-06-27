@@ -31,7 +31,7 @@
     },
     "test": {
         "unit": "PHR",
-        "name": "Phore - Test",
+        "name": "Phore - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xba657647"

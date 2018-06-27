@@ -28,7 +28,7 @@
     },
     "test": {
         "unit": "CLAM",
-        "name": "Clams - Test",
+        "name": "Clams - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xdfc0f1c4"

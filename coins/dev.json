@@ -41,7 +41,7 @@
     },
     "test": {
         "unit": "DEV",
-        "name": "DeviantCoin - Test",
+        "name": "DeviantCoin - Testnet",
         "testnet": true,
         "protocol": {
             "magic": "0xcd557950"
