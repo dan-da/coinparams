@@ -1,4 +1,769 @@
 {
+    "ALQO": {
+        "main": {
+            "unit": "ALQO",
+            "name": "ALQO",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x14150494"
+            },
+            "port": 55500,
+            "seedsDns": [
+                "mainseed.alqoseednodes.org",
+                "mainseed2.alqoseednodes.org",
+                "85.25.138.64",
+                "89.40.1.207",
+                "94.177.163.5",
+                "217.163.28.54",
+                "79.98.24.205",
+                "45.76.62.186",
+                "89.47.160.80",
+                "89.47.164.163",
+                "89.40.10.63",
+                "45.77.200.171",
+                "109.235.69.156",
+                "89.47.160.106",
+                "77.221.153.17",
+                "212.24.111.138",
+                "155.94.226.42",
+                "62.77.153.254",
+                "199.247.15.35",
+                "62.77.158.112",
+                "140.82.45.192",
+                "89.47.167.163",
+                "62.77.158.97",
+                "45.32.221.191",
+                "89.40.12.222",
+                "222.191.227.122",
+                "89.40.8.72",
+                "198.211.114.139",
+                "89.47.162.242",
+                "45.32.158.35",
+                "89.40.11.193",
+                "62.77.152.6",
+                "80.209.235.69",
+                "144.217.192.159",
+                "80.209.237.235",
+                "94.16.122.215",
+                "188.68.55.90",
+                "95.216.142.83",
+                "8.9.8.100",
+                "104.156.225.204",
+                "62.77.159.144",
+                "194.135.81.126",
+                "188.201.198.114",
+                "80.209.238.227",
+                "59.42.89.34",
+                "62.77.156.93",
+                "62.77.158.105",
+                "62.77.156.218",
+                "144.202.90.68",
+                "45.77.185.13",
+                "174.138.4.156",
+                "47.92.1.214",
+                "89.47.160.109",
+                "94.176.234.190",
+                "89.40.12.59",
+                "89.40.13.68",
+                "209.250.254.244",
+                "140.82.34.161",
+                "80.208.226.210",
+                "94.176.239.106",
+                "89.40.12.105",
+                "208.167.248.144",
+                "62.77.152.7",
+                "89.47.165.1",
+                "108.61.222.196",
+                "52.91.63.63",
+                "45.76.206.87",
+                "89.47.165.159",
+                "207.246.87.163",
+                "89.40.4.112",
+                "144.202.102.75",
+                "80.209.233.43",
+                "159.65.64.48",
+                "45.32.193.236",
+                "89.40.3.82",
+                "89.40.1.54",
+                "209.250.236.185",
+                "89.47.160.76",
+                "45.77.111.95",
+                "62.77.156.222",
+                "89.40.3.81",
+                "80.208.227.222",
+                "209.250.239.53",
+                "45.77.116.80",
+                "45.32.89.163",
+                "103.57.209.83",
+                "80.209.224.163",
+                "62.77.155.147",
+                "80.209.224.146",
+                "63.142.252.48",
+                "199.247.14.150",
+                "120.27.234.36",
+                "209.250.227.43",
+                "45.76.32.121",
+                "159.65.240.84",
+                "45.77.201.188",
+                "80.209.237.211",
+                "89.40.6.147",
+                "158.69.202.48",
+                "209.250.247.31",
+                "47.97.166.99",
+                "108.61.170.252",
+                "45.76.92.72",
+                "89.40.6.253",
+                "89.40.8.77",
+                "89.40.11.140",
+                "51.15.46.223",
+                "195.201.34.154",
+                "47.92.137.156",
+                "89.40.0.251",
+                "62.77.157.14",
+                "62.77.155.200",
+                "45.77.211.106",
+                "107.174.233.131",
+                "195.181.241.25",
+                "103.57.208.58",
+                "160.19.48.213",
+                "80.209.239.43",
+                "80.209.232.40",
+                "45.32.136.85",
+                "139.99.120.25",
+                "167.99.34.19",
+                "89.47.160.65",
+                "194.135.94.188",
+                "140.82.1.146",
+                "86.121.208.47",
+                "108.61.211.98",
+                "89.40.6.145",
+                "178.32.113.197",
+                "54.37.157.60",
+                "89.40.13.175",
+                "89.40.6.210",
+                "89.40.5.40",
+                "80.209.235.164",
+                "120.79.190.251",
+                "188.68.45.227",
+                "89.47.166.64",
+                "94.176.238.216",
+                "80.209.226.48",
+                "209.250.232.224",
+                "89.40.3.86",
+                "195.201.141.227",
+                "89.40.6.148",
+                "68.232.175.18",
+                "89.40.10.76",
+                "47.92.83.66",
+                "47.254.31.178",
+                "194.182.80.150",
+                "195.181.242.102",
+                "209.250.236.176",
+                "89.47.161.150",
+                "89.40.13.117",
+                "62.77.156.225",
+                "45.32.42.43",
+                "80.209.235.239",
+                "89.47.164.15",
+                "47.92.75.41",
+                "207.246.116.37",
+                "212.24.100.157",
+                "35.201.242.160",
+                "103.57.209.83",
+                "89.47.160.243",
+                "80.209.230.80",
+                "207.148.12.14",
+                "199.247.17.200",
+                "195.181.242.100",
+                "45.76.142.145",
+                "80.208.224.92",
+                "103.57.208.58",
+                "45.77.73.37",
+                "104.238.173.130",
+                "80.209.229.222",
+                "45.77.149.54",
+                "62.77.158.98",
+                "45.77.86.233",
+                "89.40.8.213",
+                "89.40.5.42",
+                "89.46.70.77",
+                "62.77.157.189",
+                "172.104.156.90",
+                "194.135.89.67",
+                "80.209.235.152",
+                "194.135.81.206",
+                "103.230.158.57",
+                "80.209.237.127",
+                "209.250.233.241",
+                "209.250.236.119",
+                "62.77.157.172",
+                "62.77.153.113",
+                "80.209.229.38",
+                "62.77.157.181",
+                "208.167.255.210",
+                "62.77.159.153",
+                "138.201.152.149",
+                "89.40.2.65",
+                "45.77.59.206",
+                "89.40.1.91",
+                "163.172.166.59",
+                "80.208.225.216",
+                "94.176.235.8",
+                "62.77.153.22",
+                "51.15.4.242",
+                "89.40.5.53",
+                "mainseed.alqoseednodes.org",
+                "mainseed2.alqoseednodes.org",
+                "85.25.138.64",
+                "89.40.1.207",
+                "94.177.163.5",
+                "217.163.28.54",
+                "79.98.24.205",
+                "45.76.62.186",
+                "89.47.160.80",
+                "89.47.164.163",
+                "89.40.10.63",
+                "45.77.200.171",
+                "109.235.69.156",
+                "89.47.160.106",
+                "77.221.153.17",
+                "212.24.111.138",
+                "155.94.226.42",
+                "62.77.153.254",
+                "199.247.15.35",
+                "62.77.158.112",
+                "140.82.45.192",
+                "89.47.167.163",
+                "62.77.158.97",
+                "45.32.221.191",
+                "89.40.12.222",
+                "222.191.227.122",
+                "89.40.8.72",
+                "198.211.114.139",
+                "89.47.162.242",
+                "45.32.158.35",
+                "89.40.11.193",
+                "62.77.152.6",
+                "80.209.235.69",
+                "144.217.192.159",
+                "80.209.237.235",
+                "94.16.122.215",
+                "188.68.55.90",
+                "95.216.142.83",
+                "8.9.8.100",
+                "104.156.225.204",
+                "62.77.159.144",
+                "194.135.81.126",
+                "188.201.198.114",
+                "80.209.238.227",
+                "59.42.89.34",
+                "62.77.156.93",
+                "62.77.158.105",
+                "62.77.156.218",
+                "144.202.90.68",
+                "45.77.185.13",
+                "174.138.4.156",
+                "47.92.1.214",
+                "89.47.160.109",
+                "94.176.234.190",
+                "89.40.12.59",
+                "89.40.13.68",
+                "209.250.254.244",
+                "140.82.34.161",
+                "80.208.226.210",
+                "94.176.239.106",
+                "89.40.12.105",
+                "208.167.248.144",
+                "62.77.152.7",
+                "89.47.165.1",
+                "108.61.222.196",
+                "52.91.63.63",
+                "45.76.206.87",
+                "89.47.165.159",
+                "207.246.87.163",
+                "89.40.4.112",
+                "144.202.102.75",
+                "80.209.233.43",
+                "159.65.64.48",
+                "45.32.193.236",
+                "89.40.3.82",
+                "89.40.1.54",
+                "209.250.236.185",
+                "89.47.160.76",
+                "45.77.111.95",
+                "62.77.156.222",
+                "89.40.3.81",
+                "80.208.227.222",
+                "209.250.239.53",
+                "45.77.116.80",
+                "45.32.89.163",
+                "103.57.209.83",
+                "80.209.224.163",
+                "62.77.155.147",
+                "80.209.224.146",
+                "63.142.252.48",
+                "199.247.14.150",
+                "120.27.234.36",
+                "209.250.227.43",
+                "45.76.32.121",
+                "159.65.240.84",
+                "45.77.201.188",
+                "80.209.237.211",
+                "89.40.6.147",
+                "158.69.202.48",
+                "209.250.247.31",
+                "47.97.166.99",
+                "108.61.170.252",
+                "45.76.92.72",
+                "89.40.6.253",
+                "89.40.8.77",
+                "89.40.11.140",
+                "51.15.46.223",
+                "195.201.34.154",
+                "47.92.137.156",
+                "89.40.0.251",
+                "62.77.157.14",
+                "62.77.155.200",
+                "45.77.211.106",
+                "107.174.233.131",
+                "195.181.241.25",
+                "103.57.208.58",
+                "160.19.48.213",
+                "80.209.239.43",
+                "80.209.232.40",
+                "45.32.136.85",
+                "139.99.120.25",
+                "167.99.34.19",
+                "89.47.160.65",
+                "194.135.94.188",
+                "140.82.1.146",
+                "86.121.208.47",
+                "108.61.211.98",
+                "89.40.6.145",
+                "178.32.113.197",
+                "54.37.157.60",
+                "89.40.13.175",
+                "89.40.6.210",
+                "89.40.5.40",
+                "80.209.235.164",
+                "120.79.190.251",
+                "188.68.45.227",
+                "89.47.166.64",
+                "94.176.238.216",
+                "80.209.226.48",
+                "209.250.232.224",
+                "89.40.3.86",
+                "195.201.141.227",
+                "89.40.6.148",
+                "68.232.175.18",
+                "89.40.10.76",
+                "47.92.83.66",
+                "47.254.31.178",
+                "194.182.80.150",
+                "195.181.242.102",
+                "209.250.236.176",
+                "89.47.161.150",
+                "89.40.13.117",
+                "62.77.156.225",
+                "45.32.42.43",
+                "80.209.235.239",
+                "89.47.164.15",
+                "47.92.75.41",
+                "207.246.116.37",
+                "212.24.100.157",
+                "35.201.242.160",
+                "103.57.209.83",
+                "89.47.160.243",
+                "80.209.230.80",
+                "207.148.12.14",
+                "199.247.17.200",
+                "195.181.242.100",
+                "45.76.142.145",
+                "80.208.224.92",
+                "103.57.208.58",
+                "45.77.73.37",
+                "104.238.173.130",
+                "80.209.229.222",
+                "45.77.149.54",
+                "62.77.158.98",
+                "45.77.86.233",
+                "89.40.8.213",
+                "89.40.5.42",
+                "89.46.70.77",
+                "62.77.157.189",
+                "172.104.156.90",
+                "194.135.89.67",
+                "80.209.235.152",
+                "194.135.81.206",
+                "103.230.158.57",
+                "80.209.237.127",
+                "209.250.233.241",
+                "209.250.236.119",
+                "62.77.157.172",
+                "62.77.153.113",
+                "80.209.229.38",
+                "62.77.157.181",
+                "208.167.255.210",
+                "62.77.159.153",
+                "138.201.152.149",
+                "89.40.2.65",
+                "45.77.59.206",
+                "89.40.1.91",
+                "163.172.166.59",
+                "80.208.225.216",
+                "94.176.235.8",
+                "62.77.153.22",
+                "51.15.4.242",
+                "89.40.5.53"
+            ],
+            "versions": {
+                "private": "0xc1",
+                "public": "0x17",
+                "scripthash": "0x10",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000006680a85db563f3a849c77e02a8c860068474ab2c5495cc24a2204727b62",
+            "portRpc": 55000,
+            "per1": 100000000,
+            "messageMagic": "ALQO Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ALQO",
+            "name": "ALQO - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x54654464"
+            },
+            "port": 55600,
+            "seedsDns": [
+                "85.25.138.64",
+                "85.25.251.198",
+                "85.25.251.199",
+                "80.209.227.9",
+                "80.209.228.190",
+                "80.209.228.191",
+                "80.209.228.192",
+                "80.209.228.193",
+                "80.209.228.189",
+                "80.209.228.194",
+                "80.209.228.197",
+                "80.209.228.196",
+                "80.209.228.195",
+                "85.25.138.64",
+                "85.25.251.198",
+                "85.25.251.199",
+                "80.209.227.9",
+                "80.209.228.190",
+                "80.209.228.191",
+                "80.209.228.192",
+                "80.209.228.193",
+                "80.209.228.189",
+                "80.209.228.194",
+                "80.209.228.197",
+                "80.209.228.196",
+                "80.209.228.195"
+            ],
+            "versions": {
+                "private": "0xc1",
+                "public": "0x53",
+                "scripthash": "0x12",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000083eda581357fce6db177da9049ee583b3d32236d4ff52e1f86fee2d5aad",
+            "portRpc": 55000,
+            "per1": 100000000,
+            "messageMagic": "ALQO Signed Message:\\n"
+        }
+    },
+    "APR": {
+        "main": {
+            "unit": "APR",
+            "name": "APR Coin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x2e92eca4"
+            },
+            "port": 3133,
+            "seedsDns": [
+                "167.99.171.144",
+                "206.189.160.179",
+                "167.99.171.144",
+                "206.189.160.179"
+            ],
+            "versions": {
+                "private": "0x2e",
+                "public": "0x0c",
+                "scripthash": "0x06",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000003ae9a3767e1a412e8ac769a4e99a7a1ca3cf2848c9e5abe1ea2fef8a2fd",
+            "portRpc": 3132,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "APR",
+            "name": "APR Coin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xbc922daa"
+            },
+            "port": 13133,
+            "seedsDns": [],
+            "versions": {
+                "private": "0x6c",
+                "public": "0x62",
+                "scripthash": "0x0c",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000a8cc5b18e27b3b0068d3a554d4f9b5661b092f4d467a8df2ca9407fef27",
+            "portRpc": 13132,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "AUR": {
+        "main": {
+            "unit": "AUR",
+            "name": "Auroracoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x6cdca4fd"
+            },
+            "port": 12340,
+            "portRpc": 12341,
+            "seedsDns": [
+                "luxembourgh",
+                "united-states-west",
+                "united-states-east",
+                "iceland",
+                "the-netherlands",
+                "electrum2",
+                "electrum3",
+                "electrum4",
+                "s1.auroraseed.net",
+                "aurseed1.criptoe.com",
+                "s1.auroraseed.com",
+                "s1.auroraseed.org",
+                "s1.auroraseed.eu",
+                "electrum2.aurorcoin.is",
+                "electrum3.auroracoin.is",
+                "electrum4.auroracoin.is"
+            ],
+            "versions": {
+                "private": "0xb0",
+                "public": "0x17",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 85
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "2a8e100939494904af825b488596ddd536b3a96226ad02e0f7ab7ae472b27a8e",
+            "per1": 100000000,
+            "messageMagic": "Auroracoin Signed Message:\\n"
+        }
+    },
+    "BCA": {
+        "main": {
+            "unit": "BCA",
+            "name": "Bitcoin Atom",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe81dc14f"
+            },
+            "port": 7333,
+            "seedsDns": [
+                "seed.bitcoinatom.io",
+                "seed.bitcoin-atom.org",
+                "seed.bitcoinatom.net"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x17",
+                "scripthash": "0x0a",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 185
+            },
+            "bech32_hrp": "bca",
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 7332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BCA",
+            "name": "Bitcoin Atom - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xd63f8ea6"
+            },
+            "port": 17333,
+            "seedsDns": [
+                "testnet-seed.bitcoinatom.io",
+                "testnet-seed.bitcoin-atom.org",
+                "testnet-seed.bitcoinatom.net"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tbca",
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 17332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BCA",
+            "name": "Bitcoin Atom - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x4a1fd7ca"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "bcart",
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 17443,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        }
+    },
+    "BCD": {
+        "main": {
+            "unit": "BCD",
+            "name": "Bitcoin Diamond",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd9b4debd"
+            },
+            "port": 7117,
+            "seedsDns": [
+                "dns1.btcd.io",
+                "dns2.btcd.io",
+                "dns3.btcd.io",
+                "dns4.btcd.io",
+                "dns5.btcd.io",
+                "dns6.btcd.io",
+                "seed1.dns.btcd.io",
+                "seed2.dns.btcd.io",
+                "seed3.dns.btcd.io",
+                "seed4.dns.btcd.io",
+                "seed5.dns.btcd.io",
+                "seed6.dns.btcd.io"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 999
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 7116,
+            "per1": 10000000,
+            "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BCD",
+            "name": "Bitcoin Diamond - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x1820cd0b"
+            },
+            "port": 17117,
+            "seedsDns": [
+                "test1.dns.btcd.io",
+                "test1.dns.btcd.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 17116,
+            "per1": 10000000,
+            "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BCD",
+            "name": "Bitcoin Diamond - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18332,
+            "per1": 10000000,
+            "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        }
+    },
     "BCH": {
         "main": {
             "unit": "BCH",
@@ -40,7 +805,7 @@
         },
         "test": {
             "unit": "BCH",
-            "name": "Bitcoin Cash - Test",
+            "name": "Bitcoin Cash - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xf4f3e5f4"
@@ -98,6 +863,242 @@
             "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
+    "BCI": {
+        "main": {
+            "unit": "BCI",
+            "name": "Bitcoin Interest",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x26fee4ed"
+            },
+            "port": 8331,
+            "seedsDns": [
+                "seeder1.bci-server.com",
+                "seeder2.bci-server.com",
+                "seeder3.bci-server.com"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x66",
+                "scripthash": "0x17",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 8332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Interest Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BCI",
+            "name": "Bitcoin Interest - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x7be774dd"
+            },
+            "port": 18331,
+            "seedsDns": [
+                "test-seeder1.bci-server.com",
+                "test-seeder2.bci-server.com",
+                "test-seeder3.bci-server.com",
+                "test-seeder4.bci-server.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Interest Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BCI",
+            "name": "Bitcoin Interest - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Interest Signed Message:\\n"
+        }
+    },
+    "BCO": {
+        "main": {
+            "unit": "BCO",
+            "name": "BridgeCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xdbb6c0fb"
+            },
+            "port": 6333,
+            "seedsDns": [
+                "seed 1",
+                "seed 2",
+                "seed 3",
+                "seed1.bridgecoin.org",
+                "seed2.bridgecoin.org",
+                "seed3.bridgecoin.org"
+            ],
+            "versions": {
+                "private": "0xb0",
+                "public": "0x1b",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 162
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+            "portRpc": 6332,
+            "per1": 100000000,
+            "messageMagic": "bridgecoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BCO",
+            "name": "BridgeCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf1c8d2fd"
+            },
+            "port": 16333,
+            "seedsDns": [
+                "seed 1",
+                "seed 2",
+                "seed 3",
+                "seed1.bridgecoin.org",
+                "seed2.bridgecoin.org",
+                "seed3.bridgecoin.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x0a",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+            "portRpc": 16332,
+            "per1": 100000000,
+            "messageMagic": "bridgecoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BCO",
+            "name": "BridgeCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+            "portRpc": 16332,
+            "per1": 100000000,
+            "messageMagic": "bridgecoin Signed Message:\\n"
+        }
+    },
+    "BITG": {
+        "main": {
+            "unit": "BITG",
+            "name": "Bitcoin Green",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xae12dc54"
+            },
+            "port": 9333,
+            "seedsDns": [
+                "seed1.savebitcoin.io",
+                "seed2.savebitcoin.io",
+                "seed3.savebitcoin.io",
+                "seed1.savebitcoin.io",
+                "seed2.savebitcoin.io",
+                "seed3.savebitcoin.io"
+            ],
+            "versions": {
+                "private": "0x2e",
+                "public": "0x26",
+                "scripthash": "0x06",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 222
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",
+            "portRpc": 9332,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BITG",
+            "name": "Bitcoin Green - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xbc322d4a"
+            },
+            "port": 19333,
+            "seedsDns": [],
+            "versions": {
+                "private": "0x6c",
+                "public": "0x62",
+                "scripthash": "0x0c",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",
+            "portRpc": 19332,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
     "BLK": {
         "main": {
             "unit": "BLK",
@@ -129,7 +1130,7 @@
         },
         "test": {
             "unit": "BLK",
-            "name": "Blackcoin - Test",
+            "name": "Blackcoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xefc0f2cd"
@@ -151,6 +1152,189 @@
             "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
             "per1": 100000000,
             "messageMagic": "BlackCoin Signed Message:\\n"
+        }
+    },
+    "BLOCK": {
+        "main": {
+            "unit": "BLOCK",
+            "name": "Blocknet",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xa3a2a0a1"
+            },
+            "port": 41412,
+            "seedsDns": [
+                "178.62.90.213",
+                "138.197.73.214",
+                "34.235.49.248",
+                "35.157.52.158",
+                "18.196.208.65",
+                "13.251.15.150",
+                "13.229.39.34",
+                "52.56.35.74",
+                "35.177.173.53",
+                "35.178.142.231",
+                "35.176.65.103",
+                "178.62.90.213",
+                "138.197.73.214",
+                "34.235.49.248",
+                "35.157.52.158",
+                "18.196.208.65",
+                "13.251.15.150",
+                "13.229.39.34",
+                "52.56.35.74",
+                "35.177.173.53",
+                "35.178.142.231",
+                "35.176.65.103"
+            ],
+            "versions": {
+                "private": "0x9a",
+                "public": "0x1a",
+                "scripthash": "0x1c",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 328
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000eb7919102da5a07dc90905651664e6ebf0811c28f06573b9a0fd84ab7b8",
+            "portRpc": 41414,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BLOCK",
+            "name": "Blocknet - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xba657645"
+            },
+            "port": 41474,
+            "seedsDns": [
+                "178.62.90.213",
+                "138.197.73.214",
+                "34.235.49.248",
+                "178.62.90.213",
+                "138.197.73.214",
+                "34.235.49.248"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8b",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000f90ac260859e4515356719d94c9fb8cadb1a3dda186a64ac41ce4c3c7a7",
+            "portRpc": 41419,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "BSD": {
+        "main": {
+            "unit": "BSD",
+            "name": "BitSend",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf9c2d5a3"
+            },
+            "port": 8886,
+            "seedsDns": [
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76",
+                "213.136.80.93",
+                "213.136.86.202",
+                "213.136.86.205",
+                "213.136.86.207",
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76",
+                "213.136.80.93",
+                "213.136.86.202",
+                "213.136.86.205",
+                "213.136.86.207"
+            ],
+            "versions": {
+                "private": "0xcc",
+                "public": "0x66",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 91
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+            "portRpc": 8800,
+            "per1": 100000000,
+            "messageMagic": "Bitsend Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BSD",
+            "name": "BitSend - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 18333,
+            "seedsDns": [
+                "testnetbitsend.jonasschnelli.ch",
+                "petertodd.org",
+                "bluematt.me",
+                "bitsend.schildbach.de",
+                "testnet-seed.bitsend.jonasschnelli.ch",
+                "seed.tbtc.petertodd.org",
+                "testnet-seed.bluematt.me",
+                "testnet-seed.bitsend.schildbach.de"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+            "portRpc": 18800,
+            "per1": 100000000,
+            "messageMagic": "Bitsend Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BSD",
+            "name": "BitSend - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xaf2c1a4c"
+            },
+            "port": 8885,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "Bitsend Signed Message:\\n"
         }
     },
     "BTC": {
@@ -189,7 +1373,7 @@
         },
         "test": {
             "unit": "BTC",
-            "name": "Bitcoin - Test",
+            "name": "Bitcoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0x0709110b"
@@ -243,6 +1427,138 @@
             "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
+    "BTCP": {
+        "main": {
+            "unit": "BTCP",
+            "name": "Bitcoin Private",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xcda2eaa8"
+            },
+            "port": 7933,
+            "seedsDns": [
+                "btcprivate.org",
+                "btcprivate.co",
+                "dnsseed.btcprivate.org",
+                "dnsseed.btcprivate.co"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x1325",
+                "scripthash": "0x13af",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 183
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+            "portRpc": 7932,
+            "per1": 100000000,
+            "messageMagic": "BitcoinPrivate Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BTCP",
+            "name": "Bitcoin Private - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xd6f61bf6"
+            },
+            "port": 17933,
+            "seedsDns": [
+                "btcprivate.org",
+                "btcprivate.co",
+                "dnsseed.testnet.btcprivate.org",
+                "dnsseed.testnet1.btcprivate.co"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x1957",
+                "scripthash": "0x19e0",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+            "portRpc": 17932,
+            "per1": 100000000,
+            "messageMagic": "BitcoinPrivate Signed Message:\\n"
+        }
+    },
+    "BTCZ": {
+        "main": {
+            "unit": "BTCZ",
+            "name": "BitcoinZ",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x6427e924"
+            },
+            "port": 1989,
+            "seedsDns": [
+                "b8491e7ea3502b8fcda9106923e68b92ef43c331dbf9cfb3c94af473bfbf308b.BTCZ",
+                "67f534b87f9a2412f845e39102f184e3a48798ed6e2a64d98b915aa12b625e9c.BTCZ",
+                "acdd520508bbfa96029867cf64b824fa5e41ebe47918bd4b7855d7a186ed795c.BTCZ",
+                "4437c91da6e4c4edca56b57bd52c2e11a3fd7d8b04bd9dec9584fb5220f54b05.BTCZ",
+                "0416c4d89c3c4078f7127b7b482c5c242328306f1706fe2edcdb7c94e2fdad45.BTCZ",
+                "e3dca99ba0e7b1d24cca73458f1d67f4014a60565bcf05e5748271922ce897a0.BTCZ",
+                "btcz.kovach.biz",
+                "seed.btcz.life",
+                "bzseed.secnode.tk",
+                "btzseed.blockhub.info",
+                "seed.btcz.biz",
+                "btczseed.1ds.us"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x1cb8",
+                "scripthash": "0x1cbd",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 177
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "f499ee3d498b4298ac6a64205b8addb7c43197e2a660229be65db8a4534d75c1",
+            "portRpc": 1979,
+            "per1": 100000000,
+            "messageMagic": "BitcoinZ Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BTCZ",
+            "name": "BitcoinZ - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xbff91afa"
+            },
+            "port": 11989,
+            "seedsDns": [
+                "978b674532d58328c4da63ab138c476ffa2f8a8b2b5a023a668fd3a97eb7c48b.TZB",
+                "rotorproject.org",
+                "testnetseed.btcz.biz",
+                "test-dnsseed.rotorproject.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x1d25",
+                "scripthash": "0x1cba",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+            "portRpc": 11979,
+            "per1": 100000000,
+            "messageMagic": "BitcoinZ Signed Message:\\n"
+        }
+    },
     "BTG": {
         "main": {
             "unit": "BTG",
@@ -275,7 +1591,7 @@
         },
         "test": {
             "unit": "BTG",
-            "name": "Bitcoin Gold - Test",
+            "name": "Bitcoin Gold - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0x456e48e2"
@@ -328,6 +1644,383 @@
             "messageMagic": "Bitcoin Gold Signed Message:\\n"
         }
     },
+    "BTX": {
+        "main": {
+            "unit": "BTX",
+            "name": "Bitcore",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd9b4bef9"
+            },
+            "port": 8555,
+            "seedsDns": [
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76",
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 160
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+            "portRpc": 8556,
+            "per1": 100000000,
+            "messageMagic": "BitCore Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BTX",
+            "name": "Bitcore - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 18333,
+            "seedsDns": [
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76",
+                "188.68.52.172",
+                "37.120.186.85",
+                "37.120.190.76"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+            "portRpc": 50332,
+            "per1": 100000000,
+            "messageMagic": "BitCore Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "BTX",
+            "name": "Bitcore - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [
+                "dnsseed1.bitcore.org",
+                "dnsseed2.bitcore.org",
+                "dnsseed1.bitcore.org",
+                "dnsseed2.bitcore.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
+            "portRpc": 50332,
+            "per1": 100000000,
+            "messageMagic": "BitCore Signed Message:\\n"
+        }
+    },
+    "BWK": {
+        "main": {
+            "unit": "BWK",
+            "name": "Bulwark",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x17010208"
+            },
+            "port": 52543,
+            "seedsDns": [
+                "bwkseed.mempool.pw",
+                "bwkseed1.bulwarkcrypto.com",
+                "bwkseed2.bulwarkcrypto.com",
+                "bwkseed3.bulwarkcrypto.com",
+                "bwkseed4.bulwarkcrypto.com",
+                "bwkseed5.bulwarkcrypto.com",
+                "bwkseed1.bulwarkcrypto.site",
+                "bwkseed2.bulwarkcrypto.site",
+                "bwkseed3.bulwarkcrypto.site",
+                "bwkseed4.bulwarkcrypto.site",
+                "bwkseed5.bulwarkcrypto.site",
+                "bwkseed.mempool.pw",
+                "bwkseed1.bulwarkcrypto.com",
+                "bwkseed2.bulwarkcrypto.com",
+                "bwkseed3.bulwarkcrypto.com",
+                "bwkseed4.bulwarkcrypto.com",
+                "bwkseed5.bulwarkcrypto.com",
+                "bwkseed1.bulwarkcrypto.site",
+                "bwkseed2.bulwarkcrypto.site",
+                "bwkseed3.bulwarkcrypto.site",
+                "bwkseed4.bulwarkcrypto.site",
+                "bwkseed5.bulwarkcrypto.site"
+            ],
+            "versions": {
+                "private": "0xd4",
+                "public": "0x55",
+                "scripthash": "0x12",
+                "bip32": {
+                    "public": "0x022d2533",
+                    "private": "0x0221312b"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574",
+            "portRpc": 52541,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BWK",
+            "name": "Bulwark - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xa0f4d9b5"
+            },
+            "port": 42133,
+            "seedsDns": [
+                "testnet01.mempool.pw",
+                "testnet02.mempool.pw",
+                "testnet03.mempool.pw",
+                "testnet01.mempool.pw",
+                "testnet02.mempool.pw",
+                "testnet03.mempool.pw"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x41",
+                "scripthash": "0x0c",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285",
+            "portRpc": 42132,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "CLAM": {
+        "main": {
+            "unit": "CLAM",
+            "name": "Clams",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x15352203"
+            },
+            "port": 31174,
+            "portRpc": 30174,
+            "seedsDns": [
+                "clam.just-dice.com"
+            ],
+            "versions": {
+                "private": "0x85",
+                "public": "0x89",
+                "scripthash": "0x0d",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 23
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000c3ce6b3d823a35224a39798eca9ad889966aeb5a9da7b960ffb9869db35",
+            "per1": 100000000,
+            "messageMagic": "Clam Signed Message:\\n"
+        },
+        "test": {
+            "unit": "CLAM",
+            "name": "Clams - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdfc0f1c4"
+            },
+            "port": 35714,
+            "portRpc": 35715,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00001924120e93f445dd4adb9d90e0020350b8c6c2b08e1a4950372a37f8bcc8",
+            "per1": 100000000,
+            "messageMagic": "Clam Signed Message:\\n"
+        }
+    },
+    "COLX": {
+        "main": {
+            "unit": "COLX",
+            "name": "ColossusXT",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xeafec591"
+            },
+            "port": 51572,
+            "seedsDns": [
+                "colx1",
+                "colx2",
+                "colx3",
+                "seed.colossuscoinxt.org",
+                "seed.colossusxt.org",
+                "seed.colxt.net"
+            ],
+            "versions": {
+                "private": "0xd4",
+                "public": "0x1e",
+                "scripthash": "0x0d",
+                "bip32": {
+                    "public": "0x022d2533",
+                    "private": "0x0221312b"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "a0ce8206c908357008c1b9a8ba2813aff0989ca7f72d62b14e652c55f02b4f5c",
+            "portRpc": 51473,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "COLX",
+            "name": "ColossusXT - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xbb667746"
+            },
+            "port": 51374,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8b",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "6cd37a546cfaafeee652fd0f3a85ba64c0f539f771a27fca9610cdc2f3278932",
+            "portRpc": 51475,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "CRW": {
+        "main": {
+            "unit": "CRW",
+            "name": "Crown",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xdfb3ebb8"
+            },
+            "port": 9340,
+            "seedsDns": [
+                "fra-crwdns",
+                "blr-crwdns",
+                "sgp-crwdns",
+                "lon-crwdns",
+                "nyc-crwdns",
+                "tor-crwdns",
+                "sfo-crwdns",
+                "ams-crwdns",
+                "fra-crwdns.crowndns.info",
+                "blr-crwdns.crowndns.info",
+                "sgp-crwdns.crowndns.info",
+                "lon-crwdns.crowndns.info",
+                "nyc-crwdns.crowndns.info",
+                "tor-crwdns.crowndns.info",
+                "sfo-crwdns.crowndns.info",
+                "ams-crwdns.crowndns.info"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x1c",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 72
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",
+            "portRpc": 9341,
+            "per1": 100000000,
+            "messageMagic": "Crown Signed Message:\\n"
+        },
+        "test": {
+            "unit": "CRW",
+            "name": "Crown - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x060e180f"
+            },
+            "port": 19340,
+            "seedsDns": [
+                "fra-testnet-crwdns",
+                "blr-testnet-crwdns",
+                "sgp-testnet-crwdns",
+                "lon-testnet-crwdns",
+                "nyc-testnet-crwdns",
+                "tor-testnet-crwdns",
+                "sfo-testnet-crwdns",
+                "ams-testnet-crwdns",
+                "fra-testnet-crwdns.crowndns.info",
+                "blr-testnet-crwdns.crowndns.info",
+                "sgp-testnet-crwdns.crowndns.info",
+                "lon-testnet-crwdns.crowndns.info",
+                "nyc-testnet-crwdns.crowndns.info",
+                "tor-testnet-crwdns.crowndns.info",
+                "sfo-testnet-crwdns.crowndns.info",
+                "ams-testnet-crwdns.crowndns.info"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",
+            "portRpc": 19341,
+            "per1": 100000000,
+            "messageMagic": "Crown Signed Message:\\n"
+        }
+    },
     "DASH": {
         "main": {
             "unit": "DASH",
@@ -365,7 +2058,7 @@
         },
         "test": {
             "unit": "DASH",
-            "name": "Dash - Test",
+            "name": "Dash - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xffcae2ce"
@@ -479,6 +2172,82 @@
             "messageMagic": "Decred Signed Message:\\n"
         }
     },
+    "DEV": {
+        "main": {
+            "unit": "DEV",
+            "name": "DeviantCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xb8adb428"
+            },
+            "port": 22618,
+            "seedsDns": [
+                "seed1.deviantcoin.io",
+                "seed2.deviantcoin.io",
+                "seed3.deviantcoin.io",
+                "seed4.deviantcoin.io",
+                "seed5.deviantcoin.io",
+                "seed6.deviantcoin.io",
+                "seed7.deviantcoin.io",
+                "seed1.deviantcoin.io",
+                "seed2.deviantcoin.io",
+                "seed3.deviantcoin.io",
+                "seed4.deviantcoin.io",
+                "seed5.deviantcoin.io",
+                "seed6.deviantcoin.io",
+                "seed7.deviantcoin.io"
+            ],
+            "versions": {
+                "private": "0x89",
+                "public": "0x5a",
+                "scripthash": "0x0a",
+                "bip32": {
+                    "public": "0x044d5066",
+                    "private": "0x0441514b"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000e697a1e963f6ae8288419ffb0d59de9d232bac8efda8c6491d1c31e3139",
+            "portRpc": 22617,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "DEV",
+            "name": "DeviantCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xcd557950"
+            },
+            "port": 51484,
+            "seedsDns": [
+                "fuzzbawls.pw",
+                "fuzzbawls.pw",
+                "s3v3nh4cks.ddns.net",
+                "192.168.100.2",
+                "deviant-testnet.seed.fuzzbawls.pw",
+                "deviant-testnet.seed2.fuzzbawls.pw",
+                "s3v3nh4cks.ddns.net",
+                "192.168.100.2"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x81",
+                "scripthash": "0x0e",
+                "bip32": {
+                    "public": "0x2a4071b0",
+                    "private": "0x2a407847"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000014bd7a053eb417c79a53bf206733927fab837ad1a5e06265b21f8d9e9e8",
+            "portRpc": 51485,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
     "DGB": {
         "main": {
             "unit": "DGB",
@@ -515,7 +2284,7 @@
         },
         "test": {
             "unit": "DGB",
-            "name": "Digibyte - Test",
+            "name": "Digibyte - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xddbdc8fd"
@@ -569,6 +2338,72 @@
             "messageMagic": "DigiByte Signed Message:\\n"
         }
     },
+    "DMD": {
+        "main": {
+            "unit": "DMD",
+            "name": "Diamond",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xfdbde8e4"
+            },
+            "port": 17771,
+            "seedsDns": [
+                "dnsseed.bit.diamonds",
+                "37.120.186.85",
+                "185.194.140.60",
+                "188.68.39.1",
+                "188.68.52.172",
+                "dnsseed.bit.diamonds",
+                "37.120.186.85",
+                "185.194.140.60",
+                "188.68.39.1",
+                "188.68.52.172"
+            ],
+            "versions": {
+                "private": "0xda",
+                "public": "0x5a",
+                "scripthash": "0x08",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 152
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+            "portRpc": 17770,
+            "per1": 100000000,
+            "messageMagic": "Diamond Signed Message:\\n"
+        },
+        "test": {
+            "unit": "DMD",
+            "name": "Diamond - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xba657645"
+            },
+            "port": 51474,
+            "seedsDns": [
+                "dnsseed.bit.diamonds",
+                "dnsseed.bit.diamonds"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8b",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+            "portRpc": 17772,
+            "per1": 100000000,
+            "messageMagic": "Diamond Signed Message:\\n"
+        }
+    },
     "DOGE": {
         "main": {
             "unit": "DOGE",
@@ -606,7 +2441,7 @@
         },
         "test": {
             "unit": "DOGE",
-            "name": "Dogecoin - Test",
+            "name": "Dogecoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xdcb7c1fc"
@@ -631,6 +2466,1160 @@
             "portRpc": 44555,
             "per1": 100000000,
             "messageMagic": "Dogecoin Signed Message:\\n"
+        }
+    },
+    "EMC": {
+        "main": {
+            "unit": "EMC",
+            "name": "Emercoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe5e9e8e6"
+            },
+            "port": 6661,
+            "seedsDns": [
+                "emercoin.com",
+                "emercoin.net",
+                "emergate.net",
+                "emcdns",
+                "seed.emercoin.com",
+                "seed.emercoin.net",
+                "seed.emergate.net",
+                "seed.emc"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x21",
+                "scripthash": "0x5c",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d",
+            "portRpc": 6662,
+            "per1": 1000000,
+            "messageMagic": "EmerCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "EMC",
+            "name": "Emercoin - Test",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cb"
+            },
+            "port": 6663,
+            "seedsDns": [
+                "emercoin",
+                "tnseed.emercoin.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212",
+            "portRpc": 6662,
+            "per1": 1000000,
+            "messageMagic": "EmerCoin Signed Message:\\n"
+        }
+    },
+    "EMC2": {
+        "main": {
+            "unit": "EMC2",
+            "name": "Einsteinium",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xacc4f1e8"
+            },
+            "port": 41878,
+            "seedsDns": [
+                "emc2.foundation",
+                "emc2.foundation",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "chainworksindustries.com",
+                "dnsseeder01.emc2.foundation",
+                "dnsseeder02.emc2.foundation",
+                "emc2-seed01.chainworksindustries.com",
+                "emc2-seed02.chainworksindustries.com",
+                "emc2-seed03.chainworksindustries.com",
+                "emc2-seed04.chainworksindustries.com",
+                "emc2-seed05.chainworksindustries.com",
+                "emc2-seed06.chainworksindustries.com",
+                "emc2-seed07.chainworksindustries.com"
+            ],
+            "versions": {
+                "private": "0xb0",
+                "public": "0x21",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 41
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "4e56204bb7b8ac06f860ff1c845f03f984303b5b97eb7b42868f714611aed94b",
+            "portRpc": 41879,
+            "per1": 100000000,
+            "messageMagic": "Einsteinium Signed Message:\\n"
+        },
+        "test": {
+            "unit": "EMC2",
+            "name": "Einsteinium - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xc1f0a2fa"
+            },
+            "port": 31878,
+            "seedsDns": [
+                "test.emc2.foundation",
+                "dnsseedertest01.emc2.foundation"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "a4271888b5e60092c3e7183a76d454741e9a7a55f2b4afbe574615829e406bee",
+            "portRpc": 31879,
+            "per1": 100000000,
+            "messageMagic": "Einsteinium Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "EMC2",
+            "name": "Einsteinium - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 31880,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+            "portRpc": 31879,
+            "per1": 100000000,
+            "messageMagic": "Einsteinium Signed Message:\\n"
+        }
+    },
+    "FLO": {
+        "main": {
+            "unit": "FLO",
+            "name": "FlorinCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf1a5c0fd"
+            },
+            "port": 7312,
+            "seedsDns": [
+                "seed1.florincoin.org",
+                "node.oip.fun",
+                "flodns.oip.li",
+                "flodns.oip.fun",
+                "flodns.seednode.net"
+            ],
+            "versions": {
+                "private": "0xa3",
+                "public": "0x23",
+                "scripthash": "0x08",
+                "bip32": {
+                    "public": "0x0134406b",
+                    "private": "0x01343c31"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea",
+            "portRpc": 7313,
+            "per1": 100000000,
+            "messageMagic": "Florincoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "FLO",
+            "name": "FlorinCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf25ac0fd"
+            },
+            "port": 17312,
+            "seedsDns": [
+                "testnet.oip.fun"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x73",
+                "scripthash": "0xc6",
+                "bip32": {
+                    "public": "0x013440e2",
+                    "private": "0x01343c23"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "9b7bc86236c34b5e3a39367c036b7fe8807a966c22a7a1f0da2a198a27e03731",
+            "portRpc": 17313,
+            "per1": 100000000,
+            "messageMagic": "Florincoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "FLO",
+            "name": "FlorinCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 17412,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x73",
+                "scripthash": "0xc6",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "ec42fa26ca6dcb1103b59a1d24b161935ea4566f8d5736db8917d5b9a8dee0d7",
+            "portRpc": 17313,
+            "per1": 100000000,
+            "messageMagic": "Florincoin Signed Message:\\n"
+        }
+    },
+    "FST": {
+        "main": {
+            "unit": "FST",
+            "name": "Fastcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xdbb6c0fb"
+            },
+            "port": 9526,
+            "seedsDns": [
+                "dnsseed.fastcoin.ws",
+                "ns-1470.awsdns-55.org",
+                "ns-1863.awsdns-40.co.uk",
+                "fastcoinpool.org",
+                "weminemnc.com",
+                "s1.fastcoin.ws",
+                "u2.fastcoin.ws",
+                "a1.fastcoin.ws",
+                "dnsseed.fastcoinpool.org",
+                "dnsseed.weminemnc.com"
+            ],
+            "versions": {
+                "private": "0xe0",
+                "public": "0x60",
+                "scripthash": "0x14",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "ecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b",
+            "portRpc": 9527,
+            "per1": 100000000,
+            "messageMagic": "Fastcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "FST",
+            "name": "Fastcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 19526,
+            "seedsDns": [
+                "fastcointools.com",
+                "xurious.com",
+                "wemine-testnet.com",
+                "testnet-seed.fastcointools.com",
+                "testnet-seed.ltc.xurious.com",
+                "dnsseed.wemine-testnet.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+            "portRpc": 19527,
+            "per1": 100000000,
+            "messageMagic": "Fastcoin Signed Message:\\n"
+        }
+    },
+    "FTC": {
+        "main": {
+            "unit": "FTC",
+            "name": "Feathercoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x211a1541"
+            },
+            "port": 9336,
+            "seedsDns": [
+                "dnsseed.feathercoin.com",
+                "dnsseed1.feathercoin.com",
+                "dnsseed.alltheco.in",
+                "dnsseed.bushstar.co.uk"
+            ],
+            "versions": {
+                "private": "0x8e",
+                "public": "0x0e",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488bc26",
+                    "private": "0x0488daee"
+                },
+                "bip44": 8
+            },
+            "bech32_hrp": "fc",
+            "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+            "portRpc": 9337,
+            "per1": 100000000,
+            "messageMagic": "Feathercoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "FTC",
+            "name": "Feathercoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x716a6591"
+            },
+            "port": 19336,
+            "seedsDns": [
+                "testnet-explorer2.feathercoin.com",
+                "testnet-dnsseed.feathercoin.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tf",
+            "hashGenesisBlock": "7734b3734ab1f0d0758e6c274622a377092549df05f6a4fe6939cbc754939169",
+            "portRpc": 0,
+            "per1": 100000000,
+            "messageMagic": "Feathercoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "FTC",
+            "name": "Feathercoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xb1aaa5d1"
+            },
+            "port": 18446,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "fcrt",
+            "hashGenesisBlock": "c797e583cd93b97b1370a687519606abebd2b84fc4294b0e7584f59187e23ebb",
+            "portRpc": 18447,
+            "per1": 100000000,
+            "messageMagic": "Feathercoin Signed Message:\\n"
+        }
+    },
+    "GAME": {
+        "main": {
+            "unit": "GAME",
+            "name": "GameCredits",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xdbb6c0fb"
+            },
+            "port": 40002,
+            "seedsDns": [
+                "dnsseed.btcgold.club"
+            ],
+            "versions": {
+                "private": "0xa6",
+                "public": "0x26",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 101
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee",
+            "portRpc": 40001,
+            "per1": 100000000,
+            "messageMagic": "GameCredits Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GAME",
+            "name": "GameCredits - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 50001,
+            "seedsDns": [
+                "gamecredits.co",
+                "test.gamecredits.co"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "153b15fb136894fc92041175a59038d4b155b22d40d2885a7996f170d95c1d20",
+            "portRpc": 50000,
+            "per1": 100000000,
+            "messageMagic": "GameCredits Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "GAME",
+            "name": "GameCredits - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "2574af5d531ba2c7b1b2994de62ae356699cb579cd744cf5dc8a565fce6db638",
+            "portRpc": 50000,
+            "per1": 100000000,
+            "messageMagic": "GameCredits Signed Message:\\n"
+        }
+    },
+    "GBX": {
+        "main": {
+            "unit": "GBX",
+            "name": "GoByte",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd4c3b21a"
+            },
+            "port": 12455,
+            "seedsDns": [
+                "seed1.gobyte.network",
+                "seed2.gobyte.network",
+                "seed3.gobyte.network",
+                "seed4.gobyte.network",
+                "seed5.gobyte.network",
+                "seed6.gobyte.network",
+                "seed7.gobyte.network",
+                "seed8.gobyte.network",
+                "seed9.gobyte.network",
+                "seed10.gobyte.network",
+                "seed1.gobyte.network",
+                "seed2.gobyte.network",
+                "seed3.gobyte.network",
+                "seed4.gobyte.network",
+                "seed5.gobyte.network",
+                "seed6.gobyte.network",
+                "seed7.gobyte.network",
+                "seed8.gobyte.network",
+                "seed9.gobyte.network",
+                "seed10.gobyte.network"
+            ],
+            "versions": {
+                "private": "0xc6",
+                "public": "0x26",
+                "scripthash": "0x0a",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 176
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07",
+            "portRpc": 12454,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GBX",
+            "name": "GoByte - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x7ab32bd1"
+            },
+            "port": 13455,
+            "seedsDns": [
+                "gobyte.network",
+                "gobyte.network",
+                "testnet-dns.gobyte.network",
+                "testnet2-dns.gobyte.network"
+            ],
+            "versions": {
+                "private": "0xf0",
+                "public": "0x70",
+                "scripthash": "0x14",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000c958ba1a0fe2174effe57a7f39c4c32b8341f1efa20be78b48b6b6bb353",
+            "portRpc": 13454,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "GBX",
+            "name": "GoByte - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x7bd5b3a1"
+            },
+            "port": 13565,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xf0",
+                "public": "0x70",
+                "scripthash": "0x14",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a",
+            "portRpc": 13564,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        }
+    },
+    "GIN": {
+        "main": {
+            "unit": "GIN",
+            "name": "GINcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xbd6b0cbf"
+            },
+            "port": 10111,
+            "seedsDns": [
+                "gincoin.io",
+                "seed2.gincoin.io",
+                "seed3.gincoin.io",
+                "seed4.gincoin.io",
+                "seed5.gincoin.io",
+                "seed1.gincoin.io",
+                "seed2.gincoin.io",
+                "seed3.gincoin.io",
+                "seed4.gincoin.io",
+                "seed5.gincoin.io"
+            ],
+            "versions": {
+                "private": "0xc6",
+                "public": "0x26",
+                "scripthash": "0x0a",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000cd6bde619b2c3b23ad2e384328a450a37fa28731debf748c3b17f91f97d",
+            "portRpc": 10211,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GIN",
+            "name": "GINcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xffcae2ce"
+            },
+            "port": 12111,
+            "seedsDns": [
+                "test.gincoin.io",
+                "test.gincoin.io",
+                "test-s1.gincoin.io",
+                "test-s2.gincoin.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000ac0100fe889e7130e47d13819cc91eba5646dc1e8fc050c7a67532565ed",
+            "portRpc": 12211,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "GIN",
+            "name": "GINcoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 19111,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "5f8058aea61edae50983271d61c69161ca1ee90a556127aba1b18f414e3293b7",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        }
+    },
+    "GRS": {
+        "main": {
+            "unit": "GRS",
+            "name": "Groestlcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd9b4bef9"
+            },
+            "port": 8333,
+            "seedsDns": [
+                "seed.bitcoin.sipa.be",
+                "dnsseed.bluematt.me",
+                "dnsseed.bitcoin.dashjr.org",
+                "seed.bitcoinstats.com",
+                "seed.bitcoin.jonasschnelli.ch",
+                "seed.btc.petertodd.org"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 17
+            },
+            "bech32_hrp": "bc",
+            "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "portRpc": 1441,
+            "per1": 100000000,
+            "messageMagic": "GroestlCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GRS",
+            "name": "Groestlcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 18333,
+            "seedsDns": [
+                "testnet-seed.bitcoin.jonasschnelli.ch",
+                "seed.tbtc.petertodd.org",
+                "seed.testnet.bitcoin.sprovoost.nl",
+                "testnet-seed.bluematt.me"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tb",
+            "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+            "portRpc": 17766,
+            "per1": 100000000,
+            "messageMagic": "GroestlCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "GRS",
+            "name": "Groestlcoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "bcrt",
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18443,
+            "per1": 100000000,
+            "messageMagic": "GroestlCoin Signed Message:\\n"
+        }
+    },
+    "HTML": {
+        "main": {
+            "unit": "HTML",
+            "name": "HTMLCOIN",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x4c3d2e1f"
+            },
+            "port": 4888,
+            "seedsDns": [
+                "htmlcoin.com",
+                "htmlcoin.com",
+                "htmlcoin.com",
+                "htmlcoin.com",
+                "seed1.htmlcoin.com",
+                "seed2.htmlcoin.com",
+                "seed3.htmlcoin.com",
+                "seed4.htmlcoin.com"
+            ],
+            "versions": {
+                "private": "0xa9",
+                "public": "0x29",
+                "scripthash": "0x64",
+                "bip32": {
+                    "public": "0x1397c10d",
+                    "private": "0x1397bcf3"
+                },
+                "bip44": 172
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000bf23c6424c270a24a17a3db723361c349e0f966d7b55a6bca4bfb2d951b0",
+            "portRpc": 4889,
+            "per1": 100000000,
+            "messageMagic": "HTMLCOIN Signed Message:\\n"
+        },
+        "test": {
+            "unit": "HTML",
+            "name": "HTMLCOIN - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x5c4d3e2f"
+            },
+            "port": 14888,
+            "seedsDns": [
+                "htmlcoin.com",
+                "testnet-seed1.htmlcoin.com"
+            ],
+            "versions": {
+                "private": "0xe4",
+                "public": "0x64",
+                "scripthash": "0x6e",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000013694772f8aeb88efeb2829fe5d71fbca3e23d5043baa770726f204f528c",
+            "portRpc": 14889,
+            "per1": 100000000,
+            "messageMagic": "HTMLCOIN Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "HTML",
+            "name": "HTMLCOIN - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x6c5d4e3f"
+            },
+            "port": 24888,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x78",
+                "scripthash": "0x6e",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "03c80d2399e1fe481a51e122ac55159a4e5fe635494a7fd368f3e440241fccb2",
+            "portRpc": 14889,
+            "per1": 100000000,
+            "messageMagic": "HTMLCOIN Signed Message:\\n"
+        }
+    },
+    "HXX": {
+        "main": {
+            "unit": "HXX",
+            "name": "Hexx",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x{ 'x{ 'x{ 'e{ 'h"
+            },
+            "port": 29100,
+            "seedsDns": [
+                "76.74.170.128",
+                "hxx-addnode01.chainsilo.com",
+                "hxx-addnode02.chainsilo.com",
+                "hxx-addnode03.chainsilo.com",
+                "hxx-addnode04.chainsilo.com",
+                "hxx-addnode05.chainsilo.com",
+                "76.74.170.128",
+                "hxx-addnode01.chainsilo.com",
+                "hxx-addnode02.chainsilo.com",
+                "hxx-addnode03.chainsilo.com",
+                "hxx-addnode04.chainsilo.com",
+                "hxx-addnode05.chainsilo.com"
+            ],
+            "versions": {
+                "private": "0xd2",
+                "public": "0x28",
+                "scripthash": "0x0a",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "322bad477efb4b33fa4b1f0b2861eaf543c61068da9898a95062fdb02ada486f",
+            "portRpc": 29200,
+            "per1": 100000000,
+            "messageMagic": "hexxcoin Signed Message:\\n"
+        }
+    },
+    "ION": {
+        "main": {
+            "unit": "ION",
+            "name": "ION",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xecd8e1c4"
+            },
+            "port": 12700,
+            "seedsDns": [
+                "1",
+                "2",
+                "main.seeder.baseserv.com",
+                "main.seeder.uksafedns.net"
+            ],
+            "versions": {
+                "private": "0x99",
+                "public": "0x67",
+                "scripthash": "0x58",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000004cf5ffbf2e31a9aa07c86298efb01a30b8911b80af7473d1114715084b",
+            "portRpc": 12705,
+            "per1": 100000000,
+            "messageMagic": "Ion Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ION",
+            "name": "ION - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x69fc86db"
+            },
+            "port": 27170,
+            "seedsDns": [
+                "1",
+                "2",
+                "testnet.seeder.baseserv.com",
+                "testnet.seeder.uksafedns.net"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x61",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358391"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000002bed128b6b2a62bd8edd4e6f8a414eac38e256aa0194adb8c93fe18132",
+            "portRpc": 27171,
+            "per1": 100000000,
+            "messageMagic": "Ion Signed Message:\\n"
+        }
+    },
+    "KMD": {
+        "main": {
+            "unit": "KMD",
+            "name": "Komodo",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x(ASS(ASS(ASSASSE8de4eef9"
+            },
+            "port": 7770,
+            "seedsDns": [
+                "komodoplatform.com",
+                "kolo.supernet.org",
+                "kolo.supernet.org",
+                "seeds.komodoplatform.com",
+                "static.kolo.supernet.org",
+                "dynamic.kolo.supernet.org"
+            ],
+            "versions": {
+                "private": "0xbc",
+                "public": "0x3c",
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 141
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71",
+            "portRpc": 7771,
+            "per1": 100000000,
+            "messageMagic": "Komodo Signed Message:\\n"
+        },
+        "test": {
+            "unit": "KMD",
+            "name": "Komodo - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x627E1F5A"
+            },
+            "port": 17770,
+            "seedsDns": [
+                "z.cash",
+                "dns.testnet.z.cash"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+            "portRpc": 17771,
+            "per1": 100000000,
+            "messageMagic": "Komodo Signed Message:\\n"
+        }
+    },
+    "LCC": {
+        "main": {
+            "unit": "LCC",
+            "name": "Litecoin Cash",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf8bae4c7"
+            },
+            "port": 62458,
+            "seedsDns": [
+                "seeds.litecoinca.sh"
+            ],
+            "versions": {
+                "private": "0xb0",
+                "public": "0x1c",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 192
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+            "portRpc": 62457,
+            "per1": 10000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "LCC",
+            "name": "Litecoin Cash - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xcfd3f5b6"
+            },
+            "port": 19335,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x2b",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+            "portRpc": 62455,
+            "per1": 10000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "LCC",
+            "name": "Litecoin Cash - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+            "portRpc": 62455,
+            "per1": 10000000,
+            "messageMagic": "Litecoin Signed Message:\\n"
+        }
+    },
+    "LINDA": {
+        "main": {
+            "unit": "LINDA",
+            "name": "Linda",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x0117d39c"
+            },
+            "port": 33820,
+            "portRpc": 33821,
+            "seedsDns": [],
+            "versions": {
+                "private": "0x99",
+                "public": "0x30",
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000fa793257f502f94a3531aebdaf91b070324a8f5041324b80f4b0f74c51",
+            "per1": 100000000,
+            "messageMagic": "Linda Signed Message:\\n"
+        },
+        "test": {
+            "unit": "LINDA",
+            "name": "Linda - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2ce"
+            },
+            "port": 28888,
+            "portRpc": 28889,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x17",
+                "scripthash": "0xbb",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00005862693a9c2692d3abb4d071f261c1c64db9824d89ae28d533e435f6d87c",
+            "per1": 100000000,
+            "messageMagic": "Linda Signed Message:\\n"
         }
     },
     "LTC": {
@@ -667,7 +3656,7 @@
         },
         "test": {
             "unit": "LTC",
-            "name": "Litecoin - Test",
+            "name": "Litecoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xf1c8d2fd"
@@ -720,6 +3709,266 @@
             "messageMagic": "Litecoin Signed Message:\\n"
         }
     },
+    "LUX": {
+        "main": {
+            "unit": "LUX",
+            "name": "LUXCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xa7c973f9"
+            },
+            "port": 16969,
+            "seedsDns": [
+                "149.28.163.40",
+                "207.148.83.62",
+                "207.148.81.88",
+                "149.28.172.147",
+                "149.28.163.40",
+                "207.148.83.62",
+                "207.148.81.88",
+                "149.28.172.147"
+            ],
+            "versions": {
+                "private": "0x9b",
+                "public": "0x30",
+                "scripthash": "0x3f",
+                "bip32": {
+                    "public": "0x0728a24e",
+                    "private": "0x03d8a1e5"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": "bc",
+            "hashGenesisBlock": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
+            "portRpc": 9888,
+            "per1": 100000000,
+            "messageMagic": "Lux Signed Message:\\n"
+        },
+        "test": {
+            "unit": "LUX",
+            "name": "LUXCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xab516754"
+            },
+            "port": 28333,
+            "seedsDns": [
+                "luxtest1",
+                "luxtest2",
+                "140.82.45.100",
+                "144.202.3.186"
+            ],
+            "versions": {
+                "private": "0x9b",
+                "public": "0x30",
+                "scripthash": "0x3f",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tb",
+            "hashGenesisBlock": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",
+            "portRpc": 9777,
+            "per1": 100000000,
+            "messageMagic": "Lux Signed Message:\\n"
+        }
+    },
+    "MLM": {
+        "main": {
+            "unit": "MLM",
+            "name": "MktCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd9b4bef9"
+            },
+            "port": 9275,
+            "seedsDns": [
+                "default",
+                "seeds.mkt-coin.com",
+                "34.253.106.148",
+                "seeds.mkt-coin.com"
+            ],
+            "versions": {
+                "private": "0xee",
+                "public": "0x6e",
+                "scripthash": "0x73",
+                "bip32": {
+                    "public": "0x04c6b21e",
+                    "private": "0x04c6ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "dcbcae705b0af93fe0aaad1cc588ba243d02ed543d09bf5b167127c05cfcd5ce",
+            "portRpc": 9276,
+            "per1": 100000000,
+            "messageMagic": "MKTcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "MLM",
+            "name": "MktCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 19275,
+            "seedsDns": [
+                "default",
+                "seeds-testnet.mkt-coin.com",
+                "34.253.106.148",
+                "seeds-testnet.mkt-coin.com"
+            ],
+            "versions": {
+                "private": "0xee",
+                "public": "0x6e",
+                "scripthash": "0x73",
+                "bip32": {
+                    "public": "0x04c6b21e",
+                    "private": "0x04c6ade4"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "247b208ebeb1ecd60df2c2884fa39c4e13ac17da56efdf0348e036363697ee75",
+            "portRpc": 19276,
+            "per1": 100000000,
+            "messageMagic": "MKTcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "MLM",
+            "name": "MktCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19386,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xee",
+                "public": "0x6e",
+                "scripthash": "0x73",
+                "bip32": {
+                    "public": "0x04c6b21e",
+                    "private": "0x04c6ade4"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 19276,
+            "per1": 100000000,
+            "messageMagic": "MKTcoin Signed Message:\\n"
+        }
+    },
+    "MNX": {
+        "main": {
+            "unit": "MNX",
+            "name": "Minex",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x5d4c4a4b"
+            },
+            "port": 8335,
+            "seedsDns": [
+                "138.197.73.48",
+                "138.197.73.123",
+                "159.203.70.193",
+                "88.198.33.35",
+                "95.85.35.152",
+                "78.46.93.126",
+                "91.233.111.28",
+                "bitcoin.sipa.be",
+                "bluematt.me",
+                "dashjr.org",
+                "bitcoinstats.com",
+                "bitcoin.jonasschnelli.ch",
+                "138.197.73.48",
+                "138.197.73.123",
+                "159.203.70.193",
+                "88.198.33.35",
+                "95.85.35.152",
+                "78.46.93.126",
+                "91.233.111.28",
+                "seed.bitcoin.sipa.be",
+                "dnsseed.bluematt.me",
+                "dnsseed.bitcoin.dashjr.org",
+                "seed.bitcoinstats.com",
+                "seed.bitcoin.jonasschnelli.ch"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x4b",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 182
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",
+            "portRpc": 17786,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "MNX",
+            "name": "Minex - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x544c4a54"
+            },
+            "port": 8336,
+            "seedsDns": [
+                "138.197.90.246",
+                "139.59.154.41",
+                "138.197.90.246",
+                "139.59.154.41"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "6ef2e897f7acb347086f9860b2ad401f133fe1b103f77de771aac7b5e88cfe70",
+            "portRpc": 17788,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "MNX",
+            "name": "Minex - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x5d4c4a4b"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "Bitcoin Signed Message:\\n"
+        }
+    },
     "MONA": {
         "main": {
             "unit": "MONA",
@@ -750,7 +3999,7 @@
         },
         "test": {
             "unit": "MONA",
-            "name": "Monacoin - Test",
+            "name": "Monacoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xf1c8d2fd"
@@ -799,6 +4048,182 @@
             "portRpc": 19402,
             "per1": 100000000,
             "messageMagic": "Monacoin Signed Message:\\n"
+        }
+    },
+    "MOON": {
+        "main": {
+            "unit": "MOON",
+            "name": "Mooncoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe8c0f7f9"
+            },
+            "port": 44664,
+            "seedsDns": [
+                "bazco.in",
+                "bazco.in",
+                "bazco.in",
+                "node0.bazco.in",
+                "node1.bazco.in",
+                "bazco.in"
+            ],
+            "versions": {
+                "private": "0x83",
+                "public": "0x03",
+                "scripthash": "0x16",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "bd687cbbac4842724d4b1dfd2e1a6ce35d765db05635b3ebd3810ba66ac5aee9",
+            "portRpc": 44663,
+            "per1": 100000000,
+            "messageMagic": "Mooncoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "MOON",
+            "name": "Mooncoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf1c8d2fd"
+            },
+            "port": 19335,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+            "portRpc": 144663,
+            "per1": 100000000,
+            "messageMagic": "Mooncoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "MOON",
+            "name": "Mooncoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+            "portRpc": 144663,
+            "per1": 100000000,
+            "messageMagic": "Mooncoin Signed Message:\\n"
+        }
+    },
+    "NAV": {
+        "main": {
+            "unit": "NAV",
+            "name": "Navcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x20345080"
+            },
+            "port": 44440,
+            "seedsDns": [
+                "nav.community",
+                "navcoin.org",
+                "seed.nav.community",
+                "seed.navcoin.org"
+            ],
+            "versions": {
+                "private": "0x96",
+                "public": "0x35",
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 130
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00006a4e3e18c71c6d48ad6c261e2254fa764cf29607a4357c99b712dfbb8e6a",
+            "portRpc": 44444,
+            "per1": 100000000,
+            "messageMagic": "Navcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "NAV",
+            "name": "Navcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x2052a23f"
+            },
+            "port": 15556,
+            "seedsDns": [
+                "testnav.community",
+                "testnavcoin.org",
+                "testseed.nav.community",
+                "testseed.navcoin.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x40882be1",
+                    "private": "0x4088da4e"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000a8003f8dd50820bd7885af42dd63d7be0c39c0f8433b3e9397a6ce7d7a5c",
+            "portRpc": 44445,
+            "per1": 100000000,
+            "messageMagic": "Navcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "NAV",
+            "name": "Navcoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x89b7117d"
+            },
+            "port": 18886,
+            "seedsDns": [
+                "testnav.community",
+                "testnavcoin.org",
+                "testseed.nav.community",
+                "testseed.navcoin.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x40882be1",
+                    "private": "0x4088da4e"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000ebc922e5172da588766084696ec50a62006231e1d0d5d1e83b6a9cfc6e3f",
+            "portRpc": 44446,
+            "per1": 100000000,
+            "messageMagic": "Navcoin Signed Message:\\n"
         }
     },
     "NBT": {
@@ -861,7 +4286,7 @@
         },
         "test": {
             "unit": "NMC",
-            "name": "Namecoin - Test",
+            "name": "Namecoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xfeb5bffa"
@@ -881,7 +4306,7 @@
                 "bip44": 1
             },
             "bech32_hrp": "tn",
-            "hashGenesisBlock": "00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b0084a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+            "hashGenesisBlock": "0000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008",
             "portRpc": 18336,
             "per1": 100000000,
             "messageMagic": "Bitcoin Signed Message:\\n"
@@ -912,6 +4337,219 @@
             "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
+    "PHR": {
+        "main": {
+            "unit": "PHR",
+            "name": "Phore",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe9fdc491"
+            },
+            "port": 11771,
+            "seedsDns": [
+                "0",
+                "1",
+                "dns0.phore.io",
+                "phore.seed.rho.industries"
+            ],
+            "versions": {
+                "private": "0xd4",
+                "public": "0x37",
+                "scripthash": "0x0d",
+                "bip32": {
+                    "public": "0x022d2533",
+                    "private": "0x0221312b"
+                },
+                "bip44": 444
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",
+            "portRpc": 11772,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "PHR",
+            "name": "Phore - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xba657647"
+            },
+            "port": 11773,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8b",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",
+            "portRpc": 11774,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "PIVX": {
+        "main": {
+            "unit": "PIVX",
+            "name": "PIVX",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe9fdc490"
+            },
+            "port": 51472,
+            "seedsDns": [
+                "fuzzbawls.pw",
+                "fuzzbawls.pw",
+                "coin-server.com",
+                "s3v3nh4cks.ddns.net",
+                "178.254.23.111",
+                "pivx.seed.fuzzbawls.pw",
+                "pivx.seed2.fuzzbawls.pw",
+                "coin-server.com",
+                "s3v3nh4cks.ddns.net",
+                "178.254.23.111"
+            ],
+            "versions": {
+                "private": "0xd4",
+                "public": "0x1e",
+                "scripthash": "0x0d",
+                "bip32": {
+                    "public": "0x022d2533",
+                    "private": "0x0221312b"
+                },
+                "bip44": 119
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818",
+            "portRpc": 51473,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        },
+        "test": {
+            "unit": "PIVX",
+            "name": "PIVX - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xba657645"
+            },
+            "port": 51474,
+            "seedsDns": [
+                "fuzzbawls.pw",
+                "fuzzbawls.pw",
+                "s3v3nh4cks.ddns.net",
+                "88.198.192.110",
+                "pivx-testnet.seed.fuzzbawls.pw",
+                "pivx-testnet.seed2.fuzzbawls.pw",
+                "s3v3nh4cks.ddns.net",
+                "88.198.192.110"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8b",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818",
+            "portRpc": 51475,
+            "per1": 100000000,
+            "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "POLIS": {
+        "main": {
+            "unit": "POLIS",
+            "name": "Polis",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xbd6b0cbf"
+            },
+            "port": 24126,
+            "seedsDns": [
+                "N1",
+                "N2",
+                "N3",
+                "node1.polispay.org",
+                "node2.polispay.org",
+                "node3.polispay.org"
+            ],
+            "versions": {
+                "private": "0x3c",
+                "public": "0x37",
+                "scripthash": "0x38",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000009701eb781a8113b1af1d814e2f060f6408a2c990db291bc5108a1345c1e",
+            "portRpc": 24127,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "POLIS",
+            "name": "Polis - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xffcae2ce"
+            },
+            "port": 21430,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000009038aeaea86784e959b0b4002793adad39fc9d6f8789ed2edf99ad5c8b",
+            "portRpc": 21431,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "POLIS",
+            "name": "Polis - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 19994,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000f3b4ec57f851b3706c056eda3120875896c9970495ae2efd49b46472a05",
+            "portRpc": 19998,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        }
+    },
     "PPC": {
         "main": {
             "hashGenesisBlock": "0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3",
@@ -939,6 +4577,97 @@
             "per1": 1000000,
             "testnet": false,
             "messageMagic": "Peercoin Signed Message:\\n;"
+        }
+    },
+    "PURA": {
+        "main": {
+            "unit": "PURA",
+            "name": "Pura",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x43c597b8"
+            },
+            "port": 44444,
+            "seedsDns": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "versions": {
+                "private": "0x96",
+                "public": "0x37",
+                "scripthash": "0x10",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd8",
+            "portRpc": 55555,
+            "per1": 100000000,
+            "messageMagic": "Pura Signed Message:\\n"
+        },
+        "test": {
+            "unit": "PURA",
+            "name": "Pura - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x42c596b7"
+            },
+            "port": 44443,
+            "seedsDns": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000622dfb4d5a2d83c43d60495419c82a0ee6659f210f5e8a0ed4ae7b40c59",
+            "portRpc": 55554,
+            "per1": 100000000,
+            "messageMagic": "Pura Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "PURA",
+            "name": "Pura - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x41c395b6"
+            },
+            "port": 44442,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b19",
+            "portRpc": 55553,
+            "per1": 100000000,
+            "messageMagic": "Pura Signed Message:\\n"
         }
     },
     "QTUM": {
@@ -974,7 +4703,7 @@
         },
         "test": {
             "unit": "QTUM",
-            "name": "Qtum - Test",
+            "name": "Qtum - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0x0615220d"
@@ -1025,6 +4754,101 @@
             "messageMagic": "Qtum Signed Message:\\n"
         }
     },
+    "RADS": {
+        "main": {
+            "unit": "RADS",
+            "name": "Radium",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xabcb7c2a"
+            },
+            "port": 27913,
+            "portRpc": 27914,
+            "seedsDns": [
+                "52.23.134.122",
+                "35.153.123.156",
+                "34.207.38.233",
+                "52.23.134.122",
+                "35.153.123.156",
+                "34.207.38.233"
+            ],
+            "versions": {
+                "private": "0x79",
+                "public": "0x4c",
+                "scripthash": "0x3a",
+                "bip32": {
+                    "public": "0x0473aaa1",
+                    "private": "0x04734477"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000770c6aea829bb1ace7b06497f71799a6358e0e292740c4f9443a17bfb6",
+            "per1": 100000000,
+            "messageMagic": "radium Signed Message:\\n"
+        },
+        "test": {
+            "unit": "RADS",
+            "name": "Radium - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x77cc77c3"
+            },
+            "port": 47963,
+            "portRpc": 47993,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6e",
+                "scripthash": "0x81",
+                "bip32": {
+                    "public": "0x043517ff",
+                    "private": "0x04354399"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000dedd0118550f474631b30cfc8b9d260706d59ea89118d81d1a292a5681d9",
+            "per1": 100000000,
+            "messageMagic": "radium Signed Message:\\n"
+        }
+    },
+    "RBY": {
+        "main": {
+            "unit": "RBY",
+            "name": "Rubycoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x11161213"
+            },
+            "port": 5937,
+            "portRpc": 5938,
+            "seedsDns": [
+                "earth.rubycoin.org",
+                "moon.rubycoin.org",
+                "zulu.prettyblock.com",
+                "yankee.prettyblock.com",
+                "neptune.rubycoin.org",
+                "pluto.rubycoin.org",
+                "tango.prettyblock.com",
+                "delta.prettyblock.com"
+            ],
+            "versions": {
+                "private": "0xbc",
+                "public": "0x3c",
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 16
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000760e24f1ad47f7a6e912bc9ed2b9ce013fc85ba217da8b079762f6b0058",
+            "per1": 100000000,
+            "messageMagic": "Rubycoin Signed Message:\\n"
+        }
+    },
     "RDD": {
         "main": {
             "unit": "RDD",
@@ -1062,7 +4886,7 @@
         },
         "test": {
             "unit": "RDD",
-            "name": "Reddcoin - Test",
+            "name": "Reddcoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xdeb9c3fe"
@@ -1089,6 +4913,817 @@
             "hashGenesisBlock": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",
             "per1": 100000000,
             "messageMagic": "Reddcoin Signed Message:\\n"
+        }
+    },
+    "RVN": {
+        "main": {
+            "unit": "RVN",
+            "name": "Ravencoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x4e564152"
+            },
+            "port": 8767,
+            "seedsDns": [
+                "seed-raven.ravencoin.org",
+                "seed-raven.bitactivate.com"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x3c",
+                "scripthash": "0x7a",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 175
+            },
+            "bech32_hrp": "rc",
+            "hashGenesisBlock": "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90",
+            "portRpc": 8766,
+            "per1": 100000000,
+            "messageMagic": "Raven Signed Message:\\n"
+        },
+        "test": {
+            "unit": "RVN",
+            "name": "Ravencoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x544E5652"
+            },
+            "port": 18767,
+            "seedsDns": [
+                "seed-testnet-raven.ravencoin.org",
+                "seed-testnet-raven.bitactivate.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "tr",
+            "hashGenesisBlock": "000000055c6b201ac99ed634953f92bd52239f5b26e090ce3caab6ec81bec921",
+            "portRpc": 18766,
+            "per1": 100000000,
+            "messageMagic": "Raven Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "RVN",
+            "name": "Ravencoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x574F5243"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": "rcrt",
+            "hashGenesisBlock": "0ae5a91dc8c60c02f68cf6579e153d428b2298f231c89e96cbeb609ecc00d9a0",
+            "portRpc": 18443,
+            "per1": 100000000,
+            "messageMagic": "Raven Signed Message:\\n"
+        }
+    },
+    "SEQ": {
+        "main": {
+            "unit": "SEQ",
+            "name": "Sequence",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x20021001"
+            },
+            "port": 16662,
+            "seedsDns": [
+                "dnsseeder.io",
+                "dnsseeder.com",
+                "dnsseeder.host",
+                "dnsseeder.net",
+                "seq.dnsseeder.io",
+                "seq.dnsseeder.com",
+                "seq.dnsseeder.host",
+                "seq.dnsseeder.net"
+            ],
+            "versions": {
+                "private": "0xaa",
+                "public": "0x3f",
+                "scripthash": "0x40",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000000251356c62e0aa14c63e2b0db2a05ac0d3316ea5000c797a281be8c9fd7",
+            "portRpc": 16663,
+            "per1": 100000000,
+            "messageMagic": "Silk Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SEQ",
+            "name": "Sequence - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x30032002"
+            },
+            "port": 16664,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xcc",
+                "public": "0x35",
+                "scripthash": "0x32",
+                "bip32": {
+                    "public": "0x1135aaee",
+                    "private": "0x3511ddff"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000009cfa952b4f748c8cf7cdf975f89bce0a26a6a7e7c8cb33968bc20848e",
+            "portRpc": 16665,
+            "per1": 100000000,
+            "messageMagic": "Silk Signed Message:\\n"
+        }
+    },
+    "SIB": {
+        "main": {
+            "unit": "SIB",
+            "name": "SIBCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xbd6b0cbf"
+            },
+            "port": 1945,
+            "seedsDns": [
+                "sibcoin.net",
+                "chervonec.info",
+                "darknode1",
+                "darknode2",
+                "darknode3",
+                "dnsseed.sibcoin.net",
+                "dnsseed.chervonec.info",
+                "dnsseed1.darknode.ru",
+                "dnsseed2.darknode.ru",
+                "dnsseed3.darknode.ru"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x3f",
+                "scripthash": "0x28",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000c492bf73490420868bc577680bfc4c60116e7e85343bc624787c21efa4c",
+            "portRpc": 1944,
+            "per1": 100000000,
+            "messageMagic": "SibCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SIB",
+            "name": "SIBCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xffcae2ce"
+            },
+            "port": 11945,
+            "seedsDns": [
+                "dashdot.io",
+                "masternode.io",
+                "testnet-seed.dashdot.io",
+                "test.dnsseed.masternode.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x7d",
+                "scripthash": "0x64",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000617791d0e19f524387f67e558b2a928b670b9a3b387ae003ad7f9093017",
+            "portRpc": 11944,
+            "per1": 100000000,
+            "messageMagic": "SibCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "SIB",
+            "name": "SIBCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 18333,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x7d",
+                "scripthash": "0x64",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000007bfa2866f77d1f22f9da7fda73ea3c5185dc156f4f6f8b3a3caed27247e",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "SibCoin Signed Message:\\n"
+        }
+    },
+    "SLR": {
+        "main": {
+            "unit": "SLR",
+            "name": "SolarCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xfd04f104"
+            },
+            "port": 18188,
+            "seedsDns": [
+                "dnsseed.solarcoin.org\", \"seed.solarcoin.org",
+                "download.solarcoin.org\", \"seed.solarcoin.org"
+            ],
+            "versions": {
+                "private": "0x92",
+                "public": "0x12",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0408c5d1",
+                    "private": "0x0422bed7"
+                },
+                "bip44": 58
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",
+            "portRpc": 18181,
+            "per1": 100000000,
+            "messageMagic": "SolarCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SLR",
+            "name": "SolarCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf1c8d2fd"
+            },
+            "port": 19335,
+            "seedsDns": [
+                "dnsseed.solarcoin.org\", \"seed.solarcoin.org",
+                "download.solarcoin.org\", \"seed.solarcoin.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",
+            "portRpc": 18182,
+            "per1": 100000000,
+            "messageMagic": "SolarCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "SLR",
+            "name": "SolarCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 19444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",
+            "portRpc": 18182,
+            "per1": 100000000,
+            "messageMagic": "SolarCoin Signed Message:\\n"
+        }
+    },
+    "SLS": {
+        "main": {
+            "unit": "SLS",
+            "name": "SaluS",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x21a7c5d3"
+            },
+            "port": 22534,
+            "portRpc": 22530,
+            "seedsDns": [
+                "198.50.243.69",
+                "198.50.243.69"
+            ],
+            "versions": {
+                "private": "0xbf",
+                "public": "0x3f",
+                "scripthash": "0x17",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000003f07d368792f736f3098ad7201bb821883fbb66b27a8ee65be273847e02",
+            "per1": 100000000,
+            "messageMagic": "SaluS Signed Message:\\n"
+        }
+    },
+    "SMART": {
+        "main": {
+            "unit": "SMART",
+            "name": "SmartCash",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x1eaba15c"
+            },
+            "port": 9678,
+            "seedsDns": [
+                "seed.smrt.cash",
+                "seed1.smrt.cash",
+                "seed2.smrt.cash",
+                "seed1.smartcash.org",
+                "seed2.smartcash.org",
+                "seed.smartcash.cc",
+                "seed2.smartcash.cc",
+                "seed3.smartcash.cc",
+                "seed4.smartcash.cc",
+                "seed.smrt.cash",
+                "seed1.smrt.cash",
+                "seed2.smrt.cash",
+                "seed1.smartcash.org",
+                "seed2.smartcash.org",
+                "seed.smartcash.cc",
+                "seed2.smartcash.cc",
+                "seed3.smartcash.cc",
+                "seed4.smartcash.cc"
+            ],
+            "versions": {
+                "private": "0xbf",
+                "public": "0x3f",
+                "scripthash": "0x12",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 224
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000007acc6970b812948d14ea5a0a13db0fdd07d5047c7e69101fa8b361e05a4",
+            "portRpc": 9679,
+            "per1": 100000000,
+            "messageMagic": "SmartCash Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SMART",
+            "name": "SmartCash - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xeabefccf"
+            },
+            "port": 19678,
+            "seedsDns": [
+                "testnet.smartcash.cc",
+                "testnet.smrt.cash",
+                "testnet.smartcash.cc",
+                "testnet.smrt.cash"
+            ],
+            "versions": {
+                "private": "0xc1",
+                "public": "0x41",
+                "scripthash": "0x15",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000027235b5679bcd28c90d03d4bf1a9ba4c07c4efcc1c87d6c68cce25e6e5d",
+            "portRpc": 19679,
+            "per1": 100000000,
+            "messageMagic": "SmartCash Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "SMART",
+            "name": "SmartCash - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 19679,
+            "per1": 100000000,
+            "messageMagic": "SmartCash Signed Message:\\n"
+        }
+    },
+    "SPHR": {
+        "main": {
+            "unit": "SPHR",
+            "name": "Sphere",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x3011b8a8"
+            },
+            "port": 37544,
+            "portRpc": 37545,
+            "seedsDns": [
+                "162.243.247.203",
+                "162.243.25.133",
+                "104.236.163.165",
+                "gqunlgogqx7x42zy.onion",
+                "162.243.247.203",
+                "162.243.25.133",
+                "104.236.163.165",
+                "gqunlgogqx7x42zy.onion"
+            ],
+            "versions": {
+                "private": "0x99",
+                "public": "0x19",
+                "scripthash": "0x55",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+            "per1": 100000000,
+            "messageMagic": "Sphere Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SPHR",
+            "name": "Sphere - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x1249e78d"
+            },
+            "port": 27544,
+            "portRpc": 27545,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x7f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+            "per1": 100000000,
+            "messageMagic": "Sphere Signed Message:\\n"
+        }
+    },
+    "SXC": {
+        "main": {
+            "unit": "SXC",
+            "name": "Sexcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x6969cefa"
+            },
+            "port": 9560,
+            "seedsDns": [
+                "sexcoin.info",
+                "lavajumper.com",
+                "litecoinpool.org",
+                "dnsseed.sexcoin.info",
+                "dnsseed.lavajumper.com",
+                "dnsseed.litecoinpool.org"
+            ],
+            "versions": {
+                "private": "0xbe",
+                "public": "0x3e",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "f42b9553085a1af63d659d3907a42c3a0052bbfa2693d3acf990af85755f2279",
+            "portRpc": 9561,
+            "per1": 100000000,
+            "messageMagic": "Sexcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "SXC",
+            "name": "Sexcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x6996cefa"
+            },
+            "port": 19560,
+            "seedsDns": [
+                "sexcoin.info",
+                "xurious.com",
+                "wemine-testnet.com",
+                "testnet-seed.sexcoin.info",
+                "testnet-seed.ltc.xurious.com",
+                "dnsseed.wemine-testnet.com"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x7c",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "73dc70a1698579360b62e724ecfeacfd938f45283162f3cf18f1b9eb3fc9fcd7",
+            "portRpc": 19561,
+            "per1": 100000000,
+            "messageMagic": "Sexcoin Signed Message:\\n"
+        }
+    },
+    "TRC": {
+        "main": {
+            "unit": "TRC",
+            "name": "Terracoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x56beba42"
+            },
+            "port": 13333,
+            "seedsDns": [
+                "terracoin.io",
+                "southofheaven.ca",
+                "seed.terracoin.io",
+                "dnsseed.southofheaven.ca"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x00",
+                "scripthash": "0x05",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 83
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000000804bbc6a621a9dbb564ce469f492e1ccf2d70f8a6b241e26a277afa2",
+            "portRpc": 13332,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "TRC",
+            "name": "Terracoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 18321,
+            "seedsDns": [
+                "terracoin.io",
+                "testnetseed.terracoin.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000000a48f093611895d7452e456b646d213d238e86dc2c0db7d15fe6c555d",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "TRC",
+            "name": "Terracoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        }
+    },
+    "UNO": {
+        "main": {
+            "unit": "UNO",
+            "name": "Unobtanium",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x03b5d503"
+            },
+            "port": 65534,
+            "seedsDns": [
+                "node1.unobtanium.uno",
+                "node2.unobtanium.uno",
+                "unobtanium.cryptap.us",
+                "node1.unobtanium.uno",
+                "node2.unobtanium.uno",
+                "unobtanium.cryptap.us"
+            ],
+            "versions": {
+                "private": "0xe0",
+                "public": "0x82",
+                "scripthash": "0x1e",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 92
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000004c2fc5fffb810dccc197d603690099a68305232e552d96ccbe8e2c52b75",
+            "portRpc": 65535,
+            "per1": 100000000,
+            "messageMagic": "Unobtanium Signed Message:\\n"
+        },
+        "test": {
+            "unit": "UNO",
+            "name": "Unobtanium - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x04030201"
+            },
+            "port": 65525,
+            "seedsDns": [
+                "23skidoo.info",
+                "testnet.unobtanium.info",
+                "23skidoo.info",
+                "testnet.unobtanium.info"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x44",
+                "scripthash": "0x1e",
+                "bip32": {
+                    "public": "0x043586ce",
+                    "private": "0x04358293"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000004aa8e535bedb2186a3c1c2f3b119e70c2f61286b15ec98a81021c3a4a0c",
+            "portRpc": 65531,
+            "per1": 100000000,
+            "messageMagic": "Unobtanium Signed Message:\\n"
+        }
+    },
+    "VIA": {
+        "main": {
+            "unit": "VIA",
+            "name": "Viacoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xcbc6680f"
+            },
+            "port": 5223,
+            "seedsDns": [
+                "seed.viacoin.net",
+                "viaseeder.barbatos.fr",
+                "mainnet.viacoin.net"
+            ],
+            "versions": {
+                "private": "0xc7",
+                "public": "0x47",
+                "scripthash": "0x21",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 14
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba1",
+            "portRpc": 5222,
+            "per1": 100000000,
+            "messageMagic": "Viacoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "VIA",
+            "name": "Viacoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x92efc5a9"
+            },
+            "port": 25223,
+            "seedsDns": [
+                "testnet.viacoin.net",
+                "seed-testnet.viacoin.net"
+            ],
+            "versions": {
+                "private": "0xff",
+                "public": "0x7f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "770aa712aa08fdcbdecc1c8df1b3e2d4e17a7cf6e63a28b785b32e74c96cb27d",
+            "portRpc": 25222,
+            "per1": 100000000,
+            "messageMagic": "Viacoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "VIA",
+            "name": "Viacoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x377b972d"
+            },
+            "port": 15224,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "f0dae070f24fbc35311533a22aa85c0a616c84a1f22881612304d802acda286f",
+            "portRpc": 25222,
+            "per1": 100000000,
+            "messageMagic": "Viacoin Signed Message:\\n"
         }
     },
     "VTC": {
@@ -1127,7 +5762,7 @@
         },
         "test": {
             "unit": "VTC",
-            "name": "Vertcoin - Test",
+            "name": "Vertcoin - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0x't';'r';'e';'v';"
@@ -1181,6 +5816,427 @@
             "messageMagic": "Vertcoin Signed Message:\\n"
         }
     },
+    "XMY": {
+        "main": {
+            "unit": "XMY",
+            "name": "Myriad",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xee7645af"
+            },
+            "port": 10888,
+            "seedsDns": [
+                "seed1.myriadcoin.org",
+                "seed2.myriadcoin.org",
+                "seed3.myriadcoin.org",
+                "seed4.myriadcoin.org",
+                "seed5.myriadcoin.org",
+                "seed6.myriadcoin.org",
+                "seed7.myriadcoin.org",
+                "seed8.myriadcoin.org",
+                "myriadseed1.cryptap.us",
+                "seed1.myriadcoin.org",
+                "seed2.myriadcoin.org",
+                "seed3.myriadcoin.org",
+                "seed4.myriadcoin.org",
+                "seed5.myriadcoin.org",
+                "seed6.myriadcoin.org",
+                "seed7.myriadcoin.org",
+                "seed8.myriadcoin.org",
+                "myriadseed1.cryptap.us"
+            ],
+            "versions": {
+                "private": "0xb2",
+                "public": "0x32",
+                "scripthash": "0x09",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 90
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485",
+            "portRpc": 10889,
+            "per1": 100000000,
+            "messageMagic": "Myriadcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "XMY",
+            "name": "Myriad - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xa455f501"
+            },
+            "port": 20888,
+            "seedsDns": [
+                "testseed1.myriadcoin.org",
+                "myriadtestseed1.cryptap.us",
+                "testseed1.myriadcoin.org",
+                "myriadtestseed1.cryptap.us"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x58",
+                "scripthash": "0xbc",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788",
+            "portRpc": 20889,
+            "per1": 100000000,
+            "messageMagic": "Myriadcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "XMY",
+            "name": "Myriad - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x6f",
+                "scripthash": "0xc4",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "Myriadcoin Signed Message:\\n"
+        }
+    },
+    "XSN": {
+        "main": {
+            "unit": "XSN",
+            "name": "Stakenet",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xbd6c0cbf"
+            },
+            "port": 62583,
+            "seedsDns": [
+                "54.174.48.232",
+                "107.21.133.151",
+                "54.173.9.42",
+                "54.197.20.70",
+                "54.227.247.2",
+                "34.207.70.89",
+                "54.174.48.232",
+                "107.21.133.151",
+                "54.173.9.42",
+                "54.197.20.70",
+                "54.227.247.2",
+                "34.207.70.89"
+            ],
+            "versions": {
+                "private": "0xcc",
+                "public": "0x4c",
+                "scripthash": "0x10",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "00000c822abdbb23e28f79a49d29b41429737c6c7e15df40d1b1f1b35907ae34",
+            "portRpc": 51473,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "XSN",
+            "name": "Stakenet - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xffcae2ce"
+            },
+            "port": 29999,
+            "seedsDns": [
+                "18.195.52.21",
+                "masternode.io",
+                "18.195.52.21",
+                "test.dnsseed.masternode.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "000005254b31cd4e41fdce02c5a571fe4b6ec6d65af0dc339a85bb749ee90763",
+            "portRpc": 19998,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "XSN",
+            "name": "Stakenet - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 19994,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x8c",
+                "scripthash": "0x13",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "7229c32afcd2400f71cd72f55955c73bd384e41ed2e290c5a0488d0e6a15ddb4",
+            "portRpc": 18332,
+            "per1": 100000000,
+            "messageMagic": "DarkCoin Signed Message:\\n"
+        }
+    },
+    "XTO": {
+        "main": {
+            "unit": "XTO",
+            "name": "Tao",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe11ed11d"
+            },
+            "port": 15150,
+            "portRpc": 15151,
+            "seedsDns": [
+                "Seed01",
+                "Seed02",
+                "Seed03",
+                "Seed04",
+                "Seed05",
+                "Seed06",
+                "Seed07",
+                "taoexplorer.com",
+                "seed1.tao.network",
+                "seed2.tao.network",
+                "seed3.tao.network",
+                "seed4.tao.network",
+                "seed5.tao.network",
+                "seed6.tao.network"
+            ],
+            "versions": {
+                "private": "0x4c",
+                "public": "0x42",
+                "scripthash": "0x03",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0000c1c4b036f822bd91dc2006b5575b9c3617903925b8e738803e094cd23f20",
+            "per1": 100000000,
+            "messageMagic": "Tao Signed Message:\\n"
+        }
+    },
+    "XZC": {
+        "main": {
+            "unit": "XZC",
+            "name": "ZCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf1fed9e3"
+            },
+            "port": 8168,
+            "seedsDns": [
+                "sf1.zcoin.io",
+                "sf2.zcoin.io",
+                "london.zcoin.io",
+                "singapore.zcoin.io",
+                "nyc.zcoin.io",
+                "sf1.zcoin.io",
+                "sf2.zcoin.io",
+                "london.zcoin.io",
+                "singapore.zcoin.io",
+                "nyc.zcoin.io"
+            ],
+            "versions": {
+                "private": "0xd2",
+                "public": "0x52",
+                "scripthash": "0x07",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 136
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233",
+            "portRpc": 8888,
+            "per1": 100000000,
+            "messageMagic": "Zcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "XZC",
+            "name": "ZCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xeabefccf"
+            },
+            "port": 18168,
+            "seedsDns": [
+                "beta1.zcoin.io",
+                "beta2.zcoin.io",
+                "testnetbitcoin.jonasschnelli.ch",
+                "petertodd.org",
+                "bluematt.me",
+                "bitcoin.schildbach.de",
+                "beta1.zcoin.io",
+                "beta2.zcoin.io",
+                "testnet-seed.bitcoin.jonasschnelli.ch",
+                "seed.tbtc.petertodd.org",
+                "testnet-seed.bluematt.me",
+                "testnet-seed.bitcoin.schildbach.de"
+            ],
+            "versions": {
+                "private": "0xb9",
+                "public": "0x41",
+                "scripthash": "0xb2",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x7ac038c193c2158c428c59f9ae0c02a07115141c6e9dc244ae96132e99b4e6420x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
+            "portRpc": 18888,
+            "per1": 100000000,
+            "messageMagic": "Zcoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "XZC",
+            "name": "ZCoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdab5bffa"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x41",
+                "scripthash": "0xb2",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x0080c7bf30bb2579ed9c93213475bf8fafc1f53807da908cde19cf405b9eb55b0x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
+            "portRpc": 28888,
+            "per1": 100000000,
+            "messageMagic": "Zcoin Signed Message:\\n"
+        }
+    },
+    "ZCL": {
+        "main": {
+            "unit": "ZCL",
+            "name": "ZClassic",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x6427e924"
+            },
+            "port": 8033,
+            "seedsDns": [
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "zclassic.org",
+                "chains.run",
+                "indieonion.org",
+                "rotorproject.org",
+                "dnsseed.zclassic.org",
+                "na1.zclassic.org",
+                "na2.zclassic.org",
+                "na3.zclassic.org",
+                "eu1.zclassic.org",
+                "eu2.zclassic.org",
+                "eu3.zclassic.org",
+                "as1.zclassic.org",
+                "as2.zclassic.org",
+                "as3.zclassic.org",
+                "seed.zcl.chains.run",
+                "dnsseed.indieonion.org",
+                "dnsseed.rotorproject.org"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x1cb8",
+                "scripthash": "0x1cbd",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 147
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+            "portRpc": 8023,
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ZCL",
+            "name": "ZClassic - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xbff91afa"
+            },
+            "port": 18233,
+            "seedsDns": [
+                "zclassic.org",
+                "dnsseed.testnet.zclassic.org"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x1d25",
+                "scripthash": "0x1cba",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+            "portRpc": 18023,
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
+        }
+    },
     "ZEC": {
         "main": {
             "unit": "ZEC",
@@ -1216,7 +6272,7 @@
         },
         "test": {
             "unit": "ZEC",
-            "name": "Zcash - Test",
+            "name": "Zcash - Testnet",
             "testnet": true,
             "protocol": {
                 "magic": "0xbff91afa"
@@ -1266,6 +6322,173 @@
             "portRpc": 18232,
             "per1": 100000000,
             "messageMagic": "Zcash Signed Message:\\n"
+        }
+    },
+    "ZEN": {
+        "main": {
+            "unit": "ZEN",
+            "name": "Zencash",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x68736163"
+            },
+            "port": 9033,
+            "seedsDns": [
+                "zensystem.io",
+                "zenseed.network",
+                "blockoperations.com",
+                "zenchain.info",
+                "zenseed.network",
+                "zensystem.io",
+                "dnsseed.zensystem.io",
+                "dnsseed.zenseed.network",
+                "zpool.blockoperations.com",
+                "node1.zenchain.info",
+                "mainnet.zenseed.network",
+                "mainnet.zensystem.io"
+            ],
+            "versions": {
+                "private": "0x80",
+                "public": "0x2089",
+                "scripthash": "0x2096",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": 121
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+            "portRpc": 8231,
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ZEN",
+            "name": "Zencash - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xe6cdf2bf"
+            },
+            "port": 19033,
+            "seedsDns": [
+                "zensystem.io",
+                "blockoperations.com",
+                "scottrockcafe.com",
+                "zensystem.io",
+                "dnsseed.testnet.zensystem.io",
+                "zpool2.blockoperations.com",
+                "node.scottrockcafe.com",
+                "testnet.zensystem.io"
+            ],
+            "versions": {
+                "private": "0xef",
+                "public": "0x2098",
+                "scripthash": "0x2092",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+            "portRpc": 18231,
+            "per1": 100000000,
+            "messageMagic": "Zcash Signed Message:\\n"
+        }
+    },
+    "ZOI": {
+        "main": {
+            "unit": "ZOI",
+            "name": "Zoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x51a903f5"
+            },
+            "port": 8255,
+            "seedsDns": [
+                "159.203.124.51",
+                "159.203.124.51"
+            ],
+            "versions": {
+                "private": "0xd0",
+                "public": "0x50",
+                "scripthash": "0x07",
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bip44": null
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x23911212a525e3d149fcad6c559c8b17f1e8326a272a75ff9bb315c8d96433ef0x4f193d83c304ebd3bf2319611cbb84f26af7960f23d06dd243b6c93ebf4d7797",
+            "portRpc": 8255,
+            "per1": 100000000,
+            "messageMagic": "Zoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ZOI",
+            "name": "Zoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x09bf5dae"
+            },
+            "port": 28168,
+            "seedsDns": [
+                "165.227.98.85",
+                "174.138.61.220",
+                "92.247.116.44",
+                "petertodd.org",
+                "bluematt.me",
+                "bitcoin.schildbach.de",
+                "165.227.98.85",
+                "174.138.61.220",
+                "92.247.116.44",
+                "seed.tbtc.petertodd.org",
+                "testnet-seed.bluematt.me",
+                "testnet-seed.bitcoin.schildbach.de"
+            ],
+            "versions": {
+                "private": "0xc1",
+                "public": "0x41",
+                "scripthash": "0xb2",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
+            "portRpc": 28168,
+            "per1": 100000000,
+            "messageMagic": "Zoin Signed Message:\\n"
+        },
+        "regtest": {
+            "unit": "ZOI",
+            "name": "Zoin - Regtest",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x09bf5dae"
+            },
+            "port": 18444,
+            "seedsDns": [],
+            "versions": {
+                "private": "0xef",
+                "public": "0x41",
+                "scripthash": "0xb2",
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bip44": 1
+            },
+            "bech32_hrp": null,
+            "hashGenesisBlock": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
+            "portRpc": 18888,
+            "per1": 100000000,
+            "messageMagic": "Zoin Signed Message:\\n"
         }
     }
 }
