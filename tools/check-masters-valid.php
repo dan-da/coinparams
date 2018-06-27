@@ -107,17 +107,24 @@ function check_valid_network($netname, $data) {
     
     if(@$data['seedsDns'] !== null && !count(@$data['seedsDns'])) {
         if($netname == 'main') {
-            err("key ['$netname']['seedsDns'] contains empty array");
+            // used to be an error for main, but changed it to a warning. considered optional.
+            warn("key ['$netname']['seedsDns'] contains empty array");
         }
         else if($netname == 'test') {  // dns not needed for regtest.
             warn("key ['$netname']['seedsDns'] contains empty array");
         }
     }
     
-    $version_keys = ['bip32', 'bip44', 'private', 'public', 'scripthash' ];
+    $version_keys = ['bip32', 'private', 'public', 'scripthash' ];
+    $version_keys_warn = ['bip44' ];
     foreach($version_keys as $k) {
         if( @$data['versions'][$k] === null ) {
             err( "key ['$netname']['versions']['$k'] is unset" );
+        }
+    }
+    foreach($version_keys_warn as $k) {
+        if( @$data['versions'][$k] === null ) {
+            warn( "key ['$netname']['versions']['$k'] is unset" );
         }
     }
     

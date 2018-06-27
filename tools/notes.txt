@@ -31,10 +31,106 @@ bip44               hexa    (testnet, regtest is always 0x1)
 
 
 
-
-
-
 Decred:
+    https://github.com/decred
+    Written in golang.
+    
     found messageMagic in Wallet::SignMessage() at
     https://github.com/decred/dcrwallet/blob/master/wallet/wallet.go
+    
+Stellar:
+    https://github.com/stellar/stellar-core
+    written in C++
+    not based on bitcoin-core
+    
+Neo:
+    https://github.com/stellar/stellar-core
+    written in C#
 
+NEM:
+    https://github.com/NemProject/nem.core
+    written in java.
+    
+Lisk:
+    https://github.com/LiskHQ/lisk
+    written in javascript.
+    
+Bytecoin:
+    written in C, cryptonote stack.
+    
+Siacoin:
+    https://github.com/LiskHQ/lisk
+    written in go.
+    
+Waves:
+    https://github.com/wavesplatform/Waves
+    written in scala.
+
+Stratis:
+    https://github.com/stratisproject/StratisBitcoinFullNode
+    written in C#
+    
+Kryptonex:
+    https://github.com/Cryptonex/source/tree/master/src
+    based on old bitcoin-core
+    no chainparams.cpp
+    
+GxChain:
+    https://github.com/gxchain/gxb-core
+    written in webassembly
+    
+Ardor:
+    https://github.com/mrv777/Ardor
+    written in java.
+    
+Ark:
+    https://github.com/ArkEcosystem/ark-node
+    written in javascript.
+
+Byteball:
+    https://github.com/byteball
+    written in javascript
+    
+Electroneum:
+    https://github.com/electroneum
+    forked from monero
+    
+BitcoinDark:
+    https://github.com/jl777/btcd
+    based on old bitcoin-core
+    no chainparams.cpp
+    
+AChain:
+    https://github.com/Achain-Dev/Achain
+    written in Lua
+    
+Skycoin:
+    https://github.com/skycoin/skycoin
+    written in Go
+    
+Asch:
+    https://github.com/AschPlatform/asch
+    written in JS
+    
+Neblio:
+    https://github.com/NeblioTeam/neblio
+    bitcoin-core fork, no chainparams.cpp
+    
+DigitalNote:
+    https://github.com/DigitalNoteXDN/digitalnote
+    not a btc fork.  written in C++
+    
+BosCoin:
+    written in D.  web ontology.
+    
+Primecoin:
+    https://github.com/primecoin/primecoin/
+    bitcoin-core fork.  no chainparams.cpp
+    
+Prizm:
+    https://github.com/prizmspace/PrizmCore
+    written in java.
+    
+Aeon
+    https://github.com/floblockchain/flo
+    cryptonote fork
