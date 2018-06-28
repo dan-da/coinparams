@@ -117,6 +117,11 @@ function check_valid_network($netname, $data) {
     
     $version_keys = ['bip32', 'private', 'public', 'scripthash' ];
     $version_keys_warn = ['bip44' ];
+    switch($data['unit']) {
+        case 'XMR':
+            array_remove($version_keys, 'scripthash');
+            break;
+    }
     foreach($version_keys as $k) {
         if( @$data['versions'][$k] === null ) {
             err( "key ['$netname']['versions']['$k'] is unset" );
@@ -143,6 +148,12 @@ function check_valid_network($netname, $data) {
     }
     
     
+}
+
+function array_remove(&$arr, $val) {
+    if (($key = array_search($val, $arr)) !== false) {
+        unset($arr[$key]);
+    }    
 }
 
 function err($msg) {
