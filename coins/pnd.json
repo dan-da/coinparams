@@ -1,0 +1,54 @@
+{
+    "main": {
+        "unit": "PND",
+        "name": "Pandacoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xc0c0c0c0"
+        },
+        "port": 22445,
+        "portRpc": 22444,
+        "seedsDns": [
+            "server1.cryptodepot.org"
+        ],
+        "versions": {
+            "public": 55,
+            "scripthash": 22,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 37
+        },
+        "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+        "per1": 100000000,
+        "messageMagic": "Pandacoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "PND",
+        "name": "Pandacoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xdcb7c1fc"
+        },
+        "port": 44656,
+        "portRpc": 25715,
+        "seedsDns": [],
+        "versions": {
+            "public": 113,
+            "scripthash": 196,
+            "private": 241,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+        "per1": 100000000,
+        "messageMagic": "Pandacoin Signed Message:\\n"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "main": {
+        "unit": "42",
+        "name": "42-Coin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x0b14051d"
+        },
+        "port": 4242,
+        "portRpc": 2121,
+        "seedsDns": [],
+        "versions": {
+            "public": 8,
+            "scripthash": 20,
+            "private": 136,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "000004cf6cc5eec2d2d564fa45c26278ed72014822a601c1ff02cd84d0ef63be",
+        "per1": 100000000,
+        "messageMagic": "42 Signed Message:\\n"
+    },
+    "test": {
+        "unit": "42",
+        "name": "42-Coin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 42420,
+        "portRpc": 21210,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "00000bc79a2049b1430c77d81fad3373070e65668b21792d298ae5dde3e7abb8",
+        "per1": 100000000,
+        "messageMagic": "42 Signed Message:\\n"
+    }
+}

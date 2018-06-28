@@ -1,0 +1,59 @@
+{
+    "main": {
+        "unit": "PINK",
+        "name": "PinkCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xfbf9f4f2"
+        },
+        "port": 9134,
+        "portRpc": 9135,
+        "seedsDns": [
+            "pinkarmy.ml",
+            "frankfurt.pinkarmy.ml",
+            "paris.pinkarmy.ml",
+            "singapore.pinkarmy.ml",
+            "sydney.pinkarmy.ml",
+            "tokyo.pinkarmy.ml"
+        ],
+        "versions": {
+            "public": 3,
+            "scripthash": 28,
+            "private": 131,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 117
+        },
+        "hashGenesisBlock": "00000f79b700e6444665c4d090c9b8833664c4e2597c7087a6ba6391b956cc89",
+        "per1": 100000000,
+        "messageMagic": "Pinkcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "PINK",
+        "name": "PinkCoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x0d050402"
+        },
+        "port": 19134,
+        "portRpc": 19135,
+        "seedsDns": [],
+        "versions": {
+            "public": 55,
+            "scripthash": 196,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "000076a007b949e5f8cdee6c18817d26bc224bfde575ce3f2ecb0dd000f7ec19",
+        "per1": 100000000,
+        "messageMagic": "Pinkcoin Signed Message:\\n"
+    }
+}

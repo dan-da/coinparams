@@ -1,0 +1,54 @@
+{
+    "main": {
+        "unit": "HWC",
+        "name": "Hollywood Coin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x4f9d403b"
+        },
+        "port": 10267,
+        "portRpc": 11030,
+        "seedsDns": [
+            "seed.hollywoodcoin.biz"
+        ],
+        "versions": {
+            "public": 40,
+            "scripthash": 85,
+            "private": 168,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",
+        "per1": 100000000,
+        "messageMagic": "HollyWoodCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "HWC",
+        "name": "Hollywood Coin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x80784e6c"
+        },
+        "port": 20267,
+        "portRpc": 21030,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",
+        "per1": 100000000,
+        "messageMagic": "HollyWoodCoin Signed Message:\\n"
+    }
+}

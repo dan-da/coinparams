@@ -1,0 +1,57 @@
+{
+    "main": {
+        "unit": "NVC",
+        "name": "Novacoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe5e9e8e4"
+        },
+        "port": 7777,
+        "portRpc": 8344,
+        "seedsDns": [
+            "dnsseed.novacoin.karelia.pro",
+            "dnsseed.novacoin.ru",
+            "testseed.novacoin.ru",
+            "dnsseed.novaco.in"
+        ],
+        "versions": {
+            "public": 8,
+            "scripthash": 20,
+            "private": 136,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 50
+        },
+        "hashGenesisBlock": "00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4",
+        "per1": 1000000,
+        "messageMagic": "NovaCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "NVC",
+        "name": "Novacoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 17777,
+        "portRpc": 18344,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "per1": 1000000,
+        "messageMagic": "NovaCoin Signed Message:\\n"
+    }
+}

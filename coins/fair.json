@@ -1,0 +1,55 @@
+{
+    "main": {
+        "unit": "FAIR",
+        "name": "FairCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe5e9e8e4"
+        },
+        "port": 46392,
+        "portRpc": 46393,
+        "seedsDns": [
+            "seed1.fair-coin.org",
+            "seed2.fair-coin.org"
+        ],
+        "versions": {
+            "public": 95,
+            "scripthash": 36,
+            "private": 223,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "f1ae188b0c08e296e45980f9913f6ad2304ff02d5293538275bacdbcb05ef275",
+        "per1": 1000000,
+        "messageMagic": "FairCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "FAIR",
+        "name": "FairCoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 18392,
+        "portRpc": 18393,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "5df7281a262d9a6251e65d12bdb78c6a69041c7d28e209df2a7719059de3088c",
+        "per1": 1000000,
+        "messageMagic": "FairCoin Signed Message:\\n"
+    }
+}

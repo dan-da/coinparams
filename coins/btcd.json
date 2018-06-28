@@ -1,0 +1,52 @@
+{
+    "main": {
+        "unit": "BTCD",
+        "name": "BitcoinDark",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xe7d8a2a4"
+        },
+        "port": 14631,
+        "portRpc": 14632,
+        "seedsDns": [],
+        "versions": {
+            "public": 60,
+            "scripthash": 85,
+            "private": 188,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 52
+        },
+        "hashGenesisBlock": "0000044966f40703b516c5af180582d53f783bfd319bb045e2dc3e05ea695d46",
+        "per1": 100000000,
+        "messageMagic": "BitcoinDark Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BTCD",
+        "name": "BitcoinDark - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 25714,
+        "portRpc": 25715,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "0000a3af4d553378169e82ac59a767b343ad5a4b8acb9c84ca4d3fbd0ae54fee",
+        "per1": 100000000,
+        "messageMagic": "BitcoinDark Signed Message:\\n"
+    }
+}

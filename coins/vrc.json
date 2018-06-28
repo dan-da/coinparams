@@ -1,0 +1,56 @@
+{
+    "main": {
+        "unit": "VRC",
+        "name": "Vericoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x05223570"
+        },
+        "port": 58684,
+        "portRpc": 58683,
+        "seedsDns": [
+            "emea.vrc.vericonomy.com",
+            "apac.vrc.vericonomy.com",
+            "amer.vrc.vericonomy.com"
+        ],
+        "versions": {
+            "public": 70,
+            "scripthash": 132,
+            "private": 198,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "000004da58a02be894a6c916d349fe23cc29e21972cafb86b5d3f07c4b8e6bb8",
+        "per1": 100000000,
+        "messageMagic": "VeriCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "VRC",
+        "name": "Vericoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 48684,
+        "portRpc": 48683,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "0000d90349e5898a5cb76775e93f8774138d48cd2d763c7707ce87d42af0f66a",
+        "per1": 100000000,
+        "messageMagic": "VeriCoin Signed Message:\\n"
+    }
+}

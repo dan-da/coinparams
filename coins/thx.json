@@ -1,0 +1,54 @@
+{
+    "main": {
+        "unit": "THX",
+        "name": "HempCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x01fda5a5"
+        },
+        "port": 21054,
+        "portRpc": 12055,
+        "seedsDns": [
+            "162.243.1.45"
+        ],
+        "versions": {
+            "public": 40,
+            "scripthash": 8,
+            "private": 168,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "00000dd93ea1774f94a1ac8d26fa5bc165c1bc3d415b9c37ecb8a6ebe5e05fb1",
+        "per1": 1000000,
+        "messageMagic": "Hempcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "THX",
+        "name": "HempCoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2f2"
+        },
+        "port": 31054,
+        "portRpc": 22055,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "000c20eb9b869a603d2251b26de94cadcf7a26677c5797cdb70f895cc2b9b19e",
+        "per1": 1000000,
+        "messageMagic": "Hempcoin Signed Message:\\n"
+    }
+}

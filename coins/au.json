@@ -1,0 +1,52 @@
+{
+    "main": {
+        "unit": "AU",
+        "name": "AurumCoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xd9b4bef9"
+        },
+        "port": 11080,
+        "portRpc": 21080,
+        "seedsDns": [],
+        "versions": {
+            "public": 0,
+            "scripthash": 5,
+            "private": 128,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",
+        "per1": 100000000,
+        "messageMagic": "Aurum Signed Message:\\n"
+    },
+    "test": {
+        "unit": "AU",
+        "name": "AurumCoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x0709110b"
+        },
+        "port": 5744,
+        "portRpc": 5745,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "0x0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",
+        "per1": 100000000,
+        "messageMagic": "Aurum Signed Message:\\n"
+    }
+}

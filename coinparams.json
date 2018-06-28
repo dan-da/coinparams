@@ -1,4 +1,56 @@
 {
+    "42": {
+        "main": {
+            "unit": "42",
+            "name": "42-Coin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x0b14051d"
+            },
+            "port": 4242,
+            "portRpc": 2121,
+            "seedsDns": [],
+            "versions": {
+                "public": 8,
+                "scripthash": 20,
+                "private": 136,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "000004cf6cc5eec2d2d564fa45c26278ed72014822a601c1ff02cd84d0ef63be",
+            "per1": 100000000,
+            "messageMagic": "42 Signed Message:\\n"
+        },
+        "test": {
+            "unit": "42",
+            "name": "42-Coin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 42420,
+            "portRpc": 21210,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00000bc79a2049b1430c77d81fad3373070e65668b21792d298ae5dde3e7abb8",
+            "per1": 100000000,
+            "messageMagic": "42 Signed Message:\\n"
+        }
+    },
     "ALQO": {
         "main": {
             "unit": "ALQO",
@@ -542,6 +594,58 @@
             "messageMagic": "DarkNet Signed Message:\\n"
         }
     },
+    "AU": {
+        "main": {
+            "unit": "AU",
+            "name": "AurumCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xd9b4bef9"
+            },
+            "port": 11080,
+            "portRpc": 21080,
+            "seedsDns": [],
+            "versions": {
+                "public": 0,
+                "scripthash": 5,
+                "private": 128,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",
+            "per1": 100000000,
+            "messageMagic": "Aurum Signed Message:\\n"
+        },
+        "test": {
+            "unit": "AU",
+            "name": "AurumCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0709110b"
+            },
+            "port": 5744,
+            "portRpc": 5745,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "0x0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",
+            "per1": 100000000,
+            "messageMagic": "Aurum Signed Message:\\n"
+        }
+    },
     "AUR": {
         "main": {
             "unit": "AUR",
@@ -669,6 +773,60 @@
             "portRpc": 17443,
             "per1": 100000000,
             "messageMagic": "Bitcoin Signed Message:\\n"
+        }
+    },
+    "BCC": {
+        "main": {
+            "unit": "BCC",
+            "name": "Bitconnect",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x866f5e32"
+            },
+            "port": 9239,
+            "portRpc": 9240,
+            "seedsDns": [
+                "198.211.115.116"
+            ],
+            "versions": {
+                "public": 18,
+                "scripthash": 85,
+                "private": 146,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
+            "per1": 100000000,
+            "messageMagic": "bitconnect Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BCC",
+            "name": "Bitconnect - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xc563ba1b"
+            },
+            "port": 19239,
+            "portRpc": 19240,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
+            "per1": 100000000,
+            "messageMagic": "bitconnect Signed Message:\\n"
         }
     },
     "BCD": {
@@ -1038,6 +1196,64 @@
             "portRpc": 16332,
             "per1": 100000000,
             "messageMagic": "bridgecoin Signed Message:\\n"
+        }
+    },
+    "BIO": {
+        "main": {
+            "unit": "BIO",
+            "name": "Biocoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xa5e1f9b4"
+            },
+            "port": 24885,
+            "portRpc": 24889,
+            "seedsDns": [
+                "seed1.cryptolife.net",
+                "seed2.cryptolife.net",
+                "seed3.cryptolife.net",
+                "seed4.cryptolife.net",
+                "seed5.cryptolife.net"
+            ],
+            "versions": {
+                "public": 25,
+                "scripthash": 20,
+                "private": 153,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 154
+            },
+            "hashGenesisBlock": "000009038d39a5ecfecf6a15cc7c49ff3c7bc0b23f8115902a9c0f3c9f72e9b9",
+            "per1": 100000000,
+            "messageMagic": "BioCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BIO",
+            "name": "Biocoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 17778,
+            "portRpc": 18345,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "000009038d39a5ecfecf6a15cc7c49ff3c7bc0b23f8115902a9c0f3c9f72e9b9",
+            "per1": 100000000,
+            "messageMagic": "BioCoin Signed Message:\\n"
         }
     },
     "BITG": {
@@ -1425,6 +1641,58 @@
             "portRpc": 18443,
             "per1": 100000000,
             "messageMagic": "Bitcoin Signed Message:\\n"
+        }
+    },
+    "BTCD": {
+        "main": {
+            "unit": "BTCD",
+            "name": "BitcoinDark",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe7d8a2a4"
+            },
+            "port": 14631,
+            "portRpc": 14632,
+            "seedsDns": [],
+            "versions": {
+                "public": 60,
+                "scripthash": 85,
+                "private": 188,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 52
+            },
+            "hashGenesisBlock": "0000044966f40703b516c5af180582d53f783bfd319bb045e2dc3e05ea695d46",
+            "per1": 100000000,
+            "messageMagic": "BitcoinDark Signed Message:\\n"
+        },
+        "test": {
+            "unit": "BTCD",
+            "name": "BitcoinDark - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 25714,
+            "portRpc": 25715,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "0000a3af4d553378169e82ac59a767b343ad5a4b8acb9c84ca4d3fbd0ae54fee",
+            "per1": 100000000,
+            "messageMagic": "BitcoinDark Signed Message:\\n"
         }
     },
     "BTCP": {
@@ -1874,6 +2142,66 @@
             "hashGenesisBlock": "00001924120e93f445dd4adb9d90e0020350b8c6c2b08e1a4950372a37f8bcc8",
             "per1": 100000000,
             "messageMagic": "Clam Signed Message:\\n"
+        }
+    },
+    "CNX": {
+        "main": {
+            "unit": "CNX",
+            "name": "Kryptonex",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xa082e418"
+            },
+            "port": 20863,
+            "portRpc": 20864,
+            "seedsDns": [
+                "node-london.cryptonex.org",
+                "node-frankfurt.cryptonex.org",
+                "node-amsterdam.cryptonex.org",
+                "node-toronto.cryptonex.org",
+                "node-singapore.cryptonex.org",
+                "node-paris.cryptonex.org",
+                "node-bangalore.cryptonex.org"
+            ],
+            "versions": {
+                "public": 38,
+                "scripthash": 85,
+                "private": 166,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
+            "per1": 100000000,
+            "messageMagic": "Cryptonex Signed Message:\\n"
+        },
+        "test": {
+            "unit": "CNX",
+            "name": "Kryptonex - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xf051794c"
+            },
+            "port": 30863,
+            "portRpc": 30864,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
+            "per1": 100000000,
+            "messageMagic": "Cryptonex Signed Message:\\n"
         }
     },
     "COLX": {
@@ -2631,6 +2959,113 @@
             "messageMagic": "Einsteinium Signed Message:\\n"
         }
     },
+    "ENRG": {
+        "main": {
+            "unit": "ENRG",
+            "name": "Energycoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xddb7d9fc"
+            },
+            "port": 22706,
+            "portRpc": 22705,
+            "seedsDns": [],
+            "versions": {
+                "public": 92,
+                "scripthash": 8,
+                "private": 220,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000a5ac2dc57cfb0b92bc8be7731fe6a94a8c1c49a0d2f32e9e2da4f7d2308",
+            "per1": 1000000,
+            "messageMagic": "EnergyCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ENRG",
+            "name": "Energycoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xedc1f0cc"
+            },
+            "port": 22709,
+            "portRpc": 22705,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "",
+            "per1": 1000000,
+            "messageMagic": "EnergyCoin Signed Message:\\n"
+        }
+    },
+    "FAIR": {
+        "main": {
+            "unit": "FAIR",
+            "name": "FairCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe5e9e8e4"
+            },
+            "port": 46392,
+            "portRpc": 46393,
+            "seedsDns": [
+                "seed1.fair-coin.org",
+                "seed2.fair-coin.org"
+            ],
+            "versions": {
+                "public": 95,
+                "scripthash": 36,
+                "private": 223,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "f1ae188b0c08e296e45980f9913f6ad2304ff02d5293538275bacdbcb05ef275",
+            "per1": 1000000,
+            "messageMagic": "FairCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "FAIR",
+            "name": "FairCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 18392,
+            "portRpc": 18393,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "5df7281a262d9a6251e65d12bdb78c6a69041c7d28e209df2a7719059de3088c",
+            "per1": 1000000,
+            "messageMagic": "FairCoin Signed Message:\\n"
+        }
+    },
     "FLO": {
         "main": {
             "unit": "FLO",
@@ -2869,6 +3304,62 @@
             "portRpc": 18447,
             "per1": 100000000,
             "messageMagic": "Feathercoin Signed Message:\\n"
+        }
+    },
+    "GAM": {
+        "main": {
+            "unit": "GAM",
+            "name": "Gambit",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf8f6f4f2"
+            },
+            "port": 47077,
+            "portRpc": 47177,
+            "seedsDns": [
+                "node1.gambitcrypto.com",
+                "node2.gambitcrypto.com",
+                "node3.gambitcrypto.com"
+            ],
+            "versions": {
+                "public": 38,
+                "scripthash": 97,
+                "private": 166,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000bcebb12f0ec7bd562d5257215afb6641ce8b9712e3cc4bb91f0cb7aa0f5",
+            "per1": 100000000,
+            "messageMagic": "Gambit Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GAM",
+            "name": "Gambit - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0f08020a"
+            },
+            "port": 47078,
+            "portRpc": 47178,
+            "seedsDns": [],
+            "versions": {
+                "public": 100,
+                "scripthash": 128,
+                "private": 228,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00000a6b3167cd44779db506b85e84144b6ac0a5c2b1f2ce3e5ebb0ba9306fec",
+            "per1": 100000000,
+            "messageMagic": "Gambit Signed Message:\\n"
         }
     },
     "GAME": {
@@ -3149,6 +3640,66 @@
             "messageMagic": "DarkCoin Signed Message:\\n"
         }
     },
+    "GRC": {
+        "main": {
+            "unit": "GRC",
+            "name": "Gridcoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x05223570"
+            },
+            "port": 32749,
+            "portRpc": 15715,
+            "seedsDns": [
+                "node.gridcoin.us",
+                "london.grcnode.co.uk",
+                "gridcoin.crypto.fans",
+                "www.grcpool.com",
+                "nuad.de",
+                "seeds.gridcoin.ifoggz-network.xyz",
+                ""
+            ],
+            "versions": {
+                "public": 62,
+                "scripthash": 85,
+                "private": 190,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 84
+            },
+            "hashGenesisBlock": "000005a247b397eadfefa58e872bc967c2614797bdc8d4d0e6b09fea5c191599",
+            "per1": 100000000,
+            "messageMagic": "Gridcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "GRC",
+            "name": "Gridcoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 32748,
+            "portRpc": 25715,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00006e037d7b84104208ecf2a8638d23149d712ea810da604ee2f2cb39bae713",
+            "per1": 100000000,
+            "messageMagic": "Gridcoin Signed Message:\\n"
+        }
+    },
     "GRS": {
         "main": {
             "unit": "GRS",
@@ -3325,6 +3876,60 @@
             "portRpc": 14889,
             "per1": 100000000,
             "messageMagic": "HTMLCOIN Signed Message:\\n"
+        }
+    },
+    "HWC": {
+        "main": {
+            "unit": "HWC",
+            "name": "Hollywood Coin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x4f9d403b"
+            },
+            "port": 10267,
+            "portRpc": 11030,
+            "seedsDns": [
+                "seed.hollywoodcoin.biz"
+            ],
+            "versions": {
+                "public": 40,
+                "scripthash": 85,
+                "private": 168,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",
+            "per1": 100000000,
+            "messageMagic": "HollyWoodCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "HWC",
+            "name": "Hollywood Coin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x80784e6c"
+            },
+            "port": 20267,
+            "portRpc": 21030,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",
+            "per1": 100000000,
+            "messageMagic": "HollyWoodCoin Signed Message:\\n"
         }
     },
     "HXX": {
@@ -4255,6 +4860,62 @@
             "messageMagic": "Nu Signed Message:\\n"
         }
     },
+    "NLC2": {
+        "main": {
+            "unit": "NLC2",
+            "name": "NoLimiteCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xa6f8b6b1"
+            },
+            "port": 6521,
+            "portRpc": 6520,
+            "seedsDns": [
+                "seed1.nlc2.info",
+                "seed2.nlc2.info",
+                "seed3.nlc2.info"
+            ],
+            "versions": {
+                "public": 53,
+                "scripthash": 85,
+                "private": 181,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 149
+            },
+            "hashGenesisBlock": "000000c97e5317f440753bb4b0155badbce95fa893cb65d677385df2f07f7a2e",
+            "per1": 100000000,
+            "messageMagic": "NoLimitCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "NLC2",
+            "name": "NoLimiteCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xb6b1b6b1"
+            },
+            "port": 16521,
+            "portRpc": 16520,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "0000834807c7b0f6e8772e7bee9b7cd3524e1211c196386f41b3fc20243b0dfa",
+            "per1": 100000000,
+            "messageMagic": "NoLimitCoin Signed Message:\\n"
+        }
+    },
     "NMC": {
         "main": {
             "unit": "NMC",
@@ -4337,6 +4998,115 @@
             "messageMagic": "Bitcoin Signed Message:\\n"
         }
     },
+    "NVC": {
+        "main": {
+            "unit": "NVC",
+            "name": "Novacoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe5e9e8e4"
+            },
+            "port": 7777,
+            "portRpc": 8344,
+            "seedsDns": [
+                "dnsseed.novacoin.karelia.pro",
+                "dnsseed.novacoin.ru",
+                "testseed.novacoin.ru",
+                "dnsseed.novaco.in"
+            ],
+            "versions": {
+                "public": 8,
+                "scripthash": 20,
+                "private": 136,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 50
+            },
+            "hashGenesisBlock": "00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4",
+            "per1": 1000000,
+            "messageMagic": "NovaCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "NVC",
+            "name": "Novacoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 17777,
+            "portRpc": 18344,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+            "per1": 1000000,
+            "messageMagic": "NovaCoin Signed Message:\\n"
+        }
+    },
+    "ONION": {
+        "main": {
+            "unit": "ONION",
+            "name": "DeepOnion",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xf2dbf1d1"
+            },
+            "port": 17570,
+            "portRpc": 18580,
+            "seedsDns": [],
+            "versions": {
+                "public": 31,
+                "scripthash": 78,
+                "private": 159,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "000004e29458ef4f2e0abab544737b07344e6ff13718f7c2d12926166db07b5e",
+            "per1": 100000000,
+            "messageMagic": "DeepOnion Signed Message:\\n"
+        },
+        "test": {
+            "unit": "ONION",
+            "name": "DeepOnion - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xa3a2a0a1"
+            },
+            "port": 26550,
+            "portRpc": 28580,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "0000054e005ba4c0e13aef3de90c6510612259895f2b83db2f6d05e7e86e2b44",
+            "per1": 100000000,
+            "messageMagic": "DeepOnion Signed Message:\\n"
+        }
+    },
     "PHR": {
         "main": {
             "unit": "PHR",
@@ -4392,6 +5162,65 @@
             "portRpc": 11774,
             "per1": 100000000,
             "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "PINK": {
+        "main": {
+            "unit": "PINK",
+            "name": "PinkCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xfbf9f4f2"
+            },
+            "port": 9134,
+            "portRpc": 9135,
+            "seedsDns": [
+                "pinkarmy.ml",
+                "frankfurt.pinkarmy.ml",
+                "paris.pinkarmy.ml",
+                "singapore.pinkarmy.ml",
+                "sydney.pinkarmy.ml",
+                "tokyo.pinkarmy.ml"
+            ],
+            "versions": {
+                "public": 3,
+                "scripthash": 28,
+                "private": 131,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 117
+            },
+            "hashGenesisBlock": "00000f79b700e6444665c4d090c9b8833664c4e2597c7087a6ba6391b956cc89",
+            "per1": 100000000,
+            "messageMagic": "Pinkcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "PINK",
+            "name": "PinkCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0x0d050402"
+            },
+            "port": 19134,
+            "portRpc": 19135,
+            "seedsDns": [],
+            "versions": {
+                "public": 55,
+                "scripthash": 196,
+                "private": 183,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "000076a007b949e5f8cdee6c18817d26bc224bfde575ce3f2ecb0dd000f7ec19",
+            "per1": 100000000,
+            "messageMagic": "Pinkcoin Signed Message:\\n"
         }
     },
     "PIVX": {
@@ -4464,6 +5293,60 @@
             "portRpc": 51475,
             "per1": 100000000,
             "messageMagic": "DarkNet Signed Message:\\n"
+        }
+    },
+    "PND": {
+        "main": {
+            "unit": "PND",
+            "name": "Pandacoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xc0c0c0c0"
+            },
+            "port": 22445,
+            "portRpc": 22444,
+            "seedsDns": [
+                "server1.cryptodepot.org"
+            ],
+            "versions": {
+                "public": 55,
+                "scripthash": 22,
+                "private": 183,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 37
+            },
+            "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+            "per1": 100000000,
+            "messageMagic": "Pandacoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "PND",
+            "name": "Pandacoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xdcb7c1fc"
+            },
+            "port": 44656,
+            "portRpc": 25715,
+            "seedsDns": [],
+            "versions": {
+                "public": 113,
+                "scripthash": 196,
+                "private": 241,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+            "per1": 100000000,
+            "messageMagic": "Pandacoin Signed Message:\\n"
         }
     },
     "POLIS": {
@@ -5493,6 +6376,60 @@
             "messageMagic": "Sexcoin Signed Message:\\n"
         }
     },
+    "THX": {
+        "main": {
+            "unit": "THX",
+            "name": "HempCoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x01fda5a5"
+            },
+            "port": 21054,
+            "portRpc": 12055,
+            "seedsDns": [
+                "162.243.1.45"
+            ],
+            "versions": {
+                "public": 40,
+                "scripthash": 8,
+                "private": 168,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "00000dd93ea1774f94a1ac8d26fa5bc165c1bc3d415b9c37ecb8a6ebe5e05fb1",
+            "per1": 1000000,
+            "messageMagic": "Hempcoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "THX",
+            "name": "HempCoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2f2"
+            },
+            "port": 31054,
+            "portRpc": 22055,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "000c20eb9b869a603d2251b26de94cadcf7a26677c5797cdb70f895cc2b9b19e",
+            "per1": 1000000,
+            "messageMagic": "Hempcoin Signed Message:\\n"
+        }
+    },
     "TRC": {
         "main": {
             "unit": "TRC",
@@ -5726,6 +6663,62 @@
             "messageMagic": "Viacoin Signed Message:\\n"
         }
     },
+    "VRC": {
+        "main": {
+            "unit": "VRC",
+            "name": "Vericoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0x05223570"
+            },
+            "port": 58684,
+            "portRpc": 58683,
+            "seedsDns": [
+                "emea.vrc.vericonomy.com",
+                "apac.vrc.vericonomy.com",
+                "amer.vrc.vericonomy.com"
+            ],
+            "versions": {
+                "public": 70,
+                "scripthash": 132,
+                "private": 198,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "000004da58a02be894a6c916d349fe23cc29e21972cafb86b5d3f07c4b8e6bb8",
+            "per1": 100000000,
+            "messageMagic": "VeriCoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "VRC",
+            "name": "Vericoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 48684,
+            "portRpc": 48683,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "0000d90349e5898a5cb76775e93f8774138d48cd2d763c7707ce87d42af0f66a",
+            "per1": 100000000,
+            "messageMagic": "VeriCoin Signed Message:\\n"
+        }
+    },
     "VTC": {
         "main": {
             "unit": "VTC",
@@ -5915,6 +6908,123 @@
             "portRpc": 18332,
             "per1": 100000000,
             "messageMagic": "Myriadcoin Signed Message:\\n"
+        }
+    },
+    "XP": {
+        "main": {
+            "unit": "XP",
+            "name": "Experience Points",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe5e2f8b4"
+            },
+            "port": 28192,
+            "portRpc": 28191,
+            "seedsDns": [
+                "seed1.xpcoin.io",
+                "seed2.xpcoin.io",
+                "seed3.xpcoin.io",
+                "seed4.xpcoin.io"
+            ],
+            "versions": {
+                "public": 75,
+                "scripthash": 20,
+                "private": 203,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": null
+            },
+            "hashGenesisBlock": "0000065a10945931644cdda436d5ad0742d085e9dee3e7fdd51b822626727e78",
+            "per1": 1000000,
+            "messageMagic": "XP Signed Message:\\n"
+        },
+        "test": {
+            "unit": "XP",
+            "name": "Experience Points - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xefc0f2cd"
+            },
+            "port": 17778,
+            "portRpc": 18345,
+            "seedsDns": [],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+            "per1": 1000000,
+            "messageMagic": "XP Signed Message:\\n"
+        }
+    },
+    "XPM": {
+        "main": {
+            "unit": "XPM",
+            "name": "Primecoin",
+            "testnet": false,
+            "protocol": {
+                "magic": "0xe7e5e7e4"
+            },
+            "port": 9911,
+            "portRpc": 9912,
+            "seedsDns": [
+                "seed.ppcoin.net",
+                "dnsseed.xpm.altcointech.net",
+                "dnsseed.xpm2.altcointech.net",
+                "primeseed.muuttuja.org"
+            ],
+            "versions": {
+                "public": 23,
+                "scripthash": 83,
+                "private": 151,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 24
+            },
+            "hashGenesisBlock": "963d17ba4dc753138078a2f56afb3af9674e2546822badff26837db9a0152106",
+            "per1": 100000000,
+            "messageMagic": "Primecoin Signed Message:\\n"
+        },
+        "test": {
+            "unit": "XPM",
+            "name": "Primecoin - Testnet",
+            "testnet": true,
+            "protocol": {
+                "magic": "0xc3cbfefb"
+            },
+            "port": 9913,
+            "portRpc": 9914,
+            "seedsDns": [
+                "tnseed.ppcoin.net",
+                "primeseedtn.muuttuja.org"
+            ],
+            "versions": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32_hrp": null,
+                "bip44": 1
+            },
+            "hashGenesisBlock": "221156cf301bc3585e72de34fe1efdb6fbd703bc27cfc468faa1cdd889d0efa0",
+            "per1": 100000000,
+            "messageMagic": "Primecoin Signed Message:\\n"
         }
     },
     "XSN": {

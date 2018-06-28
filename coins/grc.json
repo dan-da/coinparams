@@ -1,0 +1,60 @@
+{
+    "main": {
+        "unit": "GRC",
+        "name": "Gridcoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0x05223570"
+        },
+        "port": 32749,
+        "portRpc": 15715,
+        "seedsDns": [
+            "node.gridcoin.us",
+            "london.grcnode.co.uk",
+            "gridcoin.crypto.fans",
+            "www.grcpool.com",
+            "nuad.de",
+            "seeds.gridcoin.ifoggz-network.xyz",
+            ""
+        ],
+        "versions": {
+            "public": 62,
+            "scripthash": 85,
+            "private": 190,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 84
+        },
+        "hashGenesisBlock": "000005a247b397eadfefa58e872bc967c2614797bdc8d4d0e6b09fea5c191599",
+        "per1": 100000000,
+        "messageMagic": "Gridcoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "GRC",
+        "name": "Gridcoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 32748,
+        "portRpc": 25715,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "00006e037d7b84104208ecf2a8638d23149d712ea810da604ee2f2cb39bae713",
+        "per1": 100000000,
+        "messageMagic": "Gridcoin Signed Message:\\n"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "main": {
+        "unit": "BIO",
+        "name": "Biocoin",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xa5e1f9b4"
+        },
+        "port": 24885,
+        "portRpc": 24889,
+        "seedsDns": [
+            "seed1.cryptolife.net",
+            "seed2.cryptolife.net",
+            "seed3.cryptolife.net",
+            "seed4.cryptolife.net",
+            "seed5.cryptolife.net"
+        ],
+        "versions": {
+            "public": 25,
+            "scripthash": 20,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 154
+        },
+        "hashGenesisBlock": "000009038d39a5ecfecf6a15cc7c49ff3c7bc0b23f8115902a9c0f3c9f72e9b9",
+        "per1": 100000000,
+        "messageMagic": "BioCoin Signed Message:\\n"
+    },
+    "test": {
+        "unit": "BIO",
+        "name": "Biocoin - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "port": 17778,
+        "portRpc": 18345,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "000009038d39a5ecfecf6a15cc7c49ff3c7bc0b23f8115902a9c0f3c9f72e9b9",
+        "per1": 100000000,
+        "messageMagic": "BioCoin Signed Message:\\n"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "main": {
+        "unit": "GAM",
+        "name": "Gambit",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xf8f6f4f2"
+        },
+        "port": 47077,
+        "portRpc": 47177,
+        "seedsDns": [
+            "node1.gambitcrypto.com",
+            "node2.gambitcrypto.com",
+            "node3.gambitcrypto.com"
+        ],
+        "versions": {
+            "public": 38,
+            "scripthash": 97,
+            "private": 166,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "00000bcebb12f0ec7bd562d5257215afb6641ce8b9712e3cc4bb91f0cb7aa0f5",
+        "per1": 100000000,
+        "messageMagic": "Gambit Signed Message:\\n"
+    },
+    "test": {
+        "unit": "GAM",
+        "name": "Gambit - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0x0f08020a"
+        },
+        "port": 47078,
+        "portRpc": 47178,
+        "seedsDns": [],
+        "versions": {
+            "public": 100,
+            "scripthash": 128,
+            "private": 228,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "00000a6b3167cd44779db506b85e84144b6ac0a5c2b1f2ce3e5ebb0ba9306fec",
+        "per1": 100000000,
+        "messageMagic": "Gambit Signed Message:\\n"
+    }
+}

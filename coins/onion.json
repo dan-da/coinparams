@@ -1,0 +1,52 @@
+{
+    "main": {
+        "unit": "ONION",
+        "name": "DeepOnion",
+        "testnet": false,
+        "protocol": {
+            "magic": "0xf2dbf1d1"
+        },
+        "port": 17570,
+        "portRpc": 18580,
+        "seedsDns": [],
+        "versions": {
+            "public": 31,
+            "scripthash": 78,
+            "private": 159,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hashGenesisBlock": "000004e29458ef4f2e0abab544737b07344e6ff13718f7c2d12926166db07b5e",
+        "per1": 100000000,
+        "messageMagic": "DeepOnion Signed Message:\\n"
+    },
+    "test": {
+        "unit": "ONION",
+        "name": "DeepOnion - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": "0xa3a2a0a1"
+        },
+        "port": 26550,
+        "portRpc": 28580,
+        "seedsDns": [],
+        "versions": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hashGenesisBlock": "0000054e005ba4c0e13aef3de90c6510612259895f2b83db2f6d05e7e86e2b44",
+        "per1": 100000000,
+        "messageMagic": "DeepOnion Signed Message:\\n"
+    }
+}
