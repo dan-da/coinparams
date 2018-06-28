@@ -12,7 +12,7 @@ $name = @$argv[2];
 $project_url = @$argv[3];    // eg https://github.com/digibyte/digibyte
 
 $coins = [
-    'btc'   => ['Bitcoin', 'https://github.com/bitcoin/bitcoin', 'v0.8.1'],       // use branch/tag v0.8.1 for pre chainparams.cpp code.
+    'btc'   => ['Bitcoin', 'https://github.com/bitcoin/bitcoin', 'master'],       // use branch/tag v0.8.1 for pre chainparams.cpp code.
     'dgb'   => ['Digibyte', 'https://github.com/digibyte/digibyte', 'master'],
     'vtc'   => ['Vertcoin', 'https://github.com/vertcoin-project/vertcoin-core', 'master'],
     'dash'  => ['Dash', 'https://github.com/dashpay/dash', 'master'],
@@ -179,7 +179,11 @@ function process_coin($symbol, $name, $project_url, $branch) {
     $urlbase = sprintf("https://raw.githubusercontent.com/%s/%s", $path, $branch);
     
     $data = [];
-    $meta = ['symbol' => $symbol, 'name' => $name, 'urlbase' => $urlbase];
+    $meta = ['symbol' => $symbol,
+             'name' => $name,
+             'urlbase' => $urlbase,
+//             'codebase' => 'bitcoin',  // eg bitcoin, cryptonote, ethereum etc.
+            ];
     
     $networks = ['main', 'test', 'regtest'];
     
