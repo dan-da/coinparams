@@ -29,7 +29,64 @@ bip44               hexa    (testnet, regtest is always 0x1)
 
 
 
+// --------- Fields in old bitcoin clones before chainparams -------
 
+DNS Seeds : in net.cpp
+    static const char *strMainNetDNSSeed[][2] = {
+        {"primecoin.net", "seed.ppcoin.net"},
+        {"xpm.altcointech.net", "dnsseed.xpm.altcointech.net"},
+        {"xpm2.altcointech.net", "dnsseed.xpm2.altcointech.net"},
+        {"primeseed.muuttuja.org", "primeseed.muuttuja.org"},
+        {NULL, NULL}
+    };
+    
+    static const char *strTestNetDNSSeed[][2] = {
+        {"primecoin.net", "tnseed.ppcoin.net"},
+        {"primeseedtn.muuttuja.org", "primeseedtn.muuttuja.org"},
+        {NULL, NULL}
+    };
+
+
+Address Prefixes:  in base58.h
+public      PUBKEY_ADDRESS,  PUBKEY_ADDRESS_TEST
+script      SCRIPT_ADDRESS,  SCRIPT_ADDRESS_TEST
+private     in CBitcoinSecret::setSecret(). line looks like:
+            SetData(128 + (fTestNet ? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
+            (128 is the private key prefix, 0x80 in hex.)
+
+
+bip32/public:     use 0x0488b21e   ( same as bitcoin)
+bip32/private:    use 0x0488ade4   ( same as bitcoin)
+
+
+hashGenesisBlock:  in main.h
+    static const uint256 hashGenesisBlockOfficial("0x0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3");
+    static const uint256 hashGenesisBlockTestNet("0x00000001f757bb737f6596503e17cd17b0658ce630cc727c0cca81aec47c9f06");
+
+protocol/magic:    in main.cpp
+    unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
+     ...  
+    if (fTestNet)
+    {
+        pchMessageStart[0] = 0x0b;
+        pchMessageStart[1] = 0x11;
+        pchMessageStart[2] = 0x09;
+        pchMessageStart[3] = 0x07;
+        hashGenesisBlock = uint256("000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943");
+    }
+
+
+port, portRpc:    in protocol.h
+    #define PPCOIN_PORT  9901
+    #define RPC_PORT     9902
+    #define TESTNET_PORT 9903
+    #define TESTNET_RPC_PORT 9904
+
+per1:             in util.h
+    static const int64 COIN = 1000000;
+
+
+// ------------ Altcoin Notes ---------------
 
 Decred:
     https://github.com/decred
@@ -134,3 +191,5 @@ Prizm:
 Aeon
     https://github.com/floblockchain/flo
     cryptonote fork
+    
+    
