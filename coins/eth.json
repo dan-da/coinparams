@@ -1,16 +1,15 @@
 {
     "main": {
-        "unit": "ETH",
+        "symbol": "ETH",
         "name": "Ethereum",
         "testnet": false,
         "protocol": {
             "magic": null
         },
         "port": 30303,
-        "portRpc": 8545,
-        "seedsDns": [
-        ],
-        "versions": {
+        "port_rpc": 8545,
+        "seeds_dns": [],
+        "prefixes": {
             "private": "",
             "public": "",
             "scripthash": "",
@@ -20,23 +19,21 @@
             },
             "bip44": 60
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "d4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
+        "hash_genesis_block": "d4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
         "decimals": 18,
-        "messageMagic": "\u0019Ethereum Signed Message:\n"
+        "message_magic": "\u0019Ethereum Signed Message:\n"
     },
     "test": {
-        "unit": "ETH",
+        "symbol": "ETH",
         "name": "Ethereum - Testnet",
         "testnet": true,
         "protocol": {
             "magic": null
         },
         "port": 30303,
-        "portRpc": 8080,
-        "seedsDns": [
-        ],
-        "versions": {
+        "port_rpc": 8080,
+        "seeds_dns": [],
+        "prefixes": {
             "private": "",
             "public": "",
             "scripthash": "",
@@ -46,9 +43,8 @@
             },
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d",
+        "hash_genesis_block": "41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d",
         "decimals": 18,
-        "messageMagic": "\u0019Ethereum Signed Message:\n"
+        "message_magic": "\u0019Ethereum Signed Message:\n"
     }
 }

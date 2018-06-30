@@ -1,20 +1,20 @@
 {
     "main": {
-        "unit": "XMR",
+        "symbol": "XMR",
         "name": "Monero",
         "testnet": false,
         "protocol": {
             "magic": ""
         },
         "port": 18080,
-        "portRpc": 18081,
-        "seedsDns": [
+        "port_rpc": 18081,
+        "seeds_dns": [
             "seeds.moneroseeds.se",
             "seeds.moneroseeds.ae.org",
             "seeds.moneroseeds.ch",
             "seeds.moneroseeds.li"
         ],
-        "versions": {
+        "prefixes": {
             "private": "",
             "public": 18,
             "scripthash": "",
@@ -24,23 +24,21 @@
             },
             "bip44": 60
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3",
+        "hash_genesis_block": "418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3",
         "decimals": 12,
-        "messageMagic": ""
+        "message_magic": ""
     },
     "test": {
-        "unit": "XMR",
+        "symbol": "XMR",
         "name": "Monero - Testnet",
         "testnet": true,
         "protocol": {
             "magic": ""
         },
         "port": 28080,
-        "portRpc": 28081,
-        "seedsDns": [
-        ],
-        "versions": {
+        "port_rpc": 28081,
+        "seeds_dns": [],
+        "prefixes": {
             "private": "",
             "public": 53,
             "scripthash": "",
@@ -50,9 +48,8 @@
             },
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b",
+        "hash_genesis_block": "48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b",
         "decimals": 12,
-        "messageMagic": ""
+        "message_magic": ""
     }
 }
