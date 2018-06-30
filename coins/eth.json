@@ -1,0 +1,54 @@
+{
+    "main": {
+        "unit": "ETH",
+        "name": "Ethereum",
+        "testnet": false,
+        "protocol": {
+            "magic": null
+        },
+        "port": 30303,
+        "portRpc": 8545,
+        "seedsDns": [
+        ],
+        "versions": {
+            "private": "",
+            "public": "",
+            "scripthash": "",
+            "bip32": {
+                "public": "",
+                "private": ""
+            },
+            "bip44": 60
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "d4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
+        "decimals": 18,
+        "messageMagic": "\u0019Ethereum Signed Message:\n"
+    },
+    "test": {
+        "unit": "ETH",
+        "name": "Ethereum - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": null
+        },
+        "port": 30303,
+        "portRpc": 8080,
+        "seedsDns": [
+        ],
+        "versions": {
+            "private": "",
+            "public": "",
+            "scripthash": "",
+            "bip32": {
+                "public": "",
+                "private": ""
+            },
+            "bip44": 1
+        },
+        "bech32_hrp": null,
+        "hashGenesisBlock": "41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d",
+        "decimals": 18,
+        "messageMagic": "\u0019Ethereum Signed Message:\n"
+    }
+}
