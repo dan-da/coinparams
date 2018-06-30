@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "ZEC",
+        "symbol": "ZEC",
         "name": "Zcash",
         "testnet": false,
+        "port": 8233,
+        "port_rpc": 8232,
         "protocol": {
             "magic": "0x6427e924"
         },
-        "port": 8233,
-        "seedsDns": [
+        "seeds_dns": [
             "z.cash",
             "str4d.xyz",
             "znodes.org",
@@ -15,73 +16,72 @@
             "dnsseed.str4d.xyz",
             "dnsseed.znodes.org"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x1cb8",
-            "scripthash": "0x1cbd",
+        "prefixes": {
+            "private": 128,
+            "public": 7352,
+            "scripthash": 7357,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 133
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
-        "portRpc": 8232,
-        "per1": 100000000,
-        "messageMagic": "Zcash Signed Message:\\n"
+        "hash_genesis_block": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "ZEC",
+        "symbol": "ZEC",
         "name": "Zcash - Testnet",
         "testnet": true,
+        "port": 18233,
+        "port_rpc": 18232,
         "protocol": {
             "magic": "0xbff91afa"
         },
-        "port": 18233,
-        "seedsDns": [
+        "seeds_dns": [
             "z.cash",
             "dnsseed.testnet.z.cash"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x1d25",
-            "scripthash": "0x1cba",
+        "prefixes": {
+            "private": 239,
+            "public": 7461,
+            "scripthash": 7354,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
-        "portRpc": 18232,
-        "per1": 100000000,
-        "messageMagic": "Zcash Signed Message:\\n"
+        "hash_genesis_block": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "ZEC",
+        "symbol": "ZEC",
         "name": "Zcash - Regtest",
         "testnet": true,
+        "port": 18344,
+        "port_rpc": 18232,
         "protocol": {
             "magic": "0x5f3fe8aa"
         },
-        "port": 18344,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x1d25",
-            "scripthash": "0x1cba",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 7461,
+            "scripthash": 7354,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
-        "portRpc": 18232,
-        "per1": 100000000,
-        "messageMagic": "Zcash Signed Message:\\n"
+        "hash_genesis_block": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
     }
 }

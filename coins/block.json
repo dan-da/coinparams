@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "BLOCK",
+        "symbol": "BLOCK",
         "name": "Blocknet",
         "testnet": false,
+        "port": 41412,
+        "port_rpc": 41414,
         "protocol": {
             "magic": "0xa3a2a0a1"
         },
-        "port": 41412,
-        "seedsDns": [
+        "seeds_dns": [
             "178.62.90.213",
             "138.197.73.214",
             "34.235.49.248",
@@ -31,31 +32,31 @@
             "35.178.142.231",
             "35.176.65.103"
         ],
-        "versions": {
-            "private": "0x9a",
-            "public": "0x1a",
-            "scripthash": "0x1c",
+        "prefixes": {
+            "private": 154,
+            "public": 26,
+            "scripthash": 28,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 328
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000eb7919102da5a07dc90905651664e6ebf0811c28f06573b9a0fd84ab7b8",
-        "portRpc": 41414,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "00000eb7919102da5a07dc90905651664e6ebf0811c28f06573b9a0fd84ab7b8",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BLOCK",
+        "symbol": "BLOCK",
         "name": "Blocknet - Testnet",
         "testnet": true,
+        "port": 41474,
+        "port_rpc": 41419,
         "protocol": {
             "magic": "0xba657645"
         },
-        "port": 41474,
-        "seedsDns": [
+        "seeds_dns": [
             "178.62.90.213",
             "138.197.73.214",
             "34.235.49.248",
@@ -63,20 +64,19 @@
             "138.197.73.214",
             "34.235.49.248"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8b",
-            "scripthash": "0x13",
+        "prefixes": {
+            "private": 239,
+            "public": 139,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000f90ac260859e4515356719d94c9fb8cadb1a3dda186a64ac41ce4c3c7a7",
-        "portRpc": 41419,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "00000f90ac260859e4515356719d94c9fb8cadb1a3dda186a64ac41ce4c3c7a7",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     }
 }

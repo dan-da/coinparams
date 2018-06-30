@@ -1,0 +1,89 @@
+{
+    "main": {
+        "symbol": "$PAC",
+        "name": "PACcoin",
+        "testnet": false,
+        "port": 7112,
+        "port_rpc": 7111,
+        "protocol": {
+            "magic": "0x2c61e5c8"
+        },
+        "seeds_dns": [
+            "paccoin.io",
+            "paccoin.io",
+            "paccoin.io",
+            "paccoin.io",
+            "dnsseed1.paccoin.io",
+            "dnsseed2.paccoin.io",
+            "dns-seeder-next.paccoin.io",
+            "dns-seeder-foxtrot.paccoin.io"
+        ],
+        "prefixes": {
+            "private": 204,
+            "public": 55,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0x00000354655ff039a51273fe61d3b493bd2897fe6c16f732dbc4ae19f04b789e",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "$PAC",
+        "name": "PACcoin - Testnet",
+        "testnet": true,
+        "port": 17112,
+        "port_rpc": 17111,
+        "protocol": {
+            "magic": "0xe3fa2f9b"
+        },
+        "seeds_dns": [
+            "paccoin.io",
+            "testnet-static-dns.paccoin.io"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 120,
+            "scripthash": 14,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x00000da63bd9478b655ef6bf1bf76cd9af05202ab68643f9091e049b2b5280ed",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "$PAC",
+        "name": "PACcoin - Regtest",
+        "testnet": true,
+        "port": 17114,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xc2fea696"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 120,
+            "scripthash": 14,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x084c58211fe102add2fb5c3976f14f997e3c27a3a6fd5ab15a1929f7b5db9d95",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

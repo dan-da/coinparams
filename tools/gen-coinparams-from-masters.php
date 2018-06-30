@@ -14,7 +14,7 @@ $files = glob(__DIR__ . '/../coins/*.json');
 $coininfo = [];
 foreach($files as $file) {
     $data = @json_decode( file_get_contents($file), true );
-    $symbol = @$data['main']['unit'];
+    $symbol = @$data['main']['symbol'];
     
     if( !$data || !$symbol ) {
         throw new Exception("Error reading file $file");

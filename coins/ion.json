@@ -1,62 +1,62 @@
 {
     "main": {
-        "unit": "ION",
+        "symbol": "ION",
         "name": "ION",
         "testnet": false,
+        "port": 12700,
+        "port_rpc": 12705,
         "protocol": {
             "magic": "0xecd8e1c4"
         },
-        "port": 12700,
-        "seedsDns": [
+        "seeds_dns": [
             "1",
             "2",
             "main.seeder.baseserv.com",
             "main.seeder.uksafedns.net"
         ],
-        "versions": {
-            "private": "0x99",
-            "public": "0x67",
-            "scripthash": "0x58",
+        "prefixes": {
+            "private": 153,
+            "public": 103,
+            "scripthash": 88,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000004cf5ffbf2e31a9aa07c86298efb01a30b8911b80af7473d1114715084b",
-        "portRpc": 12705,
-        "per1": 100000000,
-        "messageMagic": "Ion Signed Message:\\n"
+        "hash_genesis_block": "0000004cf5ffbf2e31a9aa07c86298efb01a30b8911b80af7473d1114715084b",
+        "message_magic": "\u0014Ion Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "ION",
+        "symbol": "ION",
         "name": "ION - Testnet",
         "testnet": true,
+        "port": 27170,
+        "port_rpc": 27171,
         "protocol": {
             "magic": "0x69fc86db"
         },
-        "port": 27170,
-        "seedsDns": [
+        "seeds_dns": [
             "1",
             "2",
             "testnet.seeder.baseserv.com",
             "testnet.seeder.uksafedns.net"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x61",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 97,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358391"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000002bed128b6b2a62bd8edd4e6f8a414eac38e256aa0194adb8c93fe18132",
-        "portRpc": 27171,
-        "per1": 100000000,
-        "messageMagic": "Ion Signed Message:\\n"
+        "hash_genesis_block": "0000002bed128b6b2a62bd8edd4e6f8a414eac38e256aa0194adb8c93fe18132",
+        "message_magic": "\u0014Ion Signed Message:\n",
+        "decimals": 8
     }
 }

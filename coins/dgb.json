@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "DGB",
+        "symbol": "DGB",
         "name": "Digibyte",
         "testnet": false,
+        "port": 12024,
+        "port_rpc": 8332,
         "protocol": {
             "magic": "0xdab6c3fa"
         },
-        "port": 12024,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.digibyte.io",
             "seed2.digibyte.io",
             "seed3.digibyte.io",
@@ -16,75 +17,74 @@
             "digiexplorer.info",
             "seed.digibyteprojects.com"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x1e",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 128,
+            "public": 30,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": "dgb",
             "bip44": 20
         },
-        "bech32_hrp": "dgb",
-        "hashGenesisBlock": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
-        "portRpc": 8332,
-        "per1": 100000000,
-        "messageMagic": "DigiByte Signed Message:\\n"
+        "hash_genesis_block": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
+        "message_magic": "\u0019DigiByte Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "DGB",
+        "symbol": "DGB",
         "name": "Digibyte - Testnet",
         "testnet": true,
+        "port": 12025,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xddbdc8fd"
         },
-        "port": 12025,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.digibyte.io",
             "seed2.digibyte.io",
             "seed3.digibyte.io",
             "testnet-seed.digibyteprojects.com"
         ],
-        "versions": {
-            "private": "0xfe",
-            "public": "0x7e",
-            "scripthash": "0x8c",
+        "prefixes": {
+            "private": 254,
+            "public": 126,
+            "scripthash": 140,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "dgbt",
             "bip44": 1
         },
-        "bech32_hrp": "dgbt",
-        "hashGenesisBlock": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "DigiByte Signed Message:\\n"
+        "hash_genesis_block": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
+        "message_magic": "\u0019DigiByte Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "DGB",
+        "symbol": "DGB",
         "name": "Digibyte - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18443,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xfe",
-            "public": "0x7e",
-            "scripthash": "0x8c",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 254,
+            "public": 126,
+            "scripthash": 140,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "dgbrt",
             "bip44": 1
         },
-        "bech32_hrp": "dgbrt",
-        "hashGenesisBlock": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",
-        "portRpc": 18443,
-        "per1": 100000000,
-        "messageMagic": "DigiByte Signed Message:\\n"
+        "hash_genesis_block": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",
+        "message_magic": "\u0019DigiByte Signed Message:\n",
+        "decimals": 8
     }
 }

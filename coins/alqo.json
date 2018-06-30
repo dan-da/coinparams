@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "ALQO",
+        "symbol": "ALQO",
         "name": "ALQO",
         "testnet": false,
+        "port": 55500,
+        "port_rpc": 55000,
         "protocol": {
             "magic": "0x14150494"
         },
-        "port": 55500,
-        "seedsDns": [
+        "seeds_dns": [
             "mainseed.alqoseednodes.org",
             "mainseed2.alqoseednodes.org",
             "85.25.138.64",
@@ -415,31 +416,31 @@
             "51.15.4.242",
             "89.40.5.53"
         ],
-        "versions": {
-            "private": "0xc1",
-            "public": "0x17",
-            "scripthash": "0x10",
+        "prefixes": {
+            "private": 193,
+            "public": 23,
+            "scripthash": 16,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000006680a85db563f3a849c77e02a8c860068474ab2c5495cc24a2204727b62",
-        "portRpc": 55000,
-        "per1": 100000000,
-        "messageMagic": "ALQO Signed Message:\\n"
+        "hash_genesis_block": "000006680a85db563f3a849c77e02a8c860068474ab2c5495cc24a2204727b62",
+        "message_magic": "\u0015ALQO Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "ALQO",
+        "symbol": "ALQO",
         "name": "ALQO - Testnet",
         "testnet": true,
+        "port": 55600,
+        "port_rpc": 55000,
         "protocol": {
             "magic": "0x54654464"
         },
-        "port": 55600,
-        "seedsDns": [
+        "seeds_dns": [
             "85.25.138.64",
             "85.25.251.198",
             "85.25.251.199",
@@ -467,20 +468,19 @@
             "80.209.228.196",
             "80.209.228.195"
         ],
-        "versions": {
-            "private": "0xc1",
-            "public": "0x53",
-            "scripthash": "0x12",
+        "prefixes": {
+            "private": 193,
+            "public": 83,
+            "scripthash": 18,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000083eda581357fce6db177da9049ee583b3d32236d4ff52e1f86fee2d5aad",
-        "portRpc": 55000,
-        "per1": 100000000,
-        "messageMagic": "ALQO Signed Message:\\n"
+        "hash_genesis_block": "0000083eda581357fce6db177da9049ee583b3d32236d4ff52e1f86fee2d5aad",
+        "message_magic": "\u0015ALQO Signed Message:\n",
+        "decimals": 8
     }
 }

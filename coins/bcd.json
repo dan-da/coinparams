@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "BCD",
+        "symbol": "BCD",
         "name": "Bitcoin Diamond",
         "testnet": false,
+        "port": 7117,
+        "port_rpc": 7116,
         "protocol": {
             "magic": "0xd9b4debd"
         },
-        "port": 7117,
-        "seedsDns": [
+        "seeds_dns": [
             "dns1.btcd.io",
             "dns2.btcd.io",
             "dns3.btcd.io",
@@ -21,73 +22,72 @@
             "seed5.dns.btcd.io",
             "seed6.dns.btcd.io"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x00",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 128,
+            "public": 0,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 999
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-        "portRpc": 7116,
-        "per1": 10000000,
-        "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "message_magic": " Bitcoin Diamond Signed Message:\n",
+        "decimals": 7
     },
     "test": {
-        "unit": "BCD",
+        "symbol": "BCD",
         "name": "Bitcoin Diamond - Testnet",
         "testnet": true,
+        "port": 17117,
+        "port_rpc": 17116,
         "protocol": {
             "magic": "0x1820cd0b"
         },
-        "port": 17117,
-        "seedsDns": [
+        "seeds_dns": [
             "test1.dns.btcd.io",
             "test1.dns.btcd.io"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-        "portRpc": 17116,
-        "per1": 10000000,
-        "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        "hash_genesis_block": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+        "message_magic": " Bitcoin Diamond Signed Message:\n",
+        "decimals": 7
     },
     "regtest": {
-        "unit": "BCD",
+        "symbol": "BCD",
         "name": "Bitcoin Diamond - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-        "portRpc": 18332,
-        "per1": 10000000,
-        "messageMagic": "Bitcoin Diamond Signed Message:\\n"
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": " Bitcoin Diamond Signed Message:\n",
+        "decimals": 7
     }
 }

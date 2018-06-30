@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "FST",
+        "symbol": "FST",
         "name": "Fastcoin",
         "testnet": false,
+        "port": 9526,
+        "port_rpc": 9527,
         "protocol": {
             "magic": "0xdbb6c0fb"
         },
-        "port": 9526,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseed.fastcoin.ws",
             "ns-1470.awsdns-55.org",
             "ns-1863.awsdns-40.co.uk",
@@ -19,31 +20,31 @@
             "dnsseed.fastcoinpool.org",
             "dnsseed.weminemnc.com"
         ],
-        "versions": {
-            "private": "0xe0",
-            "public": "0x60",
-            "scripthash": "0x14",
+        "prefixes": {
+            "private": 224,
+            "public": 96,
+            "scripthash": 20,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "ecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b",
-        "portRpc": 9527,
-        "per1": 100000000,
-        "messageMagic": "Fastcoin Signed Message:\\n"
+        "hash_genesis_block": "ecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b",
+        "message_magic": "\u0019Fastcoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "FST",
+        "symbol": "FST",
         "name": "Fastcoin - Testnet",
         "testnet": true,
+        "port": 19526,
+        "port_rpc": 19527,
         "protocol": {
             "magic": "0xdcb7c1fc"
         },
-        "port": 19526,
-        "seedsDns": [
+        "seeds_dns": [
             "fastcointools.com",
             "xurious.com",
             "wemine-testnet.com",
@@ -51,20 +52,19 @@
             "testnet-seed.ltc.xurious.com",
             "dnsseed.wemine-testnet.com"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
-        "portRpc": 19527,
-        "per1": 100000000,
-        "messageMagic": "Fastcoin Signed Message:\\n"
+        "hash_genesis_block": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+        "message_magic": "\u0019Fastcoin Signed Message:\n",
+        "decimals": 8
     }
 }

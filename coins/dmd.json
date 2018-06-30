@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "DMD",
+        "symbol": "DMD",
         "name": "Diamond",
         "testnet": false,
+        "port": 17771,
+        "port_rpc": 17770,
         "protocol": {
             "magic": "0xfdbde8e4"
         },
-        "port": 17771,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseed.bit.diamonds",
             "37.120.186.85",
             "185.194.140.60",
@@ -19,48 +20,47 @@
             "188.68.39.1",
             "188.68.52.172"
         ],
-        "versions": {
-            "private": "0xda",
-            "public": "0x5a",
-            "scripthash": "0x08",
+        "prefixes": {
+            "private": 218,
+            "public": 90,
+            "scripthash": 8,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 152
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
-        "portRpc": 17770,
-        "per1": 100000000,
-        "messageMagic": "Diamond Signed Message:\\n"
+        "hash_genesis_block": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+        "message_magic": "\u0018Diamond Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "DMD",
+        "symbol": "DMD",
         "name": "Diamond - Testnet",
         "testnet": true,
+        "port": 51474,
+        "port_rpc": 17772,
         "protocol": {
             "magic": "0xba657645"
         },
-        "port": 51474,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseed.bit.diamonds",
             "dnsseed.bit.diamonds"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8b",
-            "scripthash": "0x13",
+        "prefixes": {
+            "private": 239,
+            "public": 139,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
-        "portRpc": 17772,
-        "per1": 100000000,
-        "messageMagic": "Diamond Signed Message:\\n"
+        "hash_genesis_block": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
+        "message_magic": "\u0018Diamond Signed Message:\n",
+        "decimals": 8
     }
 }

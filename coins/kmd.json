@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "KMD",
+        "symbol": "KMD",
         "name": "Komodo",
         "testnet": false,
+        "port": 7770,
+        "port_rpc": 7771,
         "protocol": {
             "magic": "0x(ASS(ASS(ASSASSE8de4eef9"
         },
-        "port": 7770,
-        "seedsDns": [
+        "seeds_dns": [
             "komodoplatform.com",
             "kolo.supernet.org",
             "kolo.supernet.org",
@@ -15,48 +16,47 @@
             "static.kolo.supernet.org",
             "dynamic.kolo.supernet.org"
         ],
-        "versions": {
-            "private": "0xbc",
-            "public": "0x3c",
-            "scripthash": "0x55",
+        "prefixes": {
+            "private": 188,
+            "public": 60,
+            "scripthash": 85,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 141
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71",
-        "portRpc": 7771,
-        "per1": 100000000,
-        "messageMagic": "Komodo Signed Message:\\n"
+        "hash_genesis_block": "027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71",
+        "message_magic": "\u0017Komodo Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "KMD",
+        "symbol": "KMD",
         "name": "Komodo - Testnet",
         "testnet": true,
+        "port": 17770,
+        "port_rpc": 17771,
         "protocol": {
             "magic": "0x627E1F5A"
         },
-        "port": 17770,
-        "seedsDns": [
+        "seeds_dns": [
             "z.cash",
             "dns.testnet.z.cash"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x00",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 128,
+            "public": 0,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
-        "portRpc": 17771,
-        "per1": 100000000,
-        "messageMagic": "Komodo Signed Message:\\n"
+        "hash_genesis_block": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "message_magic": "\u0017Komodo Signed Message:\n",
+        "decimals": 8
     }
 }

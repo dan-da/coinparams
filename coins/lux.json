@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "LUX",
+        "symbol": "LUX",
         "name": "LUXCoin",
         "testnet": false,
+        "port": 26969,
+        "port_rpc": 9888,
         "protocol": {
-            "magic": "0xa7c973f9"
+            "magic": "0xa9c8b36a"
         },
-        "port": 16969,
-        "seedsDns": [
+        "seeds_dns": [
             "149.28.163.40",
             "207.148.83.62",
             "207.148.81.88",
@@ -17,50 +18,49 @@
             "207.148.81.88",
             "149.28.172.147"
         ],
-        "versions": {
-            "private": "0x9b",
-            "public": "0x30",
-            "scripthash": "0x3f",
+        "prefixes": {
+            "private": 155,
+            "public": 48,
+            "scripthash": 63,
             "bip32": {
                 "public": "0x0728a24e",
                 "private": "0x03d8a1e5"
             },
+            "bech32_hrp": "bc",
             "bip44": null
         },
-        "bech32_hrp": "bc",
-        "hashGenesisBlock": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
-        "portRpc": 9888,
-        "per1": 100000000,
-        "messageMagic": "Lux Signed Message:\\n"
+        "hash_genesis_block": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
+        "message_magic": "\u0014Lux Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "LUX",
+        "symbol": "LUX",
         "name": "LUXCoin - Testnet",
         "testnet": true,
+        "port": 28333,
+        "port_rpc": 9777,
         "protocol": {
             "magic": "0xab516754"
         },
-        "port": 28333,
-        "seedsDns": [
+        "seeds_dns": [
             "luxtest1",
             "luxtest2",
             "140.82.45.100",
             "144.202.3.186"
         ],
-        "versions": {
-            "private": "0x9b",
-            "public": "0x30",
-            "scripthash": "0x3f",
+        "prefixes": {
+            "private": 155,
+            "public": 48,
+            "scripthash": 63,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": "tb",
             "bip44": 1
         },
-        "bech32_hrp": "tb",
-        "hashGenesisBlock": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",
-        "portRpc": 9777,
-        "per1": 100000000,
-        "messageMagic": "Lux Signed Message:\\n"
+        "hash_genesis_block": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",
+        "message_magic": "\u0014Lux Signed Message:\n",
+        "decimals": 8
     }
 }

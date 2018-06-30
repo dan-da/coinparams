@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "GIN",
+        "symbol": "GIN",
         "name": "GINcoin",
         "testnet": false,
+        "port": 10111,
+        "port_rpc": 10211,
         "protocol": {
             "magic": "0xbd6b0cbf"
         },
-        "port": 10111,
-        "seedsDns": [
+        "seeds_dns": [
             "gincoin.io",
             "seed2.gincoin.io",
             "seed3.gincoin.io",
@@ -19,75 +20,74 @@
             "seed4.gincoin.io",
             "seed5.gincoin.io"
         ],
-        "versions": {
-            "private": "0xc6",
-            "public": "0x26",
-            "scripthash": "0x0a",
+        "prefixes": {
+            "private": 198,
+            "public": 38,
+            "scripthash": 10,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000cd6bde619b2c3b23ad2e384328a450a37fa28731debf748c3b17f91f97d",
-        "portRpc": 10211,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "00000cd6bde619b2c3b23ad2e384328a450a37fa28731debf748c3b17f91f97d",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "GIN",
+        "symbol": "GIN",
         "name": "GINcoin - Testnet",
         "testnet": true,
+        "port": 12111,
+        "port_rpc": 12211,
         "protocol": {
             "magic": "0xffcae2ce"
         },
-        "port": 12111,
-        "seedsDns": [
+        "seeds_dns": [
             "test.gincoin.io",
             "test.gincoin.io",
             "test-s1.gincoin.io",
             "test-s2.gincoin.io"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8c",
-            "scripthash": "0x13",
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000ac0100fe889e7130e47d13819cc91eba5646dc1e8fc050c7a67532565ed",
-        "portRpc": 12211,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "00000ac0100fe889e7130e47d13819cc91eba5646dc1e8fc050c7a67532565ed",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "GIN",
+        "symbol": "GIN",
         "name": "GINcoin - Regtest",
         "testnet": true,
+        "port": 19111,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xdcb7c1fc"
         },
-        "port": 19111,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8c",
-            "scripthash": "0x13",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "5f8058aea61edae50983271d61c69161ca1ee90a556127aba1b18f414e3293b7",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "5f8058aea61edae50983271d61c69161ca1ee90a556127aba1b18f414e3293b7",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     }
 }

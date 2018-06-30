@@ -1,82 +1,82 @@
 {
     "main": {
-        "unit": "GAME",
+        "symbol": "GAME",
         "name": "GameCredits",
         "testnet": false,
+        "port": 40002,
+        "port_rpc": 40001,
         "protocol": {
             "magic": "0xdbb6c0fb"
         },
-        "port": 40002,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseed.btcgold.club"
         ],
-        "versions": {
-            "private": "0xa6",
-            "public": "0x26",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 166,
+            "public": 38,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 101
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee",
-        "portRpc": 40001,
-        "per1": 100000000,
-        "messageMagic": "GameCredits Signed Message:\\n"
+        "hash_genesis_block": "91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee",
+        "message_magic": "\u001cGameCredits Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "GAME",
+        "symbol": "GAME",
         "name": "GameCredits - Testnet",
         "testnet": true,
+        "port": 50001,
+        "port_rpc": 50000,
         "protocol": {
             "magic": "0x0709110b"
         },
-        "port": 50001,
-        "seedsDns": [
+        "seeds_dns": [
             "gamecredits.co",
             "test.gamecredits.co"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "153b15fb136894fc92041175a59038d4b155b22d40d2885a7996f170d95c1d20",
-        "portRpc": 50000,
-        "per1": 100000000,
-        "messageMagic": "GameCredits Signed Message:\\n"
+        "hash_genesis_block": "153b15fb136894fc92041175a59038d4b155b22d40d2885a7996f170d95c1d20",
+        "message_magic": "\u001cGameCredits Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "GAME",
+        "symbol": "GAME",
         "name": "GameCredits - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 50000,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "2574af5d531ba2c7b1b2994de62ae356699cb579cd744cf5dc8a565fce6db638",
-        "portRpc": 50000,
-        "per1": 100000000,
-        "messageMagic": "GameCredits Signed Message:\\n"
+        "hash_genesis_block": "2574af5d531ba2c7b1b2994de62ae356699cb579cd744cf5dc8a565fce6db638",
+        "message_magic": "\u001cGameCredits Signed Message:\n",
+        "decimals": 8
     }
 }

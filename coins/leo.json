@@ -1,0 +1,52 @@
+{
+    "main": {
+        "symbol": "LEO",
+        "name": "LEOcoin",
+        "testnet": false,
+        "port": 5840,
+        "port_rpc": 5211,
+        "protocol": {
+            "magic": "0x82786e64"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 144,
+            "public": 18,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000b486d79051b82d3d843550fb893bf605005f098877c4a911f1f58dfd5ca",
+        "message_magic": "\u0018LEOcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "LEO",
+        "name": "LEOcoin - Testnet",
+        "testnet": true,
+        "port": 15840,
+        "port_rpc": 15211,
+        "protocol": {
+            "magic": "0xaaa0968c"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 194,
+            "public": 66,
+            "scripthash": 76,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000fd740a38215055ebf8cff390775524f03b7450673736a733330ebbd424d9",
+        "message_magic": "\u0018LEOcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

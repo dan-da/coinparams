@@ -1,0 +1,55 @@
+{
+    "main": {
+        "symbol": "CURE",
+        "name": "Curecoin",
+        "testnet": false,
+        "port": 9911,
+        "port_rpc": 19911,
+        "protocol": {
+            "magic": "0xe5e9e8e4"
+        },
+        "seeds_dns": [
+            "seed.curecoin.net",
+            "seed2.curecoin.net"
+        ],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 30,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000ce427729d5393dbf9f464e7a1d2c039e393e881f93448516b1530b688fc",
+        "message_magic": "\u0019curecoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "CURE",
+        "name": "Curecoin - Testnet",
+        "testnet": true,
+        "port": 8600,
+        "port_rpc": 18600,
+        "protocol": {
+            "magic": "0xefc0f2cd"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000a25934ca63ddc77adf8fe033cfb5f847e5687943ad717bb95ff041a74eb7",
+        "message_magic": "\u0019curecoin Signed Message:\n",
+        "decimals": 6
+    }
+}

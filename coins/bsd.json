@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "BSD",
+        "symbol": "BSD",
         "name": "BitSend",
         "testnet": false,
+        "port": 8886,
+        "port_rpc": 8800,
         "protocol": {
             "magic": "0xf9c2d5a3"
         },
-        "port": 8886,
-        "seedsDns": [
+        "seeds_dns": [
             "188.68.52.172",
             "37.120.186.85",
             "37.120.190.76",
@@ -23,31 +24,31 @@
             "213.136.86.205",
             "213.136.86.207"
         ],
-        "versions": {
-            "private": "0xcc",
-            "public": "0x66",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 204,
+            "public": 102,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 91
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
-        "portRpc": 8800,
-        "per1": 100000000,
-        "messageMagic": "Bitsend Signed Message:\\n"
+        "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+        "message_magic": "\u0018Bitsend Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BSD",
+        "symbol": "BSD",
         "name": "BitSend - Testnet",
         "testnet": true,
+        "port": 18333,
+        "port_rpc": 18800,
         "protocol": {
             "magic": "0x0709110b"
         },
-        "port": 18333,
-        "seedsDns": [
+        "seeds_dns": [
             "testnetbitsend.jonasschnelli.ch",
             "petertodd.org",
             "bluematt.me",
@@ -57,45 +58,44 @@
             "testnet-seed.bluematt.me",
             "testnet-seed.bitsend.schildbach.de"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
-        "portRpc": 18800,
-        "per1": 100000000,
-        "messageMagic": "Bitsend Signed Message:\\n"
+        "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+        "message_magic": "\u0018Bitsend Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "BSD",
+        "symbol": "BSD",
         "name": "BitSend - Regtest",
         "testnet": true,
+        "port": 8885,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xaf2c1a4c"
         },
-        "port": 8885,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "Bitsend Signed Message:\\n"
+        "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+        "message_magic": "\u0018Bitsend Signed Message:\n",
+        "decimals": 8
     }
 }

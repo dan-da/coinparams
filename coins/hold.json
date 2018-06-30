@@ -1,0 +1,55 @@
+{
+    "main": {
+        "symbol": "HOLD",
+        "name": "Interstellar Holdings",
+        "testnet": false,
+        "port": 10130,
+        "port_rpc": 10131,
+        "protocol": {
+            "magic": "0x15322f90"
+        },
+        "seeds_dns": [
+            "seed1.interstellarcoin.com",
+            "seed2.interstellarcoin.com"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 40,
+            "scripthash": 100,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000001c7205cc2fb5b0fc12de43b7e6d2526eb5a61b1731650cbb5a570b87243",
+        "message_magic": "%InterstellarHoldings Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "HOLD",
+        "name": "Interstellar Holdings - Testnet",
+        "testnet": true,
+        "port": 15130,
+        "port_rpc": 15131,
+        "protocol": {
+            "magic": "0x12ec45bc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 40,
+            "scripthash": 100,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00008783573601e55e38841fb2bcaf3bf52c323bc36190d19ce2ccb42b2c106c",
+        "message_magic": "%InterstellarHoldings Signed Message:\n",
+        "decimals": 8
+    }
+}

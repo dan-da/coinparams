@@ -1,17 +1,17 @@
 {
     "main": {
-        "unit": "BCC",
+        "symbol": "BCC",
         "name": "Bitconnect",
         "testnet": false,
+        "port": 9239,
+        "port_rpc": 9240,
         "protocol": {
             "magic": "0x866f5e32"
         },
-        "port": 9239,
-        "portRpc": 9240,
-        "seedsDns": [
+        "seeds_dns": [
             "198.211.115.116"
         ],
-        "versions": {
+        "prefixes": {
             "public": 18,
             "scripthash": 85,
             "private": 146,
@@ -22,21 +22,21 @@
             "bech32_hrp": null,
             "bip44": null
         },
-        "hashGenesisBlock": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
-        "per1": 100000000,
-        "messageMagic": "bitconnect Signed Message:\\n"
+        "hash_genesis_block": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
+        "message_magic": "\u001bbitconnect Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BCC",
+        "symbol": "BCC",
         "name": "Bitconnect - Testnet",
         "testnet": true,
+        "port": 19239,
+        "port_rpc": 19240,
         "protocol": {
             "magic": "0xc563ba1b"
         },
-        "port": 19239,
-        "portRpc": 19240,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -47,8 +47,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
-        "per1": 100000000,
-        "messageMagic": "bitconnect Signed Message:\\n"
+        "hash_genesis_block": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
+        "message_magic": "\u001bbitconnect Signed Message:\n",
+        "decimals": 8
     }
 }

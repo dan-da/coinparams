@@ -1,14 +1,14 @@
 {
     "main": {
-        "unit": "RBY",
+        "symbol": "RBY",
         "name": "Rubycoin",
         "testnet": false,
+        "port": 5937,
+        "port_rpc": 5938,
         "protocol": {
             "magic": "0x11161213"
         },
-        "port": 5937,
-        "portRpc": 5938,
-        "seedsDns": [
+        "seeds_dns": [
             "earth.rubycoin.org",
             "moon.rubycoin.org",
             "zulu.prettyblock.com",
@@ -18,19 +18,19 @@
             "tango.prettyblock.com",
             "delta.prettyblock.com"
         ],
-        "versions": {
-            "private": "0xbc",
-            "public": "0x3c",
-            "scripthash": "0x55",
+        "prefixes": {
+            "private": 188,
+            "public": 60,
+            "scripthash": 85,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 16
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000760e24f1ad47f7a6e912bc9ed2b9ce013fc85ba217da8b079762f6b0058",
-        "per1": 100000000,
-        "messageMagic": "Rubycoin Signed Message:\\n"
+        "hash_genesis_block": "00000760e24f1ad47f7a6e912bc9ed2b9ce013fc85ba217da8b079762f6b0058",
+        "message_magic": "\u0019Rubycoin Signed Message:\n",
+        "decimals": 8
     }
 }

@@ -1,18 +1,18 @@
 {
     "main": {
-        "unit": "FAIR",
+        "symbol": "FAIR",
         "name": "FairCoin",
         "testnet": false,
+        "port": 46392,
+        "port_rpc": 46393,
         "protocol": {
             "magic": "0xe5e9e8e4"
         },
-        "port": 46392,
-        "portRpc": 46393,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.fair-coin.org",
             "seed2.fair-coin.org"
         ],
-        "versions": {
+        "prefixes": {
             "public": 95,
             "scripthash": 36,
             "private": 223,
@@ -23,21 +23,21 @@
             "bech32_hrp": null,
             "bip44": null
         },
-        "hashGenesisBlock": "f1ae188b0c08e296e45980f9913f6ad2304ff02d5293538275bacdbcb05ef275",
-        "per1": 1000000,
-        "messageMagic": "FairCoin Signed Message:\\n"
+        "hash_genesis_block": "f1ae188b0c08e296e45980f9913f6ad2304ff02d5293538275bacdbcb05ef275",
+        "message_magic": "\u0019FairCoin Signed Message:\n",
+        "decimals": 6
     },
     "test": {
-        "unit": "FAIR",
+        "symbol": "FAIR",
         "name": "FairCoin - Testnet",
         "testnet": true,
+        "port": 18392,
+        "port_rpc": 18393,
         "protocol": {
             "magic": "0xefc0f2cd"
         },
-        "port": 18392,
-        "portRpc": 18393,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -48,8 +48,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "5df7281a262d9a6251e65d12bdb78c6a69041c7d28e209df2a7719059de3088c",
-        "per1": 1000000,
-        "messageMagic": "FairCoin Signed Message:\\n"
+        "hash_genesis_block": "5df7281a262d9a6251e65d12bdb78c6a69041c7d28e209df2a7719059de3088c",
+        "message_magic": "\u0019FairCoin Signed Message:\n",
+        "decimals": 6
     }
 }

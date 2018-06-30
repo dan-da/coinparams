@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "COLX",
+        "symbol": "COLX",
         "name": "ColossusXT",
         "testnet": false,
+        "port": 51572,
+        "port_rpc": 51473,
         "protocol": {
             "magic": "0xeafec591"
         },
-        "port": 51572,
-        "seedsDns": [
+        "seeds_dns": [
             "colx1",
             "colx2",
             "colx3",
@@ -15,45 +16,44 @@
             "seed.colossusxt.org",
             "seed.colxt.net"
         ],
-        "versions": {
-            "private": "0xd4",
-            "public": "0x1e",
-            "scripthash": "0x0d",
+        "prefixes": {
+            "private": 212,
+            "public": 30,
+            "scripthash": 13,
             "bip32": {
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "a0ce8206c908357008c1b9a8ba2813aff0989ca7f72d62b14e652c55f02b4f5c",
-        "portRpc": 51473,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "a0ce8206c908357008c1b9a8ba2813aff0989ca7f72d62b14e652c55f02b4f5c",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "COLX",
+        "symbol": "COLX",
         "name": "ColossusXT - Testnet",
         "testnet": true,
+        "port": 51374,
+        "port_rpc": 51475,
         "protocol": {
             "magic": "0xbb667746"
         },
-        "port": 51374,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8b",
-            "scripthash": "0x13",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 139,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "6cd37a546cfaafeee652fd0f3a85ba64c0f539f771a27fca9610cdc2f3278932",
-        "portRpc": 51475,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "6cd37a546cfaafeee652fd0f3a85ba64c0f539f771a27fca9610cdc2f3278932",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     }
 }

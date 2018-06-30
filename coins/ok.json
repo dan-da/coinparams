@@ -1,0 +1,65 @@
+{
+    "main": {
+        "symbol": "OK",
+        "name": "OKCash",
+        "testnet": false,
+        "port": 6970,
+        "port_rpc": 6969,
+        "protocol": {
+            "magic": "0x690ff069"
+        },
+        "seeds_dns": [
+            "okcash.co",
+            "okcash.co",
+            "okcash.co",
+            "okcash.co",
+            "okcash.co",
+            "okcash.co",
+            "seed1.okcash.co",
+            "seed2.okcash.co",
+            "seed3.okcash.co",
+            "seed4.okcash.co",
+            "seed5.okcash.co",
+            "seed6.okcash.co"
+        ],
+        "prefixes": {
+            "private": 183,
+            "public": 55,
+            "scripthash": 28,
+            "bip32": {
+                "public": "0x03cc23d7",
+                "private": "0x03cc1c73"
+            },
+            "bech32_hrp": null,
+            "bip44": 69
+        },
+        "hash_genesis_block": "0000046309984501e5e724498cddb4aff41a126927355f64b44f1b8bba4f447e",
+        "message_magic": "\u0017OKCash Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "OK",
+        "name": "OKCash - Testnet",
+        "testnet": true,
+        "port": 7980,
+        "port_rpc": 7979,
+        "protocol": {
+            "magic": "0x0f7a0900"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 196,
+            "public": 68,
+            "scripthash": 73,
+            "bip32": {
+                "public": "0x043418bb",
+                "private": "0x04341156"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000e3283629707a14a6c5f3297995095ac0e337b2af9bca1358d4788ed86169",
+        "message_magic": "\u0017OKCash Signed Message:\n",
+        "decimals": 8
+    }
+}

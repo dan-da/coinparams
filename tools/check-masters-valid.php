@@ -55,13 +55,13 @@ function check_valid_coin($file, $data) {
 
 /* Should look like:
 {
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
         "port": 8333,
-        "portRpc": 8332,
+        "port_rpc": 8332,
         "protocol": {
             "magic": "0xd9b4bef9"
         },
-        "seedsDns": [
+        "seeds_dns": [
             "seed.bitcoin.sipa.be",
             "dnsseed.bluematt.me",
             "dnsseed.bitcoin.dashjr.org",
@@ -69,7 +69,7 @@ function check_valid_coin($file, $data) {
             "bitseed.xf2.org",
             "seed.bitcoin.jonasschnelli.ch"
         ],
-        "versions": {
+        "prefixes": {
             "bip32": {
                 "private": "0x488ade4",
                 "public": "0x488b21e"
@@ -81,22 +81,22 @@ function check_valid_coin($file, $data) {
         },
         "name": "Bitcoin",
         "decimals": 8,
-        "unit": "BTC",
+        "symbol": "BTC",
         "testnet": false
     }
 */    
 function check_valid_network($netname, $data) {
-    $top_keys = ['hashGenesisBlock',
+    $top_keys = ['hash_genesis_block',
                  'port',
-                 'portRpc',
+                 'port_rpc',
                  'protocol',
-                 'seedsDns',
-                 'versions',
+                 'seeds_dns',
+                 'prefixes',
                  'name',
                  'decimals',
-                 'unit',
+                 'symbol',
                  'testnet',
-                 'messageMagic',
+                 'message_magic',
                  ];
     
     foreach( $top_keys as $k ) {
@@ -117,37 +117,37 @@ function check_valid_network($netname, $data) {
     
     $version_keys = ['bip32', 'private', 'public', 'scripthash' ];
     $version_keys_warn = ['bip44' ];
-    switch($data['unit']) {
+    switch($data['symbol']) {
         case 'XMR': array_remove($version_keys, ['scripthash', 'private']); break;
         case 'ETH': array_remove($version_keys, ['scripthash', 'private', 'public']); break;
     }
     foreach($version_keys as $k) {
-        if( @$data['versions'][$k] === null ) {
-            err( "key ['$netname']['versions']['$k'] is unset or null" );
+        if( @$data['prefixes'][$k] === null ) {
+            err( "key ['$netname']['prefixes']['$k'] is unset or null" );
         }
-        else if( !@$data['versions'][$k] ) {
-            warn( "key ['$netname']['versions']['$k'] is empty" );
+        else if( !@$data['prefixes'][$k] && @$data['prefixes'][$k] !== 0 ) {
+            warn( "key ['$netname']['prefixes']['$k'] is empty" );
         }
     }
     foreach($version_keys_warn as $k) {
-        if( @$data['versions'][$k] === null ) {
-            warn( "key ['$netname']['versions']['$k'] is unset" );
+        if( @$data['prefixes'][$k] === null ) {
+            warn( "key ['$netname']['prefixes']['$k'] is unset" );
         }
     }
     
     $bip32_keys = ['public', 'private'];
-    switch($data['unit']) {
+    switch($data['symbol']) {
         case 'XMR': array_remove($version_keys, ['public', 'private']); break;
         case 'ETH': array_remove($version_keys, ['public', 'private']); break;
     }
     foreach($bip32_keys as $k) {
-        if( @$data['versions']['bip32'][$k] === null ) {
-            err( "key ['$netname']['versions']['bip32']['$k'] is unset" );
+        if( @$data['prefixes']['bip32'][$k] === null ) {
+            err( "key ['$netname']['prefixes']['bip32']['$k'] is unset" );
         }
     }
     
     $protocol_keys = ['magic'];
-    switch($data['unit']) {
+    switch($data['symbol']) {
         case 'ETH':  array_remove($protocol_keys, 'magic'); break;
     }
     foreach($protocol_keys as $k) {

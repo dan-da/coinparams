@@ -1,14 +1,14 @@
 {
     "main": {
-        "unit": "SPHR",
+        "symbol": "SPHR",
         "name": "Sphere",
         "testnet": false,
+        "port": 37544,
+        "port_rpc": 37545,
         "protocol": {
             "magic": "0x3011b8a8"
         },
-        "port": 37544,
-        "portRpc": 37545,
-        "seedsDns": [
+        "seeds_dns": [
             "162.243.247.203",
             "162.243.25.133",
             "104.236.163.165",
@@ -18,44 +18,44 @@
             "104.236.163.165",
             "gqunlgogqx7x42zy.onion"
         ],
-        "versions": {
-            "private": "0x99",
-            "public": "0x19",
-            "scripthash": "0x55",
+        "prefixes": {
+            "private": 153,
+            "public": 25,
+            "scripthash": 85,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
-        "per1": 100000000,
-        "messageMagic": "Sphere Signed Message:\\n"
+        "hash_genesis_block": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+        "message_magic": "\u0017Sphere Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "SPHR",
+        "symbol": "SPHR",
         "name": "Sphere - Testnet",
         "testnet": true,
+        "port": 27544,
+        "port_rpc": 27545,
         "protocol": {
             "magic": "0x1249e78d"
         },
-        "port": 27544,
-        "portRpc": 27545,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x7f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 127,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
-        "per1": 100000000,
-        "messageMagic": "Sphere Signed Message:\\n"
+        "hash_genesis_block": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
+        "message_magic": "\u0017Sphere Signed Message:\n",
+        "decimals": 8
     }
 }

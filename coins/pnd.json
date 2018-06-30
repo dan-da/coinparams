@@ -1,17 +1,17 @@
 {
     "main": {
-        "unit": "PND",
+        "symbol": "PND",
         "name": "Pandacoin",
         "testnet": false,
+        "port": 22445,
+        "port_rpc": 22444,
         "protocol": {
             "magic": "0xc0c0c0c0"
         },
-        "port": 22445,
-        "portRpc": 22444,
-        "seedsDns": [
+        "seeds_dns": [
             "server1.cryptodepot.org"
         ],
-        "versions": {
+        "prefixes": {
             "public": 55,
             "scripthash": 22,
             "private": 183,
@@ -22,21 +22,21 @@
             "bech32_hrp": null,
             "bip44": 37
         },
-        "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
-        "per1": 100000000,
-        "messageMagic": "Pandacoin Signed Message:\\n"
+        "hash_genesis_block": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+        "message_magic": "\u001aPandacoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "PND",
+        "symbol": "PND",
         "name": "Pandacoin - Testnet",
         "testnet": true,
+        "port": 44656,
+        "port_rpc": 25715,
         "protocol": {
             "magic": "0xdcb7c1fc"
         },
-        "port": 44656,
-        "portRpc": 25715,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 113,
             "scripthash": 196,
             "private": 241,
@@ -47,8 +47,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
-        "per1": 100000000,
-        "messageMagic": "Pandacoin Signed Message:\\n"
+        "hash_genesis_block": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
+        "message_magic": "\u001aPandacoin Signed Message:\n",
+        "decimals": 8
     }
 }

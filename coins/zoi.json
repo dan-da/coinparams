@@ -1,41 +1,42 @@
 {
     "main": {
-        "unit": "ZOI",
+        "symbol": "ZOI",
         "name": "Zoin",
         "testnet": false,
+        "port": 8255,
+        "port_rpc": 8255,
         "protocol": {
             "magic": "0x51a903f5"
         },
-        "port": 8255,
-        "seedsDns": [
+        "seeds_dns": [
             "159.203.124.51",
             "159.203.124.51"
         ],
-        "versions": {
-            "private": "0xd0",
-            "public": "0x50",
-            "scripthash": "0x07",
+        "prefixes": {
+            "private": 208,
+            "public": 80,
+            "scripthash": 7,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0x23911212a525e3d149fcad6c559c8b17f1e8326a272a75ff9bb315c8d96433ef0x4f193d83c304ebd3bf2319611cbb84f26af7960f23d06dd243b6c93ebf4d7797",
-        "portRpc": 8255,
-        "per1": 100000000,
-        "messageMagic": "Zoin Signed Message:\\n"
+        "hash_genesis_block": "0x23911212a525e3d149fcad6c559c8b17f1e8326a272a75ff9bb315c8d96433ef0x4f193d83c304ebd3bf2319611cbb84f26af7960f23d06dd243b6c93ebf4d7797",
+        "message_magic": "\u0015Zoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "ZOI",
+        "symbol": "ZOI",
         "name": "Zoin - Testnet",
         "testnet": true,
+        "port": 28168,
+        "port_rpc": 28168,
         "protocol": {
             "magic": "0x09bf5dae"
         },
-        "port": 28168,
-        "seedsDns": [
+        "seeds_dns": [
             "165.227.98.85",
             "174.138.61.220",
             "92.247.116.44",
@@ -49,45 +50,44 @@
             "testnet-seed.bluematt.me",
             "testnet-seed.bitcoin.schildbach.de"
         ],
-        "versions": {
-            "private": "0xc1",
-            "public": "0x41",
-            "scripthash": "0xb2",
+        "prefixes": {
+            "private": 193,
+            "public": 65,
+            "scripthash": 178,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
-        "portRpc": 28168,
-        "per1": 100000000,
-        "messageMagic": "Zoin Signed Message:\\n"
+        "hash_genesis_block": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
+        "message_magic": "\u0015Zoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "ZOI",
+        "symbol": "ZOI",
         "name": "Zoin - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18888,
         "protocol": {
             "magic": "0x09bf5dae"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x41",
-            "scripthash": "0xb2",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 65,
+            "scripthash": 178,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
-        "portRpc": 18888,
-        "per1": 100000000,
-        "messageMagic": "Zoin Signed Message:\\n"
+        "hash_genesis_block": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
+        "message_magic": "\u0015Zoin Signed Message:\n",
+        "decimals": 8
     }
 }

@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "XMY",
+        "symbol": "XMY",
         "name": "Myriad",
         "testnet": false,
+        "port": 10888,
+        "port_rpc": 10889,
         "protocol": {
             "magic": "0xee7645af"
         },
-        "port": 10888,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.myriadcoin.org",
             "seed2.myriadcoin.org",
             "seed3.myriadcoin.org",
@@ -27,75 +28,74 @@
             "seed8.myriadcoin.org",
             "myriadseed1.cryptap.us"
         ],
-        "versions": {
-            "private": "0xb2",
-            "public": "0x32",
-            "scripthash": "0x09",
+        "prefixes": {
+            "private": 178,
+            "public": 50,
+            "scripthash": 9,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 90
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485",
-        "portRpc": 10889,
-        "per1": 100000000,
-        "messageMagic": "Myriadcoin Signed Message:\\n"
+        "hash_genesis_block": "00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485",
+        "message_magic": "\u001bMyriadcoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "XMY",
+        "symbol": "XMY",
         "name": "Myriad - Testnet",
         "testnet": true,
+        "port": 20888,
+        "port_rpc": 20889,
         "protocol": {
             "magic": "0xa455f501"
         },
-        "port": 20888,
-        "seedsDns": [
+        "seeds_dns": [
             "testseed1.myriadcoin.org",
             "myriadtestseed1.cryptap.us",
             "testseed1.myriadcoin.org",
             "myriadtestseed1.cryptap.us"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x58",
-            "scripthash": "0xbc",
+        "prefixes": {
+            "private": 239,
+            "public": 88,
+            "scripthash": 188,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788",
-        "portRpc": 20889,
-        "per1": 100000000,
-        "messageMagic": "Myriadcoin Signed Message:\\n"
+        "hash_genesis_block": "0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788",
+        "message_magic": "\u001bMyriadcoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "XMY",
+        "symbol": "XMY",
         "name": "Myriad - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "Myriadcoin Signed Message:\\n"
+        "hash_genesis_block": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",
+        "message_magic": "\u001bMyriadcoin Signed Message:\n",
+        "decimals": 8
     }
 }

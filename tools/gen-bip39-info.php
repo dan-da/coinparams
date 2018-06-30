@@ -100,7 +100,7 @@ echo json_encode($coinparams, JSON_PRETTY_PRINT) . "\n\n";
             "magic": null
         },
         "seedsDns": [],
-        "versions": {
+        "prefixes": {
             "bip32": {
                 "private": "0x488ade4",
                 "public": "0x488b21e"
@@ -112,7 +112,7 @@ echo json_encode($coinparams, JSON_PRETTY_PRINT) . "\n\n";
         },
         "name": "BlackCoin",
         "decimals": 8,
-        "unit": "BLK",
+        "symbol": "BLK",
         "testnet": false
     },
     "test": null
@@ -148,7 +148,7 @@ function translate_schema($coin, $data) {
             "magic" => null
         ],
         "seedsDns" => [],
-        "versions" => [
+        "prefixes" => [
             "bip32" => [
                 "private" => $data['bip32']['private'],
                 "public" => $data['bip32']['public'],
@@ -160,7 +160,7 @@ function translate_schema($coin, $data) {
         ],
         "name" => $realname,
         "decimals" => null,
-        "unit" => $symbol,
+        "symbol" => $symbol,
         "testnet" => $testnet
     ];
     

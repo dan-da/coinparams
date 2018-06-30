@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "SEQ",
+        "symbol": "SEQ",
         "name": "Sequence",
         "testnet": false,
+        "port": 16662,
+        "port_rpc": 16663,
         "protocol": {
             "magic": "0x20021001"
         },
-        "port": 16662,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseeder.io",
             "dnsseeder.com",
             "dnsseeder.host",
@@ -17,45 +18,44 @@
             "seq.dnsseeder.host",
             "seq.dnsseeder.net"
         ],
-        "versions": {
-            "private": "0xaa",
-            "public": "0x3f",
-            "scripthash": "0x40",
+        "prefixes": {
+            "private": 170,
+            "public": 63,
+            "scripthash": 64,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000000251356c62e0aa14c63e2b0db2a05ac0d3316ea5000c797a281be8c9fd7",
-        "portRpc": 16663,
-        "per1": 100000000,
-        "messageMagic": "Silk Signed Message:\\n"
+        "hash_genesis_block": "000000251356c62e0aa14c63e2b0db2a05ac0d3316ea5000c797a281be8c9fd7",
+        "message_magic": "\u0015Silk Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "SEQ",
+        "symbol": "SEQ",
         "name": "Sequence - Testnet",
         "testnet": true,
+        "port": 16664,
+        "port_rpc": 16665,
         "protocol": {
             "magic": "0x30032002"
         },
-        "port": 16664,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xcc",
-            "public": "0x35",
-            "scripthash": "0x32",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 204,
+            "public": 53,
+            "scripthash": 50,
             "bip32": {
                 "public": "0x1135aaee",
                 "private": "0x3511ddff"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000009cfa952b4f748c8cf7cdf975f89bce0a26a6a7e7c8cb33968bc20848e",
-        "portRpc": 16665,
-        "per1": 100000000,
-        "messageMagic": "Silk Signed Message:\\n"
+        "hash_genesis_block": "00000009cfa952b4f748c8cf7cdf975f89bce0a26a6a7e7c8cb33968bc20848e",
+        "message_magic": "\u0015Silk Signed Message:\n",
+        "decimals": 8
     }
 }

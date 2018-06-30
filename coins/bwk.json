@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "BWK",
+        "symbol": "BWK",
         "name": "Bulwark",
         "testnet": false,
+        "port": 52543,
+        "port_rpc": 52541,
         "protocol": {
             "magic": "0x17010208"
         },
-        "port": 52543,
-        "seedsDns": [
+        "seeds_dns": [
             "bwkseed.mempool.pw",
             "bwkseed1.bulwarkcrypto.com",
             "bwkseed2.bulwarkcrypto.com",
@@ -31,31 +32,31 @@
             "bwkseed4.bulwarkcrypto.site",
             "bwkseed5.bulwarkcrypto.site"
         ],
-        "versions": {
-            "private": "0xd4",
-            "public": "0x55",
-            "scripthash": "0x12",
+        "prefixes": {
+            "private": 212,
+            "public": 85,
+            "scripthash": 18,
             "bip32": {
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574",
-        "portRpc": 52541,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BWK",
+        "symbol": "BWK",
         "name": "Bulwark - Testnet",
         "testnet": true,
+        "port": 42133,
+        "port_rpc": 42132,
         "protocol": {
             "magic": "0xa0f4d9b5"
         },
-        "port": 42133,
-        "seedsDns": [
+        "seeds_dns": [
             "testnet01.mempool.pw",
             "testnet02.mempool.pw",
             "testnet03.mempool.pw",
@@ -63,20 +64,19 @@
             "testnet02.mempool.pw",
             "testnet03.mempool.pw"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x41",
-            "scripthash": "0x0c",
+        "prefixes": {
+            "private": 239,
+            "public": 65,
+            "scripthash": 12,
             "bip32": {
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285",
-        "portRpc": 42132,
-        "per1": 100000000,
-        "messageMagic": "DarkNet Signed Message:\\n"
+        "hash_genesis_block": "000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
     }
 }

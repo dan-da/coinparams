@@ -1,20 +1,20 @@
 {
     "main": {
-        "unit": "NVC",
+        "symbol": "NVC",
         "name": "Novacoin",
         "testnet": false,
+        "port": 7777,
+        "port_rpc": 8344,
         "protocol": {
             "magic": "0xe5e9e8e4"
         },
-        "port": 7777,
-        "portRpc": 8344,
-        "seedsDns": [
+        "seeds_dns": [
             "dnsseed.novacoin.karelia.pro",
             "dnsseed.novacoin.ru",
             "testseed.novacoin.ru",
             "dnsseed.novaco.in"
         ],
-        "versions": {
+        "prefixes": {
             "public": 8,
             "scripthash": 20,
             "private": 136,
@@ -25,21 +25,21 @@
             "bech32_hrp": null,
             "bip44": 50
         },
-        "hashGenesisBlock": "00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4",
-        "per1": 1000000,
-        "messageMagic": "NovaCoin Signed Message:\\n"
+        "hash_genesis_block": "00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4",
+        "message_magic": "\u0019NovaCoin Signed Message:\n",
+        "decimals": 6
     },
     "test": {
-        "unit": "NVC",
+        "symbol": "NVC",
         "name": "Novacoin - Testnet",
         "testnet": true,
+        "port": 17777,
+        "port_rpc": 18344,
         "protocol": {
             "magic": "0xefc0f2cd"
         },
-        "port": 17777,
-        "portRpc": 18344,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -50,8 +50,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
-        "per1": 1000000,
-        "messageMagic": "NovaCoin Signed Message:\\n"
+        "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "message_magic": "\u0019NovaCoin Signed Message:\n",
+        "decimals": 6
     }
 }

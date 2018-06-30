@@ -1,83 +1,83 @@
 {
     "main": {
-        "unit": "RVN",
+        "symbol": "RVN",
         "name": "Ravencoin",
         "testnet": false,
+        "port": 8767,
+        "port_rpc": 8766,
         "protocol": {
             "magic": "0x4e564152"
         },
-        "port": 8767,
-        "seedsDns": [
+        "seeds_dns": [
             "seed-raven.ravencoin.org",
             "seed-raven.bitactivate.com"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x3c",
-            "scripthash": "0x7a",
+        "prefixes": {
+            "private": 128,
+            "public": 60,
+            "scripthash": 122,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": "rc",
             "bip44": 175
         },
-        "bech32_hrp": "rc",
-        "hashGenesisBlock": "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90",
-        "portRpc": 8766,
-        "per1": 100000000,
-        "messageMagic": "Raven Signed Message:\\n"
+        "hash_genesis_block": "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90",
+        "message_magic": "\u0016Raven Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "RVN",
+        "symbol": "RVN",
         "name": "Ravencoin - Testnet",
         "testnet": true,
+        "port": 18767,
+        "port_rpc": 18766,
         "protocol": {
             "magic": "0x544E5652"
         },
-        "port": 18767,
-        "seedsDns": [
+        "seeds_dns": [
             "seed-testnet-raven.ravencoin.org",
             "seed-testnet-raven.bitactivate.com"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "tr",
             "bip44": 1
         },
-        "bech32_hrp": "tr",
-        "hashGenesisBlock": "000000055c6b201ac99ed634953f92bd52239f5b26e090ce3caab6ec81bec921",
-        "portRpc": 18766,
-        "per1": 100000000,
-        "messageMagic": "Raven Signed Message:\\n"
+        "hash_genesis_block": "000000055c6b201ac99ed634953f92bd52239f5b26e090ce3caab6ec81bec921",
+        "message_magic": "\u0016Raven Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "RVN",
+        "symbol": "RVN",
         "name": "Ravencoin - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18443,
         "protocol": {
             "magic": "0x574F5243"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "rcrt",
             "bip44": 1
         },
-        "bech32_hrp": "rcrt",
-        "hashGenesisBlock": "0ae5a91dc8c60c02f68cf6579e153d428b2298f231c89e96cbeb609ecc00d9a0",
-        "portRpc": 18443,
-        "per1": 100000000,
-        "messageMagic": "Raven Signed Message:\\n"
+        "hash_genesis_block": "0ae5a91dc8c60c02f68cf6579e153d428b2298f231c89e96cbeb609ecc00d9a0",
+        "message_magic": "\u0016Raven Signed Message:\n",
+        "decimals": 8
     }
 }

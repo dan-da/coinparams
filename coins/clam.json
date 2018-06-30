@@ -1,54 +1,54 @@
 {
     "main": {
-        "unit": "CLAM",
+        "symbol": "CLAM",
         "name": "Clams",
         "testnet": false,
+        "port": 31174,
+        "port_rpc": 30174,
         "protocol": {
             "magic": "0x15352203"
         },
-        "port": 31174,
-        "portRpc": 30174,
-        "seedsDns": [
+        "seeds_dns": [
             "clam.just-dice.com"
         ],
-        "versions": {
-            "private": "0x85",
-            "public": "0x89",
-            "scripthash": "0x0d",
+        "prefixes": {
+            "private": 133,
+            "public": 137,
+            "scripthash": 13,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 23
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000c3ce6b3d823a35224a39798eca9ad889966aeb5a9da7b960ffb9869db35",
-        "per1": 100000000,
-        "messageMagic": "Clam Signed Message:\\n"
+        "hash_genesis_block": "00000c3ce6b3d823a35224a39798eca9ad889966aeb5a9da7b960ffb9869db35",
+        "message_magic": "\u0015Clam Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "CLAM",
+        "symbol": "CLAM",
         "name": "Clams - Testnet",
         "testnet": true,
+        "port": 35714,
+        "port_rpc": 35715,
         "protocol": {
             "magic": "0xdfc0f1c4"
         },
-        "port": 35714,
-        "portRpc": 35715,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00001924120e93f445dd4adb9d90e0020350b8c6c2b08e1a4950372a37f8bcc8",
-        "per1": 100000000,
-        "messageMagic": "Clam Signed Message:\\n"
+        "hash_genesis_block": "00001924120e93f445dd4adb9d90e0020350b8c6c2b08e1a4950372a37f8bcc8",
+        "message_magic": "\u0015Clam Signed Message:\n",
+        "decimals": 8
     }
 }

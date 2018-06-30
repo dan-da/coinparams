@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "GBX",
+        "symbol": "GBX",
         "name": "GoByte",
         "testnet": false,
+        "port": 12455,
+        "port_rpc": 12454,
         "protocol": {
             "magic": "0xd4c3b21a"
         },
-        "port": 12455,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.gobyte.network",
             "seed2.gobyte.network",
             "seed3.gobyte.network",
@@ -29,75 +30,74 @@
             "seed9.gobyte.network",
             "seed10.gobyte.network"
         ],
-        "versions": {
-            "private": "0xc6",
-            "public": "0x26",
-            "scripthash": "0x0a",
+        "prefixes": {
+            "private": 198,
+            "public": 38,
+            "scripthash": 10,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 176
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07",
-        "portRpc": 12454,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "GBX",
+        "symbol": "GBX",
         "name": "GoByte - Testnet",
         "testnet": true,
+        "port": 13455,
+        "port_rpc": 13454,
         "protocol": {
             "magic": "0x7ab32bd1"
         },
-        "port": 13455,
-        "seedsDns": [
+        "seeds_dns": [
             "gobyte.network",
             "gobyte.network",
             "testnet-dns.gobyte.network",
             "testnet2-dns.gobyte.network"
         ],
-        "versions": {
-            "private": "0xf0",
-            "public": "0x70",
-            "scripthash": "0x14",
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000c958ba1a0fe2174effe57a7f39c4c32b8341f1efa20be78b48b6b6bb353",
-        "portRpc": 13454,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "00000c958ba1a0fe2174effe57a7f39c4c32b8341f1efa20be78b48b6b6bb353",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "GBX",
+        "symbol": "GBX",
         "name": "GoByte - Regtest",
         "testnet": true,
+        "port": 13565,
+        "port_rpc": 13564,
         "protocol": {
             "magic": "0x7bd5b3a1"
         },
-        "port": 13565,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xf0",
-            "public": "0x70",
-            "scripthash": "0x14",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a",
-        "portRpc": 13564,
-        "per1": 100000000,
-        "messageMagic": "DarkCoin Signed Message:\\n"
+        "hash_genesis_block": "00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
     }
 }

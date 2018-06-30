@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "PURA",
+        "symbol": "PURA",
         "name": "Pura",
         "testnet": false,
+        "port": 44444,
+        "port_rpc": 55555,
         "protocol": {
             "magic": "0x43c597b8"
         },
-        "port": 44444,
-        "seedsDns": [
+        "seeds_dns": [
             "",
             "",
             "",
@@ -17,75 +18,74 @@
             "",
             ""
         ],
-        "versions": {
-            "private": "0x96",
-            "public": "0x37",
-            "scripthash": "0x10",
+        "prefixes": {
+            "private": 150,
+            "public": 55,
+            "scripthash": 16,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd8",
-        "portRpc": 55555,
-        "per1": 100000000,
-        "messageMagic": "Pura Signed Message:\\n"
+        "hash_genesis_block": "0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd8",
+        "message_magic": "\u0015Pura Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "PURA",
+        "symbol": "PURA",
         "name": "Pura - Testnet",
         "testnet": true,
+        "port": 44443,
+        "port_rpc": 55554,
         "protocol": {
             "magic": "0x42c596b7"
         },
-        "port": 44443,
-        "seedsDns": [
+        "seeds_dns": [
             "",
             "",
             "",
             ""
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8c",
-            "scripthash": "0x13",
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000622dfb4d5a2d83c43d60495419c82a0ee6659f210f5e8a0ed4ae7b40c59",
-        "portRpc": 55554,
-        "per1": 100000000,
-        "messageMagic": "Pura Signed Message:\\n"
+        "hash_genesis_block": "00000622dfb4d5a2d83c43d60495419c82a0ee6659f210f5e8a0ed4ae7b40c59",
+        "message_magic": "\u0015Pura Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "PURA",
+        "symbol": "PURA",
         "name": "Pura - Regtest",
         "testnet": true,
+        "port": 44442,
+        "port_rpc": 55553,
         "protocol": {
             "magic": "0x41c395b6"
         },
-        "port": 44442,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x8c",
-            "scripthash": "0x13",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b19",
-        "portRpc": 55553,
-        "per1": 100000000,
-        "messageMagic": "Pura Signed Message:\\n"
+        "hash_genesis_block": "77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b19",
+        "message_magic": "\u0015Pura Signed Message:\n",
+        "decimals": 8
     }
 }

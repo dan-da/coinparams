@@ -4,7 +4,9 @@
 define('EXCEPTION_CHAINPARAMS_NOTFOUND', 1001);
 
 //globals;
-$stop_on_validation_error = true;    // set to true to view exception details.
+$stop_on_main_validation_error = true;    // set to true to view exception details.
+$stop_on_test_validation_error = true;    // set to true to view exception details.
+$stop_on_regtest_validation_error = false;    // set to true to view exception details.
 $skip_existing_files = true;        // set to false to overwrite existing files.
 
 $symbol = @$argv[1];
@@ -97,32 +99,32 @@ $coins = [
     'cnx'   => ['Kryptonex', 'https://github.com/Cryptonex/source', 'master'],  // no chainparams.cpp   
     'emc'   => ['Emercoin', 'https://github.com/emercoin/emercoin', 'master'],  // bip44 unset
     'btcd'  => ['BitcoinDark', 'https://github.com/jl777/btcd', 'master'],   // no chainparams.cpp
-//    'nlg'   => ['Gulden', 'https://github.com/Gulden/gulden-official', 'master'],   // parse errors in chainparams.cpp
-//    'tpay'  => ['TokenPay', 'https://github.com/tokenpay/tokenpay', 'master'],     // not working yet.  can't find where COIN is defined for decimals.        
-//    'part'  => ['Particle', 'https://github.com/particl/particl-core', 'master'],  // not working yet.  needs modified parsing of PUBLIC_KEY, et al.
-//    'bay'   => ['BitBay', 'https://github.com/bitbaymarket/bitbay-core', 'master'],   // parse error in chainparams.cpp
+    'nlg'   => ['Gulden', 'https://github.com/Gulden/gulden-official', 'master'],   // parse errors in chainparams.cpp
+    'tpay'  => ['TokenPay', 'https://github.com/tokenpay/tokenpay', 'master'],     // not working yet.  can't find where COIN is defined for decimals.        
+    'part'  => ['Particle', 'https://github.com/particl/particl-core', 'master'],  // not working yet.  needs modified parsing of PUBLIC_KEY, et al.
+    'bay'   => ['BitBay', 'https://github.com/bitbaymarket/bitbay-core', 'master'],   // parse error in chainparams.cpp
     'fair'  => ['FairCoin', 'https://github.com/FairCoinTeam/fair-coin', 'master'],  // no chainparams.cpp
 //    'cloak' => ['CloakCoin', 'https://github.com/CloakProject/CloakCoin', 'master'],  // no chainparams.cpp, no main.cpp
-//    'xwc'   => ['WhiteCoin', 'https://github.com/Whitecoin-org/whitecoin', 'master'],  // parse error in chainparams.cpp
-//    '$pac'  => ['PACcoin', 'https://github.com/PACCommunity/PAC', 'master'],   // parse error in chainparams.cpp
-//    'lbc'   => ['Library Credits', 'https://github.com/lbryio/lbrycrd', 'master'],   // parse error in chainparams.cpp
+    'xwc'   => ['WhiteCoin', 'https://github.com/Whitecoin-org/whitecoin', 'master'],  // parse error in chainparams.cpp
+    '$pac'  => ['PACcoin', 'https://github.com/PACCommunity/PAC', 'master'],   // parse error in chainparams.cpp
+    'lbc'   => ['Library Credits', 'https://github.com/lbryio/lbrycrd', 'master'],   // no port_rpc in chainparamsbase.cpp
     'xp'    => ['Experience Points', 'https://github.com/eXperiencePoints/XPCoin', 'master'],  // no chainparams.cpp
-//    'medic' => ['MedicCoin', 'https://github.com/MEDICCOIN/MedicCoin', 'master'],  // parse error in chainparams.cpp
+    'medic' => ['MedicCoin', 'https://github.com/MEDICCOIN/MedicCoin', 'master'],  // parse error in chainparams.cpp
     'nlc2'  => ['NoLimiteCoin', 'https://github.com/NoLimitCoin/NoLimitCoin-Core', 'master'],   // no chainparams.cpp
 //    'ecc'   => ['ECC', 'https://github.com/project-ecc/eccoin', 'master'],  // no chainparams.cpp, parse error for pchMessages
 //    'xby'   => ['XTRABYTES', 'https://github.com/XTRABYTES/XTRABYTES', 'master'],  // no chainparams.cpp,  no bitcoinrpc.cpp
-//    'pot'   => ['PotCoin', 'https://github.com/potcoin/Potcoin', 'master'],  // no chainparams.cpp,  no base58.cpp
-//    'leo'   => ['LEOcoin', 'https://github.com/Leocoin-project/LEOcoin', 'master'],  // COIN not defined in amount.h or util.h
+    'pot'   => ['PotCoin', 'https://github.com/potcoin/Potcoin', 'master'],  // no chainparams.cpp,  no base58.cpp
+    'leo'   => ['LEOcoin', 'https://github.com/Leocoin-project/LEOcoin', 'master'],  // COIN not defined in amount.h or util.h
     'thx'   => ['HempCoin', 'https://github.com/hempcoin-project/THC', 'master'],  // no chainparams.cpp
     'onion' => ['DeepOnion', 'https://github.com/deeponion/deeponion', 'master'],  // no chainparams.cpp
-//    'dime'  => ['Dimecoin', 'https://github.com/dime-coin/dimecoin', 'master'],  // no chainparams.cpp, no base58.cpp
+    'dime'  => ['Dimecoin', 'https://github.com/dime-coin/dimecoin', 'master'],  // no chainparams.cpp, no base58.cpp
 //    'bitb'  => ['Bean Cash', 'https://github.com/TeamBitBean/bitbean-core', 'master'],   // parse error in chainparams.cpp
     'grc'   => ['Gridcoin', 'https://github.com/gridcoin-community/Gridcoin-Research', 'master'],  // no chainparams.cpp
 //    'mue'   => ['MonetaryUnit', 'https://github.com/muecoin/MUECore', 'master'],   // parse error in chainparams.cpp
 //    'flash' => ['FLASH', 'https://github.com/flash-coin/flash-fullnode', 'master'],   // parse error in chainparams.cpp
 //    'shnd'  => ['StrongHands', 'https://github.com/stronghands/stronghands', 'master'],  // no chainparams.cpp, pchMessageStart not in main.cpp
-//    'ioc'   => ['IO Coin', 'https://github.com/IOCoin/DIONS', 'master'],  // no chainparams.cpp,  no base58.cpp
-//    'nyc'   => ['NewYorkCoin', 'https://github.com/NewYorkCoin-NYC/nycoin', 'master'],  // no chainparams.cpp, no base58.cpp
+    'ioc'   => ['IO Coin', 'https://github.com/IOCoin/DIONS', 'master'],  // no chainparams.cpp,  no base58.cpp
+    'nyc'   => ['NewYorkCoin', 'https://github.com/NewYorkCoin-NYC/nycoin', 'master'],  // no chainparams.cpp, no base58.cpp
 //    'lmc'   => ['LoMoCoin', 'https://github.com/lomocoin/lomocoin-qt', 'master'],  // no chainparams.cpp, parse error in main.cpp
     'hwc'   => ['Hollywood Coin', 'https://github.com/hollywoodcoin-project/HollyWoodCoin', 'master'],  // no chainparams
     'vrc'   => ['Vericoin', 'https://github.com/vericoin/vericoin', 'master'],  // no chainparams.cpp
@@ -132,16 +134,16 @@ $coins = [
 //    'sprts' => ['Sprouts', 'https://github.com/sprouts-coin-org/sprouts', 'master'],  // no chainparams.cpp,  parse error in main.cpp
 //    'xst'   => ['Stealth', 'https://github.com/StealthSend/Stealth', 'master'],  // no chainparams.cpp, error parsing hash_genesis_block
     'bio'   => ['Biocoin', 'https://github.com/Blackithart/biocoin', 'master'],  // no chainparams.cpp
-//    'ok'    => ['OKCash', 'https://github.com/okcashpro/okcash', 'master'],  // COIN not defined in amount.h, util.h
+    'ok'    => ['OKCash', 'https://github.com/okcashpro/okcash', 'master'],  // COIN not defined in amount.h, util.h
     'pink'  => ['PinkCoin', 'https://github.com/Pink2Dev/Pink2', 'master'],  // no chainparams.cpp
     'bcc'   => ['Bitconnect', 'https://github.com/bitconnectcoin/bitconnectcoin', 'master'],  // no chainparams.cpp. also, ponzi scammers
     'pnd'   => ['Pandacoin', 'https://github.com/DigitalPandacoin/pandacoin', 'master'],  // no chainparams.cpp
-//    'xspec' => ['Spectrecoin', 'https://github.com/spectrecoin/spectre', 'master'],  // COIN not defined in amount.h, util.h
+    'xspec' => ['Spectrecoin', 'https://github.com/spectrecoin/spectre', 'master'],  // COIN not defined in amount.h, util.h
     'enrg'  => ['Energycoin', 'https://github.com/EnergyCoinProject/energycoin', 'master'],   // no chainparams.cpp
-//    'cure'  => ['Curecoin', 'https://github.com/cygnusxi/CurecoinSource', 'master'],  // no chainparams.cpp, missing base58.cpp
+    'cure'  => ['Curecoin', 'https://github.com/cygnusxi/CurecoinSource', 'master'],  // no chainparams.cpp, missing base58.cpp
 //    'qrk'   => ['Quark', 'https://github.com/quark-project/quark', 'master'],   // parse error in chainparams.cpp (hash_genesis_block difficult to parse, outside main section.)
     '42'    => ['42-Coin', 'https://github.com/42-coin/42', 'master'],  // no chainparams.cpp
-//    'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
+    'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
 ];
 
 
@@ -193,7 +195,7 @@ function process_coin($symbol, $name, $project_url, $branch) {
             process_network($data, $meta);
         }
         catch(Exception $e) {
-            if($GLOBALS['stop_on_validation_error']) {
+            if($GLOBALS["stop_on_{$network}_validation_error"]) {
                 throw $e;
             }
             warn($e->getMessage() . "  --> $network will be ignored.");
@@ -238,9 +240,8 @@ function process_network(&$data, $meta) {
 function process_chainparams_codebase(&$data, $meta) {
     process_meta($data, $meta);
     process_chainparams($data, $meta);
-    process_chainparamsbase($data, $meta);
-    process_amounts($data, $meta);
     process_message_magic($data, $meta);
+    process_decimals($data, $meta);
     process_bip44($data, $meta);
 }
 
@@ -259,24 +260,25 @@ function process_chainparams(&$data, $meta) {
     
     $main = $testnet = $regtest = null;
     $chunks = explode("Params : public", $buf);
-    $buf = null;
+    $chunkbuf = null;
 
     foreach($chunks as $chunk) {
+        $chunk = str_replace("\t", "    ", $chunk); // tabs to spaces.
         if(strstr($chunk, '   CMainParams()') && $network =='main') {
-            $buf = $chunk;
+            $chunkbuf = $chunk;
         }
         else if(strstr($chunk, '   CTestNetParams()') && $network == 'test') {
-            $buf = $chunk;
+            $chunkbuf = $chunk;
         }
         else if(strstr($chunk, '   CRegTestParams()') && $network == 'regtest') {
-            $buf = $chunk;
+            $chunkbuf = $chunk;
         }
     }
 
-    process_chainparam_network( $data, $buf, $meta);
+    process_chainparam_network( $data, $chunkbuf, $buf, $meta);
 }
 
-function process_chainparam_network( &$data, $buf, $meta) {
+function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
 
     $network = $meta['network'];
     $name = $meta['name'];
@@ -294,7 +296,6 @@ function process_chainparam_network( &$data, $buf, $meta) {
     ne(@$matches[1]);
     $port = $matches[1];
 
-    $data[$network]['protocol']['magic'] = $magic;
     $data[$network]['port'] = (int)$port;
 
     // rpcPort is usually in chainparamsbase.cpp, but sometimes
@@ -303,6 +304,11 @@ function process_chainparam_network( &$data, $buf, $meta) {
     if(@$matches[1]) {
         $data[$network]['port_rpc'] = (int)$matches[1];
     }
+    else {
+        $data[$network]['port_rpc'] = get_port_rpc($meta);
+    }
+
+    $data[$network]['protocol']['magic'] = $magic;
     
     preg_match_all('/vSeeds.emplace_back\("(.*)".*\)/', $buf, $matches) ||
     preg_match_all('/PUSH_SEED\("(.*)"\)/', $buf, $matches) ||               // clams.
@@ -310,7 +316,18 @@ function process_chainparam_network( &$data, $buf, $meta) {
     
     $data[$network]['seeds_dns'] = @$matches[1];  
     if( @$matches[2]) {
-        $data[$network]['seeds_dns'] = array_merge($matches[1], $matches[2]);
+        // sanity check.  ensure all domains have '.' in them, and no ':'
+        $tmp = array_merge($matches[1], $matches[2]);
+        $allseeds = [];
+        foreach($tmp as $k => $v) {
+            if(strstr($v, '.') && !strstr($v, ':')) {
+                $allseeds[] = $v;
+            }
+            else {
+                warn("['$network']['seeds_dns'] - ignoring invalid dns seed: $v");
+            }
+        }
+        $data[$network]['seeds_dns'] = $allseeds;
     }
 
     // must not be empty for network = main.
@@ -318,55 +335,76 @@ function process_chainparam_network( &$data, $buf, $meta) {
         warn("'$network' - no DNS seeds found. seeds_dns is empty.");
     }        
 
-    preg_match("/base58Prefixes.SECRET_KEY.*>\s?\(1,\s?(\d+)\)/", $buf, $matches) ||
-    preg_match("/base58Prefixes.SECRET_KEY.*list_of.(\d+)\)/", $buf, $matches) ||    // emercoin
-    preg_match("/base58Prefixes.SECRET_KEY.*(0x..).;/", $buf, $matches);    // zcash is a special child.
-    ne(@$matches[1]);
-    array_shift($matches);
-    $val = substr($matches[0],0,2) == '0x' ? hexdec(strtolower($matches[0])) : i($matches[0]);
-    $data[$network]['versions']['private'] = $val;
+    $matched_int = preg_match("/base58Prefixes.SECRET_KEY.*>\s?\(1,\s?(\d+)\);/", $buf, $matches_int) ||
+                   preg_match("/base58Prefixes.SECRET_KEY.*list_of.(\d+)\)/", $buf, $matches_int);
+    $matched_int2= preg_match("/base58Prefixes.SECRET_KEY.*>\s?\(1,\s?(\d+)\+(\d+)\);/", $buf, $matches_int2);    // example is Gulden.
+    $matched_hex = preg_match("/base58Prefixes.SECRET_KEY.*0x(..).;/", $buf, $matches_hex) ||    // zcash is a special child.
+                   preg_match("/base58Prefixes.SECRET_KEY.*>\s?\(1,\s?0x(..)\);/", $buf, $matches_hex);
+    @array_shift($matches_int);
+    @array_shift($matches_int2);
+    @array_shift($matches_hex);
+    if($matched_int2) {
+        $val = i($matches_int2[0]) + i($matches_int2=[1]);
+    }
+    else {
+        $val = $matched_int ? i($matches_int[0]) : hexdec(strtolower(implode('', $matches_hex)));
+    }
+    ne($val);
+    $data[$network]['prefixes']['private'] = $val;
     
-    preg_match("/base58Prefixes.PUBKEY_ADDRESS.*>\s?\(1,\s?(\d+)\);/", $buf, $matches) ||
-    preg_match("/base58Prefixes.PUBKEY_ADDRESS.*list_of.(\d+)\)/", $buf, $matches) ||    // emercoin
-    preg_match("/base58Prefixes.PUBKEY_ADDRESS.*0x(..),0x(..).;/", $buf, $matches);    // zcash is a special child.
-    ne(@$matches[1]);
-    array_shift($matches);
-    $val = count($matches) == 1 ? i($matches[0]) : hexdec(strtolower(implode('', $matches)));
-    $data[$network]['versions']['public'] = $val;
+    $matched_int = preg_match("/base58Prefixes.PUBKEY_ADDRESS.*>\s?\(1,\s?(\d+)\);/", $buf, $matches_int) ||
+                   preg_match("/base58Prefixes.PUBKEY_ADDRESS.*list_of.(\d+)\)/", $buf, $matches_int);
+    $matched_hex = preg_match("/base58Prefixes.PUBKEY_ADDRESS.*0x(..),0x(..).;/", $buf, $matches_hex) ||    // zcash is a special child.
+                   preg_match("/base58Prefixes.PUBKEY_ADDRESS.*>\s?\(1,\s?0x(..)\);/", $buf, $matches_hex);
+    @array_shift($matches_int);
+    @array_shift($matches_hex);
+    $val = $matched_int ? i($matches_int[0]) : hexdec(strtolower(implode('', $matches_hex)));
+    ne($val);
+    $data[$network]['prefixes']['public'] = $val;
     
     //if(!$matches[1]) echo $buf; exit;
-    
-    preg_match("/base58Prefixes.SCRIPT_ADDRESS.*>\s?\(1,\s?(\d+)\)/", $buf, $matches) ||
-    preg_match("/base58Prefixes.SCRIPT_ADDRESS.*list_of\((\d+)\)/", $buf, $matches) ||    // emercoin
-    preg_match("/base58Prefixes.SCRIPT_ADDRESS.*0x(..),0x(..).;/", $buf, $matches);    // zcash is a special child.
-    ne(@$matches[1]);
-    array_shift($matches);
-    $val = count($matches) == 1 ? i($matches[0]) : hexdec(strtolower(implode('', $matches)));
-    $data[$network]['versions']['scripthash'] = $val;
+
+    $matched_int = preg_match("/base58Prefixes.SCRIPT_ADDRESS.*>\s?\(1,\s?(\d+)\);/", $buf, $matches_int) ||
+                   preg_match("/base58Prefixes.SCRIPT_ADDRESS.*list_of.(\d+)\)/", $buf, $matches_int);
+    $matched_hex = preg_match("/base58Prefixes.SCRIPT_ADDRESS.*0x(..),0x(..).;/", $buf, $matches_hex) ||    // zcash is a special child.
+                   preg_match("/base58Prefixes.SCRIPT_ADDRESS.*>\s?\(1,\s?0x(..)\);/", $buf, $matches_hex);
+    @array_shift($matches_int);
+    @array_shift($matches_hex);
+    $val = $matched_int ? i($matches_int[0]) : hexdec(strtolower(implode('', $matches_hex)));
+    ne($val);
+    $data[$network]['prefixes']['scripthash'] = $val;
     
     preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*\{0x(..),\s?0x(..),\s?0x(..),\s?0x(..)\}/", $buf, $matches) ||
     preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*list_of.0x(..)..0x(..)..0x(..)..0x(..)/", $buf, $matches);
     ne(@$matches[1]);
     array_shift($matches);
-    $data[$network]['versions']['bip32']['public'] = zpx(strtolower(implode('',($matches))));
+    $data[$network]['prefixes']['bip32']['public'] = zpx(strtolower(implode('',($matches))));
 
     preg_match("/base58Prefixes.EXT_SECRET_KEY.*\{0x(..),\s?0x(..),\s?0x(..),\s?0x(..)\}/", $buf, $matches) ||
     preg_match("/base58Prefixes.EXT_SECRET_KEY.*list_of.0x(..)..0x(..)..0x(..)..0x(..)/", $buf, $matches);
     ne(@$matches[1]);
     array_shift($matches);
-    $data[$network]['versions']['bip32']['private'] = zpx(strtolower(implode('',($matches))));
+    $data[$network]['prefixes']['bip32']['private'] = zpx(strtolower(implode('',($matches))));
 
     preg_match('/bech32_hrp = "([^"]*)"/', $buf, $matches);
     // ne(@$matches[1]);  // can be null
-    $data[$network]['versions']['bech32_hrp'] = @$matches[1];
+    $data[$network]['prefixes']['bech32_hrp'] = @$matches[1];
 
 //    preg_match('/{     0, uint256S\("([^"]*)"\)}/', $buf, $matches);
-    preg_match('/assert\(.*hashGenesisBlock == uint256S?\("0?x?(.*)"\)\);/', $buf, $matches);
+    preg_match('/\s+assert\(.*hashGenesisBlock == uint256S?\("0?x?(.*)"\)\);/', $buf, $matches);
     if( !@$matches[1] ) {
         // special case for BCH.  (and others?)
         if(preg_match('/assert\(consensus.hashGenesisBlock ==.*uint256S\("(.*)".*"(.*)"\)\);/sU', $buf, $matches)) {
             array_shift($matches);
             $matches[1] = implode('', $matches);
+        }
+        else {
+            // search in whole file, not only network buf.
+            $pattern = sprintf( '/define\s+%s.*_GENESIS_HASH\s+"(.*)"/', strtoupper($network));
+            if(preg_match( $pattern, $filebuf, $matches)) {
+                array_shift($matches);
+                $matches[1] = implode('', $matches);
+            }
         }
     }
     
@@ -374,56 +412,58 @@ function process_chainparam_network( &$data, $buf, $meta) {
     $data[$network]['hash_genesis_block'] = @$matches[1];
 }
 
-function process_chainparamsbase(&$data, $meta) {
+function get_port_rpc($meta) {
     $network = $meta['network'];
 
-    // if already found, we can stop.
-    if(@$data[$network]['port_rpc']) {
-        return;
-    }
-    
     $url = $meta['urlbase'] . '/src/chainparamsbase.cpp';
     $buf = get_url($url);
+    
+    $port_rpc = null;
 
     if($network == 'main') {
         preg_match('/MakeUnique<CBaseChainParams>\("", (\d+)\)/', $buf, $matches);
-        $data['main']['port_rpc'] = (int)@$matches[1];
+        $port_rpc = (int)@$matches[1];
     }
     else if($network == 'test') {
         preg_match('/MakeUnique<CBaseChainParams>\("testnet3", (\d+)\)/', $buf, $matches);
-        $data['test']['port_rpc'] = (int)@$matches[1];
+        $port_rpc = (int)@$matches[1];
     }
     else if($network == 'regtest') {
         preg_match('/MakeUnique<CBaseChainParams>\("regtest", (\d+)\)/', $buf, $matches);
-        $data['regtest']['port_rpc'] = (int)@$matches[1];
+        $port_rpc = (int)@$matches[1];
     }
 
     // if above fails, try older/legacy formatting.
-    if( !@$matches[1] ) {
+    if( !$port_rpc ) {
         preg_match_all('/nRPCPort = (\d+);/', $buf, $matches);
         if($network == 'main') {
-            $data['main']['port_rpc'] = (int)@$matches[1][0];
+            $port_rpc = (int)@$matches[1][0];
         }
         else if($network == 'test') {
-            $data['test']['port_rpc'] = (int)@$matches[1][1];
+            $port_rpc = (int)@$matches[1][1];
         }
         else if($network == 'regtest') {
-            $data['regtest']['port_rpc'] = (int)@$matches[1][2];
+            $port_rpc = (int)@$matches[1][2];
         }
     }
     
-    return true;
+    ne($port_rpc);
+    return $port_rpc;
 }
 
 
-function process_amounts(&$data, $meta) {
+function process_decimals(&$data, $meta) {
     $symbol = $meta['symbol'];
     $network = $meta['network'];
 
     $url = $meta['urlbase'] . '/src/amount.h';
     $buf = get_url($url, false);
-    if(!$buf) {
+    if(!$buf || !strstr($buf, ' COIN')) {
         $url = $meta['urlbase'] . '/src/util.h';   // blackcoin has it in util.h.
+        $buf = get_url($url, false);
+    }
+    if(!$buf || !strstr($buf, ' COIN')) {
+        $url = $meta['urlbase'] . '/src/state.h';   // tpay has it in state.h.
         $buf = get_url($url);
     }
 
@@ -452,7 +492,11 @@ function process_message_magic(&$data, $meta) {
     $buf = get_url($url, false);
     if(!$buf || !strstr($buf, 'strMessageMagic')) {
         $url = $urlbase . '/src/main.cpp';
-        $buf = get_url($url);
+        $buf = get_url($url, false);
+    }
+    if(!$buf || !strstr($buf, 'strMessageMagic')) {    // gulden (and others?) has it here.
+        $url = $urlbase . '/src/validation/validation.cpp';
+        $buf = get_url($url, false);
     }
 
     preg_match('/const .*string strMessageMagic = "(.*)";/', $buf, $matches);
@@ -494,10 +538,10 @@ function process_bip44(&$data, $meta) {
     }
     $bip44 = @$bip44map[strtoupper($symbol)];
     if( $network == 'main' ) {
-        $data['main']['versions']['bip44'] = $bip44;
+        $data['main']['prefixes']['bip44'] = $bip44;
     }
     else {
-        $data[$network]['versions']['bip44'] = 1;     // testnets are always 1, per bip44 spec.
+        $data[$network]['prefixes']['bip44'] = 1;     // testnets are always 1, per bip44 spec.
     }
 }
 
@@ -508,7 +552,7 @@ function process_meta(&$data, $meta) {
     
     $netname = $network == 'test' ? 'testnet' : $network;
     $suffix = $network == 'main' ? '' : ' - ' . ucfirst($netname);
-    $data[$network]['unit'] = strtoupper($symbol);
+    $data[$network]['symbol'] = strtoupper($symbol);
     $data[$network]['name'] = $name . $suffix;
     $data[$network]['testnet'] = $network == 'main' ? false : true;
 }
@@ -522,13 +566,13 @@ function process_oldbitcoin_codebase(&$data, $meta) {
     }
     
     process_meta($data, $meta);
-    process_oldcode_protocol_magic($data, $meta);
     process_oldcode_ports($data, $meta);
+    process_oldcode_protocol_magic($data, $meta);
     process_oldcode_dns_seeds($data, $meta);
     process_oldcode_keys($data, $meta);
     process_oldcode_hash_genesis_block($data, $meta);
-    process_oldcode_decimals($data, $meta);
     process_oldcode_message_magic($data, $meta);
+    process_oldcode_decimals($data, $meta);
     process_bip44($data, $meta);
 }
 
@@ -748,11 +792,10 @@ function process_oldcode_message_magic(&$data, $meta) {
     ne(@$matches[1]);
 
     // remove trailing \n, if present.
-    $prefix = rtrim($matches[1]);
-    $magic = sprintf("\x%x%s", strlen($prefix), $matches[1]);
+    $prefix = str_replace( '\n', "\n", $matches[1]);
+    $magic = chr(strlen($prefix)) . $prefix;
     $data[$network]['message_magic'] = $magic;
 }
-
 
 
 function process_oldcode_dns_seeds(&$data, $meta) {
@@ -784,7 +827,19 @@ static const char *strTestNetDNSSeed[][2] = {
     if( @$matches[1] ) {    
         preg_match_all('/{".*", "(.*)"},/', $matches[1], $matches);
         if(@count($matches[1])) {
-            $data[$network]['seeds_dns'] = $matches[1];
+
+            // sanity check that it appears to be a domain.            
+            $seeds = [];
+            foreach($matches[1] as $v) {
+                if(strstr($v, '.') && !strstr($v, ':')) {
+                    $seeds[] = $v;
+                }
+                else {
+                    warn("['$network']['seeds_dns'] - ignoring invalid dns seed: $v");
+                }
+            }
+            
+            $data[$network]['seeds_dns'] = $seeds;
         }
     }
     
@@ -833,20 +888,20 @@ function process_oldcode_keys(&$data, $meta) {
     if( $network == 'main') {
         preg_match('/PUBKEY_ADDRESS = (\d+)/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['versions']['public'] = i($matches[1]);
+        $data[$network]['prefixes']['public'] = i($matches[1]);
         
         preg_match('/SCRIPT_ADDRESS = (\d+)/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['versions']['scripthash'] = i($matches[1]);
+        $data[$network]['prefixes']['scripthash'] = i($matches[1]);
     }
     else {
         preg_match('/PUBKEY_ADDRESS_TEST = (\d+)/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['versions']['public'] = i($matches[1]);
+        $data[$network]['prefixes']['public'] = i($matches[1]);
         
         preg_match('/SCRIPT_ADDRESS_TEST = (\d+)/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['versions']['scripthash'] = i($matches[1]);
+        $data[$network]['prefixes']['scripthash'] = i($matches[1]);
     }
     
     
@@ -859,23 +914,29 @@ function process_oldcode_keys(&$data, $meta) {
 
     if( preg_match('/SetData\(fTestNet \? (\d+) : (\d+),/', $buf, $matches) ) {
         $val = $network == 'main' ? $matches[2] : $matches[1];
-        $data[$network]['versions']['private'] = i($val);
+        $data[$network]['prefixes']['private'] = i($val);
+    }
+    else if(preg_match('/SetData\((\d+) \+ \(fTestNet \? .*::PUBKEY_ADDRESS_TEST : .*::PUBKEY_ADDRESS\)/', $buf, $matches)) {
+            $data[$network]['prefixes']['private'] = i( $matches[1] + $data[$network]['prefixes']['public'] );
+    }
+    else if(preg_match('/PRIVKEY_ADDRESS = CBitcoinAddress::PUBKEY_ADDRESS \+ (\d+)/', $buf, $matches) && $network == 'main') {
+        // matches potcoin, and others?        
+        $data[$network]['prefixes']['private'] = i( $matches[1] + $data[$network]['prefixes']['public'] );
+    }
+    else if(preg_match('/PRIVKEY_ADDRESS_TEST = CBitcoinAddress::PUBKEY_ADDRESS_TEST \+ (\d+)/', $buf, $matches) && $network == 'test') {
+        // matches potcoin, and others?        
+        $data[$network]['prefixes']['private'] = i( $matches[1] + $data[$network]['prefixes']['public'] );
     }
     else {
-        if(preg_match('/SetData\((\d+) \+ \(fTestNet \? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS\)/', $buf, $matches)) {
-            $data[$network]['versions']['private'] = i( $matches[1] + $data[$network]['versions']['public'] );
-        }
-        else {
-            // one last thing to try.
-            // see: https://raw.githubusercontent.com/eXperiencePoints/XPCoin/master/src/base58.cpp
-            if(!@$matches[1]) {
-                $url = $urlbase . '/src/base58.cpp';
-                $buf = get_url($url);
-                
-                preg_match('/SetData\((\d+) \+ \(fTestNet \? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS\)/', $buf, $matches);
-                ne(@$matches[1]);
-                $data[$network]['versions']['private'] = i( $matches[1] + $data[$network]['versions']['public'] );
-            }
+        // one last thing to try.
+        // see: https://raw.githubusercontent.com/eXperiencePoints/XPCoin/master/src/base58.cpp
+        if(!@$matches[1]) {
+            $url = $urlbase . '/src/base58.cpp';
+            $buf = get_url($url);
+            
+            preg_match('/SetData\((\d+) \+ \(fTestNet \? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS\)/', $buf, $matches);
+            ne(@$matches[1]);
+            $data[$network]['prefixes']['private'] = i( $matches[1] + $data[$network]['prefixes']['public'] );
         }
     }
     
@@ -884,9 +945,9 @@ function process_oldcode_keys(&$data, $meta) {
     // note: maybe there should be an option to turn this off,
     //       but then the values would be undefined and json files
     //       would not validate.
-    $data[$network]['versions']['bip32']['public'] = '0x0488b21e';
-    $data[$network]['versions']['bip32']['private'] = '0x0488ade4';
-    $data[$network]['versions']['bech32_hrp'] = null;    
+    $data[$network]['prefixes']['bip32']['public'] = '0x0488b21e';
+    $data[$network]['prefixes']['bip32']['private'] = '0x0488ade4';
+    $data[$network]['prefixes']['bech32_hrp'] = null;    
 }
 
 

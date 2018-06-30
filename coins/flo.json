@@ -1,85 +1,85 @@
 {
     "main": {
-        "unit": "FLO",
+        "symbol": "FLO",
         "name": "FlorinCoin",
         "testnet": false,
+        "port": 7312,
+        "port_rpc": 7313,
         "protocol": {
             "magic": "0xf1a5c0fd"
         },
-        "port": 7312,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.florincoin.org",
             "node.oip.fun",
             "flodns.oip.li",
             "flodns.oip.fun",
             "flodns.seednode.net"
         ],
-        "versions": {
-            "private": "0xa3",
-            "public": "0x23",
-            "scripthash": "0x08",
+        "prefixes": {
+            "private": 163,
+            "public": 35,
+            "scripthash": 8,
             "bip32": {
                 "public": "0x0134406b",
                 "private": "0x01343c31"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea",
-        "portRpc": 7313,
-        "per1": 100000000,
-        "messageMagic": "Florincoin Signed Message:\\n"
+        "hash_genesis_block": "09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea",
+        "message_magic": "\u001bFlorincoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "FLO",
+        "symbol": "FLO",
         "name": "FlorinCoin - Testnet",
         "testnet": true,
+        "port": 17312,
+        "port_rpc": 17313,
         "protocol": {
             "magic": "0xf25ac0fd"
         },
-        "port": 17312,
-        "seedsDns": [
+        "seeds_dns": [
             "testnet.oip.fun"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x73",
-            "scripthash": "0xc6",
+        "prefixes": {
+            "private": 239,
+            "public": 115,
+            "scripthash": 198,
             "bip32": {
                 "public": "0x013440e2",
                 "private": "0x01343c23"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "9b7bc86236c34b5e3a39367c036b7fe8807a966c22a7a1f0da2a198a27e03731",
-        "portRpc": 17313,
-        "per1": 100000000,
-        "messageMagic": "Florincoin Signed Message:\\n"
+        "hash_genesis_block": "9b7bc86236c34b5e3a39367c036b7fe8807a966c22a7a1f0da2a198a27e03731",
+        "message_magic": "\u001bFlorincoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "FLO",
+        "symbol": "FLO",
         "name": "FlorinCoin - Regtest",
         "testnet": true,
+        "port": 17412,
+        "port_rpc": 17313,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 17412,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x73",
-            "scripthash": "0xc6",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 115,
+            "scripthash": 198,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "ec42fa26ca6dcb1103b59a1d24b161935ea4566f8d5736db8917d5b9a8dee0d7",
-        "portRpc": 17313,
-        "per1": 100000000,
-        "messageMagic": "Florincoin Signed Message:\\n"
+        "hash_genesis_block": "ec42fa26ca6dcb1103b59a1d24b161935ea4566f8d5736db8917d5b9a8dee0d7",
+        "message_magic": "\u001bFlorincoin Signed Message:\n",
+        "decimals": 8
     }
 }

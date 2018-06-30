@@ -1,0 +1,52 @@
+{
+    "main": {
+        "symbol": "XSPEC",
+        "name": "Spectrecoin",
+        "testnet": false,
+        "port": 37347,
+        "port_rpc": 36657,
+        "protocol": {
+            "magic": "0xd35c22b5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 179,
+            "public": 63,
+            "scripthash": 136,
+            "bip32": {
+                "public": "0x2c513bd7",
+                "private": "0x2c51c15a"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000001fd6111f0d71d90b7d8c827c6028dbc867f6c527d90794a0d22f68fecd4",
+        "message_magic": "\u001cSpectreCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XSPEC",
+        "name": "Spectrecoin - Testnet",
+        "testnet": true,
+        "port": 37111,
+        "port_rpc": 36757,
+        "protocol": {
+            "magic": "0xb4442ca3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 255,
+            "public": 127,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x76c0fdfb",
+                "private": "0x76c1077a"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00004351133a2c6c1f7277b0d684192b605bc62c03727bba81e4d20863944049",
+        "message_magic": "\u001cSpectreCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

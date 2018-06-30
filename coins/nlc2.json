@@ -1,19 +1,19 @@
 {
     "main": {
-        "unit": "NLC2",
+        "symbol": "NLC2",
         "name": "NoLimiteCoin",
         "testnet": false,
+        "port": 6521,
+        "port_rpc": 6520,
         "protocol": {
             "magic": "0xa6f8b6b1"
         },
-        "port": 6521,
-        "portRpc": 6520,
-        "seedsDns": [
+        "seeds_dns": [
             "seed1.nlc2.info",
             "seed2.nlc2.info",
             "seed3.nlc2.info"
         ],
-        "versions": {
+        "prefixes": {
             "public": 53,
             "scripthash": 85,
             "private": 181,
@@ -24,21 +24,21 @@
             "bech32_hrp": null,
             "bip44": 149
         },
-        "hashGenesisBlock": "000000c97e5317f440753bb4b0155badbce95fa893cb65d677385df2f07f7a2e",
-        "per1": 100000000,
-        "messageMagic": "NoLimitCoin Signed Message:\\n"
+        "hash_genesis_block": "000000c97e5317f440753bb4b0155badbce95fa893cb65d677385df2f07f7a2e",
+        "message_magic": "\u001cNoLimitCoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "NLC2",
+        "symbol": "NLC2",
         "name": "NoLimiteCoin - Testnet",
         "testnet": true,
+        "port": 16521,
+        "port_rpc": 16520,
         "protocol": {
             "magic": "0xb6b1b6b1"
         },
-        "port": 16521,
-        "portRpc": 16520,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -49,8 +49,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "0000834807c7b0f6e8772e7bee9b7cd3524e1211c196386f41b3fc20243b0dfa",
-        "per1": 100000000,
-        "messageMagic": "NoLimitCoin Signed Message:\\n"
+        "hash_genesis_block": "0000834807c7b0f6e8772e7bee9b7cd3524e1211c196386f41b3fc20243b0dfa",
+        "message_magic": "\u001cNoLimitCoin Signed Message:\n",
+        "decimals": 8
     }
 }

@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "GRS",
+        "symbol": "GRS",
         "name": "Groestlcoin",
         "testnet": false,
+        "port": 8333,
+        "port_rpc": 1441,
         "protocol": {
             "magic": "0xd9b4bef9"
         },
-        "port": 8333,
-        "seedsDns": [
+        "seeds_dns": [
             "seed.bitcoin.sipa.be",
             "dnsseed.bluematt.me",
             "dnsseed.bitcoin.dashjr.org",
@@ -15,75 +16,74 @@
             "seed.bitcoin.jonasschnelli.ch",
             "seed.btc.petertodd.org"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x00",
-            "scripthash": "0x05",
+        "prefixes": {
+            "private": 128,
+            "public": 0,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": "bc",
             "bip44": 17
         },
-        "bech32_hrp": "bc",
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-        "portRpc": 1441,
-        "per1": 100000000,
-        "messageMagic": "GroestlCoin Signed Message:\\n"
+        "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "message_magic": "\u001cGroestlCoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "GRS",
+        "symbol": "GRS",
         "name": "Groestlcoin - Testnet",
         "testnet": true,
+        "port": 18333,
+        "port_rpc": 17766,
         "protocol": {
             "magic": "0x0709110b"
         },
-        "port": 18333,
-        "seedsDns": [
+        "seeds_dns": [
             "testnet-seed.bitcoin.jonasschnelli.ch",
             "seed.tbtc.petertodd.org",
             "seed.testnet.bitcoin.sprovoost.nl",
             "testnet-seed.bluematt.me"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "tb",
             "bip44": 1
         },
-        "bech32_hrp": "tb",
-        "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-        "portRpc": 17766,
-        "per1": 100000000,
-        "messageMagic": "GroestlCoin Signed Message:\\n"
+        "hash_genesis_block": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+        "message_magic": "\u001cGroestlCoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "GRS",
+        "symbol": "GRS",
         "name": "Groestlcoin - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18443,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "bcrt",
             "bip44": 1
         },
-        "bech32_hrp": "bcrt",
-        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-        "portRpc": 18443,
-        "per1": 100000000,
-        "messageMagic": "GroestlCoin Signed Message:\\n"
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": "\u001cGroestlCoin Signed Message:\n",
+        "decimals": 8
     }
 }

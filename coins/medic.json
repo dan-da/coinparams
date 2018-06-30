@@ -1,0 +1,63 @@
+{
+    "main": {
+        "symbol": "MEDIC",
+        "name": "MedicCoin",
+        "testnet": false,
+        "port": 2118,
+        "port_rpc": 2117,
+        "protocol": {
+            "magic": "0xc96fd71b"
+        },
+        "seeds_dns": [
+            "165.227.197.66",
+            "159.89.142.38",
+            "159.89.175.183",
+            "159.89.17.200",
+            "159.203.27.139",
+            "139.59.110.48",
+            "159.89.47.42",
+            "162.243.143.89",
+            "188.226.192.115",
+            "165.227.224.252"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 50,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000ac3f71507372db48ac2626bed6c1321cade7292431b274647673ab60a7ee",
+        "message_magic": "\u001aMedicCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MEDIC",
+        "name": "MedicCoin - Testnet",
+        "testnet": true,
+        "port": 12118,
+        "port_rpc": 12117,
+        "protocol": {
+            "magic": "0xc96fd71b"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 127,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000ac3f71507372db48ac2626bed6c1321cade7292431b274647673ab60a7ee",
+        "message_magic": "\u001aMedicCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

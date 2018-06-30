@@ -1,14 +1,14 @@
 {
     "main": {
-        "unit": "CNX",
+        "symbol": "CNX",
         "name": "Kryptonex",
         "testnet": false,
+        "port": 20863,
+        "port_rpc": 20864,
         "protocol": {
             "magic": "0xa082e418"
         },
-        "port": 20863,
-        "portRpc": 20864,
-        "seedsDns": [
+        "seeds_dns": [
             "node-london.cryptonex.org",
             "node-frankfurt.cryptonex.org",
             "node-amsterdam.cryptonex.org",
@@ -17,7 +17,7 @@
             "node-paris.cryptonex.org",
             "node-bangalore.cryptonex.org"
         ],
-        "versions": {
+        "prefixes": {
             "public": 38,
             "scripthash": 85,
             "private": 166,
@@ -28,21 +28,21 @@
             "bech32_hrp": null,
             "bip44": null
         },
-        "hashGenesisBlock": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
-        "per1": 100000000,
-        "messageMagic": "Cryptonex Signed Message:\\n"
+        "hash_genesis_block": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
+        "message_magic": "\u001aCryptonex Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "CNX",
+        "symbol": "CNX",
         "name": "Kryptonex - Testnet",
         "testnet": true,
+        "port": 30863,
+        "port_rpc": 30864,
         "protocol": {
             "magic": "0xf051794c"
         },
-        "port": 30863,
-        "portRpc": 30864,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -53,8 +53,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
-        "per1": 100000000,
-        "messageMagic": "Cryptonex Signed Message:\\n"
+        "hash_genesis_block": "00000e20f302fba484374f33aedf9cd4a20073de7e7ac4bdfe473e060c2d11b3",
+        "message_magic": "\u001aCryptonex Signed Message:\n",
+        "decimals": 8
     }
 }

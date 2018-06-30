@@ -1,15 +1,15 @@
 {
     "main": {
-        "unit": "ENRG",
+        "symbol": "ENRG",
         "name": "Energycoin",
         "testnet": false,
+        "port": 22706,
+        "port_rpc": 22705,
         "protocol": {
             "magic": "0xddb7d9fc"
         },
-        "port": 22706,
-        "portRpc": 22705,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 92,
             "scripthash": 8,
             "private": 220,
@@ -20,21 +20,21 @@
             "bech32_hrp": null,
             "bip44": null
         },
-        "hashGenesisBlock": "00000a5ac2dc57cfb0b92bc8be7731fe6a94a8c1c49a0d2f32e9e2da4f7d2308",
-        "per1": 1000000,
-        "messageMagic": "EnergyCoin Signed Message:\\n"
+        "hash_genesis_block": "00000a5ac2dc57cfb0b92bc8be7731fe6a94a8c1c49a0d2f32e9e2da4f7d2308",
+        "message_magic": "\u001bEnergyCoin Signed Message:\n",
+        "decimals": 6
     },
     "test": {
-        "unit": "ENRG",
+        "symbol": "ENRG",
         "name": "Energycoin - Testnet",
         "testnet": true,
+        "port": 22709,
+        "port_rpc": 22705,
         "protocol": {
             "magic": "0xedc1f0cc"
         },
-        "port": 22709,
-        "portRpc": 22705,
-        "seedsDns": [],
-        "versions": {
+        "seeds_dns": [],
+        "prefixes": {
             "public": 111,
             "scripthash": 196,
             "private": 239,
@@ -45,8 +45,8 @@
             "bech32_hrp": null,
             "bip44": 1
         },
-        "hashGenesisBlock": "",
-        "per1": 1000000,
-        "messageMagic": "EnergyCoin Signed Message:\\n"
+        "hash_genesis_block": "",
+        "message_magic": "\u001bEnergyCoin Signed Message:\n",
+        "decimals": 6
     }
 }

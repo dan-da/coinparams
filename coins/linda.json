@@ -1,52 +1,52 @@
 {
     "main": {
-        "unit": "LINDA",
+        "symbol": "LINDA",
         "name": "Linda",
         "testnet": false,
+        "port": 33820,
+        "port_rpc": 33821,
         "protocol": {
             "magic": "0x0117d39c"
         },
-        "port": 33820,
-        "portRpc": 33821,
-        "seedsDns": [],
-        "versions": {
-            "private": "0x99",
-            "public": "0x30",
-            "scripthash": "0x55",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 48,
+            "scripthash": 85,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000000fa793257f502f94a3531aebdaf91b070324a8f5041324b80f4b0f74c51",
-        "per1": 100000000,
-        "messageMagic": "Linda Signed Message:\\n"
+        "hash_genesis_block": "000000fa793257f502f94a3531aebdaf91b070324a8f5041324b80f4b0f74c51",
+        "message_magic": "\u0016Linda Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "LINDA",
+        "symbol": "LINDA",
         "name": "Linda - Testnet",
         "testnet": true,
+        "port": 28888,
+        "port_rpc": 28889,
         "protocol": {
             "magic": "0xefc0f2ce"
         },
-        "port": 28888,
-        "portRpc": 28889,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x17",
-            "scripthash": "0xbb",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 23,
+            "scripthash": 187,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00005862693a9c2692d3abb4d071f261c1c64db9824d89ae28d533e435f6d87c",
-        "per1": 100000000,
-        "messageMagic": "Linda Signed Message:\\n"
+        "hash_genesis_block": "00005862693a9c2692d3abb4d071f261c1c64db9824d89ae28d533e435f6d87c",
+        "message_magic": "\u0016Linda Signed Message:\n",
+        "decimals": 8
     }
 }

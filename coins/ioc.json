@@ -1,0 +1,52 @@
+{
+    "main": {
+        "symbol": "IOC",
+        "name": "IO Coin",
+        "testnet": false,
+        "port": 33764,
+        "port_rpc": 33765,
+        "protocol": {
+            "magic": "0xdebac3fe"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 103,
+            "scripthash": 85,
+            "private": 231,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000afad2d5833b50b59a9784fdc59869b688680e1670a52c52e3c2c04c1fe8",
+        "message_magic": "\u0018I\/OCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IOC",
+        "name": "IO Coin - Testnet",
+        "testnet": true,
+        "port": 43764,
+        "port_rpc": 43765,
+        "protocol": {
+            "magic": "0xdfbbc4ff"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32_hrp": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "5f97300cd3dc3d2215dd38ce6d99bf7d5984bb62b2777060d3b5564298bd5484",
+        "message_magic": "\u0018I\/OCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

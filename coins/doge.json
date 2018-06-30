@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "DOGE",
+        "symbol": "DOGE",
         "name": "Dogecoin",
         "testnet": false,
+        "port": 22556,
+        "port_rpc": 22555,
         "protocol": {
             "magic": "0xc0c0c0c0"
         },
-        "port": 22556,
-        "seedsDns": [
+        "seeds_dns": [
             "dogecoin.com",
             "multidoge.org",
             "multidoge.org",
@@ -17,48 +18,47 @@
             "seed2.multidoge.org",
             "seed.doger.dogecoin.com"
         ],
-        "versions": {
-            "private": "0x9e",
-            "public": "0x1e",
-            "scripthash": "0x16",
+        "prefixes": {
+            "private": 158,
+            "public": 30,
+            "scripthash": 22,
             "bip32": {
                 "public": "0x02facafd",
                 "private": "0x02fac398"
             },
+            "bech32_hrp": null,
             "bip44": 3
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
-        "portRpc": 22555,
-        "per1": 100000000,
-        "messageMagic": "Dogecoin Signed Message:\\n"
+        "hash_genesis_block": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
+        "message_magic": "\u0019Dogecoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "DOGE",
+        "symbol": "DOGE",
         "name": "Dogecoin - Testnet",
         "testnet": true,
+        "port": 44556,
+        "port_rpc": 44555,
         "protocol": {
             "magic": "0xdcb7c1fc"
         },
-        "port": 44556,
-        "seedsDns": [
+        "seeds_dns": [
             "jrn.me.uk",
             "testseed.jrn.me.uk"
         ],
-        "versions": {
-            "private": "0xf1",
-            "public": "0x71",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 241,
+            "public": 113,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
-        "portRpc": 44555,
-        "per1": 100000000,
-        "messageMagic": "Dogecoin Signed Message:\\n"
+        "hash_genesis_block": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+        "message_magic": "\u0019Dogecoin Signed Message:\n",
+        "decimals": 8
     }
 }

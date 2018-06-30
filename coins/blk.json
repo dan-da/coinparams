@@ -1,55 +1,55 @@
 {
     "main": {
-        "unit": "BLK",
+        "symbol": "BLK",
         "name": "Blackcoin",
         "testnet": false,
+        "port": 15714,
+        "port_rpc": 15715,
         "protocol": {
             "magic": "0x05223570"
         },
-        "port": 15714,
-        "portRpc": 15715,
-        "seedsDns": [
+        "seeds_dns": [
             "vasin.nl",
             "dnsseed.vasin.nl"
         ],
-        "versions": {
-            "private": "0x99",
-            "public": "0x19",
-            "scripthash": "0x55",
+        "prefixes": {
+            "private": 153,
+            "public": 25,
+            "scripthash": 85,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 10
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
-        "per1": 100000000,
-        "messageMagic": "BlackCoin Signed Message:\\n"
+        "hash_genesis_block": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+        "message_magic": "\u001aBlackCoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BLK",
+        "symbol": "BLK",
         "name": "Blackcoin - Testnet",
         "testnet": true,
+        "port": 25714,
+        "port_rpc": 25715,
         "protocol": {
             "magic": "0xefc0f2cd"
         },
-        "port": 25714,
-        "portRpc": 25715,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
-        "per1": 100000000,
-        "messageMagic": "BlackCoin Signed Message:\\n"
+        "hash_genesis_block": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
+        "message_magic": "\u001aBlackCoin Signed Message:\n",
+        "decimals": 8
     }
 }

@@ -1,85 +1,85 @@
 {
     "main": {
-        "unit": "BCA",
+        "symbol": "BCA",
         "name": "Bitcoin Atom",
         "testnet": false,
+        "port": 7333,
+        "port_rpc": 7332,
         "protocol": {
             "magic": "0xe81dc14f"
         },
-        "port": 7333,
-        "seedsDns": [
+        "seeds_dns": [
             "seed.bitcoinatom.io",
             "seed.bitcoin-atom.org",
             "seed.bitcoinatom.net"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x17",
-            "scripthash": "0x0a",
+        "prefixes": {
+            "private": 128,
+            "public": 23,
+            "scripthash": 10,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": "bca",
             "bip44": 185
         },
-        "bech32_hrp": "bca",
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-        "portRpc": 7332,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Signed Message:\\n"
+        "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BCA",
+        "symbol": "BCA",
         "name": "Bitcoin Atom - Testnet",
         "testnet": true,
+        "port": 17333,
+        "port_rpc": 17332,
         "protocol": {
             "magic": "0xd63f8ea6"
         },
-        "port": 17333,
-        "seedsDns": [
+        "seeds_dns": [
             "testnet-seed.bitcoinatom.io",
             "testnet-seed.bitcoin-atom.org",
             "testnet-seed.bitcoinatom.net"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "tbca",
             "bip44": 1
         },
-        "bech32_hrp": "tbca",
-        "hashGenesisBlock": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-        "portRpc": 17332,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Signed Message:\\n"
+        "hash_genesis_block": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "BCA",
+        "symbol": "BCA",
         "name": "Bitcoin Atom - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 17443,
         "protocol": {
             "magic": "0x4a1fd7ca"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": "bcart",
             "bip44": 1
         },
-        "bech32_hrp": "bcart",
-        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-        "portRpc": 17443,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Signed Message:\\n"
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
     }
 }

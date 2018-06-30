@@ -1,85 +1,85 @@
 {
     "main": {
-        "unit": "BTG",
+        "symbol": "BTG",
         "name": "Bitcoin Gold",
         "testnet": false,
+        "port": 8338,
+        "port_rpc": 8332,
         "protocol": {
             "magic": "0x446d47e1"
         },
-        "port": 8338,
-        "seedsDns": [
+        "seeds_dns": [
             "eu-dnsseed.bitcoingold-official.org",
             "dnsseed.bitcoingold.org",
             "dnsseed.btcgpu.org"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x26",
-            "scripthash": "0x17",
+        "prefixes": {
+            "private": 128,
+            "public": 38,
+            "scripthash": 23,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 156
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-        "portRpc": 8332,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Gold Signed Message:\\n"
+        "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "message_magic": "\u001dBitcoin Gold Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BTG",
+        "symbol": "BTG",
         "name": "Bitcoin Gold - Testnet",
         "testnet": true,
+        "port": 18338,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0x456e48e2"
         },
-        "port": 18338,
-        "seedsDns": [
+        "seeds_dns": [
             "eu-test-dnsseed.bitcoingold-official.org",
             "test-dnsseed.bitcoingold.org",
             "test-dnsseed.btcgpu.org"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Gold Signed Message:\\n"
+        "hash_genesis_block": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
+        "message_magic": "\u001dBitcoin Gold Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "BTG",
+        "symbol": "BTG",
         "name": "Bitcoin Gold - Regtest",
         "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 18444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-        "portRpc": 18332,
-        "per1": 100000000,
-        "messageMagic": "Bitcoin Gold Signed Message:\\n"
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": "\u001dBitcoin Gold Signed Message:\n",
+        "decimals": 8
     }
 }

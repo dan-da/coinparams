@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "BTCZ",
+        "symbol": "BTCZ",
         "name": "BitcoinZ",
         "testnet": false,
+        "port": 1989,
+        "port_rpc": 1979,
         "protocol": {
             "magic": "0x6427e924"
         },
-        "port": 1989,
-        "seedsDns": [
+        "seeds_dns": [
             "b8491e7ea3502b8fcda9106923e68b92ef43c331dbf9cfb3c94af473bfbf308b.BTCZ",
             "67f534b87f9a2412f845e39102f184e3a48798ed6e2a64d98b915aa12b625e9c.BTCZ",
             "acdd520508bbfa96029867cf64b824fa5e41ebe47918bd4b7855d7a186ed795c.BTCZ",
@@ -21,50 +22,49 @@
             "seed.btcz.biz",
             "btczseed.1ds.us"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x1cb8",
-            "scripthash": "0x1cbd",
+        "prefixes": {
+            "private": 128,
+            "public": 7352,
+            "scripthash": 7357,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 177
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "f499ee3d498b4298ac6a64205b8addb7c43197e2a660229be65db8a4534d75c1",
-        "portRpc": 1979,
-        "per1": 100000000,
-        "messageMagic": "BitcoinZ Signed Message:\\n"
+        "hash_genesis_block": "f499ee3d498b4298ac6a64205b8addb7c43197e2a660229be65db8a4534d75c1",
+        "message_magic": "\u0019BitcoinZ Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BTCZ",
+        "symbol": "BTCZ",
         "name": "BitcoinZ - Testnet",
         "testnet": true,
+        "port": 11989,
+        "port_rpc": 11979,
         "protocol": {
             "magic": "0xbff91afa"
         },
-        "port": 11989,
-        "seedsDns": [
+        "seeds_dns": [
             "978b674532d58328c4da63ab138c476ffa2f8a8b2b5a023a668fd3a97eb7c48b.TZB",
             "rotorproject.org",
             "testnetseed.btcz.biz",
             "test-dnsseed.rotorproject.org"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x1d25",
-            "scripthash": "0x1cba",
+        "prefixes": {
+            "private": 239,
+            "public": 7461,
+            "scripthash": 7354,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
-        "portRpc": 11979,
-        "per1": 100000000,
-        "messageMagic": "BitcoinZ Signed Message:\\n"
+        "hash_genesis_block": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "message_magic": "\u0019BitcoinZ Signed Message:\n",
+        "decimals": 8
     }
 }

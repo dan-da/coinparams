@@ -1,91 +1,85 @@
 {
     "main": {
-        "unit": "BCO",
+        "symbol": "BCO",
         "name": "BridgeCoin",
         "testnet": false,
+        "port": 6333,
+        "port_rpc": 6332,
         "protocol": {
             "magic": "0xdbb6c0fb"
         },
-        "port": 6333,
-        "seedsDns": [
-            "seed 1",
-            "seed 2",
-            "seed 3",
-            "seed1.bridgecoin.org",
-            "seed2.bridgecoin.org",
-            "seed3.bridgecoin.org"
-        ],
-        "versions": {
-            "private": "0xb0",
-            "public": "0x1b",
-            "scripthash": "0x05",
+        "seeds_dns": {
+            "3": "seed1.bridgecoin.org",
+            "4": "seed2.bridgecoin.org",
+            "5": "seed3.bridgecoin.org"
+        },
+        "prefixes": {
+            "private": 176,
+            "public": 27,
+            "scripthash": 5,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 162
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
-        "portRpc": 6332,
-        "per1": 100000000,
-        "messageMagic": "bridgecoin Signed Message:\\n"
+        "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+        "message_magic": "\u001bbridgecoin Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "BCO",
+        "symbol": "BCO",
         "name": "BridgeCoin - Testnet",
         "testnet": true,
+        "port": 16333,
+        "port_rpc": 16332,
         "protocol": {
             "magic": "0xf1c8d2fd"
         },
-        "port": 16333,
-        "seedsDns": [
-            "seed 1",
-            "seed 2",
-            "seed 3",
-            "seed1.bridgecoin.org",
-            "seed2.bridgecoin.org",
-            "seed3.bridgecoin.org"
-        ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x0a",
-            "scripthash": "0xc4",
+        "seeds_dns": {
+            "3": "seed1.bridgecoin.org",
+            "4": "seed2.bridgecoin.org",
+            "5": "seed3.bridgecoin.org"
+        },
+        "prefixes": {
+            "private": 239,
+            "public": 10,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
-        "portRpc": 16332,
-        "per1": 100000000,
-        "messageMagic": "bridgecoin Signed Message:\\n"
+        "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+        "message_magic": "\u001bbridgecoin Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "BCO",
+        "symbol": "BCO",
         "name": "BridgeCoin - Regtest",
         "testnet": true,
+        "port": 19444,
+        "port_rpc": 16332,
         "protocol": {
             "magic": "0xdab5bffa"
         },
-        "port": 19444,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
-        "portRpc": 16332,
-        "per1": 100000000,
-        "messageMagic": "bridgecoin Signed Message:\\n"
+        "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
+        "message_magic": "\u001bbridgecoin Signed Message:\n",
+        "decimals": 8
     }
 }

@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "HTML",
+        "symbol": "HTML",
         "name": "HTMLCOIN",
         "testnet": false,
+        "port": 4888,
+        "port_rpc": 4889,
         "protocol": {
             "magic": "0x4c3d2e1f"
         },
-        "port": 4888,
-        "seedsDns": [
+        "seeds_dns": [
             "htmlcoin.com",
             "htmlcoin.com",
             "htmlcoin.com",
@@ -17,73 +18,72 @@
             "seed3.htmlcoin.com",
             "seed4.htmlcoin.com"
         ],
-        "versions": {
-            "private": "0xa9",
-            "public": "0x29",
-            "scripthash": "0x64",
+        "prefixes": {
+            "private": 169,
+            "public": 41,
+            "scripthash": 100,
             "bip32": {
                 "public": "0x1397c10d",
                 "private": "0x1397bcf3"
             },
+            "bech32_hrp": null,
             "bip44": 172
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000bf23c6424c270a24a17a3db723361c349e0f966d7b55a6bca4bfb2d951b0",
-        "portRpc": 4889,
-        "per1": 100000000,
-        "messageMagic": "HTMLCOIN Signed Message:\\n"
+        "hash_genesis_block": "0000bf23c6424c270a24a17a3db723361c349e0f966d7b55a6bca4bfb2d951b0",
+        "message_magic": "\u0019HTMLCOIN Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "HTML",
+        "symbol": "HTML",
         "name": "HTMLCOIN - Testnet",
         "testnet": true,
+        "port": 14888,
+        "port_rpc": 14889,
         "protocol": {
             "magic": "0x5c4d3e2f"
         },
-        "port": 14888,
-        "seedsDns": [
+        "seeds_dns": [
             "htmlcoin.com",
             "testnet-seed1.htmlcoin.com"
         ],
-        "versions": {
-            "private": "0xe4",
-            "public": "0x64",
-            "scripthash": "0x6e",
+        "prefixes": {
+            "private": 228,
+            "public": 100,
+            "scripthash": 110,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "000013694772f8aeb88efeb2829fe5d71fbca3e23d5043baa770726f204f528c",
-        "portRpc": 14889,
-        "per1": 100000000,
-        "messageMagic": "HTMLCOIN Signed Message:\\n"
+        "hash_genesis_block": "000013694772f8aeb88efeb2829fe5d71fbca3e23d5043baa770726f204f528c",
+        "message_magic": "\u0019HTMLCOIN Signed Message:\n",
+        "decimals": 8
     },
     "regtest": {
-        "unit": "HTML",
+        "symbol": "HTML",
         "name": "HTMLCOIN - Regtest",
         "testnet": true,
+        "port": 24888,
+        "port_rpc": 14889,
         "protocol": {
             "magic": "0x6c5d4e3f"
         },
-        "port": 24888,
-        "seedsDns": [],
-        "versions": {
-            "private": "0xef",
-            "public": "0x78",
-            "scripthash": "0x6e",
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 120,
+            "scripthash": 110,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "03c80d2399e1fe481a51e122ac55159a4e5fe635494a7fd368f3e440241fccb2",
-        "portRpc": 14889,
-        "per1": 100000000,
-        "messageMagic": "HTMLCOIN Signed Message:\\n"
+        "hash_genesis_block": "03c80d2399e1fe481a51e122ac55159a4e5fe635494a7fd368f3e440241fccb2",
+        "message_magic": "\u0019HTMLCOIN Signed Message:\n",
+        "decimals": 8
     }
 }

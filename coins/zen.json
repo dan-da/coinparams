@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "ZEN",
+        "symbol": "ZEN",
         "name": "Zencash",
         "testnet": false,
+        "port": 9033,
+        "port_rpc": 8231,
         "protocol": {
             "magic": "0x68736163"
         },
-        "port": 9033,
-        "seedsDns": [
+        "seeds_dns": [
             "zensystem.io",
             "zenseed.network",
             "blockoperations.com",
@@ -21,31 +22,31 @@
             "mainnet.zenseed.network",
             "mainnet.zensystem.io"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x2089",
-            "scripthash": "0x2096",
+        "prefixes": {
+            "private": 128,
+            "public": 8329,
+            "scripthash": 8342,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": 121
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
-        "portRpc": 8231,
-        "per1": 100000000,
-        "messageMagic": "Zcash Signed Message:\\n"
+        "hash_genesis_block": "0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
     },
     "test": {
-        "unit": "ZEN",
+        "symbol": "ZEN",
         "name": "Zencash - Testnet",
         "testnet": true,
+        "port": 19033,
+        "port_rpc": 18231,
         "protocol": {
             "magic": "0xe6cdf2bf"
         },
-        "port": 19033,
-        "seedsDns": [
+        "seeds_dns": [
             "zensystem.io",
             "blockoperations.com",
             "scottrockcafe.com",
@@ -55,20 +56,19 @@
             "node.scottrockcafe.com",
             "testnet.zensystem.io"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x2098",
-            "scripthash": "0x2092",
+        "prefixes": {
+            "private": 239,
+            "public": 8344,
+            "scripthash": 8338,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
-        "portRpc": 18231,
-        "per1": 100000000,
-        "messageMagic": "Zcash Signed Message:\\n"
+        "hash_genesis_block": "03e1c4bb705c871bf9bfda3e74b7f8f86bff267993c215a89d5795e3708e5e1f",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
     }
 }

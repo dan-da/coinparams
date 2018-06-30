@@ -1,13 +1,14 @@
 {
     "main": {
-        "unit": "EMC",
+        "symbol": "EMC",
         "name": "Emercoin",
         "testnet": false,
+        "port": 6661,
+        "port_rpc": 6662,
         "protocol": {
             "magic": "0xe5e9e8e6"
         },
-        "port": 6661,
-        "seedsDns": [
+        "seeds_dns": [
             "emercoin.com",
             "emercoin.net",
             "emergate.net",
@@ -17,48 +18,47 @@
             "seed.emergate.net",
             "seed.emc"
         ],
-        "versions": {
-            "private": "0x80",
-            "public": "0x21",
-            "scripthash": "0x5c",
+        "prefixes": {
+            "private": 128,
+            "public": 33,
+            "scripthash": 92,
             "bip32": {
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
+            "bech32_hrp": null,
             "bip44": null
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d",
-        "portRpc": 6662,
-        "per1": 1000000,
-        "messageMagic": "EmerCoin Signed Message:\\n"
+        "hash_genesis_block": "00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d",
+        "message_magic": "\u0019EmerCoin Signed Message:\n",
+        "decimals": 6
     },
     "test": {
-        "unit": "EMC",
-        "name": "Emercoin - Test",
+        "symbol": "EMC",
+        "name": "Emercoin - Testnet",
         "testnet": true,
+        "port": 6663,
+        "port_rpc": 6662,
         "protocol": {
             "magic": "0xefc0f2cb"
         },
-        "port": 6663,
-        "seedsDns": [
+        "seeds_dns": [
             "emercoin",
             "tnseed.emercoin.com"
         ],
-        "versions": {
-            "private": "0xef",
-            "public": "0x6f",
-            "scripthash": "0xc4",
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
             "bip32": {
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
+            "bech32_hrp": null,
             "bip44": 1
         },
-        "bech32_hrp": null,
-        "hashGenesisBlock": "0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212",
-        "portRpc": 6662,
-        "per1": 1000000,
-        "messageMagic": "EmerCoin Signed Message:\\n"
+        "hash_genesis_block": "0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212",
+        "message_magic": "\u0019EmerCoin Signed Message:\n",
+        "decimals": 6
     }
 }
