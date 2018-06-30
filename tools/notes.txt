@@ -9,16 +9,17 @@ bip32/private:     base58Prefixes[EXT_SECRET_KEY]
 bip32/public:      base58Prefixes[EXT_PUBLIC_KEY]
 private:           base58Prefixes[SECRET_KEY]
 public:            base58Prefixes[PUBKEY_ADDRESS]
-p2sh:              base58Prefixes[SCRIPT_ADDRESS]
+scripthash:        base58Prefixes[SCRIPT_ADDRESS]
 
-???:               bech32_hrp
+bech32_hrp:        bech32_hrp    // hrp is abbrev for "human readable part".
+                                 // from https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
 
 
-Fields in hainparamsbase.cpp
+Fields in chainparamsbase.cpp
 portRpc            nRPCPort
 
 Fields in amount.h
-per1               COIN
+decimals           COIN    (log 10 COIN)
 
 Fields in validation.cpp, also main.cpp
 messageMagic       strMessageMagic
@@ -57,6 +58,9 @@ private     in CBitcoinSecret::setSecret(). line looks like:
 
 bip32/public:     use 0x0488b21e   ( same as bitcoin)
 bip32/private:    use 0x0488ade4   ( same as bitcoin)
+   
+    note: I think it is generally ok to use BTC values for old coins
+          without bip32 prefixes defined in code. But this is a gray area.
 
 
 hashGenesisBlock:  in main.h
@@ -82,11 +86,166 @@ port, portRpc:    in protocol.h
     #define TESTNET_PORT 9903
     #define TESTNET_RPC_PORT 9904
 
-per1:             in util.h
+decimals:             in util.h
     static const int64 COIN = 1000000;
 
 
 // ------------ Altcoin Notes ---------------
+
+Ethereum:
+    https://github.com/ethereum/go-ethereum/wiki/geth
+    https://github.com/ethereum/go-ethereum
+    
+    values based on geth unless otherwise noted.
+    
+    protocol magic bytes:  none that I could find.   ???
+    Ports:
+        port: 30303             
+        portRpc: 8545
+        testnet port: 30303
+        testnet portRpc: 8080
+        
+        // note: values for testnet are presently uncertain.
+                 I don't see clear documentation.
+        
+        sources:
+            https://ethereum.stackexchange.com/questions/809/which-tcp-and-udp-ports-are-required-to-run-an-ethereum-client
+
+    Keys:
+        pub/priv keys do not use prefixes.
+        
+        sources:
+            https://theethereum.wiki/w/index.php/Accounts,_Addresses,_Public_And_Private_Keys,_And_Tokens#Private_Key
+            https://ethereum.stackexchange.com/questions/3542/how-are-ethereum-addresses-generated
+            
+    bip44: 60.    from slip44
+    bech32_hrp:  n/a
+    
+    DNS Seeds:
+        None found.  At least go-ethereum seems to use hardcoded seed IPs, not DNS.
+        
+        sources:
+            https://ethereum.stackexchange.com/questions/16666/how-do-nodes-find-peers-without-bootnodes
+            https://github.com/ethereum/go-ethereum/wiki/Connecting-to-the-network
+    
+    hashGenesisBlock:
+      main: d4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3
+      test: 41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d
+      source: https://github.com/ethereum/go-ethereum/blob/master/params/config.go#L27
+      
+    messageMagic:
+        \x19Ethereum Signed Message
+        sources:
+          https://ethereum.stackexchange.com/questions/20962/should-signed-text-messages-use-the-x19ethereum-signed-message-prefix?rq=1
+          https://github.com/ethereum/go-ethereum/issues/3731
+          https://github.com/ethereum/go-ethereum/issues/14794
+    decimals:
+         1 ETH = 1,000,000,000,000,000,000 or 10^18 natural units.
+         The ETH natural unit is also called a wei.
+         (so: 18 decimals)
+         
+         note: the original value is larger than the 2^53 allowed in javascript/json.
+         this is one reason we use "decimals" notation rather than putting
+         orig value in json.
+         
+         sources:
+            https://theethereum.wiki/w/index.php/Natural_Units
+            http://ethdocs.org/en/latest/ether.html
+            https://delegatecall.com/questions/what-is-the-smallest-unit-of-ether82c5b7ba-2207-4b98-8839-7f640b802cb3
+            https://ethereum.stackexchange.com/questions/363/why-is-ether-divisible-to-18-decimal-places
+            https://cdivilly.wordpress.com/2012/04/11/json-javascript-large-64-bit-integers/
+
+Monero:
+
+    protocol magic bytes:
+        notes:
+            should be reverse-order?   not sure.
+            will leave undefined until can be certain.
+        from source:
+            mainnet:
+                boost::uuids::uuid const NETWORK_ID = { {
+                    0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10
+                  } };
+            testnet:
+                boost::uuids::uuid const NETWORK_ID = { {
+                    0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x11
+                  } }
+        source:
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/cryptonote_config.h#L159
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/p2p/net_node.inl#L410
+    
+    
+    Ports:
+        port: 18080         
+        portRpc: 18081
+        testnet port: 28080
+        testnet portRpc: 28081
+        
+        sources:
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/cryptonote_config.h#L157
+            https://monero.stackexchange.com/questions/604/what-ports-does-monero-use-rpc-p2p-etc
+            
+    DNS Seeds:
+        seeds.moneroseeds.se
+        seeds.moneroseeds.ae.org
+        seeds.moneroseeds.ch
+        seeds.moneroseeds.li
+        
+        notes:
+            DNS resolving applies to mainnet only.
+            as of v0.12.2.0, testnet uses hard-coded IPs, no DNS lookup.
+
+        source:    
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/p2p/net_node.h#L130    
+
+
+    Keys:
+        public: 18 = 0x12 = '<DC2>'
+        private: n/a
+        scripthash: n/a
+        testnet public: 53 = 0x35 = '5'
+        testnet private: n/a
+        testnet scripthash: n/a
+        
+        bip32/public: n/a
+        bip32/private: n/a
+        
+        sources:
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/cryptonote_config.h#L153
+            https://monero.stackexchange.com/questions/277/why-are-monero-addresses-so-long/278
+            
+    bip44: 128.    from slip44
+        sources:
+            https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+            https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings
+
+    bech32_hrp:  n/a
+    
+    hashGenesisBlock:
+      note: I was able to verify mainnet hash in monero code due to a
+            bugfix hardcode, but not testnet.
+    
+      main: 418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3
+      test: 48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b
+      sources:
+        https://xmrchain.net/search?value=0
+        https://testnet.xmrchain.net/search?value=0
+        https://github.com/monero-project/monero/blob/v0.12.2.0/src/blockchain_db/blockchain_db.cpp#L365
+        https://moneroexplorer.com/search?value=0
+        https://monerohash.com/explorer/block/418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3
+        
+      
+    messageMagic:
+        ""
+        sources:
+
+    decimals:
+        1000000000000  ( 10^12 )
+        log 10 1000000000000 = 12 decimals.
+         
+         sources:
+            https://github.com/monero-project/monero/blob/v0.12.2.0/src/cryptonote_config.h#L64
+
 
 Decred:
     https://github.com/decred

@@ -98,7 +98,7 @@ $coins = [
     'emc'   => ['Emercoin', 'https://github.com/emercoin/emercoin', 'master'],  // bip44 unset
     'btcd'  => ['BitcoinDark', 'https://github.com/jl777/btcd', 'master'],   // no chainparams.cpp
 //    'nlg'   => ['Gulden', 'https://github.com/Gulden/gulden-official', 'master'],   // parse errors in chainparams.cpp
-//    'tpay'  => ['TokenPay', 'https://github.com/tokenpay/tokenpay', 'master'],     // not working yet.  can't find where COIN is defined for per1.        
+//    'tpay'  => ['TokenPay', 'https://github.com/tokenpay/tokenpay', 'master'],     // not working yet.  can't find where COIN is defined for decimals.        
 //    'part'  => ['Particle', 'https://github.com/particl/particl-core', 'master'],  // not working yet.  needs modified parsing of PUBLIC_KEY, et al.
 //    'bay'   => ['BitBay', 'https://github.com/bitbaymarket/bitbay-core', 'master'],   // parse error in chainparams.cpp
     'fair'  => ['FairCoin', 'https://github.com/FairCoinTeam/fair-coin', 'master'],  // no chainparams.cpp
@@ -130,7 +130,7 @@ $coins = [
     'nvc'   => ['Novacoin', 'https://github.com/novacoin-project/novacoin', 'master'],  // no chainparams
 //    'esp'   => ['Espers', 'https://github.com/cryptocoderz/espers', 'master'],  // parse error in chainparams.cpp
 //    'sprts' => ['Sprouts', 'https://github.com/sprouts-coin-org/sprouts', 'master'],  // no chainparams.cpp,  parse error in main.cpp
-//    'xst'   => ['Stealth', 'https://github.com/StealthSend/Stealth', 'master'],  // no chainparams.cpp, error parsing hashGenesisBlock
+//    'xst'   => ['Stealth', 'https://github.com/StealthSend/Stealth', 'master'],  // no chainparams.cpp, error parsing hash_genesis_block
     'bio'   => ['Biocoin', 'https://github.com/Blackithart/biocoin', 'master'],  // no chainparams.cpp
 //    'ok'    => ['OKCash', 'https://github.com/okcashpro/okcash', 'master'],  // COIN not defined in amount.h, util.h
     'pink'  => ['PinkCoin', 'https://github.com/Pink2Dev/Pink2', 'master'],  // no chainparams.cpp
@@ -139,9 +139,9 @@ $coins = [
 //    'xspec' => ['Spectrecoin', 'https://github.com/spectrecoin/spectre', 'master'],  // COIN not defined in amount.h, util.h
     'enrg'  => ['Energycoin', 'https://github.com/EnergyCoinProject/energycoin', 'master'],   // no chainparams.cpp
 //    'cure'  => ['Curecoin', 'https://github.com/cygnusxi/CurecoinSource', 'master'],  // no chainparams.cpp, missing base58.cpp
-//    'qrk'   => ['Quark', 'https://github.com/quark-project/quark', 'master'],   // parse error in chainparams.cpp (hashGenesisBlock difficult to parse, outside main section.)
+//    'qrk'   => ['Quark', 'https://github.com/quark-project/quark', 'master'],   // parse error in chainparams.cpp (hash_genesis_block difficult to parse, outside main section.)
     '42'    => ['42-Coin', 'https://github.com/42-coin/42', 'master'],  // no chainparams.cpp
-//    'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error messageMagic not found.
+//    'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
 ];
 
 
@@ -301,21 +301,21 @@ function process_chainparam_network( &$data, $buf, $meta) {
     // found in chainparams.cpp, eg blackcoin.
     preg_match("/nRPCPort = (\d+)/", $buf, $matches);
     if(@$matches[1]) {
-        $data[$network]['portRpc'] = (int)$matches[1];
+        $data[$network]['port_rpc'] = (int)$matches[1];
     }
     
     preg_match_all('/vSeeds.emplace_back\("(.*)".*\)/', $buf, $matches) ||
     preg_match_all('/PUSH_SEED\("(.*)"\)/', $buf, $matches) ||               // clams.
     preg_match_all('/vSeeds.push_back\(.*CDNSSeedData\("(.*)",.*"(.*)"[,\)]/sU', $buf, $matches);        
     
-    $data[$network]['seedsDns'] = @$matches[1];  
+    $data[$network]['seeds_dns'] = @$matches[1];  
     if( @$matches[2]) {
-        $data[$network]['seedsDns'] = array_merge($matches[1], $matches[2]);
+        $data[$network]['seeds_dns'] = array_merge($matches[1], $matches[2]);
     }
 
     // must not be empty for network = main.
-    if( !count($data[$network]['seedsDns']) && $network != 'regtest') {
-        warn("'$network' - no DNS seeds found. seedsDns is empty.");
+    if( !count($data[$network]['seeds_dns']) && $network != 'regtest') {
+        warn("'$network' - no DNS seeds found. seeds_dns is empty.");
     }        
 
     preg_match("/base58Prefixes.SECRET_KEY.*>\s?\(1,\s?(\d+)\)/", $buf, $matches) ||
@@ -371,14 +371,14 @@ function process_chainparam_network( &$data, $buf, $meta) {
     }
     
     ne(@$matches[1]);
-    $data[$network]['hashGenesisBlock'] = @$matches[1];
+    $data[$network]['hash_genesis_block'] = @$matches[1];
 }
 
 function process_chainparamsbase(&$data, $meta) {
     $network = $meta['network'];
 
     // if already found, we can stop.
-    if(@$data[$network]['portRpc']) {
+    if(@$data[$network]['port_rpc']) {
         return;
     }
     
@@ -387,28 +387,28 @@ function process_chainparamsbase(&$data, $meta) {
 
     if($network == 'main') {
         preg_match('/MakeUnique<CBaseChainParams>\("", (\d+)\)/', $buf, $matches);
-        $data['main']['portRpc'] = (int)@$matches[1];
+        $data['main']['port_rpc'] = (int)@$matches[1];
     }
     else if($network == 'test') {
         preg_match('/MakeUnique<CBaseChainParams>\("testnet3", (\d+)\)/', $buf, $matches);
-        $data['test']['portRpc'] = (int)@$matches[1];
+        $data['test']['port_rpc'] = (int)@$matches[1];
     }
     else if($network == 'regtest') {
         preg_match('/MakeUnique<CBaseChainParams>\("regtest", (\d+)\)/', $buf, $matches);
-        $data['regtest']['portRpc'] = (int)@$matches[1];
+        $data['regtest']['port_rpc'] = (int)@$matches[1];
     }
 
     // if above fails, try older/legacy formatting.
     if( !@$matches[1] ) {
         preg_match_all('/nRPCPort = (\d+);/', $buf, $matches);
         if($network == 'main') {
-            $data['main']['portRpc'] = (int)@$matches[1][0];
+            $data['main']['port_rpc'] = (int)@$matches[1][0];
         }
         else if($network == 'test') {
-            $data['test']['portRpc'] = (int)@$matches[1][1];
+            $data['test']['port_rpc'] = (int)@$matches[1][1];
         }
         else if($network == 'regtest') {
-            $data['regtest']['portRpc'] = (int)@$matches[1][2];
+            $data['regtest']['port_rpc'] = (int)@$matches[1][2];
         }
     }
     
@@ -439,7 +439,8 @@ function process_amounts(&$data, $meta) {
     }
     
     ne(@$matches[1]);
-    $data[$network]['per1'] = @$matches[1] ? (int)@$matches[1] : null;
+    $val = @$matches[1] ? (int)@$matches[1] : null;
+    $data[$network]['decimals'] = $val !== null ? log($val, 10) : null;
     return true;
 }
 
@@ -457,7 +458,10 @@ function process_message_magic(&$data, $meta) {
     preg_match('/const .*string strMessageMagic = "(.*)";/', $buf, $matches);
     ne(@$matches[1]);
     
-    $data[$network]['messageMagic'] = @$matches[1];    
+    // remove trailing \n, if present.
+    $prefix = str_replace( '\n', "\n", $matches[1]);
+    $magic = chr(strlen($prefix)) . $prefix;
+    $data[$network]['message_magic'] = $magic;
     return true;
 }
 
@@ -523,7 +527,7 @@ function process_oldbitcoin_codebase(&$data, $meta) {
     process_oldcode_dns_seeds($data, $meta);
     process_oldcode_keys($data, $meta);
     process_oldcode_hash_genesis_block($data, $meta);
-    process_oldcode_per1($data, $meta);
+    process_oldcode_decimals($data, $meta);
     process_oldcode_message_magic($data, $meta);
     process_bip44($data, $meta);
 }
@@ -553,7 +557,7 @@ function process_oldcode_hash_genesis_block(&$data, $meta) {
     }    
     
     if($hash) {
-        $data[$network]['hashGenesisBlock'] = $hash;
+        $data[$network]['hash_genesis_block'] = $hash;
         return;
     }
 
@@ -576,7 +580,7 @@ function process_oldcode_hash_genesis_block(&$data, $meta) {
     }
     
     ne($hash);
-    $data[$network]['hashGenesisBlock'] = $hash;
+    $data[$network]['hash_genesis_block'] = $hash;
 }
 
 function process_oldcode_ports(&$data, $meta) {
@@ -591,7 +595,7 @@ function process_oldcode_ports(&$data, $meta) {
     ];
     if(@$known[$symbol]) {
         $data[$network]['port'] = $known[$symbol][$network]['port'];
-        $data[$network]['portRpc'] = $known[$symbol][$network]['rpc'];
+        $data[$network]['port_rpc'] = $known[$symbol][$network]['rpc'];
         return;
     }    
     
@@ -613,7 +617,7 @@ function process_oldcode_ports(&$data, $meta) {
     
             preg_match('/#define .*RPC_PORT \s*(\d+)/', $buf, $matches);
             ne(@$matches[1]);
-            $data[$network]['portRpc'] = i($matches[1]);
+            $data[$network]['port_rpc'] = i($matches[1]);
         }
         else {
             preg_match('/#define .*TESTNET_PORT \s*(\d+)/', $buf, $matches);
@@ -622,7 +626,7 @@ function process_oldcode_ports(&$data, $meta) {
     
             preg_match('/#define .*TESTNET_RPC_PORT \s*(\d+)/', $buf, $matches);
             ne(@$matches[1]);
-            $data[$network]['portRpc'] = i($matches[1]);
+            $data[$network]['port_rpc'] = i($matches[1]);
         }
     }
 
@@ -642,7 +646,7 @@ File: bitcoinrpc.cpp
 
         preg_match('/return GetBoolArg.*testnet.*false.*\? (\d+) : (\d+);/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['portRpc'] = $network == 'main' ? i($matches[2]) : i($matches[1]);
+        $data[$network]['port_rpc'] = $network == 'main' ? i($matches[2]) : i($matches[1]);
     }
 }
 
@@ -691,17 +695,17 @@ unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
 }
 
 
-function process_oldcode_per1(&$data, $meta) {
+function process_oldcode_decimals(&$data, $meta) {
     $urlbase = $meta['urlbase'];
     $symbol = $meta['symbol'];
     $network = $meta['network'];
     
     // Shortcut for certain hard-to-parse codebases.    
     $known = [
-//        'ppc' => 1000000,
+//        'ppc' => 6,
     ];
     if(@$known[$symbol]) {
-        $data[$network]['per1'] = $known[$symbol];
+        $data[$network]['decimals'] = $known[$symbol];
         return;
     }
 
@@ -718,7 +722,8 @@ static const int64 COIN = 100000000;
         preg_match('/static.* COIN = (\d+);/', $buf, $matches);
         ne(@$matches[1]);
     }
-    $data[$network]['per1'] = i($matches[1]);
+    $val = $matches[1] ? i($matches[1]) : null;
+    $data[$network]['decimals'] = $val === null ?: log($val, 10);
 }
 
 
@@ -732,7 +737,7 @@ function process_oldcode_message_magic(&$data, $meta) {
 //        'myc' => "Mycoin signed message\n",
     ];
     if(@$known[$symbol]) {
-        $data[$network]['per1'] = $known[$symbol];
+        $data[$network]['message_magic'] = $known[$symbol];
         return;
     }
 
@@ -742,7 +747,10 @@ function process_oldcode_message_magic(&$data, $meta) {
     preg_match('/const .*string strMessageMagic = "(.*)";/', $buf, $matches);
     ne(@$matches[1]);
 
-    $data[$network]['messageMagic'] = $matches[1];
+    // remove trailing \n, if present.
+    $prefix = rtrim($matches[1]);
+    $magic = sprintf("\x%x%s", strlen($prefix), $matches[1]);
+    $data[$network]['message_magic'] = $magic;
 }
 
 
@@ -776,7 +784,7 @@ static const char *strTestNetDNSSeed[][2] = {
     if( @$matches[1] ) {    
         preg_match_all('/{".*", "(.*)"},/', $matches[1], $matches);
         if(@count($matches[1])) {
-            $data[$network]['seedsDns'] = $matches[1];
+            $data[$network]['seeds_dns'] = $matches[1];
         }
     }
     
@@ -797,14 +805,14 @@ from: https://raw.githubusercontent.com/collincrypto/gambitcrypto/master/src/net
         if( @$matches[1] ) {    
             preg_match_all('/{".*", "(.*)"}/', $matches[1], $matches);
             if(@count($matches[1]) && $network == 'main') {
-                $data[$network]['seedsDns'] = $matches[1];
+                $data[$network]['seeds_dns'] = $matches[1];
             }
         }
     }
 
-    if( !@count($data[$network]['seedsDns']) ) {
-        warn("'$network' - no DNS seeds found. seedsDns is empty.");
-        $data[$network]['seedsDns'] = [];
+    if( !@count($data[$network]['seeds_dns']) ) {
+        warn("'$network' - no DNS seeds found. seeds_dns is empty.");
+        $data[$network]['seeds_dns'] = [];
     }
 }
 

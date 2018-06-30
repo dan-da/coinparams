@@ -111,7 +111,7 @@ echo json_encode($coinparams, JSON_PRETTY_PRINT) . "\n\n";
             "scripthash": "0x55"
         },
         "name": "BlackCoin",
-        "per1": 100000000,
+        "decimals": 8,
         "unit": "BLK",
         "testnet": false
     },
@@ -159,7 +159,7 @@ function translate_schema($coin, $data) {
             "scripthash" => $data['scriptHash'],
         ],
         "name" => $realname,
-        "per1" => null,
+        "decimals" => null,
         "unit" => $symbol,
         "testnet" => $testnet
     ];
