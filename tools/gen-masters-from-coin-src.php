@@ -1,18 +1,24 @@
 #!/usr/bin/env php
 <?php
 
+namespace coinsparams\tools;
+
+require_once __DIR__  . '/../vendor/autoload.php';
+\strictmode\initializer::init();
+
 define('EXCEPTION_CHAINPARAMS_NOTFOUND', 1001);
 
 //globals;
 $stop_on_main_validation_error = true;    // set to true to view exception details.
-$stop_on_test_validation_error = true;    // set to true to view exception details.
+$stop_on_test_validation_error = false;    // set to true to view exception details.
 $stop_on_regtest_validation_error = false;    // set to true to view exception details.
 $skip_existing_files = true;        // set to false to overwrite existing files.
 
-$symbol = @$argv[1];
-$name = @$argv[2];
-$project_url = @$argv[3];    // eg https://github.com/digibyte/digibyte
+// Note: this script now relies on ../coinsmeta.json existing and to have an
+//       entry for each item in $coins below.
 
+$symbol = @$argv[1];
+                 // $name, $url, $branch, $website_url, $announce_url, $whitepaper_url, $explorer_urls
 $coins = [
     'btc'   => ['Bitcoin', 'https://github.com/bitcoin/bitcoin', 'master'],       // use branch/tag v0.8.1 for pre chainparams.cpp code.
     'dgb'   => ['Digibyte', 'https://github.com/digibyte/digibyte', 'master'],
@@ -26,7 +32,7 @@ $coins = [
     'rdd'   => ['Reddcoin', 'https://github.com/reddcoin-project/reddcoin', 'master'],
     'zec'   => ['Zcash', 'https://github.com/zcash/zcash', 'master'],
     'blk'   => ['Blackcoin', 'https://github.com/CoinBlack/blackcoin', 'master'],
-    'mona'  => ['Monacoin', 'https://github.com/monacoinproject/monacoin', 'master-0.15', 'master'],
+    'mona'  => ['Monacoin', 'https://github.com/monacoinproject/monacoin', 'master-0.15'],
     'nmc'   => ['Namecoin', 'https://github.com/namecoin/namecoin-core', 'master'],
     'bcd'   => ['Bitcoin Diamond', 'https://github.com/eveybcd/BitcoinDiamond', 'master'],
     'btcp'  => ['Bitcoin Private', 'https://github.com/BTCPrivate/BitcoinPrivate', 'master'],
@@ -146,48 +152,56 @@ $coins = [
     'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
 ];
 
-
-if( $symbol && $name && $project_url ) {
-    process_coin($symbol, $name, $project_url);
-}
-else if( $symbol ) {
+if( $symbol ) {
     $ci = @$coins[strtolower($symbol)];
     if( !$ci ) {
-        throw new Exception( "Coin $symbol not found.");
+        throw new \Exception( "Coin $symbol not found.");
     }
-    list($name, $url, $branch) = $ci;
-    process_coin($symbol, $name, $url, $branch);
+    process_coin($symbol, $ci);
 }
 else {
     foreach($coins as $symbol => $ci) {
-        list($name, $url, $branch) = $ci;
-        process_coin($symbol, $name, $url, $branch);
+        process_coin($symbol, $ci);
     }
 }
 
-function process_coin($symbol, $name, $project_url, $branch) {
+function process_coin($symbol, $coininfo) {
     
+    list($name, $project_url, $branch) = $coininfo;
     echo "\nProcessing $symbol - $name\n";
-
+    
+    $allmeta = coins_metadata();
+    $cmeta = $allmeta[strtoupper($symbol)];
+    
     $outfile = sprintf( "%s/../coins/%s.json", __DIR__, strtolower($symbol));
     if(file_exists($outfile)) {
         if($GLOBALS['skip_existing_files']) {
             warn("file " . basename($outfile) . " exists. skipping $name");
             return;
         }
-    }    
+    }
+
+    // replace coinmarketcap url because usually theirs is
+    // to the project owner, but ours version is direct to the
+    // individual github project.    
+    $cmeta['web']['source_code'] = $project_url;
+    
+    if( !strstr($project_url, 'github')) {
+        throw new \Exception("only github urls supported. found: $project_url");
+    }
     
     @list($prefix, $path) = explode('github.com/', $project_url);
     $urlbase = sprintf("https://raw.githubusercontent.com/%s/%s", $path, $branch);
     
     $data = [];
-    $meta = ['symbol' => $symbol,
-             'name' => $name,
-             'urlbase' => $urlbase,
-//             'codebase' => 'bitcoin',  // eg bitcoin, cryptonote, ethereum etc.
-            ];
+    $meta = $cmeta;
+    $meta['project_url'] = $project_url;
+    $meta['urlbase'] = $urlbase;
+    $meta['original_codebase'] = 'bitcoin';   // eg bitcoin, cryptonote, ethereum etc.
     
     $networks = ['main', 'test', 'regtest'];
+    
+    process_coin_meta($data, $meta);
     
     foreach($networks as $network) {
         try {
@@ -207,6 +221,16 @@ function process_coin($symbol, $name, $project_url, $branch) {
     $json = json_encode($data, JSON_PRETTY_PRINT);
     file_put_contents($outfile, $json);
     echo "  |- Wrote $outfile\n";
+}
+
+function coins_metadata() {
+    static $data = null;
+    if( $data ) {
+        return $data;
+    }
+    $file = __DIR__ . '/../coinmeta.json';
+    $data = json_decode(file_get_contents($file), true);
+    return $data;
 }
 
 function process_network(&$data, $meta) {
@@ -238,7 +262,7 @@ function process_network(&$data, $meta) {
 }
 
 function process_chainparams_codebase(&$data, $meta) {
-    process_meta($data, $meta);
+    process_network_meta($data, $meta);
     process_chainparams($data, $meta);
     process_message_magic($data, $meta);
     process_decimals($data, $meta);
@@ -255,7 +279,7 @@ function process_chainparams(&$data, $meta) {
     $buf = get_url($url, false);
     
     if(!$buf) {
-        throw new Exception("$url not found", EXCEPTION_CHAINPARAMS_NOTFOUND);
+        throw new \Exception("$url not found", EXCEPTION_CHAINPARAMS_NOTFOUND);
     }
     
     $main = $testnet = $regtest = null;
@@ -283,14 +307,21 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
     $network = $meta['network'];
     $name = $meta['name'];
     $symbol = $meta['symbol'];
-        
-    preg_match_all("/pchMessageStart\[.\] = (....)/", $buf, $matches) ||
-    preg_match_all("/netMagic\[.\] = (....)/", $buf, $matches);  // bch just has to be special.  ;-)
-    ne(@$matches[1][0]);
-    $magic = '0x';
-    foreach( array_reverse($matches[1]) as $val) {
-        $magic .= str_replace('0x', '', $val);
+
+    $magic = null;        
+    $matched_hex = preg_match_all("/pchMessageStart\[.\] = 0x(..)\s*;/", $buf, $matches_hex) ||
+                   preg_match_all("/netMagic\[.\] = 0x(..)\s*;/", $buf, $matches_hex);  // bch just has to be special.  ;-)
+    $matched_chr = preg_match_all("/pchMessageStart\[.\] = {?\s*'(.)'\s*}?\s*;/", $buf, $matches_chr);
+    if($matched_hex) {
+        $magic = '0x' . implode( $matches_hex[1] );
     }
+    else if($matched_chr) {
+        $magic = '0x';
+        foreach( $matches_chr[1] as $val) {
+            $magic .= dechex(ord($val));
+        }
+    }
+    ne(@$magic);
     
     preg_match("/nDefaultPort = (\d+)/", $buf, $matches);
     ne(@$matches[1]);
@@ -312,23 +343,10 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
     
     preg_match_all('/vSeeds.emplace_back\("(.*)".*\)/', $buf, $matches) ||
     preg_match_all('/PUSH_SEED\("(.*)"\)/', $buf, $matches) ||               // clams.
-    preg_match_all('/vSeeds.push_back\(.*CDNSSeedData\("(.*)",.*"(.*)"[,\)]/sU', $buf, $matches);        
+    preg_match_all('/vSeeds.push_back\(.*CDNSSeedData\(".*",.*"(.*)"[,\)]/sU', $buf, $matches);
     
-    $data[$network]['seeds_dns'] = @$matches[1];  
-    if( @$matches[2]) {
-        // sanity check.  ensure all domains have '.' in them, and no ':'
-        $tmp = array_merge($matches[1], $matches[2]);
-        $allseeds = [];
-        foreach($tmp as $k => $v) {
-            if(strstr($v, '.') && !strstr($v, ':')) {
-                $allseeds[] = $v;
-            }
-            else {
-                warn("['$network']['seeds_dns'] - ignoring invalid dns seed: $v");
-            }
-        }
-        $data[$network]['seeds_dns'] = $allseeds;
-    }
+    $seeds_dns = filter_dns_seeds($matches[1], $meta);
+    $data[$network]['seeds_dns'] = @$seeds_dns;
 
     // must not be empty for network = main.
     if( !count($data[$network]['seeds_dns']) && $network != 'regtest') {
@@ -388,7 +406,7 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
 
     preg_match('/bech32_hrp = "([^"]*)"/', $buf, $matches);
     // ne(@$matches[1]);  // can be null
-    $data[$network]['prefixes']['bech32_hrp'] = @$matches[1];
+    $data[$network]['prefixes']['bech32'] = @$matches[1];
 
 //    preg_match('/{     0, uint256S\("([^"]*)"\)}/', $buf, $matches);
     preg_match('/\s+assert\(.*hashGenesisBlock == uint256S?\("0?x?(.*)"\)\);/', $buf, $matches);
@@ -545,13 +563,26 @@ function process_bip44(&$data, $meta) {
     }
 }
 
-function process_meta(&$data, $meta) {
+function process_coin_meta(&$data, $meta) {
+    $name = $meta['name'];
+    $symbol = $meta['symbol'];
+    $project_url = $meta['project_url'];
+    
+    $data['meta']['symbol'] = strtoupper($symbol);
+    $data['meta']['name'] = $name;
+    $data['meta']['supply']['max'] = $meta['supply']['max'];
+    $data['meta']['web'] = $meta['web'];
+    $data['meta']['original_codebase'] = $meta['original_codebase'];
+}
+
+
+function process_network_meta(&$data, $meta) {
     $name = $meta['name'];
     $network = $meta['network'];
     $symbol = $meta['symbol'];
     
-    $netname = $network == 'test' ? 'testnet' : $network;
-    $suffix = $network == 'main' ? '' : ' - ' . ucfirst($netname);
+    $netname = $network == 'regtest' ? $network : $network . 'net';
+    $suffix = ' - ' . ucfirst($netname);
     $data[$network]['symbol'] = strtoupper($symbol);
     $data[$network]['name'] = $name . $suffix;
     $data[$network]['testnet'] = $network == 'main' ? false : true;
@@ -565,7 +596,7 @@ function process_oldbitcoin_codebase(&$data, $meta) {
         return;
     }
     
-    process_meta($data, $meta);
+    process_network_meta($data, $meta);
     process_oldcode_ports($data, $meta);
     process_oldcode_protocol_magic($data, $meta);
     process_oldcode_dns_seeds($data, $meta);
@@ -728,12 +759,12 @@ unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
         preg_match('/unsigned char pchMessageStart\[4\] = { 0x(.*), 0x(.*), 0x(.*), 0x(.*) }/', $buf, $matches);
         ne(@$matches[1]);
         array_shift($matches);
-        $data[$network]['protocol']['magic'] = zpx(implode(array_reverse($matches)));
+        $data[$network]['protocol']['magic'] = zpx(implode($matches));
     }
     else {
         preg_match_all('/pchMessageStart\[\d\] = 0x(.*);/', $buf, $matches);
         ne(@$matches[1]);
-        $data[$network]['protocol']['magic'] = zpx(implode(array_reverse($matches[1])));
+        $data[$network]['protocol']['magic'] = zpx(implode($matches[1]));
     }
 
 }
@@ -827,19 +858,8 @@ static const char *strTestNetDNSSeed[][2] = {
     if( @$matches[1] ) {    
         preg_match_all('/{".*", "(.*)"},/', $matches[1], $matches);
         if(@count($matches[1])) {
-
-            // sanity check that it appears to be a domain.            
-            $seeds = [];
-            foreach($matches[1] as $v) {
-                if(strstr($v, '.') && !strstr($v, ':')) {
-                    $seeds[] = $v;
-                }
-                else {
-                    warn("['$network']['seeds_dns'] - ignoring invalid dns seed: $v");
-                }
-            }
-            
-            $data[$network]['seeds_dns'] = $seeds;
+            $seeds_dns = filter_dns_seeds($matches[1], $meta);
+            $data[$network]['seeds_dns'] = $seeds_dns;
         }
     }
     
@@ -860,7 +880,8 @@ from: https://raw.githubusercontent.com/collincrypto/gambitcrypto/master/src/net
         if( @$matches[1] ) {    
             preg_match_all('/{".*", "(.*)"}/', $matches[1], $matches);
             if(@count($matches[1]) && $network == 'main') {
-                $data[$network]['seeds_dns'] = $matches[1];
+                $seeds_dns = filter_dns_seeds($matches[1], $meta);
+                $data[$network]['seeds_dns'] = $seeds_dns;
             }
         }
     }
@@ -869,6 +890,26 @@ from: https://raw.githubusercontent.com/collincrypto/gambitcrypto/master/src/net
         warn("'$network' - no DNS seeds found. seeds_dns is empty.");
         $data[$network]['seeds_dns'] = [];
     }
+}
+
+function filter_dns_seeds($list, $meta) {
+    $network = $meta['network'];
+    // sanity check that it appears to be a domain.            
+    $seeds = [];
+    foreach($list as $v) {
+        $added = false;
+        if(strstr($v, '.')) {
+            // do not include if it apears to be an IP address.
+            if(!preg_match('/(\d+).(\d+).(\d+).(\d+):?/', $v)) {
+                $seeds[] = $v;
+                $added = true;
+            }
+        }
+        if(!$added) {
+            warn("['$network']['seeds_dns'] - ignoring invalid dns seed: $v");
+        }
+    }
+    return array_unique($seeds);
 }
 
 function process_oldcode_keys(&$data, $meta) {
@@ -947,7 +988,7 @@ function process_oldcode_keys(&$data, $meta) {
     //       would not validate.
     $data[$network]['prefixes']['bip32']['public'] = '0x0488b21e';
     $data[$network]['prefixes']['bip32']['private'] = '0x0488ade4';
-    $data[$network]['prefixes']['bech32_hrp'] = null;    
+    $data[$network]['prefixes']['bech32'] = null;    
 }
 
 
@@ -962,7 +1003,7 @@ function get_url($url, $throw = true) {
     $buf = trim(@file_get_contents($url));
     
     if( !$buf && $throw ) {
-        throw new Exception("Error loading $url");
+        throw new \Exception("Error loading $url");
     }
     
     $urlcache[$url] = $buf;
@@ -992,7 +1033,7 @@ function zpx($val) {
 
 function ne($val) {
     if( $val === null ) {
-        throw new Exception("required value not found.");
+        throw new \Exception("required value not found.");
     }
 }
 
