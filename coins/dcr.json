@@ -1,0 +1,60 @@
+{
+    "main": {
+        "symbol": "DCR",
+        "name": "Decred",
+        "testnet": false,
+        "port": 9108,
+        "port_rpc": 9109,
+        "protocol": {
+            "magic": "0xf900b4d9"
+        },
+        "seeds_dns": [
+            "mainnet-seed.decred.mindcry.org",
+            "mainnet-seed.decred.netpurgatory.com",
+            "mainnet.decredseed.org",
+            "mainnet-seed.decred.org"
+        ],
+        "prefixes": {
+            "bip32": {
+                "private": "0x2fda4e8",
+                "public": "0x2fda926"
+            },
+            "bip44": "0x2a",
+            "private": "0x22de",
+            "public": "0x73f",
+            "scripthash": "0x71a"
+        },
+        "hash_genesis_block": "298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980",
+        "decimals": 8,
+        "message_magic": "\u0017Decred Signed Message:\n"
+    },
+    "test": {
+        "symbol": "DCR",
+        "name": "Decred Testnet",
+        "testnet": true,
+        "port": 19108,
+        "port_rpc": 19109,
+        "protocol": {
+            "magic": "0x48e7a065"
+        },
+        "seeds_dns": [
+            "testnet-seed.decred.mindcry.org",
+            "testnet-seed.decred.netpurgatory.org",
+            "testnet.decredseed.org",
+            "testnet-seed.decred.org"
+        ],
+        "prefixes": {
+            "bip32": {
+                "private": "0x4358397",
+                "public": "0x43587d1"
+            },
+            "bip44": "0x2a",
+            "private": "0x230e",
+            "public": "0xf21",
+            "scripthash": "0xefc"
+        },
+        "hash_genesis_block": "5b7466edf6739adc9b32aaedc54e24bdc59a05f0ced855088835fe3cbe58375f",
+        "decimals": 8,
+        "message_magic": "\u0017Decred Signed Message:\n"
+    }
+}
