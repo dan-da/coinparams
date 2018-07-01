@@ -208,7 +208,7 @@ function process_coin($symbol, $coininfo) {
             $meta['network'] = $network;
             process_network($data, $meta);
         }
-        catch(Exception $e) {
+        catch(\Exception $e) {
             if($GLOBALS["stop_on_{$network}_validation_error"]) {
                 throw $e;
             }
@@ -241,7 +241,7 @@ function process_network(&$data, $meta) {
     try {    
         process_chainparams_codebase($data, $meta);
     }
-    catch(Exception $e) {
+    catch(\Exception $e) {
         switch( $e->getCode() ) {
             case EXCEPTION_CHAINPARAMS_NOTFOUND:
                 unset($data[$network]);
