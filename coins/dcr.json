@@ -1,6 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "DCR",
+        "name": "Decred",
+        "supply": {
+            "max": "21000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.decred.org\/",
+                "https:\/\/docs.decred.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1290358.0",
+            "source_code": "https:\/\/github.com\/decred",
+            "explorers": [
+                "https:\/\/mainnet.decred.org\/",
+                "https:\/\/explorer.dcrdata.org\/",
+                "https:\/\/stats.decred.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/decred\/",
+            "message_board": [
+                "https:\/\/medium.com\/decred",
+                "https:\/\/forum.decred.org\/"
+            ],
+            "chat": [
+                "https:\/\/slack.decred.org\/",
+                "https:\/\/discord.gg\/GJ2GXfz"
+            ]
+        },
+        "original_codebase": "btcd"
+    },    
+    "main": {
+        "symbol": "DCR - Mainnet",
         "name": "Decred",
         "testnet": false,
         "port": 9108,
@@ -19,11 +49,11 @@
                 "private": "0x2fda4e8",
                 "public": "0x2fda926"
             },
-            "bip44": "0x2a",
-            "private": "0x22de",
-            "public": "0x73f",
-            "scripthash": "0x71a",
-            "bech32_hrp": null
+            "bip44": 42,
+            "private": 8926,
+            "public": 1855,
+            "scripthash": 1818,
+            "bech32": null
         },
         "hash_genesis_block": "298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980",
         "decimals": 8,
@@ -49,11 +79,11 @@
                 "private": "0x4358397",
                 "public": "0x43587d1"
             },
-            "bip44": "0x2a",
-            "private": "0x230e",
-            "public": "0xf21",
-            "scripthash": "0xefc",
-            "bech32_hrp": null
+            "bip44": 1,
+            "private": 8974,
+            "public": 3873,
+            "scripthash": 3836,
+            "bech32": null
         },
         "hash_genesis_block": "5b7466edf6739adc9b32aaedc54e24bdc59a05f0ced855088835fe3cbe58375f",
         "decimals": 8,
