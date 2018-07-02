@@ -23,7 +23,7 @@ foreach($files as $file) {
     $coininfo[$symbol] = $data;
 }
 
-$outfile = __DIR__ . "/../coinsparams.json";
+$outfile = __DIR__ . "/../coinparams.json";
 $rc = file_put_contents($outfile, json_encode($coininfo, JSON_PRETTY_PRINT));
 
 if(!$rc) {

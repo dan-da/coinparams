@@ -1,4 +1,4 @@
-# coinsparams
+# coinparams
 
 This project provides crypto currency specific information such
 as key prefixes, DNS seeds, network ports, etc. Data is available in JSON format
@@ -10,11 +10,11 @@ with multiple cryptocurrencies, no matter the programming language.
 ## Here's the data.
 
 <table><tr>
-<td><a href="coinsmeta.md">Meta</a></td>
-<td><a href="coinsprefixes.md">Prefixes</a></td>
-<td><a href="coinsnetworking.md">Networking</a></td>
-<td><a href="coinsgenesis.md">Genesis Blocks</a></td>
-<td><a href="coinsparams.json">JSON</a></td>
+<td><a href="coinmeta.md">Meta</a></td>
+<td><a href="coinprefixes.md">Prefixes</a></td>
+<td><a href="coinnetworking.md">Networking</a></td>
+<td><a href="coingenesis.md">Genesis Blocks</a></td>
+<td><a href="coinparams.json">JSON</a></td>
 </tr></table>
 
 The above files contain data mainly for bitcoin-derived coins.
@@ -24,8 +24,33 @@ in [coinmeta.json](coins/meta/coinmeta.json).
 
 ## How to use
 
-Just copy coinsparams.json into your project and read it as you would
+### For any language
+
+Just copy coinparams.json into your project and read it as you would
 read any JSON file.
+
+### PHP
+
+    $ cd yourproject
+    $ composer require dan-da/coinparams
+    
+include in your code and use via:
+
+    require_once 'path/to/vendor/autoload.php';
+    
+    // get all info for single coin
+    $info = coinParams::get_coin('BTC');
+    
+    // get info for a coin + network (main, test, regest)
+    $info = coinParams::get_coin_network('DOGE', 'main');
+
+    // get info for all coins
+    $info = coinParams::get_all_coins();
+    
+    // get raw json text for all coins
+    $buf = coinParams::get_raw_json();
+
+
 
 ## How values are obtained
 

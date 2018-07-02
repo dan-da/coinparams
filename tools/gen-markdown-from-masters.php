@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-namespace coinsparams\tools;
+namespace coinparams\tools;
 
 require_once __DIR__  . '/../vendor/autoload.php';
 \strictmode\initializer::init();
@@ -89,7 +89,7 @@ END;
     $buf .= $desc ? "$desc\n\n" : '';
     $buf .= $body ? "$body\n\n" : '';
     
-    write_file(__DIR__ . '/../coinsprefixes.md', $buf );
+    write_file(__DIR__ . '/../coinprefixes.md', $buf );
 }
 
 
@@ -151,7 +151,7 @@ END;
     $buf .= $desc ? "$desc\n\n" : '';
     $buf .= $body ? "$body\n\n" : '';
     
-    write_file(__DIR__ . '/../coinsnetworking.md', $buf );
+    write_file(__DIR__ . '/../coinnetworking.md', $buf );
 }
 
 
@@ -193,7 +193,7 @@ END;
     $buf .= $desc ? "$desc\n\n" : '';
     $buf .= $body ? "$body\n\n" : '';
     
-    write_file(__DIR__ . '/../coinsmeta.md', $buf );
+    write_file(__DIR__ . '/../coinmeta.md', $buf );
 }
 
 
@@ -239,7 +239,7 @@ END;
     $buf .= $desc ? "$desc\n\n" : '';
     $buf .= $body ? "$body\n\n" : '';
     
-    write_file(__DIR__ . '/../coinsgenesis.md', $buf );
+    write_file(__DIR__ . '/../coingenesis.md', $buf );
 }
 
 

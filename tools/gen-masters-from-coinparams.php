@@ -4,7 +4,7 @@
 // This code generates 1 json file per coin from a master JSON file.
 //   we store most numbers as hex strings to match C code constants.
 
-$info = json_decode(file_get_contents( __DIR__ . '/../coinsparams.json'), true, 512, JSON_BIGINT_AS_STRING);
+$info = json_decode(file_get_contents( __DIR__ . '/../coinparams.json'), true, 512, JSON_BIGINT_AS_STRING);
 
 foreach($info as $symbol => $data ) {
 //    array_walk_recursive ( $data , 'int_to_hex' );

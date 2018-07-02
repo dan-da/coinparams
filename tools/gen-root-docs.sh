@@ -1,2 +1,2 @@
-./gen-coinsparams-from-masters.php && \
+./gen-coinparams-from-masters.php && \
 ./gen-markdown-from-masters.php

@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-namespace coinsparams\tools;
+namespace coinparams\tools;
 
 require_once __DIR__  . '/../vendor/autoload.php';
 \strictmode\initializer::init();
