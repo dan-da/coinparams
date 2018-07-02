@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "symbol": "POT",
+        "name": "PotCoin",
+        "supply": {
+            "max": "420000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.potcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=426324.0",
+            "source_code": "https:\/\/github.com\/potcoin\/Potcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/pot\/",
+                "https:\/\/chain.potcoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/potcoin\/",
+            "message_board": [
+                "https:\/\/steemit.com\/@potcoin"
+            ],
+            "chat": [
+                "https:\/\/t.me\/potcoin420"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "POT",
+        "name": "PotCoin - Mainnet",
+        "testnet": false,
+        "port": 4200,
+        "port_rpc": 42000,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "dnsseedz.potcoin.info"
+        ],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 5,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 81
+        },
+        "hash_genesis_block": "de36b0cb2a9c7d1d7ac0174d0a89918f874fabcf5f9741dd52cd6d04ee1335ec",
+        "message_magic": "\u0018Potcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

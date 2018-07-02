@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "HOLD",
         "name": "Interstellar Holdings",
+        "supply": {
+            "max": "2000000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.interstellarcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2357720.0",
+            "source_code": "https:\/\/github.com\/InterstellarHoldings\/StellarHoldings",
+            "explorers": [
+                "http:\/\/explorer.interstellarcoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/interstellar-holdings\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/aMbYC3y"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HOLD",
+        "name": "Interstellar Holdings - Mainnet",
         "testnet": false,
         "port": 10130,
         "port_rpc": 10131,
         "protocol": {
-            "magic": "0x15322f90"
+            "magic": "0x902f3215"
         },
         "seeds_dns": [
             "seed1.interstellarcoin.com",
@@ -20,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000001c7205cc2fb5b0fc12de43b7e6d2526eb5a61b1731650cbb5a570b87243",
@@ -34,7 +57,7 @@
         "port": 15130,
         "port_rpc": 15131,
         "protocol": {
-            "magic": "0x12ec45bc"
+            "magic": "0xbc45ec12"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -45,7 +68,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00008783573601e55e38841fb2bcaf3bf52c323bc36190d19ce2ccb42b2c106c",

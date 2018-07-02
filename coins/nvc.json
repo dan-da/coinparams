@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "NVC",
         "name": "Novacoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/novacoin.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=143221.0",
+            "source_code": "https:\/\/github.com\/novacoin-project\/novacoin",
+            "explorers": [
+                "https:\/\/explorer.novaco.in\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/novacoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "NVC",
+        "name": "Novacoin - Mainnet",
         "testnet": false,
         "port": 7777,
         "port_rpc": 8344,
         "protocol": {
-            "magic": "0xe5e9e8e4"
+            "magic": "0xe4e8e9e5"
         },
         "seeds_dns": [
             "dnsseed.novacoin.karelia.pro",
@@ -22,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 50
         },
         "hash_genesis_block": "00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4",
@@ -36,7 +57,7 @@
         "port": 17777,
         "port_rpc": 18344,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -47,7 +68,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",

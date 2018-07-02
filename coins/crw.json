@@ -1,22 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "CRW",
         "name": "Crown",
+        "supply": {
+            "max": "42000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/crown.tech\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=815487",
+            "source_code": "https:\/\/github.com\/Crowndev\/crown-core",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/crw\/",
+                "http:\/\/crw.blockpioneers.info\/index.php"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/crown\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/crownplatform",
+                "https:\/\/mm.crownlab.eu\/login"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CRW",
+        "name": "Crown - Mainnet",
         "testnet": false,
         "port": 9340,
         "port_rpc": 9341,
         "protocol": {
-            "magic": "0xdfb3ebb8"
+            "magic": "0xb8ebb3df"
         },
         "seeds_dns": [
-            "fra-crwdns",
-            "blr-crwdns",
-            "sgp-crwdns",
-            "lon-crwdns",
-            "nyc-crwdns",
-            "tor-crwdns",
-            "sfo-crwdns",
-            "ams-crwdns",
             "fra-crwdns.crowndns.info",
             "blr-crwdns.crowndns.info",
             "sgp-crwdns.crowndns.info",
@@ -34,7 +51,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 72
         },
         "hash_genesis_block": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",
@@ -48,17 +65,9 @@
         "port": 19340,
         "port_rpc": 19341,
         "protocol": {
-            "magic": "0x060e180f"
+            "magic": "0x0f180e06"
         },
         "seeds_dns": [
-            "fra-testnet-crwdns",
-            "blr-testnet-crwdns",
-            "sgp-testnet-crwdns",
-            "lon-testnet-crwdns",
-            "nyc-testnet-crwdns",
-            "tor-testnet-crwdns",
-            "sfo-testnet-crwdns",
-            "ams-testnet-crwdns",
             "fra-testnet-crwdns.crowndns.info",
             "blr-testnet-crwdns.crowndns.info",
             "sgp-testnet-crwdns.crowndns.info",
@@ -76,7 +85,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000000085370d5e122f64f4ab19c68614ff3df78c8d13cb814fd7e69a1dc6da",

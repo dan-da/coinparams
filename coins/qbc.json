@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "QBC",
+        "name": "Quebecoin",
+        "supply": {
+            "max": "42000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.quebecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=708702.0",
+            "source_code": "https:\/\/github.com\/morinpa\/QBC",
+            "explorers": [
+                "http:\/\/explorateur-qbc.circonference.ca\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/quebecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/quebecoin_official"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "QBC",
+        "name": "Quebecoin - Mainnet",
+        "testnet": false,
+        "port": 56790,
+        "port_rpc": 56789,
+        "protocol": {
+            "magic": "0xd3edc9f1"
+        },
+        "seeds_dns": [
+            "dnsseed.service-crypto.com",
+            "qbcseed.service-crypto.com"
+        ],
+        "prefixes": {
+            "public": 58,
+            "scripthash": 5,
+            "private": 186,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000948015ca05a2197f8f676476c9dbc11de07c87e1a46f2331ea10f33087d",
+        "message_magic": "\u001aQuebecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "QBC",
+        "name": "Quebecoin - Testnet",
+        "testnet": true,
+        "port": 46790,
+        "port_rpc": 46789,
+        "protocol": {
+            "magic": "0xd3edc9f1"
+        },
+        "seeds_dns": [
+            "testnet-seed.service-crypto.com"
+        ],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x00000480b7d253fa603971195bae6b4fa10c65126c26c44c648ac2b5fc3fecbb",
+        "message_magic": "\u001aQuebecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

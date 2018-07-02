@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "HBN",
+        "name": "HoboNickels",
+        "supply": {
+            "max": "120000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/hobonickels.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=303749.0",
+            "source_code": "https:\/\/github.com\/Crypto-Expert\/HoboNickels",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/hbn\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/hobonickels\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HBN",
+        "name": "HoboNickels - Mainnet",
+        "testnet": false,
+        "port": 7372,
+        "port_rpc": 7373,
+        "protocol": {
+            "magic": "0xe4e8e9e5"
+        },
+        "seeds_dns": [
+            "seed.scrypt.io",
+            "seed.hobonickels.info",
+            "seed2.hobonickels.info",
+            "seed3.hobonickels.info",
+            "seed4.hobonickels.info"
+        ],
+        "prefixes": {
+            "public": 34,
+            "scripthash": 8,
+            "private": 162,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000009ea5ef5019446b315e7e581fc2ea184315ed46c9ddeadc8aa9442deedc9",
+        "message_magic": "\u001cHoboNickels Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "HBN",
+        "name": "HoboNickels - Testnet",
+        "testnet": true,
+        "port": 17372,
+        "port_rpc": 17373,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000f9e0292f278190e4d58cd1e1e9a32b7466c8092bd2371ffc80b06f8eca4a",
+        "message_magic": "\u001cHoboNickels Signed Message:\n",
+        "decimals": 6
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "AXIOM",
+        "name": "Axiom",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/axiomcrypto.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1135151.0",
+            "source_code": "https:\/\/github.com\/axiomcryptocurrency\/axiom",
+            "explorers": [
+                "http:\/\/e.axiomcoin.xyz\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/axiom\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AXIOM",
+        "name": "Axiom - Mainnet",
+        "testnet": false,
+        "port": 15760,
+        "port_rpc": 15770,
+        "protocol": {
+            "magic": "0x033f1a0c"
+        },
+        "seeds_dns": [
+            "seed.axiomcoin.xyz"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 23,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "75687e926dd7611f320a99144869f1e281e275b306c634e285e780f1440a0064",
+        "message_magic": "\u0016Axiom Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "AXIOM",
+        "name": "Axiom - Testnet",
+        "testnet": true,
+        "port": 25760,
+        "port_rpc": 25770,
+        "protocol": {
+            "magic": "0x3f1a1c05"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 83,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "75687e926dd7611f320a99144869f1e281e275b306c634e285e780f1440a0064",
+        "message_magic": "\u0016Axiom Signed Message:\n",
+        "decimals": 8
+    }
+}

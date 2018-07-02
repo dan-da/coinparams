@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "symbol": "LOG",
+        "name": "Woodcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/woodcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=831003.0",
+            "source_code": "https:\/\/github.com\/funkshelper\/woodcore",
+            "explorers": [
+                "http:\/\/explorer.woodcoin.org\/",
+                "http:\/\/woodcoin.xyz\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/woodcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LOG",
+        "name": "Woodcoin - Mainnet",
+        "testnet": false,
+        "port": 8338,
+        "port_rpc": 9332,
+        "protocol": {
+            "magic": "0xfcd9b7dd"
+        },
+        "seeds_dns": [
+            "dnsseed.woodcoin.org",
+            "dnsseed.woodcoinpool.org",
+            "dnsseed.ltc.xurious.com",
+            "dnsseed.koin-project.com",
+            "dnsseed.weminemnc.com",
+            "seed-a.woodcoin.loshan.co.uk"
+        ],
+        "prefixes": {
+            "private": 74,
+            "public": 73,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "30758383eae55ae5c7752b73388c1c85bdfbe930ad25ad877252841ed1e734a4",
+        "message_magic": "\u0019Woodcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "LOG",
+        "name": "Woodcoin - Testnet",
+        "testnet": true,
+        "port": 18338,
+        "port_rpc": 19332,
+        "protocol": {
+            "magic": "0xfcd9b7ddfcc1b7dc"
+        },
+        "seeds_dns": [
+            "dnsseed.woodcointools.com"
+        ],
+        "prefixes": {
+            "private": 136,
+            "public": 135,
+            "scripthash": 8,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+        "message_magic": "\u0019Woodcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "LOG",
+        "name": "Woodcoin - Regtest",
+        "testnet": true,
+        "port": 19444,
+        "port_rpc": 19332,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 129,
+            "public": 73,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": "\u0019Woodcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

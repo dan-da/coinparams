@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BTCD",
         "name": "BitcoinDark",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitcoindark.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=684090.0",
+            "source_code": "https:\/\/github.com\/jl777\/btcd",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoindark\/",
+            "message_board": [],
+            "chat": [
+                "http:\/\/slackinvite.supernet.org\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BTCD",
+        "name": "BitcoinDark - Mainnet",
         "testnet": false,
         "port": 14631,
         "port_rpc": 14632,
         "protocol": {
-            "magic": "0xe7d8a2a4"
+            "magic": "0xa4a2d8e7"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +38,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 52
         },
         "hash_genesis_block": "0000044966f40703b516c5af180582d53f783bfd319bb045e2dc3e05ea695d46",
@@ -31,7 +52,7 @@
         "port": 25714,
         "port_rpc": 25715,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +63,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000a3af4d553378169e82ac59a767b343ad5a4b8acb9c84ca4d3fbd0ae54fee",

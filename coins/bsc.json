@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "BSC",
+        "name": "BowsCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1039949.0",
+            "source_code": "https:\/\/github.com\/bowscoin\/bowscoin",
+            "explorers": [
+                "http:\/\/cryptobe.com\/chain\/BowsCoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bowscoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BSC",
+        "name": "BowsCoin - Mainnet",
+        "testnet": false,
+        "port": 8155,
+        "port_rpc": 8145,
+        "protocol": {
+            "magic": "0xffc4badf"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 5,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000a97cc51c61ef0212cd2113603c96c72ea9e1a30e72d15da1297890c64d3",
+        "message_magic": "\u0019bowscoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BSC",
+        "name": "BowsCoin - Testnet",
+        "testnet": true,
+        "port": 18155,
+        "port_rpc": 18145,
+        "protocol": {
+            "magic": "0xffc4b9de"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 196,
+            "private": 255,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000000344d8f4c75001f0fda455567ec2dd0b7ee1d19cf45d6e3fa15472055b1c",
+        "message_magic": "\u0019bowscoin Signed Message:\n",
+        "decimals": 8
+    }
+}

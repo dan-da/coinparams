@@ -1,19 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SIB",
         "name": "SIBCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/sibcoin.money\/",
+                "http:\/\/sibcoin.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1153781.0",
+            "source_code": "https:\/\/github.com\/ivansib\/sibcoin",
+            "explorers": [
+                "http:\/\/chain.sibcoin.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sibcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/sibcoin_en",
+                "https:\/\/t.me\/sibcoinitaly"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SIB",
+        "name": "SIBCoin - Mainnet",
         "testnet": false,
         "port": 1945,
         "port_rpc": 1944,
         "protocol": {
-            "magic": "0xbd6b0cbf"
+            "magic": "0xbf0c6bbd"
         },
         "seeds_dns": [
-            "sibcoin.net",
-            "chervonec.info",
-            "darknode1",
-            "darknode2",
-            "darknode3",
             "dnsseed.sibcoin.net",
             "dnsseed.chervonec.info",
             "dnsseed1.darknode.ru",
@@ -28,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000c492bf73490420868bc577680bfc4c60116e7e85343bc624787c21efa4c",
@@ -42,11 +62,9 @@
         "port": 11945,
         "port_rpc": 11944,
         "protocol": {
-            "magic": "0xffcae2ce"
+            "magic": "0xcee2caff"
         },
         "seeds_dns": [
-            "dashdot.io",
-            "masternode.io",
             "testnet-seed.dashdot.io",
             "test.dnsseed.masternode.io"
         ],
@@ -58,7 +76,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000617791d0e19f524387f67e558b2a928b670b9a3b387ae003ad7f9093017",
@@ -72,7 +90,7 @@
         "port": 18333,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -83,7 +101,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000007bfa2866f77d1f22f9da7fda73ea3c5185dc156f4f6f8b3a3caed27247e",

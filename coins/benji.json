@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "BENJI",
+        "name": "BenjiRolls",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/benjirolls.cf\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1581284.0",
+            "source_code": "https:\/\/github.com\/BelligerentFool\/BenjiRolls",
+            "explorers": [
+                "http:\/\/benjiexp.cryptooz.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/benjirolls\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BENJI",
+        "name": "BenjiRolls - Mainnet",
+        "testnet": false,
+        "port": 1777,
+        "port_rpc": 1776,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 255,
+            "scripthash": 253,
+            "private": 383,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "4deb54e42ec54fc20c975c3ab122cdd9655bc90d3c64c99d851300ae7dd629ae",
+        "message_magic": "\u001bBENJIROLLS Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BENJI",
+        "name": "BenjiRolls - Testnet",
+        "testnet": true,
+        "port": 17763,
+        "port_rpc": 17762,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 254,
+            "scripthash": 252,
+            "private": 382,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x30be3f60eda0d41cae6cb172b584ec9d524156890bf5909e394679b651593ae2",
+        "message_magic": "\u001bBENJIROLLS Signed Message:\n",
+        "decimals": 8
+    }
+}

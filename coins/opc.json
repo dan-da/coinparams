@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "OPC",
+        "name": "OP Coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/opcoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2401268.0",
+            "source_code": "https:\/\/github.com\/rfo92\/OPCoin",
+            "explorers": [
+                "http:\/\/104.223.43.151:8080\/",
+                "http:\/\/opcoin.prenges.rocks\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/op-coin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/b7rWB6n"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "OPC",
+        "name": "OP Coin - Mainnet",
+        "testnet": false,
+        "port": 13355,
+        "port_rpc": 13357,
+        "protocol": {
+            "magic": "0x9be0d8e9"
+        },
+        "seeds_dns": [
+            "OPC01.freeddns.org",
+            "OPC02.freeddns.org",
+            "OPC03.freeddns.org"
+        ],
+        "prefixes": {
+            "public": 28,
+            "scripthash": 85,
+            "private": 156,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000093fe59ae8a91008a91b1c10f2ca313bcc9656776c79d84bb4c9ccc26cf80",
+        "message_magic": "\u0017OPCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "OPC",
+        "name": "OP Coin - Testnet",
+        "testnet": true,
+        "port": 15555,
+        "port_rpc": 15557,
+        "protocol": {
+            "magic": "0x75ea1361"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000093fe59ae8a91008a91b1c10f2ca313bcc9656776c79d84bb4c9ccc26cf80",
+        "message_magic": "\u0017OPCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

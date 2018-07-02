@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "symbol": "TAJ",
+        "name": "TajCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/tajcoin.tech\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1545060.0",
+            "source_code": "https:\/\/github.com\/Taj-Coin\/tajcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/taj\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/tajcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/TajCoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "TAJ",
+        "name": "TajCoin - Mainnet",
+        "testnet": false,
+        "port": 10712,
+        "port_rpc": 12107,
+        "protocol": {
+            "magic": "0x7d4f8b4d"
+        },
+        "seeds_dns": [
+            "node1.tajcoin.tech",
+            "node2.tajcoin.tech",
+            "node3.tajcoin.tech",
+            "node4.tajcoin.tech",
+            "node5.tajcoin.tech",
+            "node6.tajcoin.tech",
+            "node7.tajcoin.tech",
+            "node8.tajcoin.tech",
+            "node9.tajcoin.tech"
+        ],
+        "prefixes": {
+            "private": 111,
+            "public": 65,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000b414afcc2b242531999ae4cc5e7279eaa1508aa72cb289cc175ebb1db2b",
+        "message_magic": "\u0018Tajcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "TAJ",
+        "name": "TajCoin - Testnet",
+        "testnet": true,
+        "port": 71210,
+        "port_rpc": 7121,
+        "protocol": {
+            "magic": "0x426fe813"
+        },
+        "seeds_dns": [
+            "test1.tajcoin.tech"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00f8aa29160c44e912a3c45d05dfba13031c9b6e667b7368f788e23afd88db78",
+        "message_magic": "\u0018Tajcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

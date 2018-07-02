@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "symbol": "BTDX",
+        "name": "Bitcloud",
+        "supply": {
+            "max": "43800000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/bit-cloud.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2092583.0",
+            "source_code": "https:\/\/github.com\/LIMXTEC\/Bitcloud",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/btdx\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcloud\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bitcloud_btdx",
+                "https:\/\/discord.gg\/kgWVGD2"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BTDX",
+        "name": "Bitcloud - Mainnet",
+        "testnet": false,
+        "port": 8329,
+        "port_rpc": 8330,
+        "protocol": {
+            "magic": "0xe4e8bdfd"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 25,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00008412c3a4bbf7133c9cfbb8f9041fdd39bc98d1e1527612d10d95ed9b06d1",
+        "message_magic": "\u0018Diamond Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BTDX",
+        "name": "Bitcloud - Testnet",
+        "testnet": true,
+        "port": 51474,
+        "port_rpc": 8329,
+        "protocol": {
+            "magic": "0x457665ba"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 139,
+            "scripthash": 19,
+            "bip32": {
+                "public": "0x3a8061a0",
+                "private": "0x3a805837"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000002d56463941c20eae5cb474cc805b646515d18bc7dc222a0885b206eadb0",
+        "message_magic": "\u0018Diamond Signed Message:\n",
+        "decimals": 8
+    }
+}

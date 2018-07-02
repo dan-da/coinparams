@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "symbol": "VSX",
+        "name": "Vsync",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/vsync.pw\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2133048.0",
+            "source_code": "https:\/\/github.com\/VsyncCrypto\/VSX",
+            "explorers": [
+                "https:\/\/explorer.vsync.pw\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vsync-vsx\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/Arqhyqg",
+                "https:\/\/t.me\/VSXcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VSX",
+        "name": "Vsync - Mainnet",
+        "testnet": false,
+        "port": 65010,
+        "port_rpc": 65015,
+        "protocol": {
+            "magic": "0x21550a5a"
+        },
+        "seeds_dns": [
+            "vsyncseed.vsync.pw",
+            "node.vsync.pw",
+            "node1.vsync.pw",
+            "node2.vsync.pw",
+            "node3.vsync.pw",
+            "node4.vsync.pw",
+            "node5.vsync.pw",
+            "node6.vsync.pw",
+            "node7.vsync.pw",
+            "node8.vsync.pw"
+        ],
+        "prefixes": {
+            "private": 212,
+            "public": 70,
+            "scripthash": 13,
+            "bip32": {
+                "public": "0x022d2533",
+                "private": "0x0221312b"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
+    }
+}

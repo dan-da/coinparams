@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "symbol": "AMS",
+        "name": "AmsterdamCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/amsterdamcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1152947.0",
+            "source_code": "https:\/\/github.com\/CoinProjects\/AmsterdamCoin-v4",
+            "explorers": [
+                "http:\/\/www.amsterdamblockchain.info\/",
+                "http:\/\/www.amsterdamblockchain.online\/",
+                "http:\/\/cryptoguru.tk\/CurrencyInfo\/index.php?Currency=AMS"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/amsterdamcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/ZD3H77v"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AMS",
+        "name": "AmsterdamCoin - Mainnet",
+        "testnet": false,
+        "port": 50020,
+        "port_rpc": 51020,
+        "protocol": {
+            "magic": "0x002200aa"
+        },
+        "seeds_dns": [
+            "nl-1.amsterdamcoin.com",
+            "us-1.amsterdamcoin.com",
+            "us-2.amsterdamcoin.com",
+            "eu-1.amsterdamcoin.com",
+            "eu-2.amsterdamcoin.com",
+            "asia-1.amsterdamcoin.com"
+        ],
+        "prefixes": {
+            "private": 212,
+            "public": 23,
+            "scripthash": 13,
+            "bip32": {
+                "public": "0x022d2533",
+                "private": "0x0221312b"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
+    }
+}

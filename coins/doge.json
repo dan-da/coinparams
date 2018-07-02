@@ -1,7 +1,30 @@
 {
-    "main": {
+    "meta": {
         "symbol": "DOGE",
         "name": "Dogecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/dogecoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=361813.0",
+            "source_code": "https:\/\/github.com\/dogecoin\/dogecoin",
+            "explorers": [
+                "http:\/\/dogechain.info\/chain\/Dogecoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/dogecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.me\/dogecoin\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DOGE",
+        "name": "Dogecoin - Mainnet",
         "testnet": false,
         "port": 22556,
         "port_rpc": 22555,
@@ -9,10 +32,6 @@
             "magic": "0xc0c0c0c0"
         },
         "seeds_dns": [
-            "dogecoin.com",
-            "multidoge.org",
-            "multidoge.org",
-            "doger.dogecoin.com",
             "seed.dogecoin.com",
             "seed.multidoge.org",
             "seed2.multidoge.org",
@@ -26,7 +45,7 @@
                 "public": "0x02facafd",
                 "private": "0x02fac398"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 3
         },
         "hash_genesis_block": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
@@ -40,10 +59,9 @@
         "port": 44556,
         "port_rpc": 44555,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [
-            "jrn.me.uk",
             "testseed.jrn.me.uk"
         ],
         "prefixes": {
@@ -54,7 +72,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",

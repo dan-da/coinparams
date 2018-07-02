@@ -1,12 +1,36 @@
 {
+    "meta": {
+        "symbol": "NLC2",
+        "name": "NoLimitCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/nolimitcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1606674",
+            "source_code": "https:\/\/github.com\/NoLimitCoin\/NoLimitCoin-Core",
+            "explorers": [
+                "http:\/\/nolimitcoin.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/nolimitcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/NoLimitCoinNLC2",
+                "http:\/\/slack.nolimitcoin.org\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "NLC2",
-        "name": "NoLimiteCoin",
+        "name": "NoLimitCoin - Mainnet",
         "testnet": false,
         "port": 6521,
         "port_rpc": 6520,
         "protocol": {
-            "magic": "0xa6f8b6b1"
+            "magic": "0xb1b6f8a6"
         },
         "seeds_dns": [
             "seed1.nlc2.info",
@@ -21,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 149
         },
         "hash_genesis_block": "000000c97e5317f440753bb4b0155badbce95fa893cb65d677385df2f07f7a2e",
@@ -30,12 +54,12 @@
     },
     "test": {
         "symbol": "NLC2",
-        "name": "NoLimiteCoin - Testnet",
+        "name": "NoLimitCoin - Testnet",
         "testnet": true,
         "port": 16521,
         "port_rpc": 16520,
         "protocol": {
-            "magic": "0xb6b1b6b1"
+            "magic": "0xb1b6b1b6"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -46,7 +70,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000834807c7b0f6e8772e7bee9b7cd3524e1211c196386f41b3fc20243b0dfa",

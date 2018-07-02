@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "symbol": "STAK",
+        "name": "STRAKS",
+        "supply": {
+            "max": "150000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/straks.tech\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2433318.0",
+            "source_code": "https:\/\/github.com\/straks\/straks",
+            "explorers": [
+                "https:\/\/straks.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/straks\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/5gzvadZ",
+                "https:\/\/t.me\/joinchat\/FytCFRAGIlG6pKjdDsmpTQ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "STAK",
+        "name": "STRAKS - Mainnet",
+        "testnet": false,
+        "port": 7575,
+        "port_rpc": 7574,
+        "protocol": {
+            "magic": "0xb0d5f02c"
+        },
+        "seeds_dns": [
+            "sm001.alphaqub.com",
+            "sm002.alphaqub.com",
+            "sm003.alphaqub.com",
+            "sm004.alphaqub.com",
+            "sm005.alphaqub.com"
+        ],
+        "prefixes": {
+            "private": 204,
+            "public": 63,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 187
+        },
+        "hash_genesis_block": "0000df14d859c4b3219d93978bcf02afc123d2344a2ed39033e1208948aa7c0",
+        "message_magic": "\u0017Straks Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "STAK",
+        "name": "STRAKS - Testnet",
+        "testnet": true,
+        "port": 7565,
+        "port_rpc": 17564,
+        "protocol": {
+            "magic": "0x2a1ed5d1"
+        },
+        "seeds_dns": [
+            "st001.radixpi.com",
+            "st002.radixpi.com"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 127,
+            "scripthash": 19,
+            "bip32": {
+                "public": "0xa2aec9a6",
+                "private": "0x46002a10"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000cd747bd0b653e1fe417b60c1d9e990600cf2ff193404ea12c3ecb348b4",
+        "message_magic": "\u0017Straks Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "STAK",
+        "name": "STRAKS - Regtest",
+        "testnet": true,
+        "port": 7505,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x6e5c2cef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 122,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0xa2aec9a6",
+                "private": "0x46002a10"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00002db0642636c786f756062dd7a92f35a2be1665816f8bfa33111ae902b37",
+        "message_magic": "\u0017Straks Signed Message:\n",
+        "decimals": 8
+    }
+}

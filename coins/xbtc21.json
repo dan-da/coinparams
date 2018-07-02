@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "symbol": "XBTC21",
+        "name": "Bitcoin 21",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.bitcoin-21.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1284254.0",
+            "source_code": "https:\/\/www.github.com\/bitcoin21\/v1.0",
+            "explorers": [
+                "http:\/\/www.bitcoin-21.com\/explorer\/",
+                "https:\/\/chainz.cryptoid.info\/xbtc21\/",
+                "http:\/\/btc21explorer.silverdice.us:4001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-21\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XBTC21",
+        "name": "Bitcoin 21 - Mainnet",
+        "testnet": false,
+        "port": 21008,
+        "port_rpc": 21007,
+        "protocol": {
+            "magic": "0xb4f8e2e5"
+        },
+        "seeds_dns": [
+            "seed1.cryptolife.net",
+            "seed2.cryptolife.net",
+            "seed3.cryptolife.net",
+            "electrum1.cryptolife.net",
+            "wallet.cryptolife.net",
+            "explore.cryptolife.net"
+        ],
+        "prefixes": {
+            "public": 3,
+            "scripthash": 20,
+            "private": 131,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000c47a139316db36ffe3dd5f33c804de041ad813a818a8bd33bbb2d601bbc",
+        "message_magic": "\u001aBitcoin21 Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XBTC21",
+        "name": "Bitcoin 21 - Testnet",
+        "testnet": true,
+        "port": 17778,
+        "port_rpc": 18345,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "message_magic": "\u001aBitcoin21 Signed Message:\n",
+        "decimals": 8
+    }
+}

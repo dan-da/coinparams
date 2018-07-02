@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "MEME",
+        "name": "Memetic \/ PepeCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/memetic.ai\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1391598.0",
+            "source_code": "https:\/\/github.com\/pepeteam\/pepecoin",
+            "explorers": [
+                "http:\/\/memetic.thecryptochat.net\/",
+                "http:\/\/explorer.memetic.ai\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/memetic\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/pepecoins"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MEME",
+        "name": "Memetic \/ PepeCoin - Mainnet",
+        "testnet": false,
+        "port": 29377,
+        "port_rpc": 29376,
+        "protocol": {
+            "magic": "0x3ac42c2f"
+        },
+        "seeds_dns": [
+            "seed.kekdaq.com",
+            "seed.pepecoin.co"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 55,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00008cae6a01358d774087e2daf3b2108252b0b5a440195ffec4fd38f9892272",
+        "message_magic": "\u0019PepeCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MEME",
+        "name": "Memetic \/ PepeCoin - Testnet",
+        "testnet": true,
+        "port": 39377,
+        "port_rpc": 39376,
+        "protocol": {
+            "magic": "0x2bca3c3f"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 55,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00008cae6a01358d774087e2daf3b2108252b0b5a440195ffec4fd38f9892272",
+        "message_magic": "\u0019PepeCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

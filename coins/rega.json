@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "REGA",
+        "name": "Regacoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/regaco.in\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1680912.0",
+            "source_code": "https:\/\/github.com\/REGAcoin\/REGA",
+            "explorers": [
+                "http:\/\/84.200.32.210:9001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/regacoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "REGA",
+        "name": "Regacoin - Mainnet",
+        "testnet": false,
+        "port": 28192,
+        "port_rpc": 28190,
+        "protocol": {
+            "magic": "0xd4ca3fec"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 61,
+            "scripthash": 5,
+            "private": 189,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "52dc4c1688b419e13c68d355a02088b254b5b8e0d7446867f2c0c652137709e6",
+        "message_magic": "\u0015REGA Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "REGA",
+        "name": "Regacoin - Testnet",
+        "testnet": true,
+        "port": 33813,
+        "port_rpc": 33812,
+        "protocol": {
+            "magic": "0xbcadafc4"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0xb78197f0e175697646db1f738edc1ffdcb30588ebe70e7e16026489076577061",
+        "message_magic": "\u0015REGA Signed Message:\n",
+        "decimals": 8
+    }
+}

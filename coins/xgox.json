@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "symbol": "XGOX",
+        "name": "XGOX",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/xgox.rocks\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2344504.0",
+            "source_code": "https:\/\/github.com\/bumbacoin\/xgox",
+            "explorers": [
+                "http:\/\/173.254.204.74:12313\/",
+                "http:\/\/explorer.xgox.rocks\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/xgox\/",
+            "message_board": [
+                "https:\/\/gocoin.rocks\/forum\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/xgoxcoin",
+                "https:\/\/discord.gg\/rpxbpqS"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XGOX",
+        "name": "XGOX - Mainnet",
+        "testnet": false,
+        "port": 23185,
+        "port_rpc": 23186,
+        "protocol": {
+            "magic": "0x71ae7664"
+        },
+        "seeds_dns": [
+            "go1.dynu.net",
+            "go2.dynu.net"
+        ],
+        "prefixes": {
+            "public": 38,
+            "scripthash": 85,
+            "private": 166,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000008eef0757069abb9455e104b18411a49bc2d6c351f0a7371e4599def8bc2",
+        "message_magic": "\u0015xgox Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XGOX",
+        "name": "XGOX - Testnet",
+        "testnet": true,
+        "port": 33185,
+        "port_rpc": 33186,
+        "protocol": {
+            "magic": "0x85fa0371"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000008eef0757069abb9455e104b18411a49bc2d6c351f0a7371e4599def8bc2",
+        "message_magic": "\u0015xgox Signed Message:\n",
+        "decimals": 8
+    }
+}

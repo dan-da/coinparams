@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "symbol": "EMD",
+        "name": "Emerald Crypto",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.emeraldcrypto.de\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=724463.0",
+            "source_code": "https:\/\/github.com\/crypto-currency\/Emerald",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/emd\/",
+                "https:\/\/prohashing.com\/explorer\/Emerald\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/emerald\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EMD",
+        "name": "Emerald Crypto - Mainnet",
+        "testnet": false,
+        "port": 12127,
+        "port_rpc": 12128,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "emeraldcrypto.co",
+            "seed1.emeraldcrypto.de",
+            "seed2.emeraldcrypto.de",
+            "emdseed1.pagezo.de",
+            "emdseed2.pagezo.de"
+        ],
+        "prefixes": {
+            "public": 34,
+            "scripthash": 5,
+            "private": 162,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "b297ecb2a87e6a306d0c2bbdbd0402cbb53368c74ac9ed2296c4a7815e599f1c",
+        "message_magic": "\u0018Emerald Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "EMD",
+        "name": "Emerald Crypto - Testnet",
+        "testnet": true,
+        "port": 22127,
+        "port_rpc": 112128,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [
+            "testnet.emeraldcrypto.co",
+            "tseed1.emeraldcrypto.de",
+            "tseed2.emeraldcrypto.de",
+            "temdseed1.pagezo.de",
+            "temdseed2.pagezo.de"
+        ],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x893f3509f074447e18e387f173a9d1773df4089a6121023a669c499b588869c9",
+        "message_magic": "\u0018Emerald Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "Q2C",
+        "name": "QubitCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/qubitcoin.cc\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1645566.0",
+            "source_code": "https:\/\/github.com\/willowrose\/QubitCoin",
+            "explorers": [
+                "http:\/\/qubitcoinxplorer.cc"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/qubitcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "Q2C",
+        "name": "QubitCoin - Mainnet",
+        "testnet": false,
+        "port": 7788,
+        "port_rpc": 7799,
+        "protocol": {
+            "magic": "0xfea503dd"
+        },
+        "seeds_dns": [
+            "q2c1.ignorelist.com",
+            "q2c2.ignorelist.com",
+            "q2c3.ignorelist.com",
+            "q2c4.ignorelist.com"
+        ],
+        "prefixes": {
+            "private": 224,
+            "public": 38,
+            "scripthash": 9,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03",
+        "message_magic": "\u001aQubitcoin Signed Message:\n",
+        "decimals": 5
+    },
+    "test": {
+        "symbol": "Q2C",
+        "name": "QubitCoin - Testnet",
+        "testnet": true,
+        "port": 11788,
+        "port_rpc": 17799,
+        "protocol": {
+            "magic": "0x011A39F7"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 119,
+            "scripthash": 199,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "2055f388b8bd5c6134272477eab7672af188fc70c55dbf3f6eedddf02d902aed",
+        "message_magic": "\u001aQubitcoin Signed Message:\n",
+        "decimals": 5
+    }
+}

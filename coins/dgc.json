@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "symbol": "DGC",
+        "name": "Digitalcoin",
+        "supply": {
+            "max": "48166000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/digitalcoin.co",
+                "https:\/\/digitalcoin.tech\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=209508.0",
+            "source_code": "https:\/\/github.com\/lomtax\/digitalcoin",
+            "explorers": [
+                "http:\/\/dgc.blockr.io",
+                "https:\/\/chainz.cryptoid.info\/dgc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/digitalcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DGC",
+        "name": "Digitalcoin - Mainnet",
+        "testnet": false,
+        "port": 7999,
+        "port_rpc": 7998,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "dgcnode1.brekki.fr",
+            "dgcnode2.brekki.fr"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 30,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 18
+        },
+        "hash_genesis_block": "5e039e1ca1dbf128973bf6cff98169e40a1b194c3b91463ab74956f413b2f9c8",
+        "message_magic": "\u001cDigitalcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "DGC",
+        "name": "Digitalcoin - Testnet",
+        "testnet": true,
+        "port": 17999,
+        "port_rpc": 17998,
+        "protocol": {
+            "magic": "0xcee2cafffbc0b6db"
+        },
+        "seeds_dns": [
+            "testnet-seed.digitalcoindot.io",
+            "test.dnsseed.masternode.io"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 30,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "9dc0f1255caf75497a73dd0183d06b45dbe23bdfc90f67a2fb124a19be1a4cde",
+        "message_magic": "\u001cDigitalcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "DGC",
+        "name": "Digitalcoin - Regtest",
+        "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xfab3b2db"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 30,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e22060xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7",
+        "message_magic": "\u001cDigitalcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

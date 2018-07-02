@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "ADZ",
+        "name": "Adzcoin",
+        "supply": {
+            "max": "84000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/adzcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1590365.0",
+            "source_code": "https:\/\/github.com\/AdzCoin\/adzcoin",
+            "explorers": [
+                "http:\/\/adzcoin.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/adzcoin\/",
+            "message_board": [
+                "https:\/\/forum.adzbuzz.com\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ADZ",
+        "name": "Adzcoin - Mainnet",
+        "testnet": false,
+        "port": 43029,
+        "port_rpc": 43028,
+        "protocol": {
+            "magic": "0xfdc3b9de"
+        },
+        "seeds_dns": [
+            "seed1.cryptolife.net",
+            "seed2.cryptolife.net"
+        ],
+        "prefixes": {
+            "public": 20,
+            "scripthash": 5,
+            "private": 148,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000f27bd42306ee2f582232a7fce3815c32a1f950d6d7f52ad2bbc560c2e66",
+        "message_magic": "\u0018AdzCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ADZ",
+        "name": "Adzcoin - Testnet",
+        "testnet": true,
+        "port": 143029,
+        "port_rpc": 143028,
+        "protocol": {
+            "magic": "0xfec4bade"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000008da0e16960d6c2548da4831323b956d61370e2a3fdc5150188c5c478c49",
+        "message_magic": "\u0018AdzCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

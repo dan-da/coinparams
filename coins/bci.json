@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BCI",
         "name": "Bitcoin Interest",
+        "supply": {
+            "max": "22300000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitcoininterest.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2616641.0",
+            "source_code": "https:\/\/github.com\/BitcoinInterestOfficial\/BitcoinInterest",
+            "explorers": [
+                "https:\/\/explorer.bitcoininterest.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-interest\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bitcoininterest"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BCI",
+        "name": "Bitcoin Interest - Mainnet",
         "testnet": false,
         "port": 8331,
         "port_rpc": 8332,
         "protocol": {
-            "magic": "0x26fee4ed"
+            "magic": "0xede4fe26"
         },
         "seeds_dns": [
             "seeder1.bci-server.com",
@@ -21,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
@@ -35,7 +58,7 @@
         "port": 18331,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0x7be774dd"
+            "magic": "0xdd74e77b"
         },
         "seeds_dns": [
             "test-seeder1.bci-server.com",
@@ -51,7 +74,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
@@ -65,7 +88,7 @@
         "port": 18444,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -76,7 +99,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",

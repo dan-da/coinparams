@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XWC",
         "name": "WhiteCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/whitecoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=804288.0",
+            "source_code": "https:\/\/github.com\/Whitecoin-org\/whitecoin",
+            "explorers": [
+                "http:\/\/explorer.whitecoin.info\/chain\/Whitecoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/whitecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/GbpdbMt"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XWC",
+        "name": "WhiteCoin - Mainnet",
         "testnet": false,
         "port": 15814,
         "port_rpc": 15815,
         "protocol": {
-            "magic": "0xf3432d18"
+            "magic": "0x182d43f3"
         },
         "seeds_dns": [
             "dnsseed.oizopower.nl",
@@ -22,7 +45,7 @@
                 "public": "0x04887f1e",
                 "private": "0x048894ed"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 155
         },
         "hash_genesis_block": "000007d69ba0f79b4823effb06b08663e2e4c51ed03aaeb547e2e0b83fd37b73",

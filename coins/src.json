@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "SRC",
+        "name": "SecureCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/securechain.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=270852.0",
+            "source_code": "https:\/\/github.com\/securecoin\/Securecoin",
+            "explorers": [
+                "https:\/\/securechain.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/securecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SRC",
+        "name": "SecureCoin - Mainnet",
+        "testnet": false,
+        "port": 12567,
+        "port_rpc": 12568,
+        "protocol": {
+            "magic": "0xfcb4d9ab"
+        },
+        "seeds_dns": [
+            "securecoin.org"
+        ],
+        "prefixes": {
+            "public": 125,
+            "scripthash": 9,
+            "private": 128,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000047462b7a97ff0e85630d00e57352d98ab4c17156273f22415fe8d78a104",
+        "message_magic": "\u001bSecurecoin Signed Message:\n",
+        "decimals": 5
+    },
+    "test": {
+        "symbol": "SRC",
+        "name": "SecureCoin - Testnet",
+        "testnet": true,
+        "port": 22567,
+        "port_rpc": 22568,
+        "protocol": {
+            "magic": "0x021BC4F5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 199,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x00000ddb5211c09372fef81d256f5afd98b4ba4e807dd664ee2829b30d84269d",
+        "message_magic": "\u001bSecurecoin Signed Message:\n",
+        "decimals": 5
+    }
+}

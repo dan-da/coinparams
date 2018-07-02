@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "KNC",
+        "name": "KingN Coin",
+        "supply": {
+            "max": "420000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/kingncoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1949851.0",
+            "source_code": "https:\/\/github.com\/ulandort\/kingncoin-source",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/knc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/kingn-coin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "KNC",
+        "name": "KingN Coin - Mainnet",
+        "testnet": false,
+        "port": 18373,
+        "port_rpc": 18374,
+        "protocol": {
+            "magic": "0xfc4c8736"
+        },
+        "seeds_dns": [
+            "node.walletbuilders.com"
+        ],
+        "prefixes": {
+            "public": 45,
+            "scripthash": 85,
+            "private": 173,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000004abf1a9742cec3abdb8e189a75b61c4b6ebd93c248876b838bd5d6d7eb4",
+        "message_magic": "\u001aKingNCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "KNC",
+        "name": "KingN Coin - Testnet",
+        "testnet": true,
+        "port": 28373,
+        "port_rpc": 28374,
+        "protocol": {
+            "magic": "0x5c0ff6b8"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000004abf1a9742cec3abdb8e189a75b61c4b6ebd93c248876b838bd5d6d7eb4",
+        "message_magic": "\u001aKingNCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

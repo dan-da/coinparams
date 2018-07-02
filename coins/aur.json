@@ -1,22 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "AUR",
         "name": "Auroracoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/auroracoin.is\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1467050.0",
+            "source_code": "https:\/\/github.com\/aurarad\/auroracoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/aur\/",
+                "http:\/\/insight.auroracoin.is\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/auroracoin\/",
+            "message_board": [
+                "http:\/\/auroraspjall.is\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AUR",
+        "name": "Auroracoin - Mainnet",
         "testnet": false,
         "port": 12340,
         "port_rpc": 12341,
         "protocol": {
-            "magic": "0x6cdca4fd"
+            "magic": "0xfda4dc6c"
         },
         "seeds_dns": [
-            "luxembourgh",
-            "united-states-west",
-            "united-states-east",
-            "iceland",
-            "the-netherlands",
-            "electrum2",
-            "electrum3",
-            "electrum4",
             "s1.auroraseed.net",
             "aurseed1.criptoe.com",
             "s1.auroraseed.com",
@@ -34,7 +50,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 85
         },
         "hash_genesis_block": "2a8e100939494904af825b488596ddd536b3a96226ad02e0f7ab7ae472b27a8e",

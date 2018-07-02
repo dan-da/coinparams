@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "BLAZR",
+        "name": "BlazerCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/blazercoin.cf\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/FlikkaFlak\/blazercoin",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/blazercoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BLAZR",
+        "name": "BlazerCoin - Mainnet",
+        "testnet": false,
+        "port": 8213,
+        "port_rpc": 8212,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 125,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "1040a19e0803e77f56662a6e6feb76c1edc690bbab90caf5fa36189e7ab6ba2c",
+        "message_magic": "\u001bBlazerCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BLAZR",
+        "name": "BlazerCoin - Testnet",
+        "testnet": true,
+        "port": 18213,
+        "port_rpc": 18212,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 126,
+            "scripthash": 124,
+            "private": 254,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x7b026df6f36ca2f3516c1026ae4615907767d780ad4277074543a74e3fdf921e",
+        "message_magic": "\u001bBlazerCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

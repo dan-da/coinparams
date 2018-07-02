@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "symbol": "XRE",
+        "name": "RevolverCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/revolvercoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1479260.0",
+            "source_code": "https:\/\/github.com\/RevolverCoin\/revolvercoin",
+            "explorers": [
+                "http:\/\/revolvercoin.org:3001\/",
+                "http:\/\/yiimp.eu\/explorer\/XRE",
+                "http:\/\/secretpool.ru\/explorer\/XRE"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/revolvercoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/Gn5CeXb"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XRE",
+        "name": "RevolverCoin - Mainnet",
+        "testnet": false,
+        "port": 8777,
+        "port_rpc": 8775,
+        "protocol": {
+            "magic": "0xf9beb4d9"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 128,
+            "public": 0,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000004638488c509bcac3bbef81e601c96783f208cb7ca75b54fea5acbaad46",
+        "message_magic": "\u001dRevolverCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XRE",
+        "name": "RevolverCoin - Testnet",
+        "testnet": true,
+        "port": 18777,
+        "port_rpc": 18775,
+        "protocol": {
+            "magic": "0x0b110907"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000093e2da5840ff57aba1b9ea8e1127471f2ac1c4e9d05ac2a250eb38a4d7",
+        "message_magic": "\u001dRevolverCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "XRE",
+        "name": "RevolverCoin - Regtest",
+        "testnet": true,
+        "port": 19777,
+        "port_rpc": 18775,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "2354a397875b3f6ea74d7d0da969ec46cac2e3133c616e2624965e490c6539d7",
+        "message_magic": "\u001dRevolverCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

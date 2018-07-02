@@ -1,18 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SEQ",
         "name": "Sequence",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/duality.solutions"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1902896.0",
+            "source_code": "https:\/\/github.com\/duality-solutions\/Sequence",
+            "explorers": [
+                "http:\/\/seq.blocksandchain.com"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sequence\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SEQ",
+        "name": "Sequence - Mainnet",
         "testnet": false,
         "port": 16662,
         "port_rpc": 16663,
         "protocol": {
-            "magic": "0x20021001"
+            "magic": "0x01100220"
         },
         "seeds_dns": [
-            "dnsseeder.io",
-            "dnsseeder.com",
-            "dnsseeder.host",
-            "dnsseeder.net",
             "seq.dnsseeder.io",
             "seq.dnsseeder.com",
             "seq.dnsseeder.host",
@@ -26,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000000251356c62e0aa14c63e2b0db2a05ac0d3316ea5000c797a281be8c9fd7",
@@ -40,7 +57,7 @@
         "port": 16664,
         "port_rpc": 16665,
         "protocol": {
-            "magic": "0x30032002"
+            "magic": "0x02200330"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -51,7 +68,7 @@
                 "public": "0x1135aaee",
                 "private": "0x3511ddff"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000009cfa952b4f748c8cf7cdf975f89bce0a26a6a7e7c8cb33968bc20848e",

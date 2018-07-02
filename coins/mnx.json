@@ -1,33 +1,37 @@
 {
+    "meta": {
+        "symbol": "MNX",
+        "name": "MinexCoin",
+        "supply": {
+            "max": "19000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/minexcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1847292.0",
+            "source_code": "https:\/\/github.com\/minexcoin\/minexcoin",
+            "explorers": [
+                "https:\/\/minexexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/minexcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/minexcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "MNX",
-        "name": "Minex",
+        "name": "MinexCoin - Mainnet",
         "testnet": false,
         "port": 8335,
         "port_rpc": 17786,
         "protocol": {
-            "magic": "0x5d4c4a4b"
+            "magic": "0x4b4a4c5d"
         },
         "seeds_dns": [
-            "138.197.73.48",
-            "138.197.73.123",
-            "159.203.70.193",
-            "88.198.33.35",
-            "95.85.35.152",
-            "78.46.93.126",
-            "91.233.111.28",
-            "bitcoin.sipa.be",
-            "bluematt.me",
-            "dashjr.org",
-            "bitcoinstats.com",
-            "bitcoin.jonasschnelli.ch",
-            "138.197.73.48",
-            "138.197.73.123",
-            "159.203.70.193",
-            "88.198.33.35",
-            "95.85.35.152",
-            "78.46.93.126",
-            "91.233.111.28",
             "seed.bitcoin.sipa.be",
             "dnsseed.bluematt.me",
             "dnsseed.bitcoin.dashjr.org",
@@ -42,7 +46,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 182
         },
         "hash_genesis_block": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",
@@ -51,42 +55,12 @@
     },
     "test": {
         "symbol": "MNX",
-        "name": "Minex - Testnet",
+        "name": "MinexCoin - Testnet",
         "testnet": true,
         "port": 8336,
         "port_rpc": 17788,
         "protocol": {
-            "magic": "0x544c4a54"
-        },
-        "seeds_dns": [
-            "138.197.90.246",
-            "139.59.154.41",
-            "138.197.90.246",
-            "139.59.154.41"
-        ],
-        "prefixes": {
-            "private": 239,
-            "public": 111,
-            "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
-            "bech32_hrp": null,
-            "bip44": 1
-        },
-        "hash_genesis_block": "6ef2e897f7acb347086f9860b2ad401f133fe1b103f77de771aac7b5e88cfe70",
-        "message_magic": "\u0018Bitcoin Signed Message:\n",
-        "decimals": 8
-    },
-    "regtest": {
-        "symbol": "MNX",
-        "name": "Minex - Regtest",
-        "testnet": true,
-        "port": 18444,
-        "port_rpc": 18332,
-        "protocol": {
-            "magic": "0x5d4c4a4b"
+            "magic": "0x544a4c54"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -97,7 +71,32 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "6ef2e897f7acb347086f9860b2ad401f133fe1b103f77de771aac7b5e88cfe70",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "MNX",
+        "name": "MinexCoin - Regtest",
+        "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x4b4a4c5d"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb",

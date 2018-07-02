@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "symbol": "PROUD",
+        "name": "PROUD Money",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.proud.money\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1616928.0",
+            "source_code": "https:\/\/github.com\/Gaycoins\/GAYcoin-Online",
+            "explorers": [
+                "http:\/\/explorer.proud.money\/",
+                "http:\/\/explorer.gay.money\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/proud-money\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PROUD",
+        "name": "PROUD Money - Mainnet",
+        "testnet": false,
+        "port": 24241,
+        "port_rpc": 24242,
+        "protocol": {
+            "magic": "0xf1e0a2d3"
+        },
+        "seeds_dns": [
+            "seed01.gay.money",
+            "seed02.gay.money",
+            "seed03.gay.money",
+            "seed04.gay.money",
+            "seed05.gay.money",
+            "seed06.gay.money",
+            "seed07.gay.money",
+            "seed08.gay.money",
+            "seed09.gay.money"
+        ],
+        "prefixes": {
+            "public": 97,
+            "scripthash": 38,
+            "private": 225,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000dd205a31c99554c350b8f2d469369e873e04949dff83094f79e35aa9e3e",
+        "message_magic": "\u0019GAY Coin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "PROUD",
+        "name": "PROUD Money - Testnet",
+        "testnet": true,
+        "port": 33542,
+        "port_rpc": 36523,
+        "protocol": {
+            "magic": "0xaed0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000d4d0549912423730a89e05b8f096591d32795b1612a0abd5c3541904ddf",
+        "message_magic": "\u0019GAY Coin Signed Message:\n",
+        "decimals": 6
+    }
+}

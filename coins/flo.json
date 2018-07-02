@@ -1,12 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "FLO",
         "name": "FlorinCoin",
+        "supply": {
+            "max": "160000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/flo.cash\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=236742",
+            "source_code": "https:\/\/github.com\/floblockchain\/flo",
+            "explorers": [
+                "http:\/\/florincoin.info\/",
+                "https:\/\/prohashing.com\/explorer\/Florincoin\/",
+                "http:\/\/explorer.alexandria.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/florincoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/FLOblockchain"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FLO",
+        "name": "FlorinCoin - Mainnet",
         "testnet": false,
         "port": 7312,
         "port_rpc": 7313,
         "protocol": {
-            "magic": "0xf1a5c0fd"
+            "magic": "0xfdc0a5f1"
         },
         "seeds_dns": [
             "seed1.florincoin.org",
@@ -23,7 +48,7 @@
                 "public": "0x0134406b",
                 "private": "0x01343c31"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea",
@@ -37,7 +62,7 @@
         "port": 17312,
         "port_rpc": 17313,
         "protocol": {
-            "magic": "0xf25ac0fd"
+            "magic": "0xfdc05af2"
         },
         "seeds_dns": [
             "testnet.oip.fun"
@@ -50,7 +75,7 @@
                 "public": "0x013440e2",
                 "private": "0x01343c23"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "9b7bc86236c34b5e3a39367c036b7fe8807a966c22a7a1f0da2a198a27e03731",
@@ -64,7 +89,7 @@
         "port": 17412,
         "port_rpc": 17313,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -75,7 +100,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "ec42fa26ca6dcb1103b59a1d24b161935ea4566f8d5736db8917d5b9a8dee0d7",

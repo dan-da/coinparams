@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "symbol": "EMB",
+        "name": "EmberCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.embercoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1650227.0",
+            "source_code": "https:\/\/github.com\/EmberCoin\/Ember",
+            "explorers": [
+                "http:\/\/explorer.embercoin.io\/",
+                "https:\/\/www.coinexplorer.net\/EMB"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/embercoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/embercoin",
+                "https:\/\/discordapp.com\/invite\/UnYqVNJ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EMB",
+        "name": "EmberCoin - Mainnet",
+        "testnet": false,
+        "port": 10024,
+        "port_rpc": 10022,
+        "protocol": {
+            "magic": "0xefa9657c"
+        },
+        "seeds_dns": [
+            "emb_00.0xify.com",
+            "emb_01.0xify.com",
+            "emb_02.0xify.com"
+        ],
+        "prefixes": {
+            "private": 50,
+            "public": 92,
+            "scripthash": 110,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000ff60784c4c8ceed0866d00de5742529ef3f1911e245f4126c5c293c88cd",
+        "message_magic": "\u0016Ember Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "EMB",
+        "name": "EmberCoin - Testnet",
+        "testnet": true,
+        "port": 10012,
+        "port_rpc": 10018,
+        "protocol": {
+            "magic": "0x121a52b4"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 51,
+            "public": 93,
+            "scripthash": 111,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000067596509a7006e9d4d0978441e23ff5e18903b127a4a975833fff92b7b99",
+        "message_magic": "\u0016Ember Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "symbol": "IXC",
+        "name": "Ixcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.ixcoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=36218.0",
+            "source_code": "https:\/\/github.com\/ixcore\/ixcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/ixc\/",
+                "https:\/\/prohashing.com\/explorer\/IXcoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/ixcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "IXC",
+        "name": "Ixcoin - Mainnet",
+        "testnet": false,
+        "port": 8337,
+        "port_rpc": 8338,
+        "protocol": {
+            "magic": "0xf1bab6db"
+        },
+        "seeds_dns": [
+            "uk.ixcoin.co",
+            "nyc.ixcoin.co",
+            "sgp.ixcoin.co"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 138,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 86
+        },
+        "hash_genesis_block": "0000000001534ef8893b025b9c1da67250285e35c9f76cae36a4904fdf72c591",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IXC",
+        "name": "Ixcoin - Testnet",
+        "testnet": true,
+        "port": 18333,
+        "port_rpc": 18338,
+        "protocol": {
+            "magic": "0x0b110907"
+        },
+        "seeds_dns": [
+            "testnet-seed.bitcoin.jonasschnelli.ch",
+            "seed.tbtc.petertodd.org",
+            "testnet-seed.bluematt.me",
+            "testnet-seed.bitcoin.schildbach.de"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f49430x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "IXC",
+        "name": "Ixcoin - Regtest",
+        "testnet": true,
+        "port": 18444,
+        "port_rpc": 18338,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e22060x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

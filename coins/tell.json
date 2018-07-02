@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "TELL",
+        "name": "Tellurion",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.tellurion.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1607778",
+            "source_code": "https:\/\/github.com\/telluriondev\/tellurion",
+            "explorers": [
+                "http:\/\/blockchain.megacrypton.com\/tell\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/tellurion\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "TELL",
+        "name": "Tellurion - Mainnet",
+        "testnet": false,
+        "port": 9999,
+        "port_rpc": 33716,
+        "protocol": {
+            "magic": "0x1a1c3a1b"
+        },
+        "seeds_dns": [
+            "seed1.tellurion.co",
+            "seed2.tellurion.co",
+            "seed3.tellurion.co",
+            "seed4.tellurion.co",
+            "ok1.altcoinsfoundation.com"
+        ],
+        "prefixes": {
+            "public": 65,
+            "scripthash": 50,
+            "private": 193,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000003034531d80c294d555923c0be7577aafbae370e2a3ca787fa0e509000c7",
+        "message_magic": "\u001aTellurion Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "TELL",
+        "name": "Tellurion - Testnet",
+        "testnet": true,
+        "port": 19999,
+        "port_rpc": 33717,
+        "protocol": {
+            "magic": "0x3c2d1e0f"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 109,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000003034531d80c294d555923c0be7577aafbae370e2a3ca787fa0e509000c7",
+        "message_magic": "\u001aTellurion Signed Message:\n",
+        "decimals": 8
+    }
+}

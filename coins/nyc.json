@@ -1,7 +1,31 @@
 {
-    "main": {
+    "meta": {
         "symbol": "NYC",
         "name": "NewYorkCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/nycoin.community\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2792396",
+            "source_code": "https:\/\/github.com\/NewYorkCoin-NYC\/nycoin",
+            "explorers": [
+                "https:\/\/explorer.nycoin.community\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/newyorkcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/euGaWRu",
+                "https:\/\/t.me\/NewYorkCoinNYC"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "NYC",
+        "name": "NewYorkCoin - Mainnet",
         "testnet": false,
         "port": 17020,
         "port_rpc": 18823,
@@ -17,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 179
         },
         "hash_genesis_block": "5597f25c062a3038c7fd815fe46c67dedfcb3c839fbc8e01ed4044540d08fe48",
@@ -31,7 +55,7 @@
         "port": 27020,
         "port_rpc": 118823,
         "protocol": {
-            "magic": "0xdcc5b1ac"
+            "magic": "0xacb1c5dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +66,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x24463e4d3c625b0a9059f309044c2cf0d7e196cf2a6ecce901f24f681be33c8f",

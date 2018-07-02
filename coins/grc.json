@@ -1,12 +1,38 @@
 {
+    "meta": {
+        "symbol": "GRC",
+        "name": "GridCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.gridcoin.us\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=324118.0",
+            "source_code": "https:\/\/github.com\/gridcoin-community\/Gridcoin-Research",
+            "explorers": [
+                "http:\/\/www.gridresearchcorp.com\/gridcoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/gridcoin\/",
+            "message_board": [
+                "https:\/\/cryptocurrencytalk.com\/forum\/464-gridcoin-grc\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/gridcoin",
+                "https:\/\/discord.gg\/Bt4YHxJ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "GRC",
-        "name": "Gridcoin",
+        "name": "GridCoin - Mainnet",
         "testnet": false,
         "port": 32749,
         "port_rpc": 15715,
         "protocol": {
-            "magic": "0x05223570"
+            "magic": "0x70352205"
         },
         "seeds_dns": [
             "node.gridcoin.us",
@@ -14,8 +40,7 @@
             "gridcoin.crypto.fans",
             "www.grcpool.com",
             "nuad.de",
-            "seeds.gridcoin.ifoggz-network.xyz",
-            ""
+            "seeds.gridcoin.ifoggz-network.xyz"
         ],
         "prefixes": {
             "public": 62,
@@ -25,7 +50,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 84
         },
         "hash_genesis_block": "000005a247b397eadfefa58e872bc967c2614797bdc8d4d0e6b09fea5c191599",
@@ -34,12 +59,12 @@
     },
     "test": {
         "symbol": "GRC",
-        "name": "Gridcoin - Testnet",
+        "name": "GridCoin - Testnet",
         "testnet": true,
         "port": 32748,
         "port_rpc": 25715,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -50,7 +75,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00006e037d7b84104208ecf2a8638d23149d712ea810da604ee2f2cb39bae713",

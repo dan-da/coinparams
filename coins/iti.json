@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "ITI",
+        "name": "iTicoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/iticoin.com\/"
+            ],
+            "announcement": "http:\/\/ru.super-ppl.com\/iti\/",
+            "source_code": "https:\/\/github.com\/sppl\/iti",
+            "explorers": [
+                "http:\/\/explorer.iticoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/iticoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ITI",
+        "name": "iTicoin - Mainnet",
+        "testnet": false,
+        "port": 42177,
+        "port_rpc": 42144,
+        "protocol": {
+            "magic": "0xe4e8e9e5"
+        },
+        "seeds_dns": [
+            "seed1.super-ppl.com",
+            "seed2.super-ppl.com",
+            "seed3.super-ppl.com"
+        ],
+        "prefixes": {
+            "public": 65,
+            "scripthash": 20,
+            "private": 193,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000a622d889580a343416e3bd9464ea0c38b6fad3ec7b71f144a1de6c5f22c",
+        "message_magic": "\u0018iTiCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "ITI",
+        "name": "iTicoin - Testnet",
+        "testnet": true,
+        "port": 52177,
+        "port_rpc": 52144,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 196,
+            "private": 255,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00006d231ae9d3a12200a0cee284140dcf2151e5c171600f04c6762730bd963e",
+        "message_magic": "\u0018iTiCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

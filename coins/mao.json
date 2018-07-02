@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "symbol": "MAO",
+        "name": "Mao Zedong",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1970439.0",
+            "source_code": "https:\/\/github.com\/mao-zedongx\/mao-zedong",
+            "explorers": [
+                "http:\/\/explorer.mao-zedong.net:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mao-zedong\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MAO",
+        "name": "Mao Zedong - Mainnet",
+        "testnet": false,
+        "port": 9670,
+        "port_rpc": 9669,
+        "protocol": {
+            "magic": "0xf4d335f1"
+        },
+        "seeds_dns": [
+            "explorer.mao-zedong.net",
+            "node1.mao-zedong.net",
+            "node2.mao-zedong.net",
+            "node3.mao-zedong.net",
+            "node4.mao-zedong.net",
+            "node5.mao-zedong.net",
+            "node6.mao-zedong.net",
+            "node7.mao-zedong.net",
+            "dnsseed.mao-zedong.net",
+            "dnsseed1.mao-zedong.net",
+            "dnsseed2.mao-zedong.net",
+            "dnsseed3.mao-zedong.net",
+            "dnsseed4.mao-zedong.net",
+            "dnsseed5.mao-zedong.net"
+        ],
+        "prefixes": {
+            "public": 50,
+            "scripthash": 28,
+            "private": 178,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000f83c8a7fb7ba26343cc23a0ae8a1f0cfb54e6cdf55050bd6a947e7aa456",
+        "message_magic": "\u0014mao Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MAO",
+        "name": "Mao Zedong - Testnet",
+        "testnet": true,
+        "port": 19670,
+        "port_rpc": 19669,
+        "protocol": {
+            "magic": "0xd73dac32"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000f83c8a7fb7ba26343cc23a0ae8a1f0cfb54e6cdf55050bd6a947e7aa456",
+        "message_magic": "\u0014mao Signed Message:\n",
+        "decimals": 8
+    }
+}

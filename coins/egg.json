@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "symbol": "EGG",
+        "name": "EggCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1013555.0",
+            "source_code": "https:\/\/github.com\/eastercoindev\/eggcoin",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/eggcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EGG",
+        "name": "EggCoin - Mainnet",
+        "testnet": false,
+        "port": 31104,
+        "port_rpc": 31105,
+        "protocol": {
+            "magic": "0x1a320320"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 33,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00003d1bc115df47810ee300c9bf0b3943ee139d2863c384a3ac0d6dd07e3772",
+        "message_magic": "\u0018Eggcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "EGG",
+        "name": "EggCoin - Testnet",
+        "testnet": true,
+        "port": 20134,
+        "port_rpc": 20135,
+        "protocol": {
+            "magic": "0x2a230640"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 127,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00003d1bc115df47810ee300c9bf0b3943ee139d2863c384a3ac0d6dd07e3772",
+        "message_magic": "\u0018Eggcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

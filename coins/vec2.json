@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "symbol": "VEC2",
+        "name": "VectorAI",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/vector-blockchain.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1455618.0",
+            "source_code": "https:\/\/github.com\/vectorcoindev\/Vector",
+            "explorers": [
+                "http:\/\/cryptobe.com\/chain\/Vector"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vector\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VEC2",
+        "name": "VectorAI - Mainnet",
+        "testnet": false,
+        "port": 1715,
+        "port_rpc": 1716,
+        "protocol": {
+            "magic": "0xe79260e8"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 186,
+            "public": 70,
+            "scripthash": 45,
+            "bip32": {
+                "public": "0x0488f526",
+                "private": "0x048816fe"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d5fdbc741683f8ca202c7827a3904a417d8fa68b3f1db5d3d4f3f6df3d6",
+        "message_magic": "\u0017Vector Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,1812 @@
+{
+    "ABJC": {
+        "name": "Abjcoin Commerce",
+        "github": "https:\/\/github.com\/abjcoinblockchain\/AbjcoinCommerce",
+        "branch": "master"
+    },
+    "ACC": {
+        "name": "AdCoin",
+        "github": "https:\/\/github.com\/adcoin-project\/AdCoin",
+        "branch": "master"
+    },
+    "ACES": {
+        "name": "Aces",
+        "github": "https:\/\/github.com\/aces-coin\/AcesCoin",
+        "branch": "master"
+    },
+    "ACOIN": {
+        "name": "Acoin",
+        "github": "https:\/\/github.com\/acoin-project\/acoin",
+        "branch": "master"
+    },
+    "ACP": {
+        "name": "AnarchistsPrime",
+        "github": "https:\/\/github.com\/AnarchistsPrime\/Acp2",
+        "branch": "master"
+    },
+    "ADC": {
+        "name": "AudioCoin",
+        "github": "https:\/\/github.com\/aurovine\/audiocoin",
+        "branch": "master"
+    },
+    "ADZ": {
+        "name": "Adzcoin",
+        "github": "https:\/\/github.com\/AdzCoin\/adzcoin",
+        "branch": "master"
+    },
+    "AIB": {
+        "name": "Advanced Internet Blocks",
+        "github": "https:\/\/github.com\/iobond\/aib",
+        "branch": "master"
+    },
+    "ALL": {
+        "name": "Allion",
+        "github": "https:\/\/github.com\/EpyxZ\/Allion",
+        "branch": "master"
+    },
+    "ALQO": {
+        "name": "ALQO",
+        "github": "https:\/\/github.com\/alqocrypto\/alqo",
+        "branch": "master"
+    },
+    "AMMO": {
+        "name": "Ammo Reloaded",
+        "github": "https:\/\/github.com\/AmmoCore\/AmmoReloaded",
+        "branch": "master"
+    },
+    "AMS": {
+        "name": "AmsterdamCoin",
+        "github": "https:\/\/github.com\/CoinProjects\/AmsterdamCoin-v4\/",
+        "branch": "master"
+    },
+    "ANC": {
+        "name": "Anoncoin",
+        "github": "https:\/\/github.com\/Anoncoin\/anoncoin",
+        "branch": "master"
+    },
+    "ANI": {
+        "name": "Animecoin",
+        "github": "https:\/\/github.com\/testzcrypto\/Animecoin\/",
+        "branch": "master"
+    },
+    "ANTX": {
+        "name": "Antimatter",
+        "github": "https:\/\/github.com\/antimattercoin\/Antimatter",
+        "branch": "master"
+    },
+    "ARB": {
+        "name": "ARbit",
+        "github": "https:\/\/github.com\/ARbitcoin\/ARbit",
+        "branch": "master"
+    },
+    "ARC": {
+        "name": "Advanced Technology Coin",
+        "github": "https:\/\/github.com\/ArcticCore\/arcticcoin",
+        "branch": "master"
+    },
+    "ARCO": {
+        "name": "AquariusCoin",
+        "github": "https:\/\/github.com\/AquariusNetwork\/ARCO",
+        "branch": "master"
+    },
+    "ARI": {
+        "name": "Aricoin",
+        "github": "https:\/\/github.com\/AricoinCurrency\/Aricoin",
+        "branch": "master"
+    },
+    "ASAFE2": {
+        "name": "AllSafe",
+        "github": "https:\/\/github.com\/Securitybank\/Allsafe2",
+        "branch": "master"
+    },
+    "ATC": {
+        "name": "Arbitracoin",
+        "github": "https:\/\/github.com\/ArbiTraCoin\/Arbitra-ATC",
+        "branch": "master"
+    },
+    "AU": {
+        "name": "AurumCoin",
+        "github": "https:\/\/github.com\/aurumcoin\/Aurumcoin_AU",
+        "branch": "master"
+    },
+    "AUR": {
+        "name": "Auroracoin",
+        "github": "https:\/\/github.com\/aurarad\/auroracoin",
+        "branch": "master"
+    },
+    "AV": {
+        "name": "AvatarCoin",
+        "github": "https:\/\/github.com\/avatarcoin\/avatarcoin",
+        "branch": "master"
+    },
+    "AXIOM": {
+        "name": "Axiom",
+        "github": "https:\/\/github.com\/axiomcryptocurrency\/axiom",
+        "branch": "master"
+    },
+    "BBP": {
+        "name": "BiblePay",
+        "github": "https:\/\/github.com\/biblepay\/biblepay",
+        "branch": "master"
+    },
+    "BCD": {
+        "name": "Bitcoin Diamond",
+        "github": "https:\/\/github.com\/eveybcd\/BitcoinDiamond",
+        "branch": "master"
+    },
+    "BCF": {
+        "name": "Bitcoin Fast",
+        "github": "https:\/\/github.com\/Crypto-Currency\/bitcoinfast",
+        "branch": "master"
+    },
+    "BCI": {
+        "name": "Bitcoin Interest",
+        "github": "https:\/\/github.com\/BitcoinInterestOfficial\/BitcoinInterest",
+        "branch": "master"
+    },
+    "BENJI": {
+        "name": "BenjiRolls",
+        "github": "https:\/\/github.com\/BelligerentFool\/BenjiRolls",
+        "branch": "master"
+    },
+    "BERN": {
+        "name": "BERNcash",
+        "github": "https:\/\/github.com\/BERNiecoin\/BERNcash",
+        "branch": "master"
+    },
+    "BET": {
+        "name": "BetaCoin",
+        "github": "https:\/\/github.com\/betacoindev\/betacoin",
+        "branch": "master"
+    },
+    "BIO": {
+        "name": "BioCoin",
+        "github": "https:\/\/github.com\/Blackithart\/biocoin",
+        "branch": "master"
+    },
+    "BIOB": {
+        "name": "BioBar",
+        "github": "https:\/\/github.com\/sassafrasstubby\/BioBar",
+        "branch": "master"
+    },
+    "BIRDS": {
+        "name": "Birds",
+        "github": "https:\/\/github.com\/Birdsdev\/Birds",
+        "branch": "master"
+    },
+    "BITB": {
+        "name": "Bean Cash",
+        "github": "https:\/\/github.com\/TeamBitBean\/bitbean-core",
+        "branch": "master"
+    },
+    "BITG": {
+        "name": "Bitcoin Green",
+        "github": "https:\/\/github.com\/bitcoingreen\/bitcoingreen",
+        "branch": "master"
+    },
+    "BITOK": {
+        "name": "Bitok",
+        "github": "https:\/\/github.com\/bitokproject\/bitok",
+        "branch": "master"
+    },
+    "BITS": {
+        "name": "Bitstar",
+        "github": "https:\/\/github.com\/bitstar\/bitstar",
+        "branch": "master"
+    },
+    "BLAZR": {
+        "name": "BlazerCoin",
+        "github": "https:\/\/github.com\/FlikkaFlak\/blazercoin",
+        "branch": "master"
+    },
+    "BLU": {
+        "name": "BlueCoin",
+        "github": "https:\/\/github.com\/bluecoiner\/bluecoin-new",
+        "branch": "master"
+    },
+    "BLZ": {
+        "name": "BlazeCoin",
+        "github": "https:\/\/github.com\/wpstudio\/blazecoin",
+        "branch": "master"
+    },
+    "BOAT": {
+        "name": "BOAT",
+        "github": "https:\/\/github.com\/OBAViJEST\/boatcoinfinal",
+        "branch": "master"
+    },
+    "BOLI": {
+        "name": "Bolivarcoin",
+        "github": "https:\/\/github.com\/ElpidioMC\/bolivarcoin",
+        "branch": "master"
+    },
+    "BOST": {
+        "name": "BoostCoin",
+        "github": "https:\/\/github.com\/mammix2\/boostcoin-core",
+        "branch": "master"
+    },
+    "BRO": {
+        "name": "Bitradio",
+        "github": "https:\/\/github.com\/thebitradio\/Bitradio",
+        "branch": "master"
+    },
+    "BSC": {
+        "name": "BowsCoin",
+        "github": "https:\/\/github.com\/bowscoin\/bowscoin",
+        "branch": "master"
+    },
+    "BSD": {
+        "name": "BitSend",
+        "github": "https:\/\/github.com\/LIMXTEC\/BitSend",
+        "branch": "master"
+    },
+    "BSR": {
+        "name": "BitSoar",
+        "github": "https:\/\/github.com\/BITSOAR\/wallet",
+        "branch": "master"
+    },
+    "BSTY": {
+        "name": "GlobalBoost-Y",
+        "github": "https:\/\/github.com\/GlobalBoost\/GlobalBoost-Y",
+        "branch": "master"
+    },
+    "BTA": {
+        "name": "Bata",
+        "github": "https:\/\/github.com\/BTA-BATA\/BATA-SOURCE",
+        "branch": "master"
+    },
+    "BTB": {
+        "name": "BitBar",
+        "github": "https:\/\/github.com\/Bitbarcoin\/bitbar",
+        "branch": "master"
+    },
+    "BTCD": {
+        "name": "BitcoinDark",
+        "github": "https:\/\/github.com\/jl777\/btcd",
+        "branch": "master"
+    },
+    "BTCP": {
+        "name": "Bitcoin Private",
+        "github": "https:\/\/github.com\/BTCPrivate\/BitcoinPrivate",
+        "branch": "master"
+    },
+    "BTCR": {
+        "name": "Bitcurrency",
+        "github": "https:\/\/github.com\/zeded\/bitcurrency",
+        "branch": "master"
+    },
+    "BTCS": {
+        "name": "Bitcoin Scrypt",
+        "github": "https:\/\/github.com\/bitcoin-scrypt\/bitcoin-scrypt",
+        "branch": "master"
+    },
+    "BTCZ": {
+        "name": "BitcoinZ",
+        "github": "https:\/\/github.com\/bitcoinz-pod\/bitcoinz",
+        "branch": "master"
+    },
+    "BTDX": {
+        "name": "Bitcloud",
+        "github": "https:\/\/github.com\/LIMXTEC\/Bitcloud\/",
+        "branch": "master"
+    },
+    "BTG": {
+        "name": "Bitgem",
+        "github": "https:\/\/github.com\/bitgem\/bitgem",
+        "branch": "master"
+    },
+    "BTPL": {
+        "name": "Bitcoin Planet",
+        "github": "https:\/\/github.com\/btpl2017\/bitcoinplanet",
+        "branch": "master"
+    },
+    "BTQ": {
+        "name": "BitQuark",
+        "github": "https:\/\/github.com\/quark-project\/quark\/",
+        "branch": "master"
+    },
+    "BTX": {
+        "name": "Bitcore",
+        "github": "https:\/\/github.com\/LIMXTEC\/BitCore",
+        "branch": "master"
+    },
+    "BUB": {
+        "name": "Bubble",
+        "github": "https:\/\/github.com\/spayse\/Bubble\/",
+        "branch": "master"
+    },
+    "BUMBA": {
+        "name": "BumbaCoin",
+        "github": "https:\/\/github.com\/bumbacoin\/bumbacoin2-source",
+        "branch": "master"
+    },
+    "BUZZ": {
+        "name": "BuzzCoin",
+        "github": "https:\/\/github.com\/buzzcoin-project\/BUZZ",
+        "branch": "master"
+    },
+    "CANN": {
+        "name": "CannabisCoin",
+        "github": "https:\/\/github.com\/cannabiscoindev\/cannabiscoin420",
+        "branch": "master"
+    },
+    "CARBON": {
+        "name": "Carboncoin",
+        "github": "https:\/\/github.com\/carboncointrust\/CarboncoinCore",
+        "branch": "master"
+    },
+    "CAT": {
+        "name": "Catcoin",
+        "github": "https:\/\/github.com\/CatcoinOfficial\/CatcoinRelease",
+        "branch": "master"
+    },
+    "CAZ": {
+        "name": "Cazcoin",
+        "github": "https:\/\/github.com\/copicogithub1\/cazcoin",
+        "branch": "master"
+    },
+    "CBX": {
+        "name": "Bullion",
+        "github": "https:\/\/github.com\/elambert2014\/bullion",
+        "branch": "master"
+    },
+    "CF": {
+        "name": "Californium",
+        "github": "https:\/\/github.com\/Californium\/Californium",
+        "branch": "master"
+    },
+    "CHAN": {
+        "name": "ChanCoin",
+        "github": "https:\/\/github.com\/chancoin-core\/chancoin",
+        "branch": "master"
+    },
+    "CHEAP": {
+        "name": "Cheapcoin",
+        "github": "https:\/\/github.com\/cheapandcloud\/chain",
+        "branch": "master"
+    },
+    "CHESS": {
+        "name": "ChessCoin",
+        "github": "https:\/\/github.com\/coinforchess\/chesscoin",
+        "branch": "master"
+    },
+    "CHIPS": {
+        "name": "CHIPS",
+        "github": "https:\/\/github.com\/DeckerSU\/chips3\/",
+        "branch": "master"
+    },
+    "CJ": {
+        "name": "Cryptojacks",
+        "github": "https:\/\/github.com\/cryptojacks\/CryptoJacks",
+        "branch": "master"
+    },
+    "CLUB": {
+        "name": "ClubCoin",
+        "github": "https:\/\/github.com\/BitClubDev\/ClubCoin",
+        "branch": "master"
+    },
+    "CMPCO": {
+        "name": "CampusCoin",
+        "github": "https:\/\/github.com\/campuscoindev\/CampusCoin-Source",
+        "branch": "master"
+    },
+    "CNNC": {
+        "name": "Cannation",
+        "github": "https:\/\/github.com\/cannationproject\/cannation",
+        "branch": "master"
+    },
+    "COLX": {
+        "name": "ColossusXT",
+        "github": "https:\/\/github.com\/ColossusCoinXT\/ColossusCoinXT\/",
+        "branch": "master"
+    },
+    "CON": {
+        "name": "PayCon",
+        "github": "https:\/\/github.com\/cryptotech\/PayCon",
+        "branch": "master"
+    },
+    "CPC": {
+        "name": "Capricoin",
+        "github": "https:\/\/github.com\/Capricoinofficial\/Capricoin\/",
+        "branch": "master"
+    },
+    "CRAVE": {
+        "name": "Crave",
+        "github": "https:\/\/github.com\/Crave-Project\/Crave-NG",
+        "branch": "master"
+    },
+    "CRC": {
+        "name": "CrowdCoin",
+        "github": "https:\/\/github.com\/crowdcoinChain\/Crowdcoin",
+        "branch": "master"
+    },
+    "CRM": {
+        "name": "Cream",
+        "github": "https:\/\/github.com\/creamcoin\/CREAM-cryptocurrency",
+        "branch": "master"
+    },
+    "CROP": {
+        "name": "Cropcoin",
+        "github": "https:\/\/github.com\/Cropdev\/CropDev",
+        "branch": "master"
+    },
+    "CRW": {
+        "name": "Crown",
+        "github": "https:\/\/github.com\/Crowndev\/crowncoin",
+        "branch": "master"
+    },
+    "CSC": {
+        "name": "CasinoCoin",
+        "github": "https:\/\/github.com\/casinocoin\/casinocoin",
+        "branch": "master"
+    },
+    "CTO": {
+        "name": "Crypto",
+        "github": "https:\/\/github.com\/crypto-official\/crypto",
+        "branch": "master"
+    },
+    "CURE": {
+        "name": "Curecoin",
+        "github": "https:\/\/github.com\/cygnusxi\/CurecoinSource",
+        "branch": "master"
+    },
+    "CYDER": {
+        "name": "Cyder",
+        "github": "https:\/\/github.com\/cyderenergy\/cyder",
+        "branch": "master"
+    },
+    "DASH": {
+        "name": "Dash",
+        "github": "https:\/\/github.com\/dashpay\/dash",
+        "branch": "master"
+    },
+    "DEM": {
+        "name": "Deutsche eMark",
+        "github": "https:\/\/github.com\/emarkproject\/eMark",
+        "branch": "master"
+    },
+    "DEV": {
+        "name": "DeviantCoin",
+        "github": "https:\/\/github.com\/Deviantcoin\/Source",
+        "branch": "master"
+    },
+    "DGC": {
+        "name": "Digitalcoin",
+        "github": "https:\/\/github.com\/lomtax\/digitalcoin",
+        "branch": "master"
+    },
+    "DLC": {
+        "name": "Dollarcoin",
+        "github": "https:\/\/github.com\/dollarcoins\/source",
+        "branch": "master"
+    },
+    "DMB": {
+        "name": "Digital Money Bits",
+        "github": "https:\/\/github.com\/DMBcryptocurrency\/dmb",
+        "branch": "master"
+    },
+    "DMD": {
+        "name": "Diamond",
+        "github": "https:\/\/github.com\/DMDcoin\/Diamond",
+        "branch": "master"
+    },
+    "DNR": {
+        "name": "Denarius",
+        "github": "https:\/\/github.com\/carsenk\/denarius",
+        "branch": "master"
+    },
+    "DOGE": {
+        "name": "Dogecoin",
+        "github": "https:\/\/github.com\/dogecoin\/dogecoin",
+        "branch": "master"
+    },
+    "DOLLAR": {
+        "name": "Dollar Online",
+        "github": "https:\/\/github.com\/DOLLAR-ONLINE\/DOLLAR",
+        "branch": "master"
+    },
+    "DON": {
+        "name": "Donationcoin",
+        "github": "https:\/\/github.com\/donationcoin-project\/donationcoin",
+        "branch": "master"
+    },
+    "DRXNE": {
+        "name": "DROXNE",
+        "github": "https:\/\/github.com\/droxdev\/Drox",
+        "branch": "master"
+    },
+    "DUO": {
+        "name": "ParallelCoin",
+        "github": "https:\/\/github.com\/marcetin\/parallelcoin",
+        "branch": "master"
+    },
+    "EBST": {
+        "name": "eBoost",
+        "github": "https:\/\/github.com\/eBoostCrypto\/eBoost",
+        "branch": "master"
+    },
+    "ECN": {
+        "name": "E-coin",
+        "github": "https:\/\/github.com\/ecoinclub\/ecoin",
+        "branch": "master"
+    },
+    "EGC": {
+        "name": "EverGreenCoin",
+        "github": "https:\/\/github.com\/EverGreenCoinDev\/EverGreenCoin\/",
+        "branch": "master"
+    },
+    "EGG": {
+        "name": "EggCoin",
+        "github": "https:\/\/github.com\/eastercoindev\/eggcoin",
+        "branch": "master"
+    },
+    "EMB": {
+        "name": "EmberCoin",
+        "github": "https:\/\/github.com\/EmberCoin\/Ember\/",
+        "branch": "master"
+    },
+    "EMD": {
+        "name": "Emerald Crypto",
+        "github": "https:\/\/github.com\/crypto-currency\/Emerald",
+        "branch": "master"
+    },
+    "ENRG": {
+        "name": "Energycoin",
+        "github": "https:\/\/github.com\/EnergyCoinProject\/energycoin",
+        "branch": "master"
+    },
+    "ENT": {
+        "name": "Eternity",
+        "github": "https:\/\/github.com\/eternity-group\/eternity",
+        "branch": "master"
+    },
+    "EQT": {
+        "name": "EquiTrader",
+        "github": "https:\/\/github.com\/equitrader\/Equitrade",
+        "branch": "master"
+    },
+    "ERA": {
+        "name": "ERA",
+        "github": "https:\/\/github.com\/cryptofun\/blas",
+        "branch": "master"
+    },
+    "ERC": {
+        "name": "EuropeCoin",
+        "github": "https:\/\/github.com\/LIMXTEC\/Europecoin-V3",
+        "branch": "master"
+    },
+    "ESP": {
+        "name": "Espers",
+        "github": "https:\/\/github.com\/cryptocoderz\/espers",
+        "branch": "master"
+    },
+    "EVIL": {
+        "name": "Evil Coin",
+        "github": "https:\/\/github.com\/coins4lunch\/EvilCoin",
+        "branch": "master"
+    },
+    "EXCL": {
+        "name": "ExclusiveCoin",
+        "github": "https:\/\/github.com\/exclfork\/ExclusiveCoin",
+        "branch": "master"
+    },
+    "FAIR": {
+        "name": "FairCoin",
+        "github": "https:\/\/github.com\/FairCoinTeam\/fair-coin",
+        "branch": "master"
+    },
+    "FGC": {
+        "name": "FantasyGold",
+        "github": "https:\/\/github.com\/FantasyGold\/FantasyGold-Core",
+        "branch": "master"
+    },
+    "FJC": {
+        "name": "FujiCoin",
+        "github": "https:\/\/github.com\/fujicoin\/fujicoin",
+        "branch": "master"
+    },
+    "FLT": {
+        "name": "FlutterCoin",
+        "github": "https:\/\/github.com\/ofeefee\/fluttercoin",
+        "branch": "master"
+    },
+    "FRC": {
+        "name": "Freicoin",
+        "github": "https:\/\/github.com\/freicoin\/freicoin",
+        "branch": "master"
+    },
+    "FST": {
+        "name": "Fastcoin",
+        "github": "https:\/\/github.com\/fastcoinproject\/fastcoin\/",
+        "branch": "master"
+    },
+    "FTC": {
+        "name": "Feathercoin",
+        "github": "https:\/\/github.com\/FeatherCoin\/Feathercoin",
+        "branch": "master"
+    },
+    "FTO": {
+        "name": "FuturoCoin",
+        "github": "https:\/\/github.com\/futuro-coin\/Futuro",
+        "branch": "master"
+    },
+    "FUNK": {
+        "name": "The Cypherfunks",
+        "github": "https:\/\/github.com\/The-Cypherfunks\/The-Cypherfunks",
+        "branch": "master"
+    },
+    "GAIN": {
+        "name": "UGAIN",
+        "github": "https:\/\/github.com\/ugain1\/UGAIN-SRC",
+        "branch": "master"
+    },
+    "GAM": {
+        "name": "Gambit",
+        "github": "https:\/\/github.com\/collincrypto\/gambitcrypto",
+        "branch": "master"
+    },
+    "GB": {
+        "name": "GoldBlocks",
+        "github": "https:\/\/github.com\/goldblockscoin\/goldblocks",
+        "branch": "master"
+    },
+    "GBX": {
+        "name": "GoByte",
+        "github": "https:\/\/github.com\/gobytecoin\/gobyte\/",
+        "branch": "master"
+    },
+    "GDC": {
+        "name": "GrandCoin",
+        "github": "https:\/\/github.com\/GrandcoinGDC\/Grandcoin",
+        "branch": "master"
+    },
+    "GEERT": {
+        "name": "GeertCoin",
+        "github": "https:\/\/github.com\/GeertAltCoin\/Geertcoin",
+        "branch": "master"
+    },
+    "GIN": {
+        "name": "GINcoin",
+        "github": "https:\/\/github.com\/gincoin-dev\/gincoin-core",
+        "branch": "master"
+    },
+    "GLC": {
+        "name": "GlobalCoin",
+        "github": "https:\/\/github.com\/cryptoparts\/Globalcoin",
+        "branch": "master"
+    },
+    "GLT": {
+        "name": "GlobalToken",
+        "github": "https:\/\/github.com\/globaltoken\/globaltoken",
+        "branch": "master"
+    },
+    "GPL": {
+        "name": "Gold Pressed Latinum",
+        "github": "https:\/\/github.com\/scificrypto\/Gold-Pressed-Latinum",
+        "branch": "master"
+    },
+    "GRC": {
+        "name": "GridCoin",
+        "github": "https:\/\/github.com\/gridcoin\/Gridcoin-Research",
+        "branch": "master"
+    },
+    "GRIM": {
+        "name": "Grimcoin",
+        "github": "https:\/\/github.com\/GrimReaperCoins\/GRIM",
+        "branch": "master"
+    },
+    "GRLC": {
+        "name": "Garlicoin",
+        "github": "https:\/\/github.com\/GarlicoinOrg\/Garlicoin",
+        "branch": "master"
+    },
+    "GRN": {
+        "name": "Granite",
+        "github": "https:\/\/github.com\/chrysophylax69\/granite",
+        "branch": "master"
+    },
+    "GSR": {
+        "name": "GeyserCoin",
+        "github": "https:\/\/github.com\/geysercoin\/geysercoin",
+        "branch": "master"
+    },
+    "GTC": {
+        "name": "Global Tour Coin",
+        "github": "https:\/\/github.com\/gtccoins\/gtccoin",
+        "branch": "master"
+    },
+    "HAL": {
+        "name": "Halcyon",
+        "github": "https:\/\/github.com\/ghostlander\/Halcyon",
+        "branch": "master"
+    },
+    "HALLO": {
+        "name": "Halloween Coin",
+        "github": "https:\/\/github.com\/hesdeadjim\/HalloweenCoinFinal",
+        "branch": "master"
+    },
+    "HBN": {
+        "name": "HoboNickels",
+        "github": "https:\/\/github.com\/Crypto-Expert\/HoboNickels",
+        "branch": "master"
+    },
+    "HC": {
+        "name": "Harvest Masternode Coin",
+        "github": "https:\/\/github.com\/HarvestMasternodecoin\/Harvestcoin",
+        "branch": "master"
+    },
+    "HIGH": {
+        "name": "High Gain",
+        "github": "https:\/\/github.com\/highgainqubit\/highgain",
+        "branch": "master"
+    },
+    "HOLD": {
+        "name": "Interstellar Holdings",
+        "github": "https:\/\/github.com\/InterstellarHoldings\/InterstellarHoldings\/",
+        "branch": "master"
+    },
+    "HONEY": {
+        "name": "Honey",
+        "github": "https:\/\/github.com\/cryptofun\/honey\/",
+        "branch": "master"
+    },
+    "HPC": {
+        "name": "Happycoin",
+        "github": "https:\/\/github.com\/happycoinmaster\/Happycoin",
+        "branch": "master"
+    },
+    "HVCO": {
+        "name": "High Voltage",
+        "github": "https:\/\/github.com\/highvoltagecoin\/highvoltagecoin",
+        "branch": "master"
+    },
+    "HWC": {
+        "name": "HollyWoodCoin",
+        "github": "https:\/\/github.com\/hollywoodcoin-project\/HollyWoodCoin",
+        "branch": "master"
+    },
+    "HXX": {
+        "name": "Hexx",
+        "github": "https:\/\/github.com\/hexxcointakeover\/hexxcoin",
+        "branch": "master"
+    },
+    "HYP": {
+        "name": "HyperStake",
+        "github": "https:\/\/github.com\/hyperstake\/HyperStake",
+        "branch": "master"
+    },
+    "HYPER": {
+        "name": "Hyper",
+        "github": "https:\/\/github.com\/CryptoDatabase\/hyper",
+        "branch": "master"
+    },
+    "I0C": {
+        "name": "I0Coin",
+        "github": "https:\/\/github.com\/domob1812\/i0coin",
+        "branch": "master"
+    },
+    "IBANK": {
+        "name": "iBank",
+        "github": "https:\/\/github.com\/ibankgroup\/Ibank",
+        "branch": "master"
+    },
+    "ICON": {
+        "name": "Iconic",
+        "github": "https:\/\/github.com\/iconictoken\/iconic",
+        "branch": "master"
+    },
+    "IFC": {
+        "name": "Infinitecoin",
+        "github": "https:\/\/github.com\/infinitecoin\/infinitecoin",
+        "branch": "master"
+    },
+    "IFLT": {
+        "name": "InflationCoin",
+        "github": "https:\/\/github.com\/inflationcoin\/inflationcoin",
+        "branch": "master"
+    },
+    "IMS": {
+        "name": "Independent Money System",
+        "github": "https:\/\/github.com\/independentmoneysystem\/IMSCoin",
+        "branch": "master"
+    },
+    "IMX": {
+        "name": "Impact",
+        "github": "https:\/\/github.com\/Impactcoin\/IMX\/",
+        "branch": "master"
+    },
+    "INFX": {
+        "name": "Influxcoin",
+        "github": "https:\/\/github.com\/chainworksindustries\/influx\/",
+        "branch": "master"
+    },
+    "INN": {
+        "name": "Innova",
+        "github": "https:\/\/github.com\/innovacoin\/innova",
+        "branch": "master"
+    },
+    "INSN": {
+        "name": "InsaneCoin",
+        "github": "https:\/\/github.com\/CryptoCoderz\/INSN",
+        "branch": "master"
+    },
+    "IOC": {
+        "name": "I\/O Coin",
+        "github": "https:\/\/github.com\/IOCoin\/DIONS",
+        "branch": "master"
+    },
+    "ION": {
+        "name": "ION",
+        "github": "https:\/\/github.com\/ionomy\/ion",
+        "branch": "master"
+    },
+    "IPC": {
+        "name": "IPChain",
+        "github": "https:\/\/github.com\/IPCChain\/ipchain",
+        "branch": "master"
+    },
+    "IRL": {
+        "name": "IrishCoin",
+        "github": "https:\/\/github.com\/IrishCoinProject\/IrishCoin",
+        "branch": "master"
+    },
+    "ISL": {
+        "name": "IslaCoin",
+        "github": "https:\/\/github.com\/islacoin\/islacoin",
+        "branch": "master"
+    },
+    "ITI": {
+        "name": "iTicoin",
+        "github": "https:\/\/github.com\/sppl\/iti",
+        "branch": "master"
+    },
+    "ITZ": {
+        "name": "Interzone",
+        "github": "https:\/\/github.com\/projectinterzone\/ITZ",
+        "branch": "master"
+    },
+    "IXC": {
+        "name": "Ixcoin",
+        "github": "https:\/\/github.com\/ixcore\/ixcoin",
+        "branch": "master"
+    },
+    "J": {
+        "name": "Joincoin",
+        "github": "https:\/\/github.com\/joincoin\/joincoin",
+        "branch": "master"
+    },
+    "JIYO": {
+        "name": "Jiyo",
+        "github": "https:\/\/github.com\/jiyocoin\/jiyo-core",
+        "branch": "master"
+    },
+    "KB3": {
+        "name": "B3Coin",
+        "github": "https:\/\/github.com\/B3-Coin\/B3-CoinV2",
+        "branch": "master"
+    },
+    "KNC": {
+        "name": "KingN Coin",
+        "github": "https:\/\/github.com\/ulandort\/kingncoin-source",
+        "branch": "master"
+    },
+    "KOBO": {
+        "name": "Kobocoin",
+        "github": "https:\/\/github.com\/kobocoin\/Kobocoin",
+        "branch": "master"
+    },
+    "KURT": {
+        "name": "Kurrent",
+        "github": "https:\/\/github.com\/kurrentproject\/Kurrent",
+        "branch": "master"
+    },
+    "KUSH": {
+        "name": "KushCoin",
+        "github": "https:\/\/github.com\/kushcoin-project\/kushcoin",
+        "branch": "master"
+    },
+    "LANA": {
+        "name": "LanaCoin",
+        "github": "https:\/\/github.com\/LanaCoin\/lanacoin",
+        "branch": "master"
+    },
+    "LBTC": {
+        "name": "LiteBitcoin",
+        "github": "https:\/\/github.com\/litebitcoins\/litebitcoin",
+        "branch": "master"
+    },
+    "LCP": {
+        "name": "Litecoin Plus",
+        "github": "https:\/\/github.com\/Crypto-Currency\/litecoinplus",
+        "branch": "master"
+    },
+    "LEA": {
+        "name": "LeaCoin",
+        "github": "https:\/\/github.com\/leacoin\/LeaCoin",
+        "branch": "master"
+    },
+    "LEO": {
+        "name": "LEOcoin",
+        "github": "https:\/\/github.com\/Leocoin-project\/LEOcoin",
+        "branch": "master"
+    },
+    "LINDA": {
+        "name": "Linda",
+        "github": "https:\/\/github.com\/Lindacoin\/Linda\/",
+        "branch": "master"
+    },
+    "LIR": {
+        "name": "LetItRide",
+        "github": "https:\/\/github.com\/shogdite\/letitride",
+        "branch": "master"
+    },
+    "LOG": {
+        "name": "Woodcoin",
+        "github": "https:\/\/github.com\/funkshelper\/woodcore",
+        "branch": "master"
+    },
+    "LTB": {
+        "name": "LiteBar",
+        "github": "https:\/\/github.com\/Crypto-Currency\/litebar",
+        "branch": "master"
+    },
+    "LTC": {
+        "name": "Litecoin",
+        "github": "https:\/\/github.com\/litecoin-project\/litecoin",
+        "branch": "master"
+    },
+    "LUX": {
+        "name": "LUXCoin",
+        "github": "https:\/\/github.com\/216k155\/lux",
+        "branch": "master"
+    },
+    "MAC": {
+        "name": "Machinecoin",
+        "github": "https:\/\/github.com\/machinecoin-project\/machinecoin-core",
+        "branch": "master"
+    },
+    "MAG": {
+        "name": "Magnet",
+        "github": "https:\/\/github.com\/magnetwork\/magnet",
+        "branch": "master"
+    },
+    "MAGN": {
+        "name": "Magnetcoin",
+        "github": "https:\/\/github.com\/magnetcoindev\/MagnetCoin",
+        "branch": "master"
+    },
+    "MAO": {
+        "name": "Mao Zedong",
+        "github": "https:\/\/github.com\/mao-zedongx\/mao-zedong\/",
+        "branch": "master"
+    },
+    "MARX": {
+        "name": "MarxCoin",
+        "github": "https:\/\/github.com\/MARXCOIN01\/MARX",
+        "branch": "master"
+    },
+    "MAY": {
+        "name": "Theresa May Coin",
+        "github": "https:\/\/github.com\/ZuluFourM1ke\/TheresaMayCoin-v1.0.1.0",
+        "branch": "master"
+    },
+    "MCRN": {
+        "name": "MACRON",
+        "github": "https:\/\/github.com\/MacronCoin\/Macron",
+        "branch": "master"
+    },
+    "MEC": {
+        "name": "Megacoin",
+        "github": "https:\/\/github.com\/LIMXTEC\/Megacoin",
+        "branch": "master"
+    },
+    "MEME": {
+        "name": "Memetic \/ PepeCoin",
+        "github": "https:\/\/github.com\/pepeteam\/pepecoin",
+        "branch": "master"
+    },
+    "METAL": {
+        "name": "MetalCoin",
+        "github": "https:\/\/github.com\/Metalde\/MetalCoin",
+        "branch": "master"
+    },
+    "MLM": {
+        "name": "MktCoin",
+        "github": "https:\/\/github.com\/Mktcoin-official\/Mktcoin",
+        "branch": "master"
+    },
+    "MNM": {
+        "name": "Mineum",
+        "github": "https:\/\/github.com\/antho281\/MINEUM",
+        "branch": "master"
+    },
+    "MNX": {
+        "name": "MinexCoin",
+        "github": "https:\/\/github.com\/minexcoin\/minexcoin",
+        "branch": "master"
+    },
+    "MOJO": {
+        "name": "MojoCoin",
+        "github": "https:\/\/github.com\/MOJOv3\/mojocoin",
+        "branch": "master"
+    },
+    "MONK": {
+        "name": "Monkey Project",
+        "github": "https:\/\/github.com\/MONKEYPROJECT\/Monkey",
+        "branch": "master"
+    },
+    "MRQ": {
+        "name": "MIRQ",
+        "github": "https:\/\/github.com\/mrqcoin\/mrq",
+        "branch": "master"
+    },
+    "MST": {
+        "name": "MustangCoin",
+        "github": "https:\/\/github.com\/mustangcoin\/mst-v3",
+        "branch": "master"
+    },
+    "MTNC": {
+        "name": "Masternodecoin",
+        "github": "https:\/\/github.com\/masternodecoin\/masternodecoin",
+        "branch": "master"
+    },
+    "MXT": {
+        "name": "MarteXcoin",
+        "github": "https:\/\/github.com\/martexcoin\/martexcoin",
+        "branch": "master"
+    },
+    "NAMO": {
+        "name": "NamoCoin",
+        "github": "https:\/\/github.com\/namocoin\/NamoCoin",
+        "branch": "master"
+    },
+    "NEVA": {
+        "name": "NevaCoin",
+        "github": "https:\/\/github.com\/Nevacoin\/nevacoin",
+        "branch": "master"
+    },
+    "NKA": {
+        "name": "IncaKoin",
+        "github": "https:\/\/github.com\/madross\/incakoin-new\/",
+        "branch": "master"
+    },
+    "NLX": {
+        "name": "Nullex",
+        "github": "https:\/\/github.com\/white92d15b7\/GPU-Coin",
+        "branch": "master"
+    },
+    "NMS": {
+        "name": "Numus",
+        "github": "https:\/\/github.com\/numuscrypto\/numuscore",
+        "branch": "master"
+    },
+    "NOBL": {
+        "name": "NobleCoin",
+        "github": "https:\/\/github.com\/NobleCoinNOBL\/noblecoin",
+        "branch": "master"
+    },
+    "NRO": {
+        "name": "Neuro",
+        "github": "https:\/\/github.com\/neurocoin\/neurocoin",
+        "branch": "master"
+    },
+    "NTRN": {
+        "name": "Neutron",
+        "github": "https:\/\/github.com\/neutroncoin\/neutron",
+        "branch": "master"
+    },
+    "NUMUS": {
+        "name": "NumusCash",
+        "github": "https:\/\/github.com\/Numuscash\/Numus",
+        "branch": "master"
+    },
+    "NVC": {
+        "name": "Novacoin",
+        "github": "https:\/\/github.com\/novacoin-project\/novacoin",
+        "branch": "master"
+    },
+    "OCC": {
+        "name": "Octoin Coin",
+        "github": "https:\/\/github.com\/OctoinCoin\/octoin",
+        "branch": "master"
+    },
+    "OK": {
+        "name": "OKCash",
+        "github": "https:\/\/github.com\/okcashpro\/okcash",
+        "branch": "master"
+    },
+    "OMC": {
+        "name": "Omicron",
+        "github": "https:\/\/github.com\/Gladimor\/Omicron-Investment-Platform",
+        "branch": "master"
+    },
+    "ONION": {
+        "name": "DeepOnion",
+        "github": "https:\/\/github.com\/deeponion\/deeponion",
+        "branch": "master"
+    },
+    "OPC": {
+        "name": "OP Coin",
+        "github": "https:\/\/github.com\/rfo92\/OPCoin",
+        "branch": "master"
+    },
+    "ORE": {
+        "name": "Galactrum",
+        "github": "https:\/\/github.com\/galactrum\/galactrum",
+        "branch": "master"
+    },
+    "PAK": {
+        "name": "Pakcoin",
+        "github": "https:\/\/github.com\/pakcoin-project\/pakcoin\/",
+        "branch": "master"
+    },
+    "PEX": {
+        "name": "PosEx",
+        "github": "https:\/\/github.com\/PosEx\/Posex",
+        "branch": "master"
+    },
+    "PHO": {
+        "name": "Photon",
+        "github": "https:\/\/github.com\/photonproject\/photon",
+        "branch": "master"
+    },
+    "PHR": {
+        "name": "Phore",
+        "github": "https:\/\/github.com\/phoreproject\/Phore",
+        "branch": "master"
+    },
+    "PHS": {
+        "name": "Philosopher Stones",
+        "github": "https:\/\/github.com\/VladK75\/philosopherstone",
+        "branch": "master"
+    },
+    "PIGGY": {
+        "name": "Piggycoin",
+        "github": "https:\/\/github.com\/piggycoin\/newpiggycoin",
+        "branch": "master"
+    },
+    "PINK": {
+        "name": "PinkCoin",
+        "github": "https:\/\/github.com\/Pink2Dev\/Pink2",
+        "branch": "master"
+    },
+    "PIVX": {
+        "name": "PIVX",
+        "github": "https:\/\/github.com\/PIVX-Project\/PIVX\/",
+        "branch": "master"
+    },
+    "PLACO": {
+        "name": "PlayerCoin",
+        "github": "https:\/\/github.com\/TheCryptoServices\/PlayerCoin",
+        "branch": "master"
+    },
+    "PND": {
+        "name": "Pandacoin",
+        "github": "https:\/\/github.com\/DigitalPandacoin\/pandacoin",
+        "branch": "master"
+    },
+    "PNX": {
+        "name": "Phantomx",
+        "github": "https:\/\/github.com\/phantomxdev\/phantomx",
+        "branch": "master"
+    },
+    "POLIS": {
+        "name": "Polis",
+        "github": "https:\/\/github.com\/polispay\/polis",
+        "branch": "master"
+    },
+    "POP": {
+        "name": "PopularCoin",
+        "github": "https:\/\/github.com\/Pop-Currency-Foundation\/PopularCoin",
+        "branch": "master"
+    },
+    "POST": {
+        "name": "PostCoin",
+        "github": "https:\/\/github.com\/PostCoinDevelopers\/PostCoin\/",
+        "branch": "master"
+    },
+    "PROUD": {
+        "name": "PROUD Money",
+        "github": "https:\/\/github.com\/Gaycoins\/GAYcoin-Online",
+        "branch": "master"
+    },
+    "PURE": {
+        "name": "Pure",
+        "github": "https:\/\/github.com\/puredev321\/pure",
+        "branch": "master"
+    },
+    "PUT": {
+        "name": "PutinCoin",
+        "github": "https:\/\/github.com\/PutinCoinPUT\/PutinCoin",
+        "branch": "master"
+    },
+    "PWR": {
+        "name": "Powercoin",
+        "github": "https:\/\/github.com\/PWRcoin\/PWRcoin",
+        "branch": "master"
+    },
+    "PXC": {
+        "name": "Phoenixcoin",
+        "github": "https:\/\/github.com\/ghostlander\/Phoenixcoin",
+        "branch": "master"
+    },
+    "Q2C": {
+        "name": "QubitCoin",
+        "github": "https:\/\/github.com\/willowrose\/QubitCoin",
+        "branch": "master"
+    },
+    "QBC": {
+        "name": "Quebecoin",
+        "github": "https:\/\/github.com\/morinpa\/QBC",
+        "branch": "master"
+    },
+    "QBT": {
+        "name": "Cubits",
+        "github": "https:\/\/github.com\/scificrypto\/CubitsV3",
+        "branch": "master"
+    },
+    "QTL": {
+        "name": "Quatloo",
+        "github": "https:\/\/github.com\/quatloos\/quatloo",
+        "branch": "master"
+    },
+    "QTUM": {
+        "name": "Qtum",
+        "github": "https:\/\/github.com\/qtumproject\/qtum\/",
+        "branch": "master"
+    },
+    "RADS": {
+        "name": "Radium",
+        "github": "https:\/\/github.com\/RadiumCore\/radium-0.11\/",
+        "branch": "master"
+    },
+    "RBY": {
+        "name": "Rubycoin",
+        "github": "https:\/\/github.com\/rubycoinorg\/rubycoin",
+        "branch": "master"
+    },
+    "RC": {
+        "name": "RussiaCoin",
+        "github": "https:\/\/github.com\/RussiaCoinDotInfo\/RussiaCoin\/",
+        "branch": "master"
+    },
+    "RDD": {
+        "name": "ReddCoin",
+        "github": "https:\/\/github.com\/reddcoin-project\/reddcoin",
+        "branch": "master"
+    },
+    "RED": {
+        "name": "RedCoin",
+        "github": "https:\/\/github.com\/redcoinproject\/redcoin",
+        "branch": "master"
+    },
+    "REGA": {
+        "name": "Regacoin",
+        "github": "https:\/\/github.com\/REGAcoin\/REGA\/",
+        "branch": "master"
+    },
+    "RIC": {
+        "name": "Riecoin",
+        "github": "https:\/\/github.com\/riecoin\/riecoin",
+        "branch": "master"
+    },
+    "RNS": {
+        "name": "Renos",
+        "github": "https:\/\/github.com\/RenosCoin\/RenosCoin\/",
+        "branch": "master"
+    },
+    "ROOFS": {
+        "name": "Roofs",
+        "github": "https:\/\/github.com\/roofsdev\/roofs",
+        "branch": "master"
+    },
+    "RUP": {
+        "name": "Rupee",
+        "github": "https:\/\/github.com\/rupeedigitalassets\/RUPEE",
+        "branch": "master"
+    },
+    "RUPX": {
+        "name": "Rupaya",
+        "github": "https:\/\/github.com\/rupaya-project\/rupaya",
+        "branch": "master"
+    },
+    "RVN": {
+        "name": "Ravencoin",
+        "github": "https:\/\/github.com\/RavenProject\/Ravencoin",
+        "branch": "master"
+    },
+    "SAGA": {
+        "name": "SagaCoin",
+        "github": "https:\/\/github.com\/sagacrypto\/SagaCoin",
+        "branch": "master"
+    },
+    "SAK": {
+        "name": "Sharkcoin",
+        "github": "https:\/\/github.com\/shark-git\/sharkcoin",
+        "branch": "master"
+    },
+    "SBC": {
+        "name": "StrikeBitClub",
+        "github": "https:\/\/github.com\/sbccoin\/sbccoin-source",
+        "branch": "master"
+    },
+    "SFC": {
+        "name": "Solarflarecoin",
+        "github": "https:\/\/github.com\/solarflareproject\/solarflarecoin",
+        "branch": "master"
+    },
+    "SHA": {
+        "name": "SHACoin",
+        "github": "https:\/\/github.com\/AltcoinsBeta\/SHACoin-Dead",
+        "branch": "master"
+    },
+    "SHND": {
+        "name": "StrongHands",
+        "github": "https:\/\/github.com\/stronghands\/stronghands",
+        "branch": "master"
+    },
+    "SIB": {
+        "name": "SIBCoin",
+        "github": "https:\/\/github.com\/ivansib\/sibcoin\/",
+        "branch": "master"
+    },
+    "SKC": {
+        "name": "Skeincoin",
+        "github": "http:\/\/github.com\/skeincoin\/skeincoin",
+        "branch": "master"
+    },
+    "SLR": {
+        "name": "SolarCoin",
+        "github": "https:\/\/github.com\/onsightit\/solarcoin",
+        "branch": "master"
+    },
+    "SLS": {
+        "name": "SaluS",
+        "github": "https:\/\/github.com\/saluscoin\/SaluS",
+        "branch": "master"
+    },
+    "SNRG": {
+        "name": "Synergy",
+        "github": "https:\/\/github.com\/Grandpa-Jones\/Synergy",
+        "branch": "master"
+    },
+    "SOCC": {
+        "name": "SocialCoin",
+        "github": "https:\/\/github.com\/SocialCoinNetwk\/SocialCoin",
+        "branch": "master"
+    },
+    "SONG": {
+        "name": "SongCoin",
+        "github": "https:\/\/github.com\/Songcoin\/Songcoin",
+        "branch": "master"
+    },
+    "SPACE": {
+        "name": "SpaceCoin",
+        "github": "https:\/\/github.com\/midnight-miner\/spacecoin",
+        "branch": "master"
+    },
+    "SPD": {
+        "name": "Stipend",
+        "github": "https:\/\/github.com\/Stipend-Developer\/stipend",
+        "branch": "master"
+    },
+    "SPHR": {
+        "name": "Sphere",
+        "github": "https:\/\/github.com\/SphereDevs\/sphere\/",
+        "branch": "master"
+    },
+    "SPK": {
+        "name": "Sparks",
+        "github": "https:\/\/github.com\/SparksReborn\/sparkspay\/",
+        "branch": "master"
+    },
+    "SPR": {
+        "name": "SpreadCoin",
+        "github": "https:\/\/github.com\/spreadcoin\/spreadcoin",
+        "branch": "master"
+    },
+    "SPRTS": {
+        "name": "Sprouts",
+        "github": "https:\/\/github.com\/sprouts-coin-org\/sprouts",
+        "branch": "master"
+    },
+    "SRC": {
+        "name": "SecureCoin",
+        "github": "https:\/\/github.com\/securecoin\/Securecoin",
+        "branch": "master"
+    },
+    "STAK": {
+        "name": "STRAKS",
+        "github": "https:\/\/github.com\/straks\/straks",
+        "branch": "master"
+    },
+    "STARS": {
+        "name": "StarCash Network",
+        "github": "https:\/\/github.com\/cybernetik7\/StarCash-Network-2.0",
+        "branch": "master"
+    },
+    "STN": {
+        "name": "Steneum Coin",
+        "github": "https:\/\/github.com\/dhabitafx\/steneum",
+        "branch": "master"
+    },
+    "STV": {
+        "name": "Sativacoin",
+        "github": "https:\/\/github.com\/NewSativacoinDev\/sativacoin",
+        "branch": "master"
+    },
+    "SUPER": {
+        "name": "SuperCoin",
+        "github": "https:\/\/github.com\/CryptoUnited\/SuperCoin",
+        "branch": "master"
+    },
+    "SWING": {
+        "name": "Swing",
+        "github": "https:\/\/github.com\/SwingCoin\/Swing\/",
+        "branch": "master"
+    },
+    "SXC": {
+        "name": "Sexcoin",
+        "github": "https:\/\/github.com\/sexcoin-project\/sexcoin",
+        "branch": "master"
+    },
+    "TAJ": {
+        "name": "TajCoin",
+        "github": "https:\/\/github.com\/Taj-Coin\/tajcoin",
+        "branch": "master"
+    },
+    "TEK": {
+        "name": "TEKcoin",
+        "github": "https:\/\/github.com\/maxxine\/TEK",
+        "branch": "master"
+    },
+    "TELL": {
+        "name": "Tellurion",
+        "github": "https:\/\/github.com\/telluriondev\/tellurion",
+        "branch": "master"
+    },
+    "TES": {
+        "name": "TeslaCoin",
+        "github": "https:\/\/github.com\/TeslacoinFoundation\/Teslacoin-v.3.3",
+        "branch": "master"
+    },
+    "THC": {
+        "name": "HempCoin",
+        "github": "https:\/\/github.com\/hempcoin-project\/THC",
+        "branch": "master"
+    },
+    "TOA": {
+        "name": "ToaCoin",
+        "github": "https:\/\/github.com\/toacoin\/TOA",
+        "branch": "master"
+    },
+    "TOKC": {
+        "name": "TOKYO",
+        "github": "https:\/\/github.com\/tokyocoindev\/tokyocoinsrc",
+        "branch": "master"
+    },
+    "TOP": {
+        "name": "TopCoin",
+        "github": "https:\/\/github.com\/cloudstick\/TopCoin3",
+        "branch": "master"
+    },
+    "TRI": {
+        "name": "Triangles",
+        "github": "https:\/\/github.com\/wurstgelee\/triangles",
+        "branch": "master"
+    },
+    "TRK": {
+        "name": "Truckcoin",
+        "github": "https:\/\/github.com\/noise23\/Truckcoin",
+        "branch": "master"
+    },
+    "TTC": {
+        "name": "TittieCoin",
+        "github": "https:\/\/github.com\/tittiecoin\/tittiecoin",
+        "branch": "master"
+    },
+    "TX": {
+        "name": "TransferCoin",
+        "github": "https:\/\/github.com\/transferdev\/Transfercoin\/",
+        "branch": "master"
+    },
+    "UIS": {
+        "name": "Unitus",
+        "github": "https:\/\/github.com\/unitusdev\/unitus",
+        "branch": "master"
+    },
+    "ULA": {
+        "name": "Ulatech",
+        "github": "https:\/\/github.com\/UlaTechGroup\/UlatechGroup",
+        "branch": "master"
+    },
+    "UNIFY": {
+        "name": "Unify",
+        "github": "https:\/\/github.com\/SBDomains\/unify-source",
+        "branch": "master"
+    },
+    "UNIT": {
+        "name": "Universal Currency",
+        "github": "https:\/\/github.com\/unitcurrency\/unitcurrency\/",
+        "branch": "master"
+    },
+    "UNO": {
+        "name": "Unobtanium",
+        "github": "https:\/\/github.com\/unobtanium-official\/Unobtanium",
+        "branch": "master"
+    },
+    "USC": {
+        "name": "Ultimate Secure Cash",
+        "github": "https:\/\/github.com\/SilentTrader\/UltimateSecureCash",
+        "branch": "master"
+    },
+    "UTC": {
+        "name": "UltraCoin",
+        "github": "https:\/\/github.com\/presstab\/ultracoin-2",
+        "branch": "master"
+    },
+    "VEC2": {
+        "name": "VectorAI",
+        "github": "https:\/\/github.com\/vectorcoindev\/Vector",
+        "branch": "master"
+    },
+    "VIA": {
+        "name": "Viacoin",
+        "github": "https:\/\/github.com\/viacoin\/viacoin",
+        "branch": "master"
+    },
+    "VIDZ": {
+        "name": "PureVidz",
+        "github": "https:\/\/github.com\/purevidz\/vidzcoin",
+        "branch": "master"
+    },
+    "VIPS": {
+        "name": "Vipstar Coin",
+        "github": "https:\/\/github.com\/VIPSTARCOIN\/VIPSTARCOIN",
+        "branch": "master"
+    },
+    "VISIO": {
+        "name": "Visio",
+        "github": "https:\/\/github.com\/Fladirmacht\/visioX\/",
+        "branch": "master"
+    },
+    "VIVO": {
+        "name": "VIVO",
+        "github": "https:\/\/github.com\/vivocoin\/vivo\/",
+        "branch": "master"
+    },
+    "VOLT": {
+        "name": "Bitvolt",
+        "github": "https:\/\/github.com\/voltcoin\/Volt",
+        "branch": "master"
+    },
+    "VOT": {
+        "name": "VoteCoin",
+        "github": "https:\/\/github.com\/Tomas-M\/VoteCoin",
+        "branch": "master"
+    },
+    "VPRC": {
+        "name": "VapersCoin",
+        "github": "https:\/\/github.com\/vaperscoin\/vaperscoin",
+        "branch": "master"
+    },
+    "VRC": {
+        "name": "VeriCoin",
+        "github": "https:\/\/github.com\/vericoin\/vericoin",
+        "branch": "master"
+    },
+    "VSX": {
+        "name": "Vsync",
+        "github": "https:\/\/github.com\/VsyncCrypto\/VSX",
+        "branch": "master"
+    },
+    "VTA": {
+        "name": "Virtacoin",
+        "github": "https:\/\/github.com\/virtacoin\/VirtaCoinProject",
+        "branch": "master"
+    },
+    "VTC": {
+        "name": "Vertcoin",
+        "github": "https:\/\/github.com\/vertcoin\/vertcoin",
+        "branch": "master"
+    },
+    "VUC": {
+        "name": "Virta Unique Coin",
+        "github": "https:\/\/github.com\/virtauniquecoin\/virtauniquecoin-master",
+        "branch": "master"
+    },
+    "VULC": {
+        "name": "Vulcano",
+        "github": "https:\/\/github.com\/vulcanodev\/Vulcano",
+        "branch": "master"
+    },
+    "WC": {
+        "name": "WINCOIN",
+        "github": "https:\/\/github.com\/Wincoinofficial\/wincoin",
+        "branch": "master"
+    },
+    "WINK": {
+        "name": "Wink",
+        "github": "https:\/\/github.com\/winkchain\/wink",
+        "branch": "master"
+    },
+    "WOMEN": {
+        "name": "WomenCoin",
+        "github": "https:\/\/github.com\/womencoin\/womencoin",
+        "branch": "master"
+    },
+    "XBTC21": {
+        "name": "Bitcoin 21",
+        "github": "https:\/\/www.github.com\/bitcoin21\/v1.0",
+        "branch": "master"
+    },
+    "XBTS": {
+        "name": "Beatcoin",
+        "github": "https:\/\/github.com\/beatscoindev\/BeatsCoinV2",
+        "branch": "master"
+    },
+    "XCN": {
+        "name": "Cryptonite",
+        "github": "https:\/\/github.com\/pallas1\/Cryptonite\/",
+        "branch": "master"
+    },
+    "XCO": {
+        "name": "X-Coin",
+        "github": "https:\/\/github.com\/jimblasko\/xcoin",
+        "branch": "master"
+    },
+    "XCT": {
+        "name": "C-Bit",
+        "github": "https:\/\/github.com\/Infernoman\/C-Bit",
+        "branch": "master"
+    },
+    "XGOX": {
+        "name": "XGOX",
+        "github": "https:\/\/github.com\/bumbacoin\/xgox",
+        "branch": "master"
+    },
+    "XHI": {
+        "name": "HiCoin",
+        "github": "https:\/\/github.com\/hicoindev\/hicoin",
+        "branch": "master"
+    },
+    "XJO": {
+        "name": "Joulecoin",
+        "github": "https:\/\/github.com\/joulecoin\/joulecoin",
+        "branch": "master"
+    },
+    "XLR": {
+        "name": "Solaris",
+        "github": "https:\/\/github.com\/Solaris-Project\/Solaris\/",
+        "branch": "master"
+    },
+    "XMY": {
+        "name": "Myriad",
+        "github": "https:\/\/github.com\/myriadteam\/myriadcoin\/",
+        "branch": "master"
+    },
+    "XP": {
+        "name": "Experience Points",
+        "github": "https:\/\/github.com\/eXperiencePoints\/XPCoin\/",
+        "branch": "master"
+    },
+    "XPM": {
+        "name": "Primecoin",
+        "github": "https:\/\/github.com\/primecoin\/primecoin\/",
+        "branch": "master"
+    },
+    "XPTX": {
+        "name": "PlatinumBAR",
+        "github": "https:\/\/github.com\/xptx\/PlatinumBar",
+        "branch": "master"
+    },
+    "XQN": {
+        "name": "Quotient",
+        "github": "https:\/\/github.com\/CedricProfit\/Quotient",
+        "branch": "master"
+    },
+    "XRA": {
+        "name": "Ratecoin",
+        "github": "https:\/\/github.com\/RateCoinXRA\/ratecoin\/",
+        "branch": "master"
+    },
+    "XRE": {
+        "name": "RevolverCoin",
+        "github": "https:\/\/github.com\/RevolverCoin\/revolvercoin",
+        "branch": "master"
+    },
+    "XSN": {
+        "name": "Stakenet",
+        "github": "https:\/\/github.com\/X9Developers\/XSN",
+        "branch": "master"
+    },
+    "XSPEC": {
+        "name": "Spectrecoin",
+        "github": "https:\/\/github.com\/spectrecoin\/spectre",
+        "branch": "master"
+    },
+    "XST": {
+        "name": "Stealth",
+        "github": "https:\/\/github.com\/StealthSend\/Stealth\/",
+        "branch": "master"
+    },
+    "XTO": {
+        "name": "Tao",
+        "github": "https:\/\/github.com\/taoblockchain\/tao-core",
+        "branch": "master"
+    },
+    "XZC": {
+        "name": "ZCoin",
+        "github": "https:\/\/github.com\/zcoinofficial\/zcoin\/",
+        "branch": "master"
+    },
+    "YTN": {
+        "name": "YENTEN",
+        "github": "https:\/\/github.com\/conan-equal-newone\/yenten",
+        "branch": "master"
+    },
+    "ZCL": {
+        "name": "ZClassic",
+        "github": "https:\/\/github.com\/z-classic\/zclassic",
+        "branch": "master"
+    },
+    "ZEC": {
+        "name": "Zcash",
+        "github": "https:\/\/github.com\/zcash\/zcash",
+        "branch": "master"
+    },
+    "ZEIT": {
+        "name": "Zeitcoin",
+        "github": "https:\/\/github.com\/zeitcoin\/zeitcoin",
+        "branch": "master"
+    },
+    "ZENI": {
+        "name": "Zennies",
+        "github": "https:\/\/github.com\/zennies\/zennies",
+        "branch": "master"
+    },
+    "ZET": {
+        "name": "Zetacoin",
+        "github": "https:\/\/github.com\/zetacoin\/zetacoin",
+        "branch": "master"
+    },
+    "ZNY": {
+        "name": "Bitzeny",
+        "github": "https:\/\/github.com\/bitzeny\/bitzeny",
+        "branch": "master"
+    },
+    "ZOI": {
+        "name": "Zoin",
+        "github": "https:\/\/github.com\/zoinofficial\/zoin",
+        "branch": "master"
+    },
+    "ZUR": {
+        "name": "Zurcoin",
+        "github": "https:\/\/github.com\/zurcoin\/zurcoin",
+        "branch": "master"
+    },
+    "ZYD": {
+        "name": "Zayedcoin",
+        "github": "https:\/\/github.com\/ZayedCoin\/Zayedcoin",
+        "branch": "master"
+    },
+    "ZZC": {
+        "name": "ZoZoCoin",
+        "github": "https:\/\/github.com\/ZoZoCoin\/ZoZo-blockchain",
+        "branch": "master"
+    },
+    "42": {
+        "name": "42-coin",
+        "github": "https:\/\/github.com\/42-coin\/42",
+        "branch": "master"
+    },
+    "808": {
+        "name": "808Coin",
+        "github": "https:\/\/github.com\/maxxine\/808",
+        "branch": "master"
+    },
+    "1337": {
+        "name": "Elite",
+        "github": "https:\/\/github.com\/xenonflux\/1337",
+        "branch": "master"
+    }
+}

@@ -1,19 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "APR",
         "name": "APR Coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.apr-coin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2976500.0",
+            "source_code": "https:\/\/github.com\/APRCoin\/zenith-repository",
+            "explorers": [
+                "https:\/\/mnexplorer.apr-coin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/apr-coin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/aprcoin",
+                "https:\/\/discord.gg\/JST5A9T"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "APR",
+        "name": "APR Coin - Mainnet",
         "testnet": false,
         "port": 3133,
         "port_rpc": 3132,
         "protocol": {
-            "magic": "0x2e92eca4"
+            "magic": "0xa4ec922e"
         },
-        "seeds_dns": [
-            "167.99.171.144",
-            "206.189.160.179",
-            "167.99.171.144",
-            "206.189.160.179"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 46,
             "public": 12,
@@ -22,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000003ae9a3767e1a412e8ac769a4e99a7a1ca3cf2848c9e5abe1ea2fef8a2fd",
@@ -36,7 +55,7 @@
         "port": 13133,
         "port_rpc": 13132,
         "protocol": {
-            "magic": "0xbc922daa"
+            "magic": "0xaa2d92bc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -47,7 +66,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000a8cc5b18e27b3b0068d3a554d4f9b5661b092f4d467a8df2ca9407fef27",

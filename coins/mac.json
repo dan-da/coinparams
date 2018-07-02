@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "symbol": "MAC",
+        "name": "Machinecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/machinecoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1693210.0",
+            "source_code": "https:\/\/github.com\/machinecoin-project\/machinecoin-core",
+            "explorers": [
+                "https:\/\/explorer.machinecoin.io",
+                "https:\/\/chainz.cryptoid.info\/mac\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/machinecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/DaddBkN304_Jsg64Gn-CbA\/",
+                "https:\/\/discord.gg\/FfENPRW"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MAC",
+        "name": "Machinecoin - Mainnet",
+        "testnet": false,
+        "port": 40333,
+        "port_rpc": 40332,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "dnsseed1.machinecoin.io",
+            "dnsseed2.machinecoin.io",
+            "dnsseed3.machinecoin.io"
+        ],
+        "prefixes": {
+            "private": 178,
+            "public": 50,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": "mc",
+            "bip44": null
+        },
+        "hash_genesis_block": "6a1f879bcea5471cbfdee1fd0cb2ddcc4fed569a500e352d41de967703e83172",
+        "message_magic": "\u001cMachinecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MAC",
+        "name": "Machinecoin - Testnet",
+        "testnet": true,
+        "port": 50333,
+        "port_rpc": 50332,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "dnsseed1.machinecoin.io",
+            "dnsseed2.machinecoin.io",
+            "dnsseed3.machinecoin.io"
+        ],
+        "prefixes": {
+            "private": 178,
+            "public": 53,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "tmc",
+            "bip44": 1
+        },
+        "hash_genesis_block": "72059c481cc49a2941cc36bd0f070abfe1ccc6e329534602dbdef555547e895f",
+        "message_magic": "\u001cMachinecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "MAC",
+        "name": "Machinecoin - Regtest",
+        "testnet": true,
+        "port": 60333,
+        "port_rpc": 60332,
+        "protocol": {
+            "magic": "0xfac2c6ab"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 178,
+            "public": 55,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "rmc",
+            "bip44": 1
+        },
+        "hash_genesis_block": "62214f698865bf3308a4cddec2a18c1e9a98f272189f696e0f99d5d1b137912b",
+        "message_magic": "\u001cMachinecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

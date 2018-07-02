@@ -1,24 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "DMD",
         "name": "Diamond",
+        "supply": {
+            "max": "4380000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bit.diamonds"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=580725.0",
+            "source_code": "https:\/\/github.com\/DMDcoin\/Diamond",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/dmd\/",
+                "https:\/\/masternodes.online\/currencies\/DMD\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/diamond\/",
+            "message_board": [],
+            "chat": [
+                "http:\/\/dmdcoin.slack.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DMD",
+        "name": "Diamond - Mainnet",
         "testnet": false,
         "port": 17771,
         "port_rpc": 17770,
         "protocol": {
-            "magic": "0xfdbde8e4"
+            "magic": "0xe4e8bdfd"
         },
         "seeds_dns": [
-            "dnsseed.bit.diamonds",
-            "37.120.186.85",
-            "185.194.140.60",
-            "188.68.39.1",
-            "188.68.52.172",
-            "dnsseed.bit.diamonds",
-            "37.120.186.85",
-            "185.194.140.60",
-            "188.68.39.1",
-            "188.68.52.172"
+            "dnsseed.bit.diamonds"
         ],
         "prefixes": {
             "private": 218,
@@ -28,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 152
         },
         "hash_genesis_block": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",
@@ -42,10 +57,9 @@
         "port": 51474,
         "port_rpc": 17772,
         "protocol": {
-            "magic": "0xba657645"
+            "magic": "0x457665ba"
         },
         "seeds_dns": [
-            "dnsseed.bit.diamonds",
             "dnsseed.bit.diamonds"
         ],
         "prefixes": {
@@ -56,7 +70,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000029b550c0095513d9bb9dd14f88442573baca94d70e49018a510979c0f9b",

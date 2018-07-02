@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "IRL",
+        "name": "IrishCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/irishcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=612983.0",
+            "source_code": "https:\/\/github.com\/IrishCoinProject\/IrishCoin",
+            "explorers": [
+                "http:\/\/block.irishcoin.org:2750\/chain\/Irishcoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/irishcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "IRL",
+        "name": "IrishCoin - Mainnet",
+        "testnet": false,
+        "port": 12375,
+        "port_rpc": 11372,
+        "protocol": {
+            "magic": "0xf7c1b6db"
+        },
+        "seeds_dns": [
+            "node.irishcoin.org",
+            "dns.irishcoin.org"
+        ],
+        "prefixes": {
+            "public": 33,
+            "scripthash": 5,
+            "private": 161,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "31afc6c26b37f0e474ee3456e15797c58035cf6519adc705b56ae89a406793b8",
+        "message_magic": "\u001aIrishcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IRL",
+        "name": "IrishCoin - Testnet",
+        "testnet": true,
+        "port": 11375,
+        "port_rpc": 11375,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [
+            "testnode.irishcoin.org",
+            "testdns.irishcoin.org"
+        ],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",
+        "message_magic": "\u001aIrishcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

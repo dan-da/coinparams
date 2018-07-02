@@ -1,16 +1,40 @@
 {
-    "main": {
+    "meta": {
         "symbol": "PHR",
         "name": "Phore",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/phore.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3179265.0",
+            "source_code": "https:\/\/github.com\/phoreproject\/Phore",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/phr\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/phore\/",
+            "message_board": [
+                "https:\/\/medium.com\/@phoreblockchain"
+            ],
+            "chat": [
+                "https:\/\/t.me\/PhoreProject",
+                "https:\/\/discord.gg\/Aucncz5"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PHR",
+        "name": "Phore - Mainnet",
         "testnet": false,
         "port": 11771,
         "port_rpc": 11772,
         "protocol": {
-            "magic": "0xe9fdc491"
+            "magic": "0x91c4fde9"
         },
         "seeds_dns": [
-            "0",
-            "1",
             "dns0.phore.io",
             "phore.seed.rho.industries"
         ],
@@ -22,7 +46,7 @@
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 444
         },
         "hash_genesis_block": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",
@@ -36,7 +60,7 @@
         "port": 11773,
         "port_rpc": 11774,
         "protocol": {
-            "magic": "0xba657647"
+            "magic": "0x477665ba"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -47,7 +71,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf",

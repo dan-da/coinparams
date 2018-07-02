@@ -1,29 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BSD",
         "name": "BitSend",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.bitsend.info\/",
+                "http:\/\/www.mybitsend.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1370307",
+            "source_code": "https:\/\/github.com\/LIMXTEC\/BitSend",
+            "explorers": [
+                "http:\/\/exp.mybitsend.com\/",
+                "https:\/\/chainz.cryptoid.info\/bsd\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitsend\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BSD",
+        "name": "BitSend - Mainnet",
         "testnet": false,
         "port": 8886,
         "port_rpc": 8800,
         "protocol": {
-            "magic": "0xf9c2d5a3"
+            "magic": "0xa3d5c2f9"
         },
-        "seeds_dns": [
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76",
-            "213.136.80.93",
-            "213.136.86.202",
-            "213.136.86.205",
-            "213.136.86.207",
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76",
-            "213.136.80.93",
-            "213.136.86.202",
-            "213.136.86.205",
-            "213.136.86.207"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 204,
             "public": 102,
@@ -32,7 +40,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 91
         },
         "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
@@ -46,13 +54,9 @@
         "port": 18333,
         "port_rpc": 18800,
         "protocol": {
-            "magic": "0x0709110b"
+            "magic": "0x0b110907"
         },
         "seeds_dns": [
-            "testnetbitsend.jonasschnelli.ch",
-            "petertodd.org",
-            "bluematt.me",
-            "bitsend.schildbach.de",
             "testnet-seed.bitsend.jonasschnelli.ch",
             "seed.tbtc.petertodd.org",
             "testnet-seed.bluematt.me",
@@ -66,7 +70,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
@@ -80,7 +84,7 @@
         "port": 8885,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xaf2c1a4c"
+            "magic": "0x4c1a2caf"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -91,7 +95,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",

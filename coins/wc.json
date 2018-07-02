@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "WC",
+        "name": "WINCOIN",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/wincoin.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2249932",
+            "source_code": "https:\/\/github.com\/Wincoinofficial\/wincoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/wc"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/win-coin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/wincoinofficial.slack.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "WC",
+        "name": "WINCOIN - Mainnet",
+        "testnet": false,
+        "port": 11610,
+        "port_rpc": 11611,
+        "protocol": {
+            "magic": "0xf9beb4d9"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 73,
+            "scripthash": 83,
+            "private": 201,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 181
+        },
+        "hash_genesis_block": "00002d070395eb2af340fd091ffc40cfb81b2a37d467bbb34a80be86d2bc1048",
+        "message_magic": "\u001dWinCoin Signed Message, sun:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "WC",
+        "name": "WINCOIN - Testnet",
+        "testnet": true,
+        "port": 11610,
+        "port_rpc": 11611,
+        "protocol": {
+            "magic": "0xffe1d0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000d4fbbd4e637754619fada409ceec6913541c4a542738fd1f8aae8947013b",
+        "message_magic": "\u001dWinCoin Signed Message, sun:\n",
+        "decimals": 6
+    }
+}

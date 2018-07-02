@@ -1,12 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "TPAY",
         "name": "TokenPay",
+        "supply": {
+            "max": "25000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.tokenpay.com\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/tokenpay\/tokenpay",
+            "explorers": [
+                "http:\/\/explorer.tpay.ai\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/tokenpay\/",
+            "message_board": [
+                "https:\/\/medium.com\/tokenpay"
+            ],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/GgZih0NrYt2F11oXwQ11Cg"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "TPAY",
+        "name": "TokenPay - Mainnet",
         "testnet": false,
         "port": 8801,
         "port_rpc": 8800,
         "protocol": {
-            "magic": "0xb1e2f1fb"
+            "magic": "0xfbf1e2b1"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +42,7 @@
                 "public": "0x2c513bd7",
                 "private": "0x2c51c15a"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000008b71ab32e585a23f0de642dc113740144e94c0ece047751e9781f953ae9",
@@ -31,7 +56,7 @@
         "port": 16601,
         "port_rpc": 16600,
         "protocol": {
-            "magic": "0xb4442ca3"
+            "magic": "0xa32c44b4"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +67,7 @@
                 "public": "0x76c0fdfb",
                 "private": "0x76c1077a"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0002f40aaa035cf667855579231429fa53519286fef744f6cc346bf4327579c",

@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "IMS",
+        "name": "Independent Money System",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/independentmoneysystem.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1367664",
+            "source_code": "https:\/\/github.com\/independentmoneysystem\/IMSCoin",
+            "explorers": [
+                "http:\/\/96.44.134.252:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/independent-money-system\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "IMS",
+        "name": "Independent Money System - Mainnet",
+        "testnet": false,
+        "port": 6177,
+        "port_rpc": 6178,
+        "protocol": {
+            "magic": "0xcaa57766"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 3,
+            "scripthash": 85,
+            "private": 131,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000048564bdab999e626d575bcb071a18f578fc6f3b640ee813f5735c7796c0",
+        "message_magic": "'IndependentMoneySystem Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IMS",
+        "name": "Independent Money System - Testnet",
+        "testnet": true,
+        "port": 16177,
+        "port_rpc": 16178,
+        "protocol": {
+            "magic": "0xda5e9d5e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
+        "message_magic": "'IndependentMoneySystem Signed Message:\n",
+        "decimals": 8
+    }
+}

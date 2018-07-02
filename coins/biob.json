@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "BIOB",
+        "name": "BioBar",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/biobar-crypto.ml\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1816276.0",
+            "source_code": "https:\/\/github.com\/sassafrasstubby\/BioBar",
+            "explorers": [
+                "http:\/\/blockexp.com:8888\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/biobar\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BIOB",
+        "name": "BioBar - Mainnet",
+        "testnet": false,
+        "port": 37257,
+        "port_rpc": 37258,
+        "protocol": {
+            "magic": "0xa4d2f8a6"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 50,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000007dda5d2d1547f9247ff7863529cf12825cc866517534ac680b3a00b850",
+        "message_magic": "\u0017BioBar Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BIOB",
+        "name": "BioBar - Testnet",
+        "testnet": true,
+        "port": 21650,
+        "port_rpc": 21655,
+        "protocol": {
+            "magic": "0xb8a64dc2"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u0017BioBar Signed Message:\n",
+        "decimals": 8
+    }
+}

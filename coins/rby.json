@@ -1,18 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "RBY",
         "name": "Rubycoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.rubycoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1163834.0",
+            "source_code": "https:\/\/github.com\/rubycoinorg\/rubycoin",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/rby\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/rubycoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/slack.rubycoin.org\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "RBY",
+        "name": "Rubycoin - Mainnet",
         "testnet": false,
         "port": 5937,
         "port_rpc": 5938,
         "protocol": {
-            "magic": "0x11161213"
+            "magic": "0x13121611"
         },
         "seeds_dns": [
-            "earth.rubycoin.org",
-            "moon.rubycoin.org",
-            "zulu.prettyblock.com",
-            "yankee.prettyblock.com",
             "neptune.rubycoin.org",
             "pluto.rubycoin.org",
             "tango.prettyblock.com",
@@ -26,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 16
         },
         "hash_genesis_block": "00000760e24f1ad47f7a6e912bc9ed2b9ce013fc85ba217da8b079762f6b0058",

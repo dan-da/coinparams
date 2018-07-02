@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "GAIN",
+        "name": "UGAIN",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1575391.0",
+            "source_code": "https:\/\/github.com\/ugain1\/UGAIN-SRC",
+            "explorers": [
+                "http:\/\/ugain.silverdice.us:3002\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/ugain\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GAIN",
+        "name": "UGAIN - Mainnet",
+        "testnet": false,
+        "port": 7891,
+        "port_rpc": 7892,
+        "protocol": {
+            "magic": "0x06bbe2e5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 166,
+            "public": 38,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000000031bc418b96e5bd9a47b9b1f786a02234475cbb472d50855a93a421d1",
+        "message_magic": "\u0016UGAIN Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GAIN",
+        "name": "UGAIN - Testnet",
+        "testnet": true,
+        "port": 17891,
+        "port_rpc": 17892,
+        "protocol": {
+            "magic": "0x8bcfc39a"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000000031bc418b96e5bd9a47b9b1f786a02234475cbb472d50855a93a421d1",
+        "message_magic": "\u0016UGAIN Signed Message:\n",
+        "decimals": 8
+    }
+}

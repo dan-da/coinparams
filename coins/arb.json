@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "ARB",
+        "name": "ARbit",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1054576.0",
+            "source_code": "https:\/\/github.com\/ARbitcoin\/ARbit",
+            "explorers": [
+                "http:\/\/cryptobe.com\/chain\/ARbitCoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/arbit\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ARB",
+        "name": "ARbit - Mainnet",
+        "testnet": false,
+        "port": 31930,
+        "port_rpc": 31931,
+        "protocol": {
+            "magic": "0xe3a77c0e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 23,
+            "scripthash": 28,
+            "private": 151,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d63e8cf1f6894a67eb143655fba6c6fda0cfb6c066e38acc908ca38162d",
+        "message_magic": "\u0016ARbit Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ARB",
+        "name": "ARbit - Testnet",
+        "testnet": true,
+        "port": 31914,
+        "port_rpc": 31915,
+        "protocol": {
+            "magic": "0xadf1c2af"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u0016ARbit Signed Message:\n",
+        "decimals": 8
+    }
+}

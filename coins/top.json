@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "TOP",
+        "name": "TopCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/topcoin.us\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=765196.0",
+            "source_code": "https:\/\/github.com\/cloudstick\/TopCoin3",
+            "explorers": [
+                "http:\/\/explorer.topcoin.us\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/topcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "TOP",
+        "name": "TopCoin - Mainnet",
+        "testnet": false,
+        "port": 22561,
+        "port_rpc": 22562,
+        "protocol": {
+            "magic": "0xcefbfadb"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 8,
+            "private": 255,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d439165d4f937bd617eb8ee539ce9e801d8874ecbe90b2a54978a88d340",
+        "message_magic": "\u0019TopCoin3 Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "TOP",
+        "name": "TopCoin - Testnet",
+        "testnet": true,
+        "port": 32561,
+        "port_rpc": 32562,
+        "protocol": {
+            "magic": "0xcdf1c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000d439165d4f937bd617eb8ee539ce9e801d8874ecbe90b2a54978a88d340",
+        "message_magic": "\u0019TopCoin3 Signed Message:\n",
+        "decimals": 6
+    }
+}

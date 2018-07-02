@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "symbol": "BOAT",
+        "name": "BOAT",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/boatcoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1776066.0",
+            "source_code": "https:\/\/github.com\/OBAViJEST\/boatcoinfinal",
+            "explorers": [
+                "https:\/\/www.coinexplorer.net\/BOAT"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/doubloon\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/boatcoin",
+                "https:\/\/discord.gg\/RgkUSeF"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BOAT",
+        "name": "BOAT - Mainnet",
+        "testnet": false,
+        "port": 33827,
+        "port_rpc": 33828,
+        "protocol": {
+            "magic": "0x1c3b1aa3"
+        },
+        "seeds_dns": [
+            "seed1.Doubloon.trade",
+            "seed2.Doubloon.trade",
+            "seed3.Doubloon.trade",
+            "seed4.Doubloon.trade"
+        ],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 50,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "e428661f3bf5",
+        "message_magic": "\u0019Doubloon Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BOAT",
+        "name": "BOAT - Testnet",
+        "testnet": true,
+        "port": 33728,
+        "port_rpc": 33882,
+        "protocol": {
+            "magic": "0x2d3c0f1e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 109,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u0019Doubloon Signed Message:\n",
+        "decimals": 8
+    }
+}

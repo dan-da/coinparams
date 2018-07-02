@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "METAL",
+        "name": "MetalCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.metalmoshpit.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1101724.msg16016025#msg16016025",
+            "source_code": "https:\/\/github.com\/Metalde\/MetalCoin",
+            "explorers": [
+                "https:\/\/xchain.io\/asset\/METALCOIN"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/metalcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "METAL",
+        "name": "MetalCoin - Mainnet",
+        "testnet": false,
+        "port": 22332,
+        "port_rpc": 22333,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 50,
+            "scripthash": 28,
+            "private": 178,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000069a10d81a433e391e3f6696eaaf892c1711388dac257209cca300577e65",
+        "message_magic": "\u001aMetalCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "METAL",
+        "name": "MetalCoin - Testnet",
+        "testnet": true,
+        "port": 22330,
+        "port_rpc": 22331,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00004058932bc1698ce2d0cb1446d5bbf59414fa2d9e0d51f44007a229292510",
+        "message_magic": "\u001aMetalCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

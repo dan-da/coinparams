@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "OMC",
+        "name": "Omicron",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/delta.investments\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1603994.0",
+            "source_code": "https:\/\/github.com\/Gladimor\/Omicron-Investment-Platform",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/omc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/omicron\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "OMC",
+        "name": "Omicron - Mainnet",
+        "testnet": false,
+        "port": 8519,
+        "port_rpc": 8520,
+        "protocol": {
+            "magic": "0xf240ebb3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 15,
+            "scripthash": 85,
+            "private": 143,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000003f746e0a666c19ab4eecd597b492ade4d0c3e4d550014372f2f2e2eade2",
+        "message_magic": "\u0018Omicron Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "OMC",
+        "name": "Omicron - Testnet",
+        "testnet": true,
+        "port": 18519,
+        "port_rpc": 18520,
+        "protocol": {
+            "magic": "0x151c9d41"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000003f746e0a666c19ab4eecd597b492ade4d0c3e4d550014372f2f2e2eade2",
+        "message_magic": "\u0018Omicron Signed Message:\n",
+        "decimals": 8
+    }
+}

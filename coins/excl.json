@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "symbol": "EXCL",
+        "name": "ExclusiveCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/exclusivecoin.pw"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1546005.0",
+            "source_code": "https:\/\/github.com\/exclfork\/ExclusiveCoin",
+            "explorers": [
+                "http:\/\/www.cryptobe.com\/chain\/ExclusiveCoin",
+                "https:\/\/masternodes.online\/currencies\/EXCL\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/exclusivecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/excl-invite.herokuapp.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EXCL",
+        "name": "ExclusiveCoin - Mainnet",
+        "testnet": false,
+        "port": 23230,
+        "port_rpc": 23231,
+        "protocol": {
+            "magic": "0xa23d2ff3"
+        },
+        "seeds_dns": [
+            "nodes.exclusivecoin.pw"
+        ],
+        "prefixes": {
+            "private": 161,
+            "public": 33,
+            "scripthash": 137,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 190
+        },
+        "hash_genesis_block": "000007156509515339b8d7ba056ca7c448a3c2be2eade1bc80440b3b4350bab5",
+        "message_magic": "\u001eExclusiveCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "CURE",
         "name": "Curecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/curecoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=603757.0",
+            "source_code": "https:\/\/github.com\/cygnusxi\/CurecoinSource",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/cure\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/curecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/2FDg8nu"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CURE",
+        "name": "Curecoin - Mainnet",
         "testnet": false,
         "port": 9911,
         "port_rpc": 19911,
         "protocol": {
-            "magic": "0xe5e9e8e4"
+            "magic": "0xe4e8e9e5"
         },
         "seeds_dns": [
             "seed.curecoin.net",
@@ -20,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000ce427729d5393dbf9f464e7a1d2c039e393e881f93448516b1530b688fc",
@@ -34,7 +57,7 @@
         "port": 8600,
         "port_rpc": 18600,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -45,7 +68,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000a25934ca63ddc77adf8fe033cfb5f847e5687943ad717bb95ff041a74eb7",

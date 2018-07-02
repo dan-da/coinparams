@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "XPTX",
+        "name": "PlatinumBAR",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/platinumbar.io"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1448143",
+            "source_code": "https:\/\/github.com\/xptx\/PlatinumBar",
+            "explorers": [
+                "http:\/\/xptx.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/platinumbar\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XPTX",
+        "name": "PlatinumBAR - Mainnet",
+        "testnet": false,
+        "port": 18993,
+        "port_rpc": 18994,
+        "protocol": {
+            "magic": "0x03030606"
+        },
+        "seeds_dns": [
+            "seed1.platinumbar.io",
+            "seed2.platinumbar.io",
+            "seed3.platinumbar.io",
+            "seed4.platinumbar.io",
+            "seed5.platinumbar.io"
+        ],
+        "prefixes": {
+            "private": 214,
+            "public": 55,
+            "scripthash": 117,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000004de475b31954fbf3febb2c9d88da9a5591323cec370dfdb8a8b0ce3f2d8",
+        "message_magic": "\u001cPlatinumBar Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XPTX",
+        "name": "PlatinumBAR - Testnet",
+        "testnet": true,
+        "port": 15001,
+        "port_rpc": 15002,
+        "protocol": {
+            "magic": "0x01020304"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 246,
+            "public": 117,
+            "scripthash": 55,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000a52831c8bf218f8a3e6dfd53388ac1de5bfc5ddb048bf3494ec4ea43ca52",
+        "message_magic": "\u001cPlatinumBar Signed Message:\n",
+        "decimals": 8
+    }
+}

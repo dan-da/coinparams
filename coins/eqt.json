@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "symbol": "EQT",
+        "name": "EquiTrader",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.equitrader.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1849442.0",
+            "source_code": "https:\/\/github.com\/equitrader\/Equitrade",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/eqt\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/equitrader\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/Equi_Trader"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EQT",
+        "name": "EquiTrader - Mainnet",
+        "testnet": false,
+        "port": 43103,
+        "port_rpc": 43102,
+        "protocol": {
+            "magic": "0xb4f8e7a5"
+        },
+        "seeds_dns": [
+            "seed1.cryptolife.net",
+            "seed2.cryptolife.net",
+            "seed3.cryptolife.net",
+            "seed5.cryptolife.net",
+            "wallet.cryptolife.net",
+            "explore.cryptolife.net"
+        ],
+        "prefixes": {
+            "public": 33,
+            "scripthash": 20,
+            "private": 161,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000dddf1b7a90d3b3239094f8812699bdb348f873f0c29e68535717d5215b7",
+        "message_magic": "\u001bEquiTrader Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "EQT",
+        "name": "EquiTrader - Testnet",
+        "testnet": true,
+        "port": 17778,
+        "port_rpc": 18345,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000022908b074b5f1d1164772d32b9385e285ad9ad5c84009973b442038fa82",
+        "message_magic": "\u001bEquiTrader Signed Message:\n",
+        "decimals": 8
+    }
+}

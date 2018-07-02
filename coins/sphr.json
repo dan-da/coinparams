@@ -1,21 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SPHR",
         "name": "Sphere",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/sphrpay.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1052560",
+            "source_code": "https:\/\/github.com\/SphereDevs\/sphere",
+            "explorers": [
+                "http:\/\/sphere.iquidus.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sphere\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SPHR",
+        "name": "Sphere - Mainnet",
         "testnet": false,
         "port": 37544,
         "port_rpc": 37545,
         "protocol": {
-            "magic": "0x3011b8a8"
+            "magic": "0xa8b81130"
         },
         "seeds_dns": [
-            "162.243.247.203",
-            "162.243.25.133",
-            "104.236.163.165",
-            "gqunlgogqx7x42zy.onion",
-            "162.243.247.203",
-            "162.243.25.133",
-            "104.236.163.165",
             "gqunlgogqx7x42zy.onion"
         ],
         "prefixes": {
@@ -26,7 +40,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",
@@ -40,7 +54,7 @@
         "port": 27544,
         "port_rpc": 27545,
         "protocol": {
-            "magic": "0x1249e78d"
+            "magic": "0x8de74912"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -51,7 +65,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00001f60dc7ff24d6eefb369ce6878e886815907cf44ceb45aa12a1d30b28acd",

@@ -1,12 +1,37 @@
 {
+    "meta": {
+        "symbol": "42",
+        "name": "42-coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/42-coin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1502028",
+            "source_code": "https:\/\/github.com\/42-coin\/42",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/42\/",
+                "https:\/\/prohashing.com\/explorer\/42\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/42-coin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/chat42coin",
+                "https:\/\/discordapp.com\/invite\/ge2gUHy"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "42",
-        "name": "42-Coin",
+        "name": "42-coin - Mainnet",
         "testnet": false,
         "port": 4242,
         "port_rpc": 2121,
         "protocol": {
-            "magic": "0x0b14051d"
+            "magic": "0x1d05140b"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000004cf6cc5eec2d2d564fa45c26278ed72014822a601c1ff02cd84d0ef63be",
@@ -26,12 +51,12 @@
     },
     "test": {
         "symbol": "42",
-        "name": "42-Coin - Testnet",
+        "name": "42-coin - Testnet",
         "testnet": true,
         "port": 42420,
         "port_rpc": 21210,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +67,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000bc79a2049b1430c77d81fad3373070e65668b21792d298ae5dde3e7abb8",

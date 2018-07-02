@@ -1,21 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BTX",
         "name": "Bitcore",
+        "supply": {
+            "max": "21000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitcore.cc\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1883902.0",
+            "source_code": "https:\/\/github.com\/LIMXTEC\/BitCore",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/btx",
+                "http:\/\/insight.bitcore.cc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcore\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bitcore_btx_official"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BTX",
+        "name": "Bitcore - Mainnet",
         "testnet": false,
         "port": 8555,
         "port_rpc": 8556,
         "protocol": {
-            "magic": "0xd9b4bef9"
+            "magic": "0xf9beb4d9"
         },
-        "seeds_dns": [
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76",
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 128,
             "public": 0,
@@ -24,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 160
         },
         "hash_genesis_block": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
@@ -38,16 +55,9 @@
         "port": 18333,
         "port_rpc": 50332,
         "protocol": {
-            "magic": "0x0709110b"
+            "magic": "0x0b110907"
         },
-        "seeds_dns": [
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76",
-            "188.68.52.172",
-            "37.120.186.85",
-            "37.120.190.76"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 239,
             "public": 111,
@@ -56,7 +66,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",
@@ -70,11 +80,9 @@
         "port": 18444,
         "port_rpc": 50332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [
-            "dnsseed1.bitcore.org",
-            "dnsseed2.bitcore.org",
             "dnsseed1.bitcore.org",
             "dnsseed2.bitcore.org"
         ],
@@ -86,7 +94,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574",

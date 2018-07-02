@@ -1,12 +1,35 @@
 {
+    "meta": {
+        "symbol": "HWC",
+        "name": "HollyWoodCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/hollywoodcoin.us\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2378670",
+            "source_code": "https:\/\/github.com\/hollywoodcoin-project\/HollyWoodCoin",
+            "explorers": [
+                "http:\/\/chain.hollywoodcoin.biz\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/hollywoodcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/hollywoodcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "HWC",
-        "name": "Hollywood Coin",
+        "name": "HollyWoodCoin - Mainnet",
         "testnet": false,
         "port": 10267,
         "port_rpc": 11030,
         "protocol": {
-            "magic": "0x4f9d403b"
+            "magic": "0x3b409d4f"
         },
         "seeds_dns": [
             "seed.hollywoodcoin.biz"
@@ -19,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",
@@ -28,12 +51,12 @@
     },
     "test": {
         "symbol": "HWC",
-        "name": "Hollywood Coin - Testnet",
+        "name": "HollyWoodCoin - Testnet",
         "testnet": true,
         "port": 20267,
         "port_rpc": 21030,
         "protocol": {
-            "magic": "0x80784e6c"
+            "magic": "0x6c4e7880"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +67,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000418c55096b5ffaad25266162c24c8c51241cbdc16b32d53311f65dbbc38",

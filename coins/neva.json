@@ -1,0 +1,90 @@
+{
+    "meta": {
+        "symbol": "NEVA",
+        "name": "NevaCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/nevacoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1388222.0",
+            "source_code": "https:\/\/github.com\/Nevacoin\/nevacoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/neva\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/nevacoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/neva_coin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "NEVA",
+        "name": "NevaCoin - Mainnet",
+        "testnet": false,
+        "port": 7391,
+        "port_rpc": 3791,
+        "protocol": {
+            "magic": "0xe483e632"
+        },
+        "seeds_dns": [
+            "n1.nevacoin.net",
+            "n2.nevacoin.net",
+            "n3.nevacoin.net",
+            "n4.nevacoin.net",
+            "seed.crypto.si",
+            "node.bit-coin.pw",
+            "krile.bit-coin.pw",
+            "neva-seed01.chainworksindustries.com",
+            "neva-seed02.chainworksindustries.com",
+            "neva-seed03.chainworksindustries.com",
+            "neva-seed04.chainworksindustries.com",
+            "neva-seed05.chainworksindustries.com"
+        ],
+        "prefixes": {
+            "private": 177,
+            "public": 53,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6",
+        "message_magic": "\u0019Nevacoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "NEVA",
+        "name": "NevaCoin - Testnet",
+        "testnet": true,
+        "port": 17391,
+        "port_rpc": 13791,
+        "protocol": {
+            "magic": "0xac43fe8c"
+        },
+        "seeds_dns": [
+            "test1.nevacoin.pw"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4",
+        "message_magic": "\u0019Nevacoin Signed Message:\n",
+        "decimals": 8
+    }
+}

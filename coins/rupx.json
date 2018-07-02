@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "symbol": "RUPX",
+        "name": "Rupaya",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.rupayacoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2956408",
+            "source_code": "https:\/\/github.com\/rupaya-project\/rupaya",
+            "explorers": [
+                "http:\/\/node2.rupayacoin.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/rupaya\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.co\/hrjiNGFSUW"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "RUPX",
+        "name": "Rupaya - Mainnet",
+        "testnet": false,
+        "port": 9020,
+        "port_rpc": 7020,
+        "protocol": {
+            "magic": "0x63434956"
+        },
+        "seeds_dns": [
+            "seeds.rupx.io",
+            "dns1.rupx.io",
+            "dns2.rupayacoin.org",
+            "dns3.rupayacoin.org",
+            "dns4.rupx.io",
+            "dns5.rupx.io"
+        ],
+        "prefixes": {
+            "private": 212,
+            "public": 15,
+            "scripthash": 8,
+            "bip32": {
+                "public": "0x022d2533",
+                "private": "0x0221312b"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000059f8ba2b9ec3f6690af8d118ff1ffd7d791a420636d147846393d7be6b2",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
+    }
+}

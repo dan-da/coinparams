@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "CAT",
+        "name": "Catcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.catcoins.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1118569",
+            "source_code": "https:\/\/github.com\/CatcoinOfficial\/CatcoinRelease",
+            "explorers": [
+                "http:\/\/catcoinwallets.com:2750\/chain\/Catcoin",
+                "http:\/\/cat.smartchain.cc\/",
+                "https:\/\/prohashing.com\/explorer\/Catcoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/catcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CAT",
+        "name": "Catcoin - Mainnet",
+        "testnet": false,
+        "port": 9933,
+        "port_rpc": 9932,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [
+            "seed.catcoinwallets.com",
+            "cat.geekhash.org"
+        ],
+        "prefixes": {
+            "public": 21,
+            "scripthash": 88,
+            "private": 149,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "bc3b4ec43c4ebb2fef49e6240812549e61ffa623d9418608aa90eaad26c96296",
+        "message_magic": "\u0018Catcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "CAT",
+        "name": "Catcoin - Testnet",
+        "testnet": true,
+        "port": 19933,
+        "port_rpc": 19932,
+        "protocol": {
+            "magic": "0xfdcbb8dd"
+        },
+        "seeds_dns": [
+            "seed.catcoinwallets.com"
+        ],
+        "prefixes": {
+            "public": 23,
+            "scripthash": 83,
+            "private": 151,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0xec7987a2ab5225246c5cf9b8d93b4b75bcef383a4a65d5a265bc09ed54006188",
+        "message_magic": "\u0018Catcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

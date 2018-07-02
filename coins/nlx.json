@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "symbol": "NLX",
+        "name": "Nullex",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/nullex.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3354072.0",
+            "source_code": "https:\/\/github.com\/white92d15b7\/GPU-Coin",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/nullex\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/6NjS8aT",
+                "https:\/\/t.me\/NullexOfficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "NLX",
+        "name": "Nullex - Mainnet",
+        "testnet": false,
+        "port": 6897,
+        "port_rpc": 6898,
+        "protocol": {
+            "magic": "0x9f180a16"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 38,
+            "scripthash": 85,
+            "private": 166,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e1a057a1f4ede09d189c448ec56b260eb2a6c4744d46352f97ad8be838e",
+        "message_magic": "\u0017NulleX Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "NLX",
+        "name": "Nullex - Testnet",
+        "testnet": true,
+        "port": 16897,
+        "port_rpc": 16898,
+        "protocol": {
+            "magic": "0x4671f75e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000e1a057a1f4ede09d189c448ec56b260eb2a6c4744d46352f97ad8be838e",
+        "message_magic": "\u0017NulleX Signed Message:\n",
+        "decimals": 8
+    }
+}

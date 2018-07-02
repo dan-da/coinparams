@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "symbol": "YTN",
+        "name": "YENTEN",
+        "supply": {
+            "max": "84000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/conan-equal-newone.github.io\/yenten\/",
+                "http:\/\/yenten.isg.is\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2329470.0",
+            "source_code": "https:\/\/github.com\/conan-equal-newone\/yenten",
+            "explorers": [
+                "https:\/\/cryptoservices.net\/en\/ytn-explorer",
+                "http:\/\/explorer.yenten.lolpool.club\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/yenten\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/24tHJUW"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "YTN",
+        "name": "YENTEN - Mainnet",
+        "testnet": false,
+        "port": 9981,
+        "port_rpc": 9252,
+        "protocol": {
+            "magic": "0xad5aeb9f"
+        },
+        "seeds_dns": [
+            "seed.yenten.org"
+        ],
+        "prefixes": {
+            "private": 123,
+            "public": 78,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00001828d845205a951f9609e011775e035b00c7fb476310261ef30460cdccab",
+        "message_magic": "\u0017Yenten Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "YTN",
+        "name": "YENTEN - Testnet",
+        "testnet": true,
+        "port": 19981,
+        "port_rpc": 19252,
+        "protocol": {
+            "magic": "0x9554e495"
+        },
+        "seeds_dns": [
+            "seed.yenten.org",
+            "testnet-seed.yenten.jp"
+        ],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 197,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00002a66f0c687f619934409d376c52fe721833f05940e4c20deaaa0122d7fb8",
+        "message_magic": "\u0017Yenten Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "YTN",
+        "name": "YENTEN - Regtest",
+        "testnet": true,
+        "port": 18432,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xaffb5bad"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 197,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "7f84c3ff0d9c579380a6c8d9c9e4acd4425a3ade4a7df65d97138a89bc541361",
+        "message_magic": "\u0017Yenten Signed Message:\n",
+        "decimals": 8
+    }
+}

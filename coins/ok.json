@@ -1,20 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "OK",
         "name": "OKCash",
+        "supply": {
+            "max": "105000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/okcash.co"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1028368.0",
+            "source_code": "https:\/\/github.com\/okcashpro\/okcash",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/ok\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/okcash\/",
+            "message_board": [
+                "https:\/\/okcashtalk.org\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "OK",
+        "name": "OKCash - Mainnet",
         "testnet": false,
         "port": 6970,
         "port_rpc": 6969,
         "protocol": {
-            "magic": "0x690ff069"
+            "magic": "0x69f00f69"
         },
         "seeds_dns": [
-            "okcash.co",
-            "okcash.co",
-            "okcash.co",
-            "okcash.co",
-            "okcash.co",
-            "okcash.co",
             "seed1.okcash.co",
             "seed2.okcash.co",
             "seed3.okcash.co",
@@ -30,7 +47,7 @@
                 "public": "0x03cc23d7",
                 "private": "0x03cc1c73"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 69
         },
         "hash_genesis_block": "0000046309984501e5e724498cddb4aff41a126927355f64b44f1b8bba4f447e",
@@ -44,7 +61,7 @@
         "port": 7980,
         "port_rpc": 7979,
         "protocol": {
-            "magic": "0x0f7a0900"
+            "magic": "0x00097a0f"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -55,7 +72,7 @@
                 "public": "0x043418bb",
                 "private": "0x04341156"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000e3283629707a14a6c5f3297995095ac0e337b2af9bca1358d4788ed86169",

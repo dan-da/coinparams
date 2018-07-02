@@ -1,0 +1,346 @@
+{
+  "title": "coinparams json schema version 0.1.7",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://raw.githubusercontent.com/dan-da/coinparams/v0.1.7/schema.json",
+  "type": "object",
+  "properties": {
+    "main": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "testnet": {
+          "type": "boolean"
+        },
+        "protocol": {
+          "type": "object",
+          "properties": {
+            "magic": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "magic"
+          ]
+        },
+        "port": {
+          "type": "integer"
+        },
+        "seeds_dns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "versions": {
+          "type": "object",
+          "properties": {
+            "private": {
+              "type": "integer"
+            },
+            "public": {
+              "type": "integer"
+            },
+            "scripthash": {
+              "type": "integer"
+            },
+            "bip32": {
+              "type": "object",
+              "properties": {
+                "public": {
+                  "type": "string"
+                },
+                "private": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "public",
+                "private"
+              ]
+            },
+            "bech32_hrp": {
+              "type": "string"
+            },
+            "bip44": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "private",
+            "public",
+            "scripthash",
+            "bip32",
+            "bech32_hrp",
+            "bip44"
+          ]
+        },
+        "hash_genesis_block": {
+          "type": "string"
+        },
+        "port_rpc": {
+          "type": "integer"
+        },
+        "decimals": {
+          "type": "integer"
+        },
+        "message_magic": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit",
+        "name",
+        "testnet",
+        "protocol",
+        "port",
+        "seeds_dns",
+        "versions",
+        "hash_genesis_block",
+        "port_rpc",
+        "decimals",
+        "message_magic"
+      ]
+    },
+    "test": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "testnet": {
+          "type": "boolean"
+        },
+        "protocol": {
+          "type": "object",
+          "properties": {
+            "magic": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "magic"
+          ]
+        },
+        "port": {
+          "type": "integer"
+        },
+        "seeds_dns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "versions": {
+          "type": "object",
+          "properties": {
+            "private": {
+              "type": "integer"
+            },
+            "public": {
+              "type": "integer"
+            },
+            "scripthash": {
+              "type": "integer"
+            },
+            "bip32": {
+              "type": "object",
+              "properties": {
+                "public": {
+                  "type": "string"
+                },
+                "private": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "public",
+                "private"
+              ]
+            },
+            "bech32_hrp": {
+              "type": "string"
+            },
+            "bip44": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "private",
+            "public",
+            "scripthash",
+            "bip32",
+            "bech32_hrp",
+            "bip44"
+          ]
+        },
+        "hash_genesis_block": {
+          "type": "string"
+        },
+        "port_rpc": {
+          "type": "integer"
+        },
+        "decimals": {
+          "type": "integer"
+        },
+        "message_magic": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit",
+        "name",
+        "testnet",
+        "protocol",
+        "port",
+        "seeds_dns",
+        "versions",
+        "hash_genesis_block",
+        "port_rpc",
+        "decimals",
+        "message_magic"
+      ]
+    },
+    "regtest": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "testnet": {
+          "type": "boolean"
+        },
+        "protocol": {
+          "type": "object",
+          "properties": {
+            "magic": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "magic"
+          ]
+        },
+        "port": {
+          "type": "integer"
+        },
+        "seeds_dns": {
+          "type": "array",
+          "items": {}
+        },
+        "versions": {
+          "type": "object",
+          "properties": {
+            "private": {
+              "type": "integer"
+            },
+            "public": {
+              "type": "integer"
+            },
+            "scripthash": {
+              "type": "integer"
+            },
+            "bip32": {
+              "type": "object",
+              "properties": {
+                "public": {
+                  "type": "string"
+                },
+                "private": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "public",
+                "private"
+              ]
+            },
+            "bech32_hrp": {
+              "type": "string"
+            },
+            "bip44": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "private",
+            "public",
+            "scripthash",
+            "bip32",
+            "bech32_hrp",
+            "bip44"
+          ]
+        },
+        "hash_genesis_block": {
+          "type": "string"
+        },
+        "port_rpc": {
+          "type": "integer"
+        },
+        "decimals": {
+          "type": "integer"
+        },
+        "message_magic": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit",
+        "name",
+        "testnet",
+        "protocol",
+        "port",
+        "seeds_dns",
+        "versions",
+        "hash_genesis_block",
+        "port_rpc",
+        "decimals",
+        "message_magic"
+      ]
+    }
+  },
+  "required": [
+    "main"
+  ]
+}

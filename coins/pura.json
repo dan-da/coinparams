@@ -1,23 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "PURA",
         "name": "Pura",
+        "supply": {
+            "max": "350000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.pura.one\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2129477.0",
+            "source_code": "https:\/\/github.com\/puracore\/pura",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/pura\/",
+                "https:\/\/www.coinexplorer.net\/PURA"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pura\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/puraofficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PURA",
+        "name": "Pura - Mainnet",
         "testnet": false,
         "port": 44444,
         "port_rpc": 55555,
         "protocol": {
-            "magic": "0x43c597b8"
+            "magic": "0xb897c543"
         },
-        "seeds_dns": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 150,
             "public": 55,
@@ -26,10 +41,10 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
-        "hash_genesis_block": "0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd8",
+        "hash_genesis_block": "0x0000059f97335f77b9fd3c1a22f584fb01ea94e22fed7c02f3e54c0049faadd80x368908bd515eeb857ac5fe1679c429d8ad1582f975a6be0b4efb6646c6837d35",
         "message_magic": "\u0015Pura Signed Message:\n",
         "decimals": 8
     },
@@ -40,14 +55,9 @@
         "port": 44443,
         "port_rpc": 55554,
         "protocol": {
-            "magic": "0x42c596b7"
+            "magic": "0xb796c542"
         },
-        "seeds_dns": [
-            "",
-            "",
-            "",
-            ""
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 239,
             "public": 140,
@@ -56,7 +66,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000622dfb4d5a2d83c43d60495419c82a0ee6659f210f5e8a0ed4ae7b40c59",
@@ -70,7 +80,7 @@
         "port": 44442,
         "port_rpc": 55553,
         "protocol": {
-            "magic": "0x41c395b6"
+            "magic": "0xb695c341"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -81,10 +91,10 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
-        "hash_genesis_block": "77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b19",
+        "hash_genesis_block": "0x77383bab0ca55efa081834d1913d01a77764633e77979955a5f2be42dc6d7b190x368908bd515eeb857ac5fe1679c429d8ad1582f975a6be0b4efb6646c6837d35",
         "message_magic": "\u0015Pura Signed Message:\n",
         "decimals": 8
     }

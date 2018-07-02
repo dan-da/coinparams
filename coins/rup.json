@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "symbol": "RUP",
+        "name": "Rupee",
+        "supply": {
+            "max": "84000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/rupeeblockchain.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2232289.0",
+            "source_code": "https:\/\/github.com\/rupeedigitalassets\/RUPEE",
+            "explorers": [
+                "https:\/\/www.blockexperts.com\/rup",
+                "http:\/\/rupexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/rupee\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/rupeeblockchain"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "RUP",
+        "name": "Rupee - Mainnet",
+        "testnet": false,
+        "port": 10459,
+        "port_rpc": 10460,
+        "protocol": {
+            "magic": "0x3b69ded4"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 60,
+            "scripthash": 5,
+            "private": 188,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "fb6a19a31293de12035e5cdaadce2a8552d3feeec6fa5f910101d9d8c579b566",
+        "message_magic": "\u0016RUPEE Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "RUP",
+        "name": "Rupee - Testnet",
+        "testnet": true,
+        "port": 20459,
+        "port_rpc": 20460,
+        "protocol": {
+            "magic": "0x06b9e2cd"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x83b9153a393cb8b9c4857932f37b2c3fb8ce65077029b8f7e3b2db11a7fae0d1",
+        "message_magic": "\u0016RUPEE Signed Message:\n",
+        "decimals": 8
+    }
+}

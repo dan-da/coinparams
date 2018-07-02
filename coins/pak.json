@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "PAK",
+        "name": "Pakcoin",
+        "supply": {
+            "max": "182000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.pakcoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1096893.0",
+            "source_code": "https:\/\/github.com\/pakcoin-project\/pakcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/pak\/",
+                "https:\/\/prohashing.com\/explorer\/Pakcoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pakcoin\/",
+            "message_board": [],
+            "chat": [
+                "http:\/\/t.me\/pakcoingroup"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PAK",
+        "name": "Pakcoin - Mainnet",
+        "testnet": false,
+        "port": 7867,
+        "port_rpc": 7866,
+        "protocol": {
+            "magic": "0x70616b63"
+        },
+        "seeds_dns": [
+            "seed.pakcoin.org"
+        ],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 5,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "3091f440b6dfcf5d00be71b75bceded11f8606decaa339fe2c9f59e8efcfded2",
+        "message_magic": "\u0018Pakcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "PAK",
+        "name": "Pakcoin - Testnet",
+        "testnet": true,
+        "port": 17867,
+        "port_rpc": 17866,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x48ce59ea60dec70e478a07e2362f1bade9d7c025072a301121fcf3fd9ff84933",
+        "message_magic": "\u0018Pakcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

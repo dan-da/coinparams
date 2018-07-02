@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "FLT",
+        "name": "FlutterCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.fluttercoin.me\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=752630.0",
+            "source_code": "https:\/\/github.com\/ofeefee\/fluttercoin",
+            "explorers": [
+                "http:\/\/www.presstab.pw\/phpexplorer\/FLT\/",
+                "https:\/\/prohashing.com\/explorer\/Fluttercoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/fluttercoin\/",
+            "message_board": [
+                "http:\/\/fluttercointalk.com"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FLT",
+        "name": "FlutterCoin - Mainnet",
+        "testnet": false,
+        "port": 7408,
+        "port_rpc": 7474,
+        "protocol": {
+            "magic": "0xcfd1e8ea"
+        },
+        "seeds_dns": [
+            "dnsseed.fluttercoin.me"
+        ],
+        "prefixes": {
+            "public": 35,
+            "scripthash": 20,
+            "private": 163,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e95eda26ced69bcda5d4794e153c54b2a7edb7752439a7c5d376238c7e0",
+        "message_magic": "\u001cFlutterCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "FLT",
+        "name": "FlutterCoin - Testnet",
+        "testnet": true,
+        "port": 17408,
+        "port_rpc": 17474,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000074e6ba00a73a1ab0a802b1665107690a23d2b1b2363a83f102aaa78a8708",
+        "message_magic": "\u001cFlutterCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

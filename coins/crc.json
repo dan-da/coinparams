@@ -1,0 +1,111 @@
+{
+    "meta": {
+        "symbol": "CRC",
+        "name": "CrowdCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/crowdcoin.site\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2348866.0",
+            "source_code": "https:\/\/github.com\/crowdcoinChain\/Crowdcoin",
+            "explorers": [
+                "https:\/\/crcexplorer.crowdpool.site"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/crowdcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/VwkX3CY",
+                "https:\/\/t.me\/crowdcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CRC",
+        "name": "CrowdCoin - Mainnet",
+        "testnet": false,
+        "port": 12875,
+        "port_rpc": 9998,
+        "protocol": {
+            "magic": "0x1a4a5aaa"
+        },
+        "seeds_dns": [
+            "crowdcoin1.masterhash.us",
+            "crowdcoin2.masterhash.us",
+            "crowdcoin3.masterhash.us",
+            "crowdcoin4.masterhash.us",
+            "crowdcoin5.masterhash.us",
+            "crowdcoin6.masterhash.us",
+            "dns.shmest.win"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 28,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000007db550074c6535ce41c2a6043d0afbc86f17f1762b06e2cd65d100f7b5f",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "CRC",
+        "name": "CrowdCoin - Testnet",
+        "testnet": true,
+        "port": 13845,
+        "port_rpc": 19998,
+        "protocol": {
+            "magic": "0xda24b57a"
+        },
+        "seeds_dns": [
+            "testnet-dns.crowdcoinnodes.space"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 28,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000a8d0db898c786060f839e63529700bd00e4708b028206a8a60f391566d8",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "CRC",
+        "name": "CrowdCoin - Regtest",
+        "testnet": true,
+        "port": 13855,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xd124b57a"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 0,
+            "public": 28,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000037d4b8060928aab42001eb8e00c4efa744c24e311477a606918b5f77cee",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

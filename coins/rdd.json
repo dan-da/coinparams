@@ -1,18 +1,37 @@
 {
+    "meta": {
+        "symbol": "RDD",
+        "name": "ReddCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.reddcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=423597.0",
+            "source_code": "https:\/\/github.com\/reddcoin-project\/reddcoin",
+            "explorers": [
+                "http:\/\/live.reddcoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/reddcoin\/",
+            "message_board": [
+                "https:\/\/www.reddcointalk.org\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "RDD",
-        "name": "Reddcoin",
+        "name": "ReddCoin - Mainnet",
         "testnet": false,
         "port": 45444,
         "port_rpc": 45443,
         "protocol": {
-            "magic": "0xdbb6c0fb"
+            "magic": "0xfbc0b6db"
         },
         "seeds_dns": [
-            "reddcoin.com",
-            "dnsseed01.redd.ink",
-            "dnsseed02.redd.ink",
-            "dnsseed03.redd.ink",
             "seed.reddcoin.com",
             "dnsseed01.redd.ink",
             "dnsseed02.redd.ink",
@@ -26,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 4
         },
         "hash_genesis_block": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
@@ -35,16 +54,14 @@
     },
     "test": {
         "symbol": "RDD",
-        "name": "Reddcoin - Testnet",
+        "name": "ReddCoin - Testnet",
         "testnet": true,
         "port": 55444,
         "port_rpc": 55443,
         "protocol": {
-            "magic": "0xdeb9c3fe"
+            "magic": "0xfec3b9de"
         },
         "seeds_dns": [
-            "reddcoin.com",
-            "redd.ink",
             "testnet-seed.reddcoin.com",
             "testnet-dnsseed.redd.ink"
         ],
@@ -56,7 +73,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "a12ac9bd4cd26262c53a6277aafc61fe9dfe1e2b05eaa1ca148a5be8b394e35a",

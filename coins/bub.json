@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "BUB",
+        "name": "Bubble",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1348538.0",
+            "source_code": "https:\/\/github.com\/spayse\/Bubble",
+            "explorers": [
+                "https:\/\/cryptobe.com\/chain\/Bubble"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bubble\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BUB",
+        "name": "Bubble - Mainnet",
+        "testnet": false,
+        "port": 15716,
+        "port_rpc": 15719,
+        "protocol": {
+            "magic": "0xcd2119dd"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 128,
+            "public": 53,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000002adb9be617747c9473829522ff84bd1ce5ed6ee943553a42ca64e9c2928",
+        "message_magic": "\u0017Bubble Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BUB",
+        "name": "Bubble - Testnet",
+        "testnet": true,
+        "port": 38881,
+        "port_rpc": 38882,
+        "protocol": {
+            "magic": "0x08121619"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000772c897ca2f18846c85ccba7be651cdc5c30c7dfe437a5e1c76dda262e88",
+        "message_magic": "\u0017Bubble Signed Message:\n",
+        "decimals": 8
+    }
+}

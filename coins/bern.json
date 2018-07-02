@@ -1,0 +1,101 @@
+{
+    "meta": {
+        "symbol": "BERN",
+        "name": "BERNcash",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/berncoin.org\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/BERNiecoin\/BERNcash",
+            "explorers": [
+                "http:\/\/158.69.205.238:3002\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/berncash\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BERN",
+        "name": "BERNcash - Mainnet",
+        "testnet": false,
+        "port": 32020,
+        "port_rpc": 32016,
+        "protocol": {
+            "magic": "0x09111620"
+        },
+        "seeds_dns": [
+            "westseed.bern.cash",
+            "eastseed.bern.cash",
+            "cwi-seed01.bern.cash",
+            "cwi-seed02.bern.cash",
+            "cwi-seed03.bern.cash",
+            "cwi-seed04.bern.cash",
+            "cwi-seed05.bern.cash",
+            "cwi-seed06.bern.cash",
+            "cwi-seed07.bern.cash",
+            "cwi-seed08.bern.cash",
+            "cwi-seed09.bern.cash",
+            "cwi-seed10.bern.cash",
+            "cwi-seed11.bern.cash",
+            "cwi-seed12.bern.cash",
+            "cwi-seed13.bern.cash",
+            "cwi-seed14.bern.cash",
+            "cwi-seed15.bern.cash",
+            "cwi-seed16.bern.cash",
+            "cwi-seed17.bern.cash",
+            "cwi-seed18.bern.cash",
+            "cwi-seed19.bern.cash",
+            "cwi-seed20.bern.cash",
+            "cwi-seed21.bern.cash",
+            "cwi-seed22.bern.cash",
+            "cwi-seed23.bern.cash",
+            "cwi-seed24.bern.cash",
+            "cwi-seed25.bern.cash"
+        ],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 85,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "3a787ca8cd2114c31b9094d729e4d8485b23ce04e57b5528c18e98e31d17dead",
+        "message_magic": "\u0015BERN Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "BERN",
+        "name": "BERNcash - Testnet",
+        "testnet": true,
+        "port": 42020,
+        "port_rpc": 42016,
+        "protocol": {
+            "magic": "0x70352205"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 86,
+            "scripthash": 196,
+            "private": 214,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "787cd5c72fe58e6eb86845ca45eee05c932310ed684a6a712382a4a1de031f89",
+        "message_magic": "\u0015BERN Signed Message:\n",
+        "decimals": 6
+    }
+}

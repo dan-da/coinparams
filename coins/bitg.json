@@ -1,17 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BITG",
         "name": "Bitcoin Green",
+        "supply": {
+            "max": "21000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.savebitcoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2827989.0",
+            "source_code": "https:\/\/github.com\/bitcoingreen\/bitcoingreen",
+            "explorers": [
+                "http:\/\/explorer.savebitcoin.io\/",
+                "https:\/\/www.coinexplorer.net\/BITG"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-green\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BITG",
+        "name": "Bitcoin Green - Mainnet",
         "testnet": false,
         "port": 9333,
         "port_rpc": 9332,
         "protocol": {
-            "magic": "0xae12dc54"
+            "magic": "0x54dc12ae"
         },
         "seeds_dns": [
-            "seed1.savebitcoin.io",
-            "seed2.savebitcoin.io",
-            "seed3.savebitcoin.io",
             "seed1.savebitcoin.io",
             "seed2.savebitcoin.io",
             "seed3.savebitcoin.io"
@@ -24,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 222
         },
         "hash_genesis_block": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",
@@ -38,7 +57,7 @@
         "port": 19333,
         "port_rpc": 19332,
         "protocol": {
-            "magic": "0xbc322d4a"
+            "magic": "0x4a2d32bc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -49,7 +68,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b",

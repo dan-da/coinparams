@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "IMX",
+        "name": "Impact",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.impact-coin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1820918.0",
+            "source_code": "https:\/\/github.com\/Impactcoin\/IMX",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/imx\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/impact\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "IMX",
+        "name": "Impact - Mainnet",
+        "testnet": false,
+        "port": 22629,
+        "port_rpc": 21529,
+        "protocol": {
+            "magic": "0xb1f5d3a9"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 76,
+            "scripthash": 141,
+            "private": 204,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0073cf5568e3ce7070f0094a9a02593296b7b54e70bdf5204871672a809a6759",
+        "message_magic": "\u0017impact Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IMX",
+        "name": "Impact - Testnet",
+        "testnet": true,
+        "port": 22628,
+        "port_rpc": 21528,
+        "protocol": {
+            "magic": "0x"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 92,
+            "scripthash": 146,
+            "private": 220,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u0017impact Signed Message:\n",
+        "decimals": 8
+    }
+}

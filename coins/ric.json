@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "symbol": "RIC",
+        "name": "Riecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/riecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=446703.0",
+            "source_code": "https:\/\/github.com\/riecoin\/riecoin",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/ric\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/riecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "RIC",
+        "name": "Riecoin - Mainnet",
+        "testnet": false,
+        "port": 28333,
+        "port_rpc": 28332,
+        "protocol": {
+            "magic": "0xfcbcb2db"
+        },
+        "seeds_dns": [
+            "seed.bitcoin.sipa.be"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 60,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 143
+        },
+        "hash_genesis_block": "e1ea18d0676ef9899fbc78ef428d1d26a2416d0f0441d46668d33bcb41275740",
+        "message_magic": "\u0018riecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

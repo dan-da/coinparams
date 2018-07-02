@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "BTCR",
+        "name": "Bitcurrency",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1856970.0",
+            "source_code": "https:\/\/github.com\/zeded\/bitcurrency",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/btcr\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcurrency\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/x6Bh6Xj"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BTCR",
+        "name": "Bitcurrency - Mainnet",
+        "testnet": false,
+        "port": 15814,
+        "port_rpc": 15815,
+        "protocol": {
+            "magic": "0x70421309"
+        },
+        "seeds_dns": [
+            "seed.bitcurrency.co",
+            "foxy.seeds.darkfox.id.au",
+            "bcseed.syllabear.us.to"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 25,
+            "scripthash": 8,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000008764d5c635c287151cabaa066526f6aac5ac885b46f4183f8c1b7c357d4",
+        "message_magic": "\u001cBitCurrency Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BTCR",
+        "name": "Bitcurrency - Testnet",
+        "testnet": true,
+        "port": 25814,
+        "port_rpc": 25815,
+        "protocol": {
+            "magic": "0xbca4b0da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000bc53a50f95a98dd38be1ea73577e73f6232ad6483c213575a589ae32f8a0",
+        "message_magic": "\u001cBitCurrency Signed Message:\n",
+        "decimals": 8
+    }
+}

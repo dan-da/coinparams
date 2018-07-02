@@ -1,24 +1,43 @@
 {
-    "main": {
+    "meta": {
         "symbol": "PIVX",
         "name": "PIVX",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.pivx.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1262920",
+            "source_code": "https:\/\/github.com\/PIVX-Project\/PIVX",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/pivx\/",
+                "http:\/\/www.presstab.pw\/phpexplorer\/PIVX\/",
+                "http:\/\/pivx.presstab.pw"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pivx\/",
+            "message_board": [
+                "https:\/\/forum.pivx.org\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PIVX",
+        "name": "PIVX - Mainnet",
         "testnet": false,
         "port": 51472,
         "port_rpc": 51473,
         "protocol": {
-            "magic": "0xe9fdc490"
+            "magic": "0x90c4fde9"
         },
         "seeds_dns": [
-            "fuzzbawls.pw",
-            "fuzzbawls.pw",
-            "coin-server.com",
-            "s3v3nh4cks.ddns.net",
-            "178.254.23.111",
             "pivx.seed.fuzzbawls.pw",
             "pivx.seed2.fuzzbawls.pw",
             "coin-server.com",
-            "s3v3nh4cks.ddns.net",
-            "178.254.23.111"
+            "s3v3nh4cks.ddns.net"
         ],
         "prefixes": {
             "private": 212,
@@ -28,7 +47,7 @@
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 119
         },
         "hash_genesis_block": "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818",
@@ -42,17 +61,12 @@
         "port": 51474,
         "port_rpc": 51475,
         "protocol": {
-            "magic": "0xba657645"
+            "magic": "0x457665ba"
         },
         "seeds_dns": [
-            "fuzzbawls.pw",
-            "fuzzbawls.pw",
-            "s3v3nh4cks.ddns.net",
-            "88.198.192.110",
             "pivx-testnet.seed.fuzzbawls.pw",
             "pivx-testnet.seed2.fuzzbawls.pw",
-            "s3v3nh4cks.ddns.net",
-            "88.198.192.110"
+            "s3v3nh4cks.ddns.net"
         ],
         "prefixes": {
             "private": 239,
@@ -62,7 +76,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818",

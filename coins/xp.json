@@ -1,12 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XP",
         "name": "Experience Points",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.xpcoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2313170",
+            "source_code": "https:\/\/github.com\/eXperiencePoints\/XPCoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/xp\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/experience-points\/",
+            "message_board": [
+                "https:\/\/forum.xpcoin.io\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/xpcoin",
+                "https:\/\/discordapp.com\/invite\/NYMAUec"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XP",
+        "name": "Experience Points - Mainnet",
         "testnet": false,
         "port": 28192,
         "port_rpc": 28191,
         "protocol": {
-            "magic": "0xe5e2f8b4"
+            "magic": "0xb4f8e2e5"
         },
         "seeds_dns": [
             "seed1.xpcoin.io",
@@ -22,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0000065a10945931644cdda436d5ad0742d085e9dee3e7fdd51b822626727e78",
@@ -36,7 +62,7 @@
         "port": 17778,
         "port_rpc": 18345,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -47,7 +73,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",

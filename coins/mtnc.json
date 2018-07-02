@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "MTNC",
+        "name": "Masternodecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.masternodecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2056867.0",
+            "source_code": "https:\/\/github.com\/masternodecoin\/masternodecoin",
+            "explorers": [
+                "http:\/\/mtnc.snodo.de:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/masternodecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MTNC",
+        "name": "Masternodecoin - Mainnet",
+        "testnet": false,
+        "port": 10086,
+        "port_rpc": 10085,
+        "protocol": {
+            "magic": "0xd5ce8c5e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 178,
+            "public": 50,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000016046213f1d00cf060b74be707ee78cf9fadb6e5717935295c1ca3d9a4",
+        "message_magic": "\u001fMasternodecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MTNC",
+        "name": "Masternodecoin - Testnet",
+        "testnet": true,
+        "port": 11111,
+        "port_rpc": 11110,
+        "protocol": {
+            "magic": "0xf2aee7e4"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 97,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000016046213f1d00cf060b74be707ee78cf9fadb6e5717935295c1ca3d9a4",
+        "message_magic": "\u001fMasternodecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

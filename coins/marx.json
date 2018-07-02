@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "MARX",
+        "name": "MarxCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.marxcoin.com\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/MARXCOIN01\/MARX",
+            "explorers": [
+                "https:\/\/www.blockexperts.com\/marx"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/marxcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MARX",
+        "name": "MarxCoin - Mainnet",
+        "testnet": false,
+        "port": 41103,
+        "port_rpc": 41102,
+        "protocol": {
+            "magic": "0xfec3b9de"
+        },
+        "seeds_dns": [
+            "seed4.cryptolife.net",
+            "seed2.cryptolife.net",
+            "seed3.cryptolife.net",
+            "electrum3.cryptolife.net"
+        ],
+        "prefixes": {
+            "public": 51,
+            "scripthash": 5,
+            "private": 179,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d2cc6b7f42962160af9436ff7852e9e4fdb7659624ef1df5d1ccacad43c",
+        "message_magic": "\u0015MARX Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MARX",
+        "name": "MarxCoin - Testnet",
+        "testnet": true,
+        "port": 141103,
+        "port_rpc": 141102,
+        "protocol": {
+            "magic": "0xfec4bade"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000008da0e16960d6c2548da4831323b956d61370e2a3fdc5150188c5c478c49",
+        "message_magic": "\u0015MARX Signed Message:\n",
+        "decimals": 8
+    }
+}

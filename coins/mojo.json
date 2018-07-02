@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "symbol": "MOJO",
+        "name": "MojoCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/mojocoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1736600.0",
+            "source_code": "https:\/\/github.com\/MOJOv3\/mojocoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/mojo3\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mojocoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MOJO",
+        "name": "MojoCoin - Mainnet",
+        "testnet": false,
+        "port": 9495,
+        "port_rpc": 9496,
+        "protocol": {
+            "magic": "0x71312106"
+        },
+        "seeds_dns": [
+            "mojonode01.mojocoin.org",
+            "mojonode02.mojocoin.org",
+            "mojonode03.mojocoin.org",
+            "mojonode04.mojocoin.org",
+            "mojonode05.mojocoin.org",
+            "mojonode06.mojocoin.org",
+            "mojonode07.mojocoin.org",
+            "mojonode08.mojocoin.org",
+            "mojonode09.mojocoin.org"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 50,
+            "scripthash": 28,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000b38581f2f7297c2be4689e26dca446cb8c86d23e034791e0833dcea0b8c",
+        "message_magic": "\u0019Mojocoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MOJO",
+        "name": "MojoCoin - Testnet",
+        "testnet": true,
+        "port": 19495,
+        "port_rpc": 19496,
+        "protocol": {
+            "magic": "0xcef1c6e3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 97,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000647de02bbb1b56c568085024fbb79e2f27dba79ac20477fb2caae1a610d",
+        "message_magic": "\u0019Mojocoin Signed Message:\n",
+        "decimals": 8
+    }
+}

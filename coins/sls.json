@@ -1,17 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SLS",
         "name": "SaluS",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/saluscoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1317448.0",
+            "source_code": "https:\/\/github.com\/saluscoin\/SaluS",
+            "explorers": [
+                "https:\/\/cryptobe.com\/chain\/Salus",
+                "http:\/\/www.presstab.pw\/phpexplorer\/SLS"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/salus\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SLS",
+        "name": "SaluS - Mainnet",
         "testnet": false,
         "port": 22534,
         "port_rpc": 22530,
         "protocol": {
-            "magic": "0x21a7c5d3"
+            "magic": "0xd3c5a721"
         },
-        "seeds_dns": [
-            "198.50.243.69",
-            "198.50.243.69"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 191,
             "public": 63,
@@ -20,7 +39,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000003f07d368792f736f3098ad7201bb821883fbb66b27a8ee65be273847e02",

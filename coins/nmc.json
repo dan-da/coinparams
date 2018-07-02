@@ -1,12 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "NMC",
         "name": "Namecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.namecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/?topic=6017.0",
+            "source_code": "https:\/\/github.com\/namecoin\/namecoin-core",
+            "explorers": [
+                "https:\/\/namecoin.webbtc.com\/",
+                "https:\/\/namecha.in\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/namecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/telegram.me\/namecoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "NMC",
+        "name": "Namecoin - Mainnet",
         "testnet": false,
         "port": 8334,
         "port_rpc": 8336,
         "protocol": {
-            "magic": "0xfeb4bef9"
+            "magic": "0xf9beb4fe"
         },
         "seeds_dns": [
             "nmc.seed.quisquis.de",
@@ -20,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": "nc",
+            "bech32": "nc",
             "bip44": 7
         },
         "hash_genesis_block": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
@@ -34,7 +58,7 @@
         "port": 18334,
         "port_rpc": 18336,
         "protocol": {
-            "magic": "0xfeb5bffa"
+            "magic": "0xfabfb5fe"
         },
         "seeds_dns": [
             "dnsseed.test.namecoin.webbtc.com"
@@ -47,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "tn",
+            "bech32": "tn",
             "bip44": 1
         },
         "hash_genesis_block": "0000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008",
@@ -61,7 +85,7 @@
         "port": 18445,
         "port_rpc": 18443,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -72,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "ncrt",
+            "bech32": "ncrt",
             "bip44": 1
         },
         "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",

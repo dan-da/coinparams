@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "LCP",
+        "name": "Litecoin Plus",
+        "supply": {
+            "max": "4000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/litecoinplus.co"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2160325.0",
+            "source_code": "https:\/\/github.com\/Crypto-Currency\/litecoinplus",
+            "explorers": [
+                "http:\/\/lcp.altcoinwarz.com:3004\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/litecoin-plus\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/F5EHy8s"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LCP",
+        "name": "Litecoin Plus - Mainnet",
+        "testnet": false,
+        "port": 44351,
+        "port_rpc": 44350,
+        "protocol": {
+            "magic": "0xcefbfadb"
+        },
+        "seeds_dns": [
+            "lcp.altcoinwarz.com",
+            "litecoinplus.co"
+        ],
+        "prefixes": {
+            "public": 75,
+            "scripthash": 8,
+            "private": 203,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000007ca97a92891d88e204cfe475193c9e68fa80d94b97796ba9bcd15e3301c",
+        "message_magic": "\u001dLitecoinPlus Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "LCP",
+        "name": "Litecoin Plus - Testnet",
+        "testnet": true,
+        "port": 44352,
+        "port_rpc": 44352,
+        "protocol": {
+            "magic": "0xcdf1c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000007ca97a92891d88e204cfe475193c9e68fa80d94b97796ba9bcd15e3301c",
+        "message_magic": "\u001dLitecoinPlus Signed Message:\n",
+        "decimals": 6
+    }
+}

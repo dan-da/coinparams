@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "PNX",
+        "name": "Phantomx",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/phantomx.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2251352.0",
+            "source_code": "https:\/\/github.com\/phantomxdev\/phantomx",
+            "explorers": [
+                "http:\/\/explorer.phantomx.co\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/phantomx\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/GuzdQUN9fdpX3fSJ4bqWTQ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PNX",
+        "name": "Phantomx - Mainnet",
+        "testnet": false,
+        "port": 31978,
+        "port_rpc": 21978,
+        "protocol": {
+            "magic": "0xd627d6e2"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 155,
+            "public": 55,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "6e63025da5bd0721303f35e62ec8452a3e684cfd99598ecea14ca198e97dc2c8",
+        "message_magic": "\u0016Cream Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "PNX",
+        "name": "Phantomx - Testnet",
+        "testnet": true,
+        "port": 31979,
+        "port_rpc": 21979,
+        "protocol": {
+            "magic": "0x275cd6d9"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 55,
+            "scripthash": 192,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "6e63025da5bd0721303f35e62ec8452a3e684cfd99598ecea14ca198e97dc2c8",
+        "message_magic": "\u0016Cream Signed Message:\n",
+        "decimals": 8
+    }
+}

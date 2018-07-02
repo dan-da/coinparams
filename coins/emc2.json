@@ -1,23 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "EMC2",
         "name": "Einsteinium",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.emc2.foundation\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=494708.0",
+            "source_code": "https:\/\/github.com\/emc2foundation\/einsteinium",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/emc2\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/einsteinium\/",
+            "message_board": [
+                "https:\/\/emc2slack.herokuapp.com\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/emc2_official"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EMC2",
+        "name": "Einsteinium - Mainnet",
         "testnet": false,
         "port": 41878,
         "port_rpc": 41879,
         "protocol": {
-            "magic": "0xacc4f1e8"
+            "magic": "0xe8f1c4ac"
         },
         "seeds_dns": [
-            "emc2.foundation",
-            "emc2.foundation",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
-            "chainworksindustries.com",
             "dnsseeder01.emc2.foundation",
             "dnsseeder02.emc2.foundation",
             "emc2-seed01.chainworksindustries.com",
@@ -36,7 +52,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 41
         },
         "hash_genesis_block": "4e56204bb7b8ac06f860ff1c845f03f984303b5b97eb7b42868f714611aed94b",
@@ -50,10 +66,9 @@
         "port": 31878,
         "port_rpc": 31879,
         "protocol": {
-            "magic": "0xc1f0a2fa"
+            "magic": "0xfaa2f0c1"
         },
         "seeds_dns": [
-            "test.emc2.foundation",
             "dnsseedertest01.emc2.foundation"
         ],
         "prefixes": {
@@ -64,7 +79,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "a4271888b5e60092c3e7183a76d454741e9a7a55f2b4afbe574615829e406bee",
@@ -78,7 +93,7 @@
         "port": 31880,
         "port_rpc": 31879,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -89,7 +104,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",

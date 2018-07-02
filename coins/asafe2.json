@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "ASAFE2",
+        "name": "AllSafe",
+        "supply": {
+            "max": "15000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/allsafetoken.pw\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2843652",
+            "source_code": "https:\/\/github.com\/Securitybank\/Allsafe2",
+            "explorers": [
+                "http:\/\/explorer.allsafetoken.pw:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/allsafe\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ASAFE2",
+        "name": "AllSafe - Mainnet",
+        "testnet": false,
+        "port": 30234,
+        "port_rpc": 30244,
+        "protocol": {
+            "magic": "0x325e6f86"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 23,
+            "scripthash": 85,
+            "private": 151,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000002fb73d5d11d2ca0f931baecd9bdd912d1aa38c6f8e41376dd41ace32713",
+        "message_magic": "\u0019Allsafe2 Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ASAFE2",
+        "name": "AllSafe - Testnet",
+        "testnet": true,
+        "port": 40234,
+        "port_rpc": 40244,
+        "protocol": {
+            "magic": "0x1bba63c5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000002fb73d5d11d2ca0f931baecd9bdd912d1aa38c6f8e41376dd41ace32713",
+        "message_magic": "\u0019Allsafe2 Signed Message:\n",
+        "decimals": 8
+    }
+}

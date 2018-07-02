@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XPM",
         "name": "Primecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/primecoin.io\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/primecoin\/primecoin",
+            "explorers": [
+                "https:\/\/bchain.info\/XPM\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/primecoin\/",
+            "message_board": [
+                "https:\/\/talk.peercoin.net\/c\/altcoins\/primecoin"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XPM",
+        "name": "Primecoin - Mainnet",
         "testnet": false,
         "port": 9911,
         "port_rpc": 9912,
         "protocol": {
-            "magic": "0xe7e5e7e4"
+            "magic": "0xe4e7e5e7"
         },
         "seeds_dns": [
             "seed.ppcoin.net",
@@ -22,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 24
         },
         "hash_genesis_block": "963d17ba4dc753138078a2f56afb3af9674e2546822badff26837db9a0152106",
@@ -36,7 +59,7 @@
         "port": 9913,
         "port_rpc": 9914,
         "protocol": {
-            "magic": "0xc3cbfefb"
+            "magic": "0xfbfecbc3"
         },
         "seeds_dns": [
             "tnseed.ppcoin.net",
@@ -50,7 +73,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "221156cf301bc3585e72de34fe1efdb6fbd703bc27cfc468faa1cdd889d0efa0",

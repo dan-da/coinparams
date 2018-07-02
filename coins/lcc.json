@@ -1,12 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "LCC",
         "name": "Litecoin Cash",
+        "supply": {
+            "max": "840000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/litecoinca.sh\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/litecoincash-project\/litecoincash",
+            "explorers": [
+                "https:\/\/explorer.litecoinca.sh\/",
+                "https:\/\/chainz.cryptoid.info\/lcc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/litecoin-cash\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/litecoincashofficial",
+                "https:\/\/discordapp.com\/invite\/F2nZXnW"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LCC",
+        "name": "Litecoin Cash - Mainnet",
         "testnet": false,
         "port": 62458,
         "port_rpc": 62457,
         "protocol": {
-            "magic": "0xf8bae4c7"
+            "magic": "0xc7e4baf8"
         },
         "seeds_dns": [
             "seeds.litecoinca.sh"
@@ -19,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 192
         },
         "hash_genesis_block": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
@@ -33,7 +58,7 @@
         "port": 19335,
         "port_rpc": 62455,
         "protocol": {
-            "magic": "0xcfd3f5b6"
+            "magic": "0xb6f5d3cf"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +69,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
@@ -58,7 +83,7 @@
         "port": 19444,
         "port_rpc": 62455,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -69,7 +94,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",

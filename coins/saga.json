@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "symbol": "SAGA",
+        "name": "SagaCoin",
+        "supply": {
+            "max": "42000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/sagacoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2518157.0",
+            "source_code": "https:\/\/github.com\/sagacrypto\/SagaCoin",
+            "explorers": [
+                "http:\/\/explorer.sagacoin.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sagacoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/HXGeqw7tcjDU9UcpRxf0Lg"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SAGA",
+        "name": "SagaCoin - Mainnet",
+        "testnet": false,
+        "port": 48744,
+        "port_rpc": 48844,
+        "protocol": {
+            "magic": "0xaaa3b2c4"
+        },
+        "seeds_dns": [
+            "node1.sagacoin.net",
+            "node2.sagacoin.net",
+            "node3.sagacoin.net"
+        ],
+        "prefixes": {
+            "private": 142,
+            "public": 125,
+            "scripthash": 44,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "e523a92cbe17c3e13fbc1bf191e79138c9dfbe61199ede7870b4d5abd89c0e93",
+        "message_magic": "\u0019SagaCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

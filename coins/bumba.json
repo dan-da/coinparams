@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "BUMBA",
+        "name": "BumbaCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bumbacoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=592679.0",
+            "source_code": "https:\/\/github.com\/bumbacoin\/bumbacoin2-source",
+            "explorers": [
+                "http:\/\/blockchain.bumbacoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bumbacoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BUMBA",
+        "name": "BumbaCoin - Mainnet",
+        "testnet": false,
+        "port": 20222,
+        "port_rpc": 10111,
+        "protocol": {
+            "magic": "0xb1c0d2e3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 28,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e2781c9a29cbd75ee5a69394a950fc72276236d28e04f36d24034a293ae",
+        "message_magic": "\u001bbumbacoin2 Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BUMBA",
+        "name": "BumbaCoin - Testnet",
+        "testnet": true,
+        "port": 20202,
+        "port_rpc": 10101,
+        "protocol": {
+            "magic": "0x"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000e2781c9a29cbd75ee5a69394a950fc72276236d28e04f36d24034a293ae",
+        "message_magic": "\u001bbumbacoin2 Signed Message:\n",
+        "decimals": 8
+    }
+}

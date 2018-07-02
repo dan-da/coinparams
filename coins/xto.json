@@ -1,21 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XTO",
         "name": "Tao",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/tao.network\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1567647.0",
+            "source_code": "https:\/\/github.com\/taoblockchain\/tao-core",
+            "explorers": [
+                "http:\/\/www.taoexplorer.com\/",
+                "https:\/\/chainz.cryptoid.info\/xto\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/tao\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/tx6jNTT"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XTO",
+        "name": "Tao - Mainnet",
         "testnet": false,
         "port": 15150,
         "port_rpc": 15151,
         "protocol": {
-            "magic": "0xe11ed11d"
+            "magic": "0x1dd11ee1"
         },
         "seeds_dns": [
-            "Seed01",
-            "Seed02",
-            "Seed03",
-            "Seed04",
-            "Seed05",
-            "Seed06",
-            "Seed07",
             "taoexplorer.com",
             "seed1.tao.network",
             "seed2.tao.network",
@@ -32,7 +49,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0000c1c4b036f822bd91dc2006b5575b9c3617903925b8e738803e094cd23f20",

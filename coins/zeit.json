@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "ZEIT",
+        "name": "Zeitcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.zeit-coin.net"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=487814.0",
+            "source_code": "https:\/\/github.com\/zeitcoin\/zeitcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/zeit\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zeitcoin\/",
+            "message_board": [
+                "https:\/\/www.cryptopia.co.nz\/Forum\/Thread\/1336"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZEIT",
+        "name": "Zeitcoin - Mainnet",
+        "testnet": false,
+        "port": 44845,
+        "port_rpc": 44843,
+        "protocol": {
+            "magic": "0xced5dbfa"
+        },
+        "seeds_dns": [
+            "seed.zeit-coin.net",
+            "zeitseed2.ddns.net",
+            "seed.aeternity.cc"
+        ],
+        "prefixes": {
+            "public": 51,
+            "scripthash": 8,
+            "private": 179,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "dea6b9e435686c66f5178eb9f04e18b4fc040a639ccd5cd90f31e5343afb5b36",
+        "message_magic": "\u0019Zeitcoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "ZEIT",
+        "name": "Zeitcoin - Testnet",
+        "testnet": true,
+        "port": 22788,
+        "port_rpc": 22789,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "dea6b9e435686c66f5178eb9f04e18b4fc040a639ccd5cd90f31e5343afb5b36",
+        "message_magic": "\u0019Zeitcoin Signed Message:\n",
+        "decimals": 6
+    }
+}

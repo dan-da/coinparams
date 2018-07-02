@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "symbol": "SKC",
+        "name": "Skeincoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/skeincoin.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2800098.0",
+            "source_code": "http:\/\/github.com\/skeincoin\/skeincoin",
+            "explorers": [
+                "http:\/\/xplorer.skeincoin.co\/",
+                "https:\/\/chainz.cryptoid.info\/skc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/skeincoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/qGpkFrP",
+                "https:\/\/t.me\/joinchat\/CqeByhFOKhuFmMjWYN356g"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SKC",
+        "name": "Skeincoin - Mainnet",
+        "testnet": false,
+        "port": 11230,
+        "port_rpc": 21230,
+        "protocol": {
+            "magic": "0xf726a1bf"
+        },
+        "seeds_dns": [
+            "seed-a.skeincoin.net",
+            "seed-b.skeincoin.net",
+            "seed-c.skeincoin.net",
+            "seed-d.skeincoin.net",
+            "seed-e.skeincoin.net",
+            "seed-f.skeincoin.net",
+            "seed-g.skeincoin.net",
+            "seed-h.skeincoin.net",
+            "skein1.ignorelist.com",
+            "skein2.ignorelist.com",
+            "skein3.ignorelist.com"
+        ],
+        "prefixes": {
+            "private": 226,
+            "public": 63,
+            "scripthash": 12,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000046cebed69de151ada93a60cb8a5f9490a196399abe714bb83ad5b20f985",
+        "message_magic": "\u001aSkeincoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "SKC",
+        "name": "Skeincoin - Testnet",
+        "testnet": true,
+        "port": 27711,
+        "port_rpc": 37711,
+        "protocol": {
+            "magic": "0x07a05503"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 237,
+            "public": 56,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000015f9fb4c1c9cc55ad08b6ec47fcce2b00bc482a2c48914ab6506daf439",
+        "message_magic": "\u001aSkeincoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "SKC",
+        "name": "Skeincoin - Regtest",
+        "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xfa0fa55a"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "6620ff0f4b001bb6c6999d85a61f406a3b213a4ed0364d1b10a46596fcb09785",
+        "message_magic": "\u001aSkeincoin Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "symbol": "POP",
+        "name": "PopularCoin",
+        "supply": {
+            "max": "4999999999"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.popularcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=444745",
+            "source_code": "https:\/\/github.com\/Pop-Currency-Foundation\/PopularCoin",
+            "explorers": [
+                "http:\/\/popularcoin.com:3751\/",
+                "http:\/\/popularcoin.info\/chain\/PopCoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/popularcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "POP",
+        "name": "PopularCoin - Mainnet",
+        "testnet": false,
+        "port": 18181,
+        "port_rpc": 27172,
+        "protocol": {
+            "magic": "0xcefbfadb"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 56,
+            "scripthash": 5,
+            "private": 184,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e1438374d15f55c670fcae8d7cce5456a0b4cfa7429503eaeb46f6d55d4",
+        "message_magic": "\u001cPopularCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "POP",
+        "name": "PopularCoin - Testnet",
+        "testnet": true,
+        "port": 38181,
+        "port_rpc": 37172,
+        "protocol": {
+            "magic": "0xcdf1c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000e1438374d15f55c670fcae8d7cce5456a0b4cfa7429503eaeb46f6d55d4",
+        "message_magic": "\u001cPopularCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

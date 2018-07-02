@@ -1,20 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BCD",
         "name": "Bitcoin Diamond",
+        "supply": {
+            "max": "210000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/btcd.io\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/eveybcd\/BitcoinDiamond",
+            "explorers": [
+                "http:\/\/explorer.btcd.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-diamond\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/BCDcommunity",
+                "https:\/\/bitcoindiamonds.slack.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BCD",
+        "name": "Bitcoin Diamond - Mainnet",
         "testnet": false,
         "port": 7117,
         "port_rpc": 7116,
         "protocol": {
-            "magic": "0xd9b4debd"
+            "magic": "0xbddeb4d9"
         },
         "seeds_dns": [
-            "dns1.btcd.io",
-            "dns2.btcd.io",
-            "dns3.btcd.io",
-            "dns4.btcd.io",
-            "dns5.btcd.io",
-            "dns6.btcd.io",
             "seed1.dns.btcd.io",
             "seed2.dns.btcd.io",
             "seed3.dns.btcd.io",
@@ -30,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 999
         },
         "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
@@ -44,10 +62,9 @@
         "port": 17117,
         "port_rpc": 17116,
         "protocol": {
-            "magic": "0x1820cd0b"
+            "magic": "0x0bcd2018"
         },
         "seeds_dns": [
-            "test1.dns.btcd.io",
             "test1.dns.btcd.io"
         ],
         "prefixes": {
@@ -58,7 +75,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
@@ -72,7 +89,7 @@
         "port": 18444,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -83,7 +100,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",

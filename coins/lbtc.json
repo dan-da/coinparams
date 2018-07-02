@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "symbol": "LBTC",
+        "name": "LiteBitcoin",
+        "supply": {
+            "max": "1000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.lbtc.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2081190.0",
+            "source_code": "https:\/\/github.com\/litebitcoins\/litebitcoin",
+            "explorers": [
+                "http:\/\/litebitcoins.thecryptochat.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/litebitcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LBTC",
+        "name": "LiteBitcoin - Mainnet",
+        "testnet": false,
+        "port": 19037,
+        "port_rpc": 19038,
+        "protocol": {
+            "magic": "0x5b6d2f54"
+        },
+        "seeds_dns": [
+            "litebitcoins.thecryptochat.net"
+        ],
+        "prefixes": {
+            "private": 131,
+            "public": 3,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "46f1eae198eddd22156b5cebf7023e3998981f518d558e42830edd2795b89b9f",
+        "message_magic": "\u001cLitebitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "LBTC",
+        "name": "LiteBitcoin - Testnet",
+        "testnet": true,
+        "port": 19335,
+        "port_rpc": 19332,
+        "protocol": {
+            "magic": "0xaec2b1f5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "c3a67cf4b8f9782ac27e82610b4131fe0fe4ddfef07c7f7532643e841ef17f28",
+        "message_magic": "\u001cLitebitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "LBTC",
+        "name": "LiteBitcoin - Regtest",
+        "testnet": true,
+        "port": 19444,
+        "port_rpc": 19332,
+        "protocol": {
+            "magic": "0xccd6a0e3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "c3a67cf4b8f9782ac27e82610b4131fe0fe4ddfef07c7f7532643e841ef17f28",
+        "message_magic": "\u001cLitebitcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

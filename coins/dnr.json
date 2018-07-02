@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "symbol": "DNR",
+        "name": "Denarius",
+        "supply": {
+            "max": "10000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/denarius.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1967207.0",
+            "source_code": "https:\/\/github.com\/carsenk\/denarius",
+            "explorers": [
+                "https:\/\/denariusexplorer.org\/",
+                "https:\/\/chainz.cryptoid.info\/dnr\/",
+                "https:\/\/www.coinexplorer.net\/DNR"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/denarius-dnr\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/mDTM3JN"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DNR",
+        "name": "Denarius - Mainnet",
+        "testnet": false,
+        "port": 33339,
+        "port_rpc": 32339,
+        "protocol": {
+            "magic": "0xfaf2efb4"
+        },
+        "seeds_dns": [
+            "dnsseed.hashbag.cc",
+            "seed.denarius.host",
+            "seed.denariusexplorer.org",
+            "seed.yiimp.eu",
+            "chainz.cryptoid.info",
+            "seed1.denarius.io",
+            "seed2.denarius.io",
+            "seed3.denarius.io",
+            "seed4.denarius.io"
+        ],
+        "prefixes": {
+            "public": 30,
+            "scripthash": 90,
+            "private": 158,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 116
+        },
+        "hash_genesis_block": "00000d5dbbda01621cfc16bbc1f9bf3264d641a5dbf0de89fd0182c2c4828fcd",
+        "message_magic": "\u0019Denarius Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "DNR",
+        "name": "Denarius - Testnet",
+        "testnet": true,
+        "port": 33338,
+        "port_rpc": 32338,
+        "protocol": {
+            "magic": "0x0711050b"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 18,
+            "scripthash": 116,
+            "private": 146,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000086bfe8264d241f7f8e5393f747784b8ca2aa98bdd066278d590462a4fdb4",
+        "message_magic": "\u0019Denarius Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,12 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "AU",
         "name": "AurumCoin",
+        "supply": {
+            "max": "300000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.aurumcoin.com\/",
+                "http:\/\/www.aurumcoin-au.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1165615.0",
+            "source_code": "https:\/\/github.com\/aurumcoin\/Aurumcoin_AU",
+            "explorers": [
+                "http:\/\/aurumblocks.cointech.net\/chain\/AurumCoin",
+                "http:\/\/explorer.paycoinalt.com\/explorer.php?monnaie=AU",
+                "https:\/\/www.bigbitex.com\/block_explorer\/explorer.php?monnaie=AU"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/aurumcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AU",
+        "name": "AurumCoin - Mainnet",
         "testnet": false,
         "port": 11080,
         "port_rpc": 21080,
         "protocol": {
-            "magic": "0xd9b4bef9"
+            "magic": "0xf9beb4d9"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",
@@ -31,7 +55,7 @@
         "port": 5744,
         "port_rpc": 5745,
         "protocol": {
-            "magic": "0x0709110b"
+            "magic": "0x0b110907"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +66,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x0000000040a867146dcc50bee85f69ac20addc33080c2a769c01200920251955",

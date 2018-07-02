@@ -1,12 +1,40 @@
 {
-    "main": {
+    "meta": {
         "symbol": "LTC",
         "name": "Litecoin",
+        "supply": {
+            "max": "84000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/litecoin.com",
+                "https:\/\/litecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=47417.0",
+            "source_code": "https:\/\/github.com\/litecoin-project\/litecoin",
+            "explorers": [
+                "http:\/\/explorer.litecoin.net\/chain\/Litecoin",
+                "https:\/\/chainz.cryptoid.info\/ltc\/",
+                "https:\/\/live.blockcypher.com\/ltc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/litecoin\/",
+            "message_board": [
+                "https:\/\/litecointalk.io\/"
+            ],
+            "chat": [
+                "https:\/\/telegram.me\/litecoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LTC",
+        "name": "Litecoin - Mainnet",
         "testnet": false,
         "port": 9333,
         "port_rpc": 9332,
         "protocol": {
-            "magic": "0xdbb6c0fb"
+            "magic": "0xfbc0b6db"
         },
         "seeds_dns": [
             "seed-a.litecoin.loshan.co.uk",
@@ -23,7 +51,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": "ltc",
+            "bech32": "ltc",
             "bip44": 2
         },
         "hash_genesis_block": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
@@ -37,7 +65,7 @@
         "port": 19335,
         "port_rpc": 19332,
         "protocol": {
-            "magic": "0xf1c8d2fd"
+            "magic": "0xfdd2c8f1"
         },
         "seeds_dns": [
             "testnet-seed.litecointools.com",
@@ -52,7 +80,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "tltc",
+            "bech32": "tltc",
             "bip44": 1
         },
         "hash_genesis_block": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
@@ -66,7 +94,7 @@
         "port": 19444,
         "port_rpc": 19443,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -77,7 +105,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "rltc",
+            "bech32": "rltc",
             "bip44": 1
         },
         "hash_genesis_block": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",

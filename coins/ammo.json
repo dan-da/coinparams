@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "AMMO",
+        "name": "Ammo Reloaded",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/ammoreloaded.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2541686.0",
+            "source_code": "https:\/\/github.com\/AmmoCore\/AmmoReloaded",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/ammo-reloaded\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/E3cWfkx"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AMMO",
+        "name": "Ammo Reloaded - Mainnet",
+        "testnet": false,
+        "port": 21582,
+        "port_rpc": 21583,
+        "protocol": {
+            "magic": "0xc3c5a2a3"
+        },
+        "seeds_dns": [
+            "ammoreloaded.io"
+        ],
+        "prefixes": {
+            "public": 14,
+            "scripthash": 30,
+            "private": 142,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000022b2e357af0d19792b48873442952ac8bf314a992bec0cf897b01e7da79",
+        "message_magic": "\u0015Ammo Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "AMMO",
+        "name": "Ammo Reloaded - Testnet",
+        "testnet": true,
+        "port": 28582,
+        "port_rpc": 28583,
+        "protocol": {
+            "magic": "0x"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 21,
+            "scripthash": 196,
+            "private": 149,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u0015Ammo Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,41 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BAY",
         "name": "BitBay",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitbay.market\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=890531",
+            "source_code": "https:\/\/github.com\/bitbaymarket\/bitbay-core",
+            "explorers": [
+                "http:\/\/explorer.bitbay.market\/",
+                "https:\/\/chainz.cryptoid.info\/bay\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitbay\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bitbayofficial",
+                "https:\/\/discord.gg\/sP8b66W"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BAY",
+        "name": "BitBay - Mainnet",
         "testnet": false,
         "port": 19914,
         "port_rpc": 19915,
         "protocol": {
-            "magic": "0x05223570"
+            "magic": "0x70352205"
         },
-        "seeds_dns": [
-            "195.181.242.206",
-            "151.236.221.10",
-            "108.61.163.182",
-            "94.102.52.66",
-            "80.82.64.64",
-            "45.79.94.206",
-            "139.162.226.144",
-            "172.104.25.65",
-            "172.104.248.46",
-            "172.105.241.170",
-            "172.104.185.75",
-            "104.236.208.150",
-            "188.166.39.223",
-            "128.199.118.67",
-            "104.255.33.162",
-            "194.135.84.161",
-            "23.227.190.163",
-            "45.56.109.7",
-            "104.172.24.79",
-            "106.187.50.153",
-            "158.69.27.82",
-            "24.37.11.106",
-            "40.112.149.192",
-            "69.254.222.98",
-            "85.25.146.74",
-            "195.181.242.206"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 153,
             "public": 25,
@@ -44,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0000075685d3be1f253ce777174b1594354e79954d2a32a6f77fe9cba00e6467",

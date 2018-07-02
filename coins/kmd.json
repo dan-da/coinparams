@@ -1,17 +1,43 @@
 {
-    "main": {
+    "meta": {
         "symbol": "KMD",
         "name": "Komodo",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/komodoplatform.com\/",
+                "https:\/\/komodoplatform.com\/latest-news\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1605144.0",
+            "source_code": "https:\/\/github.com\/KomodoPlatform\/komodo",
+            "explorers": [
+                "https:\/\/kmdexplorer.io\/",
+                "http:\/\/kmd.explorer.supernet.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/komodo\/",
+            "message_board": [
+                "https:\/\/blog.komodoplatform.com\/",
+                "https:\/\/forum.komodoplatform.com\/"
+            ],
+            "chat": [
+                "https:\/\/discord.gg\/ZSrn5sJ",
+                "https:\/\/telegram.me\/KomodoPlatform_Official"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "KMD",
+        "name": "Komodo - Mainnet",
         "testnet": false,
         "port": 7770,
         "port_rpc": 7771,
         "protocol": {
-            "magic": "0x(ASS(ASS(ASSASSE8de4eef9"
+            "magic": "0xf9eee48d"
         },
         "seeds_dns": [
-            "komodoplatform.com",
-            "kolo.supernet.org",
-            "kolo.supernet.org",
             "seeds.komodoplatform.com",
             "static.kolo.supernet.org",
             "dynamic.kolo.supernet.org"
@@ -24,7 +50,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 141
         },
         "hash_genesis_block": "027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71",
@@ -38,10 +64,9 @@
         "port": 17770,
         "port_rpc": 17771,
         "protocol": {
-            "magic": "0x627E1F5A"
+            "magic": "0x5A1F7E62"
         },
         "seeds_dns": [
-            "z.cash",
             "dns.testnet.z.cash"
         ],
         "prefixes": {
@@ -52,10 +77,10 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
-        "hash_genesis_block": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
+        "hash_genesis_block": "0x05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38z.cash\", \"dns.testnet.z.cash",
         "message_magic": "\u0017Komodo Signed Message:\n",
         "decimals": 8
     }

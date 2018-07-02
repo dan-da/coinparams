@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "PHS",
+        "name": "Philosopher Stones",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/philosopherstones.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=830427.0",
+            "source_code": "https:\/\/github.com\/VladK75\/philosopherstone",
+            "explorers": [
+                "http:\/\/philosopherstones.org\/block\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/philosopher-stones\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/bitcointalk.org\/index.php?topic=830427.0"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PHS",
+        "name": "Philosopher Stones - Mainnet",
+        "testnet": false,
+        "port": 16281,
+        "port_rpc": 16282,
+        "protocol": {
+            "magic": "0xe4efdbfd"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 21,
+            "scripthash": 8,
+            "private": 149,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "3c2ba73eae76c802be5e7e2da8316268b63b0335365eaa8dff76cc1d76662533",
+        "message_magic": "!Philosopherstone Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "PHS",
+        "name": "Philosopher Stones - Testnet",
+        "testnet": true,
+        "port": 26281,
+        "port_rpc": 26282,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "3c2ba73eae76c802be5e7e2da8316268b63b0335365eaa8dff76cc1d76662533",
+        "message_magic": "!Philosopherstone Signed Message:\n",
+        "decimals": 6
+    }
+}

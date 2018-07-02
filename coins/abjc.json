@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "ABJC",
+        "name": "Abjcoin Commerce",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/abjcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2260840",
+            "source_code": "https:\/\/github.com\/abjcoinblockchain\/AbjcoinCommerce",
+            "explorers": [
+                "http:\/\/54.38.22.75:3002\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/abjcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/officialabjcoinchannel"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ABJC",
+        "name": "Abjcoin Commerce - Mainnet",
+        "testnet": false,
+        "port": 69082,
+        "port_rpc": 69082,
+        "protocol": {
+            "magic": "0x325e6f86"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 23,
+            "scripthash": 85,
+            "private": 151,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000003082798cb529e90c7f9944dbf263007c349f6fd7d548f8eddcbfde3489d",
+        "message_magic": " AbjcoinCommerce Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ABJC",
+        "name": "Abjcoin Commerce - Testnet",
+        "testnet": true,
+        "port": 69081,
+        "port_rpc": 69081,
+        "protocol": {
+            "magic": "0x1bba63c5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "446de92737e111de39af38837ba50dc1adb60c208bf09d4c26ac9549eb0f6021",
+        "message_magic": " AbjcoinCommerce Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "symbol": "VOT",
+        "name": "VoteCoin",
+        "supply": {
+            "max": "220000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/votecoin.site\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2137705.0",
+            "source_code": "https:\/\/github.com\/Tomas-M\/VoteCoin",
+            "explorers": [
+                "http:\/\/explorer.votecoin.site\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/votecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/Xbz2egM"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VOT",
+        "name": "VoteCoin - Mainnet",
+        "testnet": false,
+        "port": 8144,
+        "port_rpc": 8242,
+        "protocol": {
+            "magic": "0x24e92764"
+        },
+        "seeds_dns": [
+            "dnsseed.votecoin.site",
+            "dnsseed.str4d.xyz",
+            "dnsseed.znodes.org"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 7352,
+            "scripthash": 7357,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0x0x\"+genesis.hashMerkleRoot.ToString()));\n\n        vFixedSeeds.clear();\n        vSeeds.clear();\n        vSeeds.push_back(CDNSSeedData(\"votecoin.site\", \"dnsseed.votecoin.site",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "VOT",
+        "name": "VoteCoin - Testnet",
+        "testnet": true,
+        "port": 18233,
+        "port_rpc": 18232,
+        "protocol": {
+            "magic": "0xfa1af9bf"
+        },
+        "seeds_dns": [
+            "dnsseed.testnet.z.cash"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 7461,
+            "scripthash": 7354,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0x\"+genesis.hashMerkleRoot.ToString()));\n\n        vFixedSeeds.clear();\n        vSeeds.clear();\n        vSeeds.push_back(CDNSSeedData(\"z.cash\", \"dnsseed.testnet.z.cash",
+        "message_magic": "\u0016Zcash Signed Message:\n",
+        "decimals": 8
+    }
+}

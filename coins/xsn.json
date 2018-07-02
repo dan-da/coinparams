@@ -1,27 +1,41 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XSN",
         "name": "Stakenet",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/stakenet.io\/",
+                "https:\/\/xsncoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3213013.0",
+            "source_code": "https:\/\/github.com\/X9Developers\/XSN",
+            "explorers": [
+                "https:\/\/xsnexplorer.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/stakenet\/",
+            "message_board": [
+                "https:\/\/medium.com\/stakenet"
+            ],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/BdGxxw-s3b4_DdBdbChI4g",
+                "https:\/\/discord.gg\/cyF5yCA"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XSN",
+        "name": "Stakenet - Mainnet",
         "testnet": false,
         "port": 62583,
         "port_rpc": 51473,
         "protocol": {
-            "magic": "0xbd6c0cbf"
+            "magic": "0xbf0c6cbd"
         },
-        "seeds_dns": [
-            "54.174.48.232",
-            "107.21.133.151",
-            "54.173.9.42",
-            "54.197.20.70",
-            "54.227.247.2",
-            "34.207.70.89",
-            "54.174.48.232",
-            "107.21.133.151",
-            "54.173.9.42",
-            "54.197.20.70",
-            "54.227.247.2",
-            "34.207.70.89"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 204,
             "public": 76,
@@ -30,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000c822abdbb23e28f79a49d29b41429737c6c7e15df40d1b1f1b35907ae34",
@@ -44,12 +58,9 @@
         "port": 29999,
         "port_rpc": 19998,
         "protocol": {
-            "magic": "0xffcae2ce"
+            "magic": "0xcee2caff"
         },
         "seeds_dns": [
-            "18.195.52.21",
-            "masternode.io",
-            "18.195.52.21",
             "test.dnsseed.masternode.io"
         ],
         "prefixes": {
@@ -60,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000005254b31cd4e41fdce02c5a571fe4b6ec6d65af0dc339a85bb749ee90763",
@@ -74,7 +85,7 @@
         "port": 19994,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -85,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "7229c32afcd2400f71cd72f55955c73bd384e41ed2e290c5a0488d0e6a15ddb4",

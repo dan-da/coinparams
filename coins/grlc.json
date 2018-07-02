@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "symbol": "GRLC",
+        "name": "Garlicoin",
+        "supply": {
+            "max": "69000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/garlicoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2800938.0",
+            "source_code": "https:\/\/github.com\/GarlicoinOrg\/Garlicoin",
+            "explorers": [
+                "https:\/\/garlicinsight.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/garlicoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/Vp4Xz26"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GRLC",
+        "name": "Garlicoin - Mainnet",
+        "testnet": false,
+        "port": 42069,
+        "port_rpc": 42068,
+        "protocol": {
+            "magic": "0xd2c6b6db"
+        },
+        "seeds_dns": [
+            "dnsseed.brennanmcdonald.io",
+            "dnsseed.rshaw.space",
+            "dnsseed.garli.co.in"
+        ],
+        "prefixes": {
+            "private": 176,
+            "public": 38,
+            "scripthash": 50,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": "grlc",
+            "bip44": null
+        },
+        "hash_genesis_block": "2ada80bf415a89358d697569c96eb98cdbf4c3b8878ac5722c01284492e27228",
+        "message_magic": "\u001aGarlicoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GRLC",
+        "name": "Garlicoin - Testnet",
+        "testnet": true,
+        "port": 42075,
+        "port_rpc": 42070,
+        "protocol": {
+            "magic": "0xfdd2c8f2"
+        },
+        "seeds_dns": [
+            "dnsseed-testnet.brennanmcdonald.io",
+            "dnsseed-testnet.rshaw.space"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 58,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "tgrlc",
+            "bip44": 1
+        },
+        "hash_genesis_block": "b25004ec2dc27689999f9ee14856ee0464d7f73f3fae3cf43c1d40f89c141aea",
+        "message_magic": "\u001aGarlicoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "GRLC",
+        "name": "Garlicoin - Regtest",
+        "testnet": true,
+        "port": 19444,
+        "port_rpc": 42070,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 58,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "rgrlc",
+            "bip44": 1
+        },
+        "hash_genesis_block": "e99da841b29de092a847214f1af5abf6ef38a50f607081b09692177555e5855e",
+        "message_magic": "\u001aGarlicoin Signed Message:\n",
+        "decimals": 8
+    }
+}

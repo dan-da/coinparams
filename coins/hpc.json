@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "symbol": "HPC",
+        "name": "Happycoin",
+        "supply": {
+            "max": "100000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/happycointech.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1859071.0",
+            "source_code": "https:\/\/github.com\/happycoinmaster\/Happycoin",
+            "explorers": [
+                "https:\/\/bchain.info\/HPC\/",
+                "https:\/\/cryptobe.com\/chain\/HappyCoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/happycoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/happycoinofficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HPC",
+        "name": "Happycoin - Mainnet",
+        "testnet": false,
+        "port": 12846,
+        "port_rpc": 12847,
+        "protocol": {
+            "magic": "0xb4f3efcc"
+        },
+        "seeds_dns": [
+            "seed5.cryptolife.net",
+            "seed3.cryptolife.net",
+            "electrum5.cryptolife.net",
+            "seed4.cryptolife.net",
+            "explore.cryptolife.net"
+        ],
+        "prefixes": {
+            "public": 41,
+            "scripthash": 20,
+            "private": 169,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d32d307ff91c27e15562e11fa914f62de3f6aa7b8f5d3f63ba0f3340437",
+        "message_magic": "\u001aHappyCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "HPC",
+        "name": "Happycoin - Testnet",
+        "testnet": true,
+        "port": 17778,
+        "port_rpc": 18345,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "message_magic": "\u001aHappyCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

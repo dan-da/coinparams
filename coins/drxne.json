@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "DRXNE",
+        "name": "DROXNE",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/droxne.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2049978.0",
+            "source_code": "https:\/\/github.com\/droxdev\/Drox",
+            "explorers": [
+                "http:\/\/www.droxne.network\/",
+                "http:\/\/45.63.119.167:3002\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/droxne\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/telegram.dog\/droxne",
+                "https:\/\/discordapp.com\/invite\/RCMqw9u"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DRXNE",
+        "name": "DROXNE - Mainnet",
+        "testnet": false,
+        "port": 41241,
+        "port_rpc": 41242,
+        "protocol": {
+            "magic": "0xb4fee4e5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 31,
+            "scripthash": 20,
+            "private": 159,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000c26d69561dab27af37a791a4e16e5f27012b8049f45d347ef090f52a2b8",
+        "message_magic": "\u0017Droxne Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "DRXNE",
+        "name": "DROXNE - Testnet",
+        "testnet": true,
+        "port": 17778,
+        "port_rpc": 18345,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "message_magic": "\u0017Droxne Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "symbol": "LANA",
+        "name": "LanaCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/lanacoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1448065",
+            "source_code": "https:\/\/github.com\/LanaCoin\/lanacoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/lana\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/lanacoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/LanaCoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LANA",
+        "name": "LanaCoin - Mainnet",
+        "testnet": false,
+        "port": 7506,
+        "port_rpc": 5706,
+        "protocol": {
+            "magic": "0xa5f790fd"
+        },
+        "seeds_dns": [
+            "seed1.lanacoin.com",
+            "seed2.lanacoin.com",
+            "seed3.lanacoin.com",
+            "seed4.lanacoin.com",
+            "seed5.lanacoin.com",
+            "seed6.lanacoin.com",
+            "seed7.lanacoin.com",
+            "seed8.lanacoin.com",
+            "seed9.lanacoin.com"
+        ],
+        "prefixes": {
+            "private": 176,
+            "public": 48,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000095667f3c1fdbf0b9b4937be57c6401162fcfe72be373df27393f0c69d93",
+        "message_magic": "\u0019Lanacoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "LANA",
+        "name": "LanaCoin - Testnet",
+        "testnet": true,
+        "port": 17506,
+        "port_rpc": 15706,
+        "protocol": {
+            "magic": "0xcccbd27f"
+        },
+        "seeds_dns": [
+            "test1.lanacoin.com",
+            "test2.lanacoin.com"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00005f78276904fdf0cbd61b10b5330e915362c2457173d443ad46e08fa621ef",
+        "message_magic": "\u0019Lanacoin Signed Message:\n",
+        "decimals": 8
+    }
+}

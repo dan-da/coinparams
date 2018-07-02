@@ -1,23 +1,40 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XMY",
         "name": "Myriad",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/myriadcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=483515.0",
+            "source_code": "https:\/\/github.com\/myriadteam\/myriadcoin",
+            "explorers": [
+                "https:\/\/cryptap.us\/myr\/explorer\/chain\/Myriadcoin",
+                "http:\/\/insight-myr.cryptap.us\/",
+                "https:\/\/chainz.cryptoid.info\/xmy\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/myriad\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/Myriadcoinofficial",
+                "https:\/\/discord.gg\/A873Xkx"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XMY",
+        "name": "Myriad - Mainnet",
         "testnet": false,
         "port": 10888,
         "port_rpc": 10889,
         "protocol": {
-            "magic": "0xee7645af"
+            "magic": "0xaf4576ee"
         },
         "seeds_dns": [
-            "seed1.myriadcoin.org",
-            "seed2.myriadcoin.org",
-            "seed3.myriadcoin.org",
-            "seed4.myriadcoin.org",
-            "seed5.myriadcoin.org",
-            "seed6.myriadcoin.org",
-            "seed7.myriadcoin.org",
-            "seed8.myriadcoin.org",
-            "myriadseed1.cryptap.us",
             "seed1.myriadcoin.org",
             "seed2.myriadcoin.org",
             "seed3.myriadcoin.org",
@@ -36,7 +53,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 90
         },
         "hash_genesis_block": "00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485",
@@ -50,11 +67,9 @@
         "port": 20888,
         "port_rpc": 20889,
         "protocol": {
-            "magic": "0xa455f501"
+            "magic": "0x01f555a4"
         },
         "seeds_dns": [
-            "testseed1.myriadcoin.org",
-            "myriadtestseed1.cryptap.us",
             "testseed1.myriadcoin.org",
             "myriadtestseed1.cryptap.us"
         ],
@@ -66,7 +81,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788",
@@ -80,7 +95,7 @@
         "port": 18444,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -91,7 +106,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",

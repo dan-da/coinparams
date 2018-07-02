@@ -1,21 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "DEV",
         "name": "DeviantCoin",
+        "supply": {
+            "max": "88000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/deviantcoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2960430.0",
+            "source_code": "https:\/\/github.com\/Deviantcoin\/Source",
+            "explorers": [
+                "http:\/\/explorer.deviantcoin.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/deviantcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/DeviantDEV",
+                "https:\/\/discord.gg\/Gp9zMXc"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DEV",
+        "name": "DeviantCoin - Mainnet",
         "testnet": false,
         "port": 22618,
         "port_rpc": 22617,
         "protocol": {
-            "magic": "0xb8adb428"
+            "magic": "0x28b4adb8"
         },
         "seeds_dns": [
-            "seed1.deviantcoin.io",
-            "seed2.deviantcoin.io",
-            "seed3.deviantcoin.io",
-            "seed4.deviantcoin.io",
-            "seed5.deviantcoin.io",
-            "seed6.deviantcoin.io",
-            "seed7.deviantcoin.io",
             "seed1.deviantcoin.io",
             "seed2.deviantcoin.io",
             "seed3.deviantcoin.io",
@@ -32,44 +49,10 @@
                 "public": "0x044d5066",
                 "private": "0x0441514b"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000e697a1e963f6ae8288419ffb0d59de9d232bac8efda8c6491d1c31e3139",
-        "message_magic": "\u0018DarkNet Signed Message:\n",
-        "decimals": 8
-    },
-    "test": {
-        "symbol": "DEV",
-        "name": "DeviantCoin - Testnet",
-        "testnet": true,
-        "port": 51484,
-        "port_rpc": 51485,
-        "protocol": {
-            "magic": "0xcd557950"
-        },
-        "seeds_dns": [
-            "fuzzbawls.pw",
-            "fuzzbawls.pw",
-            "s3v3nh4cks.ddns.net",
-            "192.168.100.2",
-            "deviant-testnet.seed.fuzzbawls.pw",
-            "deviant-testnet.seed2.fuzzbawls.pw",
-            "s3v3nh4cks.ddns.net",
-            "192.168.100.2"
-        ],
-        "prefixes": {
-            "private": 239,
-            "public": 129,
-            "scripthash": 14,
-            "bip32": {
-                "public": "0x2a4071b0",
-                "private": "0x2a407847"
-            },
-            "bech32_hrp": null,
-            "bip44": 1
-        },
-        "hash_genesis_block": "0000014bd7a053eb417c79a53bf206733927fab837ad1a5e06265b21f8d9e9e8",
         "message_magic": "\u0018DarkNet Signed Message:\n",
         "decimals": 8
     }

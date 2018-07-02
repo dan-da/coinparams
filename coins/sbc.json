@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "SBC",
+        "name": "StrikeBitClub",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/strikebitclub.com\/",
+                "https:\/\/sbccoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2196040",
+            "source_code": "https:\/\/github.com\/sbccoin\/sbccoin-source",
+            "explorers": [
+                "http:\/\/explorer.sbccoin.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/strikebitclub\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SBC",
+        "name": "StrikeBitClub - Mainnet",
+        "testnet": false,
+        "port": 21575,
+        "port_rpc": 21576,
+        "protocol": {
+            "magic": "0x556a3299"
+        },
+        "seeds_dns": [
+            "sbc01.seednode.online",
+            "sbc02.seednode.online"
+        ],
+        "prefixes": {
+            "public": 13,
+            "scripthash": 85,
+            "private": 141,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000a082edd9c65494b1f206f81dc9f4781556d5e4013aa5566ce0f0cb9a579",
+        "message_magic": "\u0018SBCcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "SBC",
+        "name": "StrikeBitClub - Testnet",
+        "testnet": true,
+        "port": 31575,
+        "port_rpc": 31576,
+        "protocol": {
+            "magic": "0xddd7d477"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000a082edd9c65494b1f206f81dc9f4781556d5e4013aa5566ce0f0cb9a579",
+        "message_magic": "\u0018SBCcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

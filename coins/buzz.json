@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "symbol": "BUZZ",
+        "name": "BuzzCoin",
+        "supply": {
+            "max": "20000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.buzzcoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1325398.0",
+            "source_code": "https:\/\/github.com\/buzzcoin-project\/BUZZ",
+            "explorers": [
+                "http:\/\/blockexplorer.buzzcoin.info\/",
+                "https:\/\/explorer.buzzcoin.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/buzzcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/DS82UWD"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BUZZ",
+        "name": "BuzzCoin - Mainnet",
+        "testnet": false,
+        "port": 25128,
+        "port_rpc": 25129,
+        "protocol": {
+            "magic": "0x07358205"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 25,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488c21e",
+                "private": "0x0488a0e4"
+            },
+            "bech32": null,
+            "bip44": 169
+        },
+        "hash_genesis_block": "00000ed9b0a3e9ac0424573f83b2c36c89db5d03d69bc95b15fe4df990ae478b",
+        "message_magic": "\u0019BuzzCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BUZZ",
+        "name": "BuzzCoin - Testnet",
+        "testnet": true,
+        "port": 20114,
+        "port_rpc": 20115,
+        "protocol": {
+            "magic": "0x1f220530"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 127,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000a336bf3e2be21c2ce9a3f9bc9849c697475d0de85e201bdc3452f3c343b",
+        "message_magic": "\u0019BuzzCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

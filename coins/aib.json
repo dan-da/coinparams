@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "symbol": "AIB",
+        "name": "Advanced Internet Blocks",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/aib.iobond.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1020912.0",
+            "source_code": "https:\/\/github.com\/iobond\/aib",
+            "explorers": [
+                "https:\/\/block.aib.one\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/advanced-internet-blocks\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "AIB",
+        "name": "Advanced Internet Blocks - Mainnet",
+        "testnet": false,
+        "port": 5223,
+        "port_rpc": 0,
+        "protocol": {
+            "magic": "0x0f68c6cb"
+        },
+        "seeds_dns": [
+            "seed.wtmint.com",
+            "seed.iobond.com",
+            "seed.aib.one"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 0,
+            "scripthash": 0,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 55
+        },
+        "hash_genesis_block": "0x4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba10x0317d32e01a2adf6f2ac6f58c7cdaab6c656edc6fdb45986c739290053275200",
+        "message_magic": "\u0014Aib Signed Message:\n",
+        "decimals": 8
+    }
+}

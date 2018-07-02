@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "ENRG",
         "name": "Energycoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/energycoin.eu\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1028941.0",
+            "source_code": "https:\/\/github.com\/EnergyCoinProject\/energycoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/enrg\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/energycoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ENRG",
+        "name": "Energycoin - Mainnet",
         "testnet": false,
         "port": 22706,
         "port_rpc": 22705,
         "protocol": {
-            "magic": "0xddb7d9fc"
+            "magic": "0xfcd9b7dd"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +38,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000a5ac2dc57cfb0b92bc8be7731fe6a94a8c1c49a0d2f32e9e2da4f7d2308",
@@ -31,7 +52,7 @@
         "port": 22709,
         "port_rpc": 22705,
         "protocol": {
-            "magic": "0xedc1f0cc"
+            "magic": "0xccf0c1ed"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +63,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "",

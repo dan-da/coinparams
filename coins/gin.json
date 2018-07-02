@@ -1,19 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "GIN",
         "name": "GINcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/gincoin.io"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2998031",
+            "source_code": "https:\/\/github.com\/gincoin-dev\/gincoin-core",
+            "explorers": [
+                "https:\/\/explorer.gincoin.io"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/gincoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/gincoin",
+                "https:\/\/discord.gg\/t9YRSFN"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GIN",
+        "name": "GINcoin - Mainnet",
         "testnet": false,
         "port": 10111,
         "port_rpc": 10211,
         "protocol": {
-            "magic": "0xbd6b0cbf"
+            "magic": "0xbf0c6bbd"
         },
         "seeds_dns": [
-            "gincoin.io",
-            "seed2.gincoin.io",
-            "seed3.gincoin.io",
-            "seed4.gincoin.io",
-            "seed5.gincoin.io",
             "seed1.gincoin.io",
             "seed2.gincoin.io",
             "seed3.gincoin.io",
@@ -28,7 +47,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000cd6bde619b2c3b23ad2e384328a450a37fa28731debf748c3b17f91f97d",
@@ -42,11 +61,9 @@
         "port": 12111,
         "port_rpc": 12211,
         "protocol": {
-            "magic": "0xffcae2ce"
+            "magic": "0xcee2caff"
         },
         "seeds_dns": [
-            "test.gincoin.io",
-            "test.gincoin.io",
             "test-s1.gincoin.io",
             "test-s2.gincoin.io"
         ],
@@ -58,7 +75,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000ac0100fe889e7130e47d13819cc91eba5646dc1e8fc050c7a67532565ed",
@@ -72,7 +89,7 @@
         "port": 19111,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -83,7 +100,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "5f8058aea61edae50983271d61c69161ca1ee90a556127aba1b18f414e3293b7",

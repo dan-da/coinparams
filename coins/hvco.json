@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "symbol": "HVCO",
+        "name": "High Voltage",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.highvoltagecoin.tech\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1489677.0",
+            "source_code": "https:\/\/github.com\/highvoltagecoin\/highvoltagecoin",
+            "explorers": [
+                "http:\/\/172.110.9.193:40003\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/high-voltage\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HVCO",
+        "name": "High Voltage - Mainnet",
+        "testnet": false,
+        "port": 47824,
+        "port_rpc": 47823,
+        "protocol": {
+            "magic": "0xb1b6f8a6"
+        },
+        "seeds_dns": [
+            "seeder1.highvoltagecoin.tech",
+            "seeder2.highvoltagecoin.tech"
+        ],
+        "prefixes": {
+            "public": 40,
+            "scripthash": 85,
+            "private": 168,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000000e80102c0ce063a81d81683ae9ee15315e3237add9742dc14f84dcbd53a",
+        "message_magic": " HighVoltageCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "HVCO",
+        "name": "High Voltage - Testnet",
+        "testnet": true,
+        "port": 47822,
+        "port_rpc": 47821,
+        "protocol": {
+            "magic": "0xb1b6b1b6"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000d78f6443e99c5cb56a0ef110f8cf0b28da89b3cc3ee0cbacfb10d6196872",
+        "message_magic": " HighVoltageCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

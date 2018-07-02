@@ -1,24 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "GBX",
         "name": "GoByte",
+        "supply": {
+            "max": "31800000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/gobyte.network\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2442185.0",
+            "source_code": "https:\/\/github.com\/gobytecoin\/gobyte",
+            "explorers": [
+                "http:\/\/explorer.gobyte.network:5001\/",
+                "http:\/\/gobyte.ezmine.io\/",
+                "https:\/\/insight.gobyte.network"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/gobyte\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/mDAeFzT"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GBX",
+        "name": "GoByte - Mainnet",
         "testnet": false,
         "port": 12455,
         "port_rpc": 12454,
         "protocol": {
-            "magic": "0xd4c3b21a"
+            "magic": "0x1ab2c3d4"
         },
         "seeds_dns": [
-            "seed1.gobyte.network",
-            "seed2.gobyte.network",
-            "seed3.gobyte.network",
-            "seed4.gobyte.network",
-            "seed5.gobyte.network",
-            "seed6.gobyte.network",
-            "seed7.gobyte.network",
-            "seed8.gobyte.network",
-            "seed9.gobyte.network",
-            "seed10.gobyte.network",
             "seed1.gobyte.network",
             "seed2.gobyte.network",
             "seed3.gobyte.network",
@@ -38,7 +53,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 176
         },
         "hash_genesis_block": "0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07",
@@ -52,11 +67,9 @@
         "port": 13455,
         "port_rpc": 13454,
         "protocol": {
-            "magic": "0x7ab32bd1"
+            "magic": "0xd12bb37a"
         },
         "seeds_dns": [
-            "gobyte.network",
-            "gobyte.network",
             "testnet-dns.gobyte.network",
             "testnet2-dns.gobyte.network"
         ],
@@ -68,7 +81,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000c958ba1a0fe2174effe57a7f39c4c32b8341f1efa20be78b48b6b6bb353",
@@ -82,7 +95,7 @@
         "port": 13565,
         "port_rpc": 13564,
         "protocol": {
-            "magic": "0x7bd5b3a1"
+            "magic": "0xa1b3d57b"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -93,7 +106,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a",

@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "symbol": "FTO",
+        "name": "FuturoCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/futurocoin.com"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/futuro-coin\/Futuro",
+            "explorers": [
+                "https:\/\/explorer.futurocoin.com\/insight\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/futurocoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/FuturoCoinOfficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FTO",
+        "name": "FuturoCoin - Mainnet",
+        "testnet": false,
+        "port": 9009,
+        "port_rpc": 9008,
+        "protocol": {
+            "magic": "0xCFD2D4C6"
+        },
+        "seeds_dns": [
+            "mainnet-dnsseed.futurocoin.com",
+            "mainnet-dnsseed.fncoins.com"
+        ],
+        "prefixes": {
+            "private": 164,
+            "public": 36,
+            "scripthash": 13,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000bb3fa6e7040e32c0f8e8218e928c37e177139b62ae1daba803e0543c175",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "FTO",
+        "name": "FuturoCoin - Testnet",
+        "testnet": true,
+        "port": 19009,
+        "port_rpc": 19008,
+        "protocol": {
+            "magic": "0xD4D2D4C6"
+        },
+        "seeds_dns": [
+            "testnet-dnsseed.futurocoin.com",
+            "testnet-dnsseed.fncoins.com"
+        ],
+        "prefixes": {
+            "private": 223,
+            "public": 95,
+            "scripthash": 17,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000bb3fa6e7040e32c0f8e8218e928c37e177139b62ae1daba803e0543c175",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "FTO",
+        "name": "FuturoCoin - Regtest",
+        "testnet": true,
+        "port": 19004,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xD2D2D4C6"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "418b3663e91147e6bdc6e4890da9a62075d435ead27abdaa2ae90b0230f82eed",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

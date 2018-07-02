@@ -1,16 +1,37 @@
 {
+    "meta": {
+        "symbol": "BCC",
+        "name": "BitConnect",
+        "supply": {
+            "max": "28000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.bitconnect.co\/",
+                "https:\/\/bitconnectcoin.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1681719.0",
+            "source_code": "https:\/\/github.com\/bitconnectcoin\/bitconnectcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/bcc\/",
+                "https:\/\/www.blockexperts.com\/bcc"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitconnect\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "BCC",
-        "name": "Bitconnect",
+        "name": "BitConnect - Mainnet",
         "testnet": false,
         "port": 9239,
         "port_rpc": 9240,
         "protocol": {
-            "magic": "0x866f5e32"
+            "magic": "0x325e6f86"
         },
-        "seeds_dns": [
-            "198.211.115.116"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "public": 18,
             "scripthash": 85,
@@ -19,7 +40,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",
@@ -28,12 +49,12 @@
     },
     "test": {
         "symbol": "BCC",
-        "name": "Bitconnect - Testnet",
+        "name": "BitConnect - Testnet",
         "testnet": true,
         "port": 19239,
         "port_rpc": 19240,
         "protocol": {
-            "magic": "0xc563ba1b"
+            "magic": "0x1bba63c5"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +65,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000d3bd95c47fa17c47e1e2732d7072a6c4014a2fa93873124418a8fd9a300",

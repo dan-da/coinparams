@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "symbol": "UNIFY",
+        "name": "Unify",
+        "supply": {
+            "max": "19276800"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.unify.today\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1969629.0",
+            "source_code": "https:\/\/github.com\/SBDomains\/unify-source",
+            "explorers": [
+                "https:\/\/unifyexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/unify\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/GaJPt0Ls6GxPhCTPXS3a4w",
+                "https:\/\/discordapp.com\/channels\/347900830696996865\/347902048316162050"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "UNIFY",
+        "name": "Unify - Mainnet",
+        "testnet": false,
+        "port": 18649,
+        "port_rpc": 18650,
+        "protocol": {
+            "magic": "0xc447f9ee"
+        },
+        "seeds_dns": [
+            "node1.unifycoin.ovh",
+            "node2.unifycoin.ovh",
+            "node3.unifycoin.ovh",
+            "node1.unifycoin.pl",
+            "node2.unifycoin.pl",
+            "node3.unifycoin.pl"
+        ],
+        "prefixes": {
+            "public": 68,
+            "scripthash": 5,
+            "private": 196,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 124
+        },
+        "hash_genesis_block": "943dc625657143761f0f01dbf08c45a02260fc4089a27b20de3e42ae8a49154f",
+        "message_magic": "\u0016Unify Signed Message:\n",
+        "decimals": 8
+    }
+}

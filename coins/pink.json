@@ -1,12 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "PINK",
         "name": "PinkCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/getstarted.with.pink\/",
+                "https:\/\/pinkbuffaloz.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1905864.0",
+            "source_code": "https:\/\/github.com\/Pink2Dev\/Pink2",
+            "explorers": [
+                "http:\/\/explorer.pinkarmy.ml\/",
+                "https:\/\/chainz.cryptoid.info\/pink\/",
+                "https:\/\/www.coinexplorer.net\/PINK"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pinkcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/NnnyyBf"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PINK",
+        "name": "PinkCoin - Mainnet",
         "testnet": false,
         "port": 9134,
         "port_rpc": 9135,
         "protocol": {
-            "magic": "0xfbf9f4f2"
+            "magic": "0xf2f4f9fb"
         },
         "seeds_dns": [
             "pinkarmy.ml",
@@ -24,7 +50,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 117
         },
         "hash_genesis_block": "00000f79b700e6444665c4d090c9b8833664c4e2597c7087a6ba6391b956cc89",
@@ -38,7 +64,7 @@
         "port": 19134,
         "port_rpc": 19135,
         "protocol": {
-            "magic": "0x0d050402"
+            "magic": "0x0204050d"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -49,7 +75,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000076a007b949e5f8cdee6c18817d26bc224bfde575ce3f2ecb0dd000f7ec19",

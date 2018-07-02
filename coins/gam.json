@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "GAM",
         "name": "Gambit",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.gambitcrypto.com"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/collincrypto\/gambitcrypto",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/gam\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/gambit\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GAM",
+        "name": "Gambit - Mainnet",
         "testnet": false,
         "port": 47077,
         "port_rpc": 47177,
         "protocol": {
-            "magic": "0xf8f6f4f2"
+            "magic": "0xf2f4f6f8"
         },
         "seeds_dns": [
             "node1.gambitcrypto.com",
@@ -21,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000bcebb12f0ec7bd562d5257215afb6641ce8b9712e3cc4bb91f0cb7aa0f5",
@@ -35,7 +56,7 @@
         "port": 47078,
         "port_rpc": 47178,
         "protocol": {
-            "magic": "0x0f08020a"
+            "magic": "0x0a02080f"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -46,7 +67,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000a6b3167cd44779db506b85e84144b6ac0a5c2b1f2ce3e5ebb0ba9306fec",

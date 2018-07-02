@@ -1,12 +1,33 @@
 {
+    "meta": {
+        "symbol": "BTG",
+        "name": "Bitgem",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.bitgem.pw\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=207008.0",
+            "source_code": "https:\/\/github.com\/BTCGPU\/BTCGPU",
+            "explorers": [
+                "http:\/\/abe.alfter.us\/chain\/Bitgem"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitgem\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "BTG",
-        "name": "Bitcoin Gold",
+        "name": "Bitgem - Mainnet",
         "testnet": false,
         "port": 8338,
         "port_rpc": 8332,
         "protocol": {
-            "magic": "0x446d47e1"
+            "magic": "0xe1476d44"
         },
         "seeds_dns": [
             "eu-dnsseed.bitcoingold-official.org",
@@ -21,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 156
         },
         "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
@@ -30,12 +51,12 @@
     },
     "test": {
         "symbol": "BTG",
-        "name": "Bitcoin Gold - Testnet",
+        "name": "Bitgem - Testnet",
         "testnet": true,
         "port": 18338,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0x456e48e2"
+            "magic": "0xe2486e45"
         },
         "seeds_dns": [
             "eu-test-dnsseed.bitcoingold-official.org",
@@ -50,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
@@ -59,12 +80,12 @@
     },
     "regtest": {
         "symbol": "BTG",
-        "name": "Bitcoin Gold - Regtest",
+        "name": "Bitgem - Regtest",
         "testnet": true,
         "port": 18444,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -75,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",

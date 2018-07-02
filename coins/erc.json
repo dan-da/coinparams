@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "ERC",
+        "name": "EuropeCoin",
+        "supply": {
+            "max": "32000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.europecoin.eu.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=901605",
+            "source_code": "https:\/\/github.com\/LIMXTEC\/Europecoin-V3",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/erc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/europecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ERC",
+        "name": "EuropeCoin - Mainnet",
+        "testnet": false,
+        "port": 8881,
+        "port_rpc": 11989,
+        "protocol": {
+            "magic": "0x4555524f"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 41,
+            "public": 33,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 151
+        },
+        "hash_genesis_block": "0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ERC",
+        "name": "EuropeCoin - Testnet",
+        "testnet": true,
+        "port": 8989,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x4555524f"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 41,
+            "public": 33,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f494385.214.68.75\", \"85.214.68.75",
+        "message_magic": "\u0018Bitcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

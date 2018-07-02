@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "symbol": "CAZ",
+        "name": "Cazcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/cazcoin.io\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/copicogithub1\/cazcoin",
+            "explorers": [
+                "http:\/\/cazexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/cazcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/CopicoOfficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CAZ",
+        "name": "Cazcoin - Mainnet",
+        "testnet": false,
+        "port": 17350,
+        "port_rpc": 17358,
+        "protocol": {
+            "magic": "0x3da232b4"
+        },
+        "seeds_dns": [
+            "seed1.copico.io",
+            "seed2.copico.io",
+            "seed3.copico.io",
+            "seed4.copico.io"
+        ],
+        "prefixes": {
+            "private": 144,
+            "public": 28,
+            "scripthash": 43,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488b21e"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000008fef3a083a36208f4bcf73811d225bf70c0c25fced32b0e457ca75eab59",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
+    }
+}

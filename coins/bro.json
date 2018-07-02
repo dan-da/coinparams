@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "symbol": "BRO",
+        "name": "Bitradio",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.bitrad.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1834340.0",
+            "source_code": "https:\/\/github.com\/thebitradio\/Bitradio",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/bro\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitradio\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/telegram.me\/bitradio"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BRO",
+        "name": "Bitradio - Mainnet",
+        "testnet": false,
+        "port": 32454,
+        "port_rpc": 32455,
+        "protocol": {
+            "magic": "0xd31a3de4"
+        },
+        "seeds_dns": [
+            "node1.bitrad.io",
+            "node2.bitrad.io",
+            "node3.bitrad.io"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 26,
+            "scripthash": 102,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e54a9606e655b0093dff041d471fb46d913f979f0e79d4fafc944a214a9",
+        "message_magic": "\u0019Bitradio Signed Message:\n",
+        "decimals": 8
+    }
+}

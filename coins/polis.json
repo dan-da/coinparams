@@ -1,17 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "POLIS",
         "name": "Polis",
+        "supply": {
+            "max": "25000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/polispay.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2627897.0",
+            "source_code": "https:\/\/github.com\/polispay\/polis",
+            "explorers": [
+                "https:\/\/explorer.polispay.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/polis\/",
+            "message_board": [
+                "http:\/\/forum.polispay.org\/"
+            ],
+            "chat": [
+                "https:\/\/discord.gg\/gwhHv8U"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "POLIS",
+        "name": "Polis - Mainnet",
         "testnet": false,
         "port": 24126,
         "port_rpc": 24127,
         "protocol": {
-            "magic": "0xbd6b0cbf"
+            "magic": "0xbf0c6bbd"
         },
         "seeds_dns": [
-            "N1",
-            "N2",
-            "N3",
             "node1.polispay.org",
             "node2.polispay.org",
             "node3.polispay.org"
@@ -24,7 +46,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000009701eb781a8113b1af1d814e2f060f6408a2c990db291bc5108a1345c1e",
@@ -38,7 +60,7 @@
         "port": 21430,
         "port_rpc": 21431,
         "protocol": {
-            "magic": "0xffcae2ce"
+            "magic": "0xcee2caff"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -49,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000009038aeaea86784e959b0b4002793adad39fc9d6f8789ed2edf99ad5c8b",
@@ -63,7 +85,7 @@
         "port": 19994,
         "port_rpc": 19998,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -74,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000f3b4ec57f851b3706c056eda3120875896c9970495ae2efd49b46472a05",

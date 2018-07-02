@@ -1,12 +1,40 @@
 {
-    "main": {
+    "meta": {
         "symbol": "FTC",
         "name": "Feathercoin",
+        "supply": {
+            "max": "336000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/feathercoin.com",
+                "https:\/\/feathercoin.foundation\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=178286.0",
+            "source_code": "https:\/\/github.com\/FeatherCoin\/Feathercoin",
+            "explorers": [
+                "http:\/\/explorer.feathercoin.com\/",
+                "https:\/\/chainz.cryptoid.info\/ftc\/",
+                "https:\/\/fsight.chain.tips\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/feathercoin\/",
+            "message_board": [
+                "https:\/\/forum.feathercoin.com"
+            ],
+            "chat": [
+                "https:\/\/telegram.me\/feathercoinofficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FTC",
+        "name": "Feathercoin - Mainnet",
         "testnet": false,
         "port": 9336,
         "port_rpc": 9337,
         "protocol": {
-            "magic": "0x211a1541"
+            "magic": "0x41151a21"
         },
         "seeds_dns": [
             "dnsseed.feathercoin.com",
@@ -22,7 +50,7 @@
                 "public": "0x0488bc26",
                 "private": "0x0488daee"
             },
-            "bech32_hrp": "fc",
+            "bech32": "fc",
             "bip44": 8
         },
         "hash_genesis_block": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
@@ -36,7 +64,7 @@
         "port": 19336,
         "port_rpc": 0,
         "protocol": {
-            "magic": "0x716a6591"
+            "magic": "0x91656a71"
         },
         "seeds_dns": [
             "testnet-explorer2.feathercoin.com",
@@ -50,7 +78,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "tf",
+            "bech32": "tf",
             "bip44": 1
         },
         "hash_genesis_block": "7734b3734ab1f0d0758e6c274622a377092549df05f6a4fe6939cbc754939169",
@@ -64,7 +92,7 @@
         "port": 18446,
         "port_rpc": 18447,
         "protocol": {
-            "magic": "0xb1aaa5d1"
+            "magic": "0xd1a5aab1"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -75,7 +103,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "fcrt",
+            "bech32": "fcrt",
             "bip44": 1
         },
         "hash_genesis_block": "c797e583cd93b97b1370a687519606abebd2b84fc4294b0e7584f59187e23ebb",

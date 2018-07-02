@@ -1,12 +1,35 @@
 {
+    "meta": {
+        "symbol": "VRC",
+        "name": "VeriCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.vericoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=602041.0",
+            "source_code": "https:\/\/github.com\/vericoin\/vericoin",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/vrc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vericoin\/",
+            "message_board": [
+                "https:\/\/www.vericoinforums.com"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "VRC",
-        "name": "Vericoin",
+        "name": "VeriCoin - Mainnet",
         "testnet": false,
         "port": 58684,
         "port_rpc": 58683,
         "protocol": {
-            "magic": "0x05223570"
+            "magic": "0x70352205"
         },
         "seeds_dns": [
             "emea.vrc.vericonomy.com",
@@ -21,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "000004da58a02be894a6c916d349fe23cc29e21972cafb86b5d3f07c4b8e6bb8",
@@ -30,12 +53,12 @@
     },
     "test": {
         "symbol": "VRC",
-        "name": "Vericoin - Testnet",
+        "name": "VeriCoin - Testnet",
         "testnet": true,
         "port": 48684,
         "port_rpc": 48683,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -46,7 +69,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000d90349e5898a5cb76775e93f8774138d48cd2d763c7707ce87d42af0f66a",

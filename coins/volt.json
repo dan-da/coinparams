@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "symbol": "VOLT",
+        "name": "Bitvolt",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitvolt.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1905164",
+            "source_code": "https:\/\/github.com\/voltcoin\/Volt",
+            "explorers": [
+                "http:\/\/139.59.163.156:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitvolt\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VOLT",
+        "name": "Bitvolt - Mainnet",
+        "testnet": false,
+        "port": 11516,
+        "port_rpc": 15615,
+        "protocol": {
+            "magic": "0x12695122"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 166,
+            "public": 70,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000038be9d28a7189fdfbd10e2c05fa51e555430da4967b03dcd374ee1ba9ec",
+        "message_magic": "\u0019VoltCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "ULA",
+        "name": "Ulatech",
+        "supply": {
+            "max": "90000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/ulatech.com\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/UlaTechGroup\/UlatechGroup",
+            "explorers": [
+                "http:\/\/block.ulatech.com\/",
+                "https:\/\/www.blockexperts.com\/ula"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/ulatech\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ULA",
+        "name": "Ulatech - Mainnet",
+        "testnet": false,
+        "port": 21659,
+        "port_rpc": 21660,
+        "protocol": {
+            "magic": "0x8ba3369a"
+        },
+        "seeds_dns": [
+            "ulacoin.com",
+            "node.walletbuilders.com "
+        ],
+        "prefixes": {
+            "public": 68,
+            "scripthash": 5,
+            "private": 196,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "1b12b0f061a5e8313157563b86bef7d73b45dc6668a084b9b4c1615c9c9d9a34",
+        "message_magic": "\u0018UlaTech Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ULA",
+        "name": "Ulatech - Testnet",
+        "testnet": true,
+        "port": 31659,
+        "port_rpc": 31660,
+        "protocol": {
+            "magic": "0xe7f80328"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x",
+        "message_magic": "\u0018UlaTech Signed Message:\n",
+        "decimals": 8
+    }
+}

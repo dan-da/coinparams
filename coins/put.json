@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "PUT",
+        "name": "PutinCoin",
+        "supply": {
+            "max": "2000000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/putincoin.org",
+                "https:\/\/putincoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1847881",
+            "source_code": "https:\/\/github.com\/PutinCoinPUT\/PutinCoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/put\/",
+                "http:\/\/explorer.putincoin.org:8000\/",
+                "https:\/\/prohashing.com\/explorer\/Putincoin_PUT\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/putincoin\/",
+            "message_board": [
+                "https:\/\/putincoin.org\/forum\/"
+            ],
+            "chat": [
+                "https:\/\/putincoin.org\/chat.html"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PUT",
+        "name": "PutinCoin - Mainnet",
+        "testnet": false,
+        "port": 20095,
+        "port_rpc": 20094,
+        "protocol": {
+            "magic": "0xb7f0e2e5"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 20,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 122
+        },
+        "hash_genesis_block": "000002533dfcd597bfb748a6e87f2e6a0b3e50b662e2301e9d338f5d24520829",
+        "message_magic": "\u001aPutinCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "PUT",
+        "name": "PutinCoin - Testnet",
+        "testnet": true,
+        "port": 17778,
+        "port_rpc": 18345,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb",
+        "message_magic": "\u001aPutinCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

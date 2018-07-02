@@ -1,12 +1,36 @@
 {
+    "meta": {
+        "symbol": "DGB",
+        "name": "DigiByte",
+        "supply": {
+            "max": "21000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.digibyte.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=408268.0",
+            "source_code": "https:\/\/github.com\/digibyte\/digibyte",
+            "explorers": [
+                "https:\/\/digiexplorer.info\/status",
+                "https:\/\/chainz.cryptoid.info\/dgb\/#@inflation"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/digibyte\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/DigiByteCoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "DGB",
-        "name": "Digibyte",
+        "name": "DigiByte - Mainnet",
         "testnet": false,
         "port": 12024,
         "port_rpc": 8332,
         "protocol": {
-            "magic": "0xdab6c3fa"
+            "magic": "0xfac3b6da"
         },
         "seeds_dns": [
             "seed1.digibyte.io",
@@ -25,7 +49,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": "dgb",
+            "bech32": "dgb",
             "bip44": 20
         },
         "hash_genesis_block": "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
@@ -34,12 +58,12 @@
     },
     "test": {
         "symbol": "DGB",
-        "name": "Digibyte - Testnet",
+        "name": "DigiByte - Testnet",
         "testnet": true,
         "port": 12025,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xddbdc8fd"
+            "magic": "0xfdc8bddd"
         },
         "seeds_dns": [
             "seed1.digibyte.io",
@@ -55,7 +79,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "dgbt",
+            "bech32": "dgbt",
             "bip44": 1
         },
         "hash_genesis_block": "308ea0711d5763be2995670dd9ca9872753561285a84da1d58be58acaa822252",
@@ -64,12 +88,12 @@
     },
     "regtest": {
         "symbol": "DGB",
-        "name": "Digibyte - Regtest",
+        "name": "DigiByte - Regtest",
         "testnet": true,
         "port": 18444,
         "port_rpc": 18443,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -80,7 +104,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "dgbrt",
+            "bech32": "dgbrt",
             "bip44": 1
         },
         "hash_genesis_block": "4598a0f2b823aaf9e77ee6d5e46f1edb824191dcd48b08437b7cec17e6ae6e26",

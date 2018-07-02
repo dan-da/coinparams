@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "symbol": "GB",
+        "name": "GoldBlocks",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/goldblocks.eu\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1494362.0",
+            "source_code": "https:\/\/github.com\/goldblockscoin\/goldblocks",
+            "explorers": [
+                "https:\/\/cryptogods.net\/explorer\/goldblocks\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/goldblocks\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GB",
+        "name": "GoldBlocks - Mainnet",
+        "testnet": false,
+        "port": 27920,
+        "port_rpc": 26920,
+        "protocol": {
+            "magic": "0x60b6cdf4"
+        },
+        "seeds_dns": [
+            "node1.goldblocks.eu",
+            "node2.goldblocks.eu",
+            "node3.goldblocks.eu",
+            "node4.goldblocks.eu",
+            "node5.goldblocks.eu",
+            "node6.goldblocks.eu",
+            "node7.goldblocks.eu"
+        ],
+        "prefixes": {
+            "private": 155,
+            "public": 38,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 94
+        },
+        "hash_genesis_block": "000005fc99547a646f2273caa7a1f407ebd885ad89e0b019aa0a70c353598f38",
+        "message_magic": "\u001bGoldBlocks Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GB",
+        "name": "GoldBlocks - Testnet",
+        "testnet": true,
+        "port": 27921,
+        "port_rpc": 26921,
+        "protocol": {
+            "magic": "0xd0ac3412"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 97,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000005fc99547a646f2273caa7a1f407ebd885ad89e0b019aa0a70c353598f38",
+        "message_magic": "\u001bGoldBlocks Signed Message:\n",
+        "decimals": 8
+    }
+}

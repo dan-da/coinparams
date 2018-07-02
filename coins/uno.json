@@ -1,17 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "UNO",
         "name": "Unobtanium",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/unobtanium.uno"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=527500.0",
+            "source_code": "https:\/\/github.com\/unobtanium-official\/Unobtanium",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/uno\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/unobtanium\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/unobtaniumuno"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "UNO",
+        "name": "Unobtanium - Mainnet",
         "testnet": false,
         "port": 65534,
         "port_rpc": 65535,
         "protocol": {
-            "magic": "0x03b5d503"
+            "magic": "0x03d5b503"
         },
         "seeds_dns": [
-            "node1.unobtanium.uno",
-            "node2.unobtanium.uno",
-            "unobtanium.cryptap.us",
             "node1.unobtanium.uno",
             "node2.unobtanium.uno",
             "unobtanium.cryptap.us"
@@ -24,7 +44,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 92
         },
         "hash_genesis_block": "000004c2fc5fffb810dccc197d603690099a68305232e552d96ccbe8e2c52b75",
@@ -38,11 +58,9 @@
         "port": 65525,
         "port_rpc": 65531,
         "protocol": {
-            "magic": "0x04030201"
+            "magic": "0x01020304"
         },
         "seeds_dns": [
-            "23skidoo.info",
-            "testnet.unobtanium.info",
             "23skidoo.info",
             "testnet.unobtanium.info"
         ],
@@ -54,7 +72,7 @@
                 "public": "0x043586ce",
                 "private": "0x04358293"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000004aa8e535bedb2186a3c1c2f3b119e70c2f61286b15ec98a81021c3a4a0c",

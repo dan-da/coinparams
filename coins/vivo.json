@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "symbol": "VIVO",
+        "name": "VIVO",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.vivocoin.net\/",
+                "https:\/\/www.vivocrypto.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2110690.0",
+            "source_code": "https:\/\/github.com\/vivocoin\/vivo",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/vivo\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vivo\/",
+            "message_board": [
+                "https:\/\/join.slack.com\/t\/vivocoin\/shared_invite\/MjM3MTQzNjgzOTIwLTE1MDQ4MDg4MDAtMmVkNTRjOGM1Yg"
+            ],
+            "chat": [
+                "https:\/\/t.me\/VIVOcoin",
+                "https:\/\/discord.gg\/vXfEEWH"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VIVO",
+        "name": "VIVO - Mainnet",
+        "testnet": false,
+        "port": 12845,
+        "port_rpc": 9998,
+        "protocol": {
+            "magic": "0x1d425ba7"
+        },
+        "seeds_dns": [
+            "vivoseed.dynu.net",
+            "seed.seeds.vivocoin.net"
+        ],
+        "prefixes": {
+            "private": 198,
+            "public": 70,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 166
+        },
+        "hash_genesis_block": "00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "VIVO",
+        "name": "VIVO - Testnet",
+        "testnet": true,
+        "port": 13845,
+        "port_rpc": 19998,
+        "protocol": {
+            "magic": "0xd124b57a"
+        },
+        "seeds_dns": [
+            "testnet-dns.vivonodes.space"
+        ],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "VIVO",
+        "name": "VIVO - Regtest",
+        "testnet": true,
+        "port": 13855,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xd124b57a"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

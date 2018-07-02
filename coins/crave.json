@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "symbol": "CRAVE",
+        "name": "Crave",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/crave.cc"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2547950",
+            "source_code": "https:\/\/github.com\/Crave-Project\/Crave-NG",
+            "explorers": [
+                "http:\/\/explorer.crave.cc\/",
+                "http:\/\/cryptoblock.xyz:30005"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/crave\/",
+            "message_board": [
+                "https:\/\/forum.crave.cc"
+            ],
+            "chat": [
+                "https:\/\/t.me\/craveproject",
+                "https:\/\/crave.cc\/discord"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CRAVE",
+        "name": "Crave - Mainnet",
+        "testnet": false,
+        "port": 48882,
+        "port_rpc": 48883,
+        "protocol": {
+            "magic": "0x564f4944"
+        },
+        "seeds_dns": [
+            "dns0.craveproject.net",
+            "dns1.craveproject.net",
+            "dns2.craveproject.net",
+            "dns3.craveproject.net",
+            "dns4.craveproject.net",
+            "dns5.craveproject.net",
+            "dns6.craveproject.net",
+            "dns7.craveproject.net",
+            "dns8.craveproject.net",
+            "dns9.craveproject.net"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 70,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 186
+        },
+        "hash_genesis_block": "7084c9af2c34a1179522d71ceaef27d87855365793ed9c9dd47ff4f8721462c1",
+        "message_magic": "\u0018DarkNet Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,12 +1,37 @@
 {
+    "meta": {
+        "symbol": "PART",
+        "name": "Particl",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/particl.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1835782.0",
+            "source_code": "https:\/\/github.com\/particl\/particl-core",
+            "explorers": [
+                "https:\/\/explorer.particl.io\/",
+                "https:\/\/chainz.cryptoid.info\/part\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/particl\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/particlproject",
+                "https:\/\/t.me\/particlnews"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "PART",
-        "name": "Particle",
+        "name": "Particl - Mainnet",
         "testnet": false,
         "port": 51738,
         "port_rpc": 51735,
         "protocol": {
-            "magic": "0xb4eff2fb"
+            "magic": "0xfbf2efb4"
         },
         "seeds_dns": [
             "mainnet-seed.particl.io",
@@ -21,7 +46,7 @@
                 "public": "0x696e82d1",
                 "private": "0x8f1daeb8"
             },
-            "bech32_hrp": "bc",
+            "bech32": "bc",
             "bip44": 44
         },
         "hash_genesis_block": "0000ee0784c195317ac95623e22fddb8c7b8825dc3998e0bb924d66866eccf4c",
@@ -30,12 +55,12 @@
     },
     "test": {
         "symbol": "PART",
-        "name": "Particle - Testnet",
+        "name": "Particl - Testnet",
         "testnet": true,
         "port": 51938,
         "port_rpc": 0,
         "protocol": {
-            "magic": "0x0b051108"
+            "magic": "0x0811050b"
         },
         "seeds_dns": [
             "testnet-seed.particl.io",
@@ -49,7 +74,7 @@
                 "public": "0xe1427800",
                 "private": "0x04889478"
             },
-            "bech32_hrp": "tb",
+            "bech32": "tb",
             "bip44": 1
         },
         "hash_genesis_block": "0000594ada5310b367443ee0afd4fa3d0bbd5850ea4e33cdc7d6a904a7ec7c90",
@@ -58,12 +83,12 @@
     },
     "regtest": {
         "symbol": "PART",
-        "name": "Particle - Regtest",
+        "name": "Particl - Regtest",
         "testnet": true,
         "port": 11938,
         "port_rpc": 51936,
         "protocol": {
-            "magic": "0xdab5bffa0c061209"
+            "magic": "0x0912060cfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -74,7 +99,7 @@
                 "public": "0xe1427800",
                 "private": "0x04889478"
             },
-            "bech32_hrp": "bcrt",
+            "bech32": "bcrt",
             "bip44": 1
         },
         "hash_genesis_block": "6cd174536c0ada5bfa3b8fde16b98ae508fff6586f2ee24cf866867098f25907",

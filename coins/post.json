@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "POST",
+        "name": "PostCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/postcoin.top\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1596189.0",
+            "source_code": "https:\/\/github.com\/PostCoinDevelopers\/PostCoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/post\/",
+                "https:\/\/bitexplorer.top\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/postcoin\/",
+            "message_board": [
+                "https:\/\/postcoin.top\/forum\/"
+            ],
+            "chat": [
+                "https:\/\/telegram.me\/postcoinofficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "POST",
+        "name": "PostCoin - Mainnet",
+        "testnet": false,
+        "port": 9130,
+        "port_rpc": 9131,
+        "protocol": {
+            "magic": "0x35c3d6a2"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 55,
+            "scripthash": 28,
+            "private": 183,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00005c17d0f7e6ff81c28d4ef2dd07be2e9363582efbdc7481bad70636be4ec",
+        "message_magic": "\u0019PostCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "POST",
+        "name": "PostCoin - Testnet",
+        "testnet": true,
+        "port": 25500,
+        "port_rpc": 25500,
+        "protocol": {
+            "magic": "0x35c3d6a2"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00005c17d0f7e6ff81c28d4ef2dd07be2e9363582efbdc7481bad70636be4ec",
+        "message_magic": "\u0019PostCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

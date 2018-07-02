@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "CARBON",
+        "name": "Carboncoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/carboncoin.cc"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1131250.0",
+            "source_code": "https:\/\/github.com\/carboncointrust\/CarboncoinCore",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/carbon\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/carboncoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CARBON",
+        "name": "Carboncoin - Mainnet",
+        "testnet": false,
+        "port": 9350,
+        "port_rpc": 9351,
+        "protocol": {
+            "magic": "0xabccbbdf"
+        },
+        "seeds_dns": [
+            "dnsseed.sequestrationcoin.com",
+            "dnsmain.sequestrationcoin.com"
+        ],
+        "prefixes": {
+            "private": 175,
+            "public": 47,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "a94f1aae8c409a0bd1e53cbca92d7e506b61c51d955cf56f76da501718d48d6c",
+        "message_magic": "\u001bCarboncoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "CARBON",
+        "name": "Carboncoin - Testnet",
+        "testnet": true,
+        "port": 19350,
+        "port_rpc": 19351,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [
+            "dnsseed.sequestrationcoin.com",
+            "dnstest.sequestrationcoin.com"
+        ],
+        "prefixes": {
+            "private": 241,
+            "public": 113,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "027c03874be8e8c1ead6518fd37f5c416e0eb02d5982919a21a2a7f8b86c80c8",
+        "message_magic": "\u001bCarboncoin Signed Message:\n",
+        "decimals": 8
+    }
+}

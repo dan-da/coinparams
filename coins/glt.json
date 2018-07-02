@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "symbol": "GLT",
+        "name": "GlobalToken",
+        "supply": {
+            "max": "168000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/globaltoken.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1706793.0",
+            "source_code": "https:\/\/github.com\/globaltoken\/globaltoken",
+            "explorers": [
+                "https:\/\/explorer.globaltoken.org\/",
+                "https:\/\/www.blockexperts.com\/glt",
+                "https:\/\/bchain.info\/GLT\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/globaltoken\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/join.slack.com\/t\/globaltoken\/shared_invite\/enQtMjE4NDg4OTgyMTQ3LWMxZjVjYWM1MWEwNDJjZjNhOTcyODRmOTlkOTQ4NzNlODM2MDIxNjhlYmFkZTQ5ZDRkNTAyNTgzOTlmYmJjNjM",
+                "https:\/\/t.me\/GlobalToken"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GLT",
+        "name": "GlobalToken - Mainnet",
+        "testnet": false,
+        "port": 9319,
+        "port_rpc": 9320,
+        "protocol": {
+            "magic": "0xc708d32d"
+        },
+        "seeds_dns": [
+            "lameserver.de"
+        ],
+        "prefixes": {
+            "private": 166,
+            "public": 38,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": "gt",
+            "bip44": null
+        },
+        "hash_genesis_block": "00000000fe3e3e93344a6b73888137397413eb11f601b4231b5196390d24d3b6",
+        "message_magic": "\u001cGlobaltoken Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GLT",
+        "name": "GlobalToken - Testnet",
+        "testnet": true,
+        "port": 19319,
+        "port_rpc": 19320,
+        "protocol": {
+            "magic": "0x3a6f375b"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "tg",
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000000fe3e3e93344a6b73888137397413eb11f601b4231b5196390d24d3b6",
+        "message_magic": "\u001cGlobaltoken Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "GLT",
+        "name": "GlobalToken - Regtest",
+        "testnet": true,
+        "port": 20144,
+        "port_rpc": 20145,
+        "protocol": {
+            "magic": "0x147669d6"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "gtrt",
+            "bip44": 1
+        },
+        "hash_genesis_block": "1ba3490ecf1653fbe7a53d1e0fb7e051c2a1c506d84f4dd3b01522544cd1fc6f",
+        "message_magic": "\u001cGlobaltoken Signed Message:\n",
+        "decimals": 8
+    }
+}

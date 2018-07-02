@@ -1,16 +1,35 @@
 {
-    "main": {
-        "symbol": "THX",
+    "meta": {
+        "symbol": "THC",
         "name": "HempCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/hempcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=506320.0",
+            "source_code": "https:\/\/github.com\/hempcoin-project\/THC",
+            "explorers": [
+                "http:\/\/23.92.30.230\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/hempcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "THC",
+        "name": "HempCoin - Mainnet",
         "testnet": false,
         "port": 21054,
         "port_rpc": 12055,
         "protocol": {
-            "magic": "0x01fda5a5"
+            "magic": "0xa5a5fd01"
         },
-        "seeds_dns": [
-            "162.243.1.45"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "public": 40,
             "scripthash": 8,
@@ -19,7 +38,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000dd93ea1774f94a1ac8d26fa5bc165c1bc3d415b9c37ecb8a6ebe5e05fb1",
@@ -27,13 +46,13 @@
         "decimals": 6
     },
     "test": {
-        "symbol": "THX",
+        "symbol": "THC",
         "name": "HempCoin - Testnet",
         "testnet": true,
         "port": 31054,
         "port_rpc": 22055,
         "protocol": {
-            "magic": "0xefc0f2f2"
+            "magic": "0xf2f2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +63,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000c20eb9b869a603d2251b26de94cadcf7a26677c5797cdb70f895cc2b9b19e",

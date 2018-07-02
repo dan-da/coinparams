@@ -1,18 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "$PAC",
         "name": "PACcoin",
+        "supply": {
+            "max": "100000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/paccoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3047868",
+            "source_code": "https:\/\/github.com\/PACCommunity\/PAC",
+            "explorers": [
+                "http:\/\/usa.pacblockexplorer.com:3002\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/paccoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/jYhzkPW"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "$PAC",
+        "name": "PACcoin - Mainnet",
         "testnet": false,
         "port": 7112,
         "port_rpc": 7111,
         "protocol": {
-            "magic": "0x2c61e5c8"
+            "magic": "0xc8e5612c"
         },
         "seeds_dns": [
-            "paccoin.io",
-            "paccoin.io",
-            "paccoin.io",
-            "paccoin.io",
             "dnsseed1.paccoin.io",
             "dnsseed2.paccoin.io",
             "dns-seeder-next.paccoin.io",
@@ -26,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0x00000354655ff039a51273fe61d3b493bd2897fe6c16f732dbc4ae19f04b789e",
@@ -40,10 +59,9 @@
         "port": 17112,
         "port_rpc": 17111,
         "protocol": {
-            "magic": "0xe3fa2f9b"
+            "magic": "0x9b2ffae3"
         },
         "seeds_dns": [
-            "paccoin.io",
             "testnet-static-dns.paccoin.io"
         ],
         "prefixes": {
@@ -54,7 +72,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x00000da63bd9478b655ef6bf1bf76cd9af05202ab68643f9091e049b2b5280ed",
@@ -68,7 +86,7 @@
         "port": 17114,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xc2fea696"
+            "magic": "0x96a6fec2"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -79,7 +97,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x084c58211fe102add2fb5c3976f14f997e3c27a3a6fd5ab15a1929f7b5db9d95",

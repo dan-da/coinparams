@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "symbol": "SAK",
+        "name": "Sharkcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.sharkcoin.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=617410.0",
+            "source_code": "https:\/\/github.com\/shark-git\/sharkcoin",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sharkcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SAK",
+        "name": "Sharkcoin - Mainnet",
+        "testnet": false,
+        "port": 4011,
+        "port_rpc": 4009,
+        "protocol": {
+            "magic": "0xfea503db"
+        },
+        "seeds_dns": [
+            "seed1.sak.cc",
+            "seed2.sak.cc"
+        ],
+        "prefixes": {
+            "public": 63,
+            "scripthash": 9,
+            "private": 191,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000000042864103f8cd5cb2c644e71bdc109e80249fae4ec5d0e384c884ff2dd",
+        "message_magic": "\u001aSharkcoin Signed Message:\n",
+        "decimals": 5
+    },
+    "test": {
+        "symbol": "SAK",
+        "name": "Sharkcoin - Testnet",
+        "testnet": true,
+        "port": 14011,
+        "port_rpc": 14009,
+        "protocol": {
+            "magic": "0x011A39F7"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 199,
+            "private": 255,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0000014a2f2596b0dd200958581579705e718d9fbd74674a76688c4a16ee345b",
+        "message_magic": "\u001aSharkcoin Signed Message:\n",
+        "decimals": 5
+    }
+}

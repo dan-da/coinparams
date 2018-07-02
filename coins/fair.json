@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "FAIR",
         "name": "FairCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/fair-coin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=702675.0",
+            "source_code": "https:\/\/github.com\/FairCoinTeam\/fair-coin",
+            "explorers": [
+                "https:\/\/chain.fair.to\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/faircoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FAIR",
+        "name": "FairCoin - Mainnet",
         "testnet": false,
         "port": 46392,
         "port_rpc": 46393,
         "protocol": {
-            "magic": "0xe5e9e8e4"
+            "magic": "0xe4e8e9e5"
         },
         "seeds_dns": [
             "seed1.fair-coin.org",
@@ -20,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "f1ae188b0c08e296e45980f9913f6ad2304ff02d5293538275bacdbcb05ef275",
@@ -34,7 +55,7 @@
         "port": 18392,
         "port_rpc": 18393,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -45,7 +66,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "5df7281a262d9a6251e65d12bdb78c6a69041c7d28e209df2a7719059de3088c",

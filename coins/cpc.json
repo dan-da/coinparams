@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "symbol": "CPC",
+        "name": "Capricoin",
+        "supply": {
+            "max": "205000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/capricoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1570021.0",
+            "source_code": "https:\/\/github.com\/Capricoinofficial\/Capricoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/cpc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/capricoin\/",
+            "message_board": [
+                "https:\/\/cryptomaa.com\/coin\/CPC\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CPC",
+        "name": "Capricoin - Mainnet",
+        "testnet": false,
+        "port": 22714,
+        "port_rpc": 22713,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [
+            "seed1.capricoin.org",
+            "seed2.capricoin.org",
+            "seed3.capricoin.org",
+            "seed4.capricoin.org",
+            "seed5.capricoin.org",
+            "seed6.capricoin.org",
+            "seed7.capricoin.org",
+            "seed8.capricoin.org",
+            "seed9.capricoin.org",
+            "seed10.capricoin.org",
+            "seed11.capricoin.org",
+            "seed12.capricoin.org"
+        ],
+        "prefixes": {
+            "public": 28,
+            "scripthash": 35,
+            "private": 156,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000d23fa0fc52c90893adb1181c9ddffb6c797a3e41864b9a23aa2f2981fe3",
+        "message_magic": "\u001aCapricoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "CPC",
+        "name": "Capricoin - Testnet",
+        "testnet": true,
+        "port": 22715,
+        "port_rpc": 22712,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000d23fa0fc52c90893adb1181c9ddffb6c797a3e41864b9a23aa2f2981fe3",
+        "message_magic": "\u001aCapricoin Signed Message:\n",
+        "decimals": 8
+    }
+}

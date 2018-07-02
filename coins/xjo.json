@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "symbol": "XJO",
+        "name": "Joulecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.jouleco.in\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=299308.0",
+            "source_code": "https:\/\/github.com\/joulecoin\/joulecoin",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/xjo\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/joulecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/RaWB3uE"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XJO",
+        "name": "Joulecoin - Mainnet",
+        "testnet": false,
+        "port": 26789,
+        "port_rpc": 8844,
+        "protocol": {
+            "magic": "0xa5c07955"
+        },
+        "seeds_dns": [
+            "seed1.jouleco.in",
+            "seed2.jouleco.in",
+            "seed3.jouleco.in",
+            "seed4.jouleco.in",
+            "joulecoin1.chickenkiller.com",
+            "joulecoin2.crabdance.com"
+        ],
+        "prefixes": {
+            "private": 143,
+            "public": 43,
+            "scripthash": 11,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000077e5cce889f0920029bf89e8ecb16f7be38e1019c3e21c26d4687ce11f5",
+        "message_magic": "\u001aJoulecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XJO",
+        "name": "Joulecoin - Testnet",
+        "testnet": true,
+        "port": 26783,
+        "port_rpc": 8844,
+        "protocol": {
+            "magic": "0x0ac07312"
+        },
+        "seeds_dns": [
+            "testseed1.jouleco.in"
+        ],
+        "prefixes": {
+            "private": 212,
+            "public": 83,
+            "scripthash": 13,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000b82bf616429efb8ef55f10da775bf4a6ea54e72ce9c3d6510dd8af1616e",
+        "message_magic": "\u001aJoulecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

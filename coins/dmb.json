@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "DMB",
+        "name": "Digital Money Bits",
+        "supply": {
+            "max": "131250000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/dmb-currency.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3292892.0",
+            "source_code": "https:\/\/github.com\/DMBcryptocurrency\/dmb",
+            "explorers": [
+                "http:\/\/digitalmoneybits.io\/",
+                "http:\/\/194.182.75.151\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/digital-money-bits\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/ZNU9emz",
+                "https:\/\/discordapp.com\/invite\/xrbnpDH"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DMB",
+        "name": "Digital Money Bits - Mainnet",
+        "testnet": false,
+        "port": 35097,
+        "port_rpc": 35098,
+        "protocol": {
+            "magic": "0xf12ffeef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 153,
+            "public": 137,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "3f4ce71618777f85a62fcba786e80273b1bc0224a851d59f3ff086200c61f145",
+        "message_magic": "!Digitalmoneybits Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "DMB",
+        "name": "Digital Money Bits - Testnet",
+        "testnet": true,
+        "port": 32097,
+        "port_rpc": 32098,
+        "protocol": {
+            "magic": "0x2eea4eee"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 75,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "3f4ce71618777f85a62fcba786e80273b1bc0224a851d59f3ff086200c61f145",
+        "message_magic": "!Digitalmoneybits Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,17 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "MOON",
         "name": "Mooncoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.mooncoin.eco\/",
+                "http:\/\/mooncoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1733963.0",
+            "source_code": "https:\/\/github.com\/mooncoincore\/wallet",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/moon\/",
+                "https:\/\/bchain.info\/MOON\/",
+                "http:\/\/cryptoguru.tk\/Blocks\/index.php?Currency=MOON"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mooncoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MOON",
+        "name": "Mooncoin - Mainnet",
         "testnet": false,
         "port": 44664,
         "port_rpc": 44663,
         "protocol": {
-            "magic": "0xe8c0f7f9"
+            "magic": "0xf9f7c0e8"
         },
         "seeds_dns": [
-            "bazco.in",
-            "bazco.in",
-            "bazco.in",
             "node0.bazco.in",
             "node1.bazco.in",
             "bazco.in"
@@ -24,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "bd687cbbac4842724d4b1dfd2e1a6ce35d765db05635b3ebd3810ba66ac5aee9",
@@ -38,7 +59,7 @@
         "port": 19335,
         "port_rpc": 144663,
         "protocol": {
-            "magic": "0xf1c8d2fd"
+            "magic": "0xfdd2c8f1"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -49,10 +70,10 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
-        "hash_genesis_block": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+        "hash_genesis_block": "0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a00x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9",
         "message_magic": "\u0019Mooncoin Signed Message:\n",
         "decimals": 8
     },
@@ -63,7 +84,7 @@
         "port": 19444,
         "port_rpc": 144663,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -74,10 +95,10 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
-        "hash_genesis_block": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+        "hash_genesis_block": "0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f90x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9",
         "message_magic": "\u0019Mooncoin Signed Message:\n",
         "decimals": 8
     }

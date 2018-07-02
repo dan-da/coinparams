@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "symbol": "OCC",
+        "name": "Octoin Coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/occwallet.com"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3382732.0",
+            "source_code": "https:\/\/github.com\/OctoinCoin\/octoin",
+            "explorers": [
+                "https:\/\/occexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/octoin-coin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "OCC",
+        "name": "Octoin Coin - Mainnet",
+        "testnet": false,
+        "port": 16840,
+        "port_rpc": 8332,
+        "protocol": {
+            "magic": "0x64736261"
+        },
+        "seeds_dns": [
+            "node1.octoin.com",
+            "node2.octoin.com",
+            "node3.octoin.com"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 115,
+            "scripthash": 83,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00059ccb73d95cf54b1ab4f23a1d1821f7ebf3246b9f125562bb78ddc254323",
+        "message_magic": "\u001bOctoinCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "OCC",
+        "name": "Octoin Coin - Testnet",
+        "testnet": true,
+        "port": 25443,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x61746263"
+        },
+        "seeds_dns": [
+            "n1.octoin.com",
+            "n2.octoin.com",
+            "n3.octoin.com"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00059ccb73d95cf54b1ab4f23a1d1821f7ebf3246b9f125562bb78ddc254323",
+        "message_magic": "\u001bOctoinCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "OCC",
+        "name": "Octoin Coin - Regtest",
+        "testnet": true,
+        "port": 35442,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x61746263"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "3810e25d0f33fe8fcef2a49610d49543932f63036c11e0e2be30a870159fa9b",
+        "message_magic": "\u001bOctoinCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

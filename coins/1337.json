@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "symbol": "1337",
+        "name": "Elite",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.elitecurrency.net\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/xenonflux\/1337",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/1337\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/1337coin\/",
+            "message_board": [
+                "https:\/\/bitcointalk.org\/index.php?topic=2249640"
+            ],
+            "chat": [
+                "https:\/\/discord.gg\/pjdWntg",
+                "https:\/\/t.me\/elitecoinofficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "1337",
+        "name": "Elite - Mainnet",
+        "testnet": false,
+        "port": 13373,
+        "port_rpc": 13372,
+        "protocol": {
+            "magic": "0x5ac382d3"
+        },
+        "seeds_dns": [
+            "node1.seednodes.xyz",
+            "node2.seednodes.xyz",
+            "node3.seednodes.xyz",
+            "node4.seednodes.xyz"
+        ],
+        "prefixes": {
+            "public": 48,
+            "scripthash": 28,
+            "private": 176,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000004611c87517dfd29fe7f34bd6da2e1ad3d305ac12afe80a3229069390f68",
+        "message_magic": "\u00151337 Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "1337",
+        "name": "Elite - Testnet",
+        "testnet": true,
+        "port": 26714,
+        "port_rpc": 26715,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000004611c87517dfd29fe7f34bd6da2e1ad3d305ac12afe80a3229069390f68",
+        "message_magic": "\u00151337 Signed Message:\n",
+        "decimals": 8
+    }
+}

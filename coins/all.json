@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "symbol": "ALL",
+        "name": "Allion",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.trollpay.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1685516.0",
+            "source_code": "https:\/\/github.com\/EpyxZ\/Allion",
+            "explorers": [
+                "http:\/\/www.trollpay.com\/viewpage.php?page_id=19"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/allion\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ALL",
+        "name": "Allion - Mainnet",
+        "testnet": false,
+        "port": 12916,
+        "port_rpc": 11916,
+        "protocol": {
+            "magic": "0xa4a6fd05"
+        },
+        "seeds_dns": [
+            "node1.trollpay.com",
+            "node2.trollpay.com",
+            "node3.trollpay.com",
+            "node4.trollpay.com",
+            "node1.allion.xyz",
+            "node2.allion.xyz",
+            "node3.allion.xyz",
+            "node4.allion.xyz",
+            "node5.allion.xyz",
+            "node6.allion.xyz",
+            "node7.allion.xyz",
+            "node8.allion.xyz",
+            "node9.allion.xyz",
+            "node10.allion.xyz"
+        ],
+        "prefixes": {
+            "public": 26,
+            "scripthash": 8,
+            "private": 154,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000007712af1202c5d79cc2db4389dfafee039f8ecd5b099f4c4443c2da61e6",
+        "message_magic": "\u001dTrollPayCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "ALL",
+        "name": "Allion - Testnet",
+        "testnet": true,
+        "port": 0,
+        "port_rpc": 0,
+        "protocol": {
+            "magic": "0xf1f3c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000007712af1202c5d79cc2db4389dfafee039f8ecd5b099f4c4443c2da61e6",
+        "message_magic": "\u001dTrollPayCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

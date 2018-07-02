@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "symbol": "ACC",
+        "name": "AdCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.getadcoin.com\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/adcoin-project\/AdCoin",
+            "explorers": [
+                "http:\/\/explorer.getadcoin.com:5000\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/adcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/adcoinacc"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ACC",
+        "name": "AdCoin - Mainnet",
+        "testnet": false,
+        "port": 19499,
+        "port_rpc": 19500,
+        "protocol": {
+            "magic": "0x3d053577"
+        },
+        "seeds_dns": [
+            "node1.getadcoin.com",
+            "node2.getadcoin.com"
+        ],
+        "prefixes": {
+            "private": 176,
+            "public": 23,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 161
+        },
+        "hash_genesis_block": "6da2f2ef5b0f62c0717dbbd687826b0e9e6fe08cf0c61c8f40173efadd49a9f9",
+        "message_magic": "\u0017AdCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ACC",
+        "name": "AdCoin - Testnet",
+        "testnet": true,
+        "port": 19335,
+        "port_rpc": 29500,
+        "protocol": {
+            "magic": "0xfdd2c8f1"
+        },
+        "seeds_dns": [
+            "testnet-seed.adcointools.com",
+            "seed-b.adcoin.loshan.co.uk",
+            "dnsseed-testnet.thrasher.io"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0x93c2ed969aedded98026e9ee8f2c0c6213329d1f4e3b0df19a53d01378e40cd4",
+        "message_magic": "\u0017AdCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "ACC",
+        "name": "AdCoin - Regtest",
+        "testnet": true,
+        "port": 19444,
+        "port_rpc": 19332,
+        "protocol": {
+            "magic": "0xfdd2c8f1"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "2ee0743d0bcb56e267faca7c41af850d8e756ea20fb6690716296efa92899b4d",
+        "message_magic": "\u0017AdCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,18 +1,44 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BCO",
         "name": "BridgeCoin",
+        "supply": {
+            "max": "27000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.crypto-bridge.org\/",
+                "https:\/\/bridgecoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2015949.0",
+            "source_code": "https:\/\/github.com\/CryptoBridge\/bridgecoin",
+            "explorers": [
+                "https:\/\/explorer.bridgecoin.org\/",
+                "https:\/\/www.coinexplorer.net\/BCO"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bridgecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/CryptoBridge",
+                "https:\/\/discord.gg\/9mmg9MT"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BCO",
+        "name": "BridgeCoin - Mainnet",
         "testnet": false,
         "port": 6333,
         "port_rpc": 6332,
         "protocol": {
-            "magic": "0xdbb6c0fb"
+            "magic": "0xfbc0b6db"
         },
-        "seeds_dns": {
-            "3": "seed1.bridgecoin.org",
-            "4": "seed2.bridgecoin.org",
-            "5": "seed3.bridgecoin.org"
-        },
+        "seeds_dns": [
+            "seed1.bridgecoin.org",
+            "seed2.bridgecoin.org",
+            "seed3.bridgecoin.org"
+        ],
         "prefixes": {
             "private": 176,
             "public": 27,
@@ -21,7 +47,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 162
         },
         "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
@@ -35,13 +61,13 @@
         "port": 16333,
         "port_rpc": 16332,
         "protocol": {
-            "magic": "0xf1c8d2fd"
+            "magic": "0xfdd2c8f1"
         },
-        "seeds_dns": {
-            "3": "seed1.bridgecoin.org",
-            "4": "seed2.bridgecoin.org",
-            "5": "seed3.bridgecoin.org"
-        },
+        "seeds_dns": [
+            "seed1.bridgecoin.org",
+            "seed2.bridgecoin.org",
+            "seed3.bridgecoin.org"
+        ],
         "prefixes": {
             "private": 239,
             "public": 10,
@@ -50,7 +76,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",
@@ -64,7 +90,7 @@
         "port": 19444,
         "port_rpc": 16332,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -75,7 +101,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e",

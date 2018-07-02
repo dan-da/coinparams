@@ -1,18 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "HTML",
         "name": "HTMLCOIN",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.htmlcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2430102",
+            "source_code": "https:\/\/github.com\/HTMLCOIN\/HTMLCOIN",
+            "explorers": [
+                "http:\/\/explorer.htmlcoin.com"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/html-coin\/",
+            "message_board": [
+                "https:\/\/www.htmlcoin.com\/blog"
+            ],
+            "chat": [
+                "https:\/\/t.me\/officialhtmlcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HTML",
+        "name": "HTMLCOIN - Mainnet",
         "testnet": false,
         "port": 4888,
         "port_rpc": 4889,
         "protocol": {
-            "magic": "0x4c3d2e1f"
+            "magic": "0x1f2e3d4c"
         },
         "seeds_dns": [
-            "htmlcoin.com",
-            "htmlcoin.com",
-            "htmlcoin.com",
-            "htmlcoin.com",
             "seed1.htmlcoin.com",
             "seed2.htmlcoin.com",
             "seed3.htmlcoin.com",
@@ -26,7 +47,7 @@
                 "public": "0x1397c10d",
                 "private": "0x1397bcf3"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 172
         },
         "hash_genesis_block": "0000bf23c6424c270a24a17a3db723361c349e0f966d7b55a6bca4bfb2d951b0",
@@ -40,10 +61,9 @@
         "port": 14888,
         "port_rpc": 14889,
         "protocol": {
-            "magic": "0x5c4d3e2f"
+            "magic": "0x2f3e4d5c"
         },
         "seeds_dns": [
-            "htmlcoin.com",
             "testnet-seed1.htmlcoin.com"
         ],
         "prefixes": {
@@ -54,7 +74,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000013694772f8aeb88efeb2829fe5d71fbca3e23d5043baa770726f204f528c",
@@ -68,7 +88,7 @@
         "port": 24888,
         "port_rpc": 14889,
         "protocol": {
-            "magic": "0x6c5d4e3f"
+            "magic": "0x3f4e5d6c"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -79,7 +99,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "03c80d2399e1fe481a51e122ac55159a4e5fe635494a7fd368f3e440241fccb2",

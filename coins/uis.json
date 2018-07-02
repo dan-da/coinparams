@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "symbol": "UIS",
+        "name": "Unitus",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/unitus.online"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1121974.0",
+            "source_code": "https:\/\/github.com\/unitusdev\/unitus",
+            "explorers": [
+                "http:\/\/explorer.unitus.online"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/unitus\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/G3uHa32"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "UIS",
+        "name": "Unitus - Mainnet",
+        "testnet": false,
+        "port": 50603,
+        "port_rpc": 50604,
+        "protocol": {
+            "magic": "0xc5abc69d"
+        },
+        "seeds_dns": [
+            "core.easymine.online",
+            "use.easymine.online",
+            "us.nutty.one",
+            "nz.nutty.one"
+        ],
+        "prefixes": {
+            "private": 132,
+            "public": 68,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "d8a2b2439d013a59f3bfc626a33487a3d7d27e42a3c9e0b81af814cd8e592f31",
+        "message_magic": "\u0017Unitus Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "UIS",
+        "name": "Unitus - Testnet",
+        "testnet": true,
+        "port": 60603,
+        "port_rpc": 60604,
+        "protocol": {
+            "magic": "0xc6abc79d"
+        },
+        "seeds_dns": [
+            "testseed1.unitus.online",
+            "testseed2.unitus.online"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 130,
+            "scripthash": 192,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "79b11e9472e5876fa6b6fac3efd46d63ee19e6f700d9048364e0b4ddeab0b58b",
+        "message_magic": "\u0017Unitus Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "UIS",
+        "name": "Unitus - Regtest",
+        "testnet": true,
+        "port": 60604,
+        "port_rpc": 60604,
+        "protocol": {
+            "magic": "0xc7abc89d"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "2273ea4189b9aedb13f7051f0c42049bcb8d2549410a34d5d5d9eb1511c43268",
+        "message_magic": "\u0017Unitus Signed Message:\n",
+        "decimals": 8
+    }
+}

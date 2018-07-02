@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "ANI",
+        "name": "Animecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/anime-coin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=749541",
+            "source_code": "https:\/\/github.com\/testzcrypto\/Animecoin",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/animecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ANI",
+        "name": "Animecoin - Mainnet",
+        "testnet": false,
+        "port": 1212,
+        "port_rpc": 2121,
+        "protocol": {
+            "magic": "0x414e494d"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 23,
+            "scripthash": 9,
+            "private": 151,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000099acc274b7b403a828238bad69414e03a1a51b297a250c0a0da8a337840",
+        "message_magic": "\u001aAnimecoin Signed Message:\n",
+        "decimals": 5
+    },
+    "test": {
+        "symbol": "ANI",
+        "name": "Animecoin - Testnet",
+        "testnet": true,
+        "port": 2424,
+        "port_rpc": 4242,
+        "protocol": {
+            "magic": "0x4d494e41"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 119,
+            "scripthash": 199,
+            "private": 247,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0000042d48638031294f0d84a027e895c1a321612dc326e6adc7a6c07deb352c",
+        "message_magic": "\u001aAnimecoin Signed Message:\n",
+        "decimals": 5
+    }
+}

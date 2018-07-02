@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "ZYD",
+        "name": "Zayedcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.zayedcoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1612578.0",
+            "source_code": "https:\/\/github.com\/ZayedCoin\/Zayedcoin",
+            "explorers": [
+                "http:\/\/explorer.zayedcoin.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zayedcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZYD",
+        "name": "Zayedcoin - Mainnet",
+        "testnet": false,
+        "port": 8371,
+        "port_rpc": 8372,
+        "protocol": {
+            "magic": "0xd0cecf9c"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 81,
+            "scripthash": 5,
+            "private": 209,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 103
+        },
+        "hash_genesis_block": "00000c4d2b780b14852b4c6f112b9267f204578ae68de2e612e27b601e204074",
+        "message_magic": "\u001aZayedcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ZYD",
+        "name": "Zayedcoin - Testnet",
+        "testnet": true,
+        "port": 33813,
+        "port_rpc": 33812,
+        "protocol": {
+            "magic": "0xbcadafc4"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0xb78197f0e175697646db1f738edc1ffdcb30588ebe70e7e16026489076577061",
+        "message_magic": "\u001aZayedcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

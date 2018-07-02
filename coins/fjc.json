@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "symbol": "FJC",
+        "name": "FujiCoin",
+        "supply": {
+            "max": "10000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.fujicoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=644601",
+            "source_code": "https:\/\/github.com\/fujicoin\/fujicoin",
+            "explorers": [
+                "http:\/\/explorer.fujicoin.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/fujicoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FJC",
+        "name": "FujiCoin - Mainnet",
+        "testnet": false,
+        "port": 3777,
+        "port_rpc": 3776,
+        "protocol": {
+            "magic": "0x66756a69"
+        },
+        "seeds_dns": [
+            "seed1.fujicoin.org",
+            "seed2.fujicoin.org"
+        ],
+        "prefixes": {
+            "private": 164,
+            "public": 36,
+            "scripthash": 16,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": "fc",
+            "bip44": 75
+        },
+        "hash_genesis_block": "adb6d9cfd74075e7f91608add4bd2a2ea636f70856183086842667a1597714a0",
+        "message_magic": "\u0019FujiCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "FJC",
+        "name": "FujiCoin - Testnet",
+        "testnet": true,
+        "port": 13777,
+        "port_rpc": 13776,
+        "protocol": {
+            "magic": "0x696a7566"
+        },
+        "seeds_dns": [
+            "testseed.fujicoin.org"
+        ],
+        "prefixes": {
+            "private": 202,
+            "public": 74,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "tf",
+            "bip44": 1
+        },
+        "hash_genesis_block": "96bd214d68bcbfe9c786c4da26cf71fb6bbb6f24032065bdf2f4cd2b003d9c72",
+        "message_magic": "\u0019FujiCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "FJC",
+        "name": "FujiCoin - Regtest",
+        "testnet": true,
+        "port": 16777,
+        "port_rpc": 16776,
+        "protocol": {
+            "magic": "0x696a7566"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": "fcrt",
+            "bip44": 1
+        },
+        "hash_genesis_block": "96bd214d68bcbfe9c786c4da26cf71fb6bbb6f24032065bdf2f4cd2b003d9c72",
+        "message_magic": "\u0019FujiCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

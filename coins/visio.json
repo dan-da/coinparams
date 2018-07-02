@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "VISIO",
+        "name": "Visio",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.visioplatform.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1806936.0",
+            "source_code": "https:\/\/github.com\/Fladirmacht\/visioX",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/visio\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/visio\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VISIO",
+        "name": "Visio - Mainnet",
+        "testnet": false,
+        "port": 16778,
+        "port_rpc": 16774,
+        "protocol": {
+            "magic": "0x70352205"
+        },
+        "seeds_dns": [
+            "seed.visio.wtf",
+            "seeda.visio.wtf",
+            "seedb.visio.wtf",
+            "seedc.visio.wtf"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 71,
+            "scripthash": 125,
+            "bip32": {
+                "public": "0x0488c21e",
+                "private": "0x0488b2dd"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "100944391b1edc3090600c5748a9373665500e80dc2a2e4b74e2168c3252ee47",
+        "message_magic": "\u0016Visio Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "VISIO",
+        "name": "Visio - Testnet",
+        "testnet": true,
+        "port": 25714,
+        "port_rpc": 25715,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "2f647dd5a1a1eccec407aab62ba52cf07415502191db29c66d26d50042cbecc5",
+        "message_magic": "\u0016Visio Signed Message:\n",
+        "decimals": 8
+    }
+}

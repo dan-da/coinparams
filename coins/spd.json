@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "SPD",
+        "name": "Stipend",
+        "supply": {
+            "max": "19340594"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/stipend.me\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2918634.0",
+            "source_code": "https:\/\/github.com\/Stipend-Developer\/stipend",
+            "explorers": [
+                "http:\/\/explorer.stipend.me\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/stipend\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/vmVjtcQ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SPD",
+        "name": "Stipend - Mainnet",
+        "testnet": false,
+        "port": 46978,
+        "port_rpc": 46979,
+        "protocol": {
+            "magic": "0xa3fbdbdb"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 23,
+            "public": 63,
+            "scripthash": 21,
+            "bip32": {
+                "public": "0x997545e2",
+                "private": "0x997343e3"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "7a5541643f97ca4bff6cd7b01e3fbea04002760713320a5750276d9b9c71d845",
+        "message_magic": "\u0018Stipend Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "SPD",
+        "name": "Stipend - Testnet",
+        "testnet": true,
+        "port": 59432,
+        "port_rpc": 59433,
+        "protocol": {
+            "magic": "0xc4d5a6b8"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 25,
+            "public": 85,
+            "scripthash": 23,
+            "bip32": {
+                "public": "0x987444e1",
+                "private": "0x987242e2"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "e133d1d3f584f1c3f561e7d0606fa87dabb869325a979c2a82e2f3943c0e3370",
+        "message_magic": "\u0018Stipend Signed Message:\n",
+        "decimals": 8
+    }
+}

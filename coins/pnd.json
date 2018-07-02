@@ -1,7 +1,30 @@
 {
-    "main": {
+    "meta": {
         "symbol": "PND",
         "name": "Pandacoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/digitalpandacoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1960307.0",
+            "source_code": "https:\/\/github.com\/DigitalPandacoin\/pandacoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/pnd\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pandacoin-pnd\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/DigitalPandacoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PND",
+        "name": "Pandacoin - Mainnet",
         "testnet": false,
         "port": 22445,
         "port_rpc": 22444,
@@ -19,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 37
         },
         "hash_genesis_block": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",
@@ -33,7 +56,7 @@
         "port": 44656,
         "port_rpc": 25715,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +67,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5",

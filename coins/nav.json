@@ -1,16 +1,41 @@
 {
+    "meta": {
+        "symbol": "NAV",
+        "name": "NavCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.navcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=679791.0",
+            "source_code": "https:\/\/github.com\/NAVCoin\/navcoin-core",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/nav\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/nav-coin\/",
+            "message_board": [
+                "http:\/\/medium.com\/nav-coin",
+                "https:\/\/forum.navcoin.org\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/navcoin",
+                "https:\/\/discord.gg\/y4Vu9jw"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "NAV",
-        "name": "Navcoin",
+        "name": "NavCoin - Mainnet",
         "testnet": false,
         "port": 44440,
         "port_rpc": 44444,
         "protocol": {
-            "magic": "0x20345080"
+            "magic": "0x80503420"
         },
         "seeds_dns": [
-            "nav.community",
-            "navcoin.org",
             "seed.nav.community",
             "seed.navcoin.org"
         ],
@@ -22,7 +47,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 130
         },
         "hash_genesis_block": "00006a4e3e18c71c6d48ad6c261e2254fa764cf29607a4357c99b712dfbb8e6a",
@@ -31,16 +56,14 @@
     },
     "test": {
         "symbol": "NAV",
-        "name": "Navcoin - Testnet",
+        "name": "NavCoin - Testnet",
         "testnet": true,
         "port": 15556,
         "port_rpc": 44445,
         "protocol": {
-            "magic": "0x2052a23f"
+            "magic": "0x3fa25220"
         },
         "seeds_dns": [
-            "testnav.community",
-            "testnavcoin.org",
             "testseed.nav.community",
             "testseed.navcoin.org"
         ],
@@ -52,7 +75,7 @@
                 "public": "0x40882be1",
                 "private": "0x4088da4e"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000a8003f8dd50820bd7885af42dd63d7be0c39c0f8433b3e9397a6ce7d7a5c",
@@ -61,16 +84,14 @@
     },
     "regtest": {
         "symbol": "NAV",
-        "name": "Navcoin - Regtest",
+        "name": "NavCoin - Regtest",
         "testnet": true,
         "port": 18886,
         "port_rpc": 44446,
         "protocol": {
-            "magic": "0x89b7117d"
+            "magic": "0x7d11b789"
         },
         "seeds_dns": [
-            "testnav.community",
-            "testnavcoin.org",
             "testseed.nav.community",
             "testseed.navcoin.org"
         ],
@@ -82,7 +103,7 @@
                 "public": "0x40882be1",
                 "private": "0x4088da4e"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000ebc922e5172da588766084696ec50a62006231e1d0d5d1e83b6a9cfc6e3f",

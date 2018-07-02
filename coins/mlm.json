@@ -1,17 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "MLM",
         "name": "MktCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/mktcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2545143",
+            "source_code": "https:\/\/github.com\/Mktcoin-official\/Mktcoin",
+            "explorers": [
+                "https:\/\/info.mktcoin.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mktcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MLM",
+        "name": "MktCoin - Mainnet",
         "testnet": false,
         "port": 9275,
         "port_rpc": 9276,
         "protocol": {
-            "magic": "0xd9b4bef9"
+            "magic": "0xf9beb4d9"
         },
         "seeds_dns": [
-            "default",
-            "seeds.mkt-coin.com",
-            "34.253.106.148",
             "seeds.mkt-coin.com"
         ],
         "prefixes": {
@@ -22,7 +40,7 @@
                 "public": "0x04c6b21e",
                 "private": "0x04c6ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "dcbcae705b0af93fe0aaad1cc588ba243d02ed543d09bf5b167127c05cfcd5ce",
@@ -36,12 +54,9 @@
         "port": 19275,
         "port_rpc": 19276,
         "protocol": {
-            "magic": "0x0709110b"
+            "magic": "0x0b110907"
         },
         "seeds_dns": [
-            "default",
-            "seeds-testnet.mkt-coin.com",
-            "34.253.106.148",
             "seeds-testnet.mkt-coin.com"
         ],
         "prefixes": {
@@ -52,7 +67,7 @@
                 "public": "0x04c6b21e",
                 "private": "0x04c6ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "247b208ebeb1ecd60df2c2884fa39c4e13ac17da56efdf0348e036363697ee75",
@@ -66,7 +81,7 @@
         "port": 19386,
         "port_rpc": 19276,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -77,10 +92,10 @@
                 "public": "0x04c6b21e",
                 "private": "0x04c6ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
-        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "hash_genesis_block": "0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e22060x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
         "message_magic": "\u0018MKTcoin Signed Message:\n",
         "decimals": 8
     }

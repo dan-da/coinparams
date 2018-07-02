@@ -1,18 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "EMC",
         "name": "Emercoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/emercoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=362513.0",
+            "source_code": "https:\/\/github.com\/emercoin\/emercoin",
+            "explorers": [
+                "https:\/\/explorer.emercoin.com\/",
+                "https:\/\/www.coinexplorer.net\/EMC"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/emercoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/emercoin_official"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EMC",
+        "name": "Emercoin - Mainnet",
         "testnet": false,
         "port": 6661,
         "port_rpc": 6662,
         "protocol": {
-            "magic": "0xe5e9e8e6"
+            "magic": "0xe6e8e9e5"
         },
         "seeds_dns": [
-            "emercoin.com",
-            "emercoin.net",
-            "emergate.net",
-            "emcdns",
             "seed.emercoin.com",
             "seed.emercoin.net",
             "seed.emergate.net",
@@ -26,7 +46,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d",
@@ -40,10 +60,9 @@
         "port": 6663,
         "port_rpc": 6662,
         "protocol": {
-            "magic": "0xefc0f2cb"
+            "magic": "0xcbf2c0ef"
         },
         "seeds_dns": [
-            "emercoin",
             "tnseed.emercoin.com"
         ],
         "prefixes": {
@@ -54,7 +73,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212",

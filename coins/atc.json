@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "ATC",
+        "name": "Arbitracoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/arbitracoin.com\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/ArbiTraCoin\/Arbitra-ATC",
+            "explorers": [
+                "http:\/\/arbitra.thecryptochat.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/arbitracoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/ArbiTraCoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ATC",
+        "name": "Arbitracoin - Mainnet",
+        "testnet": false,
+        "port": 32540,
+        "port_rpc": 32640,
+        "protocol": {
+            "magic": "0xec221025"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 155,
+            "public": 23,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000002ebbd06d189fff6768e89abf3ea66ab837c706f061b26d97ff3d1a9e179",
+        "message_magic": "\u0018Arbitra Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ATC",
+        "name": "Arbitracoin - Testnet",
+        "testnet": true,
+        "port": 32541,
+        "port_rpc": 32641,
+        "protocol": {
+            "magic": "0xedc6feeb"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 83,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000002ebbd06d189fff6768e89abf3ea66ab837c706f061b26d97ff3d1a9e179",
+        "message_magic": "\u0018Arbitra Signed Message:\n",
+        "decimals": 8
+    }
+}

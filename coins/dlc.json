@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "symbol": "DLC",
+        "name": "Dollarcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1589371.0",
+            "source_code": "https:\/\/github.com\/dollarcoins\/source",
+            "explorers": [
+                "http:\/\/dollar.explorer.bitnodes.net"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/dollarcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DLC",
+        "name": "Dollarcoin - Mainnet",
+        "testnet": false,
+        "port": 8145,
+        "port_rpc": 8146,
+        "protocol": {
+            "magic": "0xfc9b3d41"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 158,
+            "public": 30,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 102
+        },
+        "hash_genesis_block": "0000000013f91db600d56b852497767c013c2b5a4e62a182bd4a5ad6c93c732e",
+        "message_magic": "\u001bdollarcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "DLC",
+        "name": "Dollarcoin - Testnet",
+        "testnet": true,
+        "port": 18145,
+        "port_rpc": 18146,
+        "protocol": {
+            "magic": "0xd5acae18"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000000013f91db600d56b852497767c013c2b5a4e62a182bd4a5ad6c93c732e",
+        "message_magic": "\u001bdollarcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

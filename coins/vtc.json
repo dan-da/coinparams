@@ -1,12 +1,37 @@
 {
-    "main": {
+    "meta": {
         "symbol": "VTC",
         "name": "Vertcoin",
+        "supply": {
+            "max": "84000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/vertcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1828453",
+            "source_code": "https:\/\/github.com\/vertcoin-project\/vertcoin-core",
+            "explorers": [
+                "https:\/\/bitinfocharts.com\/vertcoin\/",
+                "https:\/\/bchain.info\/vtc\/",
+                "https:\/\/www.coinexplorer.net\/VTC"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vertcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/vertcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VTC",
+        "name": "Vertcoin - Mainnet",
         "testnet": false,
         "port": 5889,
         "port_rpc": 5888,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [
             "useast1.vtconline.org",
@@ -25,7 +50,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": "vtc",
+            "bech32": "vtc",
             "bip44": 28
         },
         "hash_genesis_block": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
@@ -39,7 +64,7 @@
         "port": 15889,
         "port_rpc": 15888,
         "protocol": {
-            "magic": "0x't';'r';'e';'v';"
+            "magic": "0x76657274"
         },
         "seeds_dns": [
             "jlovejoy.mit.edu",
@@ -55,7 +80,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "tvtc",
+            "bech32": "tvtc",
             "bip44": 1
         },
         "hash_genesis_block": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
@@ -69,7 +94,7 @@
         "port": 18444,
         "port_rpc": 18443,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -80,7 +105,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": "bcrt",
+            "bech32": "bcrt",
             "bip44": 1
         },
         "hash_genesis_block": "2399c0b047ebbbd1650d66867206c97317027b1a1932bc6fc17ce833dc4a85ce",

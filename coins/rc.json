@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "RC",
+        "name": "RussiaCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.russiacoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1083032.0",
+            "source_code": "https:\/\/github.com\/RussiaCoinDotInfo\/RussiaCoin",
+            "explorers": [
+                "http:\/\/explorer.russiacoin.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/russiacoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "RC",
+        "name": "RussiaCoin - Mainnet",
+        "testnet": false,
+        "port": 19992,
+        "port_rpc": 19991,
+        "protocol": {
+            "magic": "0xc0c0c0c0"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 60,
+            "scripthash": 75,
+            "private": 188,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "fec5da8a697f919cf2c6583adbf41887ea95f7fc1bcb6bb0016b035e0a355dce",
+        "message_magic": "\u001bRussiaCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "RC",
+        "name": "RussiaCoin - Testnet",
+        "testnet": true,
+        "port": 20992,
+        "port_rpc": 20991,
+        "protocol": {
+            "magic": "0xc0c0c0c0"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "",
+        "message_magic": "\u001bRussiaCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "BITS",
+        "name": "Bitstar",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.bitstarcoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=748045",
+            "source_code": "https:\/\/github.com\/bitstar\/bitstar",
+            "explorers": [
+                "https:\/\/blockexperts.com\/bits",
+                "http:\/\/explorer.bitstarcoin.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitstar\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BITS",
+        "name": "Bitstar - Mainnet",
+        "testnet": false,
+        "port": 62123,
+        "port_rpc": 62124,
+        "protocol": {
+            "magic": "0xcef1dbfa"
+        },
+        "seeds_dns": [
+            "seed.bitstarcoin.com",
+            "seed2.bitstarcoin.com",
+            "seed3.bitstarcoin.com",
+            "seed4.bitstarcoin.com"
+        ],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 8,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "3bac216bbdf5b02ef8f8d43e9ee2fb28eef38e1e47bcb271ee81780445e2ca30",
+        "message_magic": "\u0018Bitstar Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "BITS",
+        "name": "Bitstar - Testnet",
+        "testnet": true,
+        "port": 63123,
+        "port_rpc": 63124,
+        "protocol": {
+            "magic": "0xcdf1c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "3bac216bbdf5b02ef8f8d43e9ee2fb28eef38e1e47bcb271ee81780445e2ca30",
+        "message_magic": "\u0018Bitstar Signed Message:\n",
+        "decimals": 6
+    }
+}

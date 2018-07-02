@@ -1,37 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BLOCK",
         "name": "Blocknet",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/blocknet.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=829576.0",
+            "source_code": "https:\/\/github.com\/BlocknetDX\/BlockDX",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/block\/",
+                "https:\/\/block.ccore.online\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/blocknet\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/2e6s7H8",
+                "https:\/\/t.me\/Blocknet"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BLOCK",
+        "name": "Blocknet - Mainnet",
         "testnet": false,
         "port": 41412,
         "port_rpc": 41414,
         "protocol": {
-            "magic": "0xa3a2a0a1"
+            "magic": "0xa1a0a2a3"
         },
-        "seeds_dns": [
-            "178.62.90.213",
-            "138.197.73.214",
-            "34.235.49.248",
-            "35.157.52.158",
-            "18.196.208.65",
-            "13.251.15.150",
-            "13.229.39.34",
-            "52.56.35.74",
-            "35.177.173.53",
-            "35.178.142.231",
-            "35.176.65.103",
-            "178.62.90.213",
-            "138.197.73.214",
-            "34.235.49.248",
-            "35.157.52.158",
-            "18.196.208.65",
-            "13.251.15.150",
-            "13.229.39.34",
-            "52.56.35.74",
-            "35.177.173.53",
-            "35.178.142.231",
-            "35.176.65.103"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 154,
             "public": 26,
@@ -40,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 328
         },
         "hash_genesis_block": "00000eb7919102da5a07dc90905651664e6ebf0811c28f06573b9a0fd84ab7b8",
@@ -54,16 +56,9 @@
         "port": 41474,
         "port_rpc": 41419,
         "protocol": {
-            "magic": "0xba657645"
+            "magic": "0x457665ba"
         },
-        "seeds_dns": [
-            "178.62.90.213",
-            "138.197.73.214",
-            "34.235.49.248",
-            "178.62.90.213",
-            "138.197.73.214",
-            "34.235.49.248"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 239,
             "public": 139,
@@ -72,7 +67,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00000f90ac260859e4515356719d94c9fb8cadb1a3dda186a64ac41ce4c3c7a7",

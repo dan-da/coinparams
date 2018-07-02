@@ -1,12 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "QTUM",
         "name": "Qtum",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/qtum.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1720632.0",
+            "source_code": "https:\/\/github.com\/qtumproject\/qtum",
+            "explorers": [
+                "https:\/\/qtum.info\/",
+                "https:\/\/qtumexplorer.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/qtum\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/D5oBaw29NeOdpw6qqqf2lw"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "QTUM",
+        "name": "Qtum - Mainnet",
         "testnet": false,
         "port": 3888,
         "port_rpc": 3889,
         "protocol": {
-            "magic": "0xd3a6cff1"
+            "magic": "0xf1cfa6d3"
         },
         "seeds_dns": [
             "qtum3.dynu.net",
@@ -22,7 +46,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 2301
         },
         "hash_genesis_block": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
@@ -36,7 +60,7 @@
         "port": 13888,
         "port_rpc": 13889,
         "protocol": {
-            "magic": "0x0615220d"
+            "magic": "0x0d221506"
         },
         "seeds_dns": [
             "qtum4.dynu.net"
@@ -49,7 +73,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000e803ee215c0684ca0d2f9220594d3f828617972aad66feb2ba51f5e14222",
@@ -63,7 +87,7 @@
         "port": 23888,
         "port_rpc": 13889,
         "protocol": {
-            "magic": "0xe1c6ddfd"
+            "magic": "0xfdddc6e1"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -74,7 +98,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "665ed5b402ac0b44efc37d8926332994363e8a7278b7ee9a58fb972efadae943",

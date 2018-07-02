@@ -1,12 +1,36 @@
 {
-    "main": {
+    "meta": {
         "symbol": "VIA",
         "name": "Viacoin",
+        "supply": {
+            "max": "23176392"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/viacoin.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1840789.0",
+            "source_code": "https:\/\/github.com\/viacoin\/viacoin",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/via\/",
+                "https:\/\/explorer.viacoin.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/viacoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/telegram.me\/viacoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VIA",
+        "name": "Viacoin - Mainnet",
         "testnet": false,
         "port": 5223,
         "port_rpc": 5222,
         "protocol": {
-            "magic": "0xcbc6680f"
+            "magic": "0x0f68c6cb"
         },
         "seeds_dns": [
             "seed.viacoin.net",
@@ -21,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 14
         },
         "hash_genesis_block": "4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba1",
@@ -35,7 +59,7 @@
         "port": 25223,
         "port_rpc": 25222,
         "protocol": {
-            "magic": "0x92efc5a9"
+            "magic": "0xa9c5ef92"
         },
         "seeds_dns": [
             "testnet.viacoin.net",
@@ -49,7 +73,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "770aa712aa08fdcbdecc1c8df1b3e2d4e17a7cf6e63a28b785b32e74c96cb27d",
@@ -63,7 +87,7 @@
         "port": 15224,
         "port_rpc": 25222,
         "protocol": {
-            "magic": "0x377b972d"
+            "magic": "0x2d977b37"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -74,7 +98,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "f0dae070f24fbc35311533a22aa85c0a616c84a1f22881612304d802acda286f",

@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "BOLI",
+        "name": "Bolivarcoin",
+        "supply": {
+            "max": "25000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bolicoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3215568",
+            "source_code": "https:\/\/github.com\/ElpidioMC\/bolivarcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/boli\/",
+                "http:\/\/159.65.203.140:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bolivarcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bolivarcoinoficial",
+                "https:\/\/t.me\/bolivarcoinEnglish"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BOLI",
+        "name": "Bolivarcoin - Mainnet",
+        "testnet": false,
+        "port": 3893,
+        "port_rpc": 3563,
+        "protocol": {
+            "magic": "0xfdc3b9de"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 85,
+            "scripthash": 5,
+            "private": 213,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000e4fc293a1912b9d73cbb8d8f7270007a7d84382f1370661e65d5d57b1f6",
+        "message_magic": "\u001cBolivarcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BOLI",
+        "name": "Bolivarcoin - Testnet",
+        "testnet": true,
+        "port": 13893,
+        "port_rpc": 13563,
+        "protocol": {
+            "magic": "0xfec4bade"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000008da0e16960d6c2548da4831323b956d61370e2a3fdc5150188c5c478c49",
+        "message_magic": "\u001cBolivarcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

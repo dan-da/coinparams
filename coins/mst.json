@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "symbol": "MST",
+        "name": "MustangCoin",
+        "supply": {
+            "max": "3000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/mustangcoin.xyz\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1609008.0",
+            "source_code": "https:\/\/github.com\/mustangcoin\/mst-v3",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/mst\/",
+                "https:\/\/www.blockexperts.com\/mst"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mustangcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MST",
+        "name": "MustangCoin - Mainnet",
+        "testnet": false,
+        "port": 19667,
+        "port_rpc": 19668,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 48,
+            "scripthash": 28,
+            "private": 176,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000007a1a66bbb8c2147bd2d06bca3463d588655c326051b63f12d6130844f5f",
+        "message_magic": "\u0018mustang Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MST",
+        "name": "MustangCoin - Testnet",
+        "testnet": true,
+        "port": 19666,
+        "port_rpc": 19666,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000007a1a66bbb8c2147bd2d06bca3463d588655c326051b63f12d6130844f5f",
+        "message_magic": "\u0018mustang Signed Message:\n",
+        "decimals": 8
+    }
+}

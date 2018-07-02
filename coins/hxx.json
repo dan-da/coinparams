@@ -1,21 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "HXX",
         "name": "Hexx",
+        "supply": {
+            "max": "9999999"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/hexxcoin.net\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2958707",
+            "source_code": "https:\/\/github.com\/hexxcointakeover\/hexxcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/hxx\/",
+                "https:\/\/www.hexxplorer.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/hexx\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/hexxcoin_official",
+                "https:\/\/discord.gg\/v76nd24"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "HXX",
+        "name": "Hexx - Mainnet",
         "testnet": false,
         "port": 29100,
         "port_rpc": 29200,
         "protocol": {
-            "magic": "0x{ 'x{ 'x{ 'e{ 'h"
+            "magic": "0x68657878"
         },
         "seeds_dns": [
-            "76.74.170.128",
-            "hxx-addnode01.chainsilo.com",
-            "hxx-addnode02.chainsilo.com",
-            "hxx-addnode03.chainsilo.com",
-            "hxx-addnode04.chainsilo.com",
-            "hxx-addnode05.chainsilo.com",
-            "76.74.170.128",
             "hxx-addnode01.chainsilo.com",
             "hxx-addnode02.chainsilo.com",
             "hxx-addnode03.chainsilo.com",
@@ -30,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "322bad477efb4b33fa4b1f0b2861eaf543c61068da9898a95062fdb02ada486f",

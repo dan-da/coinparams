@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "symbol": "XBTS",
+        "name": "Beatcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/beatcoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1625301",
+            "source_code": "https:\/\/github.com\/beatscoindev\/BeatsCoinV2",
+            "explorers": [
+                "http:\/\/cryptoguru.tk\/CurrencyInfo\/index.php?Currency=BEATS"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/beatcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XBTS",
+        "name": "Beatcoin - Mainnet",
+        "testnet": false,
+        "port": 26152,
+        "port_rpc": 26151,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 28,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000007e05a3d44899ed55900b6feebd5c2d6a19086c133a53d85130756786855",
+        "message_magic": "\u001aBeatsCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "XBTS",
+        "name": "Beatcoin - Testnet",
+        "testnet": true,
+        "port": 26153,
+        "port_rpc": 26153,
+        "protocol": {
+            "magic": "0xa1a0a2a3"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000007e05a3d44899ed55900b6feebd5c2d6a19086c133a53d85130756786855",
+        "message_magic": "\u001aBeatsCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

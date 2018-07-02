@@ -1,0 +1,99 @@
+{
+    "meta": {
+        "symbol": "GRN",
+        "name": "Granite",
+        "supply": {
+            "max": "65000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.granitecoin.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=718939",
+            "source_code": "https:\/\/github.com\/chrysophylax69\/granite",
+            "explorers": [],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/granitecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GRN",
+        "name": "Granite - Mainnet",
+        "testnet": false,
+        "port": 21777,
+        "port_rpc": 21776,
+        "protocol": {
+            "magic": "0xfec3b9de"
+        },
+        "seeds_dns": [
+            "grn-seed01.chainworksindustries.com",
+            "grn-seed02.chainworksindustries.com",
+            "grn-seed03.chainworksindustries.com",
+            "grn-seed04.chainworksindustries.com",
+            "grn-seed05.chainworksindustries.com",
+            "grn-seed06.chainworksindustries.com",
+            "grn-seed07.chainworksindustries.com",
+            "grn-seed08.chainworksindustries.com",
+            "grn-seed09.chainworksindustries.com",
+            "grn-seed10.chainworksindustries.com",
+            "grn-seed11.chainworksindustries.com",
+            "grn-seed12.chainworksindustries.com",
+            "grn-seed13.chainworksindustries.com",
+            "grn-seed14.chainworksindustries.com",
+            "grn-seed15.chainworksindustries.com",
+            "grn-seed16.chainworksindustries.com",
+            "grn-seed17.chainworksindustries.com",
+            "grn-seed18.chainworksindustries.com",
+            "grn-seed19.chainworksindustries.com",
+            "grn-seed20.chainworksindustries.com",
+            "grn-seed21.chainworksindustries.com",
+            "grn-seed22.chainworksindustries.com",
+            "grn-seed23.chainworksindustries.com",
+            "grn-seed24.chainworksindustries.com",
+            "grn-seed25.chainworksindustries.com"
+        ],
+        "prefixes": {
+            "public": 38,
+            "scripthash": 5,
+            "private": 166,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000009950383ab1f400a783688346f9fc6d21962944e0e40a17b35dc904bd82a",
+        "message_magic": "\u0018granite Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GRN",
+        "name": "Granite - Testnet",
+        "testnet": true,
+        "port": 22777,
+        "port_rpc": 22776,
+        "protocol": {
+            "magic": "0xfec4bade"
+        },
+        "seeds_dns": [
+            "grn-testseed01.chainworksindustries.com"
+        ],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0000048163d0f3a7c442828a87228277fb102e059e14ea22b3968e145ead7480",
+        "message_magic": "\u0018granite Signed Message:\n",
+        "decimals": 8
+    }
+}

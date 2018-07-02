@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "symbol": "ZZC",
+        "name": "ZoZoCoin",
+        "supply": {
+            "max": "27000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.zozocoins.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2258604",
+            "source_code": "https:\/\/github.com\/ZoZoCoin\/ZoZo-blockchain",
+            "explorers": [
+                "http:\/\/www.zzcexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zozocoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/zozocoins"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZZC",
+        "name": "ZoZoCoin - Mainnet",
+        "testnet": false,
+        "port": 19995,
+        "port_rpc": 3882,
+        "protocol": {
+            "magic": "0xbf0c6bbd"
+        },
+        "seeds_dns": [
+            "seed_chainbytes1.chickenkiller.com",
+            "seed_chainbytes2.chickenkiller.com",
+            "seed_chainbytes3.chickenkiller.com",
+            "seed_chainbytes4.chickenkiller.com",
+            "seed_chainbytes5.chickenkiller.com",
+            "dnsseed.zozocoin.org",
+            "dnsseed.zozocoindot.io",
+            "dnsseed.masternode.io",
+            "dnsseed.zozocoinpay.io"
+        ],
+        "prefixes": {
+            "private": 204,
+            "public": 76,
+            "scripthash": 16,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000559942ead693874f5b639d7152fde8c40015ea0885add2814d167eb504c",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ZZC",
+        "name": "ZoZoCoin - Testnet",
+        "testnet": true,
+        "port": 29977,
+        "port_rpc": 12883,
+        "protocol": {
+            "magic": "0xcee2caff"
+        },
+        "seeds_dns": [
+            "testnet-seed.zozocoindot.io",
+            "test.dnsseed.masternode.io"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000d1b5b53285ced1198145ba38d79aa0d3821b3d08fec5511926072e13068",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "ZZC",
+        "name": "ZoZoCoin - Regtest",
+        "testnet": true,
+        "port": 19111,
+        "port_rpc": 13382,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 140,
+            "scripthash": 19,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "77cb77860975aaa299ba2ec6c9e8ae4c8550c1ffe9b89ef7b2f1a7a045b6a280",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

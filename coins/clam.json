@@ -1,12 +1,33 @@
 {
-    "main": {
+    "meta": {
         "symbol": "CLAM",
         "name": "Clams",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/clamcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=623147.0",
+            "source_code": "https:\/\/github.com\/nochowderforyou\/clams",
+            "explorers": [
+                "http:\/\/khashier.com\/chain\/Clam"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/clams\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CLAM",
+        "name": "Clams - Mainnet",
         "testnet": false,
         "port": 31174,
         "port_rpc": 30174,
         "protocol": {
-            "magic": "0x15352203"
+            "magic": "0x03223515"
         },
         "seeds_dns": [
             "clam.just-dice.com"
@@ -19,7 +40,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 23
         },
         "hash_genesis_block": "00000c3ce6b3d823a35224a39798eca9ad889966aeb5a9da7b960ffb9869db35",
@@ -33,7 +54,7 @@
         "port": 35714,
         "port_rpc": 35715,
         "protocol": {
-            "magic": "0xdfc0f1c4"
+            "magic": "0xc4f1c0df"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -44,7 +65,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "00001924120e93f445dd4adb9d90e0020350b8c6c2b08e1a4950372a37f8bcc8",

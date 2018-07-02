@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "CBX",
+        "name": "Bullion",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bullion.one\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=951753.0",
+            "source_code": "https:\/\/github.com\/elambert2014\/bullion",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/cbx\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bullion\/",
+            "message_board": [
+                "https:\/\/steemit.com\/@cbx"
+            ],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/FkBLVEimXQscVn1cetdd4g"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "CBX",
+        "name": "Bullion - Mainnet",
+        "testnet": false,
+        "port": 7695,
+        "port_rpc": 8395,
+        "protocol": {
+            "magic": "0xe4e8e9e5"
+        },
+        "seeds_dns": [
+            "test.seed.bullionseeds.pw"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 11,
+            "scripthash": 8,
+            "bip32": {
+                "public": "0xa7b52474",
+                "private": "0xa7b52ca2"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000002655a721555160ea9bcb1072faf63ff0c8dffed173d60b1d3556a134dc1",
+        "message_magic": "\u0018Bullion Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "CBX",
+        "name": "Bullion - Testnet",
+        "testnet": true,
+        "port": 51474,
+        "port_rpc": 18395,
+        "protocol": {
+            "magic": "0x457665ba"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 0,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0xf3137c80",
+                "private": "0xf313860a"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818",
+        "message_magic": "\u0018Bullion Signed Message:\n",
+        "decimals": 6
+    }
+}

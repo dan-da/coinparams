@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "BSTY",
+        "name": "GlobalBoost-Y",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/globalboost-y.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=775289",
+            "source_code": "https:\/\/github.com\/GlobalBoost\/GlobalBoost-Y",
+            "explorers": [
+                "http:\/\/bstyexplorer.globalboost.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/globalboost-y\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BSTY",
+        "name": "GlobalBoost-Y - Mainnet",
+        "testnet": false,
+        "port": 8226,
+        "port_rpc": 8225,
+        "protocol": {
+            "magic": "0xa2b2e2f2"
+        },
+        "seeds_dns": [
+            "seeder.globalboost.info",
+            "seeder2.globalboost.info"
+        ],
+        "prefixes": {
+            "public": 77,
+            "scripthash": 139,
+            "private": 205,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "2e28050194ad73f2405394d2f081361a23c2df8904ec7f026a018bbe148d5adf",
+        "message_magic": "\u001cGlobalboost Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BSTY",
+        "name": "GlobalBoost-Y - Testnet",
+        "testnet": true,
+        "port": 18226,
+        "port_rpc": 18225,
+        "protocol": {
+            "magic": "0x"
+        },
+        "seeds_dns": [
+            "testnet-seeder.globalboost.info"
+        ],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x2e28050194ad73f2405394d2f081361a23c2df8904ec7f026a018bbe148d5adf",
+        "message_magic": "\u001cGlobalboost Signed Message:\n",
+        "decimals": 8
+    }
+}

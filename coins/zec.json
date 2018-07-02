@@ -1,17 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "ZEC",
         "name": "Zcash",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/z.cash\/"
+            ],
+            "announcement": null,
+            "source_code": "https:\/\/github.com\/zcash\/zcash",
+            "explorers": [
+                "https:\/\/explorer.zcha.in\/",
+                "https:\/\/zchain.online\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zcash\/",
+            "message_board": [
+                "https:\/\/forum.z.cash\/"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZEC",
+        "name": "Zcash - Mainnet",
         "testnet": false,
         "port": 8233,
         "port_rpc": 8232,
         "protocol": {
-            "magic": "0x6427e924"
+            "magic": "0x24e92764"
         },
         "seeds_dns": [
-            "z.cash",
-            "str4d.xyz",
-            "znodes.org",
             "dnsseed.z.cash",
             "dnsseed.str4d.xyz",
             "dnsseed.znodes.org"
@@ -24,7 +45,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 133
         },
         "hash_genesis_block": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
@@ -38,10 +59,9 @@
         "port": 18233,
         "port_rpc": 18232,
         "protocol": {
-            "magic": "0xbff91afa"
+            "magic": "0xfa1af9bf"
         },
         "seeds_dns": [
-            "z.cash",
             "dnsseed.testnet.z.cash"
         ],
         "prefixes": {
@@ -52,7 +72,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
@@ -66,7 +86,7 @@
         "port": 18344,
         "port_rpc": 18232,
         "protocol": {
-            "magic": "0x5f3fe8aa"
+            "magic": "0xaae83f5f"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -77,7 +97,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",

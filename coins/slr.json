@@ -1,12 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SLR",
         "name": "SolarCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/solarcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=785257.0",
+            "source_code": "https:\/\/github.com\/onsightit\/solarcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/slr\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/solarcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/solarcoin-group.slack.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SLR",
+        "name": "SolarCoin - Mainnet",
         "testnet": false,
         "port": 18188,
         "port_rpc": 18181,
         "protocol": {
-            "magic": "0xfd04f104"
+            "magic": "0x04f104fd"
         },
         "seeds_dns": [
             "dnsseed.solarcoin.org\", \"seed.solarcoin.org",
@@ -20,7 +43,7 @@
                 "public": "0x0408c5d1",
                 "private": "0x0422bed7"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 58
         },
         "hash_genesis_block": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",
@@ -34,7 +57,7 @@
         "port": 19335,
         "port_rpc": 18182,
         "protocol": {
-            "magic": "0xf1c8d2fd"
+            "magic": "0xfdd2c8f1"
         },
         "seeds_dns": [
             "dnsseed.solarcoin.org\", \"seed.solarcoin.org",
@@ -48,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",
@@ -62,7 +85,7 @@
         "port": 19444,
         "port_rpc": 18182,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -73,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee",

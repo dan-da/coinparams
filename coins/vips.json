@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "symbol": "VIPS",
+        "name": "Vipstar Coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.vipstarcoin.jp\/en\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3338434.0",
+            "source_code": "https:\/\/github.com\/VIPSTARCOIN\/VIPSTARCOIN",
+            "explorers": [
+                "http:\/\/explorer.vipstarcoin.jp\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/vipstar-coin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/sEaaxau",
+                "https:\/\/t.me\/vipstarcoin_officiai"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "VIPS",
+        "name": "Vipstar Coin - Mainnet",
+        "testnet": false,
+        "port": 31915,
+        "port_rpc": 31916,
+        "protocol": {
+            "magic": "0x012CE7B5"
+        },
+        "seeds_dns": [
+            "dnsseed.vipstarcoin.jp"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 70,
+            "scripthash": 50,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000d068e1d30f79fb64446137106be9c6ee69a6a722295c131506b1ee09b77c",
+        "message_magic": "\u001cVIPSTARCOIN Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "VIPS",
+        "name": "Vipstar Coin - Testnet",
+        "testnet": true,
+        "port": 14888,
+        "port_rpc": 14889,
+        "protocol": {
+            "magic": "0x2f3e4d5c"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 228,
+            "public": 100,
+            "scripthash": 110,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000d068e1d30f79fb64446137106be9c6ee69a6a722295c131506b1ee09b77c",
+        "message_magic": "\u001cVIPSTARCOIN Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "VIPS",
+        "name": "Vipstar Coin - Regtest",
+        "testnet": true,
+        "port": 24888,
+        "port_rpc": 14889,
+        "protocol": {
+            "magic": "0x3f4e5d6c"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 120,
+            "scripthash": 110,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00054237d8dc843bd3f7ab66e2b608cfbfbbeed213e30eca9ca8c627dc8aace5",
+        "message_magic": "\u001cVIPSTARCOIN Signed Message:\n",
+        "decimals": 8
+    }
+}

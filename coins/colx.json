@@ -1,17 +1,40 @@
 {
-    "main": {
+    "meta": {
         "symbol": "COLX",
         "name": "ColossusXT",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/colossusxt.io"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2141880.0",
+            "source_code": "https:\/\/github.com\/ColossusCoinXT\/ColossusCoinXT",
+            "explorers": [
+                "http:\/\/www.presstab.pw\/phpexplorer\/COLX\/index.php",
+                "https:\/\/masternodes.online\/currencies\/COLX",
+                "https:\/\/chainz.cryptoid.info\/colx\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/colossusxt\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/colossuscoin",
+                "https:\/\/discord.gg\/pRbDzPd"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "COLX",
+        "name": "ColossusXT - Mainnet",
         "testnet": false,
         "port": 51572,
         "port_rpc": 51473,
         "protocol": {
-            "magic": "0xeafec591"
+            "magic": "0x91c5feea"
         },
         "seeds_dns": [
-            "colx1",
-            "colx2",
-            "colx3",
             "seed.colossuscoinxt.org",
             "seed.colossusxt.org",
             "seed.colxt.net"
@@ -24,7 +47,7 @@
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "a0ce8206c908357008c1b9a8ba2813aff0989ca7f72d62b14e652c55f02b4f5c",
@@ -38,7 +61,7 @@
         "port": 51374,
         "port_rpc": 51475,
         "protocol": {
-            "magic": "0xbb667746"
+            "magic": "0x467766bb"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -49,7 +72,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "6cd37a546cfaafeee652fd0f3a85ba64c0f539f771a27fca9610cdc2f3278932",

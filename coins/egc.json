@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "symbol": "EGC",
+        "name": "EverGreenCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/evergreencoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2057319.0",
+            "source_code": "https:\/\/github.com\/EverGreenCoinDev\/EverGreenCoin",
+            "explorers": [
+                "http:\/\/transactions.evergreencoin.org\/",
+                "https:\/\/chainz.cryptoid.info\/egc\/",
+                "http:\/\/egc.poorcoding.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/evergreencoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "EGC",
+        "name": "EverGreenCoin - Mainnet",
+        "testnet": false,
+        "port": 5757,
+        "port_rpc": 5758,
+        "protocol": {
+            "magic": "0x21246247"
+        },
+        "seeds_dns": [
+            "seed.evergreencoin.org",
+            "seed2.evergreencoin.org",
+            "cwi-seed01.evergreencoin.org",
+            "cwi-seed02.evergreencoin.org",
+            "cwi-seed03.evergreencoin.org",
+            "cwi-seed04.evergreencoin.org",
+            "cwi-seed05.evergreencoin.org",
+            "cwi-seed06.evergreencoin.org",
+            "cwi-seed07.evergreencoin.org",
+            "cwi-seed08.evergreencoin.org",
+            "cwi-seed09.evergreencoin.org",
+            "cwi-seed10.evergreencoin.org",
+            "cwi-seed11.evergreencoin.org",
+            "cwi-seed12.evergreencoin.org",
+            "cwi-seed13.evergreencoin.org",
+            "cwi-seed14.evergreencoin.org",
+            "cwi-seed15.evergreencoin.org",
+            "cwi-seed16.evergreencoin.org",
+            "cwi-seed17.evergreencoin.org",
+            "cwi-seed18.evergreencoin.org",
+            "cwi-seed19.evergreencoin.org",
+            "cwi-seed20.evergreencoin.org",
+            "cwi-seed21.evergreencoin.org",
+            "cwi-seed22.evergreencoin.org",
+            "cwi-seed23.evergreencoin.org",
+            "cwi-seed24.evergreencoin.org",
+            "cwi-seed25.evergreencoin.org"
+        ],
+        "prefixes": {
+            "public": 33,
+            "scripthash": 85,
+            "private": 161,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000a02cefbc063ba09034a6fbc123f7062b7ee0e4eed9128a1cadc7533e388",
+        "message_magic": "\u001eEverGreenCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "EGC",
+        "name": "EverGreenCoin - Testnet",
+        "testnet": true,
+        "port": 15757,
+        "port_rpc": 15758,
+        "protocol": {
+            "magic": "0x21246247"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 93,
+            "scripthash": 196,
+            "private": 221,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0002423cec5e6f756042ad0d08c416075de6aa5e92c883ee12504c24e83bb7d",
+        "message_magic": "\u001eEverGreenCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

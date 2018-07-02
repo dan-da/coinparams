@@ -1,23 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "LUX",
         "name": "LUXCoin",
+        "supply": {
+            "max": "60000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/luxcore.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2254046.0",
+            "source_code": "https:\/\/github.com\/216k155\/lux",
+            "explorers": [
+                "http:\/\/explorer.luxcore.io",
+                "http:\/\/explorer2.luxcore.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/luxcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/LUXcoreOfficial",
+                "https:\/\/discord.gg\/27xFP5Y"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "LUX",
+        "name": "LUXCoin - Mainnet",
         "testnet": false,
         "port": 26969,
         "port_rpc": 9888,
         "protocol": {
-            "magic": "0xa9c8b36a"
+            "magic": "0x6ab3c8a9"
         },
-        "seeds_dns": [
-            "149.28.163.40",
-            "207.148.83.62",
-            "207.148.81.88",
-            "149.28.172.147",
-            "149.28.163.40",
-            "207.148.83.62",
-            "207.148.81.88",
-            "149.28.172.147"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 155,
             "public": 48,
@@ -26,7 +42,7 @@
                 "public": "0x0728a24e",
                 "private": "0x03d8a1e5"
             },
-            "bech32_hrp": "bc",
+            "bech32": "bc",
             "bip44": null
         },
         "hash_genesis_block": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
@@ -40,14 +56,9 @@
         "port": 28333,
         "port_rpc": 9777,
         "protocol": {
-            "magic": "0xab516754"
+            "magic": "0x546751ab"
         },
-        "seeds_dns": [
-            "luxtest1",
-            "luxtest2",
-            "140.82.45.100",
-            "144.202.3.186"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 155,
             "public": 48,
@@ -56,7 +67,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": "tb",
+            "bech32": "tb",
             "bip44": 1
         },
         "hash_genesis_block": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",

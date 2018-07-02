@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "WOMEN",
+        "name": "WomenCoin",
+        "supply": {
+            "max": "25000000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.women-coin.com\/"
+            ],
+            "announcement": "https:\/\/bitcoingarden.org\/forum\/index.php?topic=16213.0",
+            "source_code": "https:\/\/github.com\/womencoin\/womencoin",
+            "explorers": [
+                "http:\/\/womenexplorer.ga\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/women\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/68r7FUN"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "WOMEN",
+        "name": "WomenCoin - Mainnet",
+        "testnet": false,
+        "port": 19207,
+        "port_rpc": 19208,
+        "protocol": {
+            "magic": "0xf11394ee"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 73,
+            "scripthash": 85,
+            "private": 201,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000ef1a0dccdb746baf4e0d2b13418146d3a061794a2683ef47198b18273ef",
+        "message_magic": "\u001aWOMENCOIN Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "WOMEN",
+        "name": "WomenCoin - Testnet",
+        "testnet": true,
+        "port": 29207,
+        "port_rpc": 29208,
+        "protocol": {
+            "magic": "0x00247f1e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000ef1a0dccdb746baf4e0d2b13418146d3a061794a2683ef47198b18273ef",
+        "message_magic": "\u001aWOMENCOIN Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "DEM",
+        "name": "Deutsche eMark",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/deutsche-emark.de\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=310939.0",
+            "source_code": "https:\/\/github.com\/emarkproject\/eMark",
+            "explorers": [
+                "http:\/\/blockexplorer.deutsche-emark.org"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/deutsche-emark\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "DEM",
+        "name": "Deutsche eMark - Mainnet",
+        "testnet": false,
+        "port": 5556,
+        "port_rpc": 6666,
+        "protocol": {
+            "magic": "0xe4e8e9e5"
+        },
+        "seeds_dns": [
+            "seed.deutsche-emark.de"
+        ],
+        "prefixes": {
+            "private": 181,
+            "public": 53,
+            "scripthash": 30,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000ac7a13fffb72c10f6fd9a773dcf3e8388b8ffc359cee2483b1236ebcda1",
+        "message_magic": "\u0016eMark Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "DEM",
+        "name": "Deutsche eMark - Testnet",
+        "testnet": true,
+        "port": 15556,
+        "port_rpc": 16666,
+        "protocol": {
+            "magic": "0xfec3b9de"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000fa2783bec51b4039b29d61bd2bff61be74cdd4404f582b5b3f8fd3d15921",
+        "message_magic": "\u0016eMark Signed Message:\n",
+        "decimals": 6
+    }
+}

@@ -1,25 +1,38 @@
 {
-    "main": {
+    "meta": {
         "symbol": "BWK",
         "name": "Bulwark",
+        "supply": {
+            "max": "27000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/bulwarkcrypto.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2499481.0",
+            "source_code": "https:\/\/github.com\/bulwark-crypto\/Bulwark",
+            "explorers": [
+                "http:\/\/explorer.bulwarkcrypto.com"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bulwark\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/bulwarkcrypto",
+                "https:\/\/discord.gg\/a7vhegP"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BWK",
+        "name": "Bulwark - Mainnet",
         "testnet": false,
         "port": 52543,
         "port_rpc": 52541,
         "protocol": {
-            "magic": "0x17010208"
+            "magic": "0x08020117"
         },
         "seeds_dns": [
-            "bwkseed.mempool.pw",
-            "bwkseed1.bulwarkcrypto.com",
-            "bwkseed2.bulwarkcrypto.com",
-            "bwkseed3.bulwarkcrypto.com",
-            "bwkseed4.bulwarkcrypto.com",
-            "bwkseed5.bulwarkcrypto.com",
-            "bwkseed1.bulwarkcrypto.site",
-            "bwkseed2.bulwarkcrypto.site",
-            "bwkseed3.bulwarkcrypto.site",
-            "bwkseed4.bulwarkcrypto.site",
-            "bwkseed5.bulwarkcrypto.site",
             "bwkseed.mempool.pw",
             "bwkseed1.bulwarkcrypto.com",
             "bwkseed2.bulwarkcrypto.com",
@@ -40,7 +53,7 @@
                 "public": "0x022d2533",
                 "private": "0x0221312b"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574",
@@ -54,12 +67,9 @@
         "port": 42133,
         "port_rpc": 42132,
         "protocol": {
-            "magic": "0xa0f4d9b5"
+            "magic": "0xb5d9f4a0"
         },
         "seeds_dns": [
-            "testnet01.mempool.pw",
-            "testnet02.mempool.pw",
-            "testnet03.mempool.pw",
             "testnet01.mempool.pw",
             "testnet02.mempool.pw",
             "testnet03.mempool.pw"
@@ -72,7 +82,7 @@
                 "public": "0x3a8061a0",
                 "private": "0x3a805837"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285",

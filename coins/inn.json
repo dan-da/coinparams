@@ -1,0 +1,101 @@
+{
+    "meta": {
+        "symbol": "INN",
+        "name": "Innova",
+        "supply": {
+            "max": "42000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/innovacoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2291517.0",
+            "source_code": "https:\/\/github.com\/innovacoin\/innova",
+            "explorers": [
+                "http:\/\/explorer.innovacoin.info"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/innova\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "INN",
+        "name": "Innova - Mainnet",
+        "testnet": false,
+        "port": 14520,
+        "port_rpc": 8818,
+        "protocol": {
+            "magic": "0x3c2a3ab9"
+        },
+        "seeds_dns": [
+            "dnss1.innovacoin.info",
+            "dnss2.innovacoin.info"
+        ],
+        "prefixes": {
+            "private": 195,
+            "public": 102,
+            "scripthash": 20,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000003841e9ad6096539e5a6a0c3a0d3a3f71b96da0c1ecf744052e6ee3cc2cd",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "INN",
+        "name": "Innova - Testnet",
+        "testnet": true,
+        "port": 15520,
+        "port_rpc": 18818,
+        "protocol": {
+            "magic": "0xb1a4d57c"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000042893def7fbac13873db544dc5924fb083f17701255fcf85ec03936f388",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "INN",
+        "name": "Innova - Regtest",
+        "testnet": true,
+        "port": 16520,
+        "port_rpc": 15332,
+        "protocol": {
+            "magic": "0xa43bb975"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "49c6b0f73a20d64cdf082d8f2af630d0e7ec4179db631dda817c1be8f70a514b",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

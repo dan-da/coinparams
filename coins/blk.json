@@ -1,15 +1,38 @@
 {
+    "meta": {
+        "symbol": "BLK",
+        "name": "BlackCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.blackcoin.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=469640.0",
+            "source_code": "https:\/\/github.com\/CoinBlack\/blackcoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/blk\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/blackcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/blackcoin",
+                "https:\/\/gitter.im\/BlackCoin_Hub"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "BLK",
-        "name": "Blackcoin",
+        "name": "BlackCoin - Mainnet",
         "testnet": false,
         "port": 15714,
         "port_rpc": 15715,
         "protocol": {
-            "magic": "0x05223570"
+            "magic": "0x70352205"
         },
         "seeds_dns": [
-            "vasin.nl",
             "dnsseed.vasin.nl"
         ],
         "prefixes": {
@@ -20,7 +43,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 10
         },
         "hash_genesis_block": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
@@ -29,12 +52,12 @@
     },
     "test": {
         "symbol": "BLK",
-        "name": "Blackcoin - Testnet",
+        "name": "BlackCoin - Testnet",
         "testnet": true,
         "port": 25714,
         "port_rpc": 25715,
         "protocol": {
-            "magic": "0xefc0f2cd"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -45,7 +68,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",

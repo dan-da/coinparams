@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "symbol": "TX",
+        "name": "TransferCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/txproject.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1203975.0",
+            "source_code": "https:\/\/github.com\/transferdev\/Transfercoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/tx\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/transfercoin\/",
+            "message_board": [
+                "http:\/\/transfercointx.pw"
+            ],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "TX",
+        "name": "TransferCoin - Mainnet",
+        "testnet": false,
+        "port": 17170,
+        "port_rpc": 17171,
+        "protocol": {
+            "magic": "0xd12e1ee6"
+        },
+        "seeds_dns": [
+            "txdns.infernopool.com",
+            "txdns2.infernopool.com",
+            "txdns3.infernopool.com"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 66,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "9672529bc958a440a8acd061d914120d44c914a06454b82d3e1cd68fe4f1f916",
+        "message_magic": "\u0019Transfer Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "TX",
+        "name": "TransferCoin - Testnet",
+        "testnet": true,
+        "port": 27170,
+        "port_rpc": 27171,
+        "protocol": {
+            "magic": "0x2fca4d3e"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 97,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "9672529bc958a440a8acd061d914120d44c914a06454b82d3e1cd68fe4f1f916",
+        "message_magic": "\u0019Transfer Signed Message:\n",
+        "decimals": 8
+    }
+}

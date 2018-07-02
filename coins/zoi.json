@@ -1,17 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "ZOI",
         "name": "Zoin",
+        "supply": {
+            "max": "21000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/zoinofficial.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2085112.0",
+            "source_code": "https:\/\/github.com\/zoinofficial\/zoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/zoi\/",
+                "http:\/\/explorer.zoinofficial.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/mE3KemF",
+                "https:\/\/t.me\/zoincommunity"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZOI",
+        "name": "Zoin - Mainnet",
         "testnet": false,
         "port": 8255,
         "port_rpc": 8255,
         "protocol": {
-            "magic": "0x51a903f5"
+            "magic": "0xf503a951"
         },
-        "seeds_dns": [
-            "159.203.124.51",
-            "159.203.124.51"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 208,
             "public": 80,
@@ -20,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "0x23911212a525e3d149fcad6c559c8b17f1e8326a272a75ff9bb315c8d96433ef0x4f193d83c304ebd3bf2319611cbb84f26af7960f23d06dd243b6c93ebf4d7797",
@@ -34,18 +56,9 @@
         "port": 28168,
         "port_rpc": 28168,
         "protocol": {
-            "magic": "0x09bf5dae"
+            "magic": "0xae5dbf09"
         },
         "seeds_dns": [
-            "165.227.98.85",
-            "174.138.61.220",
-            "92.247.116.44",
-            "petertodd.org",
-            "bluematt.me",
-            "bitcoin.schildbach.de",
-            "165.227.98.85",
-            "174.138.61.220",
-            "92.247.116.44",
             "seed.tbtc.petertodd.org",
             "testnet-seed.bluematt.me",
             "testnet-seed.bitcoin.schildbach.de"
@@ -58,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",
@@ -72,7 +85,7 @@
         "port": 18444,
         "port_rpc": 18888,
         "protocol": {
-            "magic": "0x09bf5dae"
+            "magic": "0xae5dbf09"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -83,7 +96,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x6283b7fafca969a803f6f539f5e8fb1a4f8a28fc1ec2106ad35b39354a4647e50x04ff9bc3453a83687a95daf2342eceedac19dd73e356569704533aae02e9d6a9",

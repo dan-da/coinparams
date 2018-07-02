@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "symbol": "MXT",
+        "name": "MarteXcoin",
+        "supply": {
+            "max": "5000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/martexcoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1354130.0",
+            "source_code": "https:\/\/github.com\/martexcoin\/martexcoin",
+            "explorers": [
+                "https:\/\/martexcoin.org\/explorer",
+                "http:\/\/martexcoin.org\/be\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/martexcoin\/",
+            "message_board": [
+                "https:\/\/martexcoin.org\/forum\/"
+            ],
+            "chat": [
+                "https:\/\/t.me\/martexcoin"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MXT",
+        "name": "MarteXcoin - Mainnet",
+        "testnet": false,
+        "port": 51315,
+        "port_rpc": 51314,
+        "protocol": {
+            "magic": "0x2d3fa2f5"
+        },
+        "seeds_dns": [
+            "seed.martexcoin.org:51315",
+            "seed1.martexcoin.org:51315",
+            "seed2.martexcoin.org:51315",
+            "seed3.martexcoin.org:51315",
+            "seed4.martexcoin.org:51315"
+        ],
+        "prefixes": {
+            "private": 0,
+            "public": 50,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 180
+        },
+        "hash_genesis_block": "617fc383b07fbab3505213b41fe34f9705b92d854a9f72593cb616e4726e155c",
+        "message_magic": "\u0017MarteX Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MXT",
+        "name": "MarteXcoin - Testnet",
+        "testnet": true,
+        "port": 41315,
+        "port_rpc": 41314,
+        "protocol": {
+            "magic": "0x70352205"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 324,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "be10a5eb2ff7c7f2c958826bc773b05748cf3c8c851744425e1af311ed36e502",
+        "message_magic": "\u0017MarteX Signed Message:\n",
+        "decimals": 8
+    }
+}

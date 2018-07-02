@@ -1,19 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "XZC",
         "name": "ZCoin",
+        "supply": {
+            "max": "21400000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/zcoin.io"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1638450",
+            "source_code": "https:\/\/github.com\/zcoinofficial\/zcoin",
+            "explorers": [
+                "http:\/\/explorer.zcoin.io",
+                "https:\/\/chainz.cryptoid.info\/xzc\/",
+                "https:\/\/insight.zcoin.io\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discordapp.com\/invite\/4FjnQ2q"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XZC",
+        "name": "ZCoin - Mainnet",
         "testnet": false,
         "port": 8168,
         "port_rpc": 8888,
         "protocol": {
-            "magic": "0xf1fed9e3"
+            "magic": "0xe3d9fef1"
         },
         "seeds_dns": [
-            "sf1.zcoin.io",
-            "sf2.zcoin.io",
-            "london.zcoin.io",
-            "singapore.zcoin.io",
-            "nyc.zcoin.io",
             "sf1.zcoin.io",
             "sf2.zcoin.io",
             "london.zcoin.io",
@@ -28,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 136
         },
         "hash_genesis_block": "4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233",
@@ -42,15 +62,9 @@
         "port": 18168,
         "port_rpc": 18888,
         "protocol": {
-            "magic": "0xeabefccf"
+            "magic": "0xcffcbeea"
         },
         "seeds_dns": [
-            "beta1.zcoin.io",
-            "beta2.zcoin.io",
-            "testnetbitcoin.jonasschnelli.ch",
-            "petertodd.org",
-            "bluematt.me",
-            "bitcoin.schildbach.de",
             "beta1.zcoin.io",
             "beta2.zcoin.io",
             "testnet-seed.bitcoin.jonasschnelli.ch",
@@ -66,7 +80,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x7ac038c193c2158c428c59f9ae0c02a07115141c6e9dc244ae96132e99b4e6420x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
@@ -80,7 +94,7 @@
         "port": 18444,
         "port_rpc": 28888,
         "protocol": {
-            "magic": "0xdab5bffa"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -91,7 +105,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "0x0080c7bf30bb2579ed9c93213475bf8fafc1f53807da908cde19cf405b9eb55b0x25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",

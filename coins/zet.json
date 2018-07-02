@@ -1,0 +1,117 @@
+{
+    "meta": {
+        "symbol": "ZET",
+        "name": "Zetacoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.zetac.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=267545.0",
+            "source_code": "https:\/\/github.com\/zetacoin\/zetacoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/zet\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/zetacoin\/",
+            "message_board": [],
+            "chat": [
+                "http:\/\/webchat.freenode.net\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ZET",
+        "name": "Zetacoin - Mainnet",
+        "testnet": false,
+        "port": 17333,
+        "port_rpc": 8332,
+        "protocol": {
+            "magic": "0xfab503df"
+        },
+        "seeds_dns": [
+            "seed1.zetac.org",
+            "seed2.zetac.org",
+            "seed3.zetac.org",
+            "seed4.zetac.org",
+            "seed5.zetac.org",
+            "seed6.zetac.org",
+            "seed7.zetac.org",
+            "seed8.zetac.org",
+            "zeta1.twilightparadox.com",
+            "zeta2.twilightparadox.com",
+            "zeta3.twilightparadox.com",
+            "zeta4.twilightparadox.com"
+        ],
+        "prefixes": {
+            "private": 224,
+            "public": 80,
+            "scripthash": 9,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000006cab7aa2be2da91015902aa4458dd5fbb8778d175c36d429dc986f2bff4",
+        "message_magic": "\u0019Zetacoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ZET",
+        "name": "Zetacoin - Testnet",
+        "testnet": true,
+        "port": 27333,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0x05fea901"
+        },
+        "seeds_dns": [
+            "test1.zetatestnet.pw",
+            "test2.zetatestnet.pw",
+            "test3.zetatestnet.pw"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 88,
+            "scripthash": 188,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000007717e2e2df52a9ff29b0771901c9c12f5cbb4914cdf0c8047b459bb21d8",
+        "message_magic": "\u0019Zetacoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "ZET",
+        "name": "Zetacoin - Regtest",
+        "testnet": true,
+        "port": 18444,
+        "port_rpc": 18332,
+        "protocol": {
+            "magic": "0xfa0fa55a"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+        "message_magic": "\u0019Zetacoin Signed Message:\n",
+        "decimals": 8
+    }
+}

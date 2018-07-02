@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "GRIM",
+        "name": "Grimcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/reaper.rocks\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2278351.0",
+            "source_code": "https:\/\/github.com\/GrimReaperCoins\/GRIM",
+            "explorers": [
+                "http:\/\/grim.reaper.rocks\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/grimcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/uUQNf5G"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "GRIM",
+        "name": "Grimcoin - Mainnet",
+        "testnet": false,
+        "port": 24861,
+        "port_rpc": 24862,
+        "protocol": {
+            "magic": "0xe7420652"
+        },
+        "seeds_dns": [
+            "reaper.rocks",
+            "thec0de.com"
+        ],
+        "prefixes": {
+            "public": 38,
+            "scripthash": 85,
+            "private": 166,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000733223215fa8ba50ae21c4b0142b773ceb8c9c912375156efd51dd09823",
+        "message_magic": "\u0015Grim Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "GRIM",
+        "name": "Grimcoin - Testnet",
+        "testnet": true,
+        "port": 34861,
+        "port_rpc": 34862,
+        "protocol": {
+            "magic": "0x2b3ad4dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000733223215fa8ba50ae21c4b0142b773ceb8c9c912375156efd51dd09823",
+        "message_magic": "\u0015Grim Signed Message:\n",
+        "decimals": 8
+    }
+}

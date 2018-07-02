@@ -1,19 +1,39 @@
 {
-    "main": {
+    "meta": {
         "symbol": "FST",
         "name": "Fastcoin",
+        "supply": {
+            "max": "165888000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.fastcoin.ca\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=218852.0",
+            "source_code": "https:\/\/github.com\/fastcoinproject\/fastcoin",
+            "explorers": [
+                "http:\/\/explorer.fastcoinfoundation.org\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/fastcoin\/",
+            "message_board": [
+                "http:\/\/www.fastcointalk.org\/"
+            ],
+            "chat": [
+                "https:\/\/fastcoinchat.slack.com\/join\/shared_invite\/MjIzNDI5MTM0Mzg4LTE1MDIxMzk3MzAtMDAzMzliMTMyOQ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "FST",
+        "name": "Fastcoin - Mainnet",
         "testnet": false,
         "port": 9526,
         "port_rpc": 9527,
         "protocol": {
-            "magic": "0xdbb6c0fb"
+            "magic": "0xfbc0b6db"
         },
         "seeds_dns": [
-            "dnsseed.fastcoin.ws",
-            "ns-1470.awsdns-55.org",
-            "ns-1863.awsdns-40.co.uk",
-            "fastcoinpool.org",
-            "weminemnc.com",
             "s1.fastcoin.ws",
             "u2.fastcoin.ws",
             "a1.fastcoin.ws",
@@ -28,7 +48,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "ecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b",
@@ -42,12 +62,9 @@
         "port": 19526,
         "port_rpc": 19527,
         "protocol": {
-            "magic": "0xdcb7c1fc"
+            "magic": "0xfcc1b7dc"
         },
         "seeds_dns": [
-            "fastcointools.com",
-            "xurious.com",
-            "wemine-testnet.com",
             "testnet-seed.fastcointools.com",
             "testnet-seed.ltc.xurious.com",
             "dnsseed.wemine-testnet.com"
@@ -60,7 +77,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f",

@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "symbol": "BCF",
+        "name": "Bitcoin Fast",
+        "supply": {
+            "max": "2500000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/bitcoinfast.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1982137",
+            "source_code": "https:\/\/github.com\/Crypto-Currency\/bitcoinfast",
+            "explorers": [
+                "http:\/\/bcf.altcoinwarz.com:3003\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoinfast\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/nqEv9RT",
+                "https:\/\/t.me\/BCFast"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BCF",
+        "name": "Bitcoin Fast - Mainnet",
+        "testnet": false,
+        "port": 25671,
+        "port_rpc": 25672,
+        "protocol": {
+            "magic": "0xcefbfadb"
+        },
+        "seeds_dns": [
+            "bitcoinfast.co"
+        ],
+        "prefixes": {
+            "public": 25,
+            "scripthash": 8,
+            "private": 153,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000056ae1a4b604b1f71b5436f3f22775429c03f29a9786e5e33fc104041b46",
+        "message_magic": "\u001cBitcoinFast Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "BCF",
+        "name": "Bitcoin Fast - Testnet",
+        "testnet": true,
+        "port": 35671,
+        "port_rpc": 35672,
+        "protocol": {
+            "magic": "0xcdf1c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000056ae1a4b604b1f71b5436f3f22775429c03f29a9786e5e33fc104041b46",
+        "message_magic": "\u001cBitcoinFast Signed Message:\n",
+        "decimals": 6
+    }
+}

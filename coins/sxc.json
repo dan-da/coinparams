@@ -1,17 +1,35 @@
 {
-    "main": {
+    "meta": {
         "symbol": "SXC",
         "name": "Sexcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.sexcoin.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1272422.0",
+            "source_code": "https:\/\/github.com\/sexcoin-project\/sexcoin",
+            "explorers": [
+                "http:\/\/blockexplorer.lavajumper.com\/chain\/Sexcoin"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sexcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SXC",
+        "name": "Sexcoin - Mainnet",
         "testnet": false,
         "port": 9560,
         "port_rpc": 9561,
         "protocol": {
-            "magic": "0x6969cefa"
+            "magic": "0xface6969"
         },
         "seeds_dns": [
-            "sexcoin.info",
-            "lavajumper.com",
-            "litecoinpool.org",
             "dnsseed.sexcoin.info",
             "dnsseed.lavajumper.com",
             "dnsseed.litecoinpool.org"
@@ -24,7 +42,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "f42b9553085a1af63d659d3907a42c3a0052bbfa2693d3acf990af85755f2279",
@@ -38,12 +56,9 @@
         "port": 19560,
         "port_rpc": 19561,
         "protocol": {
-            "magic": "0x6996cefa"
+            "magic": "0xface9669"
         },
         "seeds_dns": [
-            "sexcoin.info",
-            "xurious.com",
-            "wemine-testnet.com",
             "testnet-seed.sexcoin.info",
             "testnet-seed.ltc.xurious.com",
             "dnsseed.wemine-testnet.com"
@@ -56,7 +71,7 @@
                 "public": "0x043587cf",
                 "private": "0x04358394"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "73dc70a1698579360b62e724ecfeacfd938f45283162f3cf18f1b9eb3fc9fcd7",

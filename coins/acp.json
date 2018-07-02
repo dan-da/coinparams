@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "ACP",
+        "name": "AnarchistsPrime",
+        "supply": {
+            "max": "53760000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.anarchistsprime.info\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1001407",
+            "source_code": "https:\/\/github.com\/AnarchistsPrime\/Acp2",
+            "explorers": [
+                "http:\/\/acp1.servep2p.com:3001\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/anarchistsprime\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ACP",
+        "name": "AnarchistsPrime - Mainnet",
+        "testnet": false,
+        "port": 11050,
+        "port_rpc": 21050,
+        "protocol": {
+            "magic": "0xf9beb4d9"
+        },
+        "seeds_dns": [
+            "acp.servep2p.com"
+        ],
+        "prefixes": {
+            "public": 0,
+            "scripthash": 5,
+            "private": 128,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "000000008afd70438709390e1a1b4e64c81437ffb244d785b7d6029d7b1ac95e",
+        "message_magic": " AnarchistsPrime Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ACP",
+        "name": "AnarchistsPrime - Testnet",
+        "testnet": true,
+        "port": 5744,
+        "port_rpc": 5745,
+        "protocol": {
+            "magic": "0x0b110907"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x000000008afd70438709390e1a1b4e64c81437ffb244d785b7d6029d7b1ac95e",
+        "message_magic": " AnarchistsPrime Signed Message:\n",
+        "decimals": 8
+    }
+}

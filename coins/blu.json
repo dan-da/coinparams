@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "symbol": "BLU",
+        "name": "BlueCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.bluecoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=580639.0",
+            "source_code": "https:\/\/github.com\/bluecoiner\/bluecoin-new",
+            "explorers": [
+                "http:\/\/blockexperts.com\/blu"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bluecoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/CB8D9A8jicz78p02QWTI6w"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "BLU",
+        "name": "BlueCoin - Mainnet",
+        "testnet": false,
+        "port": 27104,
+        "port_rpc": 27105,
+        "protocol": {
+            "magic": "0xf3f2aead"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 176,
+            "public": 26,
+            "scripthash": 28,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "dff2c9d2f60f1b9cd955b64639000159b444f2df71a66bf455cee071653f8de2",
+        "message_magic": "\u0019Bluecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "BLU",
+        "name": "BlueCoin - Testnet",
+        "testnet": true,
+        "port": 17104,
+        "port_rpc": 17105,
+        "protocol": {
+            "magic": "0xfef5abaa"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 36,
+            "scripthash": 38,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "b8d9c75508ad7d021f83a08852d0537110ad233ec4088e2856fdb6e6a7a00549",
+        "message_magic": "\u0019Bluecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "BLU",
+        "name": "BlueCoin - Regtest",
+        "testnet": true,
+        "port": 19444,
+        "port_rpc": 7105,
+        "protocol": {
+            "magic": "0xfef5abaa"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 36,
+            "scripthash": 38,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "024163cbb8f1b810df06faf7e1e02809a717939d7ec0bf5fca3609bc30780e98",
+        "message_magic": "\u0019Bluecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

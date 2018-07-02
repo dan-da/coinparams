@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "symbol": "PURE",
+        "name": "Pure",
+        "supply": {
+            "max": "20000000"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/purealt.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2335448.0",
+            "source_code": "https:\/\/github.com\/puredev321\/pure",
+            "explorers": [
+                "http:\/\/purexplorer.dynu.net\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/pure\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "PURE",
+        "name": "Pure - Mainnet",
+        "testnet": false,
+        "port": 32745,
+        "port_rpc": 32746,
+        "protocol": {
+            "magic": "0x11c3b1de"
+        },
+        "seeds_dns": [
+            "dns0.purealt.org",
+            "dns1.purealt.org",
+            "dns2.purealt.org",
+            "dns3.purealt.org",
+            "dns4.purealt.org",
+            "dns5.purealt.org",
+            "dns6.purealt.org",
+            "dns7.purealt.org",
+            "dns8.purealt.org",
+            "dns9.purealt.org"
+        ],
+        "prefixes": {
+            "private": 153,
+            "public": 55,
+            "scripthash": 85,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000555c3b7b3f248dc11f0611cb0bbfb0377f4c4406101c10f416dd4f4eaa76",
+        "message_magic": "\u0015Pure Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "PURE",
+        "name": "Pure - Testnet",
+        "testnet": true,
+        "port": 42745,
+        "port_rpc": 42746,
+        "protocol": {
+            "magic": "0x11c3b1df"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 204,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000555c3b7b3f248dc11f0611cb0bbfb0377f4c4406101c10f416dd4f4eaa76",
+        "message_magic": "\u0015Pure Signed Message:\n",
+        "decimals": 8
+    }
+}

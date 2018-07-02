@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "symbol": "SPK",
+        "name": "Sparks",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.sparkscoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=4181248.0",
+            "source_code": "https:\/\/github.com\/SparksReborn\/sparkspay",
+            "explorers": [
+                "http:\/\/spk.explorerz.top:3019\/",
+                "http:\/\/explorer.sparkscoin.io"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/sparks\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/MhAzt7P"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SPK",
+        "name": "Sparks - Mainnet",
+        "testnet": false,
+        "port": 8890,
+        "port_rpc": 8892,
+        "protocol": {
+            "magic": "0x1ab2c3d4"
+        },
+        "seeds_dns": [
+            "seed1.sparkspay.io",
+            "seed2.sparkspay.io",
+            "seed3.sparkspay.io",
+            "seed4.sparkspay.io"
+        ],
+        "prefixes": {
+            "private": 198,
+            "public": 38,
+            "scripthash": 10,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000a5c6ddfaac5097218560d5b92d416931cfeba1abf10c81d1d6a232fc8ea",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "SPK",
+        "name": "Sparks - Testnet",
+        "testnet": true,
+        "port": 8891,
+        "port_rpc": 8893,
+        "protocol": {
+            "magic": "0xd12bb37a"
+        },
+        "seeds_dns": [
+            "test1.sparkspay.io"
+        ],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000005f15ec2b9e4495efb539fb5b113338df946291cccd8dfd192bb68cd6dcf",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "SPK",
+        "name": "Sparks - Regtest",
+        "testnet": true,
+        "port": 18891,
+        "port_rpc": 18893,
+        "protocol": {
+            "magic": "0xa1b3d57b"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 240,
+            "public": 112,
+            "scripthash": 20,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "00000a584fb9211f6dc67cebc024138caa9e387274bf91400cbb2aa49c53ceca",
+        "message_magic": "\u0019DarkCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

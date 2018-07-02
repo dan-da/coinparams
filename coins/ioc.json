@@ -1,12 +1,36 @@
 {
+    "meta": {
+        "symbol": "IOC",
+        "name": "I\/O Coin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/iocoin.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=695855.0",
+            "source_code": "https:\/\/github.com\/IOCoin\/DIONS",
+            "explorers": [
+                "http:\/\/chainz.cryptoid.info\/ioc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/iocoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/CqVqS0O3PjCTx9bfp4CwOQ",
+                "https:\/\/iocoin.slack.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
     "main": {
         "symbol": "IOC",
-        "name": "IO Coin",
+        "name": "I\/O Coin - Mainnet",
         "testnet": false,
         "port": 33764,
         "port_rpc": 33765,
         "protocol": {
-            "magic": "0xdebac3fe"
+            "magic": "0xfec3bade"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -17,7 +41,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": null
         },
         "hash_genesis_block": "00000afad2d5833b50b59a9784fdc59869b688680e1670a52c52e3c2c04c1fe8",
@@ -26,12 +50,12 @@
     },
     "test": {
         "symbol": "IOC",
-        "name": "IO Coin - Testnet",
+        "name": "I\/O Coin - Testnet",
         "testnet": true,
         "port": 43764,
         "port_rpc": 43765,
         "protocol": {
-            "magic": "0xdfbbc4ff"
+            "magic": "0xffc4bbdf"
         },
         "seeds_dns": [],
         "prefixes": {
@@ -42,7 +66,7 @@
                 "public": "0x0488b21e",
                 "private": "0x0488ade4"
             },
-            "bech32_hrp": null,
+            "bech32": null,
             "bip44": 1
         },
         "hash_genesis_block": "5f97300cd3dc3d2215dd38ce6d99bf7d5984bb62b2777060d3b5564298bd5484",
