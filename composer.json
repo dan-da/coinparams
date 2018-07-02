@@ -8,7 +8,8 @@
             "bindings/php/"
         ]
     },
-
+    
     "require-dev": {
+        "dan-da/texttable-php": "^1.0"
     }
 }

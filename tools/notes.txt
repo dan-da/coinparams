@@ -10,8 +10,7 @@ bip32/public:      base58Prefixes[EXT_PUBLIC_KEY]
 private:           base58Prefixes[SECRET_KEY]
 public:            base58Prefixes[PUBKEY_ADDRESS]
 scripthash:        base58Prefixes[SCRIPT_ADDRESS]
-
-bech32_hrp:        bech32_hrp    // hrp is abbrev for "human readable part".
+bech32:            bech32_hrp    // hrp is abbrev for "human readable part".
                                  // from https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
 
 
@@ -119,7 +118,7 @@ Ethereum:
             https://ethereum.stackexchange.com/questions/3542/how-are-ethereum-addresses-generated
             
     bip44: 60.    from slip44
-    bech32_hrp:  n/a
+    bech32: n/a
     
     DNS Seeds:
         None found.  At least go-ethereum seems to use hardcoded seed IPs, not DNS.
@@ -219,7 +218,7 @@ Monero:
             https://github.com/satoshilabs/slips/blob/master/slip-0044.md
             https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings
 
-    bech32_hrp:  n/a
+    bech32:  n/a
     
     hashGenesisBlock:
       note: I was able to verify mainnet hash in monero code due to a

@@ -9,12 +9,13 @@ require_once __DIR__  . '/../vendor/autoload.php';
 define('EXCEPTION_CHAINPARAMS_NOTFOUND', 1001);
 
 //globals;
-$stop_on_main_validation_error = true;    // set to true to view exception details.
+$stop_on_main_validation_error = false;    // set to true to view exception details.
 $stop_on_test_validation_error = false;    // set to true to view exception details.
 $stop_on_regtest_validation_error = false;    // set to true to view exception details.
 $skip_existing_files = true;        // set to false to overwrite existing files.
+$use_projects_file = true;        // adds github projects from ./github-project-urls.json to coins list.
 
-// Note: this script now relies on ../coinsmeta.json existing and to have an
+// Note: this script now relies on ../coins/meta/coinsmeta.json existing and to have an
 //       entry for each item in $coins below.
 
 $symbol = @$argv[1];
@@ -121,7 +122,7 @@ $coins = [
 //    'xby'   => ['XTRABYTES', 'https://github.com/XTRABYTES/XTRABYTES', 'master'],  // no chainparams.cpp,  no bitcoinrpc.cpp
     'pot'   => ['PotCoin', 'https://github.com/potcoin/Potcoin', 'master'],  // no chainparams.cpp,  no base58.cpp
     'leo'   => ['LEOcoin', 'https://github.com/Leocoin-project/LEOcoin', 'master'],  // COIN not defined in amount.h or util.h
-    'thx'   => ['HempCoin', 'https://github.com/hempcoin-project/THC', 'master'],  // no chainparams.cpp
+    'thc'   => ['HempCoin', 'https://github.com/hempcoin-project/THC', 'master'],  // no chainparams.cpp
     'onion' => ['DeepOnion', 'https://github.com/deeponion/deeponion', 'master'],  // no chainparams.cpp
     'dime'  => ['Dimecoin', 'https://github.com/dime-coin/dimecoin', 'master'],  // no chainparams.cpp, no base58.cpp
 //    'bitb'  => ['Bean Cash', 'https://github.com/TeamBitBean/bitbean-core', 'master'],   // parse error in chainparams.cpp
@@ -151,6 +152,18 @@ $coins = [
     '42'    => ['42-Coin', 'https://github.com/42-coin/42', 'master'],  // no chainparams.cpp
     'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
 ];
+
+$projects_file = __DIR__ . '/github-project-urls.json';
+$data = @json_decode(@file_get_contents($projects_file), true);
+if($data) {
+    ksort($data);
+    foreach($data as $sym => $info) {
+        if( @$coins['sym']) {
+            continue;
+        }
+        $coins[strtolower($sym)] = [$info['name'], rtrim($info['github'], '/'), $info['branch']];
+    }
+}
 
 if( $symbol ) {
     $ci = @$coins[strtolower($symbol)];
@@ -195,6 +208,7 @@ function process_coin($symbol, $coininfo) {
     
     $data = [];
     $meta = $cmeta;
+    $meta['symbol'] = $symbol;  // keep lowercase.
     $meta['project_url'] = $project_url;
     $meta['urlbase'] = $urlbase;
     $meta['original_codebase'] = 'bitcoin';   // eg bitcoin, cryptonote, ethereum etc.
@@ -218,9 +232,11 @@ function process_coin($symbol, $coininfo) {
         }
     }
     
-    $json = json_encode($data, JSON_PRETTY_PRINT);
-    file_put_contents($outfile, $json);
-    echo "  |- Wrote $outfile\n";
+    if(@$data['main']) {
+        $json = json_encode($data, JSON_PRETTY_PRINT);
+        file_put_contents($outfile, $json);
+        echo "  |- Wrote $outfile\n";
+    }
 }
 
 function coins_metadata() {
@@ -228,7 +244,7 @@ function coins_metadata() {
     if( $data ) {
         return $data;
     }
-    $file = __DIR__ . '/../coinmeta.json';
+    $file = __DIR__ . '/../coins/meta/coinmeta.json';
     $data = json_decode(file_get_contents($file), true);
     return $data;
 }
@@ -492,6 +508,7 @@ function process_decimals(&$data, $meta) {
         'lcc' => 100000000 / 10,  // https://github.com/litecoincash-project/litecoincash/blob/master/src/amount.h
         'clam' => 1000000 * 100, // https://raw.githubusercontent.com/nochowderforyou/clams/master/src/util.h
     ];
+    
     if( @$special[$symbol] ) {
         $matches[1] = $special[$symbol];
     }
@@ -499,8 +516,49 @@ function process_decimals(&$data, $meta) {
     ne(@$matches[1]);
     $val = @$matches[1] ? (int)@$matches[1] : null;
     $data[$network]['decimals'] = $val !== null ? log($val, 10) : null;
+
+    return true;   // disabling MAX_MONEY logic.  too many problems.
+    
+    // For MAX_MONEY
+    if(!strstr($buf, 'MAX_MONEY')) {
+        $url = $meta['urlbase'] . '/src/core.h';   // reddcoin has it in core.h.
+        $buf = get_url($url, false);
+    }
+    if(!strstr($buf, 'MAX_MONEY')) {
+        $url = $meta['urlbase'] . '/src/main.h';   // Linda has it in main.h.
+        $buf = get_url($url, false);
+    }
+    if(!strstr($buf, 'MAX_MONEY')) {
+        $url = $meta['urlbase'] . '/src/chainparams.cpp';   // bitcoingreen has it in chainparams.cpp.
+        $buf = get_url($url, false);
+    }
+
+    preg_match('/static const .* MAX_MONEY = (\d+)u? \* COIN.*/', $buf, $matches) ||
+    preg_match('/nMaxMoneyOut = (\d+) \* COIN;/', $buf, $matches);
+    $special = [       // special cases, hard to parse.
+        'blk' => (int)((pow(2,63)-1) / 100000000),
+        'rads' => (int)((pow(2,63)-1) / 100000000),    // https://raw.githubusercontent.com/RadiumCore/radium-0.11/master/src/main.h
+        'pivx' => 'unlimited',
+        'clam' => 'unlimited',
+        'ion' => 50900000,    // no MAX_MONEY in source.  stated in announcement here. https://bitcointalk.org/index.php?topic=1443633.0
+        'phr' => 'unlimited',   // https://drive.google.com/file/d/1HcNyhlmY0C-1mjBmgXu54Qsw77foCh7Y/view
+        'colx' => 'unlimited',  // https://www.reddit.com/r/ColossuscoinX/comments/85v8ne/whats_the_max_total_supply_z/
+        'rby' => 25790950,      // http://cryptocoin.cc/table.php?cryptocoin=rubycoin
+    ];
+    if( @$special[$symbol] ) {
+        $matches[1] = $special[$symbol];
+    }
+    if(!@$matches[1]) {
+        // if all parsing fails, use data from coinmarketcap.
+        $matches[1] = @$data['meta']['supply']['max'];
+    }
+    
+    ne(@$matches[1]);
+    $data['meta']['supply']['max'] = @$matches[1];
+    
     return true;
 }
+
 
 function process_message_magic(&$data, $meta) {
     $urlbase = $meta['urlbase'];
@@ -597,6 +655,7 @@ function process_oldbitcoin_codebase(&$data, $meta) {
     }
     
     process_network_meta($data, $meta);
+    process_oldcode_supply_max($data, $meta);
     process_oldcode_ports($data, $meta);
     process_oldcode_protocol_magic($data, $meta);
     process_oldcode_dns_seeds($data, $meta);
@@ -798,7 +857,23 @@ static const int64 COIN = 100000000;
         ne(@$matches[1]);
     }
     $val = $matches[1] ? i($matches[1]) : null;
-    $data[$network]['decimals'] = $val === null ?: log($val, 10);
+    $data[$network]['decimals'] = $val === null ?: log($val, 10);    
+}
+
+
+function process_oldcode_supply_max(&$data, $meta) {
+    return;  // disabling for now.  to many problems.
+
+    $urlbase = $meta['urlbase'];
+    $symbol = $meta['symbol'];
+    $network = $meta['network'];
+
+    $url = $urlbase . '/src/main.h';
+    $buf = get_url($url);
+ 
+    preg_match('/static const int64 MAX_MONEY = (\d+)u? \* COIN;/', $buf, $matches);
+    ne(@$matches[1]);
+    $data['meta']['supply']['max'] = @$matches[1];    
 }
 
 

@@ -31,7 +31,10 @@ foreach($files as $file) {
 
 
 function check_valid_coin($file, $data) {
-        
+
+    if( !@$data['meta'] ) {
+        err("'meta' metadata key missing");
+    }
     if( !@$data['main'] ) {
         err("'main' network key missing");
     }
@@ -42,16 +45,63 @@ function check_valid_coin($file, $data) {
         warn("'regtest' network key missing");
     }
     
-    foreach($data as $netname => $netinfo) {
+    foreach($data as $key => $netinfo) {
         if( !$netinfo ) {
-            err("network '$netname' is empty");
+            err("key '$key' is empty");
             continue;
         }
         
-        check_valid_network($netname, $netinfo);
+        if($key == 'meta') {
+            check_valid_meta($key, $netinfo);
+            continue;
+        }
+    
+        check_valid_network($key, $netinfo);
     }
     
 }
+
+
+function check_valid_meta($keyname, $data) {
+    $top_keys = ['symbol',
+                 'name',
+                 'supply',
+                 'web',
+                 'original_codebase',
+                 ];
+    
+    foreach( $top_keys as $k ) {
+        if( @$data[$k] === null ) {
+            err( "key ['$keyname']['$k'] is unset" );
+        }
+    }
+
+
+    $web_keys = ['websites',
+                 'announcement',
+                 'source_code',
+                 'explorers',
+                 'coinmarketcap',
+                 'message_board',
+                 'chat',
+                 ];
+    
+    foreach( $web_keys as $k ) {
+        if( @$data['web'][$k] === null ) {
+            warn( "key ['$keyname']['web']['$k'] is unset" );
+        }
+    }
+
+    $supply_keys = ['max',
+                    ];
+    
+    foreach( $supply_keys as $k ) {
+        if( @$data['supply'][$k] === null ) {
+            warn( "key ['$keyname']['supply']['$k'] is unset" );
+        }
+    }
+}
+
 
 /* Should look like:
 {

@@ -1,37 +1,44 @@
-# coinparams
+# coinsparams
 
 This project provides crypto currency specific information such
-as version numbers, DNS seeds, etc, available in JSON format.
+as key prefixes, DNS seeds, network ports, etc. Data is available in JSON format
+and human readable tables.
 
-It is intended for use in any software that is working with multiple
-cryptocurrencies, no matter the programming language.
+It is intended for use as a quick reference or in any software that is working
+with multiple cryptocurrencies, no matter the programming language.
 
-This is a fork of https://github.com/cryptocoinjs/coininfo.
+## Here's the data.
 
-The fork was made because that project maintains the information
-in javascript files.  I wanted to access the information from other
-programming languages, so I chose JSON as a neutral format.
+<table><tr>
+<td><a href="coinsmeta.md">Meta</a></td>
+<td><a href="coinsprefixes.md">Prefixes</a></td>
+<td><a href="coinsnetworking.md">Networking</a></td>
+<td><a href="coinsgenesis.md">Genesis Blocks</a></td>
+<td><a href="coinsparams.json">JSON</a></td>
+</tr></table>
+
+The above files contain data mainly for bitcoin-derived coins.
+
+Some additional metadata for coins and tokens not listed can be found
+in [coinmeta.json](coins/meta/coinmeta.json).
 
 ## How to use
 
-Just copy coininfo.json into your project and read it as you would
+Just copy coinsparams.json into your project and read it as you would
 read any JSON file.
-
-Be aware that most numeric values are specified as hex strings.  Hex is 
-used for easy porting from C code, and to aid with visual comparison.
-Unfortunately, json does not support raw hex, so they must be encoded as
-strings. Your application may need to perform a conversion operation before
-these values can be used as integers.
 
 ## How values are obtained
 
-For bitcoin and bitcoin derivates, the majority of values have been 
+For bitcoin and bitcoin derivates, values have been 
 automatically parsed directly from the original source code of each 
 cryptocurrency repo on github.  The script gen-masters-from-coin-src.php 
 performs this task.
 
 For non bitcoin derivates (eg eth, monero, decred, etc) the values are
 manually obtained.
+
+Metadata such as website urls and max supply have been scraped from
+coinmarketcap.com.
 
 ## How values are tested
 
@@ -53,6 +60,11 @@ gen-masters-from-coin-src.php.  Then run the script.  If successful, validate
 with check-masters-valid.php then submit a pull request for the script and 
 the new coin.json file.
 
+If you wish to add new language bindings, please see the example under
+bindings/php and try to keep the api similar.  Also, please try to use no
+more than one file (eg for package manager) in the project root directory
+per language.
+
 ### Pull Requests
 
 Please include the output of running:
@@ -65,10 +77,11 @@ pull request to be accepted.
 
 ## Todos
 
-* Add more coins.
-* Add more testnet and regtest info.
+* Add more coins.  esp top 20 by market cap.  many are non bitcoin codebase.
+* Add bindings for JS and other languages, to easily install and use the list as a class.
+* add meta fields for hashing algorithm, POW, POS, mineable, etc...
+* add seed node list (maybe: btc mainnet has more than 1500)
 * Use a json5 parser when reading the individual JSON files for each coin.  This will allow comments to be used in them.
-* Add wrappers for JS and other languages, to easily install and use the list as a class.
 * document the schema/format used.
 * add better tests.
 
