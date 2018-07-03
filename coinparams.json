@@ -21424,6 +21424,86 @@
             "decimals": 8
         }
     },
+    "RPC": {
+        "meta": {
+            "symbol": "RPC",
+            "name": "RonPaulCoin",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.ronpaulcoin.com\/",
+                    "http:\/\/www.ronpaulcoin.cc\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=389070.0",
+                "source_code": "https:\/\/github.com\/ronpaulcoin\/ronpaulcoin",
+                "explorers": [
+                    "https:\/\/chainz.cryptoid.info\/rpc\/",
+                    "http:\/\/rpc.blockexp.info\/chain\/RonPaulCoin",
+                    "https:\/\/www.cryptopia.co.nz\/BlockExplorer?coin=RPC"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/ronpaulcoin\/",
+                "message_board": [],
+                "chat": []
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "RPC",
+            "name": "RonPaulCoin - Mainnet",
+            "testnet": false,
+            "port": 9027,
+            "port_rpc": 9026,
+            "protocol": {
+                "magic": "0xfbc0b6db"
+            },
+            "seeds_dns": [
+                "dnsseed.ronpaulcoin.nl"
+            ],
+            "prefixes": {
+                "public": 60,
+                "scripthash": 3,
+                "private": 188,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "12e05e8d4a8258aed79e113ee429c5194ee1c8999f50df176ecea97380d474ab",
+            "message_magic": "\u001cRonPaulCoin Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "RPC",
+            "name": "RonPaulCoin - Testnet",
+            "testnet": true,
+            "port": 19027,
+            "port_rpc": 19026,
+            "protocol": {
+                "magic": "0xfcc1b7dc"
+            },
+            "seeds_dns": [
+                "testnet-seed.ronpaulcoin.nl"
+            ],
+            "prefixes": {
+                "public": 122,
+                "scripthash": 196,
+                "private": 250,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "0x0ab57c2e763aef69d99638ae0059ed157ed6d0181b9e35cf71e04401ef240fee",
+            "message_magic": "\u001cRonPaulCoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "RUP": {
         "meta": {
             "symbol": "RUP",

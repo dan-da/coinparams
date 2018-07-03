@@ -1299,6 +1299,11 @@
         "github": "https:\/\/github.com\/roofsdev\/roofs",
         "branch": "master"
     },
+    "RPC": {
+        "name": "RonPaulCoin",
+        "github": "https:\/\/github.com\/ronpaulcoin\/ronpaulcoin",
+        "branch": "master"
+    },
     "RUP": {
         "name": "Rupee",
         "github": "https:\/\/github.com\/rupeedigitalassets\/RUPEE",

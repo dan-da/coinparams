@@ -283,6 +283,7 @@ https://github.com/dan-da/coinparams
 | RIC           | Riecoin - Mainnet                  |    28333 |    28332 |         1 | 0xfcbcb2db | "\u0018riecoin Signed Message:\n"           |
 | RNS           | Renos - Mainnet                    |    57155 |    57154 |         2 | 0xaaa3b2c4 | "\u001aRenosCoin Signed Message:\n"         |
 | ROOFS         | Roofs - Mainnet                    |    20019 |    20020 |         0 | 0x904a9240 | "\u0016ROOFS Signed Message:\n"             |
+| RPC           | RonPaulCoin - Mainnet              |     9027 |     9026 |         1 | 0xfbc0b6db | "\u001cRonPaulCoin Signed Message:\n"       |
 | RUP           | Rupee - Mainnet                    |    10459 |    10460 |         0 | 0x3b69ded4 | "\u0016RUPEE Signed Message:\n"             |
 | RUPX          | Rupaya - Mainnet                   |     9020 |     7020 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
 | RVN           | Ravencoin - Mainnet                |     8767 |     8766 |         2 | 0x5241564e | "\u0016Raven Signed Message:\n"             |
@@ -614,6 +615,7 @@ https://github.com/dan-da/coinparams
 | REGA   | Regacoin - Testnet                 |    33813 |    33812 |         0 | 0xbcadafc4         | "\u0015REGA Signed Message:\n"              |
 | RNS    | Renos - Testnet                    |    57255 |    57254 |         0 | 0xa179a4a2         | "\u001aRenosCoin Signed Message:\n"         |
 | ROOFS  | Roofs - Testnet                    |    30019 |    30020 |         0 | 0xaaaa2bf9         | "\u0016ROOFS Signed Message:\n"             |
+| RPC    | RonPaulCoin - Testnet              |    19027 |    19026 |         1 | 0xfcc1b7dc         | "\u001cRonPaulCoin Signed Message:\n"       |
 | RUP    | Rupee - Testnet                    |    20459 |    20460 |         0 | 0x06b9e2cd         | "\u0016RUPEE Signed Message:\n"             |
 | RVN    | Ravencoin - Testnet                |    18767 |    18766 |         2 | 0x52564E54         | "\u0016Raven Signed Message:\n"             |
 | SAK    | Sharkcoin - Testnet                |    14011 |    14009 |         0 | 0x011A39F7         | "\u001aSharkcoin Signed Message:\n"         |

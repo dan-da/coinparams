@@ -276,6 +276,7 @@ the values from bitcoin are used.
 | RIC           | Riecoin - Mainnet                  |     128 |     60 |    5 | 0x0488ade4  | 0x0488b21e |   143 |        |
 | RNS           | Renos - Mainnet                    |     150 |     60 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
 | ROOFS         | Roofs - Mainnet                    |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| RPC           | RonPaulCoin - Mainnet              |     188 |     60 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
 | RUP           | Rupee - Mainnet                    |     188 |     60 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | RUPX          | Rupaya - Mainnet                   |     212 |     15 |    8 | 0x0221312b  | 0x022d2533 |       |        |
 | RVN           | Ravencoin - Mainnet                |     128 |     60 |  122 | 0x0488ade4  | 0x0488b21e |   175 | rc     |
@@ -606,6 +607,7 @@ the values from bitcoin are used.
 | REGA   | Regacoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | RNS    | Renos - Testnet                    |     229 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | ROOFS  | Roofs - Testnet                    |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
+| RPC    | RonPaulCoin - Testnet              |     250 |    122 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | RUP    | Rupee - Testnet                    |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | RVN    | Ravencoin - Testnet                |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 | tr     |
 | SAK    | Sharkcoin - Testnet                |     255 |    127 |  199 | 0x0488ade4  | 0x0488b21e |     1 |        |
