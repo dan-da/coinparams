@@ -1,0 +1,30 @@
+{
+  "name": "coinparams",
+  "version": "0.2.1",
+  "description": "provides crypto currency specific information such as key prefixes, DNS seeds, network ports, bip32, bip44, genesis block, etc.  For hundreds of altcoins.",
+  "main": "bindings/js/coinparams.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-da/coinparams.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bip32",
+    "bip39",
+    "bip44",
+    "slip44",
+    "altcoins",
+    "cryptocurrency",
+    "cryptocurrencies",
+    "genesis"
+  ],
+  "author": "danda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan-da/coinparams/issues"
+  },
+  "homepage": "https://github.com/dan-da/coinparams#readme"
+}
