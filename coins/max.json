@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "MAX",
+        "name": "MaxCoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "https:\/\/www.maxcoinproject.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=438150.0",
+            "source_code": "https:\/\/github.com\/Max-Coin\/maxcoin",
+            "explorers": [
+                "https:\/\/explorer.maxcoinproject.net",
+                "https:\/\/explorer2.maxcoinproject.net"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/maxcoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MAX",
+        "name": "MaxCoin - Mainnet",
+        "testnet": false,
+        "port": 8668,
+        "port_rpc": 8669,
+        "protocol": {
+            "magic": "0xf9bebbd2"
+        },
+        "seeds_dns": [
+            "a.seed.maxcoinproject.net",
+            "b.seed.maxcoinproject.net"
+        ],
+        "prefixes": {
+            "public": 110,
+            "scripthash": 112,
+            "private": 128,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000002d0f86558a6e737a3a351043ee73906fe077692dfaa3c9328aaca21964",
+        "message_magic": "\u0018MaxCoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MAX",
+        "name": "MaxCoin - Testnet",
+        "testnet": true,
+        "port": 18668,
+        "port_rpc": 18669,
+        "protocol": {
+            "magic": "0x0b11bb07"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 127,
+            "scripthash": 130,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x0000000a23e3eb42dc87b61d4015c80ffd85471d34e2c7210c7ca63b78a58612",
+        "message_magic": "\u0018MaxCoin Signed Message:\n",
+        "decimals": 8
+    }
+}

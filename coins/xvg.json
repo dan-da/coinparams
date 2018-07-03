@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "symbol": "XVG",
+        "name": "Verge",
+        "supply": {
+            "max": "16555000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/vergecurrency.com\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1365894.0",
+            "source_code": "https:\/\/github.com\/vergecurrency\/VERGE",
+            "explorers": [
+                "https:\/\/verge-blockchain.info\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/verge\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/VERGExvg",
+                "https:\/\/discord.gg\/vergecurrency"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "XVG",
+        "name": "Verge - Mainnet",
+        "testnet": false,
+        "port": 21102,
+        "port_rpc": 20102,
+        "protocol": {
+            "magic": "0xf7a77eff"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 30,
+            "scripthash": 33,
+            "private": 158,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 77
+        },
+        "hash_genesis_block": "00000fc63692467faeb20cdb3b53200dc601d75bdfa1001463304cc790d77278",
+        "message_magic": "\u0016VERGE Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "XVG",
+        "name": "Verge - Testnet",
+        "testnet": true,
+        "port": 29102,
+        "port_rpc": 21102,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 115,
+            "scripthash": 198,
+            "private": 243,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "65b4e101cacf3e1e4f3a9237e3a74ffd1186e595d8b78fa8ea22c21ef5bf9347",
+        "message_magic": "\u0016VERGE Signed Message:\n",
+        "decimals": 6
+    }
+}

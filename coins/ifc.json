@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "symbol": "IFC",
+        "name": "Infinitecoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.infiniteco.in"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=356065.0",
+            "source_code": "https:\/\/github.com\/infinitecoin\/infinitecoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/ifc\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/infinitecoin\/",
+            "message_board": [],
+            "chat": []
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "IFC",
+        "name": "Infinitecoin - Mainnet",
+        "testnet": false,
+        "port": 9321,
+        "port_rpc": 9322,
+        "protocol": {
+            "magic": "0xfbc0b6db"
+        },
+        "seeds_dns": [
+            "dnsseed.infinitecoinpool.org",
+            "dnsseed.bytesized-vps.com",
+            "dnsseed.ltc.xurious.com"
+        ],
+        "prefixes": {
+            "public": 102,
+            "scripthash": 5,
+            "private": 230,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "b10d5e83a5b2e62d9d872096bc20cae1a276ae6aacc02a71a5832b1fc9aeff85",
+        "message_magic": "\u001dInfinitecoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "IFC",
+        "name": "Infinitecoin - Testnet",
+        "testnet": true,
+        "port": 19321,
+        "port_rpc": 9322,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0x47cfc1ea5d27a873dcc90fa8befc9378dbc793ca68dd608d4f6aa123437701ba",
+        "message_magic": "\u001dInfinitecoin Signed Message:\n",
+        "decimals": 8
+    }
+}

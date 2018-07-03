@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "MAZA",
+        "name": "MAZA",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.mazacoin.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=508849.0",
+            "source_code": "https:\/\/github.com\/MazaCoin\/maza",
+            "explorers": [
+                "https:\/\/mazacha.in\/",
+                "https:\/\/explorer.coinpayments.net\/index.php?chain=11"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mazacoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/kiwiirc.com\/client\/chat.freenode.net\/?nick=maza|?&amp;theme=cli#maza"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MAZA",
+        "name": "MAZA - Mainnet",
+        "testnet": false,
+        "port": 12835,
+        "port_rpc": 12832,
+        "protocol": {
+            "magic": "0xf8b503df"
+        },
+        "seeds_dns": [
+            "node.mazacoin.org"
+        ],
+        "prefixes": {
+            "private": 224,
+            "public": 50,
+            "scripthash": 9,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "00000c7c73d8ce604178dae13f0fc6ec0be3275614366d44b1b4b5c6e238c60c",
+        "message_magic": "\u0015Maza Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MAZA",
+        "name": "MAZA - Testnet",
+        "testnet": true,
+        "port": 11835,
+        "port_rpc": 11832,
+        "protocol": {
+            "magic": "0x05fea901"
+        },
+        "seeds_dns": [
+            "mazatest.cryptoadhd.com"
+        ],
+        "prefixes": {
+            "private": 239,
+            "public": 88,
+            "scripthash": 188,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "000003ae7f631de18a457fa4fa078e6fa8aff38e258458f8189810de5d62cede",
+        "message_magic": "\u0015Maza Signed Message:\n",
+        "decimals": 8
+    }
+}

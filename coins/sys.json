@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "SYS",
+        "name": "Syscoin",
+        "supply": {
+            "max": "888000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/syscoin.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1466445.0",
+            "source_code": "https:\/\/github.com\/syscoin\/syscoin",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/sys\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/syscoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/joinchat\/AAAAAEHzByog3h1qutnjhQ"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "SYS",
+        "name": "Syscoin - Mainnet",
+        "testnet": false,
+        "port": 8369,
+        "port_rpc": 8370,
+        "protocol": {
+            "magic": "0xf9beb4d9"
+        },
+        "seeds_dns": [
+            "seed1.syscoin.org",
+            "seed2.syscoin.org",
+            "seed3.syscoin.org",
+            "seed4.syscoin.org"
+        ],
+        "prefixes": {
+            "private": 128,
+            "public": 63,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 57
+        },
+        "hash_genesis_block": "000006e5c08d6d2414435b294210266753b05a75f90e926dd5e6082306812622",
+        "message_magic": "\u0018Syscoin Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "SYS",
+        "name": "Syscoin - Regtest",
+        "testnet": true,
+        "port": 18369,
+        "port_rpc": 18370,
+        "protocol": {
+            "magic": "0xfabfb5da"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 65,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000140aa52b536eed2f54cb9590a959672c131bb5de1d934024d6c25c64df4f",
+        "message_magic": "\u0018Syscoin Signed Message:\n",
+        "decimals": 8
+    }
+}

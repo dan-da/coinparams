@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "MINT",
+        "name": "Mintcoin",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.mintcoinofficial.com"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=450381.0",
+            "source_code": "https:\/\/github.com\/MintcoinCommunity\/Mintcoin-Desktop-Wallet",
+            "explorers": [
+                "https:\/\/prohashing.com\/explorer\/Mintcoin\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mintcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/discord.gg\/qpGs76t",
+                "https:\/\/t.me\/joinchat\/AYSXZBGdWRH6jeIX_EJijg"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MINT",
+        "name": "Mintcoin - Mainnet",
+        "testnet": false,
+        "port": 12788,
+        "port_rpc": 12789,
+        "protocol": {
+            "magic": "0xced5dbfa"
+        },
+        "seeds_dns": [
+            "seed.mintcoinofficial.com",
+            "mintseed.mintcoinfund.org",
+            "mintseed.keremhd.name.tr"
+        ],
+        "prefixes": {
+            "public": 51,
+            "scripthash": 8,
+            "private": 179,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "af4ac34e7ef10a08fe2ba692eb9a9c08cf7e89fcf352f9ea6f0fd73ba3e5d03c",
+        "message_magic": "\u0019MintCoin Signed Message:\n",
+        "decimals": 6
+    },
+    "test": {
+        "symbol": "MINT",
+        "name": "Mintcoin - Testnet",
+        "testnet": true,
+        "port": 22788,
+        "port_rpc": 22789,
+        "protocol": {
+            "magic": "0xcdf2c0ef"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "af4ac34e7ef10a08fe2ba692eb9a9c08cf7e89fcf352f9ea6f0fd73ba3e5d03c",
+        "message_magic": "\u0019MintCoin Signed Message:\n",
+        "decimals": 6
+    }
+}

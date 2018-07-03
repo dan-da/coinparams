@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "symbol": "KEK",
+        "name": "KekCoin",
+        "supply": {
+            "max": "21000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/kekcoin.co\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2026344.0",
+            "source_code": "https:\/\/github.com\/Kekcoin-Core\/kekcoin-segwit",
+            "explorers": [
+                "http:\/\/explorer.kekcoin.co\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/kekcoin\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/t.me\/KekcoinOfficial"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "KEK",
+        "name": "KekCoin - Mainnet",
+        "testnet": false,
+        "port": 13337,
+        "port_rpc": 13377,
+        "protocol": {
+            "magic": "0x11223344"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 133,
+            "public": 45,
+            "scripthash": 88,
+            "bip32": {
+                "public": "0x0377d44d",
+                "private": "0x0377eee1"
+            },
+            "bech32": null,
+            "bip44": null
+        },
+        "hash_genesis_block": "0000091bc0f9d1578c7979142b2ff70e6bf8ff7c388cf3dcb486cf19a7518949",
+        "message_magic": "\u0018Kekcoin Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "KEK",
+        "name": "KekCoin - Testnet",
+        "testnet": true,
+        "port": 13777,
+        "port_rpc": 11337,
+        "protocol": {
+            "magic": "0x55667788"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "0000c7b67a057053c5043fad3ae7896f3d3172361ba4a850abb24f6dd80df5dc",
+        "message_magic": "\u0018Kekcoin Signed Message:\n",
+        "decimals": 8
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "symbol": "ARG",
+        "name": "Argentum",
+        "supply": {
+            "max": null
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.argentum.io\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1432608.0",
+            "source_code": "https:\/\/github.com\/argentumproject\/argentum",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/arg\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/argentum\/",
+            "message_board": [
+                "https:\/\/cryptocointalk.com\/topic\/50052-argentum-arg\/"
+            ],
+            "chat": [
+                "https:\/\/webchat.freenode.net\/?channels=#ARGCurrency"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "ARG",
+        "name": "Argentum - Mainnet",
+        "testnet": false,
+        "port": 13580,
+        "port_rpc": 13581,
+        "protocol": {
+            "magic": "0xfbc1b8dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 151,
+            "public": 23,
+            "scripthash": 5,
+            "bip32": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "bech32": null,
+            "bip44": 45
+        },
+        "hash_genesis_block": "88c667bc63167685e4e4da058fffdfe8e007e5abffd6855de52ad59df7bb0bb2",
+        "message_magic": "\u0019Argentum Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "ARG",
+        "name": "Argentum - Testnet",
+        "testnet": true,
+        "port": 13555,
+        "port_rpc": 13556,
+        "protocol": {
+            "magic": "0xfcc1b7dc"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 88,
+            "scripthash": 188,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "6bee778b0f99ee7a02635bc7de7d2c28f8a844f8c3aa01cb19b02adb9a169461",
+        "message_magic": "\u0019Argentum Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "ARG",
+        "name": "Argentum - Regtest",
+        "testnet": true,
+        "port": 18445,
+        "port_rpc": 18335,
+        "protocol": {
+            "magic": "0xfabfb5db"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+            "bip32": {
+                "public": "0x043587cf",
+                "private": "0x04358394"
+            },
+            "bech32": null,
+            "bip44": 1
+        },
+        "hash_genesis_block": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",
+        "message_magic": "\u0019Argentum Signed Message:\n",
+        "decimals": 8
+    }
+}
