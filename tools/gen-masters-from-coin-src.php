@@ -1035,16 +1035,16 @@ function process_oldcode_keys(&$data, $meta) {
 
     if( $network == 'main') {
         if(preg_match('/PRIVKEY_ADDRESS = (\d+)/', $buf, $matches)) {
-            $data[$network]['prefixes']['public'] = i($matches[1]);
+            $data[$network]['prefixes']['private'] = i($matches[1]);
         }
     }
     else {
         if( preg_match('/PRIVKEY_ADDRESS_TEST = (\d+)/', $buf, $matches) ) {
-            $data[$network]['prefixes']['public'] = i($matches[1]);
+            $data[$network]['prefixes']['private'] = i($matches[1]);
         }
     }
 
-    if( @$data[$network]['prefixes']['public'] ) {
+    if( @$data[$network]['prefixes']['private'] ) {
         
     }
     else if( preg_match('/SetData\(fTestNet \? (\d+) : (\d+),/', $buf, $matches) ) {
