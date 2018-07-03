@@ -1,8 +1,10 @@
 # coinparams
 
 This project provides crypto currency specific information such
-as key prefixes, DNS seeds, network ports, etc. Data is available in JSON format
-and human readable tables.
+as key prefixes, DNS seeds, network ports, etc.
+
+Data is available in JSON format and human readable tables.  Language
+bindings are available for JS and PHP.
 
 It is intended for use as a quick reference or in any software that is working
 with multiple cryptocurrencies, no matter the programming language.
@@ -28,6 +30,22 @@ in [coinmeta.json](coins/meta/coinmeta.json).
 
 Just copy coinparams.json into your project and read it as you would
 read any JSON file.
+
+### JS
+
+First, install the package using npm:
+
+    npm install coinparams --save
+
+Then, require the package and use it like so:
+    
+    var coinparams = require('coinparams');
+
+    console.log(coinparams.get_coin('BTC'));
+    console.log(coinparams.get_coin_network('DASH', 'test'));
+    
+    // console.log(coinparams.get_all_coins());
+    // console.log(coinparams.get_raw_json());
 
 ### PHP
 
@@ -86,9 +104,9 @@ with check-masters-valid.php then submit a pull request for the script and
 the new coin.json file.
 
 If you wish to add new language bindings, please see the example under
-bindings/php and try to keep the api similar.  Also, please try to use no
-more than one file (eg for package manager) in the project root directory
-per language.
+bindings/php or bindings/js and try to keep the api similar.  Also, please try
+to use no more than one file (eg for package manager) in the project root
+directory per language.
 
 ### Pull Requests
 
@@ -103,7 +121,7 @@ pull request to be accepted.
 ## Todos
 
 * Add more coins.  esp top 20 by market cap.  many are non bitcoin codebase.
-* Add bindings for JS and other languages, to easily install and use the list as a class.
+* Add bindings for other languages, to easily install and use the list as a class.
 * add meta fields for hashing algorithm, POW, POS, mineable, etc...
 * add seed node list (maybe: btc mainnet has more than 1500)
 * Use a json5 parser when reading the individual JSON files for each coin.  This will allow comments to be used in them.
