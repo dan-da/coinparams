@@ -9,7 +9,7 @@ require_once __DIR__  . '/../vendor/autoload.php';
 define('EXCEPTION_CHAINPARAMS_NOTFOUND', 1001);
 
 //globals;
-$stop_on_main_validation_error = false;    // set to true to view exception details.
+$stop_on_main_validation_error = true;    // set to true to view exception details.
 $stop_on_test_validation_error = false;    // set to true to view exception details.
 $stop_on_regtest_validation_error = false;    // set to true to view exception details.
 $skip_existing_files = true;        // set to false to overwrite existing files.
@@ -718,7 +718,7 @@ function process_oldcode_hash_genesis_block(&$data, $meta) {
 }
 
 function process_oldcode_ports(&$data, $meta) {
-    $symbol = $meta['symbol'];
+    $symbol = strtolower($meta['symbol']);
     $urlbase = $meta['urlbase'];
     $network = $meta['network'];
 
@@ -726,6 +726,8 @@ function process_oldcode_ports(&$data, $meta) {
     $known = [
         'cure' => [ 'main' => ['port' => 9911, 'rpc' => 19911],
                     'test' => ['port' => 8600, 'rpc' => 18600] ],
+        'ifc'  => [ 'main' => ['port' => 9321, 'rpc' => 9322],
+                    'test' => ['port' => 19321, 'rpc' => 9322] ],  // testnet RPC is same as mainnet.
     ];
     if(@$known[$symbol]) {
         $data[$network]['port'] = $known[$symbol][$network]['port'];
@@ -1026,9 +1028,26 @@ function process_oldcode_keys(&$data, $meta) {
             SetData(fTestNet ? 239 : 128, vchSecret.begin(), vchSecret.size());
  *  Looks like, in ppc, xpm
             SetData(128 + (fTestNet ? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
+ *  In maxcoin.
+        PRIVKEY_ADDRESS = 128,
+        PRIVKEY_ADDRESS_TEST = 239, 
 */
 
-    if( preg_match('/SetData\(fTestNet \? (\d+) : (\d+),/', $buf, $matches) ) {
+    if( $network == 'main') {
+        if(preg_match('/PRIVKEY_ADDRESS = (\d+)/', $buf, $matches)) {
+            $data[$network]['prefixes']['public'] = i($matches[1]);
+        }
+    }
+    else {
+        if( preg_match('/PRIVKEY_ADDRESS_TEST = (\d+)/', $buf, $matches) ) {
+            $data[$network]['prefixes']['public'] = i($matches[1]);
+        }
+    }
+
+    if( @$data[$network]['prefixes']['public'] ) {
+        
+    }
+    else if( preg_match('/SetData\(fTestNet \? (\d+) : (\d+),/', $buf, $matches) ) {
         $val = $network == 'main' ? $matches[2] : $matches[1];
         $data[$network]['prefixes']['private'] = i($val);
     }
