@@ -38,6 +38,7 @@ the values from bitcoin are used.
 | ARB           | ARbit - Mainnet                    |     151 |     23 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
 | ARC           | Advanced Technology Coin - Mainnet |     176 |     23 |    8 | 0x0774a137  | 0x07e8f89c |       |        |
 | ARCO          | AquariusCoin - Mainnet             |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| ARG           | Argentum - Mainnet                 |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |    45 |        |
 | ASAFE2        | AllSafe - Mainnet                  |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | ATC           | Arbitracoin - Mainnet              |     155 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | AU            | AurumCoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -157,6 +158,7 @@ the values from bitcoin are used.
 | GBX           | GoByte - Mainnet                   |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |   176 |        |
 | GEERT         | GeertCoin - Mainnet                |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | GIN           | GINcoin - Mainnet                  |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| GLD           | GoldCoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | GLT           | GlobalToken - Mainnet              |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       | gt     |
 | GPL           | Gold Pressed Latinum - Mainnet     |     163 |     35 |  140 | 0x0488ade4  | 0x0488b21e |       |        |
 | GRC           | GridCoin - Mainnet                 |     190 |     62 |   85 | 0x0488ade4  | 0x0488b21e |    84 |        |
@@ -181,6 +183,7 @@ the values from bitcoin are used.
 | I0C           | I0Coin - Mainnet                   |     128 |    105 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | IBANK         | iBank - Mainnet                    |     138 |     10 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | ICON          | Iconic - Mainnet                   |     230 |    102 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| IFC           | Infinitecoin - Mainnet             |     230 |    102 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | IFLT          | InflationCoin - Mainnet            |     230 |    102 |    7 | 0x0488ade4  | 0x0488b21e |       |        |
 | IMS           | Independent Money System - Mainnet |     131 |      3 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | IMX           | Impact - Mainnet                   |     204 |     76 |  141 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -193,6 +196,7 @@ the values from bitcoin are used.
 | ITI           | iTicoin - Mainnet                  |     193 |     65 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
 | IXC           | Ixcoin - Mainnet                   |     128 |    138 |    5 | 0x0488ade4  | 0x0488b21e |    86 |        |
 | JIYO          | Jiyo - Mainnet                     |     212 |     43 |   12 | 0x0221312b  | 0x022d2533 |       |        |
+| KEK           | KekCoin - Mainnet                  |     133 |     45 |   88 | 0x0377eee1  | 0x0377d44d |       |        |
 | KMD           | Komodo - Mainnet                   |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |   141 |        |
 | KNC           | KingN Coin - Mainnet               |     173 |     45 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | KOBO          | Kobocoin - Mainnet                 |     163 |     35 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -212,12 +216,15 @@ the values from bitcoin are used.
 | MAGN          | Magnetcoin - Mainnet               |     179 |     51 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
 | MAO           | Mao Zedong - Mainnet               |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
 | MARX          | MarxCoin - Mainnet                 |     179 |     51 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAX           | MaxCoin - Mainnet                  |     128 |    110 |  112 | 0x0488ade4  | 0x0488b21e |       |        |
 | MAY           | Theresa May Coin - Mainnet         |     178 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAZA          | MAZA - Mainnet                     |     224 |     50 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
 | MCRN          | MACRON - Mainnet                   |     140 |     12 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | MEC           | Megacoin - Mainnet                 |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | MEDIC         | MedicCoin - Mainnet                |     153 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | MEME          | Memetic / PepeCoin - Mainnet       |     153 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | METAL         | MetalCoin - Mainnet                |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MINT          | Mintcoin - Mainnet                 |     179 |     51 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
 | MLM           | MktCoin - Mainnet                  |     238 |    110 |  115 | 0x04c6ade4  | 0x04c6b21e |       |        |
 | MNM           | Mineum - Mainnet                   |     179 |     51 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | MNX           | MinexCoin - Mainnet                |     128 |     75 |    5 | 0x0488ade4  | 0x0488b21e |   182 |        |
@@ -240,6 +247,7 @@ the values from bitcoin are used.
 | NVC           | Novacoin - Mainnet                 |     136 |      8 |   20 | 0x0488ade4  | 0x0488b21e |    50 |        |
 | NYC           | NewYorkCoin - Mainnet              |     188 |     60 |   22 | 0x0488ade4  | 0x0488b21e |   179 |        |
 | OCC           | Octoin Coin - Mainnet              |     128 |    115 |   83 | 0x0488ade4  | 0x0488b21e |       |        |
+| ODN           | Obsidian - Mainnet                 |       0 |     75 |  125 | 0x0488b2dd  | 0x0488c21e |   173 |        |
 | OK            | OKCash - Mainnet                   |     183 |     55 |   28 | 0x03cc1c73  | 0x03cc23d7 |    69 |        |
 | OMC           | Omicron - Mainnet                  |     143 |     15 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | ONION         | DeepOnion - Mainnet                |     159 |     31 |   78 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -302,6 +310,7 @@ the values from bitcoin are used.
 | SUPER         | SuperCoin - Mainnet                |     191 |     63 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
 | SWING         | Swing - Mainnet                    |     191 |     63 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
 | SXC           | Sexcoin - Mainnet                  |     190 |     62 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| SYS           | Syscoin - Mainnet                  |     128 |     63 |    5 | 0x0488ade4  | 0x0488b21e |    57 |        |
 | TAJ           | TajCoin - Mainnet                  |     111 |     65 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | TELL          | Tellurion - Mainnet                |     193 |     65 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
 | THC           | HempCoin - Mainnet                 |     168 |     40 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -352,6 +361,7 @@ the values from bitcoin are used.
 | XSN           | Stakenet - Mainnet                 |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
 | XSPEC         | Spectrecoin - Mainnet              |     179 |     63 |  136 | 0x2c51c15a  | 0x2c513bd7 |       |        |
 | XTO           | Tao - Mainnet                      |      76 |     66 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
+| XVG           | Verge - Mainnet                    |     158 |     30 |   33 | 0x0488ade4  | 0x0488b21e |    77 |        |
 | XWC           | WhiteCoin - Mainnet                |      74 |     73 |   87 | 0x048894ed  | 0x04887f1e |   155 |        |
 | XZC           | ZCoin - Mainnet                    |     210 |     82 |    7 | 0x0488ade4  | 0x0488b21e |   136 |        |
 | YTN           | YENTEN - Mainnet                   |     123 |     78 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
@@ -385,6 +395,7 @@ the values from bitcoin are used.
 | ARB    | ARbit - Testnet                    |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | ARC    | Advanced Technology Coin - Testnet |     239 |     83 |    9 | 0x09623a6f  | 0x097298bf |     1 |        |
 | ARCO   | AquariusCoin - Testnet             |     239 |      0 |    0 | 0x04358394  | 0x043587cf |     1 |        |
+| ARG    | Argentum - Testnet                 |     239 |     88 |  188 | 0x04358394  | 0x043587cf |     1 |        |
 | ASAFE2 | AllSafe - Testnet                  |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | ATC    | Arbitracoin - Testnet              |     239 |     83 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | AU     | AurumCoin - Testnet                |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
@@ -495,6 +506,7 @@ the values from bitcoin are used.
 | GBX    | GoByte - Testnet                   |     240 |    112 |   20 | 0x04358394  | 0x043587cf |     1 |        |
 | GEERT  | GeertCoin - Testnet                |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | GIN    | GINcoin - Testnet                  |     239 |    140 |   19 | 0x04358394  | 0x043587cf |     1 |        |
+| GLD    | GoldCoin - Testnet                 |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | GLT    | GlobalToken - Testnet              |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 | tg     |
 | GPL    | Gold Pressed Latinum - Testnet     |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | GRC    | GridCoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
@@ -518,6 +530,7 @@ the values from bitcoin are used.
 | I0C    | I0Coin - Testnet                   |     239 |    112 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | IBANK  | iBank - Testnet                    |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | ICON   | Iconic - Testnet                   |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
+| IFC    | Infinitecoin - Testnet             |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | IFLT   | InflationCoin - Testnet            |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | IMS    | Independent Money System - Testnet |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | IMX    | Impact - Testnet                   |     220 |     92 |  146 | 0x0488ade4  | 0x0488b21e |     1 |        |
@@ -529,6 +542,7 @@ the values from bitcoin are used.
 | ISL    | IslaCoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | ITI    | iTicoin - Testnet                  |     255 |    127 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | IXC    | Ixcoin - Testnet                   |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
+| KEK    | KekCoin - Testnet                  |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | KMD    | Komodo - Testnet                   |     128 |      0 |    5 | 0x04358394  | 0x043587cf |     1 |        |
 | KNC    | KingN Coin - Testnet               |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | KOBO   | Kobocoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
@@ -548,12 +562,15 @@ the values from bitcoin are used.
 | MAGN   | Magnetcoin - Testnet               |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MAO    | Mao Zedong - Testnet               |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MARX   | MarxCoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
+| MAX    | MaxCoin - Testnet                  |     239 |    127 |  130 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MAY    | Theresa May Coin - Testnet         |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
+| MAZA   | MAZA - Testnet                     |     239 |     88 |  188 | 0x04358394  | 0x043587cf |     1 |        |
 | MCRN   | MACRON - Testnet                   |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MEC    | Megacoin - Testnet                 |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | MEDIC  | MedicCoin - Testnet                |     239 |    127 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | MEME   | Memetic / PepeCoin - Testnet       |     239 |     55 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | METAL  | MetalCoin - Testnet                |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
+| MINT   | Mintcoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MLM    | MktCoin - Testnet                  |     238 |    110 |  115 | 0x04c6ade4  | 0x04c6b21e |     1 |        |
 | MNM    | Mineum - Testnet                   |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | MNX    | MinexCoin - Testnet                |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
@@ -574,6 +591,7 @@ the values from bitcoin are used.
 | NVC    | Novacoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | NYC    | NewYorkCoin - Testnet              |     241 |    113 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | OCC    | Octoin Coin - Testnet              |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
+| ODN    | Obsidian - Testnet                 |       0 |    115 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | OK     | OKCash - Testnet                   |     196 |     68 |   73 | 0x04341156  | 0x043418bb |     1 |        |
 | OMC    | Omicron - Testnet                  |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | ONION  | DeepOnion - Testnet                |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
@@ -674,6 +692,7 @@ the values from bitcoin are used.
 | XRE    | RevolverCoin - Testnet             |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | XSN    | Stakenet - Testnet                 |     239 |    140 |   19 | 0x04358394  | 0x043587cf |     1 |        |
 | XSPEC  | Spectrecoin - Testnet              |     255 |    127 |  196 | 0x76c1077a  | 0x76c0fdfb |     1 |        |
+| XVG    | Verge - Testnet                    |     243 |    115 |  198 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | XZC    | ZCoin - Testnet                    |     185 |     65 |  178 | 0x04358394  | 0x043587cf |     1 |        |
 | YTN    | YENTEN - Testnet                   |     240 |    112 |  197 | 0x04358394  | 0x043587cf |     1 |        |
 | ZCL    | ZClassic - Testnet                 |     239 |   7461 | 7354 | 0x04358394  | 0x043587cf |     1 |        |
@@ -692,6 +711,7 @@ the values from bitcoin are used.
 | $PAC   | PACcoin - Regtest                  |     239 |    120 |   14 | 0x04358394  | 0x043587cf |     1 |        |
 | ACC    | AdCoin - Regtest                   |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | ARC    | Advanced Technology Coin - Regtest |     239 |    140 |   19 | 0x04358394  | 0x043587cf |     1 |        |
+| ARG    | Argentum - Regtest                 |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | BCA    | Bitcoin Atom - Regtest             |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 | bcart  |
 | BCD    | Bitcoin Diamond - Regtest          |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | BCH    | Bitcoin Cash - Regtest             |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
@@ -718,6 +738,7 @@ the values from bitcoin are used.
 | GAME   | GameCredits - Regtest              |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | GBX    | GoByte - Regtest                   |     240 |    112 |   20 | 0x04358394  | 0x043587cf |     1 |        |
 | GIN    | GINcoin - Regtest                  |     239 |    140 |   19 | 0x04358394  | 0x043587cf |     1 |        |
+| GLD    | GoldCoin - Regtest                 |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | GLT    | GlobalToken - Regtest              |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 | gtrt   |
 | GRLC   | Garlicoin - Regtest                |     239 |    111 |   58 | 0x04358394  | 0x043587cf |     1 | rgrlc  |
 | GRS    | Groestlcoin - Regtest              |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 | bcrt   |
@@ -751,6 +772,7 @@ the values from bitcoin are used.
 | SMART  | SmartCash - Regtest                |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | SPK    | Sparks - Regtest                   |     240 |    112 |   20 | 0x04358394  | 0x043587cf |     1 |        |
 | STAK   | STRAKS - Regtest                   |     239 |    122 |  196 | 0x46002a10  | 0xa2aec9a6 |     1 |        |
+| SYS    | Syscoin - Regtest                  |     239 |     65 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | TRC    | Terracoin - Regtest                |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | UIS    | Unitus - Regtest                   |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | VIA    | Viacoin - Regtest                  |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |

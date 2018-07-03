@@ -1548,6 +1548,108 @@
             "decimals": 8
         }
     },
+    "ARG": {
+        "meta": {
+            "symbol": "ARG",
+            "name": "Argentum",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.argentum.io\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1432608.0",
+                "source_code": "https:\/\/github.com\/argentumproject\/argentum",
+                "explorers": [
+                    "https:\/\/chainz.cryptoid.info\/arg\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/argentum\/",
+                "message_board": [
+                    "https:\/\/cryptocointalk.com\/topic\/50052-argentum-arg\/"
+                ],
+                "chat": [
+                    "https:\/\/webchat.freenode.net\/?channels=#ARGCurrency"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "ARG",
+            "name": "Argentum - Mainnet",
+            "testnet": false,
+            "port": 13580,
+            "port_rpc": 13581,
+            "protocol": {
+                "magic": "0xfbc1b8dc"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 151,
+                "public": 23,
+                "scripthash": 5,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 45
+            },
+            "hash_genesis_block": "88c667bc63167685e4e4da058fffdfe8e007e5abffd6855de52ad59df7bb0bb2",
+            "message_magic": "\u0019Argentum Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "ARG",
+            "name": "Argentum - Testnet",
+            "testnet": true,
+            "port": 13555,
+            "port_rpc": 13556,
+            "protocol": {
+                "magic": "0xfcc1b7dc"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 239,
+                "public": 88,
+                "scripthash": 188,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "6bee778b0f99ee7a02635bc7de7d2c28f8a844f8c3aa01cb19b02adb9a169461",
+            "message_magic": "\u0019Argentum Signed Message:\n",
+            "decimals": 8
+        },
+        "regtest": {
+            "symbol": "ARG",
+            "name": "Argentum - Regtest",
+            "testnet": true,
+            "port": 18445,
+            "port_rpc": 18335,
+            "protocol": {
+                "magic": "0xfabfb5db"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 239,
+                "public": 111,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c",
+            "message_magic": "\u0019Argentum Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "ASAFE2": {
         "meta": {
             "symbol": "ASAFE2",
@@ -11498,6 +11600,118 @@
             "decimals": 8
         }
     },
+    "GLD": {
+        "meta": {
+            "symbol": "GLD",
+            "name": "GoldCoin",
+            "supply": {
+                "max": "72245700"
+            },
+            "web": {
+                "websites": [
+                    "https:\/\/www.goldcoin.org\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=317568",
+                "source_code": "https:\/\/github.com\/goldcoin\/goldcoin",
+                "explorers": [
+                    "https:\/\/chainz.cryptoid.info\/gld\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/goldcoin\/",
+                "message_board": [
+                    "https:\/\/www.goldcointalk.org"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/goldcoin"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "GLD",
+            "name": "GoldCoin - Mainnet",
+            "testnet": false,
+            "port": 9333,
+            "port_rpc": 9332,
+            "protocol": {
+                "magic": "0xfbc0b6db"
+            },
+            "seeds_dns": [
+                "seed-a.litecoin.loshan.co.uk",
+                "dnsseed.thrasher.io",
+                "dnsseed.litecointools.com",
+                "dnsseed.litecoinpool.org",
+                "dnsseed.koin-project.com"
+            ],
+            "prefixes": {
+                "private": 176,
+                "public": 48,
+                "scripthash": 5,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+            "message_magic": "\u0019Litecoin Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "GLD",
+            "name": "GoldCoin - Testnet",
+            "testnet": true,
+            "port": 19335,
+            "port_rpc": 19332,
+            "protocol": {
+                "magic": "0xfdd2c8f1"
+            },
+            "seeds_dns": [
+                "testnet-seed.litecointools.com",
+                "seed-b.litecoin.loshan.co.uk",
+                "dnsseed-testnet.thrasher.io"
+            ],
+            "prefixes": {
+                "private": 239,
+                "public": 111,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0",
+            "message_magic": "\u0019Litecoin Signed Message:\n",
+            "decimals": 8
+        },
+        "regtest": {
+            "symbol": "GLD",
+            "name": "GoldCoin - Regtest",
+            "testnet": true,
+            "port": 19444,
+            "port_rpc": 19332,
+            "protocol": {
+                "magic": "0xfabfb5da"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 239,
+                "public": 111,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9",
+            "message_magic": "\u0019Litecoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "GLT": {
         "meta": {
             "symbol": "GLT",
@@ -13493,6 +13707,83 @@
             "decimals": 8
         }
     },
+    "IFC": {
+        "meta": {
+            "symbol": "IFC",
+            "name": "Infinitecoin",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.infiniteco.in"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=356065.0",
+                "source_code": "https:\/\/github.com\/infinitecoin\/infinitecoin",
+                "explorers": [
+                    "https:\/\/chainz.cryptoid.info\/ifc\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/infinitecoin\/",
+                "message_board": [],
+                "chat": []
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "IFC",
+            "name": "Infinitecoin - Mainnet",
+            "testnet": false,
+            "port": 9321,
+            "port_rpc": 9322,
+            "protocol": {
+                "magic": "0xfbc0b6db"
+            },
+            "seeds_dns": [
+                "dnsseed.infinitecoinpool.org",
+                "dnsseed.bytesized-vps.com",
+                "dnsseed.ltc.xurious.com"
+            ],
+            "prefixes": {
+                "public": 102,
+                "scripthash": 5,
+                "private": 230,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "b10d5e83a5b2e62d9d872096bc20cae1a276ae6aacc02a71a5832b1fc9aeff85",
+            "message_magic": "\u001dInfinitecoin Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "IFC",
+            "name": "Infinitecoin - Testnet",
+            "testnet": true,
+            "port": 19321,
+            "port_rpc": 9322,
+            "protocol": {
+                "magic": "0xfcc1b7dc"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "0x47cfc1ea5d27a873dcc90fa8befc9378dbc793ca68dd608d4f6aa123437701ba",
+            "message_magic": "\u001dInfinitecoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "IFLT": {
         "meta": {
             "symbol": "IFLT",
@@ -14514,6 +14805,81 @@
             },
             "hash_genesis_block": "0000066e30a469e6a4a3fc73ffa500ba19d852e57e36e70dbb03d47fb865538d",
             "message_magic": "\u0018DarkNet Signed Message:\n",
+            "decimals": 8
+        }
+    },
+    "KEK": {
+        "meta": {
+            "symbol": "KEK",
+            "name": "KekCoin",
+            "supply": {
+                "max": "21000000"
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/kekcoin.co\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2026344.0",
+                "source_code": "https:\/\/github.com\/Kekcoin-Core\/kekcoin-segwit",
+                "explorers": [
+                    "http:\/\/explorer.kekcoin.co\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/kekcoin\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/t.me\/KekcoinOfficial"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "KEK",
+            "name": "KekCoin - Mainnet",
+            "testnet": false,
+            "port": 13337,
+            "port_rpc": 13377,
+            "protocol": {
+                "magic": "0x11223344"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 133,
+                "public": 45,
+                "scripthash": 88,
+                "bip32": {
+                    "public": "0x0377d44d",
+                    "private": "0x0377eee1"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "0000091bc0f9d1578c7979142b2ff70e6bf8ff7c388cf3dcb486cf19a7518949",
+            "message_magic": "\u0018Kekcoin Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "KEK",
+            "name": "KekCoin - Testnet",
+            "testnet": true,
+            "port": 13777,
+            "port_rpc": 11337,
+            "protocol": {
+                "magic": "0x55667788"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 239,
+                "public": 111,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "0000c7b67a057053c5043fad3ae7896f3d3172361ba4a850abb24f6dd80df5dc",
+            "message_magic": "\u0018Kekcoin Signed Message:\n",
             "decimals": 8
         }
     },
@@ -16183,6 +16549,83 @@
             "decimals": 8
         }
     },
+    "MAX": {
+        "meta": {
+            "symbol": "MAX",
+            "name": "MaxCoin",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "https:\/\/www.maxcoinproject.org\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=438150.0",
+                "source_code": "https:\/\/github.com\/Max-Coin\/maxcoin",
+                "explorers": [
+                    "https:\/\/explorer.maxcoinproject.net",
+                    "https:\/\/explorer2.maxcoinproject.net"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/maxcoin\/",
+                "message_board": [],
+                "chat": []
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "MAX",
+            "name": "MaxCoin - Mainnet",
+            "testnet": false,
+            "port": 8668,
+            "port_rpc": 8669,
+            "protocol": {
+                "magic": "0xf9bebbd2"
+            },
+            "seeds_dns": [
+                "a.seed.maxcoinproject.net",
+                "b.seed.maxcoinproject.net"
+            ],
+            "prefixes": {
+                "public": 110,
+                "scripthash": 112,
+                "private": 128,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "0000002d0f86558a6e737a3a351043ee73906fe077692dfaa3c9328aaca21964",
+            "message_magic": "\u0018MaxCoin Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "MAX",
+            "name": "MaxCoin - Testnet",
+            "testnet": true,
+            "port": 18668,
+            "port_rpc": 18669,
+            "protocol": {
+                "magic": "0x0b11bb07"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 127,
+                "scripthash": 130,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "0x0000000a23e3eb42dc87b61d4015c80ffd85471d34e2c7210c7ca63b78a58612",
+            "message_magic": "\u0018MaxCoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "MAY": {
         "meta": {
             "symbol": "MAY",
@@ -16253,6 +16696,86 @@
             },
             "hash_genesis_block": "0000056b82939ea6dbaa22632c4ff5324f2b2c574286af11a380bdb40eda62d",
             "message_magic": "\u001bTheresaMay Signed Message:\n",
+            "decimals": 8
+        }
+    },
+    "MAZA": {
+        "meta": {
+            "symbol": "MAZA",
+            "name": "MAZA",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.mazacoin.org\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=508849.0",
+                "source_code": "https:\/\/github.com\/MazaCoin\/maza",
+                "explorers": [
+                    "https:\/\/mazacha.in\/",
+                    "https:\/\/explorer.coinpayments.net\/index.php?chain=11"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mazacoin\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/kiwiirc.com\/client\/chat.freenode.net\/?nick=maza|?&amp;theme=cli#maza"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "MAZA",
+            "name": "MAZA - Mainnet",
+            "testnet": false,
+            "port": 12835,
+            "port_rpc": 12832,
+            "protocol": {
+                "magic": "0xf8b503df"
+            },
+            "seeds_dns": [
+                "node.mazacoin.org"
+            ],
+            "prefixes": {
+                "private": 224,
+                "public": 50,
+                "scripthash": 9,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "00000c7c73d8ce604178dae13f0fc6ec0be3275614366d44b1b4b5c6e238c60c",
+            "message_magic": "\u0015Maza Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "MAZA",
+            "name": "MAZA - Testnet",
+            "testnet": true,
+            "port": 11835,
+            "port_rpc": 11832,
+            "protocol": {
+                "magic": "0x05fea901"
+            },
+            "seeds_dns": [
+                "mazatest.cryptoadhd.com"
+            ],
+            "prefixes": {
+                "private": 239,
+                "public": 88,
+                "scripthash": 188,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "000003ae7f631de18a457fa4fa078e6fa8aff38e258458f8189810de5d62cede",
+            "message_magic": "\u0015Maza Signed Message:\n",
             "decimals": 8
         }
     },
@@ -16637,6 +17160,86 @@
             "hash_genesis_block": "00004058932bc1698ce2d0cb1446d5bbf59414fa2d9e0d51f44007a229292510",
             "message_magic": "\u001aMetalCoin Signed Message:\n",
             "decimals": 8
+        }
+    },
+    "MINT": {
+        "meta": {
+            "symbol": "MINT",
+            "name": "Mintcoin",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.mintcoinofficial.com"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=450381.0",
+                "source_code": "https:\/\/github.com\/MintcoinCommunity\/Mintcoin-Desktop-Wallet",
+                "explorers": [
+                    "https:\/\/prohashing.com\/explorer\/Mintcoin\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/mintcoin\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/discord.gg\/qpGs76t",
+                    "https:\/\/t.me\/joinchat\/AYSXZBGdWRH6jeIX_EJijg"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "MINT",
+            "name": "Mintcoin - Mainnet",
+            "testnet": false,
+            "port": 12788,
+            "port_rpc": 12789,
+            "protocol": {
+                "magic": "0xced5dbfa"
+            },
+            "seeds_dns": [
+                "seed.mintcoinofficial.com",
+                "mintseed.mintcoinfund.org",
+                "mintseed.keremhd.name.tr"
+            ],
+            "prefixes": {
+                "public": 51,
+                "scripthash": 8,
+                "private": 179,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": null
+            },
+            "hash_genesis_block": "af4ac34e7ef10a08fe2ba692eb9a9c08cf7e89fcf352f9ea6f0fd73ba3e5d03c",
+            "message_magic": "\u0019MintCoin Signed Message:\n",
+            "decimals": 6
+        },
+        "test": {
+            "symbol": "MINT",
+            "name": "Mintcoin - Testnet",
+            "testnet": true,
+            "port": 22788,
+            "port_rpc": 22789,
+            "protocol": {
+                "magic": "0xcdf2c0ef"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 111,
+                "scripthash": 196,
+                "private": 239,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "af4ac34e7ef10a08fe2ba692eb9a9c08cf7e89fcf352f9ea6f0fd73ba3e5d03c",
+            "message_magic": "\u0019MintCoin Signed Message:\n",
+            "decimals": 6
         }
     },
     "MLM": {
@@ -18524,6 +19127,88 @@
             },
             "hash_genesis_block": "3810e25d0f33fe8fcef2a49610d49543932f63036c11e0e2be30a870159fa9b",
             "message_magic": "\u001bOctoinCoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
+    "ODN": {
+        "meta": {
+            "symbol": "ODN",
+            "name": "Obsidian",
+            "supply": {
+                "max": null
+            },
+            "web": {
+                "websites": [
+                    "https:\/\/obsidianplatform.com"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2004871.0",
+                "source_code": "https:\/\/github.com\/obsidianproject\/Obsidian-Qt",
+                "explorers": [
+                    "https:\/\/blockexplorer.obsidianplatform.com\/",
+                    "https:\/\/xxl.obsidianplatform.com\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/obsidian\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/discordapp.com\/invite\/BwDcpZy"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "ODN",
+            "name": "Obsidian - Mainnet",
+            "testnet": false,
+            "port": 56660,
+            "port_rpc": 56661,
+            "protocol": {
+                "magic": "0x4f646e31"
+            },
+            "seeds_dns": [
+                "obsidianblockchain1.westeurope.cloudapp.azure.com",
+                "obsidianblockchain2.westeurope.cloudapp.azure.com",
+                "obsidianseednode1.westeurope.cloudapp.azure.com",
+                "seed1.obsidianplatform.com",
+                "seed2.obsidianplatform.com"
+            ],
+            "prefixes": {
+                "private": 0,
+                "public": 75,
+                "scripthash": 125,
+                "bip32": {
+                    "public": "0x0488c21e",
+                    "private": "0x0488b2dd"
+                },
+                "bech32": null,
+                "bip44": 173
+            },
+            "hash_genesis_block": "0000006dd8a92f58e952fa61c9402b74a381a69d1930fb5cc12c73273fab5f0a",
+            "message_magic": "\u0019Obsidian Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "ODN",
+            "name": "Obsidian - Testnet",
+            "testnet": true,
+            "port": 26178,
+            "port_rpc": 26174,
+            "protocol": {
+                "magic": "0x71312111"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 0,
+                "public": 115,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "00000022fa47e5dcb5f9279a8e8631bf42da1f0b7076b9e8e6206549c82d5a44",
+            "message_magic": "\u0019Obsidian Signed Message:\n",
             "decimals": 8
         }
     },
@@ -23579,6 +24264,86 @@
             "decimals": 8
         }
     },
+    "SYS": {
+        "meta": {
+            "symbol": "SYS",
+            "name": "Syscoin",
+            "supply": {
+                "max": "888000000"
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/syscoin.org"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1466445.0",
+                "source_code": "https:\/\/github.com\/syscoin\/syscoin",
+                "explorers": [
+                    "https:\/\/chainz.cryptoid.info\/sys\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/syscoin\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/t.me\/joinchat\/AAAAAEHzByog3h1qutnjhQ"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "SYS",
+            "name": "Syscoin - Mainnet",
+            "testnet": false,
+            "port": 8369,
+            "port_rpc": 8370,
+            "protocol": {
+                "magic": "0xf9beb4d9"
+            },
+            "seeds_dns": [
+                "seed1.syscoin.org",
+                "seed2.syscoin.org",
+                "seed3.syscoin.org",
+                "seed4.syscoin.org"
+            ],
+            "prefixes": {
+                "private": 128,
+                "public": 63,
+                "scripthash": 5,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 57
+            },
+            "hash_genesis_block": "000006e5c08d6d2414435b294210266753b05a75f90e926dd5e6082306812622",
+            "message_magic": "\u0018Syscoin Signed Message:\n",
+            "decimals": 8
+        },
+        "regtest": {
+            "symbol": "SYS",
+            "name": "Syscoin - Regtest",
+            "testnet": true,
+            "port": 18369,
+            "port_rpc": 18370,
+            "protocol": {
+                "magic": "0xfabfb5da"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 239,
+                "public": 65,
+                "scripthash": 196,
+                "bip32": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "0000140aa52b536eed2f54cb9590a959672c131bb5de1d934024d6c25c64df4f",
+            "message_magic": "\u0018Syscoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "TAJ": {
         "meta": {
             "symbol": "TAJ",
@@ -27636,6 +28401,82 @@
             "hash_genesis_block": "0000c1c4b036f822bd91dc2006b5575b9c3617903925b8e738803e094cd23f20",
             "message_magic": "\u0014Tao Signed Message:\n",
             "decimals": 8
+        }
+    },
+    "XVG": {
+        "meta": {
+            "symbol": "XVG",
+            "name": "Verge",
+            "supply": {
+                "max": "16555000000"
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/vergecurrency.com\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1365894.0",
+                "source_code": "https:\/\/github.com\/vergecurrency\/VERGE",
+                "explorers": [
+                    "https:\/\/verge-blockchain.info\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/verge\/",
+                "message_board": [],
+                "chat": [
+                    "https:\/\/t.me\/VERGExvg",
+                    "https:\/\/discord.gg\/vergecurrency"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "XVG",
+            "name": "Verge - Mainnet",
+            "testnet": false,
+            "port": 21102,
+            "port_rpc": 20102,
+            "protocol": {
+                "magic": "0xf7a77eff"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 30,
+                "scripthash": 33,
+                "private": 158,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 77
+            },
+            "hash_genesis_block": "00000fc63692467faeb20cdb3b53200dc601d75bdfa1001463304cc790d77278",
+            "message_magic": "\u0016VERGE Signed Message:\n",
+            "decimals": 6
+        },
+        "test": {
+            "symbol": "XVG",
+            "name": "Verge - Testnet",
+            "testnet": true,
+            "port": 29102,
+            "port_rpc": 21102,
+            "protocol": {
+                "magic": "0xcdf2c0ef"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 115,
+                "scripthash": 198,
+                "private": 243,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 1
+            },
+            "hash_genesis_block": "65b4e101cacf3e1e4f3a9237e3a74ffd1186e595d8b78fa8ea22c21ef5bf9347",
+            "message_magic": "\u0016VERGE Signed Message:\n",
+            "decimals": 6
         }
     },
     "XWC": {
