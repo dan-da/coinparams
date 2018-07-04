@@ -27,7 +27,7 @@
     },
     "main": {
         "symbol": "XMR",
-        "name": "Monero",
+        "name": "Monero - Mainnet",
         "testnet": false,
         "protocol": {
             "magic": ""

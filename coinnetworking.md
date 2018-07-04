@@ -23,364 +23,364 @@ https://github.com/dan-da/coinparams
 
 ## Mainnet
 
-| Symbol        | Name                               | P2P Port | RPC Port | DNS Seeds | P2P Magic  | Message Magic                               |
-|---------------|------------------------------------|----------|----------|-----------|------------|---------------------------------------------|
-| $PAC          | PACcoin - Mainnet                  |     7112 |     7111 |         4 | 0xc8e5612c | "\u0019DarkCoin Signed Message:\n"          |
-|          1337 | Elite - Mainnet                    |    13373 |    13372 |         4 | 0x5ac382d3 | "\u00151337 Signed Message:\n"              |
-|            42 | 42-coin - Mainnet                  |     4242 |     2121 |         0 | 0x1d05140b | "\u001342 Signed Message:\n"                |
-| ABJC          | Abjcoin Commerce - Mainnet         |    69082 |    69082 |         0 | 0x325e6f86 | " AbjcoinCommerce Signed Message:\n"        |
-| ACC           | AdCoin - Mainnet                   |    19499 |    19500 |         2 | 0x3d053577 | "\u0017AdCoin Signed Message:\n"            |
-| ACES          | Aces - Mainnet                     |    21274 |    21273 |         0 | 0x70352205 | "\u0019AcesCoin Signed Message:\n"          |
-| ACP           | AnarchistsPrime - Mainnet          |    11050 |    21050 |         1 | 0xf9beb4d9 | " AnarchistsPrime Signed Message:\n"        |
-| ADC           | AudioCoin - Mainnet                |    25159 |    26159 |         1 | 0xfaf4fbff | "\u001aBlackCoin Signed Message:\n"         |
-| ADZ           | Adzcoin - Mainnet                  |    43029 |    43028 |         2 | 0xfdc3b9de | "\u0018AdzCoin Signed Message:\n"           |
-| AIB           | Advanced Internet Blocks - Mainnet |     5223 |        0 |         3 | 0x0f68c6cb | "\u0014Aib Signed Message:\n"               |
-| ALL           | Allion - Mainnet                   |    12916 |    11916 |        14 | 0xa4a6fd05 | "\u001dTrollPayCoin Signed Message:\n"      |
-| ALQO          | ALQO - Mainnet                     |    55500 |    55000 |         2 | 0x94041514 | "\u0015ALQO Signed Message:\n"              |
-| AMMO          | Ammo Reloaded - Mainnet            |    21582 |    21583 |         1 | 0xc3c5a2a3 | "\u0015Ammo Signed Message:\n"              |
-| AMS           | AmsterdamCoin - Mainnet            |    50020 |    51020 |         6 | 0x002200aa | "\u0018DarkNet Signed Message:\n"           |
-| ANI           | Animecoin - Mainnet                |     1212 |     2121 |         0 | 0x414e494d | "\u001aAnimecoin Signed Message:\n"         |
-| ANTX          | Antimatter - Mainnet               |    18595 |    18596 |         0 | 0xad61f3ce | "\u001bAntimatter Signed Message:\n"        |
-| APR           | APR Coin - Mainnet                 |     3133 |     3132 |         0 | 0xa4ec922e | "\u0018DarkNet Signed Message:\n"           |
-| ARB           | ARbit - Mainnet                    |    31930 |    31931 |         0 | 0xe3a77c0e | "\u0016ARbit Signed Message:\n"             |
-| ARC           | Advanced Technology Coin - Mainnet |     7209 |     7208 |         0 | 0x3dd22861 | "\u0019DarkCoin Signed Message:\n"          |
-| ARCO          | AquariusCoin - Mainnet             |     6205 |     6206 |        10 | 0x933064c7 | "\u001dAquariusCoin Signed Message:\n"      |
-| ARG           | Argentum - Mainnet                 |    13580 |    13581 |         0 | 0xfbc1b8dc | "\u0019Argentum Signed Message:\n"          |
-| ASAFE2        | AllSafe - Mainnet                  |    30234 |    30244 |         0 | 0x325e6f86 | "\u0019Allsafe2 Signed Message:\n"          |
-| ATC           | Arbitracoin - Mainnet              |    32540 |    32640 |         0 | 0xec221025 | "\u0018Arbitra Signed Message:\n"           |
-| AU            | AurumCoin - Mainnet                |    11080 |    21080 |         0 | 0xf9beb4d9 | "\u0016Aurum Signed Message:\n"             |
-| AUR           | Auroracoin - Mainnet               |    12340 |    12341 |         8 | 0xfda4dc6c | "\u001bAuroracoin Signed Message:\n"        |
-| AV            | AvatarCoin - Mainnet               |     9712 |     9711 |         2 | 0xb23bf8a6 | "\u001bAvatarcoin Signed Message:\n"        |
-| AXIOM         | Axiom - Mainnet                    |    15760 |    15770 |         1 | 0x033f1a0c | "\u0016Axiom Signed Message:\n"             |
-| BAY           | BitBay - Mainnet                   |    19914 |    19915 |         0 | 0x70352205 | "\u0017BitBay Signed Message:\n"            |
-| BCA           | Bitcoin Atom - Mainnet             |     7333 |     7332 |         3 | 0x4fc11de8 | "\u0018Bitcoin Signed Message:\n"           |
-| BCC           | BitConnect - Mainnet               |     9239 |     9240 |         0 | 0x325e6f86 | "\u001bbitconnect Signed Message:\n"        |
-| BCD           | Bitcoin Diamond - Mainnet          |     7117 |     7116 |         6 | 0xbddeb4d9 | " Bitcoin Diamond Signed Message:\n"        |
-| BCF           | Bitcoin Fast - Mainnet             |    25671 |    25672 |         1 | 0xcefbfadb | "\u001cBitcoinFast Signed Message:\n"       |
-| BCH           | Bitcoin Cash - Mainnet             |     8333 |     8332 |         6 | 0xe3e1f3e8 | "\u0018Bitcoin Signed Message:\n"           |
-| BCI           | Bitcoin Interest - Mainnet         |     8331 |     8332 |         3 | 0xede4fe26 | "!Bitcoin Interest Signed Message:\n"       |
-| BCO           | BridgeCoin - Mainnet               |     6333 |     6332 |         3 | 0xfbc0b6db | "\u001bbridgecoin Signed Message:\n"        |
-| BENJI         | BenjiRolls - Mainnet               |     1777 |     1776 |         0 | 0xfbc0b6db | "\u001bBENJIROLLS Signed Message:\n"        |
-| BERN          | BERNcash - Mainnet                 |    32020 |    32016 |        27 | 0x09111620 | "\u0015BERN Signed Message:\n"              |
-| BIO           | BioCoin - Mainnet                  |    24885 |    24889 |         5 | 0xb4f9e1a5 | "\u0018BioCoin Signed Message:\n"           |
-| BIOB          | BioBar - Mainnet                   |    37257 |    37258 |         0 | 0xa4d2f8a6 | "\u0017BioBar Signed Message:\n"            |
-| BIRDS         | Birds - Mainnet                    |    20013 |    20014 |         0 | 0x17f7fedf | "\u0016BIRDS Signed Message:\n"             |
-| BITG          | Bitcoin Green - Mainnet            |     9333 |     9332 |         3 | 0x54dc12ae | "\u0018DarkNet Signed Message:\n"           |
-| BITOK         | Bitok - Mainnet                    |    11122 |    11100 |         0 | 0xbca3fb5c | "\u0016BitOK Signed Message:\n"             |
-| BITS          | Bitstar - Mainnet                  |    62123 |    62124 |         4 | 0xcef1dbfa | "\u0018Bitstar Signed Message:\n"           |
-| BLAZR         | BlazerCoin - Mainnet               |     8213 |     8212 |         0 | 0xfbc0b6db | "\u001bBlazerCoin Signed Message:\n"        |
-| BLK           | BlackCoin - Mainnet                |    15714 |    15715 |         1 | 0x70352205 | "\u001aBlackCoin Signed Message:\n"         |
-| BLOCK         | Blocknet - Mainnet                 |    41412 |    41414 |         0 | 0xa1a0a2a3 | "\u0018DarkNet Signed Message:\n"           |
-| BLU           | BlueCoin - Mainnet                 |    27104 |    27105 |         0 | 0xf3f2aead | "\u0019Bluecoin Signed Message:\n"          |
-| BOAT          | BOAT - Mainnet                     |    33827 |    33828 |         4 | 0x1c3b1aa3 | "\u0019Doubloon Signed Message:\n"          |
-| BOLI          | Bolivarcoin - Mainnet              |     3893 |     3563 |         0 | 0xfdc3b9de | "\u001cBolivarcoin Signed Message:\n"       |
-| BRO           | Bitradio - Mainnet                 |    32454 |    32455 |         3 | 0xd31a3de4 | "\u0019Bitradio Signed Message:\n"          |
-| BSC           | BowsCoin - Mainnet                 |     8155 |     8145 |         0 | 0xffc4badf | "\u0019bowscoin Signed Message:\n"          |
-| BSD           | BitSend - Mainnet                  |     8886 |     8800 |         0 | 0xa3d5c2f9 | "\u0018Bitsend Signed Message:\n"           |
-| BSR           | BitSoar - Mainnet                  |    40119 |    50119 |         0 | 0x53746942 | "\u0018BitSoar Signed Message:\n"           |
-| BSTY          | GlobalBoost-Y - Mainnet            |     8226 |     8225 |         2 | 0xa2b2e2f2 | "\u001cGlobalboost Signed Message:\n"       |
-| BTA           | Bata - Mainnet                     |     5784 |     5493 |         2 | 0x34c3afeb | "\u0015Bata Signed Message:\n"              |
-| BTB           | BitBar - Mainnet                   |     8777 |     9344 |         1 | 0xe4e8e9e5 | "\u0017BitBar Signed Message:\n"            |
-| BTC           | Bitcoin - Mainnet                  |     8333 |     8332 |         7 | 0xf9beb4d9 | "\u0018Bitcoin Signed Message:\n"           |
-| BTCD          | BitcoinDark - Mainnet              |    14631 |    14632 |         0 | 0xa4a2d8e7 | "\u001cBitcoinDark Signed Message:\n"       |
-| BTCP          | Bitcoin Private - Mainnet          |     7933 |     7932 |         2 | 0xa8eaa2cd | "\u001fBitcoinPrivate Signed Message:\n"    |
-| BTCR          | Bitcurrency - Mainnet              |    15814 |    15815 |         3 | 0x70421309 | "\u001cBitCurrency Signed Message:\n"       |
-| BTCZ          | BitcoinZ - Mainnet                 |     1989 |     1979 |         6 | 0x24e92764 | "\u0019BitcoinZ Signed Message:\n"          |
-| BTDX          | Bitcloud - Mainnet                 |     8329 |     8330 |         0 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
-| BTG           | Bitgem - Mainnet                   |     8338 |     8332 |         3 | 0xe1476d44 | "\u001dBitcoin Gold Signed Message:\n"      |
-| BTX           | Bitcore - Mainnet                  |     8555 |     8556 |         0 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
-| BUB           | Bubble - Mainnet                   |    15716 |    15719 |         0 | 0xcd2119dd | "\u0017Bubble Signed Message:\n"            |
-| BUMBA         | BumbaCoin - Mainnet                |    20222 |    10111 |         0 | 0xb1c0d2e3 | "\u001bbumbacoin2 Signed Message:\n"        |
-| BUZZ          | BuzzCoin - Mainnet                 |    25128 |    25129 |         0 | 0x07358205 | "\u0019BuzzCoin Signed Message:\n"          |
-| BWK           | Bulwark - Mainnet                  |    52543 |    52541 |        11 | 0x08020117 | "\u0018DarkNet Signed Message:\n"           |
-| CANN          | CannabisCoin - Mainnet             |    39348 |    39347 |         2 | 0xfec3b9de | "\u001dCannabisCoin Signed Message:\n"      |
-| CARBON        | Carboncoin - Mainnet               |     9350 |     9351 |         2 | 0xabccbbdf | "\u001bCarboncoin Signed Message:\n"        |
-| CAT           | Catcoin - Mainnet                  |     9933 |     9932 |         2 | 0xfcc1b7dc | "\u0018Catcoin Signed Message:\n"           |
-| CAZ           | Cazcoin - Mainnet                  |    17350 |    17358 |         4 | 0x3da232b4 | "\u0018DarkNet Signed Message:\n"           |
-| CBX           | Bullion - Mainnet                  |     7695 |     8395 |         1 | 0xe4e8e9e5 | "\u0018Bullion Signed Message:\n"           |
-| CHAN          | ChanCoin - Mainnet                 |    19117 |    19118 |         5 | 0x0f9154f8 | "\u0019Chancoin Signed Message:\n"          |
-| CHEAP         | Cheapcoin - Mainnet                |    36648 |    36645 |         0 | 0xf32da571 | "\u001acheapcoin Signed Message:\n"         |
-| CHESS         | ChessCoin - Mainnet                |     7323 |     7324 |         1 | 0xde3aae3c | "\u001aChessCoin Signed Message:\n"         |
-| CHIPS         | CHIPS - Mainnet                    |    57777 |    57776 |         6 | 0xffeeddcc | "\u0018Bitcoin Signed Message:\n"           |
-| CJ            | Cryptojacks - Mainnet              |    33433 |    33533 |         7 | 0x5ac382d3 | "\u001cCryptoJacks Signed Message:\n"       |
-| CLAM          | Clams - Mainnet                    |    31174 |    30174 |         1 | 0x03223515 | "\u0015Clam Signed Message:\n"              |
-| CLUB          | ClubCoin - Mainnet                 |    18114 |    19114 |         5 | 0x70354205 | "\u0019ClubCoin Signed Message:\n"          |
-| CMPCO         | CampusCoin - Mainnet               |    28195 |    28199 |         0 | 0xd7cfa4e6 | "\u001bCampusCoin Signed Message:\n"        |
-| CNNC          | Cannation - Mainnet                |    12367 |    12368 |         0 | 0x52568b9e | "\u001acannation Signed Message:\n"         |
-| CNX           | Cryptonex - Mainnet                |    20863 |    20864 |         7 | 0x18e482a0 | "\u001aCryptonex Signed Message:\n"         |
-| COLX          | ColossusXT - Mainnet               |    51572 |    51473 |         3 | 0x91c5feea | "\u0018DarkNet Signed Message:\n"           |
-| CON           | PayCon - Mainnet                   |     9455 |     9456 |         2 | 0x4b3c3b2d | "\u0017PayCon Signed Message:\n"            |
-| CPC           | Capricoin - Mainnet                |    22714 |    22713 |        12 | 0xa1a0a2a3 | "\u001aCapricoin Signed Message:\n"         |
-| CRAVE         | Crave - Mainnet                    |    48882 |    48883 |        10 | 0x564f4944 | "\u0018DarkNet Signed Message:\n"           |
-| CRC           | CrowdCoin - Mainnet                |    12875 |     9998 |         7 | 0x1a4a5aaa | "\u0019DarkCoin Signed Message:\n"          |
-| CRM           | Cream - Mainnet                    |    45066 |    45077 |         0 | 0x22e4c314 | "\u0016Cream Signed Message:\n"             |
-| CROP          | Cropcoin - Mainnet                 |    17720 |    17721 |        10 | 0x11c3b1de | "\u0019CropCoin Signed Message:\n"          |
-| CRW           | Crown - Mainnet                    |     9340 |     9341 |         8 | 0xb8ebb3df | "\u0016Crown Signed Message:\n"             |
-| CTO           | Crypto - Mainnet                   |     8899 |     8898 |         0 | 0xa2c4b4da | "\u0017Crypto Signed Message:\n"            |
-| CURE          | Curecoin - Mainnet                 |     9911 |    19911 |         2 | 0xe4e8e9e5 | "\u0019curecoin Signed Message:\n"          |
-| CYDER         | Cyder - Mainnet                    |    48848 |    48845 |         0 | 0xf32da571 | "\u001acydercoin Signed Message:\n"         |
-| DASH          | Dash - Mainnet                     |     9999 |     9998 |         4 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
-| DCR - Mainnet | Decred                             |     9108 |     9109 |         4 | 0xf900b4d9 | "\u0017Decred Signed Message:\n"            |
-| DEM           | Deutsche eMark - Mainnet           |     5556 |     6666 |         1 | 0xe4e8e9e5 | "\u0016eMark Signed Message:\n"             |
-| DEV           | DeviantCoin - Mainnet              |    22618 |    22617 |         7 | 0x28b4adb8 | "\u0018DarkNet Signed Message:\n"           |
-| DGB           | DigiByte - Mainnet                 |    12024 |     8332 |         7 | 0xfac3b6da | "\u0019DigiByte Signed Message:\n"          |
-| DGC           | Digitalcoin - Mainnet              |     7999 |     7998 |         2 | 0xfbc0b6db | "\u001cDigitalcoin Signed Message:\n"       |
-| DIME          | Dimecoin - Mainnet                 |    11931 |    11930 |         0 | 0xfea503dd | "\u0019Dimecoin Signed Message:\n"          |
-| DLC           | Dollarcoin - Mainnet               |     8145 |     8146 |         0 | 0xfc9b3d41 | "\u001bdollarcoin Signed Message:\n"        |
-| DMB           | Digital Money Bits - Mainnet       |    35097 |    35098 |         0 | 0xf12ffeef | "!Digitalmoneybits Signed Message:\n"       |
-| DMD           | Diamond - Mainnet                  |    17771 |    17770 |         1 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
-| DNR           | Denarius - Mainnet                 |    33339 |    32339 |         9 | 0xfaf2efb4 | "\u0019Denarius Signed Message:\n"          |
-| DOGE          | Dogecoin - Mainnet                 |    22556 |    22555 |         4 | 0xc0c0c0c0 | "\u0019Dogecoin Signed Message:\n"          |
-| DOLLAR        | Dollar Online - Mainnet            |    22888 |    22882 |        10 | 0xa1a0a2a3 | "\u001dDOLLAROnline Signed Message:\n"      |
-| DRXNE         | DROXNE - Mainnet                   |    41241 |    41242 |         0 | 0xb4fee4e5 | "\u0017Droxne Signed Message:\n"            |
-| ECN           | E-coin - Mainnet                   |    18741 |    18742 |         1 | 0xb4f8e2e5 | "\u0016eCoin Signed Message:\n"             |
-| EGC           | EverGreenCoin - Mainnet            |     5757 |     5758 |        27 | 0x21246247 | "\u001eEverGreenCoin Signed Message:\n"     |
-| EGG           | EggCoin - Mainnet                  |    31104 |    31105 |         0 | 0x1a320320 | "\u0018Eggcoin Signed Message:\n"           |
-| EMB           | EmberCoin - Mainnet                |    10024 |    10022 |         3 | 0xefa9657c | "\u0016Ember Signed Message:\n"             |
-| EMC           | Emercoin - Mainnet                 |     6661 |     6662 |         4 | 0xe6e8e9e5 | "\u0019EmerCoin Signed Message:\n"          |
-| EMC2          | Einsteinium - Mainnet              |    41878 |    41879 |         9 | 0xe8f1c4ac | "\u001cEinsteinium Signed Message:\n"       |
-| EMD           | Emerald Crypto - Mainnet           |    12127 |    12128 |         5 | 0xfbc0b6db | "\u0018Emerald Signed Message:\n"           |
-| ENRG          | Energycoin - Mainnet               |    22706 |    22705 |         0 | 0xfcd9b7dd | "\u001bEnergyCoin Signed Message:\n"        |
-| ENT           | Eternity - Mainnet                 |     4855 |     4854 |         1 | 0x8ff74d2e | "\u0019DarkCoin Signed Message:\n"          |
-| EQT           | EquiTrader - Mainnet               |    43103 |    43102 |         6 | 0xb4f8e7a5 | "\u001bEquiTrader Signed Message:\n"        |
-| ERA           | ERA - Mainnet                      |    14442 |    14443 |         0 | 0xea117acc | "\u001aBlakeStar Signed Message:\n"         |
-| ERC           | EuropeCoin - Mainnet               |     8881 |    11989 |         0 | 0x4555524f | "\u0018Bitcoin Signed Message:\n"           |
-| ETH           | Ethereum                           |    30303 |     8545 |         0 |            | "\u0019Ethereum Signed Message:\n"          |
-| EVIL          | Evil Coin - Mainnet                |    20001 |    20002 |         0 | 0xa1a0a2a3 | "\u0019EvilCoin Signed Message:\n"          |
-| EXCL          | ExclusiveCoin - Mainnet            |    23230 |    23231 |         1 | 0xa23d2ff3 | "\u001eExclusiveCoin Signed Message:\n"     |
-| FAIR          | FairCoin - Mainnet                 |    46392 |    46393 |         2 | 0xe4e8e9e5 | "\u0019FairCoin Signed Message:\n"          |
-| FGC           | FantasyGold - Mainnet              |    57810 |    57814 |        24 | 0x54494D42 | "\u0018DarkNet Signed Message:\n"           |
-| FJC           | FujiCoin - Mainnet                 |     3777 |     3776 |         2 | 0x66756a69 | "\u0019FujiCoin Signed Message:\n"          |
-| FLO           | FlorinCoin - Mainnet               |     7312 |     7313 |         5 | 0xfdc0a5f1 | "\u001bFlorincoin Signed Message:\n"        |
-| FLT           | FlutterCoin - Mainnet              |     7408 |     7474 |         1 | 0xcfd1e8ea | "\u001cFlutterCoin Signed Message:\n"       |
-| FRC           | Freicoin - Mainnet                 |     8639 |     8638 |         4 | 0x2cfe7e6d | "\u0019Freicoin Signed Message:\n"          |
-| FST           | Fastcoin - Mainnet                 |     9526 |     9527 |         5 | 0xfbc0b6db | "\u0019Fastcoin Signed Message:\n"          |
-| FTC           | Feathercoin - Mainnet              |     9336 |     9337 |         4 | 0x41151a21 | "\u001cFeathercoin Signed Message:\n"       |
-| FTO           | FuturoCoin - Mainnet               |     9009 |     9008 |         2 | 0xCFD2D4C6 | "\u0019DarkCoin Signed Message:\n"          |
-| FUNK          | The Cypherfunks - Mainnet          |    33666 |    34666 |         1 | 0xfbc0b6db | "\u001bCypherfunk Signed Message:\n"        |
-| GAIN          | UGAIN - Mainnet                    |     7891 |     7892 |         0 | 0x06bbe2e5 | "\u0016UGAIN Signed Message:\n"             |
-| GAM           | Gambit - Mainnet                   |    47077 |    47177 |         3 | 0xf2f4f6f8 | "\u0017Gambit Signed Message:\n"            |
-| GAME          | GameCredits - Mainnet              |    40002 |    40001 |         1 | 0xfbc0b6db | "\u001cGameCredits Signed Message:\n"       |
-| GB            | GoldBlocks - Mainnet               |    27920 |    26920 |         7 | 0x60b6cdf4 | "\u001bGoldBlocks Signed Message:\n"        |
-| GBX           | GoByte - Mainnet                   |    12455 |    12454 |        10 | 0x1ab2c3d4 | "\u0019DarkCoin Signed Message:\n"          |
-| GEERT         | GeertCoin - Mainnet                |    64333 |    64332 |         1 | 0xf8d2e3bc | "\u001aGeertcoin Signed Message:\n"         |
-| GIN           | GINcoin - Mainnet                  |    10111 |    10211 |         5 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
-| GLD           | GoldCoin - Mainnet                 |     9333 |     9332 |         5 | 0xfbc0b6db | "\u0019Litecoin Signed Message:\n"          |
-| GLT           | GlobalToken - Mainnet              |     9319 |     9320 |         1 | 0xc708d32d | "\u001cGlobaltoken Signed Message:\n"       |
-| GPL           | Gold Pressed Latinum - Mainnet     |    23635 |    23645 |         1 | 0xcdf2c0ef | "#GoldPressedLatinum Signed Message:\n"     |
-| GRC           | GridCoin - Mainnet                 |    32749 |    15715 |         6 | 0x70352205 | "\u0019Gridcoin Signed Message:\n"          |
-| GRIM          | Grimcoin - Mainnet                 |    24861 |    24862 |         2 | 0xe7420652 | "\u0015Grim Signed Message:\n"              |
-| GRLC          | Garlicoin - Mainnet                |    42069 |    42068 |         3 | 0xd2c6b6db | "\u001aGarlicoin Signed Message:\n"         |
-| GRN           | Granite - Mainnet                  |    21777 |    21776 |        25 | 0xfec3b9de | "\u0018granite Signed Message:\n"           |
-| GRS           | Groestlcoin - Mainnet              |     8333 |     1441 |         6 | 0xf9beb4d9 | "\u001cGroestlCoin Signed Message:\n"       |
-| GSR           | GeyserCoin - Mainnet               |    10556 |    10555 |         3 | 0x60341208 | "\u001bGeyserCoin Signed Message:\n"        |
-| GTC           | Global Tour Coin - Mainnet         |    28111 |    28110 |         0 | 0xd4caafeb | "\u001fGlobalTourCoin Signed Message:\n"    |
-| HAL           | Halcyon - Mainnet                  |    21108 |    21109 |         2 | 0xa1a0a2a3 | "\u0018Halcyon Signed Message:\n"           |
-| HALLO         | Halloween Coin - Mainnet           |    35727 |    35718 |         0 | 0x2cc34aa3 | "\u001aHalloween Signed Message:\n"         |
-| HBN           | HoboNickels - Mainnet              |     7372 |     7373 |         5 | 0xe4e8e9e5 | "\u001cHoboNickels Signed Message:\n"       |
-| HC            | Harvest Masternode Coin - Mainnet  |    12116 |    12117 |         0 | 0x1d7ea62d | "\u0018Harvest Signed Message:\n"           |
-| HOLD          | Interstellar Holdings - Mainnet    |    10130 |    10131 |         2 | 0x902f3215 | "%InterstellarHoldings Signed Message:\n"   |
-| HPC           | Happycoin - Mainnet                |    12846 |    12847 |         5 | 0xb4f3efcc | "\u001aHappyCoin Signed Message:\n"         |
-| HTML          | HTMLCOIN - Mainnet                 |     4888 |     4889 |         4 | 0x1f2e3d4c | "\u0019HTMLCOIN Signed Message:\n"          |
-| HVCO          | High Voltage - Mainnet             |    47824 |    47823 |         2 | 0xb1b6f8a6 | " HighVoltageCoin Signed Message:\n"        |
-| HWC           | HollyWoodCoin - Mainnet            |    10267 |    11030 |         1 | 0x3b409d4f | "\u001eHollyWoodCoin Signed Message:\n"     |
-| HXX           | Hexx - Mainnet                     |    29100 |    29200 |         5 | 0x68657878 | "\u0019hexxcoin Signed Message:\n"          |
-| HYP           | HyperStake - Mainnet               |    18775 |    18777 |         2 | 0xdbadbdda | "\u001bHyperStake Signed Message:\n"        |
-| HYPER         | Hyper - Mainnet                    |    11194 |    11195 |         0 | 0xcefbfadb | "\u0016hyper Signed Message:\n"             |
-| I0C           | I0Coin - Mainnet                   |     7333 |     7332 |         1 | 0xf1b2b3d4 | "\u0018Bitcoin Signed Message:\n"           |
-| IBANK         | iBank - Mainnet                    |     7619 |     7620 |         0 | 0xf45490dc | "\u0016iBank Signed Message:\n"             |
-| ICON          | Iconic - Mainnet                   |    47426 |    47425 |         2 | 0xa3a5f8a6 | "\u0017Iconic Signed Message:\n"            |
-| IFC           | Infinitecoin - Mainnet             |     9321 |     9322 |         3 | 0xfbc0b6db | "\u001dInfinitecoin Signed Message:\n"      |
-| IFLT          | InflationCoin - Mainnet            |    11370 |    11371 |         0 | 0xdbc4f1fa | "\u001eInflationCoin Signed Message:\n"     |
-| IMS           | Independent Money System - Mainnet |     6177 |     6178 |         0 | 0xcaa57766 | "'IndependentMoneySystem Signed Message:\n" |
-| IMX           | Impact - Mainnet                   |    22629 |    21529 |         0 | 0xb1f5d3a9 | "\u0017impact Signed Message:\n"            |
-| INFX          | Influxcoin - Mainnet               |     9238 |     9239 |        70 | 0xf1e0a2d3 | "\u0017Influx Signed Message:\n"            |
-| INN           | Innova - Mainnet                   |    14520 |     8818 |         2 | 0x3c2a3ab9 | "\u0019DarkCoin Signed Message:\n"          |
-| IOC           | I/O Coin - Mainnet                 |    33764 |    33765 |         0 | 0xfec3bade | "\u0018I\/OCoin Signed Message:\n"          |
-| ION           | ION - Mainnet                      |    12700 |    12705 |         2 | 0xc4e1d8ec | "\u0014Ion Signed Message:\n"               |
-| IRL           | IrishCoin - Mainnet                |    12375 |    11372 |         2 | 0xf7c1b6db | "\u001aIrishcoin Signed Message:\n"         |
-| ISL           | IslaCoin - Mainnet                 |     9731 |     9831 |         3 | 0xa1a0a2a3 | "\u0019IslaCoin Signed Message:\n"          |
-| ITI           | iTicoin - Mainnet                  |    42177 |    42144 |         3 | 0xe4e8e9e5 | "\u0018iTiCoin Signed Message:\n"           |
-| IXC           | Ixcoin - Mainnet                   |     8337 |     8338 |         3 | 0xf1bab6db | "\u0018Bitcoin Signed Message:\n"           |
-| JIYO          | Jiyo - Mainnet                     |     6080 |     6070 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
-| KEK           | KekCoin - Mainnet                  |    13337 |    13377 |         0 | 0x11223344 | "\u0018Kekcoin Signed Message:\n"           |
-| KMD           | Komodo - Mainnet                   |     7770 |     7771 |         3 | 0xf9eee48d | "\u0017Komodo Signed Message:\n"            |
-| KNC           | KingN Coin - Mainnet               |    18373 |    18374 |         1 | 0xfc4c8736 | "\u001aKingNCoin Signed Message:\n"         |
-| KOBO          | Kobocoin - Mainnet                 |     9011 |     3341 |         4 | 0xa1a0a2a3 | "\u0019Kobocoin Signed Message:\n"          |
-| KUSH          | KushCoin - Mainnet                 |    31544 |    31543 |         2 | 0xb4e9c2ee | "\u0019KushCoin Signed Message:\n"          |
-| LANA          | LanaCoin - Mainnet                 |     7506 |     5706 |         9 | 0xa5f790fd | "\u0019Lanacoin Signed Message:\n"          |
-| LBC           | LBRY Credits - Mainnet             |     9246 |     9245 |         3 | 0xfae4aaf1 | "\u0018LBRYcrd Signed Message:\n"           |
-| LBTC          | LiteBitcoin - Mainnet              |    19037 |    19038 |         1 | 0x5b6d2f54 | "\u001cLitebitcoin Signed Message:\n"       |
-| LCC           | Litecoin Cash - Mainnet            |    62458 |    62457 |         1 | 0xc7e4baf8 | "\u0019Litecoin Signed Message:\n"          |
-| LCP           | Litecoin Plus - Mainnet            |    44351 |    44350 |         2 | 0xcefbfadb | "\u001dLitecoinPlus Signed Message:\n"      |
-| LEO           | LEOcoin - Mainnet                  |     5840 |     5211 |         0 | 0x646e7882 | "\u0018LEOcoin Signed Message:\n"           |
-| LINDA         | Linda - Mainnet                    |    33820 |    33821 |         0 | 0x9cd31701 | "\u0016Linda Signed Message:\n"             |
-| LIR           | LetItRide - Mainnet                |     2717 |     2718 |         0 | 0x2fc3e527 | "\u001aLetItRide Signed Message:\n"         |
-| LOG           | Woodcoin - Mainnet                 |     8338 |     9332 |         6 | 0xfcd9b7dd | "\u0019Woodcoin Signed Message:\n"          |
-| LTC           | Litecoin - Mainnet                 |     9333 |     9332 |         5 | 0xfbc0b6db | "\u0019Litecoin Signed Message:\n"          |
-| LUX           | LUXCoin - Mainnet                  |    26969 |     9888 |         0 | 0x6ab3c8a9 | "\u0014Lux Signed Message:\n"               |
-| MAC           | Machinecoin - Mainnet              |    40333 |    40332 |         3 | 0xfbc0b6db | "\u001cMachinecoin Signed Message:\n"       |
-| MAGN          | Magnetcoin - Mainnet               |    22458 |    22459 |         0 | 0xa4d2f8a6 | "\u001bMagnetCoin Signed Message:\n"        |
-| MAO           | Mao Zedong - Mainnet               |     9670 |     9669 |        14 | 0xf4d335f1 | "\u0014mao Signed Message:\n"               |
-| MARX          | MarxCoin - Mainnet                 |    41103 |    41102 |         4 | 0xfec3b9de | "\u0015MARX Signed Message:\n"              |
-| MAX           | MaxCoin - Mainnet                  |     8668 |     8669 |         2 | 0xf9bebbd2 | "\u0018MaxCoin Signed Message:\n"           |
-| MAY           | Theresa May Coin - Mainnet         |    35010 |    35011 |         0 | 0xa4d2f8a6 | "\u001bTheresaMay Signed Message:\n"        |
-| MAZA          | MAZA - Mainnet                     |    12835 |    12832 |         1 | 0xf8b503df | "\u0015Maza Signed Message:\n"              |
-| MCRN          | MACRON - Mainnet                   |    55553 |    55555 |         0 | 0xa4d2f8a6 | "\u0017MACRON Signed Message:\n"            |
-| MEC           | Megacoin - Mainnet                 |     7951 |     7951 |         1 | 0xede0e4ee | "\u0019Megacoin Signed Message:\n"          |
-| MEDIC         | MedicCoin - Mainnet                |     2118 |     2117 |         0 | 0x1bd76fc9 | "\u001aMedicCoin Signed Message:\n"         |
-| MEME          | Memetic / PepeCoin - Mainnet       |    29377 |    29376 |         2 | 0x3ac42c2f | "\u0019PepeCoin Signed Message:\n"          |
-| METAL         | MetalCoin - Mainnet                |    22332 |    22333 |         0 | 0xa1a0a2a3 | "\u001aMetalCoin Signed Message:\n"         |
-| MINT          | Mintcoin - Mainnet                 |    12788 |    12789 |         3 | 0xced5dbfa | "\u0019MintCoin Signed Message:\n"          |
-| MLM           | MktCoin - Mainnet                  |     9275 |     9276 |         1 | 0xf9beb4d9 | "\u0018MKTcoin Signed Message:\n"           |
-| MNM           | Mineum - Mainnet                   |    31316 |    31315 |         1 | 0x5ac382d3 | "\u0017Mineum Signed Message:\n"            |
-| MNX           | MinexCoin - Mainnet                |     8335 |    17786 |         5 | 0x4b4a4c5d | "\u0018Bitcoin Signed Message:\n"           |
-| MOJO          | MojoCoin - Mainnet                 |     9495 |     9496 |         9 | 0x71312106 | "\u0019Mojocoin Signed Message:\n"          |
-| MONA          | MonaCoin - Mainnet                 |     9401 |     9402 |         1 | 0xfbc0b6db | "\u0019Monacoin Signed Message:\n"          |
-| MONK          | Monkey Project - Mainnet           |     8710 |     8101 |         6 | 0x42a4c52b | "\u0017Monkey Signed Message:\n"            |
-| MOON          | Mooncoin - Mainnet                 |    44664 |    44663 |         3 | 0xf9f7c0e8 | "\u0019Mooncoin Signed Message:\n"          |
-| MRQ           | MIRQ - Mainnet                     |    55611 |    55622 |         0 | 0xe1ab3cc1 | "\u0018DarkNet Signed Message:\n"           |
-| MST           | MustangCoin - Mainnet              |    19667 |    19668 |         0 | 0xa1a0a2a3 | "\u0018mustang Signed Message:\n"           |
-| MTNC          | Masternodecoin - Mainnet           |    10086 |    10085 |         0 | 0xd5ce8c5e | "\u001fMasternodecoin Signed Message:\n"    |
-| MXT           | MarteXcoin - Mainnet               |    51315 |    51314 |         5 | 0x2d3fa2f5 | "\u0017MarteX Signed Message:\n"            |
-| NAV           | NavCoin - Mainnet                  |    44440 |    44444 |         2 | 0x80503420 | "\u0018Navcoin Signed Message:\n"           |
-| NEVA          | NevaCoin - Mainnet                 |     7391 |     3791 |        12 | 0xe483e632 | "\u0019Nevacoin Signed Message:\n"          |
-| NLC2          | NoLimitCoin - Mainnet              |     6521 |     6520 |         3 | 0xb1b6f8a6 | "\u001cNoLimitCoin Signed Message:\n"       |
-| NLG           | Gulden - Mainnet                   |     9231 |     9232 |         5 | 0xfcfef7e0 | "\u001bGuldencoin Signed Message:\n"        |
-| NLX           | Nullex - Mainnet                   |     6897 |     6898 |         0 | 0x9f180a16 | "\u0017NulleX Signed Message:\n"            |
-| NMC           | Namecoin - Mainnet                 |     8334 |     8336 |         2 | 0xf9beb4fe | "\u0018Bitcoin Signed Message:\n"           |
-| NMS           | Numus - Mainnet                    |    28121 |    28122 |         0 | 0xf1eca1c7 | "\u0016Numus Signed Message:\n"             |
-| NUMUS         | NumusCash - Mainnet                |    21139 |    21140 |         1 | 0x654ac5d5 | "\u001aNumusCash Signed Message:\n"         |
-| NVC           | Novacoin - Mainnet                 |     7777 |     8344 |         4 | 0xe4e8e9e5 | "\u0019NovaCoin Signed Message:\n"          |
-| NYC           | NewYorkCoin - Mainnet              |    17020 |    18823 |         0 | 0xc0c0c0c0 | "\u0019newyorkc Signed Message:\n"          |
-| OCC           | Octoin Coin - Mainnet              |    16840 |     8332 |         3 | 0x64736261 | "\u001bOctoinCoin Signed Message:\n"        |
-| ODN           | Obsidian - Mainnet                 |    56660 |    56661 |         5 | 0x4f646e31 | "\u0019Obsidian Signed Message:\n"          |
-| OK            | OKCash - Mainnet                   |     6970 |     6969 |         6 | 0x69f00f69 | "\u0017OKCash Signed Message:\n"            |
-| OMC           | Omicron - Mainnet                  |     8519 |     8520 |         0 | 0xf240ebb3 | "\u0018Omicron Signed Message:\n"           |
-| ONION         | DeepOnion - Mainnet                |    17570 |    18580 |         0 | 0xd1f1dbf2 | "\u001aDeepOnion Signed Message:\n"         |
-| OPC           | OP Coin - Mainnet                  |    13355 |    13357 |         3 | 0x9be0d8e9 | "\u0017OPCoin Signed Message:\n"            |
-| ORE           | Galactrum - Mainnet                |     6270 |     6269 |         5 | 0xb1ded0af | "\u0019DarkCoin Signed Message:\n"          |
-| PAK           | Pakcoin - Mainnet                  |     7867 |     7866 |         1 | 0x70616b63 | "\u0018Pakcoin Signed Message:\n"           |
-| PART          | Particl - Mainnet                  |    51738 |    51735 |         3 | 0xfbf2efb4 | "\u0018Bitcoin Signed Message:\n"           |
-| PHR           | Phore - Mainnet                    |    11771 |    11772 |         2 | 0x91c4fde9 | "\u0018DarkNet Signed Message:\n"           |
-| PHS           | Philosopher Stones - Mainnet       |    16281 |    16282 |         0 | 0xe4efdbfd | "!Philosopherstone Signed Message:\n"       |
-| PIGGY         | Piggycoin - Mainnet                |    54481 |    54480 |         4 | 0xa1a0a2a3 | "\u001dnewpiggycoin Signed Message:\n"      |
-| PINK          | PinkCoin - Mainnet                 |     9134 |     9135 |         6 | 0xf2f4f9fb | "\u0019Pinkcoin Signed Message:\n"          |
-| PIVX          | PIVX - Mainnet                     |    51472 |    51473 |         4 | 0x90c4fde9 | "\u0018DarkNet Signed Message:\n"           |
-| PLACO         | PlayerCoin - Mainnet               |    16666 |    17321 |         1 | 0xeb3d1cc4 | "\u001bPlayerCoin Signed Message:\n"        |
-| PND           | Pandacoin - Mainnet                |    22445 |    22444 |         1 | 0xc0c0c0c0 | "\u001aPandacoin Signed Message:\n"         |
-| PNX           | Phantomx - Mainnet                 |    31978 |    21978 |         0 | 0xd627d6e2 | "\u0016Cream Signed Message:\n"             |
-| POLIS         | Polis - Mainnet                    |    24126 |    24127 |         3 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
-| POP           | PopularCoin - Mainnet              |    18181 |    27172 |         0 | 0xcefbfadb | "\u001cPopularCoin Signed Message:\n"       |
-| POST          | PostCoin - Mainnet                 |     9130 |     9131 |         0 | 0x35c3d6a2 | "\u0019PostCoin Signed Message:\n"          |
-| POT           | PotCoin - Mainnet                  |     4200 |    42000 |         1 | 0xfbc0b6db | "\u0018Potcoin Signed Message:\n"           |
-| PPC           | Peercoin - Mainnet                 |     9901 |     9902 |         2 | 0xe5e9e8e6 | "\u0019Peercoin Signed Message:\n"          |
-| PROUD         | PROUD Money - Mainnet              |    24241 |    24242 |         9 | 0xf1e0a2d3 | "\u0019GAY Coin Signed Message:\n"          |
-| PURA          | Pura - Mainnet                     |    44444 |    55555 |         0 | 0xb897c543 | "\u0015Pura Signed Message:\n"              |
-| PURE          | Pure - Mainnet                     |    32745 |    32746 |        10 | 0x11c3b1de | "\u0015Pure Signed Message:\n"              |
-| PUT           | PutinCoin - Mainnet                |    20095 |    20094 |         0 | 0xb7f0e2e5 | "\u001aPutinCoin Signed Message:\n"         |
-| Q2C           | QubitCoin - Mainnet                |     7788 |     7799 |         4 | 0xfea503dd | "\u001aQubitcoin Signed Message:\n"         |
-| QBC           | Quebecoin - Mainnet                |    56790 |    56789 |         2 | 0xd3edc9f1 | "\u001aQuebecoin Signed Message:\n"         |
-| QTL           | Quatloo - Mainnet                  |    17012 |    17011 |         3 | 0xfacebeda | "\u0018Quatloo Signed Message:\n"           |
-| QTUM          | Qtum - Mainnet                     |     3888 |     3889 |         4 | 0xf1cfa6d3 | "\u0015Qtum Signed Message:\n"              |
-| RADS          | Radium - Mainnet                   |    27913 |    27914 |         0 | 0x2a7ccbab | "\u0017radium Signed Message:\n"            |
-| RBY           | Rubycoin - Mainnet                 |     5937 |     5938 |         4 | 0x13121611 | "\u0019Rubycoin Signed Message:\n"          |
-| RC            | RussiaCoin - Mainnet               |    19992 |    19991 |         0 | 0xc0c0c0c0 | "\u001bRussiaCoin Signed Message:\n"        |
-| RDD           | ReddCoin - Mainnet                 |    45444 |    45443 |         4 | 0xfbc0b6db | "\u0019Reddcoin Signed Message:\n"          |
-| REGA          | Regacoin - Mainnet                 |    28192 |    28190 |         0 | 0xd4ca3fec | "\u0015REGA Signed Message:\n"              |
-| RIC           | Riecoin - Mainnet                  |    28333 |    28332 |         1 | 0xfcbcb2db | "\u0018riecoin Signed Message:\n"           |
-| RNS           | Renos - Mainnet                    |    57155 |    57154 |         2 | 0xaaa3b2c4 | "\u001aRenosCoin Signed Message:\n"         |
-| ROOFS         | Roofs - Mainnet                    |    20019 |    20020 |         0 | 0x904a9240 | "\u0016ROOFS Signed Message:\n"             |
-| RPC           | RonPaulCoin - Mainnet              |     9027 |     9026 |         1 | 0xfbc0b6db | "\u001cRonPaulCoin Signed Message:\n"       |
-| RUP           | Rupee - Mainnet                    |    10459 |    10460 |         0 | 0x3b69ded4 | "\u0016RUPEE Signed Message:\n"             |
-| RUPX          | Rupaya - Mainnet                   |     9020 |     7020 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
-| RVN           | Ravencoin - Mainnet                |     8767 |     8766 |         2 | 0x5241564e | "\u0016Raven Signed Message:\n"             |
-| SAGA          | SagaCoin - Mainnet                 |    48744 |    48844 |         3 | 0xaaa3b2c4 | "\u0019SagaCoin Signed Message:\n"          |
-| SAK           | Sharkcoin - Mainnet                |     4011 |     4009 |         2 | 0xfea503db | "\u001aSharkcoin Signed Message:\n"         |
-| SBC           | StrikeBitClub - Mainnet            |    21575 |    21576 |         2 | 0x556a3299 | "\u0018SBCcoin Signed Message:\n"           |
-| SEQ           | Sequence - Mainnet                 |    16662 |    16663 |         4 | 0x01100220 | "\u0015Silk Signed Message:\n"              |
-| SIB           | SIBCoin - Mainnet                  |     1945 |     1944 |         5 | 0xbf0c6bbd | "\u0018SibCoin Signed Message:\n"           |
-| SKC           | Skeincoin - Mainnet                |    11230 |    21230 |        11 | 0xf726a1bf | "\u001aSkeincoin Signed Message:\n"         |
-| SLR           | SolarCoin - Mainnet                |    18188 |    18181 |         2 | 0x04f104fd | "\u001aSolarCoin Signed Message:\n"         |
-| SLS           | SaluS - Mainnet                    |    22534 |    22530 |         0 | 0xd3c5a721 | "\u0016SaluS Signed Message:\n"             |
-| SMART         | SmartCash - Mainnet                |     9678 |     9679 |         9 | 0x5ca1ab1e | "\u001aSmartCash Signed Message:\n"         |
-| SOCC          | SocialCoin - Mainnet               |    18645 |    18646 |         0 | 0xee64e31d | "\u001bSocialcoin Signed Message:\n"        |
-| SONG          | SongCoin - Mainnet                 |     8335 |     8334 |         1 | 0x534f4e47 | "\u0019Songcoin Signed Message:\n"          |
-| SPACE         | SpaceCoin - Mainnet                |     9172 |     9173 |         3 | 0xf4f2f9fb | "\u001aSpaceCoin Signed Message:\n"         |
-| SPD           | Stipend - Mainnet                  |    46978 |    46979 |         0 | 0xa3fbdbdb | "\u0018Stipend Signed Message:\n"           |
-| SPHR          | Sphere - Mainnet                   |    37544 |    37545 |         1 | 0xa8b81130 | "\u0017Sphere Signed Message:\n"            |
-| SPK           | Sparks - Mainnet                   |     8890 |     8892 |         4 | 0x1ab2c3d4 | "\u0019DarkCoin Signed Message:\n"          |
-| SRC           | SecureCoin - Mainnet               |    12567 |    12568 |         1 | 0xfcb4d9ab | "\u001bSecurecoin Signed Message:\n"        |
-| STAK          | STRAKS - Mainnet                   |     7575 |     7574 |         5 | 0xb0d5f02c | "\u0017Straks Signed Message:\n"            |
-| STN           | Steneum Coin - Mainnet             |    26965 |    26966 |         0 | 0xe626170d | "\u0018Steneum Signed Message:\n"           |
-| STV           | Sativacoin - Mainnet               |    60990 |    62990 |         3 | 0xa1a0a2a3 | "\u001bsativacoin Signed Message:\n"        |
-| SUPER         | SuperCoin - Mainnet                |    19390 |    19391 |         2 | 0xdbfafcfd | "\u001aSuperCoin Signed Message:\n"         |
-| SWING         | Swing - Mainnet                    |    16061 |    16080 |         1 | 0xdd1ee2af | "\u0016Swing Signed Message:\n"             |
-| SXC           | Sexcoin - Mainnet                  |     9560 |     9561 |         3 | 0xface6969 | "\u0018Sexcoin Signed Message:\n"           |
-| SYS           | Syscoin - Mainnet                  |     8369 |     8370 |         4 | 0xf9beb4d9 | "\u0018Syscoin Signed Message:\n"           |
-| TAJ           | TajCoin - Mainnet                  |    10712 |    12107 |         9 | 0x7d4f8b4d | "\u0018Tajcoin Signed Message:\n"           |
-| TELL          | Tellurion - Mainnet                |     9999 |    33716 |         5 | 0x1a1c3a1b | "\u001aTellurion Signed Message:\n"         |
-| THC           | HempCoin - Mainnet                 |    21054 |    12055 |         0 | 0xa5a5fd01 | "\u0019Hempcoin Signed Message:\n"          |
-| TOA           | ToaCoin - Mainnet                  |     9642 |     3564 |         0 | 0xeaafe3c7 | "\u0014TOA Signed Message:\n"               |
-| TOKC          | TOKYO - Mainnet                    |    23517 |    23518 |         1 | 0x005aab1e | "\u001aTokyocoin Signed Message:\n"         |
-| TOP           | TopCoin - Mainnet                  |    22561 |    22562 |         0 | 0xcefbfadb | "\u0019TopCoin3 Signed Message:\n"          |
-| TPAY          | TokenPay - Mainnet                 |     8801 |     8800 |         0 | 0xfbf1e2b1 | "\u0019TokenPay Signed Message:\n"          |
-| TRC           | Terracoin - Mainnet                |    13333 |    13332 |         2 | 0x42babe56 | "\u0019DarkCoin Signed Message:\n"          |
-| TRK           | Truckcoin - Mainnet                |    18775 |    18776 |         5 | 0xdbadbdda | "\u001aTruckcoin Signed Message:\n"         |
-| TX            | TransferCoin - Mainnet             |    17170 |    17171 |         3 | 0xd12e1ee6 | "\u0019Transfer Signed Message:\n"          |
-| UIS           | Unitus - Mainnet                   |    50603 |    50604 |         4 | 0xc5abc69d | "\u0017Unitus Signed Message:\n"            |
-| ULA           | Ulatech - Mainnet                  |    21659 |    21660 |         2 | 0x8ba3369a | "\u0018UlaTech Signed Message:\n"           |
-| UNIFY         | Unify - Mainnet                    |    18649 |    18650 |         6 | 0xc447f9ee | "\u0016Unify Signed Message:\n"             |
-| UNIT          | Universal Currency - Mainnet       |    14158 |    14157 |         0 | 0xa4d2f8a6 | "\"UniversalCurrency Signed Message:\n"     |
-| UNO           | Unobtanium - Mainnet               |    65534 |    65535 |         3 | 0x03d5b503 | "\u001bUnobtanium Signed Message:\n"        |
-| USC           | Ultimate Secure Cash - Mainnet     |    51737 |    51736 |         0 | 0xfaf2efb4 | "#UltimateSecureCash Signed Message:\n"     |
-| VEC2          | VectorAI - Mainnet                 |     1715 |     1716 |         0 | 0xe79260e8 | "\u0017Vector Signed Message:\n"            |
-| VIA           | Viacoin - Mainnet                  |     5223 |     5222 |         3 | 0x0f68c6cb | "\u0018Viacoin Signed Message:\n"           |
-| VIDZ          | PureVidz - Mainnet                 |     3818 |     4818 |         0 | 0xe4155311 | "\u0019PureVidz Signed Message:\n"          |
-| VIPS          | Vipstar Coin - Mainnet             |    31915 |    31916 |         1 | 0x012CE7B5 | "\u001cVIPSTARCOIN Signed Message:\n"       |
-| VISIO         | Visio - Mainnet                    |    16778 |    16774 |         4 | 0x70352205 | "\u0016Visio Signed Message:\n"             |
-| VIVO          | VIVO - Mainnet                     |    12845 |     9998 |         2 | 0x1d425ba7 | "\u0019DarkCoin Signed Message:\n"          |
-| VOLT          | Bitvolt - Mainnet                  |    11516 |    15615 |         0 | 0x12695122 | "\u0019VoltCoin Signed Message:\n"          |
-| VOT           | VoteCoin - Mainnet                 |     8144 |     8242 |         3 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
-| VRC           | VeriCoin - Mainnet                 |    58684 |    58683 |         3 | 0x70352205 | "\u0019VeriCoin Signed Message:\n"          |
-| VSX           | Vsync - Mainnet                    |    65010 |    65015 |        10 | 0x21550a5a | "\u0018DarkNet Signed Message:\n"           |
-| VTA           | Virtacoin - Mainnet                |    22816 |    22815 |         2 | 0xbed0c8d1 | "\u001aVirtaCoin Signed Message:\n"         |
-| VTC           | Vertcoin - Mainnet                 |     5889 |     5888 |         7 | 0xfabfb5da | "\u0019Vertcoin Signed Message:\n"          |
-| VULC          | Vulcano - Mainnet                  |    21041 |    21042 |         4 | 0xe5777746 | "\u0018VULCANO Signed Message:\n"           |
-| WC            | WINCOIN - Mainnet                  |    11610 |    11611 |         0 | 0xf9beb4d9 | "\u001dWinCoin Signed Message, sun:\n"      |
-| WINK          | Wink - Mainnet                     |    37748 |    37745 |         0 | 0xf32da571 | "\u0019winkcoin Signed Message:\n"          |
-| WOMEN         | WomenCoin - Mainnet                |    19207 |    19208 |         0 | 0xf11394ee | "\u001aWOMENCOIN Signed Message:\n"         |
-| XBTC21        | Bitcoin 21 - Mainnet               |    21008 |    21007 |         6 | 0xb4f8e2e5 | "\u001aBitcoin21 Signed Message:\n"         |
-| XBTS          | Beatcoin - Mainnet                 |    26152 |    26151 |         0 | 0xa1a0a2a3 | "\u001aBeatsCoin Signed Message:\n"         |
-| XCO           | X-Coin - Mainnet                   |    14641 |    14642 |         0 | 0xa5d2d7a6 | "\u0016Xcoin Signed Message:\n"             |
-| XCT           | C-Bit - Mainnet                    |     8289 |     8288 |         0 | 0xdeadfed5 | "\u0018Bitcoin Signed Message:\n"           |
-| XGOX          | XGOX - Mainnet                     |    23185 |    23186 |         2 | 0x71ae7664 | "\u0015xgox Signed Message:\n"              |
-| XJO           | Joulecoin - Mainnet                |    26789 |     8844 |         6 | 0xa5c07955 | "\u001aJoulecoin Signed Message:\n"         |
-| XLR           | Solaris - Mainnet                  |    60020 |    61020 |        13 | 0x022101a1 | "\u0018DarkNet Signed Message:\n"           |
-| XMR           | Monero                             |    18080 |    18081 |         4 |            | ""                                          |
-| XMY           | Myriad - Mainnet                   |    10888 |    10889 |         9 | 0xaf4576ee | "\u001bMyriadcoin Signed Message:\n"        |
-| XP            | Experience Points - Mainnet        |    28192 |    28191 |         4 | 0xb4f8e2e5 | "\u0013XP Signed Message:\n"                |
-| XPM           | Primecoin - Mainnet                |     9911 |     9912 |         4 | 0xe4e7e5e7 | "\u001aPrimecoin Signed Message:\n"         |
-| XPTX          | PlatinumBAR - Mainnet              |    18993 |    18994 |         5 | 0x03030606 | "\u001cPlatinumBar Signed Message:\n"       |
-| XQN           | Quotient - Mainnet                 |    30994 |    30997 |         1 | 0xefb2faf2 | "\u0019Quotient Signed Message:\n"          |
-| XRA           | Ratecoin - Mainnet                 |    35851 |    35850 |         3 | 0xa1a0a2a3 | "\u0019RATECoin Signed Message:\n"          |
-| XRE           | RevolverCoin - Mainnet             |     8777 |     8775 |         0 | 0xf9beb4d9 | "\u001dRevolverCoin Signed Message:\n"      |
-| XSN           | Stakenet - Mainnet                 |    62583 |    51473 |         0 | 0xbf0c6cbd | "\u0019DarkCoin Signed Message:\n"          |
-| XSPEC         | Spectrecoin - Mainnet              |    37347 |    36657 |         0 | 0xb5225cd3 | "\u001cSpectreCoin Signed Message:\n"       |
-| XTO           | Tao - Mainnet                      |    15150 |    15151 |         7 | 0x1dd11ee1 | "\u0014Tao Signed Message:\n"               |
-| XVG           | Verge - Mainnet                    |    21102 |    20102 |         0 | 0xf7a77eff | "\u0016VERGE Signed Message:\n"             |
-| XWC           | WhiteCoin - Mainnet                |    15814 |    15815 |         4 | 0x182d43f3 | "\u001aWhitecoin Signed Message:\n"         |
-| XZC           | ZCoin - Mainnet                    |     8168 |     8888 |         5 | 0xe3d9fef1 | "\u0016Zcoin Signed Message:\n"             |
-| YTN           | YENTEN - Mainnet                   |     9981 |     9252 |         1 | 0xad5aeb9f | "\u0017Yenten Signed Message:\n"            |
-| ZCL           | ZClassic - Mainnet                 |     8033 |     8023 |        13 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
-| ZEC           | Zcash - Mainnet                    |     8233 |     8232 |         3 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
-| ZEIT          | Zeitcoin - Mainnet                 |    44845 |    44843 |         3 | 0xced5dbfa | "\u0019Zeitcoin Signed Message:\n"          |
-| ZEN           | ZenCash - Mainnet                  |     9033 |     8231 |         6 | 0x63617368 | "\u0016Zcash Signed Message:\n"             |
-| ZENI          | Zennies - Mainnet                  |    11011 |    11012 |         2 | 0x2a7ccbab | "\u0019ZeniCoin Signed Message:\n"          |
-| ZET           | Zetacoin - Mainnet                 |    17333 |     8332 |        12 | 0xfab503df | "\u0019Zetacoin Signed Message:\n"          |
-| ZOI           | Zoin - Mainnet                     |     8255 |     8255 |         0 | 0xf503a951 | "\u0015Zoin Signed Message:\n"              |
-| ZYD           | Zayedcoin - Mainnet                |     8371 |     8372 |         0 | 0xd0cecf9c | "\u001aZayedcoin Signed Message:\n"         |
-| ZZC           | ZoZoCoin - Mainnet                 |    19995 |     3882 |         9 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
+| Symbol | Name                               | P2P Port | RPC Port | DNS Seeds | P2P Magic  | Message Magic                               |
+|--------|------------------------------------|----------|----------|-----------|------------|---------------------------------------------|
+| $PAC   | PACcoin - Mainnet                  |     7112 |     7111 |         4 | 0xc8e5612c | "\u0019DarkCoin Signed Message:\n"          |
+|   1337 | Elite - Mainnet                    |    13373 |    13372 |         4 | 0x5ac382d3 | "\u00151337 Signed Message:\n"              |
+|     42 | 42-coin - Mainnet                  |     4242 |     2121 |         0 | 0x1d05140b | "\u001342 Signed Message:\n"                |
+| ABJC   | Abjcoin Commerce - Mainnet         |    69082 |    69082 |         0 | 0x325e6f86 | " AbjcoinCommerce Signed Message:\n"        |
+| ACC    | AdCoin - Mainnet                   |    19499 |    19500 |         2 | 0x3d053577 | "\u0017AdCoin Signed Message:\n"            |
+| ACES   | Aces - Mainnet                     |    21274 |    21273 |         0 | 0x70352205 | "\u0019AcesCoin Signed Message:\n"          |
+| ACP    | AnarchistsPrime - Mainnet          |    11050 |    21050 |         1 | 0xf9beb4d9 | " AnarchistsPrime Signed Message:\n"        |
+| ADC    | AudioCoin - Mainnet                |    25159 |    26159 |         1 | 0xfaf4fbff | "\u001aBlackCoin Signed Message:\n"         |
+| ADZ    | Adzcoin - Mainnet                  |    43029 |    43028 |         2 | 0xfdc3b9de | "\u0018AdzCoin Signed Message:\n"           |
+| AIB    | Advanced Internet Blocks - Mainnet |     5223 |        0 |         3 | 0x0f68c6cb | "\u0014Aib Signed Message:\n"               |
+| ALL    | Allion - Mainnet                   |    12916 |    11916 |        14 | 0xa4a6fd05 | "\u001dTrollPayCoin Signed Message:\n"      |
+| ALQO   | ALQO - Mainnet                     |    55500 |    55000 |         2 | 0x94041514 | "\u0015ALQO Signed Message:\n"              |
+| AMMO   | Ammo Reloaded - Mainnet            |    21582 |    21583 |         1 | 0xc3c5a2a3 | "\u0015Ammo Signed Message:\n"              |
+| AMS    | AmsterdamCoin - Mainnet            |    50020 |    51020 |         6 | 0x002200aa | "\u0018DarkNet Signed Message:\n"           |
+| ANI    | Animecoin - Mainnet                |     1212 |     2121 |         0 | 0x414e494d | "\u001aAnimecoin Signed Message:\n"         |
+| ANTX   | Antimatter - Mainnet               |    18595 |    18596 |         0 | 0xad61f3ce | "\u001bAntimatter Signed Message:\n"        |
+| APR    | APR Coin - Mainnet                 |     3133 |     3132 |         0 | 0xa4ec922e | "\u0018DarkNet Signed Message:\n"           |
+| ARB    | ARbit - Mainnet                    |    31930 |    31931 |         0 | 0xe3a77c0e | "\u0016ARbit Signed Message:\n"             |
+| ARC    | Advanced Technology Coin - Mainnet |     7209 |     7208 |         0 | 0x3dd22861 | "\u0019DarkCoin Signed Message:\n"          |
+| ARCO   | AquariusCoin - Mainnet             |     6205 |     6206 |        10 | 0x933064c7 | "\u001dAquariusCoin Signed Message:\n"      |
+| ARG    | Argentum - Mainnet                 |    13580 |    13581 |         0 | 0xfbc1b8dc | "\u0019Argentum Signed Message:\n"          |
+| ASAFE2 | AllSafe - Mainnet                  |    30234 |    30244 |         0 | 0x325e6f86 | "\u0019Allsafe2 Signed Message:\n"          |
+| ATC    | Arbitracoin - Mainnet              |    32540 |    32640 |         0 | 0xec221025 | "\u0018Arbitra Signed Message:\n"           |
+| AU     | AurumCoin - Mainnet                |    11080 |    21080 |         0 | 0xf9beb4d9 | "\u0016Aurum Signed Message:\n"             |
+| AUR    | Auroracoin - Mainnet               |    12340 |    12341 |         8 | 0xfda4dc6c | "\u001bAuroracoin Signed Message:\n"        |
+| AV     | AvatarCoin - Mainnet               |     9712 |     9711 |         2 | 0xb23bf8a6 | "\u001bAvatarcoin Signed Message:\n"        |
+| AXIOM  | Axiom - Mainnet                    |    15760 |    15770 |         1 | 0x033f1a0c | "\u0016Axiom Signed Message:\n"             |
+| BAY    | BitBay - Mainnet                   |    19914 |    19915 |         0 | 0x70352205 | "\u0017BitBay Signed Message:\n"            |
+| BCA    | Bitcoin Atom - Mainnet             |     7333 |     7332 |         3 | 0x4fc11de8 | "\u0018Bitcoin Signed Message:\n"           |
+| BCC    | BitConnect - Mainnet               |     9239 |     9240 |         0 | 0x325e6f86 | "\u001bbitconnect Signed Message:\n"        |
+| BCD    | Bitcoin Diamond - Mainnet          |     7117 |     7116 |         6 | 0xbddeb4d9 | " Bitcoin Diamond Signed Message:\n"        |
+| BCF    | Bitcoin Fast - Mainnet             |    25671 |    25672 |         1 | 0xcefbfadb | "\u001cBitcoinFast Signed Message:\n"       |
+| BCH    | Bitcoin Cash - Mainnet             |     8333 |     8332 |         6 | 0xe3e1f3e8 | "\u0018Bitcoin Signed Message:\n"           |
+| BCI    | Bitcoin Interest - Mainnet         |     8331 |     8332 |         3 | 0xede4fe26 | "!Bitcoin Interest Signed Message:\n"       |
+| BCO    | BridgeCoin - Mainnet               |     6333 |     6332 |         3 | 0xfbc0b6db | "\u001bbridgecoin Signed Message:\n"        |
+| BENJI  | BenjiRolls - Mainnet               |     1777 |     1776 |         0 | 0xfbc0b6db | "\u001bBENJIROLLS Signed Message:\n"        |
+| BERN   | BERNcash - Mainnet                 |    32020 |    32016 |        27 | 0x09111620 | "\u0015BERN Signed Message:\n"              |
+| BIO    | BioCoin - Mainnet                  |    24885 |    24889 |         5 | 0xb4f9e1a5 | "\u0018BioCoin Signed Message:\n"           |
+| BIOB   | BioBar - Mainnet                   |    37257 |    37258 |         0 | 0xa4d2f8a6 | "\u0017BioBar Signed Message:\n"            |
+| BIRDS  | Birds - Mainnet                    |    20013 |    20014 |         0 | 0x17f7fedf | "\u0016BIRDS Signed Message:\n"             |
+| BITG   | Bitcoin Green - Mainnet            |     9333 |     9332 |         3 | 0x54dc12ae | "\u0018DarkNet Signed Message:\n"           |
+| BITOK  | Bitok - Mainnet                    |    11122 |    11100 |         0 | 0xbca3fb5c | "\u0016BitOK Signed Message:\n"             |
+| BITS   | Bitstar - Mainnet                  |    62123 |    62124 |         4 | 0xcef1dbfa | "\u0018Bitstar Signed Message:\n"           |
+| BLAZR  | BlazerCoin - Mainnet               |     8213 |     8212 |         0 | 0xfbc0b6db | "\u001bBlazerCoin Signed Message:\n"        |
+| BLK    | BlackCoin - Mainnet                |    15714 |    15715 |         1 | 0x70352205 | "\u001aBlackCoin Signed Message:\n"         |
+| BLOCK  | Blocknet - Mainnet                 |    41412 |    41414 |         0 | 0xa1a0a2a3 | "\u0018DarkNet Signed Message:\n"           |
+| BLU    | BlueCoin - Mainnet                 |    27104 |    27105 |         0 | 0xf3f2aead | "\u0019Bluecoin Signed Message:\n"          |
+| BOAT   | BOAT - Mainnet                     |    33827 |    33828 |         4 | 0x1c3b1aa3 | "\u0019Doubloon Signed Message:\n"          |
+| BOLI   | Bolivarcoin - Mainnet              |     3893 |     3563 |         0 | 0xfdc3b9de | "\u001cBolivarcoin Signed Message:\n"       |
+| BRO    | Bitradio - Mainnet                 |    32454 |    32455 |         3 | 0xd31a3de4 | "\u0019Bitradio Signed Message:\n"          |
+| BSC    | BowsCoin - Mainnet                 |     8155 |     8145 |         0 | 0xffc4badf | "\u0019bowscoin Signed Message:\n"          |
+| BSD    | BitSend - Mainnet                  |     8886 |     8800 |         0 | 0xa3d5c2f9 | "\u0018Bitsend Signed Message:\n"           |
+| BSR    | BitSoar - Mainnet                  |    40119 |    50119 |         0 | 0x53746942 | "\u0018BitSoar Signed Message:\n"           |
+| BSTY   | GlobalBoost-Y - Mainnet            |     8226 |     8225 |         2 | 0xa2b2e2f2 | "\u001cGlobalboost Signed Message:\n"       |
+| BTA    | Bata - Mainnet                     |     5784 |     5493 |         2 | 0x34c3afeb | "\u0015Bata Signed Message:\n"              |
+| BTB    | BitBar - Mainnet                   |     8777 |     9344 |         1 | 0xe4e8e9e5 | "\u0017BitBar Signed Message:\n"            |
+| BTC    | Bitcoin - Mainnet                  |     8333 |     8332 |         7 | 0xf9beb4d9 | "\u0018Bitcoin Signed Message:\n"           |
+| BTCD   | BitcoinDark - Mainnet              |    14631 |    14632 |         0 | 0xa4a2d8e7 | "\u001cBitcoinDark Signed Message:\n"       |
+| BTCP   | Bitcoin Private - Mainnet          |     7933 |     7932 |         2 | 0xa8eaa2cd | "\u001fBitcoinPrivate Signed Message:\n"    |
+| BTCR   | Bitcurrency - Mainnet              |    15814 |    15815 |         3 | 0x70421309 | "\u001cBitCurrency Signed Message:\n"       |
+| BTCZ   | BitcoinZ - Mainnet                 |     1989 |     1979 |         6 | 0x24e92764 | "\u0019BitcoinZ Signed Message:\n"          |
+| BTDX   | Bitcloud - Mainnet                 |     8329 |     8330 |         0 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
+| BTG    | Bitgem - Mainnet                   |     8338 |     8332 |         3 | 0xe1476d44 | "\u001dBitcoin Gold Signed Message:\n"      |
+| BTX    | Bitcore - Mainnet                  |     8555 |     8556 |         0 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
+| BUB    | Bubble - Mainnet                   |    15716 |    15719 |         0 | 0xcd2119dd | "\u0017Bubble Signed Message:\n"            |
+| BUMBA  | BumbaCoin - Mainnet                |    20222 |    10111 |         0 | 0xb1c0d2e3 | "\u001bbumbacoin2 Signed Message:\n"        |
+| BUZZ   | BuzzCoin - Mainnet                 |    25128 |    25129 |         0 | 0x07358205 | "\u0019BuzzCoin Signed Message:\n"          |
+| BWK    | Bulwark - Mainnet                  |    52543 |    52541 |        11 | 0x08020117 | "\u0018DarkNet Signed Message:\n"           |
+| CANN   | CannabisCoin - Mainnet             |    39348 |    39347 |         2 | 0xfec3b9de | "\u001dCannabisCoin Signed Message:\n"      |
+| CARBON | Carboncoin - Mainnet               |     9350 |     9351 |         2 | 0xabccbbdf | "\u001bCarboncoin Signed Message:\n"        |
+| CAT    | Catcoin - Mainnet                  |     9933 |     9932 |         2 | 0xfcc1b7dc | "\u0018Catcoin Signed Message:\n"           |
+| CAZ    | Cazcoin - Mainnet                  |    17350 |    17358 |         4 | 0x3da232b4 | "\u0018DarkNet Signed Message:\n"           |
+| CBX    | Bullion - Mainnet                  |     7695 |     8395 |         1 | 0xe4e8e9e5 | "\u0018Bullion Signed Message:\n"           |
+| CHAN   | ChanCoin - Mainnet                 |    19117 |    19118 |         5 | 0x0f9154f8 | "\u0019Chancoin Signed Message:\n"          |
+| CHEAP  | Cheapcoin - Mainnet                |    36648 |    36645 |         0 | 0xf32da571 | "\u001acheapcoin Signed Message:\n"         |
+| CHESS  | ChessCoin - Mainnet                |     7323 |     7324 |         1 | 0xde3aae3c | "\u001aChessCoin Signed Message:\n"         |
+| CHIPS  | CHIPS - Mainnet                    |    57777 |    57776 |         6 | 0xffeeddcc | "\u0018Bitcoin Signed Message:\n"           |
+| CJ     | Cryptojacks - Mainnet              |    33433 |    33533 |         7 | 0x5ac382d3 | "\u001cCryptoJacks Signed Message:\n"       |
+| CLAM   | Clams - Mainnet                    |    31174 |    30174 |         1 | 0x03223515 | "\u0015Clam Signed Message:\n"              |
+| CLUB   | ClubCoin - Mainnet                 |    18114 |    19114 |         5 | 0x70354205 | "\u0019ClubCoin Signed Message:\n"          |
+| CMPCO  | CampusCoin - Mainnet               |    28195 |    28199 |         0 | 0xd7cfa4e6 | "\u001bCampusCoin Signed Message:\n"        |
+| CNNC   | Cannation - Mainnet                |    12367 |    12368 |         0 | 0x52568b9e | "\u001acannation Signed Message:\n"         |
+| CNX    | Cryptonex - Mainnet                |    20863 |    20864 |         7 | 0x18e482a0 | "\u001aCryptonex Signed Message:\n"         |
+| COLX   | ColossusXT - Mainnet               |    51572 |    51473 |         3 | 0x91c5feea | "\u0018DarkNet Signed Message:\n"           |
+| CON    | PayCon - Mainnet                   |     9455 |     9456 |         2 | 0x4b3c3b2d | "\u0017PayCon Signed Message:\n"            |
+| CPC    | Capricoin - Mainnet                |    22714 |    22713 |        12 | 0xa1a0a2a3 | "\u001aCapricoin Signed Message:\n"         |
+| CRAVE  | Crave - Mainnet                    |    48882 |    48883 |        10 | 0x564f4944 | "\u0018DarkNet Signed Message:\n"           |
+| CRC    | CrowdCoin - Mainnet                |    12875 |     9998 |         7 | 0x1a4a5aaa | "\u0019DarkCoin Signed Message:\n"          |
+| CRM    | Cream - Mainnet                    |    45066 |    45077 |         0 | 0x22e4c314 | "\u0016Cream Signed Message:\n"             |
+| CROP   | Cropcoin - Mainnet                 |    17720 |    17721 |        10 | 0x11c3b1de | "\u0019CropCoin Signed Message:\n"          |
+| CRW    | Crown - Mainnet                    |     9340 |     9341 |         8 | 0xb8ebb3df | "\u0016Crown Signed Message:\n"             |
+| CTO    | Crypto - Mainnet                   |     8899 |     8898 |         0 | 0xa2c4b4da | "\u0017Crypto Signed Message:\n"            |
+| CURE   | Curecoin - Mainnet                 |     9911 |    19911 |         2 | 0xe4e8e9e5 | "\u0019curecoin Signed Message:\n"          |
+| CYDER  | Cyder - Mainnet                    |    48848 |    48845 |         0 | 0xf32da571 | "\u001acydercoin Signed Message:\n"         |
+| DASH   | Dash - Mainnet                     |     9999 |     9998 |         4 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
+| DCR    | Decred - Mainnet                   |     9108 |     9109 |         4 | 0xf900b4d9 | "\u0017Decred Signed Message:\n"            |
+| DEM    | Deutsche eMark - Mainnet           |     5556 |     6666 |         1 | 0xe4e8e9e5 | "\u0016eMark Signed Message:\n"             |
+| DEV    | DeviantCoin - Mainnet              |    22618 |    22617 |         7 | 0x28b4adb8 | "\u0018DarkNet Signed Message:\n"           |
+| DGB    | DigiByte - Mainnet                 |    12024 |     8332 |         7 | 0xfac3b6da | "\u0019DigiByte Signed Message:\n"          |
+| DGC    | Digitalcoin - Mainnet              |     7999 |     7998 |         2 | 0xfbc0b6db | "\u001cDigitalcoin Signed Message:\n"       |
+| DIME   | Dimecoin - Mainnet                 |    11931 |    11930 |         0 | 0xfea503dd | "\u0019Dimecoin Signed Message:\n"          |
+| DLC    | Dollarcoin - Mainnet               |     8145 |     8146 |         0 | 0xfc9b3d41 | "\u001bdollarcoin Signed Message:\n"        |
+| DMB    | Digital Money Bits - Mainnet       |    35097 |    35098 |         0 | 0xf12ffeef | "!Digitalmoneybits Signed Message:\n"       |
+| DMD    | Diamond - Mainnet                  |    17771 |    17770 |         1 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
+| DNR    | Denarius - Mainnet                 |    33339 |    32339 |         9 | 0xfaf2efb4 | "\u0019Denarius Signed Message:\n"          |
+| DOGE   | Dogecoin - Mainnet                 |    22556 |    22555 |         4 | 0xc0c0c0c0 | "\u0019Dogecoin Signed Message:\n"          |
+| DOLLAR | Dollar Online - Mainnet            |    22888 |    22882 |        10 | 0xa1a0a2a3 | "\u001dDOLLAROnline Signed Message:\n"      |
+| DRXNE  | DROXNE - Mainnet                   |    41241 |    41242 |         0 | 0xb4fee4e5 | "\u0017Droxne Signed Message:\n"            |
+| ECN    | E-coin - Mainnet                   |    18741 |    18742 |         1 | 0xb4f8e2e5 | "\u0016eCoin Signed Message:\n"             |
+| EGC    | EverGreenCoin - Mainnet            |     5757 |     5758 |        27 | 0x21246247 | "\u001eEverGreenCoin Signed Message:\n"     |
+| EGG    | EggCoin - Mainnet                  |    31104 |    31105 |         0 | 0x1a320320 | "\u0018Eggcoin Signed Message:\n"           |
+| EMB    | EmberCoin - Mainnet                |    10024 |    10022 |         3 | 0xefa9657c | "\u0016Ember Signed Message:\n"             |
+| EMC    | Emercoin - Mainnet                 |     6661 |     6662 |         4 | 0xe6e8e9e5 | "\u0019EmerCoin Signed Message:\n"          |
+| EMC2   | Einsteinium - Mainnet              |    41878 |    41879 |         9 | 0xe8f1c4ac | "\u001cEinsteinium Signed Message:\n"       |
+| EMD    | Emerald Crypto - Mainnet           |    12127 |    12128 |         5 | 0xfbc0b6db | "\u0018Emerald Signed Message:\n"           |
+| ENRG   | Energycoin - Mainnet               |    22706 |    22705 |         0 | 0xfcd9b7dd | "\u001bEnergyCoin Signed Message:\n"        |
+| ENT    | Eternity - Mainnet                 |     4855 |     4854 |         1 | 0x8ff74d2e | "\u0019DarkCoin Signed Message:\n"          |
+| EQT    | EquiTrader - Mainnet               |    43103 |    43102 |         6 | 0xb4f8e7a5 | "\u001bEquiTrader Signed Message:\n"        |
+| ERA    | ERA - Mainnet                      |    14442 |    14443 |         0 | 0xea117acc | "\u001aBlakeStar Signed Message:\n"         |
+| ERC    | EuropeCoin - Mainnet               |     8881 |    11989 |         0 | 0x4555524f | "\u0018Bitcoin Signed Message:\n"           |
+| ETH    | Ethereum - Mainnet                 |    30303 |     8545 |         0 |            | "\u0019Ethereum Signed Message:\n"          |
+| EVIL   | Evil Coin - Mainnet                |    20001 |    20002 |         0 | 0xa1a0a2a3 | "\u0019EvilCoin Signed Message:\n"          |
+| EXCL   | ExclusiveCoin - Mainnet            |    23230 |    23231 |         1 | 0xa23d2ff3 | "\u001eExclusiveCoin Signed Message:\n"     |
+| FAIR   | FairCoin - Mainnet                 |    46392 |    46393 |         2 | 0xe4e8e9e5 | "\u0019FairCoin Signed Message:\n"          |
+| FGC    | FantasyGold - Mainnet              |    57810 |    57814 |        24 | 0x54494D42 | "\u0018DarkNet Signed Message:\n"           |
+| FJC    | FujiCoin - Mainnet                 |     3777 |     3776 |         2 | 0x66756a69 | "\u0019FujiCoin Signed Message:\n"          |
+| FLO    | FlorinCoin - Mainnet               |     7312 |     7313 |         5 | 0xfdc0a5f1 | "\u001bFlorincoin Signed Message:\n"        |
+| FLT    | FlutterCoin - Mainnet              |     7408 |     7474 |         1 | 0xcfd1e8ea | "\u001cFlutterCoin Signed Message:\n"       |
+| FRC    | Freicoin - Mainnet                 |     8639 |     8638 |         4 | 0x2cfe7e6d | "\u0019Freicoin Signed Message:\n"          |
+| FST    | Fastcoin - Mainnet                 |     9526 |     9527 |         5 | 0xfbc0b6db | "\u0019Fastcoin Signed Message:\n"          |
+| FTC    | Feathercoin - Mainnet              |     9336 |     9337 |         4 | 0x41151a21 | "\u001cFeathercoin Signed Message:\n"       |
+| FTO    | FuturoCoin - Mainnet               |     9009 |     9008 |         2 | 0xCFD2D4C6 | "\u0019DarkCoin Signed Message:\n"          |
+| FUNK   | The Cypherfunks - Mainnet          |    33666 |    34666 |         1 | 0xfbc0b6db | "\u001bCypherfunk Signed Message:\n"        |
+| GAIN   | UGAIN - Mainnet                    |     7891 |     7892 |         0 | 0x06bbe2e5 | "\u0016UGAIN Signed Message:\n"             |
+| GAM    | Gambit - Mainnet                   |    47077 |    47177 |         3 | 0xf2f4f6f8 | "\u0017Gambit Signed Message:\n"            |
+| GAME   | GameCredits - Mainnet              |    40002 |    40001 |         1 | 0xfbc0b6db | "\u001cGameCredits Signed Message:\n"       |
+| GB     | GoldBlocks - Mainnet               |    27920 |    26920 |         7 | 0x60b6cdf4 | "\u001bGoldBlocks Signed Message:\n"        |
+| GBX    | GoByte - Mainnet                   |    12455 |    12454 |        10 | 0x1ab2c3d4 | "\u0019DarkCoin Signed Message:\n"          |
+| GEERT  | GeertCoin - Mainnet                |    64333 |    64332 |         1 | 0xf8d2e3bc | "\u001aGeertcoin Signed Message:\n"         |
+| GIN    | GINcoin - Mainnet                  |    10111 |    10211 |         5 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
+| GLD    | GoldCoin - Mainnet                 |     9333 |     9332 |         5 | 0xfbc0b6db | "\u0019Litecoin Signed Message:\n"          |
+| GLT    | GlobalToken - Mainnet              |     9319 |     9320 |         1 | 0xc708d32d | "\u001cGlobaltoken Signed Message:\n"       |
+| GPL    | Gold Pressed Latinum - Mainnet     |    23635 |    23645 |         1 | 0xcdf2c0ef | "#GoldPressedLatinum Signed Message:\n"     |
+| GRC    | GridCoin - Mainnet                 |    32749 |    15715 |         6 | 0x70352205 | "\u0019Gridcoin Signed Message:\n"          |
+| GRIM   | Grimcoin - Mainnet                 |    24861 |    24862 |         2 | 0xe7420652 | "\u0015Grim Signed Message:\n"              |
+| GRLC   | Garlicoin - Mainnet                |    42069 |    42068 |         3 | 0xd2c6b6db | "\u001aGarlicoin Signed Message:\n"         |
+| GRN    | Granite - Mainnet                  |    21777 |    21776 |        25 | 0xfec3b9de | "\u0018granite Signed Message:\n"           |
+| GRS    | Groestlcoin - Mainnet              |     8333 |     1441 |         6 | 0xf9beb4d9 | "\u001cGroestlCoin Signed Message:\n"       |
+| GSR    | GeyserCoin - Mainnet               |    10556 |    10555 |         3 | 0x60341208 | "\u001bGeyserCoin Signed Message:\n"        |
+| GTC    | Global Tour Coin - Mainnet         |    28111 |    28110 |         0 | 0xd4caafeb | "\u001fGlobalTourCoin Signed Message:\n"    |
+| HAL    | Halcyon - Mainnet                  |    21108 |    21109 |         2 | 0xa1a0a2a3 | "\u0018Halcyon Signed Message:\n"           |
+| HALLO  | Halloween Coin - Mainnet           |    35727 |    35718 |         0 | 0x2cc34aa3 | "\u001aHalloween Signed Message:\n"         |
+| HBN    | HoboNickels - Mainnet              |     7372 |     7373 |         5 | 0xe4e8e9e5 | "\u001cHoboNickels Signed Message:\n"       |
+| HC     | Harvest Masternode Coin - Mainnet  |    12116 |    12117 |         0 | 0x1d7ea62d | "\u0018Harvest Signed Message:\n"           |
+| HOLD   | Interstellar Holdings - Mainnet    |    10130 |    10131 |         2 | 0x902f3215 | "%InterstellarHoldings Signed Message:\n"   |
+| HPC    | Happycoin - Mainnet                |    12846 |    12847 |         5 | 0xb4f3efcc | "\u001aHappyCoin Signed Message:\n"         |
+| HTML   | HTMLCOIN - Mainnet                 |     4888 |     4889 |         4 | 0x1f2e3d4c | "\u0019HTMLCOIN Signed Message:\n"          |
+| HVCO   | High Voltage - Mainnet             |    47824 |    47823 |         2 | 0xb1b6f8a6 | " HighVoltageCoin Signed Message:\n"        |
+| HWC    | HollyWoodCoin - Mainnet            |    10267 |    11030 |         1 | 0x3b409d4f | "\u001eHollyWoodCoin Signed Message:\n"     |
+| HXX    | Hexx - Mainnet                     |    29100 |    29200 |         5 | 0x68657878 | "\u0019hexxcoin Signed Message:\n"          |
+| HYP    | HyperStake - Mainnet               |    18775 |    18777 |         2 | 0xdbadbdda | "\u001bHyperStake Signed Message:\n"        |
+| HYPER  | Hyper - Mainnet                    |    11194 |    11195 |         0 | 0xcefbfadb | "\u0016hyper Signed Message:\n"             |
+| I0C    | I0Coin - Mainnet                   |     7333 |     7332 |         1 | 0xf1b2b3d4 | "\u0018Bitcoin Signed Message:\n"           |
+| IBANK  | iBank - Mainnet                    |     7619 |     7620 |         0 | 0xf45490dc | "\u0016iBank Signed Message:\n"             |
+| ICON   | Iconic - Mainnet                   |    47426 |    47425 |         2 | 0xa3a5f8a6 | "\u0017Iconic Signed Message:\n"            |
+| IFC    | Infinitecoin - Mainnet             |     9321 |     9322 |         3 | 0xfbc0b6db | "\u001dInfinitecoin Signed Message:\n"      |
+| IFLT   | InflationCoin - Mainnet            |    11370 |    11371 |         0 | 0xdbc4f1fa | "\u001eInflationCoin Signed Message:\n"     |
+| IMS    | Independent Money System - Mainnet |     6177 |     6178 |         0 | 0xcaa57766 | "'IndependentMoneySystem Signed Message:\n" |
+| IMX    | Impact - Mainnet                   |    22629 |    21529 |         0 | 0xb1f5d3a9 | "\u0017impact Signed Message:\n"            |
+| INFX   | Influxcoin - Mainnet               |     9238 |     9239 |        70 | 0xf1e0a2d3 | "\u0017Influx Signed Message:\n"            |
+| INN    | Innova - Mainnet                   |    14520 |     8818 |         2 | 0x3c2a3ab9 | "\u0019DarkCoin Signed Message:\n"          |
+| IOC    | I/O Coin - Mainnet                 |    33764 |    33765 |         0 | 0xfec3bade | "\u0018I\/OCoin Signed Message:\n"          |
+| ION    | ION - Mainnet                      |    12700 |    12705 |         2 | 0xc4e1d8ec | "\u0014Ion Signed Message:\n"               |
+| IRL    | IrishCoin - Mainnet                |    12375 |    11372 |         2 | 0xf7c1b6db | "\u001aIrishcoin Signed Message:\n"         |
+| ISL    | IslaCoin - Mainnet                 |     9731 |     9831 |         3 | 0xa1a0a2a3 | "\u0019IslaCoin Signed Message:\n"          |
+| ITI    | iTicoin - Mainnet                  |    42177 |    42144 |         3 | 0xe4e8e9e5 | "\u0018iTiCoin Signed Message:\n"           |
+| IXC    | Ixcoin - Mainnet                   |     8337 |     8338 |         3 | 0xf1bab6db | "\u0018Bitcoin Signed Message:\n"           |
+| JIYO   | Jiyo - Mainnet                     |     6080 |     6070 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
+| KEK    | KekCoin - Mainnet                  |    13337 |    13377 |         0 | 0x11223344 | "\u0018Kekcoin Signed Message:\n"           |
+| KMD    | Komodo - Mainnet                   |     7770 |     7771 |         3 | 0xf9eee48d | "\u0017Komodo Signed Message:\n"            |
+| KNC    | KingN Coin - Mainnet               |    18373 |    18374 |         1 | 0xfc4c8736 | "\u001aKingNCoin Signed Message:\n"         |
+| KOBO   | Kobocoin - Mainnet                 |     9011 |     3341 |         4 | 0xa1a0a2a3 | "\u0019Kobocoin Signed Message:\n"          |
+| KUSH   | KushCoin - Mainnet                 |    31544 |    31543 |         2 | 0xb4e9c2ee | "\u0019KushCoin Signed Message:\n"          |
+| LANA   | LanaCoin - Mainnet                 |     7506 |     5706 |         9 | 0xa5f790fd | "\u0019Lanacoin Signed Message:\n"          |
+| LBC    | LBRY Credits - Mainnet             |     9246 |     9245 |         3 | 0xfae4aaf1 | "\u0018LBRYcrd Signed Message:\n"           |
+| LBTC   | LiteBitcoin - Mainnet              |    19037 |    19038 |         1 | 0x5b6d2f54 | "\u001cLitebitcoin Signed Message:\n"       |
+| LCC    | Litecoin Cash - Mainnet            |    62458 |    62457 |         1 | 0xc7e4baf8 | "\u0019Litecoin Signed Message:\n"          |
+| LCP    | Litecoin Plus - Mainnet            |    44351 |    44350 |         2 | 0xcefbfadb | "\u001dLitecoinPlus Signed Message:\n"      |
+| LEO    | LEOcoin - Mainnet                  |     5840 |     5211 |         0 | 0x646e7882 | "\u0018LEOcoin Signed Message:\n"           |
+| LINDA  | Linda - Mainnet                    |    33820 |    33821 |         0 | 0x9cd31701 | "\u0016Linda Signed Message:\n"             |
+| LIR    | LetItRide - Mainnet                |     2717 |     2718 |         0 | 0x2fc3e527 | "\u001aLetItRide Signed Message:\n"         |
+| LOG    | Woodcoin - Mainnet                 |     8338 |     9332 |         6 | 0xfcd9b7dd | "\u0019Woodcoin Signed Message:\n"          |
+| LTC    | Litecoin - Mainnet                 |     9333 |     9332 |         5 | 0xfbc0b6db | "\u0019Litecoin Signed Message:\n"          |
+| LUX    | LUXCoin - Mainnet                  |    26969 |     9888 |         0 | 0x6ab3c8a9 | "\u0014Lux Signed Message:\n"               |
+| MAC    | Machinecoin - Mainnet              |    40333 |    40332 |         3 | 0xfbc0b6db | "\u001cMachinecoin Signed Message:\n"       |
+| MAGN   | Magnetcoin - Mainnet               |    22458 |    22459 |         0 | 0xa4d2f8a6 | "\u001bMagnetCoin Signed Message:\n"        |
+| MAO    | Mao Zedong - Mainnet               |     9670 |     9669 |        14 | 0xf4d335f1 | "\u0014mao Signed Message:\n"               |
+| MARX   | MarxCoin - Mainnet                 |    41103 |    41102 |         4 | 0xfec3b9de | "\u0015MARX Signed Message:\n"              |
+| MAX    | MaxCoin - Mainnet                  |     8668 |     8669 |         2 | 0xf9bebbd2 | "\u0018MaxCoin Signed Message:\n"           |
+| MAY    | Theresa May Coin - Mainnet         |    35010 |    35011 |         0 | 0xa4d2f8a6 | "\u001bTheresaMay Signed Message:\n"        |
+| MAZA   | MAZA - Mainnet                     |    12835 |    12832 |         1 | 0xf8b503df | "\u0015Maza Signed Message:\n"              |
+| MCRN   | MACRON - Mainnet                   |    55553 |    55555 |         0 | 0xa4d2f8a6 | "\u0017MACRON Signed Message:\n"            |
+| MEC    | Megacoin - Mainnet                 |     7951 |     7951 |         1 | 0xede0e4ee | "\u0019Megacoin Signed Message:\n"          |
+| MEDIC  | MedicCoin - Mainnet                |     2118 |     2117 |         0 | 0x1bd76fc9 | "\u001aMedicCoin Signed Message:\n"         |
+| MEME   | Memetic / PepeCoin - Mainnet       |    29377 |    29376 |         2 | 0x3ac42c2f | "\u0019PepeCoin Signed Message:\n"          |
+| METAL  | MetalCoin - Mainnet                |    22332 |    22333 |         0 | 0xa1a0a2a3 | "\u001aMetalCoin Signed Message:\n"         |
+| MINT   | Mintcoin - Mainnet                 |    12788 |    12789 |         3 | 0xced5dbfa | "\u0019MintCoin Signed Message:\n"          |
+| MLM    | MktCoin - Mainnet                  |     9275 |     9276 |         1 | 0xf9beb4d9 | "\u0018MKTcoin Signed Message:\n"           |
+| MNM    | Mineum - Mainnet                   |    31316 |    31315 |         1 | 0x5ac382d3 | "\u0017Mineum Signed Message:\n"            |
+| MNX    | MinexCoin - Mainnet                |     8335 |    17786 |         5 | 0x4b4a4c5d | "\u0018Bitcoin Signed Message:\n"           |
+| MOJO   | MojoCoin - Mainnet                 |     9495 |     9496 |         9 | 0x71312106 | "\u0019Mojocoin Signed Message:\n"          |
+| MONA   | MonaCoin - Mainnet                 |     9401 |     9402 |         1 | 0xfbc0b6db | "\u0019Monacoin Signed Message:\n"          |
+| MONK   | Monkey Project - Mainnet           |     8710 |     8101 |         6 | 0x42a4c52b | "\u0017Monkey Signed Message:\n"            |
+| MOON   | Mooncoin - Mainnet                 |    44664 |    44663 |         3 | 0xf9f7c0e8 | "\u0019Mooncoin Signed Message:\n"          |
+| MRQ    | MIRQ - Mainnet                     |    55611 |    55622 |         0 | 0xe1ab3cc1 | "\u0018DarkNet Signed Message:\n"           |
+| MST    | MustangCoin - Mainnet              |    19667 |    19668 |         0 | 0xa1a0a2a3 | "\u0018mustang Signed Message:\n"           |
+| MTNC   | Masternodecoin - Mainnet           |    10086 |    10085 |         0 | 0xd5ce8c5e | "\u001fMasternodecoin Signed Message:\n"    |
+| MXT    | MarteXcoin - Mainnet               |    51315 |    51314 |         5 | 0x2d3fa2f5 | "\u0017MarteX Signed Message:\n"            |
+| NAV    | NavCoin - Mainnet                  |    44440 |    44444 |         2 | 0x80503420 | "\u0018Navcoin Signed Message:\n"           |
+| NEVA   | NevaCoin - Mainnet                 |     7391 |     3791 |        12 | 0xe483e632 | "\u0019Nevacoin Signed Message:\n"          |
+| NLC2   | NoLimitCoin - Mainnet              |     6521 |     6520 |         3 | 0xb1b6f8a6 | "\u001cNoLimitCoin Signed Message:\n"       |
+| NLG    | Gulden - Mainnet                   |     9231 |     9232 |         5 | 0xfcfef7e0 | "\u001bGuldencoin Signed Message:\n"        |
+| NLX    | Nullex - Mainnet                   |     6897 |     6898 |         0 | 0x9f180a16 | "\u0017NulleX Signed Message:\n"            |
+| NMC    | Namecoin - Mainnet                 |     8334 |     8336 |         2 | 0xf9beb4fe | "\u0018Bitcoin Signed Message:\n"           |
+| NMS    | Numus - Mainnet                    |    28121 |    28122 |         0 | 0xf1eca1c7 | "\u0016Numus Signed Message:\n"             |
+| NUMUS  | NumusCash - Mainnet                |    21139 |    21140 |         1 | 0x654ac5d5 | "\u001aNumusCash Signed Message:\n"         |
+| NVC    | Novacoin - Mainnet                 |     7777 |     8344 |         4 | 0xe4e8e9e5 | "\u0019NovaCoin Signed Message:\n"          |
+| NYC    | NewYorkCoin - Mainnet              |    17020 |    18823 |         0 | 0xc0c0c0c0 | "\u0019newyorkc Signed Message:\n"          |
+| OCC    | Octoin Coin - Mainnet              |    16840 |     8332 |         3 | 0x64736261 | "\u001bOctoinCoin Signed Message:\n"        |
+| ODN    | Obsidian - Mainnet                 |    56660 |    56661 |         5 | 0x4f646e31 | "\u0019Obsidian Signed Message:\n"          |
+| OK     | OKCash - Mainnet                   |     6970 |     6969 |         6 | 0x69f00f69 | "\u0017OKCash Signed Message:\n"            |
+| OMC    | Omicron - Mainnet                  |     8519 |     8520 |         0 | 0xf240ebb3 | "\u0018Omicron Signed Message:\n"           |
+| ONION  | DeepOnion - Mainnet                |    17570 |    18580 |         0 | 0xd1f1dbf2 | "\u001aDeepOnion Signed Message:\n"         |
+| OPC    | OP Coin - Mainnet                  |    13355 |    13357 |         3 | 0x9be0d8e9 | "\u0017OPCoin Signed Message:\n"            |
+| ORE    | Galactrum - Mainnet                |     6270 |     6269 |         5 | 0xb1ded0af | "\u0019DarkCoin Signed Message:\n"          |
+| PAK    | Pakcoin - Mainnet                  |     7867 |     7866 |         1 | 0x70616b63 | "\u0018Pakcoin Signed Message:\n"           |
+| PART   | Particl - Mainnet                  |    51738 |    51735 |         3 | 0xfbf2efb4 | "\u0018Bitcoin Signed Message:\n"           |
+| PHR    | Phore - Mainnet                    |    11771 |    11772 |         2 | 0x91c4fde9 | "\u0018DarkNet Signed Message:\n"           |
+| PHS    | Philosopher Stones - Mainnet       |    16281 |    16282 |         0 | 0xe4efdbfd | "!Philosopherstone Signed Message:\n"       |
+| PIGGY  | Piggycoin - Mainnet                |    54481 |    54480 |         4 | 0xa1a0a2a3 | "\u001dnewpiggycoin Signed Message:\n"      |
+| PINK   | PinkCoin - Mainnet                 |     9134 |     9135 |         6 | 0xf2f4f9fb | "\u0019Pinkcoin Signed Message:\n"          |
+| PIVX   | PIVX - Mainnet                     |    51472 |    51473 |         4 | 0x90c4fde9 | "\u0018DarkNet Signed Message:\n"           |
+| PLACO  | PlayerCoin - Mainnet               |    16666 |    17321 |         1 | 0xeb3d1cc4 | "\u001bPlayerCoin Signed Message:\n"        |
+| PND    | Pandacoin - Mainnet                |    22445 |    22444 |         1 | 0xc0c0c0c0 | "\u001aPandacoin Signed Message:\n"         |
+| PNX    | Phantomx - Mainnet                 |    31978 |    21978 |         0 | 0xd627d6e2 | "\u0016Cream Signed Message:\n"             |
+| POLIS  | Polis - Mainnet                    |    24126 |    24127 |         3 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
+| POP    | PopularCoin - Mainnet              |    18181 |    27172 |         0 | 0xcefbfadb | "\u001cPopularCoin Signed Message:\n"       |
+| POST   | PostCoin - Mainnet                 |     9130 |     9131 |         0 | 0x35c3d6a2 | "\u0019PostCoin Signed Message:\n"          |
+| POT    | PotCoin - Mainnet                  |     4200 |    42000 |         1 | 0xfbc0b6db | "\u0018Potcoin Signed Message:\n"           |
+| PPC    | Peercoin - Mainnet                 |     9901 |     9902 |         2 | 0xe5e9e8e6 | "\u0019Peercoin Signed Message:\n"          |
+| PROUD  | PROUD Money - Mainnet              |    24241 |    24242 |         9 | 0xf1e0a2d3 | "\u0019GAY Coin Signed Message:\n"          |
+| PURA   | Pura - Mainnet                     |    44444 |    55555 |         0 | 0xb897c543 | "\u0015Pura Signed Message:\n"              |
+| PURE   | Pure - Mainnet                     |    32745 |    32746 |        10 | 0x11c3b1de | "\u0015Pure Signed Message:\n"              |
+| PUT    | PutinCoin - Mainnet                |    20095 |    20094 |         0 | 0xb7f0e2e5 | "\u001aPutinCoin Signed Message:\n"         |
+| Q2C    | QubitCoin - Mainnet                |     7788 |     7799 |         4 | 0xfea503dd | "\u001aQubitcoin Signed Message:\n"         |
+| QBC    | Quebecoin - Mainnet                |    56790 |    56789 |         2 | 0xd3edc9f1 | "\u001aQuebecoin Signed Message:\n"         |
+| QTL    | Quatloo - Mainnet                  |    17012 |    17011 |         3 | 0xfacebeda | "\u0018Quatloo Signed Message:\n"           |
+| QTUM   | Qtum - Mainnet                     |     3888 |     3889 |         4 | 0xf1cfa6d3 | "\u0015Qtum Signed Message:\n"              |
+| RADS   | Radium - Mainnet                   |    27913 |    27914 |         0 | 0x2a7ccbab | "\u0017radium Signed Message:\n"            |
+| RBY    | Rubycoin - Mainnet                 |     5937 |     5938 |         4 | 0x13121611 | "\u0019Rubycoin Signed Message:\n"          |
+| RC     | RussiaCoin - Mainnet               |    19992 |    19991 |         0 | 0xc0c0c0c0 | "\u001bRussiaCoin Signed Message:\n"        |
+| RDD    | ReddCoin - Mainnet                 |    45444 |    45443 |         4 | 0xfbc0b6db | "\u0019Reddcoin Signed Message:\n"          |
+| REGA   | Regacoin - Mainnet                 |    28192 |    28190 |         0 | 0xd4ca3fec | "\u0015REGA Signed Message:\n"              |
+| RIC    | Riecoin - Mainnet                  |    28333 |    28332 |         1 | 0xfcbcb2db | "\u0018riecoin Signed Message:\n"           |
+| RNS    | Renos - Mainnet                    |    57155 |    57154 |         2 | 0xaaa3b2c4 | "\u001aRenosCoin Signed Message:\n"         |
+| ROOFS  | Roofs - Mainnet                    |    20019 |    20020 |         0 | 0x904a9240 | "\u0016ROOFS Signed Message:\n"             |
+| RPC    | RonPaulCoin - Mainnet              |     9027 |     9026 |         1 | 0xfbc0b6db | "\u001cRonPaulCoin Signed Message:\n"       |
+| RUP    | Rupee - Mainnet                    |    10459 |    10460 |         0 | 0x3b69ded4 | "\u0016RUPEE Signed Message:\n"             |
+| RUPX   | Rupaya - Mainnet                   |     9020 |     7020 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
+| RVN    | Ravencoin - Mainnet                |     8767 |     8766 |         2 | 0x5241564e | "\u0016Raven Signed Message:\n"             |
+| SAGA   | SagaCoin - Mainnet                 |    48744 |    48844 |         3 | 0xaaa3b2c4 | "\u0019SagaCoin Signed Message:\n"          |
+| SAK    | Sharkcoin - Mainnet                |     4011 |     4009 |         2 | 0xfea503db | "\u001aSharkcoin Signed Message:\n"         |
+| SBC    | StrikeBitClub - Mainnet            |    21575 |    21576 |         2 | 0x556a3299 | "\u0018SBCcoin Signed Message:\n"           |
+| SEQ    | Sequence - Mainnet                 |    16662 |    16663 |         4 | 0x01100220 | "\u0015Silk Signed Message:\n"              |
+| SIB    | SIBCoin - Mainnet                  |     1945 |     1944 |         5 | 0xbf0c6bbd | "\u0018SibCoin Signed Message:\n"           |
+| SKC    | Skeincoin - Mainnet                |    11230 |    21230 |        11 | 0xf726a1bf | "\u001aSkeincoin Signed Message:\n"         |
+| SLR    | SolarCoin - Mainnet                |    18188 |    18181 |         2 | 0x04f104fd | "\u001aSolarCoin Signed Message:\n"         |
+| SLS    | SaluS - Mainnet                    |    22534 |    22530 |         0 | 0xd3c5a721 | "\u0016SaluS Signed Message:\n"             |
+| SMART  | SmartCash - Mainnet                |     9678 |     9679 |         9 | 0x5ca1ab1e | "\u001aSmartCash Signed Message:\n"         |
+| SOCC   | SocialCoin - Mainnet               |    18645 |    18646 |         0 | 0xee64e31d | "\u001bSocialcoin Signed Message:\n"        |
+| SONG   | SongCoin - Mainnet                 |     8335 |     8334 |         1 | 0x534f4e47 | "\u0019Songcoin Signed Message:\n"          |
+| SPACE  | SpaceCoin - Mainnet                |     9172 |     9173 |         3 | 0xf4f2f9fb | "\u001aSpaceCoin Signed Message:\n"         |
+| SPD    | Stipend - Mainnet                  |    46978 |    46979 |         0 | 0xa3fbdbdb | "\u0018Stipend Signed Message:\n"           |
+| SPHR   | Sphere - Mainnet                   |    37544 |    37545 |         1 | 0xa8b81130 | "\u0017Sphere Signed Message:\n"            |
+| SPK    | Sparks - Mainnet                   |     8890 |     8892 |         4 | 0x1ab2c3d4 | "\u0019DarkCoin Signed Message:\n"          |
+| SRC    | SecureCoin - Mainnet               |    12567 |    12568 |         1 | 0xfcb4d9ab | "\u001bSecurecoin Signed Message:\n"        |
+| STAK   | STRAKS - Mainnet                   |     7575 |     7574 |         5 | 0xb0d5f02c | "\u0017Straks Signed Message:\n"            |
+| STN    | Steneum Coin - Mainnet             |    26965 |    26966 |         0 | 0xe626170d | "\u0018Steneum Signed Message:\n"           |
+| STV    | Sativacoin - Mainnet               |    60990 |    62990 |         3 | 0xa1a0a2a3 | "\u001bsativacoin Signed Message:\n"        |
+| SUPER  | SuperCoin - Mainnet                |    19390 |    19391 |         2 | 0xdbfafcfd | "\u001aSuperCoin Signed Message:\n"         |
+| SWING  | Swing - Mainnet                    |    16061 |    16080 |         1 | 0xdd1ee2af | "\u0016Swing Signed Message:\n"             |
+| SXC    | Sexcoin - Mainnet                  |     9560 |     9561 |         3 | 0xface6969 | "\u0018Sexcoin Signed Message:\n"           |
+| SYS    | Syscoin - Mainnet                  |     8369 |     8370 |         4 | 0xf9beb4d9 | "\u0018Syscoin Signed Message:\n"           |
+| TAJ    | TajCoin - Mainnet                  |    10712 |    12107 |         9 | 0x7d4f8b4d | "\u0018Tajcoin Signed Message:\n"           |
+| TELL   | Tellurion - Mainnet                |     9999 |    33716 |         5 | 0x1a1c3a1b | "\u001aTellurion Signed Message:\n"         |
+| THC    | HempCoin - Mainnet                 |    21054 |    12055 |         0 | 0xa5a5fd01 | "\u0019Hempcoin Signed Message:\n"          |
+| TOA    | ToaCoin - Mainnet                  |     9642 |     3564 |         0 | 0xeaafe3c7 | "\u0014TOA Signed Message:\n"               |
+| TOKC   | TOKYO - Mainnet                    |    23517 |    23518 |         1 | 0x005aab1e | "\u001aTokyocoin Signed Message:\n"         |
+| TOP    | TopCoin - Mainnet                  |    22561 |    22562 |         0 | 0xcefbfadb | "\u0019TopCoin3 Signed Message:\n"          |
+| TPAY   | TokenPay - Mainnet                 |     8801 |     8800 |         0 | 0xfbf1e2b1 | "\u0019TokenPay Signed Message:\n"          |
+| TRC    | Terracoin - Mainnet                |    13333 |    13332 |         2 | 0x42babe56 | "\u0019DarkCoin Signed Message:\n"          |
+| TRK    | Truckcoin - Mainnet                |    18775 |    18776 |         5 | 0xdbadbdda | "\u001aTruckcoin Signed Message:\n"         |
+| TX     | TransferCoin - Mainnet             |    17170 |    17171 |         3 | 0xd12e1ee6 | "\u0019Transfer Signed Message:\n"          |
+| UIS    | Unitus - Mainnet                   |    50603 |    50604 |         4 | 0xc5abc69d | "\u0017Unitus Signed Message:\n"            |
+| ULA    | Ulatech - Mainnet                  |    21659 |    21660 |         2 | 0x8ba3369a | "\u0018UlaTech Signed Message:\n"           |
+| UNIFY  | Unify - Mainnet                    |    18649 |    18650 |         6 | 0xc447f9ee | "\u0016Unify Signed Message:\n"             |
+| UNIT   | Universal Currency - Mainnet       |    14158 |    14157 |         0 | 0xa4d2f8a6 | "\"UniversalCurrency Signed Message:\n"     |
+| UNO    | Unobtanium - Mainnet               |    65534 |    65535 |         3 | 0x03d5b503 | "\u001bUnobtanium Signed Message:\n"        |
+| USC    | Ultimate Secure Cash - Mainnet     |    51737 |    51736 |         0 | 0xfaf2efb4 | "#UltimateSecureCash Signed Message:\n"     |
+| VEC2   | VectorAI - Mainnet                 |     1715 |     1716 |         0 | 0xe79260e8 | "\u0017Vector Signed Message:\n"            |
+| VIA    | Viacoin - Mainnet                  |     5223 |     5222 |         3 | 0x0f68c6cb | "\u0018Viacoin Signed Message:\n"           |
+| VIDZ   | PureVidz - Mainnet                 |     3818 |     4818 |         0 | 0xe4155311 | "\u0019PureVidz Signed Message:\n"          |
+| VIPS   | Vipstar Coin - Mainnet             |    31915 |    31916 |         1 | 0x012CE7B5 | "\u001cVIPSTARCOIN Signed Message:\n"       |
+| VISIO  | Visio - Mainnet                    |    16778 |    16774 |         4 | 0x70352205 | "\u0016Visio Signed Message:\n"             |
+| VIVO   | VIVO - Mainnet                     |    12845 |     9998 |         2 | 0x1d425ba7 | "\u0019DarkCoin Signed Message:\n"          |
+| VOLT   | Bitvolt - Mainnet                  |    11516 |    15615 |         0 | 0x12695122 | "\u0019VoltCoin Signed Message:\n"          |
+| VOT    | VoteCoin - Mainnet                 |     8144 |     8242 |         3 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
+| VRC    | VeriCoin - Mainnet                 |    58684 |    58683 |         3 | 0x70352205 | "\u0019VeriCoin Signed Message:\n"          |
+| VSX    | Vsync - Mainnet                    |    65010 |    65015 |        10 | 0x21550a5a | "\u0018DarkNet Signed Message:\n"           |
+| VTA    | Virtacoin - Mainnet                |    22816 |    22815 |         2 | 0xbed0c8d1 | "\u001aVirtaCoin Signed Message:\n"         |
+| VTC    | Vertcoin - Mainnet                 |     5889 |     5888 |         7 | 0xfabfb5da | "\u0019Vertcoin Signed Message:\n"          |
+| VULC   | Vulcano - Mainnet                  |    21041 |    21042 |         4 | 0xe5777746 | "\u0018VULCANO Signed Message:\n"           |
+| WC     | WINCOIN - Mainnet                  |    11610 |    11611 |         0 | 0xf9beb4d9 | "\u001dWinCoin Signed Message, sun:\n"      |
+| WINK   | Wink - Mainnet                     |    37748 |    37745 |         0 | 0xf32da571 | "\u0019winkcoin Signed Message:\n"          |
+| WOMEN  | WomenCoin - Mainnet                |    19207 |    19208 |         0 | 0xf11394ee | "\u001aWOMENCOIN Signed Message:\n"         |
+| XBTC21 | Bitcoin 21 - Mainnet               |    21008 |    21007 |         6 | 0xb4f8e2e5 | "\u001aBitcoin21 Signed Message:\n"         |
+| XBTS   | Beatcoin - Mainnet                 |    26152 |    26151 |         0 | 0xa1a0a2a3 | "\u001aBeatsCoin Signed Message:\n"         |
+| XCO    | X-Coin - Mainnet                   |    14641 |    14642 |         0 | 0xa5d2d7a6 | "\u0016Xcoin Signed Message:\n"             |
+| XCT    | C-Bit - Mainnet                    |     8289 |     8288 |         0 | 0xdeadfed5 | "\u0018Bitcoin Signed Message:\n"           |
+| XGOX   | XGOX - Mainnet                     |    23185 |    23186 |         2 | 0x71ae7664 | "\u0015xgox Signed Message:\n"              |
+| XJO    | Joulecoin - Mainnet                |    26789 |     8844 |         6 | 0xa5c07955 | "\u001aJoulecoin Signed Message:\n"         |
+| XLR    | Solaris - Mainnet                  |    60020 |    61020 |        13 | 0x022101a1 | "\u0018DarkNet Signed Message:\n"           |
+| XMR    | Monero - Mainnet                   |    18080 |    18081 |         4 |            | ""                                          |
+| XMY    | Myriad - Mainnet                   |    10888 |    10889 |         9 | 0xaf4576ee | "\u001bMyriadcoin Signed Message:\n"        |
+| XP     | Experience Points - Mainnet        |    28192 |    28191 |         4 | 0xb4f8e2e5 | "\u0013XP Signed Message:\n"                |
+| XPM    | Primecoin - Mainnet                |     9911 |     9912 |         4 | 0xe4e7e5e7 | "\u001aPrimecoin Signed Message:\n"         |
+| XPTX   | PlatinumBAR - Mainnet              |    18993 |    18994 |         5 | 0x03030606 | "\u001cPlatinumBar Signed Message:\n"       |
+| XQN    | Quotient - Mainnet                 |    30994 |    30997 |         1 | 0xefb2faf2 | "\u0019Quotient Signed Message:\n"          |
+| XRA    | Ratecoin - Mainnet                 |    35851 |    35850 |         3 | 0xa1a0a2a3 | "\u0019RATECoin Signed Message:\n"          |
+| XRE    | RevolverCoin - Mainnet             |     8777 |     8775 |         0 | 0xf9beb4d9 | "\u001dRevolverCoin Signed Message:\n"      |
+| XSN    | Stakenet - Mainnet                 |    62583 |    51473 |         0 | 0xbf0c6cbd | "\u0019DarkCoin Signed Message:\n"          |
+| XSPEC  | Spectrecoin - Mainnet              |    37347 |    36657 |         0 | 0xb5225cd3 | "\u001cSpectreCoin Signed Message:\n"       |
+| XTO    | Tao - Mainnet                      |    15150 |    15151 |         7 | 0x1dd11ee1 | "\u0014Tao Signed Message:\n"               |
+| XVG    | Verge - Mainnet                    |    21102 |    20102 |         0 | 0xf7a77eff | "\u0016VERGE Signed Message:\n"             |
+| XWC    | WhiteCoin - Mainnet                |    15814 |    15815 |         4 | 0x182d43f3 | "\u001aWhitecoin Signed Message:\n"         |
+| XZC    | ZCoin - Mainnet                    |     8168 |     8888 |         5 | 0xe3d9fef1 | "\u0016Zcoin Signed Message:\n"             |
+| YTN    | YENTEN - Mainnet                   |     9981 |     9252 |         1 | 0xad5aeb9f | "\u0017Yenten Signed Message:\n"            |
+| ZCL    | ZClassic - Mainnet                 |     8033 |     8023 |        13 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
+| ZEC    | Zcash - Mainnet                    |     8233 |     8232 |         3 | 0x24e92764 | "\u0016Zcash Signed Message:\n"             |
+| ZEIT   | Zeitcoin - Mainnet                 |    44845 |    44843 |         3 | 0xced5dbfa | "\u0019Zeitcoin Signed Message:\n"          |
+| ZEN    | ZenCash - Mainnet                  |     9033 |     8231 |         6 | 0x63617368 | "\u0016Zcash Signed Message:\n"             |
+| ZENI   | Zennies - Mainnet                  |    11011 |    11012 |         2 | 0x2a7ccbab | "\u0019ZeniCoin Signed Message:\n"          |
+| ZET    | Zetacoin - Mainnet                 |    17333 |     8332 |        12 | 0xfab503df | "\u0019Zetacoin Signed Message:\n"          |
+| ZOI    | Zoin - Mainnet                     |     8255 |     8255 |         0 | 0xf503a951 | "\u0015Zoin Signed Message:\n"              |
+| ZYD    | Zayedcoin - Mainnet                |     8371 |     8372 |         0 | 0xd0cecf9c | "\u001aZayedcoin Signed Message:\n"         |
+| ZZC    | ZoZoCoin - Mainnet                 |    19995 |     3882 |         9 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
 
 ## Testnet
 

@@ -7726,7 +7726,7 @@
             "decimals": 8
         }
     },
-    "DCR - Mainnet": {
+    "DCR": {
         "meta": {
             "symbol": "DCR",
             "name": "Decred",
@@ -7758,8 +7758,8 @@
             "original_codebase": "btcd"
         },
         "main": {
-            "symbol": "DCR - Mainnet",
-            "name": "Decred",
+            "symbol": "DCR",
+            "name": "Decred - Mainnet",
             "testnet": false,
             "port": 9108,
             "port_rpc": 9109,
@@ -9828,7 +9828,7 @@
         },
         "main": {
             "symbol": "ETH",
-            "name": "Ethereum",
+            "name": "Ethereum - Mainnet",
             "testnet": false,
             "protocol": {
                 "magic": null
@@ -27494,7 +27494,7 @@
         },
         "main": {
             "symbol": "XMR",
-            "name": "Monero",
+            "name": "Monero - Mainnet",
             "testnet": false,
             "protocol": {
                 "magic": ""

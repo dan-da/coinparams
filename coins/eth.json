@@ -28,7 +28,7 @@
     },
     "main": {
         "symbol": "ETH",
-        "name": "Ethereum",
+        "name": "Ethereum - Mainnet",
         "testnet": false,
         "protocol": {
             "magic": null

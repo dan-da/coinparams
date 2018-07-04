@@ -16,364 +16,364 @@ Many older coins do not have bip32 prefixes defined.  In these cases,
 the values from bitcoin are used.
 
 ## Mainnet
-| Symbol        | Name                               | Privkey | Pubkey | P2SH | Ext Privkey | Ext Pubkey | Bip44 | Bech32 |
-|---------------|------------------------------------|---------|--------|------|-------------|------------|-------|--------|
-| $PAC          | PACcoin - Mainnet                  |     204 |     55 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-|          1337 | Elite - Mainnet                    |     176 |     48 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-|            42 | 42-coin - Mainnet                  |     136 |      8 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| ABJC          | Abjcoin Commerce - Mainnet         |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ACC           | AdCoin - Mainnet                   |     176 |     23 |    5 | 0x0488ade4  | 0x0488b21e |   161 |        |
-| ACES          | Aces - Mainnet                     |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ACP           | AnarchistsPrime - Mainnet          |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| ADC           | AudioCoin - Mainnet                |     151 |     23 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
-| ADZ           | Adzcoin - Mainnet                  |     148 |     20 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| AIB           | Advanced Internet Blocks - Mainnet |       0 |      0 |    0 | 0x0488ade4  | 0x0488b21e |    55 |        |
-| ALL           | Allion - Mainnet                   |     154 |     26 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| ALQO          | ALQO - Mainnet                     |     193 |     23 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
-| AMMO          | Ammo Reloaded - Mainnet            |     142 |     14 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
-| AMS           | AmsterdamCoin - Mainnet            |     212 |     23 |   13 | 0x0221312b  | 0x022d2533 |       |        |
-| ANI           | Animecoin - Mainnet                |     151 |     23 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| ANTX          | Antimatter - Mainnet               |     203 |     75 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| APR           | APR Coin - Mainnet                 |      46 |     12 |    6 | 0x0488ade4  | 0x0488b21e |       |        |
-| ARB           | ARbit - Mainnet                    |     151 |     23 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| ARC           | Advanced Technology Coin - Mainnet |     176 |     23 |    8 | 0x0774a137  | 0x07e8f89c |       |        |
-| ARCO          | AquariusCoin - Mainnet             |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| ARG           | Argentum - Mainnet                 |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |    45 |        |
-| ASAFE2        | AllSafe - Mainnet                  |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ATC           | Arbitracoin - Mainnet              |     155 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| AU            | AurumCoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| AUR           | Auroracoin - Mainnet               |     176 |     23 |    5 | 0x0488ade4  | 0x0488b21e |    85 |        |
-| AV            | AvatarCoin - Mainnet               |     151 |     23 |   41 | 0x0488ade4  | 0x0488b21e |       |        |
-| AXIOM         | Axiom - Mainnet                    |     153 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| BAY           | BitBay - Mainnet                   |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| BCA           | Bitcoin Atom - Mainnet             |     128 |     23 |   10 | 0x0488ade4  | 0x0488b21e |   185 | bca    |
-| BCC           | BitConnect - Mainnet               |     146 |     18 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| BCD           | Bitcoin Diamond - Mainnet          |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   999 |        |
-| BCF           | Bitcoin Fast - Mainnet             |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| BCH           | Bitcoin Cash - Mainnet             |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   145 |        |
-| BCI           | Bitcoin Interest - Mainnet         |     128 |    102 |   23 | 0x0488ade4  | 0x0488b21e |       |        |
-| BCO           | BridgeCoin - Mainnet               |     176 |     27 |    5 | 0x0488ade4  | 0x0488b21e |   162 |        |
-| BENJI         | BenjiRolls - Mainnet               |     383 |    255 |  253 | 0x0488ade4  | 0x0488b21e |       |        |
-| BERN          | BERNcash - Mainnet                 |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| BIO           | BioCoin - Mainnet                  |     153 |     25 |   20 | 0x0488ade4  | 0x0488b21e |   154 |        |
-| BIOB          | BioBar - Mainnet                   |     153 |     25 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
-| BIRDS         | Birds - Mainnet                    |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| BITG          | Bitcoin Green - Mainnet            |      46 |     38 |    6 | 0x0488ade4  | 0x0488b21e |   222 |        |
-| BITOK         | Bitok - Mainnet                    |     125 |     25 |  191 | 0xee8031e8  | 0xee80286a |       |        |
-| BITS          | Bitstar - Mainnet                  |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| BLAZR         | BlazerCoin - Mainnet               |     153 |     25 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
-| BLK           | BlackCoin - Mainnet                |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |    10 |        |
-| BLOCK         | Blocknet - Mainnet                 |     154 |     26 |   28 | 0x0488ade4  | 0x0488b21e |   328 |        |
-| BLU           | BlueCoin - Mainnet                 |     176 |     26 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| BOAT          | BOAT - Mainnet                     |     153 |     25 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
-| BOLI          | Bolivarcoin - Mainnet              |     213 |     85 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| BRO           | Bitradio - Mainnet                 |     128 |     26 |  102 | 0x0488ade4  | 0x0488b21e |       |        |
-| BSC           | BowsCoin - Mainnet                 |     153 |     25 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| BSD           | BitSend - Mainnet                  |     204 |    102 |    5 | 0x0488ade4  | 0x0488b21e |    91 |        |
-| BSR           | BitSoar - Mainnet                  |     154 |     26 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| BSTY          | GlobalBoost-Y - Mainnet            |     205 |     77 |  139 | 0x0488ade4  | 0x0488b21e |       |        |
-| BTA           | Bata - Mainnet                     |     188 |     25 |    5 | 0xa40b91bd  | 0xa40c86fa |    89 |        |
-| BTB           | BitBar - Mainnet                   |     153 |     25 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
-| BTC           | Bitcoin - Mainnet                  |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |     0 | bc     |
-| BTCD          | BitcoinDark - Mainnet              |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |    52 |        |
-| BTCP          | Bitcoin Private - Mainnet          |     128 |   4901 | 5039 | 0x0488ade4  | 0x0488b21e |   183 |        |
-| BTCR          | Bitcurrency - Mainnet              |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| BTCZ          | BitcoinZ - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   177 |        |
-| BTDX          | Bitcloud - Mainnet                 |     153 |     25 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| BTG           | Bitgem - Mainnet                   |     128 |     38 |   23 | 0x0488ade4  | 0x0488b21e |   156 |        |
-| BTX           | Bitcore - Mainnet                  |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   160 |        |
-| BUB           | Bubble - Mainnet                   |     128 |     53 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| BUMBA         | BumbaCoin - Mainnet                |     153 |     25 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| BUZZ          | BuzzCoin - Mainnet                 |     153 |     25 |   85 | 0x0488a0e4  | 0x0488c21e |   169 |        |
-| BWK           | Bulwark - Mainnet                  |     212 |     85 |   18 | 0x0221312b  | 0x022d2533 |       |        |
-| CANN          | CannabisCoin - Mainnet             |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CARBON        | Carboncoin - Mainnet               |     175 |     47 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CAT           | Catcoin - Mainnet                  |     149 |     21 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
-| CAZ           | Cazcoin - Mainnet                  |     144 |     28 |   43 | 0x0488b21e  | 0x0488b21e |       |        |
-| CBX           | Bullion - Mainnet                  |       0 |     11 |    8 | 0xa7b52ca2  | 0xa7b52474 |       |        |
-| CHAN          | ChanCoin - Mainnet                 |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CHEAP         | Cheapcoin - Mainnet                |     173 |     45 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
-| CHESS         | ChessCoin - Mainnet                |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| CHIPS         | CHIPS - Mainnet                    |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| CJ            | Cryptojacks - Mainnet              |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| CLAM          | Clams - Mainnet                    |     133 |    137 |   13 | 0x0488ade4  | 0x0488b21e |    23 |        |
-| CLUB          | ClubCoin - Mainnet                 |     153 |     28 |   85 | 0x0488ade4  | 0x0488b21e |    79 |        |
-| CMPCO         | CampusCoin - Mainnet               |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CNNC          | Cannation - Mainnet                |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| CNX           | Cryptonex - Mainnet                |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| COLX          | ColossusXT - Mainnet               |     212 |     30 |   13 | 0x0221312b  | 0x022d2533 |       |        |
-| CON           | PayCon - Mainnet                   |     183 |     55 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| CPC           | Capricoin - Mainnet                |     156 |     28 |   35 | 0x0488ade4  | 0x0488b21e |       |        |
-| CRAVE         | Crave - Mainnet                    |     153 |     70 |   85 | 0x0488ade4  | 0x0488b21e |   186 |        |
-| CRC           | CrowdCoin - Mainnet                |       0 |     28 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
-| CRM           | Cream - Mainnet                    |     155 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CROP          | Cropcoin - Mainnet                 |     153 |     87 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| CRW           | Crown - Mainnet                    |     128 |      0 |   28 | 0x0488ade4  | 0x0488b21e |    72 |        |
-| CTO           | Crypto - Mainnet                   |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| CURE          | Curecoin - Mainnet                 |     153 |     25 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
-| CYDER         | Cyder - Mainnet                    |     148 |     20 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
-| DASH          | Dash - Mainnet                     |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |     5 |        |
-| DCR - Mainnet | Decred                             |    8926 |   1855 | 1818 | 0x2fda4e8   | 0x2fda926  |    42 |        |
-| DEM           | Deutsche eMark - Mainnet           |     181 |     53 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
-| DEV           | DeviantCoin - Mainnet              |     137 |     90 |   10 | 0x0441514b  | 0x044d5066 |       |        |
-| DGB           | DigiByte - Mainnet                 |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |    20 | dgb    |
-| DGC           | Digitalcoin - Mainnet              |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |    18 |        |
-| DIME          | Dimecoin - Mainnet                 |     143 |     15 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| DLC           | Dollarcoin - Mainnet               |     158 |     30 |    5 | 0x0488ade4  | 0x0488b21e |   102 |        |
-| DMB           | Digital Money Bits - Mainnet       |     153 |    137 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| DMD           | Diamond - Mainnet                  |     218 |     90 |    8 | 0x0488ade4  | 0x0488b21e |   152 |        |
-| DNR           | Denarius - Mainnet                 |     158 |     30 |   90 | 0x0488ade4  | 0x0488b21e |   116 |        |
-| DOGE          | Dogecoin - Mainnet                 |     158 |     30 |   22 | 0x02fac398  | 0x02facafd |     3 |        |
-| DOLLAR        | Dollar Online - Mainnet            |     158 |     30 |   90 | 0x0488ade4  | 0x0488b21e |       |        |
-| DRXNE         | DROXNE - Mainnet                   |     159 |     31 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| ECN           | E-coin - Mainnet                   |     220 |     92 |   20 | 0x0488ade4  | 0x0488b21e |   115 |        |
-| EGC           | EverGreenCoin - Mainnet            |     161 |     33 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| EGG           | EggCoin - Mainnet                  |     153 |     33 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| EMB           | EmberCoin - Mainnet                |      50 |     92 |  110 | 0x0488ade4  | 0x0488b21e |       |        |
-| EMC           | Emercoin - Mainnet                 |     128 |     33 |   92 | 0x0488ade4  | 0x0488b21e |       |        |
-| EMC2          | Einsteinium - Mainnet              |     176 |     33 |    5 | 0x0488ade4  | 0x0488b21e |    41 |        |
-| EMD           | Emerald Crypto - Mainnet           |     162 |     34 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| ENRG          | Energycoin - Mainnet               |     220 |     92 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| ENT           | Eternity - Mainnet                 |     101 |     33 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| EQT           | EquiTrader - Mainnet               |     161 |     33 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| ERA           | ERA - Mainnet                      |     154 |     26 |    5 | 0x0482a1a4  | 0x0481daae |       |        |
-| ERC           | EuropeCoin - Mainnet               |      41 |     33 |    5 | 0x0488ade4  | 0x0488b21e |   151 |        |
-| ETH           | Ethereum                           |         |        |      |             |            |    60 |        |
-| EVIL          | Evil Coin - Mainnet                |     203 |     75 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| EXCL          | ExclusiveCoin - Mainnet            |     161 |     33 |  137 | 0x0488ade4  | 0x0488b21e |   190 |        |
-| FAIR          | FairCoin - Mainnet                 |     223 |     95 |   36 | 0x0488ade4  | 0x0488b21e |       |        |
-| FGC           | FantasyGold - Mainnet              |     212 |     35 |   18 | 0x66736770  | 0x4653474d |       |        |
-| FJC           | FujiCoin - Mainnet                 |     164 |     36 |   16 | 0x0488ade4  | 0x0488b21e |    75 | fc     |
-| FLO           | FlorinCoin - Mainnet               |     163 |     35 |    8 | 0x01343c31  | 0x0134406b |       |        |
-| FLT           | FlutterCoin - Mainnet              |     163 |     35 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| FRC           | Freicoin - Mainnet                 |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| FST           | Fastcoin - Mainnet                 |     224 |     96 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| FTC           | Feathercoin - Mainnet              |     142 |     14 |    5 | 0x0488daee  | 0x0488bc26 |     8 | fc     |
-| FTO           | FuturoCoin - Mainnet               |     164 |     36 |   13 | 0x0488ade4  | 0x0488b21e |       |        |
-| FUNK          | The Cypherfunks - Mainnet          |     176 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| GAIN          | UGAIN - Mainnet                    |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| GAM           | Gambit - Mainnet                   |     166 |     38 |   97 | 0x0488ade4  | 0x0488b21e |       |        |
-| GAME          | GameCredits - Mainnet              |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |   101 |        |
-| GB            | GoldBlocks - Mainnet               |     155 |     38 |   85 | 0x0488ade4  | 0x0488b21e |    94 |        |
-| GBX           | GoByte - Mainnet                   |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |   176 |        |
-| GEERT         | GeertCoin - Mainnet                |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| GIN           | GINcoin - Mainnet                  |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-| GLD           | GoldCoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| GLT           | GlobalToken - Mainnet              |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       | gt     |
-| GPL           | Gold Pressed Latinum - Mainnet     |     163 |     35 |  140 | 0x0488ade4  | 0x0488b21e |       |        |
-| GRC           | GridCoin - Mainnet                 |     190 |     62 |   85 | 0x0488ade4  | 0x0488b21e |    84 |        |
-| GRIM          | Grimcoin - Mainnet                 |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| GRLC          | Garlicoin - Mainnet                |     176 |     38 |   50 | 0x0488ade4  | 0x0488b21e |       | grlc   |
-| GRN           | Granite - Mainnet                  |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| GRS           | Groestlcoin - Mainnet              |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |    17 | bc     |
-| GSR           | GeyserCoin - Mainnet               |     171 |     38 |   63 | 0x0488ade4  | 0x0488b21e |       |        |
-| GTC           | Global Tour Coin - Mainnet         |     139 |     11 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| HAL           | Halcyon - Mainnet                  |     168 |     40 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| HALLO         | Halloween Coin - Mainnet           |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| HBN           | HoboNickels - Mainnet              |     162 |     34 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| HC            | Harvest Masternode Coin - Mainnet  |     153 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| HOLD          | Interstellar Holdings - Mainnet    |     153 |     40 |  100 | 0x0488ade4  | 0x0488b21e |       |        |
-| HPC           | Happycoin - Mainnet                |     169 |     41 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| HTML          | HTMLCOIN - Mainnet                 |     169 |     41 |  100 | 0x1397bcf3  | 0x1397c10d |   172 |        |
-| HVCO          | High Voltage - Mainnet             |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| HWC           | HollyWoodCoin - Mainnet            |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| HXX           | Hexx - Mainnet                     |     210 |     40 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-| HYP           | HyperStake - Mainnet               |     245 |    117 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| HYPER         | Hyper - Mainnet                    |     104 |    100 |  101 | 0x0488ade4  | 0x0488b21e |       |        |
-| I0C           | I0Coin - Mainnet                   |     128 |    105 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| IBANK         | iBank - Mainnet                    |     138 |     10 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ICON          | Iconic - Mainnet                   |     230 |    102 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| IFC           | Infinitecoin - Mainnet             |     230 |    102 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| IFLT          | InflationCoin - Mainnet            |     230 |    102 |    7 | 0x0488ade4  | 0x0488b21e |       |        |
-| IMS           | Independent Money System - Mainnet |     131 |      3 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| IMX           | Impact - Mainnet                   |     204 |     76 |  141 | 0x0488ade4  | 0x0488b21e |       |        |
-| INFX          | Influxcoin - Mainnet               |     230 |    102 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| INN           | Innova - Mainnet                   |     195 |    102 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| IOC           | I/O Coin - Mainnet                 |     231 |    103 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ION           | ION - Mainnet                      |     153 |    103 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
-| IRL           | IrishCoin - Mainnet                |     161 |     33 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| ISL           | IslaCoin - Mainnet                 |     230 |    102 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| ITI           | iTicoin - Mainnet                  |     193 |     65 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| IXC           | Ixcoin - Mainnet                   |     128 |    138 |    5 | 0x0488ade4  | 0x0488b21e |    86 |        |
-| JIYO          | Jiyo - Mainnet                     |     212 |     43 |   12 | 0x0221312b  | 0x022d2533 |       |        |
-| KEK           | KekCoin - Mainnet                  |     133 |     45 |   88 | 0x0377eee1  | 0x0377d44d |       |        |
-| KMD           | Komodo - Mainnet                   |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |   141 |        |
-| KNC           | KingN Coin - Mainnet               |     173 |     45 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| KOBO          | Kobocoin - Mainnet                 |     163 |     35 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| KUSH          | KushCoin - Mainnet                 |     173 |     45 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| LANA          | LanaCoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| LBC           | LBRY Credits - Mainnet             |      28 |     85 |  122 | 0x019c3118  | 0x019c354f |   140 |        |
-| LBTC          | LiteBitcoin - Mainnet              |     131 |      3 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| LCC           | Litecoin Cash - Mainnet            |     176 |     28 |    5 | 0x0488ade4  | 0x0488b21e |   192 |        |
-| LCP           | Litecoin Plus - Mainnet            |     203 |     75 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| LEO           | LEOcoin - Mainnet                  |     144 |     18 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
-| LINDA         | Linda - Mainnet                    |     153 |     48 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| LIR           | LetItRide - Mainnet                |     153 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| LOG           | Woodcoin - Mainnet                 |      74 |     73 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| LTC           | Litecoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |     2 | ltc    |
-| LUX           | LUXCoin - Mainnet                  |     155 |     48 |   63 | 0x03d8a1e5  | 0x0728a24e |       | bc     |
-| MAC           | Machinecoin - Mainnet              |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       | mc     |
-| MAGN          | Magnetcoin - Mainnet               |     179 |     51 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
-| MAO           | Mao Zedong - Mainnet               |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| MARX          | MarxCoin - Mainnet                 |     179 |     51 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| MAX           | MaxCoin - Mainnet                  |     128 |    110 |  112 | 0x0488ade4  | 0x0488b21e |       |        |
-| MAY           | Theresa May Coin - Mainnet         |     178 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| MAZA          | MAZA - Mainnet                     |     224 |     50 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| MCRN          | MACRON - Mainnet                   |     140 |     12 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| MEC           | Megacoin - Mainnet                 |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| MEDIC         | MedicCoin - Mainnet                |     153 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| MEME          | Memetic / PepeCoin - Mainnet       |     153 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| METAL         | MetalCoin - Mainnet                |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| MINT          | Mintcoin - Mainnet                 |     179 |     51 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| MLM           | MktCoin - Mainnet                  |     238 |    110 |  115 | 0x04c6ade4  | 0x04c6b21e |       |        |
-| MNM           | Mineum - Mainnet                   |     179 |     51 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| MNX           | MinexCoin - Mainnet                |     128 |     75 |    5 | 0x0488ade4  | 0x0488b21e |   182 |        |
-| MOJO          | MojoCoin - Mainnet                 |     153 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| MONA          | MonaCoin - Mainnet                 |     176 |     50 |    5 | 0x0488ade4  | 0x0488b21e |    22 |        |
-| MONK          | Monkey Project - Mainnet           |      55 |     51 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| MOON          | Mooncoin - Mainnet                 |     131 |      3 |   22 | 0x0488ade4  | 0x0488b21e |       |        |
-| MRQ           | MIRQ - Mainnet                     |     138 |    110 |   40 | 0x02212532  | 0x02243324 |       |        |
-| MST           | MustangCoin - Mainnet              |     176 |     48 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| MTNC          | Masternodecoin - Mainnet           |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| MXT           | MarteXcoin - Mainnet               |       0 |     50 |    5 | 0x0488ade4  | 0x0488b21e |   180 |        |
-| NAV           | NavCoin - Mainnet                  |     150 |     53 |   85 | 0x0488ade4  | 0x0488b21e |   130 |        |
-| NEVA          | NevaCoin - Mainnet                 |     177 |     53 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| NLC2          | NoLimitCoin - Mainnet              |     181 |     53 |   85 | 0x0488ade4  | 0x0488b21e |   149 |        |
-| NLG           | Gulden - Mainnet                   |      39 |     38 |   98 | 0x0488ade4  | 0x0488b21e |    87 |        |
-| NLX           | Nullex - Mainnet                   |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| NMC           | Namecoin - Mainnet                 |     180 |     52 |   13 | 0x0488ade4  | 0x0488b21e |     7 | nc     |
-| NMS           | Numus - Mainnet                    |      25 |     21 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| NUMUS         | NumusCash - Mainnet                |     181 |     53 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| NVC           | Novacoin - Mainnet                 |     136 |      8 |   20 | 0x0488ade4  | 0x0488b21e |    50 |        |
-| NYC           | NewYorkCoin - Mainnet              |     188 |     60 |   22 | 0x0488ade4  | 0x0488b21e |   179 |        |
-| OCC           | Octoin Coin - Mainnet              |     128 |    115 |   83 | 0x0488ade4  | 0x0488b21e |       |        |
-| ODN           | Obsidian - Mainnet                 |       0 |     75 |  125 | 0x0488b2dd  | 0x0488c21e |   173 |        |
-| OK            | OKCash - Mainnet                   |     183 |     55 |   28 | 0x03cc1c73  | 0x03cc23d7 |    69 |        |
-| OMC           | Omicron - Mainnet                  |     143 |     15 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ONION         | DeepOnion - Mainnet                |     159 |     31 |   78 | 0x0488ade4  | 0x0488b21e |       |        |
-| OPC           | OP Coin - Mainnet                  |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| ORE           | Galactrum - Mainnet                |     204 |     38 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
-| PAK           | Pakcoin - Mainnet                  |     183 |     55 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| PART          | Particl - Mainnet                  |     108 |      0 |    0 | 0x8f1daeb8  | 0x696e82d1 |    44 | bc     |
-| PHR           | Phore - Mainnet                    |     212 |     55 |   13 | 0x0221312b  | 0x022d2533 |   444 |        |
-| PHS           | Philosopher Stones - Mainnet       |     149 |     21 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| PIGGY         | Piggycoin - Mainnet                |     246 |    118 |   28 | 0x0488ade4  | 0x0488b21e |   118 |        |
-| PINK          | PinkCoin - Mainnet                 |     131 |      3 |   28 | 0x0488ade4  | 0x0488b21e |   117 |        |
-| PIVX          | PIVX - Mainnet                     |     212 |     30 |   13 | 0x0221312b  | 0x022d2533 |   119 |        |
-| PLACO         | PlayerCoin - Mainnet               |     183 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| PND           | Pandacoin - Mainnet                |     183 |     55 |   22 | 0x0488ade4  | 0x0488b21e |    37 |        |
-| PNX           | Phantomx - Mainnet                 |     155 |     55 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| POLIS         | Polis - Mainnet                    |      60 |     55 |   56 | 0x0488ade4  | 0x0488b21e |       |        |
-| POP           | PopularCoin - Mainnet              |     184 |     56 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| POST          | PostCoin - Mainnet                 |     183 |     55 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| POT           | PotCoin - Mainnet                  |     183 |     55 |    5 | 0x0488ade4  | 0x0488b21e |    81 |        |
-| PPC           | Peercoin - Mainnet                 |     183 |     55 |  117 | 0x0488ade4  | 0x0488b21e |     6 |        |
-| PROUD         | PROUD Money - Mainnet              |     225 |     97 |   38 | 0x0488ade4  | 0x0488b21e |       |        |
-| PURA          | Pura - Mainnet                     |     150 |     55 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
-| PURE          | Pure - Mainnet                     |     153 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| PUT           | PutinCoin - Mainnet                |     183 |     55 |   20 | 0x0488ade4  | 0x0488b21e |   122 |        |
-| Q2C           | QubitCoin - Mainnet                |     224 |     38 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| QBC           | Quebecoin - Mainnet                |     186 |     58 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| QTL           | Quatloo - Mainnet                  |     186 |     58 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| QTUM          | Qtum - Mainnet                     |     128 |     58 |   50 | 0x0488ade4  | 0x0488b21e |  2301 |        |
-| RADS          | Radium - Mainnet                   |     121 |     76 |   58 | 0x04734477  | 0x0473aaa1 |       |        |
-| RBY           | Rubycoin - Mainnet                 |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |    16 |        |
-| RC            | RussiaCoin - Mainnet               |     188 |     60 |   75 | 0x0488ade4  | 0x0488b21e |       |        |
-| RDD           | ReddCoin - Mainnet                 |     189 |     61 |    5 | 0x0488ade4  | 0x0488b21e |     4 |        |
-| REGA          | Regacoin - Mainnet                 |     189 |     61 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| RIC           | Riecoin - Mainnet                  |     128 |     60 |    5 | 0x0488ade4  | 0x0488b21e |   143 |        |
-| RNS           | Renos - Mainnet                    |     150 |     60 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| ROOFS         | Roofs - Mainnet                    |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| RPC           | RonPaulCoin - Mainnet              |     188 |     60 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
-| RUP           | Rupee - Mainnet                    |     188 |     60 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| RUPX          | Rupaya - Mainnet                   |     212 |     15 |    8 | 0x0221312b  | 0x022d2533 |       |        |
-| RVN           | Ravencoin - Mainnet                |     128 |     60 |  122 | 0x0488ade4  | 0x0488b21e |   175 | rc     |
-| SAGA          | SagaCoin - Mainnet                 |     142 |    125 |   44 | 0x0488ade4  | 0x0488b21e |       |        |
-| SAK           | Sharkcoin - Mainnet                |     191 |     63 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| SBC           | StrikeBitClub - Mainnet            |     141 |     13 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| SEQ           | Sequence - Mainnet                 |     170 |     63 |   64 | 0x0488ade4  | 0x0488b21e |       |        |
-| SIB           | SIBCoin - Mainnet                  |     128 |     63 |   40 | 0x0488ade4  | 0x0488b21e |       |        |
-| SKC           | Skeincoin - Mainnet                |     226 |     63 |   12 | 0x0488ade4  | 0x0488b21e |       |        |
-| SLR           | SolarCoin - Mainnet                |     146 |     18 |    5 | 0x0422bed7  | 0x0408c5d1 |    58 |        |
-| SLS           | SaluS - Mainnet                    |     191 |     63 |   23 | 0x0488ade4  | 0x0488b21e |       |        |
-| SMART         | SmartCash - Mainnet                |     191 |     63 |   18 | 0x0488ade4  | 0x0488b21e |   224 |        |
-| SOCC          | SocialCoin - Mainnet               |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| SONG          | SongCoin - Mainnet                 |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| SPACE         | SpaceCoin - Mainnet                |     191 |     63 |   52 | 0x0488ade4  | 0x0488b21e |       |        |
-| SPD           | Stipend - Mainnet                  |      23 |     63 |   21 | 0x997343e3  | 0x997545e2 |       |        |
-| SPHR          | Sphere - Mainnet                   |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| SPK           | Sparks - Mainnet                   |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-| SRC           | SecureCoin - Mainnet               |     128 |    125 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| STAK          | STRAKS - Mainnet                   |     204 |     63 |    5 | 0x0488ade4  | 0x0488b21e |   187 |        |
-| STN           | Steneum Coin - Mainnet             |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| STV           | Sativacoin - Mainnet               |     191 |     63 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| SUPER         | SuperCoin - Mainnet                |     191 |     63 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| SWING         | Swing - Mainnet                    |     191 |     63 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| SXC           | Sexcoin - Mainnet                  |     190 |     62 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| SYS           | Syscoin - Mainnet                  |     128 |     63 |    5 | 0x0488ade4  | 0x0488b21e |    57 |        |
-| TAJ           | TajCoin - Mainnet                  |     111 |     65 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| TELL          | Tellurion - Mainnet                |     193 |     65 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
-| THC           | HempCoin - Mainnet                 |     168 |     40 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| TOA           | ToaCoin - Mainnet                  |     193 |     65 |   23 | 0x0488ade4  | 0x0488b21e |   159 |        |
-| TOKC          | TOKYO - Mainnet                    |     193 |     65 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| TOP           | TopCoin - Mainnet                  |     255 |    127 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| TPAY          | TokenPay - Mainnet                 |     179 |     65 |  126 | 0x2c51c15a  | 0x2c513bd7 |       |        |
-| TRC           | Terracoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |    83 |        |
-| TRK           | Truckcoin - Mainnet                |     245 |    117 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| TX            | TransferCoin - Mainnet             |     153 |     66 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| UIS           | Unitus - Mainnet                   |     132 |     68 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-| ULA           | Ulatech - Mainnet                  |     196 |     68 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| UNIFY         | Unify - Mainnet                    |     196 |     68 |    5 | 0x0488ade4  | 0x0488b21e |   124 |        |
-| UNIT          | Universal Currency - Mainnet       |     183 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| UNO           | Unobtanium - Mainnet               |     224 |    130 |   30 | 0x0488ade4  | 0x0488b21e |    92 |        |
-| USC           | Ultimate Secure Cash - Mainnet     |     191 |     68 |  125 | 0xee8031e8  | 0xee80286a |   112 |        |
-| VEC2          | VectorAI - Mainnet                 |     186 |     70 |   45 | 0x048816fe  | 0x0488f526 |       |        |
-| VIA           | Viacoin - Mainnet                  |     199 |     71 |   33 | 0x0488ade4  | 0x0488b21e |    14 |        |
-| VIDZ          | PureVidz - Mainnet                 |     153 |     71 |   75 | 0x0488ade4  | 0x0488b21e |       |        |
-| VIPS          | Vipstar Coin - Mainnet             |     128 |     70 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
-| VISIO         | Visio - Mainnet                    |       0 |     71 |  125 | 0x0488b2dd  | 0x0488c21e |       |        |
-| VIVO          | VIVO - Mainnet                     |     198 |     70 |   10 | 0x0488ade4  | 0x0488b21e |   166 |        |
-| VOLT          | Bitvolt - Mainnet                  |     166 |     70 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| VOT           | VoteCoin - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |       |        |
-| VRC           | VeriCoin - Mainnet                 |     198 |     70 |  132 | 0x0488ade4  | 0x0488b21e |       |        |
-| VSX           | Vsync - Mainnet                    |     212 |     70 |   13 | 0x0221312b  | 0x022d2533 |       |        |
-| VTA           | Virtacoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| VTC           | Vertcoin - Mainnet                 |     128 |     71 |    5 | 0x0488ade4  | 0x0488b21e |    28 | vtc    |
-| VULC          | Vulcano - Mainnet                  |     198 |     70 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| WC            | WINCOIN - Mainnet                  |     201 |     73 |   83 | 0x0488ade4  | 0x0488b21e |   181 |        |
-| WINK          | Wink - Mainnet                     |     176 |     48 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
-| WOMEN         | WomenCoin - Mainnet                |     201 |     73 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| XBTC21        | Bitcoin 21 - Mainnet               |     131 |      3 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| XBTS          | Beatcoin - Mainnet                 |     153 |     25 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| XCO           | X-Coin - Mainnet                   |     203 |     75 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| XCT           | C-Bit - Mainnet                    |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| XGOX          | XGOX - Mainnet                     |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
-| XJO           | Joulecoin - Mainnet                |     143 |     43 |   11 | 0x0488ade4  | 0x0488b21e |       |        |
-| XLR           | Solaris - Mainnet                  |     212 |     63 |   13 | 0x0221312b  | 0x022d2533 |       |        |
-| XMR           | Monero                             |         |     18 |      |             |            |    60 |        |
-| XMY           | Myriad - Mainnet                   |     178 |     50 |    9 | 0x0488ade4  | 0x0488b21e |    90 |        |
-| XP            | Experience Points - Mainnet        |     203 |     75 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
-| XPM           | Primecoin - Mainnet                |     151 |     23 |   83 | 0x0488ade4  | 0x0488b21e |    24 |        |
-| XPTX          | PlatinumBAR - Mainnet              |     214 |     55 |  117 | 0x0488ade4  | 0x0488b21e |       |        |
-| XQN           | Quotient - Mainnet                 |     186 |     58 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
-| XRA           | Ratecoin - Mainnet                 |     188 |     60 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
-| XRE           | RevolverCoin - Mainnet             |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
-| XSN           | Stakenet - Mainnet                 |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
-| XSPEC         | Spectrecoin - Mainnet              |     179 |     63 |  136 | 0x2c51c15a  | 0x2c513bd7 |       |        |
-| XTO           | Tao - Mainnet                      |      76 |     66 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
-| XVG           | Verge - Mainnet                    |     158 |     30 |   33 | 0x0488ade4  | 0x0488b21e |    77 |        |
-| XWC           | WhiteCoin - Mainnet                |      74 |     73 |   87 | 0x048894ed  | 0x04887f1e |   155 |        |
-| XZC           | ZCoin - Mainnet                    |     210 |     82 |    7 | 0x0488ade4  | 0x0488b21e |   136 |        |
-| YTN           | YENTEN - Mainnet                   |     123 |     78 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
-| ZCL           | ZClassic - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   147 |        |
-| ZEC           | Zcash - Mainnet                    |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   133 |        |
-| ZEIT          | Zeitcoin - Mainnet                 |     179 |     51 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
-| ZEN           | ZenCash - Mainnet                  |     128 |   8329 | 8342 | 0x0488ade4  | 0x0488b21e |   121 |        |
-| ZENI          | Zennies - Mainnet                  |     142 |     80 |   72 | 0x04736c1c  | 0x0473dc3b |       |        |
-| ZET           | Zetacoin - Mainnet                 |     224 |     80 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
-| ZOI           | Zoin - Mainnet                     |     208 |     80 |    7 | 0x0488ade4  | 0x0488b21e |       |        |
-| ZYD           | Zayedcoin - Mainnet                |     209 |     81 |    5 | 0x0488ade4  | 0x0488b21e |   103 |        |
-| ZZC           | ZoZoCoin - Mainnet                 |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
+| Symbol | Name                               | Privkey | Pubkey | P2SH | Ext Privkey | Ext Pubkey | Bip44 | Bech32 |
+|--------|------------------------------------|---------|--------|------|-------------|------------|-------|--------|
+| $PAC   | PACcoin - Mainnet                  |     204 |     55 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+|   1337 | Elite - Mainnet                    |     176 |     48 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+|     42 | 42-coin - Mainnet                  |     136 |      8 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| ABJC   | Abjcoin Commerce - Mainnet         |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ACC    | AdCoin - Mainnet                   |     176 |     23 |    5 | 0x0488ade4  | 0x0488b21e |   161 |        |
+| ACES   | Aces - Mainnet                     |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ACP    | AnarchistsPrime - Mainnet          |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| ADC    | AudioCoin - Mainnet                |     151 |     23 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
+| ADZ    | Adzcoin - Mainnet                  |     148 |     20 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| AIB    | Advanced Internet Blocks - Mainnet |       0 |      0 |    0 | 0x0488ade4  | 0x0488b21e |    55 |        |
+| ALL    | Allion - Mainnet                   |     154 |     26 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| ALQO   | ALQO - Mainnet                     |     193 |     23 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
+| AMMO   | Ammo Reloaded - Mainnet            |     142 |     14 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
+| AMS    | AmsterdamCoin - Mainnet            |     212 |     23 |   13 | 0x0221312b  | 0x022d2533 |       |        |
+| ANI    | Animecoin - Mainnet                |     151 |     23 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| ANTX   | Antimatter - Mainnet               |     203 |     75 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| APR    | APR Coin - Mainnet                 |      46 |     12 |    6 | 0x0488ade4  | 0x0488b21e |       |        |
+| ARB    | ARbit - Mainnet                    |     151 |     23 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| ARC    | Advanced Technology Coin - Mainnet |     176 |     23 |    8 | 0x0774a137  | 0x07e8f89c |       |        |
+| ARCO   | AquariusCoin - Mainnet             |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| ARG    | Argentum - Mainnet                 |     151 |     23 |    5 | 0x0488ade4  | 0x0488b21e |    45 |        |
+| ASAFE2 | AllSafe - Mainnet                  |     151 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ATC    | Arbitracoin - Mainnet              |     155 |     23 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| AU     | AurumCoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| AUR    | Auroracoin - Mainnet               |     176 |     23 |    5 | 0x0488ade4  | 0x0488b21e |    85 |        |
+| AV     | AvatarCoin - Mainnet               |     151 |     23 |   41 | 0x0488ade4  | 0x0488b21e |       |        |
+| AXIOM  | Axiom - Mainnet                    |     153 |     23 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| BAY    | BitBay - Mainnet                   |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| BCA    | Bitcoin Atom - Mainnet             |     128 |     23 |   10 | 0x0488ade4  | 0x0488b21e |   185 | bca    |
+| BCC    | BitConnect - Mainnet               |     146 |     18 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| BCD    | Bitcoin Diamond - Mainnet          |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   999 |        |
+| BCF    | Bitcoin Fast - Mainnet             |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| BCH    | Bitcoin Cash - Mainnet             |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   145 |        |
+| BCI    | Bitcoin Interest - Mainnet         |     128 |    102 |   23 | 0x0488ade4  | 0x0488b21e |       |        |
+| BCO    | BridgeCoin - Mainnet               |     176 |     27 |    5 | 0x0488ade4  | 0x0488b21e |   162 |        |
+| BENJI  | BenjiRolls - Mainnet               |     383 |    255 |  253 | 0x0488ade4  | 0x0488b21e |       |        |
+| BERN   | BERNcash - Mainnet                 |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| BIO    | BioCoin - Mainnet                  |     153 |     25 |   20 | 0x0488ade4  | 0x0488b21e |   154 |        |
+| BIOB   | BioBar - Mainnet                   |     153 |     25 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
+| BIRDS  | Birds - Mainnet                    |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| BITG   | Bitcoin Green - Mainnet            |      46 |     38 |    6 | 0x0488ade4  | 0x0488b21e |   222 |        |
+| BITOK  | Bitok - Mainnet                    |     125 |     25 |  191 | 0xee8031e8  | 0xee80286a |       |        |
+| BITS   | Bitstar - Mainnet                  |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| BLAZR  | BlazerCoin - Mainnet               |     153 |     25 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
+| BLK    | BlackCoin - Mainnet                |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |    10 |        |
+| BLOCK  | Blocknet - Mainnet                 |     154 |     26 |   28 | 0x0488ade4  | 0x0488b21e |   328 |        |
+| BLU    | BlueCoin - Mainnet                 |     176 |     26 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| BOAT   | BOAT - Mainnet                     |     153 |     25 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
+| BOLI   | Bolivarcoin - Mainnet              |     213 |     85 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| BRO    | Bitradio - Mainnet                 |     128 |     26 |  102 | 0x0488ade4  | 0x0488b21e |       |        |
+| BSC    | BowsCoin - Mainnet                 |     153 |     25 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| BSD    | BitSend - Mainnet                  |     204 |    102 |    5 | 0x0488ade4  | 0x0488b21e |    91 |        |
+| BSR    | BitSoar - Mainnet                  |     154 |     26 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| BSTY   | GlobalBoost-Y - Mainnet            |     205 |     77 |  139 | 0x0488ade4  | 0x0488b21e |       |        |
+| BTA    | Bata - Mainnet                     |     188 |     25 |    5 | 0xa40b91bd  | 0xa40c86fa |    89 |        |
+| BTB    | BitBar - Mainnet                   |     153 |     25 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
+| BTC    | Bitcoin - Mainnet                  |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |     0 | bc     |
+| BTCD   | BitcoinDark - Mainnet              |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |    52 |        |
+| BTCP   | Bitcoin Private - Mainnet          |     128 |   4901 | 5039 | 0x0488ade4  | 0x0488b21e |   183 |        |
+| BTCR   | Bitcurrency - Mainnet              |     153 |     25 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| BTCZ   | BitcoinZ - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   177 |        |
+| BTDX   | Bitcloud - Mainnet                 |     153 |     25 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| BTG    | Bitgem - Mainnet                   |     128 |     38 |   23 | 0x0488ade4  | 0x0488b21e |   156 |        |
+| BTX    | Bitcore - Mainnet                  |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |   160 |        |
+| BUB    | Bubble - Mainnet                   |     128 |     53 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| BUMBA  | BumbaCoin - Mainnet                |     153 |     25 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| BUZZ   | BuzzCoin - Mainnet                 |     153 |     25 |   85 | 0x0488a0e4  | 0x0488c21e |   169 |        |
+| BWK    | Bulwark - Mainnet                  |     212 |     85 |   18 | 0x0221312b  | 0x022d2533 |       |        |
+| CANN   | CannabisCoin - Mainnet             |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CARBON | Carboncoin - Mainnet               |     175 |     47 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CAT    | Catcoin - Mainnet                  |     149 |     21 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
+| CAZ    | Cazcoin - Mainnet                  |     144 |     28 |   43 | 0x0488b21e  | 0x0488b21e |       |        |
+| CBX    | Bullion - Mainnet                  |       0 |     11 |    8 | 0xa7b52ca2  | 0xa7b52474 |       |        |
+| CHAN   | ChanCoin - Mainnet                 |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CHEAP  | Cheapcoin - Mainnet                |     173 |     45 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
+| CHESS  | ChessCoin - Mainnet                |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| CHIPS  | CHIPS - Mainnet                    |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| CJ     | Cryptojacks - Mainnet              |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| CLAM   | Clams - Mainnet                    |     133 |    137 |   13 | 0x0488ade4  | 0x0488b21e |    23 |        |
+| CLUB   | ClubCoin - Mainnet                 |     153 |     28 |   85 | 0x0488ade4  | 0x0488b21e |    79 |        |
+| CMPCO  | CampusCoin - Mainnet               |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CNNC   | Cannation - Mainnet                |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| CNX    | Cryptonex - Mainnet                |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| COLX   | ColossusXT - Mainnet               |     212 |     30 |   13 | 0x0221312b  | 0x022d2533 |       |        |
+| CON    | PayCon - Mainnet                   |     183 |     55 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| CPC    | Capricoin - Mainnet                |     156 |     28 |   35 | 0x0488ade4  | 0x0488b21e |       |        |
+| CRAVE  | Crave - Mainnet                    |     153 |     70 |   85 | 0x0488ade4  | 0x0488b21e |   186 |        |
+| CRC    | CrowdCoin - Mainnet                |       0 |     28 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
+| CRM    | Cream - Mainnet                    |     155 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CROP   | Cropcoin - Mainnet                 |     153 |     87 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| CRW    | Crown - Mainnet                    |     128 |      0 |   28 | 0x0488ade4  | 0x0488b21e |    72 |        |
+| CTO    | Crypto - Mainnet                   |     156 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| CURE   | Curecoin - Mainnet                 |     153 |     25 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
+| CYDER  | Cyder - Mainnet                    |     148 |     20 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
+| DASH   | Dash - Mainnet                     |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |     5 |        |
+| DCR    | Decred - Mainnet                   |    8926 |   1855 | 1818 | 0x2fda4e8   | 0x2fda926  |    42 |        |
+| DEM    | Deutsche eMark - Mainnet           |     181 |     53 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
+| DEV    | DeviantCoin - Mainnet              |     137 |     90 |   10 | 0x0441514b  | 0x044d5066 |       |        |
+| DGB    | DigiByte - Mainnet                 |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |    20 | dgb    |
+| DGC    | Digitalcoin - Mainnet              |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |    18 |        |
+| DIME   | Dimecoin - Mainnet                 |     143 |     15 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| DLC    | Dollarcoin - Mainnet               |     158 |     30 |    5 | 0x0488ade4  | 0x0488b21e |   102 |        |
+| DMB    | Digital Money Bits - Mainnet       |     153 |    137 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| DMD    | Diamond - Mainnet                  |     218 |     90 |    8 | 0x0488ade4  | 0x0488b21e |   152 |        |
+| DNR    | Denarius - Mainnet                 |     158 |     30 |   90 | 0x0488ade4  | 0x0488b21e |   116 |        |
+| DOGE   | Dogecoin - Mainnet                 |     158 |     30 |   22 | 0x02fac398  | 0x02facafd |     3 |        |
+| DOLLAR | Dollar Online - Mainnet            |     158 |     30 |   90 | 0x0488ade4  | 0x0488b21e |       |        |
+| DRXNE  | DROXNE - Mainnet                   |     159 |     31 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| ECN    | E-coin - Mainnet                   |     220 |     92 |   20 | 0x0488ade4  | 0x0488b21e |   115 |        |
+| EGC    | EverGreenCoin - Mainnet            |     161 |     33 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| EGG    | EggCoin - Mainnet                  |     153 |     33 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| EMB    | EmberCoin - Mainnet                |      50 |     92 |  110 | 0x0488ade4  | 0x0488b21e |       |        |
+| EMC    | Emercoin - Mainnet                 |     128 |     33 |   92 | 0x0488ade4  | 0x0488b21e |       |        |
+| EMC2   | Einsteinium - Mainnet              |     176 |     33 |    5 | 0x0488ade4  | 0x0488b21e |    41 |        |
+| EMD    | Emerald Crypto - Mainnet           |     162 |     34 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| ENRG   | Energycoin - Mainnet               |     220 |     92 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| ENT    | Eternity - Mainnet                 |     101 |     33 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| EQT    | EquiTrader - Mainnet               |     161 |     33 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| ERA    | ERA - Mainnet                      |     154 |     26 |    5 | 0x0482a1a4  | 0x0481daae |       |        |
+| ERC    | EuropeCoin - Mainnet               |      41 |     33 |    5 | 0x0488ade4  | 0x0488b21e |   151 |        |
+| ETH    | Ethereum - Mainnet                 |         |        |      |             |            |    60 |        |
+| EVIL   | Evil Coin - Mainnet                |     203 |     75 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| EXCL   | ExclusiveCoin - Mainnet            |     161 |     33 |  137 | 0x0488ade4  | 0x0488b21e |   190 |        |
+| FAIR   | FairCoin - Mainnet                 |     223 |     95 |   36 | 0x0488ade4  | 0x0488b21e |       |        |
+| FGC    | FantasyGold - Mainnet              |     212 |     35 |   18 | 0x66736770  | 0x4653474d |       |        |
+| FJC    | FujiCoin - Mainnet                 |     164 |     36 |   16 | 0x0488ade4  | 0x0488b21e |    75 | fc     |
+| FLO    | FlorinCoin - Mainnet               |     163 |     35 |    8 | 0x01343c31  | 0x0134406b |       |        |
+| FLT    | FlutterCoin - Mainnet              |     163 |     35 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| FRC    | Freicoin - Mainnet                 |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| FST    | Fastcoin - Mainnet                 |     224 |     96 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| FTC    | Feathercoin - Mainnet              |     142 |     14 |    5 | 0x0488daee  | 0x0488bc26 |     8 | fc     |
+| FTO    | FuturoCoin - Mainnet               |     164 |     36 |   13 | 0x0488ade4  | 0x0488b21e |       |        |
+| FUNK   | The Cypherfunks - Mainnet          |     176 |     28 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| GAIN   | UGAIN - Mainnet                    |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| GAM    | Gambit - Mainnet                   |     166 |     38 |   97 | 0x0488ade4  | 0x0488b21e |       |        |
+| GAME   | GameCredits - Mainnet              |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |   101 |        |
+| GB     | GoldBlocks - Mainnet               |     155 |     38 |   85 | 0x0488ade4  | 0x0488b21e |    94 |        |
+| GBX    | GoByte - Mainnet                   |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |   176 |        |
+| GEERT  | GeertCoin - Mainnet                |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| GIN    | GINcoin - Mainnet                  |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| GLD    | GoldCoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| GLT    | GlobalToken - Mainnet              |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       | gt     |
+| GPL    | Gold Pressed Latinum - Mainnet     |     163 |     35 |  140 | 0x0488ade4  | 0x0488b21e |       |        |
+| GRC    | GridCoin - Mainnet                 |     190 |     62 |   85 | 0x0488ade4  | 0x0488b21e |    84 |        |
+| GRIM   | Grimcoin - Mainnet                 |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| GRLC   | Garlicoin - Mainnet                |     176 |     38 |   50 | 0x0488ade4  | 0x0488b21e |       | grlc   |
+| GRN    | Granite - Mainnet                  |     166 |     38 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| GRS    | Groestlcoin - Mainnet              |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |    17 | bc     |
+| GSR    | GeyserCoin - Mainnet               |     171 |     38 |   63 | 0x0488ade4  | 0x0488b21e |       |        |
+| GTC    | Global Tour Coin - Mainnet         |     139 |     11 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| HAL    | Halcyon - Mainnet                  |     168 |     40 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| HALLO  | Halloween Coin - Mainnet           |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| HBN    | HoboNickels - Mainnet              |     162 |     34 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| HC     | Harvest Masternode Coin - Mainnet  |     153 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| HOLD   | Interstellar Holdings - Mainnet    |     153 |     40 |  100 | 0x0488ade4  | 0x0488b21e |       |        |
+| HPC    | Happycoin - Mainnet                |     169 |     41 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| HTML   | HTMLCOIN - Mainnet                 |     169 |     41 |  100 | 0x1397bcf3  | 0x1397c10d |   172 |        |
+| HVCO   | High Voltage - Mainnet             |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| HWC    | HollyWoodCoin - Mainnet            |     168 |     40 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| HXX    | Hexx - Mainnet                     |     210 |     40 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| HYP    | HyperStake - Mainnet               |     245 |    117 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| HYPER  | Hyper - Mainnet                    |     104 |    100 |  101 | 0x0488ade4  | 0x0488b21e |       |        |
+| I0C    | I0Coin - Mainnet                   |     128 |    105 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| IBANK  | iBank - Mainnet                    |     138 |     10 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ICON   | Iconic - Mainnet                   |     230 |    102 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| IFC    | Infinitecoin - Mainnet             |     230 |    102 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| IFLT   | InflationCoin - Mainnet            |     230 |    102 |    7 | 0x0488ade4  | 0x0488b21e |       |        |
+| IMS    | Independent Money System - Mainnet |     131 |      3 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| IMX    | Impact - Mainnet                   |     204 |     76 |  141 | 0x0488ade4  | 0x0488b21e |       |        |
+| INFX   | Influxcoin - Mainnet               |     230 |    102 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| INN    | Innova - Mainnet                   |     195 |    102 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| IOC    | I/O Coin - Mainnet                 |     231 |    103 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ION    | ION - Mainnet                      |     153 |    103 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
+| IRL    | IrishCoin - Mainnet                |     161 |     33 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| ISL    | IslaCoin - Mainnet                 |     230 |    102 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| ITI    | iTicoin - Mainnet                  |     193 |     65 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| IXC    | Ixcoin - Mainnet                   |     128 |    138 |    5 | 0x0488ade4  | 0x0488b21e |    86 |        |
+| JIYO   | Jiyo - Mainnet                     |     212 |     43 |   12 | 0x0221312b  | 0x022d2533 |       |        |
+| KEK    | KekCoin - Mainnet                  |     133 |     45 |   88 | 0x0377eee1  | 0x0377d44d |       |        |
+| KMD    | Komodo - Mainnet                   |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |   141 |        |
+| KNC    | KingN Coin - Mainnet               |     173 |     45 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| KOBO   | Kobocoin - Mainnet                 |     163 |     35 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| KUSH   | KushCoin - Mainnet                 |     173 |     45 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| LANA   | LanaCoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| LBC    | LBRY Credits - Mainnet             |      28 |     85 |  122 | 0x019c3118  | 0x019c354f |   140 |        |
+| LBTC   | LiteBitcoin - Mainnet              |     131 |      3 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| LCC    | Litecoin Cash - Mainnet            |     176 |     28 |    5 | 0x0488ade4  | 0x0488b21e |   192 |        |
+| LCP    | Litecoin Plus - Mainnet            |     203 |     75 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| LEO    | LEOcoin - Mainnet                  |     144 |     18 |   88 | 0x0488ade4  | 0x0488b21e |       |        |
+| LINDA  | Linda - Mainnet                    |     153 |     48 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| LIR    | LetItRide - Mainnet                |     153 |     48 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| LOG    | Woodcoin - Mainnet                 |      74 |     73 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| LTC    | Litecoin - Mainnet                 |     176 |     48 |    5 | 0x0488ade4  | 0x0488b21e |     2 | ltc    |
+| LUX    | LUXCoin - Mainnet                  |     155 |     48 |   63 | 0x03d8a1e5  | 0x0728a24e |       | bc     |
+| MAC    | Machinecoin - Mainnet              |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       | mc     |
+| MAGN   | Magnetcoin - Mainnet               |     179 |     51 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAO    | Mao Zedong - Mainnet               |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MARX   | MarxCoin - Mainnet                 |     179 |     51 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAX    | MaxCoin - Mainnet                  |     128 |    110 |  112 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAY    | Theresa May Coin - Mainnet         |     178 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| MAZA   | MAZA - Mainnet                     |     224 |     50 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| MCRN   | MACRON - Mainnet                   |     140 |     12 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| MEC    | Megacoin - Mainnet                 |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| MEDIC  | MedicCoin - Mainnet                |     153 |     50 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| MEME   | Memetic / PepeCoin - Mainnet       |     153 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| METAL  | MetalCoin - Mainnet                |     178 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MINT   | Mintcoin - Mainnet                 |     179 |     51 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| MLM    | MktCoin - Mainnet                  |     238 |    110 |  115 | 0x04c6ade4  | 0x04c6b21e |       |        |
+| MNM    | Mineum - Mainnet                   |     179 |     51 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| MNX    | MinexCoin - Mainnet                |     128 |     75 |    5 | 0x0488ade4  | 0x0488b21e |   182 |        |
+| MOJO   | MojoCoin - Mainnet                 |     153 |     50 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MONA   | MonaCoin - Mainnet                 |     176 |     50 |    5 | 0x0488ade4  | 0x0488b21e |    22 |        |
+| MONK   | Monkey Project - Mainnet           |      55 |     51 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MOON   | Mooncoin - Mainnet                 |     131 |      3 |   22 | 0x0488ade4  | 0x0488b21e |       |        |
+| MRQ    | MIRQ - Mainnet                     |     138 |    110 |   40 | 0x02212532  | 0x02243324 |       |        |
+| MST    | MustangCoin - Mainnet              |     176 |     48 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| MTNC   | Masternodecoin - Mainnet           |     178 |     50 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| MXT    | MarteXcoin - Mainnet               |       0 |     50 |    5 | 0x0488ade4  | 0x0488b21e |   180 |        |
+| NAV    | NavCoin - Mainnet                  |     150 |     53 |   85 | 0x0488ade4  | 0x0488b21e |   130 |        |
+| NEVA   | NevaCoin - Mainnet                 |     177 |     53 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| NLC2   | NoLimitCoin - Mainnet              |     181 |     53 |   85 | 0x0488ade4  | 0x0488b21e |   149 |        |
+| NLG    | Gulden - Mainnet                   |      39 |     38 |   98 | 0x0488ade4  | 0x0488b21e |    87 |        |
+| NLX    | Nullex - Mainnet                   |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| NMC    | Namecoin - Mainnet                 |     180 |     52 |   13 | 0x0488ade4  | 0x0488b21e |     7 | nc     |
+| NMS    | Numus - Mainnet                    |      25 |     21 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| NUMUS  | NumusCash - Mainnet                |     181 |     53 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| NVC    | Novacoin - Mainnet                 |     136 |      8 |   20 | 0x0488ade4  | 0x0488b21e |    50 |        |
+| NYC    | NewYorkCoin - Mainnet              |     188 |     60 |   22 | 0x0488ade4  | 0x0488b21e |   179 |        |
+| OCC    | Octoin Coin - Mainnet              |     128 |    115 |   83 | 0x0488ade4  | 0x0488b21e |       |        |
+| ODN    | Obsidian - Mainnet                 |       0 |     75 |  125 | 0x0488b2dd  | 0x0488c21e |   173 |        |
+| OK     | OKCash - Mainnet                   |     183 |     55 |   28 | 0x03cc1c73  | 0x03cc23d7 |    69 |        |
+| OMC    | Omicron - Mainnet                  |     143 |     15 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ONION  | DeepOnion - Mainnet                |     159 |     31 |   78 | 0x0488ade4  | 0x0488b21e |       |        |
+| OPC    | OP Coin - Mainnet                  |     156 |     28 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| ORE    | Galactrum - Mainnet                |     204 |     38 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
+| PAK    | Pakcoin - Mainnet                  |     183 |     55 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| PART   | Particl - Mainnet                  |     108 |      0 |    0 | 0x8f1daeb8  | 0x696e82d1 |    44 | bc     |
+| PHR    | Phore - Mainnet                    |     212 |     55 |   13 | 0x0221312b  | 0x022d2533 |   444 |        |
+| PHS    | Philosopher Stones - Mainnet       |     149 |     21 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| PIGGY  | Piggycoin - Mainnet                |     246 |    118 |   28 | 0x0488ade4  | 0x0488b21e |   118 |        |
+| PINK   | PinkCoin - Mainnet                 |     131 |      3 |   28 | 0x0488ade4  | 0x0488b21e |   117 |        |
+| PIVX   | PIVX - Mainnet                     |     212 |     30 |   13 | 0x0221312b  | 0x022d2533 |   119 |        |
+| PLACO  | PlayerCoin - Mainnet               |     183 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| PND    | Pandacoin - Mainnet                |     183 |     55 |   22 | 0x0488ade4  | 0x0488b21e |    37 |        |
+| PNX    | Phantomx - Mainnet                 |     155 |     55 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| POLIS  | Polis - Mainnet                    |      60 |     55 |   56 | 0x0488ade4  | 0x0488b21e |       |        |
+| POP    | PopularCoin - Mainnet              |     184 |     56 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| POST   | PostCoin - Mainnet                 |     183 |     55 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| POT    | PotCoin - Mainnet                  |     183 |     55 |    5 | 0x0488ade4  | 0x0488b21e |    81 |        |
+| PPC    | Peercoin - Mainnet                 |     183 |     55 |  117 | 0x0488ade4  | 0x0488b21e |     6 |        |
+| PROUD  | PROUD Money - Mainnet              |     225 |     97 |   38 | 0x0488ade4  | 0x0488b21e |       |        |
+| PURA   | Pura - Mainnet                     |     150 |     55 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
+| PURE   | Pure - Mainnet                     |     153 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| PUT    | PutinCoin - Mainnet                |     183 |     55 |   20 | 0x0488ade4  | 0x0488b21e |   122 |        |
+| Q2C    | QubitCoin - Mainnet                |     224 |     38 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| QBC    | Quebecoin - Mainnet                |     186 |     58 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| QTL    | Quatloo - Mainnet                  |     186 |     58 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| QTUM   | Qtum - Mainnet                     |     128 |     58 |   50 | 0x0488ade4  | 0x0488b21e |  2301 |        |
+| RADS   | Radium - Mainnet                   |     121 |     76 |   58 | 0x04734477  | 0x0473aaa1 |       |        |
+| RBY    | Rubycoin - Mainnet                 |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |    16 |        |
+| RC     | RussiaCoin - Mainnet               |     188 |     60 |   75 | 0x0488ade4  | 0x0488b21e |       |        |
+| RDD    | ReddCoin - Mainnet                 |     189 |     61 |    5 | 0x0488ade4  | 0x0488b21e |     4 |        |
+| REGA   | Regacoin - Mainnet                 |     189 |     61 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| RIC    | Riecoin - Mainnet                  |     128 |     60 |    5 | 0x0488ade4  | 0x0488b21e |   143 |        |
+| RNS    | Renos - Mainnet                    |     150 |     60 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| ROOFS  | Roofs - Mainnet                    |     188 |     60 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| RPC    | RonPaulCoin - Mainnet              |     188 |     60 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
+| RUP    | Rupee - Mainnet                    |     188 |     60 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| RUPX   | Rupaya - Mainnet                   |     212 |     15 |    8 | 0x0221312b  | 0x022d2533 |       |        |
+| RVN    | Ravencoin - Mainnet                |     128 |     60 |  122 | 0x0488ade4  | 0x0488b21e |   175 | rc     |
+| SAGA   | SagaCoin - Mainnet                 |     142 |    125 |   44 | 0x0488ade4  | 0x0488b21e |       |        |
+| SAK    | Sharkcoin - Mainnet                |     191 |     63 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| SBC    | StrikeBitClub - Mainnet            |     141 |     13 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| SEQ    | Sequence - Mainnet                 |     170 |     63 |   64 | 0x0488ade4  | 0x0488b21e |       |        |
+| SIB    | SIBCoin - Mainnet                  |     128 |     63 |   40 | 0x0488ade4  | 0x0488b21e |       |        |
+| SKC    | Skeincoin - Mainnet                |     226 |     63 |   12 | 0x0488ade4  | 0x0488b21e |       |        |
+| SLR    | SolarCoin - Mainnet                |     146 |     18 |    5 | 0x0422bed7  | 0x0408c5d1 |    58 |        |
+| SLS    | SaluS - Mainnet                    |     191 |     63 |   23 | 0x0488ade4  | 0x0488b21e |       |        |
+| SMART  | SmartCash - Mainnet                |     191 |     63 |   18 | 0x0488ade4  | 0x0488b21e |   224 |        |
+| SOCC   | SocialCoin - Mainnet               |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| SONG   | SongCoin - Mainnet                 |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| SPACE  | SpaceCoin - Mainnet                |     191 |     63 |   52 | 0x0488ade4  | 0x0488b21e |       |        |
+| SPD    | Stipend - Mainnet                  |      23 |     63 |   21 | 0x997343e3  | 0x997545e2 |       |        |
+| SPHR   | Sphere - Mainnet                   |     153 |     25 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| SPK    | Sparks - Mainnet                   |     198 |     38 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| SRC    | SecureCoin - Mainnet               |     128 |    125 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| STAK   | STRAKS - Mainnet                   |     204 |     63 |    5 | 0x0488ade4  | 0x0488b21e |   187 |        |
+| STN    | Steneum Coin - Mainnet             |     191 |     63 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| STV    | Sativacoin - Mainnet               |     191 |     63 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| SUPER  | SuperCoin - Mainnet                |     191 |     63 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| SWING  | Swing - Mainnet                    |     191 |     63 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| SXC    | Sexcoin - Mainnet                  |     190 |     62 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| SYS    | Syscoin - Mainnet                  |     128 |     63 |    5 | 0x0488ade4  | 0x0488b21e |    57 |        |
+| TAJ    | TajCoin - Mainnet                  |     111 |     65 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| TELL   | Tellurion - Mainnet                |     193 |     65 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
+| THC    | HempCoin - Mainnet                 |     168 |     40 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| TOA    | ToaCoin - Mainnet                  |     193 |     65 |   23 | 0x0488ade4  | 0x0488b21e |   159 |        |
+| TOKC   | TOKYO - Mainnet                    |     193 |     65 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| TOP    | TopCoin - Mainnet                  |     255 |    127 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| TPAY   | TokenPay - Mainnet                 |     179 |     65 |  126 | 0x2c51c15a  | 0x2c513bd7 |       |        |
+| TRC    | Terracoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |    83 |        |
+| TRK    | Truckcoin - Mainnet                |     245 |    117 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| TX     | TransferCoin - Mainnet             |     153 |     66 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| UIS    | Unitus - Mainnet                   |     132 |     68 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| ULA    | Ulatech - Mainnet                  |     196 |     68 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| UNIFY  | Unify - Mainnet                    |     196 |     68 |    5 | 0x0488ade4  | 0x0488b21e |   124 |        |
+| UNIT   | Universal Currency - Mainnet       |     183 |     55 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| UNO    | Unobtanium - Mainnet               |     224 |    130 |   30 | 0x0488ade4  | 0x0488b21e |    92 |        |
+| USC    | Ultimate Secure Cash - Mainnet     |     191 |     68 |  125 | 0xee8031e8  | 0xee80286a |   112 |        |
+| VEC2   | VectorAI - Mainnet                 |     186 |     70 |   45 | 0x048816fe  | 0x0488f526 |       |        |
+| VIA    | Viacoin - Mainnet                  |     199 |     71 |   33 | 0x0488ade4  | 0x0488b21e |    14 |        |
+| VIDZ   | PureVidz - Mainnet                 |     153 |     71 |   75 | 0x0488ade4  | 0x0488b21e |       |        |
+| VIPS   | Vipstar Coin - Mainnet             |     128 |     70 |   50 | 0x0488ade4  | 0x0488b21e |       |        |
+| VISIO  | Visio - Mainnet                    |       0 |     71 |  125 | 0x0488b2dd  | 0x0488c21e |       |        |
+| VIVO   | VIVO - Mainnet                     |     198 |     70 |   10 | 0x0488ade4  | 0x0488b21e |   166 |        |
+| VOLT   | Bitvolt - Mainnet                  |     166 |     70 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| VOT    | VoteCoin - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |       |        |
+| VRC    | VeriCoin - Mainnet                 |     198 |     70 |  132 | 0x0488ade4  | 0x0488b21e |       |        |
+| VSX    | Vsync - Mainnet                    |     212 |     70 |   13 | 0x0221312b  | 0x022d2533 |       |        |
+| VTA    | Virtacoin - Mainnet                |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| VTC    | Vertcoin - Mainnet                 |     128 |     71 |    5 | 0x0488ade4  | 0x0488b21e |    28 | vtc    |
+| VULC   | Vulcano - Mainnet                  |     198 |     70 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| WC     | WINCOIN - Mainnet                  |     201 |     73 |   83 | 0x0488ade4  | 0x0488b21e |   181 |        |
+| WINK   | Wink - Mainnet                     |     176 |     48 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
+| WOMEN  | WomenCoin - Mainnet                |     201 |     73 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| XBTC21 | Bitcoin 21 - Mainnet               |     131 |      3 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| XBTS   | Beatcoin - Mainnet                 |     153 |     25 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| XCO    | X-Coin - Mainnet                   |     203 |     75 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| XCT    | C-Bit - Mainnet                    |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| XGOX   | XGOX - Mainnet                     |     166 |     38 |   85 | 0x0488ade4  | 0x0488b21e |       |        |
+| XJO    | Joulecoin - Mainnet                |     143 |     43 |   11 | 0x0488ade4  | 0x0488b21e |       |        |
+| XLR    | Solaris - Mainnet                  |     212 |     63 |   13 | 0x0221312b  | 0x022d2533 |       |        |
+| XMR    | Monero - Mainnet                   |         |     18 |      |             |            |    60 |        |
+| XMY    | Myriad - Mainnet                   |     178 |     50 |    9 | 0x0488ade4  | 0x0488b21e |    90 |        |
+| XP     | Experience Points - Mainnet        |     203 |     75 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
+| XPM    | Primecoin - Mainnet                |     151 |     23 |   83 | 0x0488ade4  | 0x0488b21e |    24 |        |
+| XPTX   | PlatinumBAR - Mainnet              |     214 |     55 |  117 | 0x0488ade4  | 0x0488b21e |       |        |
+| XQN    | Quotient - Mainnet                 |     186 |     58 |  125 | 0x0488ade4  | 0x0488b21e |       |        |
+| XRA    | Ratecoin - Mainnet                 |     188 |     60 |   28 | 0x0488ade4  | 0x0488b21e |       |        |
+| XRE    | RevolverCoin - Mainnet             |     128 |      0 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
+| XSN    | Stakenet - Mainnet                 |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
+| XSPEC  | Spectrecoin - Mainnet              |     179 |     63 |  136 | 0x2c51c15a  | 0x2c513bd7 |       |        |
+| XTO    | Tao - Mainnet                      |      76 |     66 |    3 | 0x0488ade4  | 0x0488b21e |       |        |
+| XVG    | Verge - Mainnet                    |     158 |     30 |   33 | 0x0488ade4  | 0x0488b21e |    77 |        |
+| XWC    | WhiteCoin - Mainnet                |      74 |     73 |   87 | 0x048894ed  | 0x04887f1e |   155 |        |
+| XZC    | ZCoin - Mainnet                    |     210 |     82 |    7 | 0x0488ade4  | 0x0488b21e |   136 |        |
+| YTN    | YENTEN - Mainnet                   |     123 |     78 |   10 | 0x0488ade4  | 0x0488b21e |       |        |
+| ZCL    | ZClassic - Mainnet                 |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   147 |        |
+| ZEC    | Zcash - Mainnet                    |     128 |   7352 | 7357 | 0x0488ade4  | 0x0488b21e |   133 |        |
+| ZEIT   | Zeitcoin - Mainnet                 |     179 |     51 |    8 | 0x0488ade4  | 0x0488b21e |       |        |
+| ZEN    | ZenCash - Mainnet                  |     128 |   8329 | 8342 | 0x0488ade4  | 0x0488b21e |   121 |        |
+| ZENI   | Zennies - Mainnet                  |     142 |     80 |   72 | 0x04736c1c  | 0x0473dc3b |       |        |
+| ZET    | Zetacoin - Mainnet                 |     224 |     80 |    9 | 0x0488ade4  | 0x0488b21e |       |        |
+| ZOI    | Zoin - Mainnet                     |     208 |     80 |    7 | 0x0488ade4  | 0x0488b21e |       |        |
+| ZYD    | Zayedcoin - Mainnet                |     209 |     81 |    5 | 0x0488ade4  | 0x0488b21e |   103 |        |
+| ZZC    | ZoZoCoin - Mainnet                 |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |       |        |
 
 ## Testnet
 | Symbol | Name                               | Privkey | Pubkey | P2SH | Ext Privkey | Ext Pubkey | Bip44 | Bech32 |

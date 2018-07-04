@@ -30,8 +30,8 @@
         "original_codebase": "btcd"
     },    
     "main": {
-        "symbol": "DCR - Mainnet",
-        "name": "Decred",
+        "symbol": "DCR",
+        "name": "Decred - Mainnet",
         "testnet": false,
         "port": 9108,
         "port_rpc": 9109,
