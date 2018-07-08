@@ -138,7 +138,7 @@ the values from bitcoin are used.
 | EQT    | EquiTrader - Mainnet               |     161 |     33 |   20 | 0x0488ade4  | 0x0488b21e |       |        |
 | ERA    | ERA - Mainnet                      |     154 |     26 |    5 | 0x0482a1a4  | 0x0481daae |       |        |
 | ERC    | EuropeCoin - Mainnet               |      41 |     33 |    5 | 0x0488ade4  | 0x0488b21e |   151 |        |
-| ETH    | Ethereum - Mainnet                 |         |        |      |             |            |    60 |        |
+| ETH    | Ethereum - Mainnet                 |         |        |      | 0x0488ade4  | 0x0488b21e |    60 |        |
 | EVIL   | Evil Coin - Mainnet                |     203 |     75 |    5 | 0x0488ade4  | 0x0488b21e |       |        |
 | EXCL   | ExclusiveCoin - Mainnet            |     161 |     33 |  137 | 0x0488ade4  | 0x0488b21e |   190 |        |
 | FAIR   | FairCoin - Mainnet                 |     223 |     95 |   36 | 0x0488ade4  | 0x0488b21e |       |        |
