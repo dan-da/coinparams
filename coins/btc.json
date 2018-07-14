@@ -51,7 +51,25 @@
                 "private": "0x0488ade4"
             },
             "bech32": "bc",
-            "bip44": 0
+            "bip44": 0,
+            "slip132": {
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878"
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005"
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c"
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99"
+                }
+            }
         },
         "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
         "message_magic": "\u0018Bitcoin Signed Message:\n",
@@ -83,21 +101,25 @@
             "bech32": "tb",
             "bip44": 1,
             "slip132": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x043587cf"
+                },
                 "ypub": {
-                    "public": "0x049d7cb2",
-                    "private": "0x049d7878"
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28"
                 },
                 "Ypub": {
-                    "public": "0x0295b43f",
-                    "private": "0x0295b005"
+                    "public": "",
+                    "private": ""
                 },
                 "zpub": {
-                    "public": "0x04b24746",
-                    "private": "0x04b2430c"
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc"
                 },
                 "Zpub": {
-                    "public": "0x02aa7ed3",
-                    "private": "0x02aa7a99"
+                    "public": "0x02575483",
+                    "private": "0x02575048"
                 }
             }
         },
