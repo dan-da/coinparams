@@ -53,6 +53,10 @@
             "bech32": "bc",
             "bip44": 0,
             "slip132": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
                 "ypub": {
                     "public": "0x049d7cb2",
                     "private": "0x049d7878"

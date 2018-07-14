@@ -283,6 +283,7 @@ function process_chainparams_codebase(&$data, $meta) {
     process_message_magic($data, $meta);
     process_decimals($data, $meta);
     process_bip44($data, $meta);
+    process_slip132($data, $meta);
 }
 
 function process_chainparams(&$data, $meta) {
@@ -664,6 +665,7 @@ function process_oldbitcoin_codebase(&$data, $meta) {
     process_oldcode_message_magic($data, $meta);
     process_oldcode_decimals($data, $meta);
     process_bip44($data, $meta);
+    process_slip132($data, $meta);
 }
 
 function process_oldcode_hash_genesis_block(&$data, $meta) {
@@ -1083,6 +1085,18 @@ function process_oldcode_keys(&$data, $meta) {
     $data[$network]['prefixes']['bip32']['public'] = '0x0488b21e';
     $data[$network]['prefixes']['bip32']['private'] = '0x0488ade4';
     $data[$network]['prefixes']['bech32'] = null;    
+}
+
+function process_slip132(&$data, $meta) {
+    $symbol = $meta['symbol'];
+    $network = $meta['network'];
+    
+    $map = json_decode(file_get_contents(__DIR__ . '/../coins/meta/slip132.json'), true);
+    $slip132 = @$map[strtoupper($symbol)][$network];
+    
+    if( $slip132 ) {
+        $data[$network]['prefixes']['slip132'] = $slip132;
+    }
 }
 
 
