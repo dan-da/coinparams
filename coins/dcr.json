@@ -46,8 +46,8 @@
         ],
         "prefixes": {
             "bip32": {
-                "private": "0x2fda4e8",
-                "public": "0x2fda926"
+                "private": "0x02fda4e8",
+                "public": "0x02fda926"
             },
             "bip44": 42,
             "private": 8926,
@@ -76,8 +76,8 @@
         ],
         "prefixes": {
             "bip32": {
-                "private": "0x4358397",
-                "public": "0x43587d1"
+                "private": "0x04358397",
+                "public": "0x043587d1"
             },
             "bip44": 1,
             "private": 8974,
