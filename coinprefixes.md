@@ -113,7 +113,7 @@ the values from bitcoin are used.
 | CURE   | Curecoin - Mainnet                 |     153 |     25 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
 | CYDER  | Cyder - Mainnet                    |     148 |     20 |  142 | 0x0488ade4  | 0x0488b21e |       |        |
 | DASH   | Dash - Mainnet                     |     204 |     76 |   16 | 0x0488ade4  | 0x0488b21e |     5 |        |
-| DCR    | Decred - Mainnet                   |    8926 |   1855 | 1818 | 0x2fda4e8   | 0x2fda926  |    42 |        |
+| DCR    | Decred - Mainnet                   |    8926 |   1855 | 1818 | 0x02fda4e8  | 0x02fda926 |    42 |        |
 | DEM    | Deutsche eMark - Mainnet           |     181 |     53 |   30 | 0x0488ade4  | 0x0488b21e |       |        |
 | DEV    | DeviantCoin - Mainnet              |     137 |     90 |   10 | 0x0441514b  | 0x044d5066 |       |        |
 | DGB    | DigiByte - Mainnet                 |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |    20 | dgb    |
@@ -464,7 +464,7 @@ the values from bitcoin are used.
 | CURE   | Curecoin - Testnet                 |     239 |    111 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | CYDER  | Cyder - Testnet                    |     154 |     26 |  196 | 0x0488ade4  | 0x0488b21e |     1 |        |
 | DASH   | Dash - Testnet                     |     239 |    140 |   19 | 0x04358394  | 0x043587cf |     1 |        |
-| DCR    | Decred Testnet                     |    8974 |   3873 | 3836 | 0x4358397   | 0x43587d1  |     1 |        |
+| DCR    | Decred Testnet                     |    8974 |   3873 | 3836 | 0x04358397  | 0x043587d1 |     1 |        |
 | DEM    | Deutsche eMark - Testnet           |     239 |    111 |  196 | 0x04358394  | 0x043587cf |     1 |        |
 | DGB    | DigiByte - Testnet                 |     254 |    126 |  140 | 0x04358394  | 0x043587cf |     1 | dgbt   |
 | DGC    | Digitalcoin - Testnet              |     128 |     30 |    5 | 0x0488ade4  | 0x0488b21e |     1 |        |

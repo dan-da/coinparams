@@ -4605,7 +4605,7 @@
                 "slip132": {
                     "xpub": {
                         "public": "0x043587cf",
-                        "private": "0x043587cf"
+                        "private": "0x04358394"
                     },
                     "ypub": {
                         "public": "0x044a5262",
@@ -4648,7 +4648,29 @@
                     "private": "0x04358394"
                 },
                 "bech32": "bcrt",
-                "bip44": 1
+                "bip44": 1,
+                "slip132": {
+                    "xpub": {
+                        "public": "0x043587cf",
+                        "private": "0x04358394"
+                    },
+                    "ypub": {
+                        "public": "0x044a5262",
+                        "private": "0x044a4e28"
+                    },
+                    "Ypub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "zpub": {
+                        "public": "0x045f1cf6",
+                        "private": "0x045f18bc"
+                    },
+                    "Zpub": {
+                        "public": "0x02575483",
+                        "private": "0x02575048"
+                    }
+                }
             },
             "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
             "message_magic": "\u0018Bitcoin Signed Message:\n",
