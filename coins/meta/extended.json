@@ -32,10 +32,6 @@
                 "public": "0x044a5262",
                 "private": "0x044a4e28"
             },
-            "Ypub": {
-                "public": "",
-                "private": ""
-            },
             "zpub": {
                 "public": "0x045f1cf6",
                 "private": "0x045f18bc"
@@ -59,18 +55,6 @@
                     "ypub": {
                         "public": "0x01b26ef6",
                         "private": "0x01b26792"
-                    },
-                    "Ypub": {
-                        "public": "",
-                        "private": ""
-                    },
-                    "zpub": {
-                        "public": "",
-                        "private": ""
-                    },
-                    "Zpub": {
-                        "public": "",
-                        "private": ""
                     }
                 }
             }
@@ -82,23 +66,7 @@
                     "xpub": {
                         "public": "0x0436f6e1",
                         "private": "0x0436ef7d"
-                    },
-                    "ypub": {
-                        "public": "",
-                        "private": ""
-                    },
-                    "Ypub": {
-                        "public": "",
-                        "private": ""
-                    },
-                    "zpub": {
-                        "public": "",
-                        "private": ""
-                    },
-                    "Zpub": {
-                        "public": "",
-                        "private": ""
-                    }                    
+                    }
                 }
             }
         }
