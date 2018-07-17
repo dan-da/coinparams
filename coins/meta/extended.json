@@ -1,0 +1,106 @@
+{
+    "comment": "These values originate from slip132 at https://github.com/satoshilabs/slips/blob/master/slip-0132.md",
+    "BTC": {
+        "main": {
+            "xpub": {
+                "public": "0x0488b21e",
+                "private": "0x0488ade4"
+            },
+            "ypub": {
+                "public": "0x049d7cb2",
+                "private": "0x049d7878"
+            },
+            "Ypub": {
+                "public": "0x0295b43f",
+                "private": "0x0295b005"
+            },
+            "zpub": {
+                "public": "0x04b24746",
+                "private": "0x04b2430c"
+            },
+            "Zpub": {
+                "public": "0x02aa7ed3",
+                "private": "0x02aa7a99"
+            }
+        },
+        "test": {
+            "xpub": {
+                "public": "0x043587cf",
+                "private": "0x043587cf"
+            },
+            "ypub": {
+                "public": "0x044a5262",
+                "private": "0x044a4e28"
+            },
+            "Ypub": {
+                "public": "",
+                "private": ""
+            },
+            "zpub": {
+                "public": "0x045f1cf6",
+                "private": "0x045f18bc"
+            },
+            "Zpub": {
+                "public": "0x02575483",
+                "private": "0x02575048"
+            }
+        }
+    },
+    
+    "LTC": {
+        "main": {
+            "comment": "LTC uses BTC values by default, but has alternate prefixes, LTub, Mtub",
+            "alternates": {
+                "LTub": {
+                    "xpub": {
+                        "public": "0x019da462",
+                        "private": "0x019d9cfe"
+                    },
+                    "ypub": {
+                        "public": "0x01b26ef6",
+                        "private": "0x01b26792"
+                    },
+                    "Ypub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "zpub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "Zpub": {
+                        "public": "",
+                        "private": ""
+                    }
+                }
+            }
+        },
+        "test": {
+            "comment": "LTC uses BTC values by default, but has alternate prefixes, LTub, Mtub",
+            "alternates": {
+                "LTub": {
+                    "xpub": {
+                        "public": "0x0436f6e1",
+                        "private": "0x0436ef7d"
+                    },
+                    "ypub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "Ypub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "zpub": {
+                        "public": "",
+                        "private": ""
+                    },
+                    "Zpub": {
+                        "public": "",
+                        "private": ""
+                    }                    
+                }
+            }
+        }
+    }    
+}

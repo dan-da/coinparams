@@ -283,7 +283,7 @@ function process_chainparams_codebase(&$data, $meta) {
     process_message_magic($data, $meta);
     process_decimals($data, $meta);
     process_bip44($data, $meta);
-    process_slip132($data, $meta);
+    process_extended($data, $meta);
 }
 
 function process_chainparams(&$data, $meta) {
@@ -665,7 +665,7 @@ function process_oldbitcoin_codebase(&$data, $meta) {
     process_oldcode_message_magic($data, $meta);
     process_oldcode_decimals($data, $meta);
     process_bip44($data, $meta);
-    process_slip132($data, $meta);
+    process_extended($data, $meta);
 }
 
 function process_oldcode_hash_genesis_block(&$data, $meta) {
@@ -1082,21 +1082,45 @@ function process_oldcode_keys(&$data, $meta) {
     // note: maybe there should be an option to turn this off,
     //       but then the values would be undefined and json files
     //       would not validate.
+    $data[$network]['prefixes']['bip32']['undefined_used_btc'] = true;
     $data[$network]['prefixes']['bip32']['public'] = '0x0488b21e';
     $data[$network]['prefixes']['bip32']['private'] = '0x0488ade4';
     $data[$network]['prefixes']['bech32'] = null;    
 }
 
-function process_slip132(&$data, $meta) {
+function process_extended(&$data, $meta) {
     $symbol = $meta['symbol'];
     $network = $meta['network'];
+    $bip32 = $data[$network]['prefixes']['bip32'];    
     
-    $map = json_decode(file_get_contents(__DIR__ . '/../coins/meta/slip132.json'), true);
-    $slip132 = @$map[strtoupper($symbol)][$network];
-    
-    if( $slip132 ) {
-        $data[$network]['prefixes']['slip132'] = $slip132;
+    $file = __DIR__ . '/../coins/meta/extended.json';
+    $map = json_decode(file_get_contents(__DIR__ . '/../coins/meta/extended.json'), true);
+    if(!$map) {
+        throw new Exception("Error reading $file");
     }
+    $extended_btc = @$map['BTC'][$network];
+    $extended = @$map[strtoupper($symbol)][$network];
+
+    // use parsed values for 'xpub/xprv' instead of default values from extended.json.
+    $extended['xpub'] = $bip32;
+    unset($data[$network]['prefixes']['bip32']);
+    
+    $keytypes = ['xpub', 'ypub', 'zpub', 'Ypub', 'Zpub'];
+
+    if(strtoupper($symbol) != 'BTC') {
+        foreach($keytypes as $kt) {
+            $use_btc = false;
+            if( !@$extended[$kt]['public'] ||
+                !@$extended[$kt]['private']) {
+                if( @$extended_btc[$kt] ) {
+                    $extended[$kt] = $extended_btc[$kt];
+                    $extended[$kt]['undefined_used_btc'] = true;
+                }
+            }
+        }
+    }
+    
+    $data[$network]['prefixes']['extended'] = $extended;
 }
 
 
