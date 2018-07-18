@@ -52,9 +52,9 @@
             "bech32": "ltc",
             "bip44": 2,
             "extended": {
-                "comment": "LTC uses BTC values by default, but some wallets use alternate prefixes, LTub, etc",
+                "comment": "Litecoin-core uses BTC values by default, but some wallets use alternate prefixes, Ltub, etc",
                 "alternates": {
-                    "LTub": {
+                    "Ltub": {
                         "xpub": {
                             "public": "0x019da462",
                             "private": "0x019d9cfe"
@@ -118,9 +118,9 @@
             "bech32": "tltc",
             "bip44": 1,
             "extended": {
-                "comment": "LTC uses BTC values by default, but some wallets use alternate prefixes, LTub, etc",
+                "comment": "Litecoin-core uses BTC values by default, but some wallets use alternate prefixes, Ltub, etc",
                 "alternates": {
-                    "LTub": {
+                    "Ltub": {
                         "xpub": {
                             "public": "0x0436f6e1",
                             "private": "0x0436ef7d"
