@@ -39,12 +39,34 @@
             "private": 164,
             "public": 36,
             "scripthash": 13,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000bb3fa6e7040e32c0f8e8218e928c37e177139b62ae1daba803e0543c175",
         "message_magic": "\u0019DarkCoin Signed Message:\n",
@@ -67,12 +89,29 @@
             "private": 223,
             "public": 95,
             "scripthash": 17,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000bb3fa6e7040e32c0f8e8218e928c37e177139b62ae1daba803e0543c175",
         "message_magic": "\u0019DarkCoin Signed Message:\n",
@@ -92,12 +131,14 @@
             "private": 239,
             "public": 140,
             "scripthash": 19,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "418b3663e91147e6bdc6e4890da9a62075d435ead27abdaa2ae90b0230f82eed",
         "message_magic": "\u0019DarkCoin Signed Message:\n",

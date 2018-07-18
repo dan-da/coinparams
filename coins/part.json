@@ -42,12 +42,34 @@
             "private": 108,
             "public": 0,
             "scripthash": 0,
-            "bip32": {
-                "public": "0x696e82d1",
-                "private": "0x8f1daeb8"
-            },
             "bech32": "bc",
-            "bip44": 44
+            "bip44": 44,
+            "extended": {
+                "xpub": {
+                    "public": "0x696e82d1",
+                    "private": "0x8f1daeb8"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0000ee0784c195317ac95623e22fddb8c7b8825dc3998e0bb924d66866eccf4c",
         "message_magic": "\u0018Bitcoin Signed Message:\n",
@@ -70,12 +92,29 @@
             "private": 46,
             "public": 0,
             "scripthash": 0,
-            "bip32": {
-                "public": "0xe1427800",
-                "private": "0x04889478"
-            },
             "bech32": "tb",
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0xe1427800",
+                    "private": "0x04889478"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0000594ada5310b367443ee0afd4fa3d0bbd5850ea4e33cdc7d6a904a7ec7c90",
         "message_magic": "\u0018Bitcoin Signed Message:\n",
@@ -95,12 +134,14 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0xe1427800",
-                "private": "0x04889478"
-            },
             "bech32": "bcrt",
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0xe1427800",
+                    "private": "0x04889478"
+                }
+            }
         },
         "hash_genesis_block": "6cd174536c0ada5bfa3b8fde16b98ae508fff6586f2ee24cf866867098f25907",
         "message_magic": "\u0018Bitcoin Signed Message:\n",

@@ -1,39 +1,42 @@
 {
     "meta": {
-        "symbol": "BENJI",
-        "name": "BenjiRolls",
+        "symbol": "BTGEM",
+        "symbol_comment": "BTG --> BTGEM due to collision between Bitcoin Gold and Bitgem.  Bitcoin Gold presently has much higher market cap and slip44 entry, so it won.",
+        "name": "Bitgem",
         "supply": {
             "max": null
         },
         "web": {
             "websites": [
-                "http:\/\/benjirolls.cf\/"
+                "http:\/\/www.bitgem.pw\/"
             ],
-            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1581284.0",
-            "source_code": "https:\/\/github.com\/BelligerentFool\/BenjiRolls",
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=207008.0",
+            "source_code": "https:\/\/github.com\/bitgem\/bitgem",
             "explorers": [
-                "http:\/\/benjiexp.cryptooz.com\/"
+                "http:\/\/abe.alfter.us\/chain\/Bitgem"
             ],
-            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/benjirolls\/",
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitgem\/",
             "message_board": [],
             "chat": []
         },
         "original_codebase": "bitcoin"
     },
     "main": {
-        "symbol": "BENJI",
-        "name": "BenjiRolls - Mainnet",
+        "symbol": "BTGEM",
+        "name": "Bitgem - Mainnet",
         "testnet": false,
-        "port": 1777,
-        "port_rpc": 1776,
+        "port": 7692,
+        "port_rpc": 8348,
         "protocol": {
-            "magic": "0xfbc0b6db"
+            "magic": "0xe4e8e9e5"
         },
-        "seeds_dns": [],
+        "seeds_dns": [
+            "seed.bitgem.us"
+        ],
         "prefixes": {
-            "public": 255,
-            "scripthash": 253,
-            "private": 383,
+            "public": 98,
+            "scripthash": 8,
+            "private": 226,
             "bech32": null,
             "bip44": null,
             "extended": {
@@ -64,24 +67,24 @@
                 }
             }
         },
-        "hash_genesis_block": "4deb54e42ec54fc20c975c3ab122cdd9655bc90d3c64c99d851300ae7dd629ae",
-        "message_magic": "\u001bBENJIROLLS Signed Message:\n",
-        "decimals": 8
+        "hash_genesis_block": "00000b91c4ef8fd7e86329e11cff7f03c96208dac5c057b3fa6877b9fbd97c74",
+        "message_magic": "\u0017BitGem Signed Message:\n",
+        "decimals": 6
     },
     "test": {
-        "symbol": "BENJI",
-        "name": "BenjiRolls - Testnet",
+        "symbol": "BTGEM",
+        "name": "Bitgem - Testnet",
         "testnet": true,
-        "port": 17763,
-        "port_rpc": 17762,
+        "port": 17692,
+        "port_rpc": 18348,
         "protocol": {
-            "magic": "0xfcc1b7dc"
+            "magic": "0xcdf2c0ef"
         },
         "seeds_dns": [],
         "prefixes": {
-            "public": 254,
-            "scripthash": 252,
-            "private": 382,
+            "public": 111,
+            "scripthash": 196,
+            "private": 239,
             "bech32": null,
             "bip44": 1,
             "extended": {
@@ -107,8 +110,8 @@
                 }
             }
         },
-        "hash_genesis_block": "0x30be3f60eda0d41cae6cb172b584ec9d524156890bf5909e394679b651593ae2",
-        "message_magic": "\u001bBENJIROLLS Signed Message:\n",
-        "decimals": 8
+        "hash_genesis_block": "000003d7b81b08a6fd709d76e9d235605a811b71bef07950a307370a191d419b",
+        "message_magic": "\u0017BitGem Signed Message:\n",
+        "decimals": 6
     }
 }

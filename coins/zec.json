@@ -41,12 +41,34 @@
             "private": 128,
             "public": 7352,
             "scripthash": 7357,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": 133
+            "bip44": 133,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
         "message_magic": "\u0016Zcash Signed Message:\n",
@@ -68,12 +90,29 @@
             "private": 239,
             "public": 7461,
             "scripthash": 7354,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "05a60a92d99d85997cce3b87616c089f6124d7342af37106edc76126334a2c38",
         "message_magic": "\u0016Zcash Signed Message:\n",
@@ -93,12 +132,14 @@
             "private": 239,
             "public": 7461,
             "scripthash": 7354,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
         "message_magic": "\u0016Zcash Signed Message:\n",

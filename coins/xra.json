@@ -40,12 +40,35 @@
             "public": 60,
             "scripthash": 28,
             "private": 188,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4",
+                    "undefined_used_btc": true
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0000093f866ed96661b2b4893f1c9e4f163698acbebfb8754da507c7f07090e9",
         "message_magic": "\u0019RATECoin Signed Message:\n",
@@ -65,12 +88,30 @@
             "public": 111,
             "scripthash": 196,
             "private": 239,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x043587cf",
+                    "undefined_used_btc": true
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "a0bb978c156bb39d79266ac6943d9da2ba9a76e847b5e1744aa59a3899f19ab8",
         "message_magic": "\u0019RATECoin Signed Message:\n",

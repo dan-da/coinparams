@@ -36,12 +36,34 @@
             "private": 128,
             "public": 60,
             "scripthash": 5,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": 143
+            "bip44": 143,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "e1ea18d0676ef9899fbc78ef428d1d26a2416d0f0441d46668d33bcb41275740",
         "message_magic": "\u0018riecoin Signed Message:\n",

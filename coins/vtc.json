@@ -10,7 +10,7 @@
                 "http:\/\/vertcoin.org\/"
             ],
             "announcement": "https:\/\/bitcointalk.org\/index.php?topic=1828453",
-            "source_code": "https:\/\/github.com\/vertcoin-project\/vertcoin-core",
+            "source_code": "https:\/\/github.com\/vertcoin\/vertcoin",
             "explorers": [
                 "https:\/\/bitinfocharts.com\/vertcoin\/",
                 "https:\/\/bchain.info\/vtc\/",
@@ -46,12 +46,34 @@
             "private": 128,
             "public": 71,
             "scripthash": 5,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": "vtc",
-            "bip44": 28
+            "bip44": 28,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
         "message_magic": "\u0019Vertcoin Signed Message:\n",
@@ -76,12 +98,29 @@
             "private": 239,
             "public": 74,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": "tvtc",
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
         "message_magic": "\u0019Vertcoin Signed Message:\n",
@@ -101,12 +140,14 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": "bcrt",
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "2399c0b047ebbbd1650d66867206c97317027b1a1932bc6fc17ce833dc4a85ce",
         "message_magic": "\u0019Vertcoin Signed Message:\n",

@@ -37,12 +37,34 @@
             "private": 142,
             "public": 80,
             "scripthash": 72,
-            "bip32": {
-                "public": "0x0473dc3b",
-                "private": "0x04736c1c"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0473dc3b",
+                    "private": "0x04736c1c"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "901c06ab0885ac4445629e2a52edfafb036c311661416402079c5036cf32ea33",
         "message_magic": "\u0019ZeniCoin Signed Message:\n",
@@ -62,12 +84,29 @@
             "private": 239,
             "public": 120,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043517ff",
-                "private": "0x04354399"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043517ff",
+                    "private": "0x04354399"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d",
         "message_magic": "\u0019ZeniCoin Signed Message:\n",

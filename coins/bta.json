@@ -43,12 +43,34 @@
             "private": 188,
             "public": 25,
             "scripthash": 5,
-            "bip32": {
-                "public": "0xa40c86fa",
-                "private": "0xa40b91bd"
-            },
             "bech32": null,
-            "bip44": 89
+            "bip44": 89,
+            "extended": {
+                "xpub": {
+                    "public": "0xa40c86fa",
+                    "private": "0xa40b91bd"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "b4bee36fd54a6176fd832f462641415c142d50e4b378f71c041870c2b1186bc8",
         "message_magic": "\u0015Bata Signed Message:\n",
@@ -72,12 +94,29 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000a6800e5e2b43515cd12da56861eb482ebcdfa6ee92c1a8d7836ff654500",
         "message_magic": "\u0015Bata Signed Message:\n",

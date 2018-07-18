@@ -1,28 +1,35 @@
 {
     "meta": {
         "symbol": "BTG",
-        "name": "Bitgem",
+        "name": "Bitcoin Gold",
         "supply": {
-            "max": null
+            "max": "21000000"
         },
         "web": {
             "websites": [
-                "http:\/\/www.bitgem.pw\/"
+                "https:\/\/bitcoingold.org\/"
             ],
-            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=207008.0",
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2284289.0",
             "source_code": "https:\/\/github.com\/BTCGPU\/BTCGPU",
             "explorers": [
-                "http:\/\/abe.alfter.us\/chain\/Bitgem"
+                "https:\/\/explorer.bitcoingold.org\/insight\/",
+                "https:\/\/btgexp.com\/",
+                "https:\/\/btgexplorer.com\/"
             ],
-            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitgem\/",
-            "message_board": [],
-            "chat": []
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-gold\/",
+            "message_board": [
+                "https:\/\/forum.bitcoingold.org"
+            ],
+            "chat": [
+                "https:\/\/t.me\/BitcoinGoldHQ",
+                "https:\/\/discord.gg\/HmVUU6S"
+            ]
         },
         "original_codebase": "bitcoin"
     },
     "main": {
         "symbol": "BTG",
-        "name": "Bitgem - Mainnet",
+        "name": "Bitcoin Gold - Mainnet",
         "testnet": false,
         "port": 8338,
         "port_rpc": 8332,
@@ -38,12 +45,34 @@
             "private": 128,
             "public": 38,
             "scripthash": 23,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": 156
+            "bip44": 156,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
         "message_magic": "\u001dBitcoin Gold Signed Message:\n",
@@ -51,7 +80,7 @@
     },
     "test": {
         "symbol": "BTG",
-        "name": "Bitgem - Testnet",
+        "name": "Bitcoin Gold - Testnet",
         "testnet": true,
         "port": 18338,
         "port_rpc": 18332,
@@ -67,12 +96,29 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000000e0781ebe24b91eedc293adfea2f557b53ec379e78959de3853e6f9f6",
         "message_magic": "\u001dBitcoin Gold Signed Message:\n",
@@ -80,7 +126,7 @@
     },
     "regtest": {
         "symbol": "BTG",
-        "name": "Bitgem - Regtest",
+        "name": "Bitcoin Gold - Regtest",
         "testnet": true,
         "port": 18444,
         "port_rpc": 18332,
@@ -92,12 +138,14 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
         "message_magic": "\u001dBitcoin Gold Signed Message:\n",

@@ -68,10 +68,6 @@
             "public": "",
             "scripthash": "",
             "extended": {
-                "xpub": {
-                    "public": "",
-                    "private": ""
-                }
             },
             "bip44": 1,
             "bech32": null

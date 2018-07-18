@@ -37,12 +37,36 @@
             "private": 176,
             "public": 50,
             "scripthash": 5,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
+            "scripthash2": 55,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": 22
+            "bip44": 22,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
         "message_magic": "\u0019Monacoin Signed Message:\n",
@@ -64,12 +88,31 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
+            "scripthash2": 117,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "a2b106ceba3be0c6d097b2a6a6aacf9d638ba8258ae478158f449c321061e0b2",
         "message_magic": "\u0019Monacoin Signed Message:\n",
@@ -89,12 +132,16 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
+            "scripthash2": 117,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c",
         "message_magic": "\u0019Monacoin Signed Message:\n",

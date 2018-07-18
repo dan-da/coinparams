@@ -10,7 +10,7 @@
                 "https:\/\/www.interstellarcoin.com\/"
             ],
             "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2357720.0",
-            "source_code": "https:\/\/github.com\/InterstellarHoldings\/StellarHoldings",
+            "source_code": "https:\/\/github.com\/InterstellarHoldings\/InterstellarHoldings",
             "explorers": [
                 "http:\/\/explorer.interstellarcoin.com\/"
             ],
@@ -39,12 +39,34 @@
             "private": 153,
             "public": 40,
             "scripthash": 100,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "000001c7205cc2fb5b0fc12de43b7e6d2526eb5a61b1731650cbb5a570b87243",
         "message_magic": "%InterstellarHoldings Signed Message:\n",
@@ -64,12 +86,29 @@
             "private": 153,
             "public": 40,
             "scripthash": 100,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00008783573601e55e38841fb2bcaf3bf52c323bc36190d19ce2ccb42b2c106c",
         "message_magic": "%InterstellarHoldings Signed Message:\n",

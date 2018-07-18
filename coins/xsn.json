@@ -35,17 +35,46 @@
         "protocol": {
             "magic": "0xbf0c6cbd"
         },
-        "seeds_dns": [],
+        "seeds_dns": [
+            "seed.xsn.sipa.be",
+            "dnsseed.bluematt.me",
+            "dnsseed.xsn.dashjr.org",
+            "seed.xsnstats.com",
+            "seed.xsn.jonasschnelli.ch",
+            "autoseeds.xsnseed.xyz"
+        ],
         "prefixes": {
             "private": 204,
             "public": 76,
             "scripthash": 16,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
-            "bech32": null,
-            "bip44": null
+            "bech32": "xc",
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000c822abdbb23e28f79a49d29b41429737c6c7e15df40d1b1f1b35907ae34",
         "message_magic": "\u0019DarkCoin Signed Message:\n",
@@ -61,18 +90,38 @@
             "magic": "0xcee2caff"
         },
         "seeds_dns": [
-            "test.dnsseed.masternode.io"
+            "testnet-seed.xsn.jonasschnelli.ch",
+            "seed.txsn.petertodd.org",
+            "seed.testnet.xsn.sprovoost.nl",
+            "testnet-seed.bluematt.me"
         ],
         "prefixes": {
             "private": 239,
             "public": 140,
             "scripthash": 19,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
-            "bech32": null,
-            "bip44": 1
+            "bech32": "tb",
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "000005254b31cd4e41fdce02c5a571fe4b6ec6d65af0dc339a85bb749ee90763",
         "message_magic": "\u0019DarkCoin Signed Message:\n",
@@ -82,22 +131,24 @@
         "symbol": "XSN",
         "name": "Stakenet - Regtest",
         "testnet": true,
-        "port": 19994,
+        "port": 29999,
         "port_rpc": 18332,
         "protocol": {
-            "magic": "0xfcc1b7dc"
+            "magic": "0xfabfb5da"
         },
         "seeds_dns": [],
         "prefixes": {
             "private": 239,
             "public": 140,
             "scripthash": 19,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
-            "bech32": null,
-            "bip44": 1
+            "bech32": "bcrt",
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "7229c32afcd2400f71cd72f55955c73bd384e41ed2e290c5a0488d0e6a15ddb4",
         "message_magic": "\u0019DarkCoin Signed Message:\n",

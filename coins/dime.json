@@ -28,21 +28,43 @@
         "name": "Dimecoin - Mainnet",
         "testnet": false,
         "port": 11931,
-        "port_rpc": 11930,
+        "port_rpc": 8372,
         "protocol": {
             "magic": "0xfea503dd"
         },
         "seeds_dns": [],
         "prefixes": {
+            "private": 143,
             "public": 15,
             "scripthash": 9,
-            "private": 143,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000d5a9113f87575c77eb5442845ff8a0014f6e79e2dd2317d88946ef910da",
         "message_magic": "\u0019Dimecoin Signed Message:\n",
@@ -53,23 +75,40 @@
         "name": "Dimecoin - Testnet",
         "testnet": true,
         "port": 21931,
-        "port_rpc": 21930,
+        "port_rpc": 11930,
         "protocol": {
             "magic": "0x011A39F7"
         },
         "seeds_dns": [],
         "prefixes": {
+            "private": 247,
             "public": 119,
             "scripthash": 199,
-            "private": 247,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
-        "hash_genesis_block": "0x00000e5e37c42d6b67d0934399adfb0fa48b59138abb1a8842c88f4ca3d4ec96",
+        "hash_genesis_block": "e5524c7f4b08e6a04689a551fa060d9e39934991d5a4111105d9359447733285",
         "message_magic": "\u0019Dimecoin Signed Message:\n",
         "decimals": 5
     }

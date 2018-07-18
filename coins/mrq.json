@@ -36,12 +36,34 @@
             "private": 138,
             "public": 110,
             "scripthash": 40,
-            "bip32": {
-                "public": "0x02243324",
-                "private": "0x02212532"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x02243324",
+                    "private": "0x02212532"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "000000c3bb8288f6627ffcb2cd8444bb37ab2cb63146ce4abef121b842514bd6",
         "message_magic": "\u0018DarkNet Signed Message:\n",

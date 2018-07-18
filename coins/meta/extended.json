@@ -45,7 +45,7 @@
     
     "LTC": {
         "main": {
-            "comment": "LTC uses BTC values by default, but has alternate prefixes, LTub, Mtub",
+            "comment": "LTC uses BTC values by default, but some wallets use alternate prefixes, LTub, etc",
             "alternates": {
                 "LTub": {
                     "xpub": {
@@ -60,7 +60,7 @@
             }
         },
         "test": {
-            "comment": "LTC uses BTC values by default, but has alternate prefixes, LTub, Mtub",
+            "comment": "LTC uses BTC values by default, but some wallets use alternate prefixes, LTub, etc",
             "alternates": {
                 "LTub": {
                     "xpub": {

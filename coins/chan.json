@@ -45,12 +45,36 @@
             "private": 156,
             "public": 28,
             "scripthash": 5,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
+            "scripthash2": 50,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "72c18e80787d961e92bc4bd508dbe7d7c5189794d449a6a58853f4e032b4831c",
         "message_magic": "\u0019Chancoin Signed Message:\n",
@@ -70,12 +94,31 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
+            "scripthash2": 58,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0xfd7e409a273c81abdcb5249eb42c590d2d2f0618f24fef2b56e2570734459cca0x46b8572aab529bb7297c73009bd21073a5366380fbf1c0a2053fe05f77ea3ecb",
         "message_magic": "\u0019Chancoin Signed Message:\n",
@@ -95,12 +138,16 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
+            "scripthash2": 58,
+            "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
         },
         "hash_genesis_block": "b116d4bdf434be82474a921a4b69f922c6ee2426b49688a230020d5aa2961346",
         "message_magic": "\u0019Chancoin Signed Message:\n",

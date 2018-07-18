@@ -6770,7 +6770,43 @@
     },
     "BTG": {
         "symbol": "BTG",
+        "name": "Bitcoin Gold",
+        "flags": {
+            "is_coin": true,
+            "is_token": false,
+            "is_mineable": true
+        },
+        "supply": {
+            "max": "21000000",
+            "circulating": "17127761.089",
+            "total": "17227761.089"
+        },
+        "web": {
+            "websites": [
+                "https:\/\/bitcoingold.org\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=2284289.0",
+            "source_code": "https:\/\/github.com\/BTCGPU\/BTCGPU",
+            "explorers": [
+                "https:\/\/explorer.bitcoingold.org\/insight\/",
+                "https:\/\/btgexp.com\/",
+                "https:\/\/btgexplorer.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-gold\/",
+            "message_board": [
+                "https:\/\/forum.bitcoingold.org"
+            ],
+            "chat": [
+                "https:\/\/t.me\/BitcoinGoldHQ",
+                "https:\/\/discord.gg\/HmVUU6S"
+            ]
+        },
+        "timestamp": 1531841060
+    },
+    "BTGEM": {
+        "symbol": "BTGEM",
         "name": "Bitgem",
+        "symbol_comment": "BTG --> BTGEM due to collision between Bitcoin Gold and Bitgem.  Bitcoin Gold presently has much higher market cap and slip44 entry, so it won.",
         "flags": {
             "is_coin": true,
             "is_token": false,
@@ -6778,8 +6814,8 @@
         },
         "supply": {
             "max": null,
-            "circulating": "61127.01936",
-            "total": "61127.01936"
+            "circulating": "61235.137793",
+            "total": "61235.137793"
         },
         "web": {
             "websites": [
@@ -6794,7 +6830,7 @@
             "message_board": [],
             "chat": []
         },
-        "timestamp": 1530431881
+        "timestamp": 1531841059
     },
     "BTM": {
         "symbol": "BTM",

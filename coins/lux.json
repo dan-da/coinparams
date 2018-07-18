@@ -38,12 +38,34 @@
             "private": 155,
             "public": 48,
             "scripthash": 63,
-            "bip32": {
-                "public": "0x0728a24e",
-                "private": "0x03d8a1e5"
-            },
             "bech32": "bc",
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0728a24e",
+                    "private": "0x03d8a1e5"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000759bb3da130d7c9aedae170da8335f5a0d01a9007e4c8d3ccd08ace6a42",
         "message_magic": "\u0014Lux Signed Message:\n",
@@ -63,12 +85,29 @@
             "private": 155,
             "public": 48,
             "scripthash": 63,
-            "bip32": {
-                "public": "0x3a8061a0",
-                "private": "0x3a805837"
-            },
             "bech32": "tb",
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x3a8061a0",
+                    "private": "0x3a805837"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "00000b773a72afd051c6fe34c6d9c8e1ba78b1556263c807a1ca7d7a200cda82",
         "message_magic": "\u0014Lux Signed Message:\n",

@@ -32,20 +32,41 @@
             "magic": "0xaaa3b2c4"
         },
         "seeds_dns": [
-            "node1.sagacoin.net",
-            "node2.sagacoin.net",
-            "node3.sagacoin.net"
+            "dnsseed1.sagacoin.net",
+            "dnsseed2.sagacoin.net"
         ],
         "prefixes": {
             "private": 142,
             "public": 125,
             "scripthash": 44,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "e523a92cbe17c3e13fbc1bf191e79138c9dfbe61199ede7870b4d5abd89c0e93",
         "message_magic": "\u0019SagaCoin Signed Message:\n",

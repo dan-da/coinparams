@@ -87,8 +87,9 @@ https://github.com/dan-da/coinparams
 | BTCR   | Bitcurrency - Mainnet              |    15814 |    15815 |         3 | 0x70421309 | "\u001cBitCurrency Signed Message:\n"       |
 | BTCZ   | BitcoinZ - Mainnet                 |     1989 |     1979 |         6 | 0x24e92764 | "\u0019BitcoinZ Signed Message:\n"          |
 | BTDX   | Bitcloud - Mainnet                 |     8329 |     8330 |         0 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
-| BTG    | Bitgem - Mainnet                   |     8338 |     8332 |         3 | 0xe1476d44 | "\u001dBitcoin Gold Signed Message:\n"      |
-| BTX    | Bitcore - Mainnet                  |     8555 |     8556 |         0 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
+| BTG    | Bitcoin Gold - Mainnet             |     8338 |     8332 |         3 | 0xe1476d44 | "\u001dBitcoin Gold Signed Message:\n"      |
+| BTGEM  | Bitgem - Mainnet                   |     7692 |     8348 |         1 | 0xe4e8e9e5 | "\u0017BitGem Signed Message:\n"            |
+| BTX    | Bitcore - Mainnet                  |     8555 |     8556 |         5 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
 | BUB    | Bubble - Mainnet                   |    15716 |    15719 |         0 | 0xcd2119dd | "\u0017Bubble Signed Message:\n"            |
 | BUMBA  | BumbaCoin - Mainnet                |    20222 |    10111 |         0 | 0xb1c0d2e3 | "\u001bbumbacoin2 Signed Message:\n"        |
 | BUZZ   | BuzzCoin - Mainnet                 |    25128 |    25129 |         0 | 0x07358205 | "\u0019BuzzCoin Signed Message:\n"          |
@@ -96,7 +97,7 @@ https://github.com/dan-da/coinparams
 | CANN   | CannabisCoin - Mainnet             |    39348 |    39347 |         2 | 0xfec3b9de | "\u001dCannabisCoin Signed Message:\n"      |
 | CARBON | Carboncoin - Mainnet               |     9350 |     9351 |         2 | 0xabccbbdf | "\u001bCarboncoin Signed Message:\n"        |
 | CAT    | Catcoin - Mainnet                  |     9933 |     9932 |         2 | 0xfcc1b7dc | "\u0018Catcoin Signed Message:\n"           |
-| CAZ    | Cazcoin - Mainnet                  |    17350 |    17358 |         4 | 0x3da232b4 | "\u0018DarkNet Signed Message:\n"           |
+| CAZ    | Cazcoin - Mainnet                  |    17350 |    17358 |        10 | 0x3da232b4 | "\u0018DarkNet Signed Message:\n"           |
 | CBX    | Bullion - Mainnet                  |     7695 |     8395 |         1 | 0xe4e8e9e5 | "\u0018Bullion Signed Message:\n"           |
 | CHAN   | ChanCoin - Mainnet                 |    19117 |    19118 |         5 | 0x0f9154f8 | "\u0019Chancoin Signed Message:\n"          |
 | CHEAP  | Cheapcoin - Mainnet                |    36648 |    36645 |         0 | 0xf32da571 | "\u001acheapcoin Signed Message:\n"         |
@@ -122,10 +123,10 @@ https://github.com/dan-da/coinparams
 | DASH   | Dash - Mainnet                     |     9999 |     9998 |         4 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
 | DCR    | Decred - Mainnet                   |     9108 |     9109 |         4 | 0xf900b4d9 | "\u0017Decred Signed Message:\n"            |
 | DEM    | Deutsche eMark - Mainnet           |     5556 |     6666 |         1 | 0xe4e8e9e5 | "\u0016eMark Signed Message:\n"             |
-| DEV    | DeviantCoin - Mainnet              |    22618 |    22617 |         7 | 0x28b4adb8 | "\u0018DarkNet Signed Message:\n"           |
+| DEV    | DeviantCoin - Mainnet              |    22618 |    22617 |         5 | 0x28b4adb8 | "\u0018DarkNet Signed Message:\n"           |
 | DGB    | DigiByte - Mainnet                 |    12024 |     8332 |         7 | 0xfac3b6da | "\u0019DigiByte Signed Message:\n"          |
 | DGC    | Digitalcoin - Mainnet              |     7999 |     7998 |         2 | 0xfbc0b6db | "\u001cDigitalcoin Signed Message:\n"       |
-| DIME   | Dimecoin - Mainnet                 |    11931 |    11930 |         0 | 0xfea503dd | "\u0019Dimecoin Signed Message:\n"          |
+| DIME   | Dimecoin - Mainnet                 |    11931 |     8372 |         0 | 0xfea503dd | "\u0019Dimecoin Signed Message:\n"          |
 | DLC    | Dollarcoin - Mainnet               |     8145 |     8146 |         0 | 0xfc9b3d41 | "\u001bdollarcoin Signed Message:\n"        |
 | DMB    | Digital Money Bits - Mainnet       |    35097 |    35098 |         0 | 0xf12ffeef | "!Digitalmoneybits Signed Message:\n"       |
 | DMD    | Diamond - Mainnet                  |    17771 |    17770 |         1 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
@@ -270,7 +271,7 @@ https://github.com/dan-da/coinparams
 | PLACO  | PlayerCoin - Mainnet               |    16666 |    17321 |         1 | 0xeb3d1cc4 | "\u001bPlayerCoin Signed Message:\n"        |
 | PND    | Pandacoin - Mainnet                |    22445 |    22444 |         1 | 0xc0c0c0c0 | "\u001aPandacoin Signed Message:\n"         |
 | PNX    | Phantomx - Mainnet                 |    31978 |    21978 |         0 | 0xd627d6e2 | "\u0016Cream Signed Message:\n"             |
-| POLIS  | Polis - Mainnet                    |    24126 |    24127 |         3 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
+| POLIS  | Polis - Mainnet                    |    24126 |    24127 |         5 | 0xbf0c6bbd | "\u0019DarkCoin Signed Message:\n"          |
 | POP    | PopularCoin - Mainnet              |    18181 |    27172 |         0 | 0xcefbfadb | "\u001cPopularCoin Signed Message:\n"       |
 | POST   | PostCoin - Mainnet                 |     9130 |     9131 |         0 | 0x35c3d6a2 | "\u0019PostCoin Signed Message:\n"          |
 | POT    | PotCoin - Mainnet                  |     4200 |    42000 |         1 | 0xfbc0b6db | "\u0018Potcoin Signed Message:\n"           |
@@ -295,7 +296,7 @@ https://github.com/dan-da/coinparams
 | RUP    | Rupee - Mainnet                    |    10459 |    10460 |         0 | 0x3b69ded4 | "\u0016RUPEE Signed Message:\n"             |
 | RUPX   | Rupaya - Mainnet                   |     9020 |     7020 |         6 | 0x63434956 | "\u0018DarkNet Signed Message:\n"           |
 | RVN    | Ravencoin - Mainnet                |     8767 |     8766 |         2 | 0x5241564e | "\u0016Raven Signed Message:\n"             |
-| SAGA   | SagaCoin - Mainnet                 |    48744 |    48844 |         3 | 0xaaa3b2c4 | "\u0019SagaCoin Signed Message:\n"          |
+| SAGA   | SagaCoin - Mainnet                 |    48744 |    48844 |         2 | 0xaaa3b2c4 | "\u0019SagaCoin Signed Message:\n"          |
 | SAK    | Sharkcoin - Mainnet                |     4011 |     4009 |         2 | 0xfea503db | "\u001aSharkcoin Signed Message:\n"         |
 | SBC    | StrikeBitClub - Mainnet            |    21575 |    21576 |         2 | 0x556a3299 | "\u0018SBCcoin Signed Message:\n"           |
 | SEQ    | Sequence - Mainnet                 |    16662 |    16663 |         4 | 0x01100220 | "\u0015Silk Signed Message:\n"              |
@@ -365,7 +366,7 @@ https://github.com/dan-da/coinparams
 | XQN    | Quotient - Mainnet                 |    30994 |    30997 |         1 | 0xefb2faf2 | "\u0019Quotient Signed Message:\n"          |
 | XRA    | Ratecoin - Mainnet                 |    35851 |    35850 |         3 | 0xa1a0a2a3 | "\u0019RATECoin Signed Message:\n"          |
 | XRE    | RevolverCoin - Mainnet             |     8777 |     8775 |         0 | 0xf9beb4d9 | "\u001dRevolverCoin Signed Message:\n"      |
-| XSN    | Stakenet - Mainnet                 |    62583 |    51473 |         0 | 0xbf0c6cbd | "\u0019DarkCoin Signed Message:\n"          |
+| XSN    | Stakenet - Mainnet                 |    62583 |    51473 |         6 | 0xbf0c6cbd | "\u0019DarkCoin Signed Message:\n"          |
 | XSPEC  | Spectrecoin - Mainnet              |    37347 |    36657 |         0 | 0xb5225cd3 | "\u001cSpectreCoin Signed Message:\n"       |
 | XTO    | Tao - Mainnet                      |    15150 |    15151 |         7 | 0x1dd11ee1 | "\u0014Tao Signed Message:\n"               |
 | XVG    | Verge - Mainnet                    |    21102 |    20102 |         0 | 0xf7a77eff | "\u0016VERGE Signed Message:\n"             |
@@ -442,8 +443,9 @@ https://github.com/dan-da/coinparams
 | BTCR   | Bitcurrency - Testnet              |    25814 |    25815 |         0 | 0xbca4b0da         | "\u001cBitCurrency Signed Message:\n"       |
 | BTCZ   | BitcoinZ - Testnet                 |    11989 |    11979 |         2 | 0xfa1af9bf         | "\u0019BitcoinZ Signed Message:\n"          |
 | BTDX   | Bitcloud - Testnet                 |    51474 |     8329 |         0 | 0x457665ba         | "\u0018Diamond Signed Message:\n"           |
-| BTG    | Bitgem - Testnet                   |    18338 |    18332 |         3 | 0xe2486e45         | "\u001dBitcoin Gold Signed Message:\n"      |
-| BTX    | Bitcore - Testnet                  |    18333 |    50332 |         0 | 0x0b110907         | "\u0018BitCore Signed Message:\n"           |
+| BTG    | Bitcoin Gold - Testnet             |    18338 |    18332 |         3 | 0xe2486e45         | "\u001dBitcoin Gold Signed Message:\n"      |
+| BTGEM  | Bitgem - Testnet                   |    17692 |    18348 |         0 | 0xcdf2c0ef         | "\u0017BitGem Signed Message:\n"            |
+| BTX    | Bitcore - Testnet                  |     8666 |    50332 |         0 | 0xfdd2c8f1         | "\u0018BitCore Signed Message:\n"           |
 | BUB    | Bubble - Testnet                   |    38881 |    38882 |         0 | 0x08121619         | "\u0017Bubble Signed Message:\n"            |
 | BUMBA  | BumbaCoin - Testnet                |    20202 |    10101 |         0 | 0x                 | "\u001bbumbacoin2 Signed Message:\n"        |
 | BUZZ   | BuzzCoin - Testnet                 |    20114 |    20115 |         0 | 0x1f220530         | "\u0019BuzzCoin Signed Message:\n"          |
@@ -476,7 +478,7 @@ https://github.com/dan-da/coinparams
 | DEM    | Deutsche eMark - Testnet           |    15556 |    16666 |         0 | 0xfec3b9de         | "\u0016eMark Signed Message:\n"             |
 | DGB    | DigiByte - Testnet                 |    12025 |    18332 |         4 | 0xfdc8bddd         | "\u0019DigiByte Signed Message:\n"          |
 | DGC    | Digitalcoin - Testnet              |    17999 |    17998 |         2 | 0xcee2cafffbc0b6db | "\u001cDigitalcoin Signed Message:\n"       |
-| DIME   | Dimecoin - Testnet                 |    21931 |    21930 |         0 | 0x011A39F7         | "\u0019Dimecoin Signed Message:\n"          |
+| DIME   | Dimecoin - Testnet                 |    21931 |    11930 |         0 | 0x011A39F7         | "\u0019Dimecoin Signed Message:\n"          |
 | DLC    | Dollarcoin - Testnet               |    18145 |    18146 |         0 | 0xd5acae18         | "\u001bdollarcoin Signed Message:\n"        |
 | DMB    | Digital Money Bits - Testnet       |    32097 |    32098 |         0 | 0x2eea4eee         | "!Digitalmoneybits Signed Message:\n"       |
 | DMD    | Diamond - Testnet                  |    51474 |    17772 |         1 | 0x457665ba         | "\u0018Diamond Signed Message:\n"           |
@@ -602,7 +604,7 @@ https://github.com/dan-da/coinparams
 | ODN    | Obsidian - Testnet                 |    26178 |    26174 |         0 | 0x71312111         | "\u0019Obsidian Signed Message:\n"          |
 | OK     | OKCash - Testnet                   |     7980 |     7979 |         0 | 0x00097a0f         | "\u0017OKCash Signed Message:\n"            |
 | OMC    | Omicron - Testnet                  |    18519 |    18520 |         0 | 0x151c9d41         | "\u0018Omicron Signed Message:\n"           |
-| ONION  | DeepOnion - Testnet                |    26550 |    28580 |         0 | 0xa1a0a2a3         | "\u001aDeepOnion Signed Message:\n"         |
+| ONION  | DeepOnion - Testnet                |    26550 |    28580 |         0 | 0xa1a0a2f3         | "\u001aDeepOnion Signed Message:\n"         |
 | OPC    | OP Coin - Testnet                  |    15555 |    15557 |         0 | 0x75ea1361         | "\u0017OPCoin Signed Message:\n"            |
 | ORE    | Galactrum - Testnet                |    16270 |    16269 |         1 | 0xb1ded0ab         | "\u0019DarkCoin Signed Message:\n"          |
 | PAK    | Pakcoin - Testnet                  |    17867 |    17866 |         0 | 0xfcc1b7dc         | "\u0018Pakcoin Signed Message:\n"           |
@@ -615,7 +617,7 @@ https://github.com/dan-da/coinparams
 | PLACO  | PlayerCoin - Testnet               |    15666 |    20786 |         0 | 0x70e49e63         | "\u001bPlayerCoin Signed Message:\n"        |
 | PND    | Pandacoin - Testnet                |    44656 |    25715 |         0 | 0xfcc1b7dc         | "\u001aPandacoin Signed Message:\n"         |
 | PNX    | Phantomx - Testnet                 |    31979 |    21979 |         0 | 0x275cd6d9         | "\u0016Cream Signed Message:\n"             |
-| POLIS  | Polis - Testnet                    |    21430 |    21431 |         0 | 0xcee2caff         | "\u0019DarkCoin Signed Message:\n"          |
+| POLIS  | Polis - Testnet                    |    21430 |    24131 |         0 | 0xcee2caff         | "\u0019DarkCoin Signed Message:\n"          |
 | POP    | PopularCoin - Testnet              |    38181 |    37172 |         0 | 0xcdf1c0ef         | "\u001cPopularCoin Signed Message:\n"       |
 | POST   | PostCoin - Testnet                 |    25500 |    25500 |         0 | 0x35c3d6a2         | "\u0019PostCoin Signed Message:\n"          |
 | PPC    | Peercoin - Testnet                 |     9903 |     9904 |         1 | 0xefc0f2cb         | "\u0019Peercoin Signed Message:\n"          |
@@ -698,7 +700,7 @@ https://github.com/dan-da/coinparams
 | XQN    | Quotient - Testnet                 |    30993 |    30996 |         0 | 0x0b051107         | "\u0019Quotient Signed Message:\n"          |
 | XRA    | Ratecoin - Testnet                 |    35852 |    35852 |         0 | 0xa1a0a2a3         | "\u0019RATECoin Signed Message:\n"          |
 | XRE    | RevolverCoin - Testnet             |    18777 |    18775 |         0 | 0x0b110907         | "\u001dRevolverCoin Signed Message:\n"      |
-| XSN    | Stakenet - Testnet                 |    29999 |    19998 |         1 | 0xcee2caff         | "\u0019DarkCoin Signed Message:\n"          |
+| XSN    | Stakenet - Testnet                 |    29999 |    19998 |         4 | 0xcee2caff         | "\u0019DarkCoin Signed Message:\n"          |
 | XSPEC  | Spectrecoin - Testnet              |    37111 |    36757 |         0 | 0xa32c44b4         | "\u001cSpectreCoin Signed Message:\n"       |
 | XVG    | Verge - Testnet                    |    29102 |    21102 |         0 | 0xcdf2c0ef         | "\u0016VERGE Signed Message:\n"             |
 | XZC    | ZCoin - Testnet                    |    18168 |    18888 |         6 | 0xcffcbeea         | "\u0016Zcoin Signed Message:\n"             |
@@ -729,8 +731,8 @@ https://github.com/dan-da/coinparams
 | BLU    | BlueCoin - Regtest                 |    19444 |     7105 |         0 | 0xfef5abaa         | "\u0019Bluecoin Signed Message:\n"     |
 | BSD    | BitSend - Regtest                  |     8885 |    18332 |         0 | 0x4c1a2caf         | "\u0018Bitsend Signed Message:\n"      |
 | BTC    | Bitcoin - Regtest                  |    18444 |    18443 |         0 | 0xfabfb5da         | "\u0018Bitcoin Signed Message:\n"      |
-| BTG    | Bitgem - Regtest                   |    18444 |    18332 |         0 | 0xfabfb5da         | "\u001dBitcoin Gold Signed Message:\n" |
-| BTX    | Bitcore - Regtest                  |    18444 |    50332 |         2 | 0xfabfb5da         | "\u0018BitCore Signed Message:\n"      |
+| BTG    | Bitcoin Gold - Regtest             |    18444 |    18332 |         0 | 0xfabfb5da         | "\u001dBitcoin Gold Signed Message:\n" |
+| BTX    | Bitcore - Regtest                  |    19444 |    50332 |         0 | 0xfabfb5da         | "\u0018BitCore Signed Message:\n"      |
 | CHAN   | ChanCoin - Regtest                 |    19444 |    19332 |         0 | 0xfabfb5da         | "\u0019Chancoin Signed Message:\n"     |
 | CHIPS  | CHIPS - Regtest                    |    18444 |    18332 |         0 | 0xfabfb5da         | "\u0018Bitcoin Signed Message:\n"      |
 | CRC    | CrowdCoin - Regtest                |    13855 |    18332 |         0 | 0xd124b57a         | "\u0019DarkCoin Signed Message:\n"     |
@@ -757,7 +759,7 @@ https://github.com/dan-da/coinparams
 | IXC    | Ixcoin - Regtest                   |    18444 |    18338 |         0 | 0xfabfb5da         | "\u0018Bitcoin Signed Message:\n"      |
 | LBC    | LBRY Credits - Regtest             |    29246 |    18332 |         0 | 0xfae4aad1         | "\u0018LBRYcrd Signed Message:\n"      |
 | LBTC   | LiteBitcoin - Regtest              |    19444 |    19332 |         0 | 0xccd6a0e3         | "\u001cLitebitcoin Signed Message:\n"  |
-| LCC    | Litecoin Cash - Regtest            |    19444 |    62455 |         0 | 0xfabfb5da         | "\u0019Litecoin Signed Message:\n"     |
+| LCC    | Litecoin Cash - Regtest            |    19444 |    19443 |         0 | 0xfabfb5da         | "\u0019Litecoin Signed Message:\n"     |
 | LOG    | Woodcoin - Regtest                 |    19444 |    19332 |         0 | 0xfabfb5da         | "\u0019Woodcoin Signed Message:\n"     |
 | LTC    | Litecoin - Regtest                 |    19444 |    19443 |         0 | 0xfabfb5da         | "\u0019Litecoin Signed Message:\n"     |
 | MAC    | Machinecoin - Regtest              |    60333 |    60332 |         0 | 0xfac2c6ab         | "\u001cMachinecoin Signed Message:\n"  |
@@ -771,7 +773,7 @@ https://github.com/dan-da/coinparams
 | OCC    | Octoin Coin - Regtest              |    35442 |    18332 |         0 | 0x61746263         | "\u001bOctoinCoin Signed Message:\n"   |
 | ORE    | Galactrum - Regtest                |    19994 |    18332 |         0 | 0xfcc1b7dc         | "\u0019DarkCoin Signed Message:\n"     |
 | PART   | Particl - Regtest                  |    11938 |    51936 |         0 | 0x0912060cfabfb5da | "\u0018Bitcoin Signed Message:\n"      |
-| POLIS  | Polis - Regtest                    |    19994 |    19998 |         0 | 0xfcc1b7dc         | "\u0019DarkCoin Signed Message:\n"     |
+| POLIS  | Polis - Regtest                    |    19994 |    24131 |         0 | 0xfcc1b7dc         | "\u0019DarkCoin Signed Message:\n"     |
 | PURA   | Pura - Regtest                     |    44442 |    55553 |         0 | 0xb695c341         | "\u0015Pura Signed Message:\n"         |
 | QTUM   | Qtum - Regtest                     |    23888 |    13889 |         0 | 0xfdddc6e1         | "\u0015Qtum Signed Message:\n"         |
 | RVN    | Ravencoin - Regtest                |    18444 |    18443 |         0 | 0x43524F57         | "\u0016Raven Signed Message:\n"        |
@@ -791,7 +793,7 @@ https://github.com/dan-da/coinparams
 | XCT    | C-Bit - Regtest                    |    18999 |    18288 |         0 | 0xbabdb5da         | "\u0018Bitcoin Signed Message:\n"      |
 | XMY    | Myriad - Regtest                   |    18444 |    18332 |         0 | 0xfabfb5da         | "\u001bMyriadcoin Signed Message:\n"   |
 | XRE    | RevolverCoin - Regtest             |    19777 |    18775 |         0 | 0xfabfb5da         | "\u001dRevolverCoin Signed Message:\n" |
-| XSN    | Stakenet - Regtest                 |    19994 |    18332 |         0 | 0xfcc1b7dc         | "\u0019DarkCoin Signed Message:\n"     |
+| XSN    | Stakenet - Regtest                 |    29999 |    18332 |         0 | 0xfabfb5da         | "\u0019DarkCoin Signed Message:\n"     |
 | XZC    | ZCoin - Regtest                    |    18444 |    28888 |         0 | 0xfabfb5da         | "\u0016Zcoin Signed Message:\n"        |
 | YTN    | YENTEN - Regtest                   |    18432 |    18332 |         0 | 0xaffb5bad         | "\u0017Yenten Signed Message:\n"       |
 | ZEC    | Zcash - Regtest                    |    18344 |    18232 |         0 | 0xaae83f5f         | "\u0016Zcash Signed Message:\n"        |

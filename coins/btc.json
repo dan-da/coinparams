@@ -46,13 +46,9 @@
             "private": 128,
             "public": 0,
             "scripthash": 5,
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
-            },
             "bech32": "bc",
             "bip44": 0,
-            "slip132": {
+            "extended": {
                 "xpub": {
                     "public": "0x0488b21e",
                     "private": "0x0488ade4"
@@ -98,13 +94,9 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": "tb",
             "bip44": 1,
-            "slip132": {
+            "extended": {
                 "xpub": {
                     "public": "0x043587cf",
                     "private": "0x04358394"
@@ -112,10 +104,6 @@
                 "ypub": {
                     "public": "0x044a5262",
                     "private": "0x044a4e28"
-                },
-                "Ypub": {
-                    "public": "",
-                    "private": ""
                 },
                 "zpub": {
                     "public": "0x045f1cf6",
@@ -145,32 +133,12 @@
             "private": 239,
             "public": 111,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x043587cf",
-                "private": "0x04358394"
-            },
             "bech32": "bcrt",
             "bip44": 1,
-            "slip132": {
+            "extended": {
                 "xpub": {
                     "public": "0x043587cf",
                     "private": "0x04358394"
-                },
-                "ypub": {
-                    "public": "0x044a5262",
-                    "private": "0x044a4e28"
-                },
-                "Ypub": {
-                    "public": "",
-                    "private": ""
-                },
-                "zpub": {
-                    "public": "0x045f1cf6",
-                    "private": "0x045f18bc"
-                },
-                "Zpub": {
-                    "public": "0x02575483",
-                    "private": "0x02575048"
                 }
             }
         },

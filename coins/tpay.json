@@ -38,12 +38,34 @@
             "private": 179,
             "public": 65,
             "scripthash": 126,
-            "bip32": {
-                "public": "0x2c513bd7",
-                "private": "0x2c51c15a"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x2c513bd7",
+                    "private": "0x2c51c15a"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "000008b71ab32e585a23f0de642dc113740144e94c0ece047751e9781f953ae9",
         "message_magic": "\u0019TokenPay Signed Message:\n",
@@ -63,12 +85,29 @@
             "private": 255,
             "public": 127,
             "scripthash": 196,
-            "bip32": {
-                "public": "0x76c0fdfb",
-                "private": "0x76c1077a"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x76c0fdfb",
+                    "private": "0x76c1077a"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "0002f40aaa035cf667855579231429fa53519286fef744f6cc346bf4327579c",
         "message_magic": "\u0019TokenPay Signed Message:\n",
