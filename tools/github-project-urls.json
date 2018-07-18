@@ -290,8 +290,8 @@
         "branch": "master"
     },
     "BTG": {
-        "name": "Bitgem",
-        "github": "https:\/\/github.com\/bitgem\/bitgem",
+        "name": "Bitcoin Gold",
+        "github": "https:\/\/github.com\/BTCGPU\/BTCGPU",
         "branch": "master"
     },
     "BTPL": {
@@ -307,7 +307,7 @@
     "BTX": {
         "name": "Bitcore",
         "github": "https:\/\/github.com\/LIMXTEC\/BitCore",
-        "branch": "master"
+        "branch": "0.15"
     },
     "BUB": {
         "name": "Bubble",
@@ -1857,6 +1857,11 @@
     "ODN": {
         "name": "Obsidian",
         "github": "https:\/\/github.com\/obsidianproject\/Obsidian-Qt",
+        "branch": "master"
+    },
+    "BTGEM": {
+        "name": "Bitgem",
+        "github": "https:\/\/github.com\/bitgem\/bitgem",
         "branch": "master"
     }
 }
