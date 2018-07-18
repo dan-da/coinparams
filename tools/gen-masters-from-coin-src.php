@@ -52,7 +52,7 @@ $coins = [
     'xpm'   => ['Primecoin', 'https://github.com/primecoin/primecoin', 'master'],  // no chainparams.cpp
     'lcc'   => ['Litecoin Cash', 'https://github.com/litecoincash-project/litecoincash', 'master'],
     'nav'   => ['Navcoin', 'https://github.com/NAVCoin/navcoin-core', 'master'],
-    'btx'   => ['Bitcore', 'https://github.com/LIMXTEC/BitCore', 'master'],
+    'btx'   => ['Bitcore', 'https://github.com/LIMXTEC/BitCore', '0.15'],
     'linda' => ['Linda', 'https://github.com/Lindacoin/Linda', 'master'],
     'emc2'  => ['Einsteinium', 'https://github.com/emc2foundation/einsteinium', 'master_EMC2_HardFork'],
     'uno'   => ['Unobtanium', 'https://github.com/unobtanium-official/Unobtanium', 'master'],
@@ -65,7 +65,7 @@ $coins = [
     'ion'   => ['ION', 'https://github.com/ionomy/ion', 'master'],
     'flo'   => ['FlorinCoin', 'https://github.com/floblockchain/flo', 'flo-master'],
     'phr'   => ['Phore', 'https://github.com/phoreproject/Phore', 'master'],
-    'html'  => ['HTMLCOIN', 'https://github.com/HTMLCOIN/HTMLCOIN', 'master'],
+    'html'  => ['HTMLCOIN', 'https://github.com/HTMLCOIN/HTMLCOIN', 'master-2.1'],
     'mnx'   => ['Minex', 'https://github.com/minexcoin/minexcoin', 'master'],
     'bitg'  => ['Bitcoin Green', 'https://github.com/bitcoingreen/bitcoingreen', 'master'],
     'pura'  => ['Pura', 'https://github.com/puracore/pura', 'master'],
@@ -153,15 +153,17 @@ $coins = [
     'hold'  => ['Interstellar Holdings', 'https://github.com/InterstellarHoldings/StellarHoldings', 'master'],   // parser error message_magic not found.
 ];
 
-$projects_file = __DIR__ . '/github-project-urls.json';
-$data = @json_decode(@file_get_contents($projects_file), true);
-if($data) {
-    ksort($data);
-    foreach($data as $sym => $info) {
-        if( @$coins['sym']) {
-            continue;
+if( $use_projects_file ) {
+    $projects_file = __DIR__ . '/github-project-urls.json';
+    $data = @json_decode(@file_get_contents($projects_file), true);
+    if($data) {
+        ksort($data);
+        foreach($data as $sym => $info) {
+            if( @$coins['sym']) {
+                continue;
+            }
+            $coins[strtolower($sym)] = [$info['name'], rtrim($info['github'], '/'), $info['branch']];
         }
-        $coins[strtolower($sym)] = [$info['name'], rtrim($info['github'], '/'), $info['branch']];
     }
 }
 
@@ -228,6 +230,9 @@ function process_coin($symbol, $coininfo) {
             }
             warn($e->getMessage() . "  --> $network will be ignored.");
             unset($data[$network]);
+            if($network == 'main') {
+                break;
+            }
             continue;
         }
     }
@@ -399,15 +404,23 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
     
     //if(!$matches[1]) echo $buf; exit;
 
+    $matched_2 =   preg_match("/base58Prefixes.SCRIPT_ADDRESS2.*>\s?\(1,\s?(\d+)\);/", $buf, $matches_2);
     $matched_int = preg_match("/base58Prefixes.SCRIPT_ADDRESS.*>\s?\(1,\s?(\d+)\);/", $buf, $matches_int) ||
                    preg_match("/base58Prefixes.SCRIPT_ADDRESS.*list_of.(\d+)\)/", $buf, $matches_int);
     $matched_hex = preg_match("/base58Prefixes.SCRIPT_ADDRESS.*0x(..),0x(..).;/", $buf, $matches_hex) ||    // zcash is a special child.
                    preg_match("/base58Prefixes.SCRIPT_ADDRESS.*>\s?\(1,\s?0x(..)\);/", $buf, $matches_hex);
+    @array_shift($matches_2);
     @array_shift($matches_int);
     @array_shift($matches_hex);
+    // note: we use end for matches_int because of lame coins like LTC that define SCRIPT_ADDRESS and then SCRIPT_ADDRESS2.
     $val = $matched_int ? i($matches_int[0]) : hexdec(strtolower(implode('', $matches_hex)));
     ne($val);
     $data[$network]['prefixes']['scripthash'] = $val;
+    $val2 = $matched_2 ? i($matches_2[0]) : null;
+    if($val2) {
+        $data[$network]['prefixes']['scripthash2'] = $val2;
+        $data[$network]['prefixes']['scripthash2_comment'] = 'For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv';
+    }
     
     preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*\{0x(..),\s?0x(..),\s?0x(..),\s?0x(..)\}/", $buf, $matches) ||
     preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*list_of.0x(..)..0x(..)..0x(..)..0x(..)/", $buf, $matches);
@@ -426,6 +439,7 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
     $data[$network]['prefixes']['bech32'] = @$matches[1];
 
 //    preg_match('/{     0, uint256S\("([^"]*)"\)}/', $buf, $matches);
+//                    assert(   hashGenesisBlock == uint256("0xe5524c7f4b08e6a04689a551fa060d9e39934991d5a4111105d9359447733285")); //DIME
     preg_match('/\s+assert\(.*hashGenesisBlock == uint256S?\("0?x?(.*)"\)\);/', $buf, $matches);
     if( !@$matches[1] ) {
         // special case for BCH.  (and others?)
@@ -436,7 +450,8 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
         else {
             // search in whole file, not only network buf.
             $pattern = sprintf( '/define\s+%s.*_GENESIS_HASH\s+"(.*)"/', strtoupper($network));
-            if(preg_match( $pattern, $filebuf, $matches)) {
+            if(preg_match( $pattern, $filebuf, $matches) ||
+               ($network == 'main' && preg_match('/uint256S? hashMainGenesisBlock\("0?x?(.*)"\);/', $filebuf, $matches))) {  // Dimecoin
                 array_shift($matches);
                 $matches[1] = implode('', $matches);
             }
@@ -625,9 +640,13 @@ function process_bip44(&$data, $meta) {
 function process_coin_meta(&$data, $meta) {
     $name = $meta['name'];
     $symbol = $meta['symbol'];
+    $symbol_comment = @$meta['symbol_comment'];
     $project_url = $meta['project_url'];
     
     $data['meta']['symbol'] = strtoupper($symbol);
+    if($symbol_comment) {
+        $data['meta']['symbol_comment'] = $symbol_comment;
+    }
     $data['meta']['name'] = $name;
     $data['meta']['supply']['max'] = $meta['supply']['max'];
     $data['meta']['web'] = $meta['web'];
@@ -780,7 +799,12 @@ File: bitcoinrpc.cpp
         $data[$network]['port'] = $network == 'main' ? i($matches[2]) : i($matches[1]);
         
         $url = $urlbase . '/src/bitcoinrpc.cpp';
-        $buf = get_url($url);
+        $buf = get_url($url, false);
+        
+        if(!$buf) {
+            $url = $urlbase . '/src/rpcserver.cpp';    // Gridcoin GRC
+            $buf = get_url($url, false);
+        }
 
         preg_match('/return GetBoolArg.*testnet.*false.*\? (\d+) : (\d+);/', $buf, $matches);
         ne(@$matches[1]);
@@ -1082,10 +1106,12 @@ function process_oldcode_keys(&$data, $meta) {
     // note: maybe there should be an option to turn this off,
     //       but then the values would be undefined and json files
     //       would not validate.
+    $map = json_decode(file_get_contents(__DIR__ . '/../coins/meta/extended.json'), true);
+    $extbtc = @$map['BTC'][$network];
+    $data[$network]['prefixes']['bip32']['public'] = $extbtc['xpub']['public'];
+    $data[$network]['prefixes']['bip32']['private'] = $extbtc['xpub']['private'];
     $data[$network]['prefixes']['bip32']['undefined_used_btc'] = true;
-    $data[$network]['prefixes']['bip32']['public'] = '0x0488b21e';
-    $data[$network]['prefixes']['bip32']['private'] = '0x0488ade4';
-    $data[$network]['prefixes']['bech32'] = null;    
+    $data[$network]['prefixes']['bech32'] = null;
 }
 
 function process_extended(&$data, $meta) {
