@@ -45,9 +45,11 @@
             "mainnet-seed.decred.org"
         ],
         "prefixes": {
-            "bip32": {
-                "private": "0x02fda4e8",
-                "public": "0x02fda926"
+            "extended": {
+                "xpub": {
+                    "private": "0x02fda4e8",
+                    "public": "0x02fda926"
+                }
             },
             "bip44": 42,
             "private": 8926,
@@ -75,9 +77,11 @@
             "testnet-seed.decred.org"
         ],
         "prefixes": {
-            "bip32": {
-                "private": "0x04358397",
-                "public": "0x043587d1"
+            "extended": {
+                "xpub": {
+                    "private": "0x04358397",
+                    "public": "0x043587d1"
+                }
             },
             "bip44": 1,
             "private": 8974,

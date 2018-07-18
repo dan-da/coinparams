@@ -40,9 +40,11 @@
             "private": "",
             "public": "",
             "scripthash": "",
-            "bip32": {
-                "public": "0x0488b21e",
-                "private": "0x0488ade4"
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                }
             },
             "bip44": 60,
             "bech32": null
@@ -65,9 +67,11 @@
             "private": "",
             "public": "",
             "scripthash": "",
-            "bip32": {
-                "public": "",
-                "private": ""
+            "extended": {
+                "xpub": {
+                    "public": "",
+                    "private": ""
+                }
             },
             "bip44": 1,
             "bech32": null
