@@ -24022,7 +24022,7 @@
             "decimals": 8
         }
     },
-	"STN": {
+	"STRAT": {
         "meta": {
             "symbol": "STRAT",
             "name": "Stratis",
@@ -24050,10 +24050,10 @@
             "symbol": "STRAT",
             "name": "Stratis - Mainnet",
             "testnet": false,
-            "port": 0,
-            "port_rpc": 0,
+            "port": 26965,
+            "port_rpc": 26966,
             "protocol": {
-                "magic": "0x"
+                "magic": "0xe626170d"
             },
             "seeds_dns": [],
             "prefixes": {
@@ -24075,10 +24075,10 @@
             "symbol": "TSTRAT",
             "name": "Stratis - Testnet",
             "testnet": true,
-            "port": 0,
-            "port_rpc": 0,
+            "port": 36965,
+            "port_rpc": 36966,
             "protocol": {
-                "magic": "0x"
+                "magic": "0x37fa833f"
             },
             "seeds_dns": [],
             "prefixes": {
