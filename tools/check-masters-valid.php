@@ -120,9 +120,11 @@ function check_valid_meta($keyname, $data) {
             "seed.bitcoin.jonasschnelli.ch"
         ],
         "prefixes": {
-            "bip32": {
-                "private": "0x488ade4",
-                "public": "0x488b21e"
+            "extended": {
+                "xpub": {
+                    "private": "0x488ade4",
+                    "public": "0x488b21e"
+                }
             },
             "bip44": "0x0",
             "private": "0x80",
@@ -165,7 +167,7 @@ function check_valid_network($netname, $data) {
         }
     }
     
-    $version_keys = ['bip32', 'private', 'public', 'scripthash' ];
+    $version_keys = ['extended', 'private', 'public', 'scripthash' ];
     $version_keys_warn = ['bip44' ];
     switch($data['symbol']) {
         case 'XMR': array_remove($version_keys, ['scripthash', 'private']); break;
@@ -185,14 +187,22 @@ function check_valid_network($netname, $data) {
         }
     }
     
+    $extended_keys = ['xpub', 'ypub', 'zpub', 'Ypub', 'Zpub'];
     $bip32_keys = ['public', 'private'];
     switch($data['symbol']) {
-        case 'XMR': array_remove($version_keys, ['public', 'private']); break;
-        case 'ETH': array_remove($version_keys, ['public', 'private']); break;
+        case 'XMR': array_remove($bip32_keys, ['public', 'private']); break;
+        case 'ETH': array_remove($bip32_keys, ['public', 'private']); break;
     }
-    foreach($bip32_keys as $k) {
-        if( @$data['prefixes']['bip32'][$k] === null ) {
-            err( "key ['$netname']['prefixes']['bip32']['$k'] is unset" );
+    foreach( $extended_keys as $ek ) {
+        if( @!count(@$data['prefixes']['extended'][$ek]) ) {
+            warn( "key ['$netname']['prefixes']['extended']['$ek'] is missing or empty" );
+            continue;
+        }
+        
+        foreach($bip32_keys as $k) {
+            if( @$data['prefixes']['extended'][$ek][$k] === null ) {
+                err( "key ['$netname']['prefixes']['extended']['$ek']['$k'] is unset" );
+            }
         }
     }
     
