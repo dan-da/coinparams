@@ -35330,6 +35330,81 @@
             "decimals": 8
         }
     },
+	"STRAT": {
+        "meta": {
+            "symbol": "STRAT",
+            "name": "Stratis",
+            "supply": {
+                "max": "xxx"
+            },
+            "web": {
+                "websites": [
+                    "http:\/\/www.steneum.com\/"
+                ],
+                "announcement": null,
+                "source_code": "https:\/\/github.com\/dhabitafx\/steneum",
+                "explorers": [
+                    "http:\/\/stratisplatform.com"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/stratis\/",
+                "message_board": [],
+                "chat": [
+                    "xxxx"
+                ]
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "STRAT",
+            "name": "Stratis - Mainnet",
+            "testnet": false,
+            "port": 26965,
+            "port_rpc": 26966,
+            "protocol": {
+                "magic": "0xe626170d"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "private": 191,
+                "public": 63,
+                "scripthash": 125,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 158
+            },
+            "hash_genesis_block": "0x",
+            "message_magic": "\u0018Stratis Signed Message:\n",
+            "decimals": 8
+        },
+        "test": {
+            "symbol": "TSTRAT",
+            "name": "Stratis - Testnet",
+            "testnet": true,
+            "port": 36965,
+            "port_rpc": 36966,
+            "protocol": {
+                "magic": "0x37fa833f"
+            },
+            "seeds_dns": [],
+            "prefixes": {
+                "public": 65,
+                "scripthash": 125,
+                "private": 191,
+                "bip32": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "bech32": null,
+                "bip44": 105
+            },
+            "hash_genesis_block": "0x",
+            "message_magic": "\u0018TestStratis Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "STV": {
         "meta": {
             "symbol": "STV",
