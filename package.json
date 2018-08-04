@@ -1,6 +1,6 @@
 {
   "name": "coinparams",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "provides crypto currency specific information such as key prefixes, DNS seeds, network ports, bip32, bip44, genesis block, etc.  For hundreds of altcoins.",
   "main": "bindings/js/coinparams.js",
   "scripts": {
