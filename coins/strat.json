@@ -70,7 +70,7 @@
         "decimals": 8
     },
     "test": {
-        "symbol": "TSTRAT",
+        "symbol": "STRAT",
         "name": "Stratis - Testnet",
         "testnet": true,
         "port": 36965,
