@@ -234,6 +234,7 @@ https://github.com/dan-da/coinparams
 | MRQ    | MIRQ - Mainnet                     | 000000c3bb8288f6627ffcb2cd8444bb37ab2cb63146ce4abef121b842514bd6                                                                                                               |
 | MST    | MustangCoin - Mainnet              | 000007a1a66bbb8c2147bd2d06bca3463d588655c326051b63f12d6130844f5f                                                                                                               |
 | MTNC   | Masternodecoin - Mainnet           | 00000016046213f1d00cf060b74be707ee78cf9fadb6e5717935295c1ca3d9a4                                                                                                               |
+| MUE    | MonetaryUnit - Mainnet             | 0x000002acd994a815401fbaae0e52404b32857efd0b7b0c77b8e0715ccdd6d4370x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421                                           |
 | MXT    | MarteXcoin - Mainnet               | 617fc383b07fbab3505213b41fe34f9705b92d854a9f72593cb616e4726e155c                                                                                                               |
 | NAV    | NavCoin - Mainnet                  | 00006a4e3e18c71c6d48ad6c261e2254fa764cf29607a4357c99b712dfbb8e6a                                                                                                               |
 | NEVA   | NevaCoin - Mainnet                 | 0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6                                                                                                               |
@@ -305,6 +306,7 @@ https://github.com/dan-da/coinparams
 | SRC    | SecureCoin - Mainnet               | 0000047462b7a97ff0e85630d00e57352d98ab4c17156273f22415fe8d78a104                                                                                                               |
 | STAK   | STRAKS - Mainnet                   | 0000df14d859c4b3219d93978bcf02afc123d2344a2ed39033e1208948aa7c0                                                                                                                |
 | STN    | Steneum Coin - Mainnet             | 6786546873c422dfc3780ea05ebce6b6ef8056ec77541c66f6336d7d64cf69bf                                                                                                               |
+| STRAT  | Stratis - Mainnet                  | 0x                                                                                                                                                                             |
 | STV    | Sativacoin - Mainnet               | 000006f40075bafa504d64ac179d47dc09faae31f35209431a5d2398f88de3e2                                                                                                               |
 | SUPER  | SuperCoin - Mainnet                | 00000130028bd75067e05b06fe8126e7f8ce8027a67898a6d649d0e239232a75                                                                                                               |
 | SWING  | Swing - Mainnet                    | 000000c856fd696b02fe03df844aa7b1b92480a959d5595a5c942f129fae2220                                                                                                               |
@@ -585,6 +587,7 @@ https://github.com/dan-da/coinparams
 | MOON   | Mooncoin - Testnet                 | 0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a00x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9                                     |
 | MST    | MustangCoin - Testnet              | 000007a1a66bbb8c2147bd2d06bca3463d588655c326051b63f12d6130844f5f                                                                                                         |
 | MTNC   | Masternodecoin - Testnet           | 00000016046213f1d00cf060b74be707ee78cf9fadb6e5717935295c1ca3d9a4                                                                                                         |
+| MUE    | MonetaryUnit - Testnet             | 0x00000c4e1485ee323e0dfab3c8afa871ceceff8822b9abe68005e22576d47a6f0x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421                                     |
 | MXT    | MarteXcoin - Testnet               | be10a5eb2ff7c7f2c958826bc773b05748cf3c8c851744425e1af311ed36e502                                                                                                         |
 | NAV    | NavCoin - Testnet                  | 0000a8003f8dd50820bd7885af42dd63d7be0c39c0f8433b3e9397a6ce7d7a5c                                                                                                         |
 | NEVA   | NevaCoin - Testnet                 | 005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4                                                                                                         |
@@ -649,6 +652,7 @@ https://github.com/dan-da/coinparams
 | SRC    | SecureCoin - Testnet               | 0x00000ddb5211c09372fef81d256f5afd98b4ba4e807dd664ee2829b30d84269d                                                                                                       |
 | STAK   | STRAKS - Testnet                   | 00000cd747bd0b653e1fe417b60c1d9e990600cf2ff193404ea12c3ecb348b4                                                                                                          |
 | STN    | Steneum Coin - Testnet             | 0x                                                                                                                                                                       |
+| STRAT  | Stratis - Testnet                  | 0x                                                                                                                                                                       |
 | STV    | Sativacoin - Testnet               |                                                                                                                                                                          |
 | SUPER  | SuperCoin - Testnet                | 00000130028bd75067e05b06fe8126e7f8ce8027a67898a6d649d0e239232a75                                                                                                         |
 | SWING  | Swing - Testnet                    |                                                                                                                                                                          |
@@ -766,6 +770,7 @@ https://github.com/dan-da/coinparams
 | MNX    | MinexCoin - Regtest                | 490a36d9451a55ed197e34aca7414b35d775baa4a8e896f1c577f65ce2d214cb                                                                     |
 | MONA   | MonaCoin - Regtest                 | 7543a69d7c2fcdb29a5ebec2fc064c074a35253b6f3072c8a749473aa590a29c                                                                     |
 | MOON   | Mooncoin - Regtest                 | 0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f90x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9 |
+| MUE    | MonetaryUnit - Regtest             | 0x0000014536730b6914fb4ce0f3f53c3d204b6602d2637ac83a17eacb13725b530x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421 |
 | NAV    | NavCoin - Regtest                  | 0000ebc922e5172da588766084696ec50a62006231e1d0d5d1e83b6a9cfc6e3f                                                                     |
 | NLG    | Gulden - Regtest                   | 3e4b830e0f75f7b72060ae5ebcc22fdf5df57c7e2350a2669ac4f8a2d734e1bc                                                                     |
 | NMC    | Namecoin - Regtest                 | 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206                                                                     |

@@ -1,0 +1,151 @@
+{
+    "meta": {
+        "symbol": "MUE",
+        "name": "MonetaryUnit",
+        "supply": {
+            "max": "4000000000"
+        },
+        "web": {
+            "websites": [
+                "http:\/\/www.monetaryunit.org"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=778322.0",
+            "source_code": "https:\/\/github.com\/muecoin\/MUECore",
+            "explorers": [
+                "https:\/\/chainz.cryptoid.info\/mue\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/monetaryunit\/",
+            "message_board": [],
+            "chat": [
+                "https:\/\/mueslack.herokuapp.com\/"
+            ]
+        },
+        "original_codebase": "bitcoin"
+    },
+    "main": {
+        "symbol": "MUE",
+        "name": "MonetaryUnit - Mainnet",
+        "testnet": false,
+        "port": 19683,
+        "port_rpc": 29683,
+        "protocol": {
+            "magic": "0xb5cccda7"
+        },
+        "seeds_dns": [
+            "nodes.muex.io",
+            "nodes.monetaryunit.org",
+            "nodes.mymue.com",
+            "nodes.cryptophi.com"
+        ],
+        "prefixes": {
+            "private": 126,
+            "public": 16,
+            "scripthash": 76,
+            "bech32": null,
+            "bip44": 31,
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
+        },
+        "hash_genesis_block": "0x000002acd994a815401fbaae0e52404b32857efd0b7b0c77b8e0715ccdd6d4370x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421",
+        "message_magic": "\u0014MUE Signed Message:\n",
+        "decimals": 8
+    },
+    "test": {
+        "symbol": "MUE",
+        "name": "MonetaryUnit - Testnet",
+        "testnet": true,
+        "port": 18683,
+        "port_rpc": 28683,
+        "protocol": {
+            "magic": "0xbda3c8b1"
+        },
+        "seeds_dns": [
+            "tnodes.muex.io",
+            "nodes.monetaryunit.org",
+            "nodes.mymue.com",
+            "nodes.cryptophi.com"
+        ],
+        "prefixes": {
+            "private": 64,
+            "public": 38,
+            "scripthash": 19,
+            "bech32": null,
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
+        },
+        "hash_genesis_block": "0x00000c4e1485ee323e0dfab3c8afa871ceceff8822b9abe68005e22576d47a6f0x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421",
+        "message_magic": "\u0014MUE Signed Message:\n",
+        "decimals": 8
+    },
+    "regtest": {
+        "symbol": "MUE",
+        "name": "MonetaryUnit - Regtest",
+        "testnet": true,
+        "port": 17683,
+        "port_rpc": 27683,
+        "protocol": {
+            "magic": "0xe6cea3ba"
+        },
+        "seeds_dns": [],
+        "prefixes": {
+            "private": 59,
+            "public": 61,
+            "scripthash": 69,
+            "bech32": null,
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x043587cf",
+                    "private": "0x04358394"
+                }
+            }
+        },
+        "hash_genesis_block": "0x0000014536730b6914fb4ce0f3f53c3d204b6602d2637ac83a17eacb13725b530x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421",
+        "message_magic": "\u0014MUE Signed Message:\n",
+        "decimals": 8
+    }
+}

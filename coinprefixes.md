@@ -236,6 +236,7 @@ the values from bitcoin are used.
 | MRQ    | MIRQ - Mainnet                     |     138 |    110 |   40 |             |            |       |        |
 | MST    | MustangCoin - Mainnet              |     176 |     48 |   28 |             |            |       |        |
 | MTNC   | Masternodecoin - Mainnet           |     178 |     50 |    5 |             |            |       |        |
+| MUE    | MonetaryUnit - Mainnet             |     126 |     16 |   76 |             |            |    31 |        |
 | MXT    | MarteXcoin - Mainnet               |       0 |     50 |    5 |             |            |   180 |        |
 | NAV    | NavCoin - Mainnet                  |     150 |     53 |   85 |             |            |   130 |        |
 | NEVA   | NevaCoin - Mainnet                 |     177 |     53 |    5 |             |            |       |        |
@@ -307,6 +308,7 @@ the values from bitcoin are used.
 | SRC    | SecureCoin - Mainnet               |     128 |    125 |    9 |             |            |       |        |
 | STAK   | STRAKS - Mainnet                   |     204 |     63 |    5 |             |            |   187 |        |
 | STN    | Steneum Coin - Mainnet             |     191 |     63 |    5 |             |            |       |        |
+| STRAT  | Stratis - Mainnet                  |     191 |     63 |  125 |             |            |   158 |        |
 | STV    | Sativacoin - Mainnet               |     191 |     63 |   28 |             |            |       |        |
 | SUPER  | SuperCoin - Mainnet                |     191 |     63 |   28 |             |            |       |        |
 | SWING  | Swing - Mainnet                    |     191 |     63 |   85 |             |            |       |        |
@@ -582,6 +584,7 @@ the values from bitcoin are used.
 | MOON   | Mooncoin - Testnet                 |     239 |    111 |  196 |             |            |     1 |        |
 | MST    | MustangCoin - Testnet              |     239 |    111 |  196 |             |            |     1 |        |
 | MTNC   | Masternodecoin - Testnet           |     239 |     97 |  196 |             |            |     1 |        |
+| MUE    | MonetaryUnit - Testnet             |      64 |     38 |   19 |             |            |     1 |        |
 | MXT    | MarteXcoin - Testnet               |     324 |    111 |  196 |             |            |     1 |        |
 | NAV    | NavCoin - Testnet                  |     239 |    111 |  196 |             |            |     1 |        |
 | NEVA   | NevaCoin - Testnet                 |     239 |    111 |  196 |             |            |     1 |        |
@@ -646,6 +649,7 @@ the values from bitcoin are used.
 | SRC    | SecureCoin - Testnet               |     239 |    127 |  199 |             |            |     1 |        |
 | STAK   | STRAKS - Testnet                   |     239 |    127 |   19 |             |            |     1 |        |
 | STN    | Steneum Coin - Testnet             |     239 |    111 |  196 |             |            |     1 |        |
+| STRAT  | Stratis - Testnet                  |     191 |     65 |  125 |             |            |   105 |        |
 | STV    | Sativacoin - Testnet               |     239 |    111 |  196 |             |            |     1 |        |
 | SUPER  | SuperCoin - Testnet                |     239 |    111 |  196 |             |            |     1 |        |
 | SWING  | Swing - Testnet                    |     239 |    111 |  196 |             |            |     1 |        |
@@ -758,6 +762,7 @@ the values from bitcoin are used.
 | MNX    | MinexCoin - Regtest                |     239 |    111 |  196 |             |            |     1 |        |
 | MONA   | MonaCoin - Regtest                 |     239 |    111 |  196 |             |            |     1 |        |
 | MOON   | Mooncoin - Regtest                 |     239 |    111 |  196 |             |            |     1 |        |
+| MUE    | MonetaryUnit - Regtest             |      59 |     61 |   69 |             |            |     1 |        |
 | NAV    | NavCoin - Regtest                  |     239 |    111 |  196 |             |            |     1 |        |
 | NLG    | Gulden - Regtest                   |      61 |     60 |  122 |             |            |     1 |        |
 | NMC    | Namecoin - Regtest                 |     239 |    111 |  196 |             |            |     1 | ncrt   |

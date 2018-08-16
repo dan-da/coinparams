@@ -127,7 +127,7 @@ $coins = [
     'dime'  => ['Dimecoin', 'https://github.com/dime-coin/dimecoin', 'master'],  // no chainparams.cpp, no base58.cpp
 //    'bitb'  => ['Bean Cash', 'https://github.com/TeamBitBean/bitbean-core', 'master'],   // parse error in chainparams.cpp
     'grc'   => ['Gridcoin', 'https://github.com/gridcoin-community/Gridcoin-Research', 'master'],  // no chainparams.cpp
-//    'mue'   => ['MonetaryUnit', 'https://github.com/muecoin/MUECore', 'master'],   // parse error in chainparams.cpp
+    'mue'   => ['MonetaryUnit', 'https://github.com/muecoin/MUECore', 'master'],   // parse error in chainparams.cpp
 //    'flash' => ['FLASH', 'https://github.com/flash-coin/flash-fullnode', 'master'],   // parse error in chainparams.cpp
 //    'shnd'  => ['StrongHands', 'https://github.com/stronghands/stronghands', 'master'],  // no chainparams.cpp, pchMessageStart not in main.cpp
     'ioc'   => ['IO Coin', 'https://github.com/IOCoin/DIONS', 'master'],  // no chainparams.cpp,  no base58.cpp
@@ -423,13 +423,13 @@ function process_chainparam_network( &$data, $buf, $filebuf, $meta) {
     }
     
     preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*\{0x(..),\s?0x(..),\s?0x(..),\s?0x(..)\}/", $buf, $matches) ||
-    preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*list_of.0x(..)..0x(..)..0x(..)..0x(..)/", $buf, $matches);
+    preg_match("/base58Prefixes.EXT_PUBLIC_KEY.*list_of.0x(..)..0x(..)..0x(..)..\s*0x(..)/sU", $buf, $matches);
     ne(@$matches[1]);
     array_shift($matches);
     $data[$network]['prefixes']['bip32']['public'] = zpx(strtolower(implode('',($matches))));
 
     preg_match("/base58Prefixes.EXT_SECRET_KEY.*\{0x(..),\s?0x(..),\s?0x(..),\s?0x(..)\}/", $buf, $matches) ||
-    preg_match("/base58Prefixes.EXT_SECRET_KEY.*list_of.0x(..)..0x(..)..0x(..)..0x(..)/", $buf, $matches);
+    preg_match("/base58Prefixes.EXT_SECRET_KEY.*list_of.0x(..)..0x(..)..0x(..)..\s*0x(..)/sU", $buf, $matches);
     ne(@$matches[1]);
     array_shift($matches);
     $data[$network]['prefixes']['bip32']['private'] = zpx(strtolower(implode('',($matches))));

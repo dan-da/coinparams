@@ -243,6 +243,7 @@ https://github.com/dan-da/coinparams
 | MRQ    | MIRQ - Mainnet                     |    55611 |    55622 |         0 | 0xe1ab3cc1 | "\u0018DarkNet Signed Message:\n"           |
 | MST    | MustangCoin - Mainnet              |    19667 |    19668 |         0 | 0xa1a0a2a3 | "\u0018mustang Signed Message:\n"           |
 | MTNC   | Masternodecoin - Mainnet           |    10086 |    10085 |         0 | 0xd5ce8c5e | "\u001fMasternodecoin Signed Message:\n"    |
+| MUE    | MonetaryUnit - Mainnet             |    19683 |    29683 |         4 | 0xb5cccda7 | "\u0014MUE Signed Message:\n"               |
 | MXT    | MarteXcoin - Mainnet               |    51315 |    51314 |         5 | 0x2d3fa2f5 | "\u0017MarteX Signed Message:\n"            |
 | NAV    | NavCoin - Mainnet                  |    44440 |    44444 |         2 | 0x80503420 | "\u0018Navcoin Signed Message:\n"           |
 | NEVA   | NevaCoin - Mainnet                 |     7391 |     3791 |        12 | 0xe483e632 | "\u0019Nevacoin Signed Message:\n"          |
@@ -314,6 +315,7 @@ https://github.com/dan-da/coinparams
 | SRC    | SecureCoin - Mainnet               |    12567 |    12568 |         1 | 0xfcb4d9ab | "\u001bSecurecoin Signed Message:\n"        |
 | STAK   | STRAKS - Mainnet                   |     7575 |     7574 |         5 | 0xb0d5f02c | "\u0017Straks Signed Message:\n"            |
 | STN    | Steneum Coin - Mainnet             |    26965 |    26966 |         0 | 0xe626170d | "\u0018Steneum Signed Message:\n"           |
+| STRAT  | Stratis - Mainnet                  |    26965 |    26966 |         0 | 0xe626170d | "\u0018Stratis Signed Message:\n"           |
 | STV    | Sativacoin - Mainnet               |    60990 |    62990 |         3 | 0xa1a0a2a3 | "\u001bsativacoin Signed Message:\n"        |
 | SUPER  | SuperCoin - Mainnet                |    19390 |    19391 |         2 | 0xdbfafcfd | "\u001aSuperCoin Signed Message:\n"         |
 | SWING  | Swing - Mainnet                    |    16061 |    16080 |         1 | 0xdd1ee2af | "\u0016Swing Signed Message:\n"             |
@@ -590,6 +592,7 @@ https://github.com/dan-da/coinparams
 | MOON   | Mooncoin - Testnet                 |    19335 |   144663 |         0 | 0xfdd2c8f1         | "\u0019Mooncoin Signed Message:\n"          |
 | MST    | MustangCoin - Testnet              |    19666 |    19666 |         0 | 0xa1a0a2a3         | "\u0018mustang Signed Message:\n"           |
 | MTNC   | Masternodecoin - Testnet           |    11111 |    11110 |         0 | 0xf2aee7e4         | "\u001fMasternodecoin Signed Message:\n"    |
+| MUE    | MonetaryUnit - Testnet             |    18683 |    28683 |         4 | 0xbda3c8b1         | "\u0014MUE Signed Message:\n"               |
 | MXT    | MarteXcoin - Testnet               |    41315 |    41314 |         0 | 0x70352205         | "\u0017MarteX Signed Message:\n"            |
 | NAV    | NavCoin - Testnet                  |    15556 |    44445 |         2 | 0x3fa25220         | "\u0018Navcoin Signed Message:\n"           |
 | NEVA   | NevaCoin - Testnet                 |    17391 |    13791 |         1 | 0xac43fe8c         | "\u0019Nevacoin Signed Message:\n"          |
@@ -654,6 +657,7 @@ https://github.com/dan-da/coinparams
 | SRC    | SecureCoin - Testnet               |    22567 |    22568 |         0 | 0x021BC4F5         | "\u001bSecurecoin Signed Message:\n"        |
 | STAK   | STRAKS - Testnet                   |     7565 |    17564 |         2 | 0x2a1ed5d1         | "\u0017Straks Signed Message:\n"            |
 | STN    | Steneum Coin - Testnet             |    36965 |    36966 |         0 | 0x37fa833f         | "\u0018Steneum Signed Message:\n"           |
+| STRAT  | Stratis - Testnet                  |    36965 |    36966 |         0 | 0x37fa833f         | "\u0018TestStratis Signed Message:\n"       |
 | STV    | Sativacoin - Testnet               |    50991 |    51991 |         0 | 0xa1a0a2a3         | "\u001bsativacoin Signed Message:\n"        |
 | SUPER  | SuperCoin - Testnet                |    29390 |    29391 |         0 | 0xa1a0a2a3         | "\u001aSuperCoin Signed Message:\n"         |
 | SWING  | Swing - Testnet                    |    25764 |    25785 |         0 | 0x7ea68dbc         | "\u0016Swing Signed Message:\n"             |
@@ -767,6 +771,7 @@ https://github.com/dan-da/coinparams
 | MNX    | MinexCoin - Regtest                |    18444 |    18332 |         0 | 0x4b4a4c5d         | "\u0018Bitcoin Signed Message:\n"      |
 | MONA   | MonaCoin - Regtest                 |    20444 |    19402 |         0 | 0xfabfb5da         | "\u0019Monacoin Signed Message:\n"     |
 | MOON   | Mooncoin - Regtest                 |    19444 |   144663 |         0 | 0xfabfb5da         | "\u0019Mooncoin Signed Message:\n"     |
+| MUE    | MonetaryUnit - Regtest             |    17683 |    27683 |         0 | 0xe6cea3ba         | "\u0014MUE Signed Message:\n"          |
 | NAV    | NavCoin - Regtest                  |    18886 |    44446 |         2 | 0x7d11b789         | "\u0018Navcoin Signed Message:\n"      |
 | NLG    | Gulden - Regtest                   |    18444 |    18332 |         0 | 0xfcfef7FF         | "\u001bGuldencoin Signed Message:\n"   |
 | NMC    | Namecoin - Regtest                 |    18445 |    18443 |         0 | 0xfabfb5da         | "\u0018Bitcoin Signed Message:\n"      |
