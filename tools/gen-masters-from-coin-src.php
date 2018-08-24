@@ -187,8 +187,17 @@ function process_coin($symbol, $coininfo) {
     
     $allmeta = coins_metadata();
     $cmeta = $allmeta[strtoupper($symbol)];
+
+    // windows special filenames, also cannot use eg con.json
+    $specialnames = ['CON', 'PRN', 'AUX', 'NUL',
+                     'COM1', 'COM2', 'COM3', 'COM4', 'COM5',
+                     'COM6', 'COM7', 'COM8', 'COM9', 'COM0',
+                     'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5',
+                     'LPT6', 'LPT7', 'LPT8', 'LPT9', 'LPT0',
+                    ];
+    $name = in_array(strtoupper($symbol), $specialnames) ? $symbol . '_' : $symbol;
     
-    $outfile = sprintf( "%s/../coins/%s.json", __DIR__, strtolower($symbol));
+    $outfile = sprintf( "%s/../coins/%s.json", __DIR__, strtolower($name));
     if(file_exists($outfile)) {
         if($GLOBALS['skip_existing_files']) {
             warn("file " . basename($outfile) . " exists. skipping $name");
