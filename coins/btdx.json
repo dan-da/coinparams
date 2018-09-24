@@ -32,13 +32,15 @@
         "protocol": {
             "magic": "0xe4e8bdfd"
         },
-        "seeds_dns": [],
+        "seeds_dns": [
+            "seed.bitcloud.network"
+        ],
         "prefixes": {
             "private": 153,
             "public": 25,
             "scripthash": 5,
             "bech32": null,
-            "bip44": null,
+            "bip44": 218,
             "extended": {
                 "xpub": {
                     "public": "0x0488b21e",
@@ -66,7 +68,7 @@
                 }
             }
         },
-        "hash_genesis_block": "00008412c3a4bbf7133c9cfbb8f9041fdd39bc98d1e1527612d10d95ed9b06d1",
+        "hash_genesis_block": "000002d56463941c20eae5cb474cc805b646515d18bc7dc222a0885b206eadb0",
         "message_magic": "\u0018Diamond Signed Message:\n",
         "decimals": 8
     },
