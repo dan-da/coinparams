@@ -1,7 +1,7 @@
 {
     "meta": {
         "symbol": "BTX",
-        "name": "Bitcore",
+        "name": "BitCore",
         "supply": {
             "max": "21000000"
         },
@@ -33,11 +33,7 @@
             "magic": "0xf9beb4d9"
         },
         "seeds_dns": [
-            "seed-a.litecoin.loshan.co.uk",
-            "dnsseed.thrasher.io",
-            "dnsseed.litecointools.com",
-            "dnsseed.litecoinpool.org",
-            "dnsseed.koin-project.com"
+            "seed.bitcore.biz"
         ],
         "prefixes": {
             "private": 128,
@@ -87,7 +83,10 @@
         "protocol": {
             "magic": "0xfdd2c8f1"
         },
-        "seeds_dns": [],
+        "seeds_dns": [
+            "188.68.52.172", 
+            "51.15.84.165"
+        ],
         "prefixes": {
             "private": 239,
             "public": 111,

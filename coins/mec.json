@@ -27,19 +27,17 @@
         "name": "Megacoin - Mainnet",
         "testnet": false,
         "port": 7951,
-        "port_rpc": 7951,
+        "port_rpc": 7952,
         "protocol": {
             "magic": "0xede0e4ee"
         },
-        "seeds_dns": [
-            "dnsseed.megacoin.in"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 178,
             "public": 50,
             "scripthash": 5,
             "bech32": null,
-            "bip44": null,
+            "bip44": 217,
             "extended": {
                 "xpub": {
                     "public": "0x0488b21e",
@@ -68,15 +66,15 @@
             }
         },
         "hash_genesis_block": "7520788e2d99eec7cf6cf7315577e1268e177fff94cb0a7caf6a458ceeea9ac2",
-        "message_magic": "\u0019Megacoin Signed Message:\n",
+        "message_magic": "\u0019MegaCoin Signed Message:\n",
         "decimals": 8
     },
     "test": {
         "symbol": "MEC",
         "name": "Megacoin - Testnet",
         "testnet": true,
-        "port": 17951,
-        "port_rpc": 17951,
+        "port": 19444,
+        "port_rpc": 50732,
         "protocol": {
             "magic": "0xfdf0f4fe"
         },
@@ -112,8 +110,8 @@
                 }
             }
         },
-        "hash_genesis_block": "f9e3f18eaa2404b23c57ed9961d7e777e95a1f2c88dfd373e5ddadc8ed343cc1",
-        "message_magic": "\u0019Megacoin Signed Message:\n",
+        "hash_genesis_block": "7520788e2d99eec7cf6cf7315577e1268e177fff94cb0a7caf6a458ceeea9ac2",
+        "message_magic": "\u0019MegaCoin Signed Message:\n",
         "decimals": 8
     }
 }

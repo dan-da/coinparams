@@ -3,7 +3,7 @@
         "symbol": "BSD",
         "name": "BitSend",
         "supply": {
-            "max": null
+            "max": 210000000
         },
         "web": {
             "websites": [
@@ -31,7 +31,9 @@
         "protocol": {
             "magic": "0xa3d5c2f9"
         },
-        "seeds_dns": [],
+        "seeds_dns": [
+            "seed.mybitsend.com"
+        ],
         "prefixes": {
             "private": 204,
             "public": 102,
@@ -78,12 +80,7 @@
         "protocol": {
             "magic": "0x0b110907"
         },
-        "seeds_dns": [
-            "testnet-seed.bitsend.jonasschnelli.ch",
-            "seed.tbtc.petertodd.org",
-            "testnet-seed.bluematt.me",
-            "testnet-seed.bitsend.schildbach.de"
-        ],
+        "seeds_dns": [],
         "prefixes": {
             "private": 239,
             "public": 111,
@@ -112,7 +109,7 @@
                 }
             }
         },
-        "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+        "hash_genesis_block": "43f9bd8f69fabb104a127606edc72c9a144da46d27ddb0817fb3462021d9e367",
         "message_magic": "\u0018Bitsend Signed Message:\n",
         "decimals": 8
     },
@@ -139,7 +136,7 @@
                 }
             }
         },
-        "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+        "hash_genesis_block": "ae142a92fc1bc3506477d3fee69396a6f2d281802759585645009274df15810e",
         "message_magic": "\u0018Bitsend Signed Message:\n",
         "decimals": 8
     }
