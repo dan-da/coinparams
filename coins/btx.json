@@ -41,7 +41,7 @@
             "scripthash": 125,
             "scripthash2": 125,
             "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
-            "bech32": null,
+            "bech32": btx,
             "bip44": 160,
             "extended": {
                 "xpub": {
@@ -93,7 +93,7 @@
             "scripthash": 196,
             "scripthash2": 58,
             "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
-            "bech32": null,
+            "bech32": tbtx,
             "bip44": 1,
             "extended": {
                 "xpub": {
