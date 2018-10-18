@@ -36,12 +36,35 @@
             "private": 23,
             "public": 63,
             "scripthash": 21,
-            "bip32": {
-                "public": "0x997545e2",
-                "private": "0x997343e3"
-            },
             "bech32": null,
-            "bip44": null
+            "bip44": null,
+            "extended": {
+                "xpub": {
+                    "public": "0x997545e2",
+                    "private": "0x997343e3",
+                    "undefined_used_btc": false
+                },
+                "ypub": {
+                    "public": "0x049d7cb2",
+                    "private": "0x049d7878",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x04b24746",
+                    "private": "0x04b2430c",
+                    "undefined_used_btc": true
+                },
+                "Ypub": {
+                    "public": "0x0295b43f",
+                    "private": "0x0295b005",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02aa7ed3",
+                    "private": "0x02aa7a99",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "7a5541643f97ca4bff6cd7b01e3fbea04002760713320a5750276d9b9c71d845",
         "message_magic": "\u0018Stipend Signed Message:\n",
@@ -61,12 +84,30 @@
             "private": 25,
             "public": 85,
             "scripthash": 23,
-            "bip32": {
-                "public": "0x987444e1",
-                "private": "0x987242e2"
-            },
             "bech32": null,
-            "bip44": 1
+            "bip44": 1,
+            "extended": {
+                "xpub": {
+                    "public": "0x987444e1",
+                    "private": "0x987242e2",
+                    "undefined_used_btc": true
+                },
+                "ypub": {
+                    "public": "0x044a5262",
+                    "private": "0x044a4e28",
+                    "undefined_used_btc": true
+                },
+                "zpub": {
+                    "public": "0x045f1cf6",
+                    "private": "0x045f18bc",
+                    "undefined_used_btc": true
+                },
+                "Zpub": {
+                    "public": "0x02575483",
+                    "private": "0x02575048",
+                    "undefined_used_btc": true
+                }
+            }
         },
         "hash_genesis_block": "e133d1d3f584f1c3f561e7d0606fa87dabb869325a979c2a82e2f3943c0e3370",
         "message_magic": "\u0018Stipend Signed Message:\n",
