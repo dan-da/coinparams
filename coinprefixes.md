@@ -79,10 +79,10 @@ the values from bitcoin are used.
 | BTCP   | Bitcoin Private - Mainnet          |     128 |   4901 | 5039 |             |            |   183 |        |
 | BTCR   | Bitcurrency - Mainnet              |     153 |     25 |    8 |             |            |       |        |
 | BTCZ   | BitcoinZ - Mainnet                 |     128 |   7352 | 7357 |             |            |   177 |        |
-| BTDX   | Bitcloud - Mainnet                 |     153 |     25 |    5 |             |            |       |        |
+| BTDX   | Bitcloud - Mainnet                 |     153 |     25 |    5 |             |            |   218 |        |
 | BTG    | Bitcoin Gold - Mainnet             |     128 |     38 |   23 |             |            |   156 |        |
 | BTGEM  | Bitgem - Mainnet                   |     226 |     98 |    8 |             |            |       |        |
-| BTX    | Bitcore - Mainnet                  |     128 |      3 |  125 |             |            |   160 |        |
+| BTX    | Bitcore - Mainnet                  |     128 |      3 |  125 |             |            |   160 | btx    |
 | BUB    | Bubble - Mainnet                   |     128 |     53 |    5 |             |            |       |        |
 | BUMBA  | BumbaCoin - Mainnet                |     153 |     25 |   28 |             |            |       |        |
 | BUZZ   | BuzzCoin - Mainnet                 |     153 |     25 |   85 |             |            |   169 |        |
@@ -221,7 +221,7 @@ the values from bitcoin are used.
 | MAY    | Theresa May Coin - Mainnet         |     178 |     50 |   85 |             |            |       |        |
 | MAZA   | MAZA - Mainnet                     |     224 |     50 |    9 |             |            |       |        |
 | MCRN   | MACRON - Mainnet                   |     140 |     12 |   85 |             |            |       |        |
-| MEC    | Megacoin - Mainnet                 |     178 |     50 |    5 |             |            |       |        |
+| MEC    | Megacoin - Mainnet                 |     178 |     50 |    5 |             |            |   217 |        |
 | MEDIC  | MedicCoin - Mainnet                |     153 |     50 |   85 |             |            |       |        |
 | MEME   | Memetic / PepeCoin - Mainnet       |     153 |     55 |   85 |             |            |       |        |
 | METAL  | MetalCoin - Mainnet                |     178 |     50 |   28 |             |            |       |        |
@@ -302,7 +302,7 @@ the values from bitcoin are used.
 | SOCC   | SocialCoin - Mainnet               |     191 |     63 |    5 |             |            |       |        |
 | SONG   | SongCoin - Mainnet                 |     191 |     63 |    5 |             |            |       |        |
 | SPACE  | SpaceCoin - Mainnet                |     191 |     63 |   52 |             |            |       |        |
-| SPD    | Stipend - Mainnet                  |      23 |     63 |   21 | 0x997343e3  | 0x997545e2 |       |        |
+| SPD    | Stipend - Mainnet                  |      23 |     63 |   21 |             |            |       |        |
 | SPHR   | Sphere - Mainnet                   |     153 |     25 |   85 |             |            |       |        |
 | SPK    | Sparks - Mainnet                   |     198 |     38 |   10 |             |            |       |        |
 | SRC    | SecureCoin - Mainnet               |     128 |    125 |    9 |             |            |       |        |
@@ -439,7 +439,7 @@ the values from bitcoin are used.
 | BTDX   | Bitcloud - Testnet                 |     239 |    139 |   19 |             |            |     1 |        |
 | BTG    | Bitcoin Gold - Testnet             |     239 |    111 |  196 |             |            |     1 |        |
 | BTGEM  | Bitgem - Testnet                   |     239 |    111 |  196 |             |            |     1 |        |
-| BTX    | Bitcore - Testnet                  |     239 |    111 |  196 |             |            |     1 |        |
+| BTX    | Bitcore - Testnet                  |     239 |    111 |  196 |             |            |     1 | tbtx   |
 | BUB    | Bubble - Testnet                   |     239 |    111 |  196 |             |            |     1 |        |
 | BUMBA  | BumbaCoin - Testnet                |     239 |    111 |  196 |             |            |     1 |        |
 | BUZZ   | BuzzCoin - Testnet                 |     239 |    127 |  196 |             |            |     1 |        |
@@ -643,7 +643,7 @@ the values from bitcoin are used.
 | SOCC   | SocialCoin - Testnet               |     239 |    111 |  196 |             |            |     1 |        |
 | SONG   | SongCoin - Testnet                 |     239 |    111 |  196 |             |            |     1 |        |
 | SPACE  | SpaceCoin - Testnet                |     226 |     98 |  145 |             |            |     1 |        |
-| SPD    | Stipend - Testnet                  |      25 |     85 |   23 | 0x987242e2  | 0x987444e1 |     1 |        |
+| SPD    | Stipend - Testnet                  |      25 |     85 |   23 |             |            |     1 |        |
 | SPHR   | Sphere - Testnet                   |     239 |    127 |  196 |             |            |     1 |        |
 | SPK    | Sparks - Testnet                   |     240 |    112 |   20 |             |            |     1 |        |
 | SRC    | SecureCoin - Testnet               |     239 |    127 |  199 |             |            |     1 |        |

@@ -77,7 +77,7 @@ https://github.com/dan-da/coinparams
 | BTCP   | Bitcoin Private - Mainnet          | 0007104ccda289427919efc39dc9e4d499804b7bebc22df55f8b834301260602                                                                                                               |
 | BTCR   | Bitcurrency - Mainnet              | 000008764d5c635c287151cabaa066526f6aac5ac885b46f4183f8c1b7c357d4                                                                                                               |
 | BTCZ   | BitcoinZ - Mainnet                 | f499ee3d498b4298ac6a64205b8addb7c43197e2a660229be65db8a4534d75c1                                                                                                               |
-| BTDX   | Bitcloud - Mainnet                 | 00008412c3a4bbf7133c9cfbb8f9041fdd39bc98d1e1527612d10d95ed9b06d1                                                                                                               |
+| BTDX   | Bitcloud - Mainnet                 | 000002d56463941c20eae5cb474cc805b646515d18bc7dc222a0885b206eadb0                                                                                                               |
 | BTG    | Bitcoin Gold - Mainnet             | 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f                                                                                                               |
 | BTGEM  | Bitgem - Mainnet                   | 00000b91c4ef8fd7e86329e11cff7f03c96208dac5c057b3fa6877b9fbd97c74                                                                                                               |
 | BTX    | Bitcore - Mainnet                  | 604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574                                                                                                               |
@@ -429,7 +429,7 @@ https://github.com/dan-da/coinparams
 | BOAT   | BOAT - Testnet                     |                                                                                                                                                                          |
 | BOLI   | Bolivarcoin - Testnet              | 0x000008da0e16960d6c2548da4831323b956d61370e2a3fdc5150188c5c478c49                                                                                                       |
 | BSC    | BowsCoin - Testnet                 | 0x000000344d8f4c75001f0fda455567ec2dd0b7ee1d19cf45d6e3fa15472055b1c                                                                                                      |
-| BSD    | BitSend - Testnet                  | 0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a                                                                                                         |
+| BSD    | BitSend - Testnet                  | 43f9bd8f69fabb104a127606edc72c9a144da46d27ddb0817fb3462021d9e367                                                                                                         |
 | BSR    | BitSoar - Testnet                  | 00000b5911130805e916ccfdbd3d8975381ca7561424d3a453d7f38aa64adae5                                                                                                         |
 | BSTY   | GlobalBoost-Y - Testnet            | 0x2e28050194ad73f2405394d2f081361a23c2df8904ec7f026a018bbe148d5adf                                                                                                       |
 | BTA    | Bata - Testnet                     | 00000a6800e5e2b43515cd12da56861eb482ebcdfa6ee92c1a8d7836ff654500                                                                                                         |
@@ -573,7 +573,7 @@ https://github.com/dan-da/coinparams
 | MAY    | Theresa May Coin - Testnet         | 0000056b82939ea6dbaa22632c4ff5324f2b2c574286af11a380bdb40eda62d                                                                                                          |
 | MAZA   | MAZA - Testnet                     | 000003ae7f631de18a457fa4fa078e6fa8aff38e258458f8189810de5d62cede                                                                                                         |
 | MCRN   | MACRON - Testnet                   | 000008a544bd2fd7451b3eb9a88e7fbd1d765dcbcbe1cd1122fd0628ea35ed4                                                                                                          |
-| MEC    | Megacoin - Testnet                 | f9e3f18eaa2404b23c57ed9961d7e777e95a1f2c88dfd373e5ddadc8ed343cc1                                                                                                         |
+| MEC    | Megacoin - Testnet                 | 7520788e2d99eec7cf6cf7315577e1268e177fff94cb0a7caf6a458ceeea9ac2                                                                                                         |
 | MEDIC  | MedicCoin - Testnet                | 0000ac3f71507372db48ac2626bed6c1321cade7292431b274647673ab60a7ee                                                                                                         |
 | MEME   | Memetic / PepeCoin - Testnet       | 00008cae6a01358d774087e2daf3b2108252b0b5a440195ffec4fd38f9892272                                                                                                         |
 | METAL  | MetalCoin - Testnet                | 00004058932bc1698ce2d0cb1446d5bbf59414fa2d9e0d51f44007a229292510                                                                                                         |
@@ -732,7 +732,7 @@ https://github.com/dan-da/coinparams
 | BCI    | Bitcoin Interest - Regtest         | 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206                                                                     |
 | BCO    | BridgeCoin - Regtest               | 6515ba86f08c652e0eb53e1b789102d3499b59c08b8421582a822d55ac17ab6e                                                                     |
 | BLU    | BlueCoin - Regtest                 | 024163cbb8f1b810df06faf7e1e02809a717939d7ec0bf5fca3609bc30780e98                                                                     |
-| BSD    | BitSend - Regtest                  | 0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a                                                                     |
+| BSD    | BitSend - Regtest                  | ae142a92fc1bc3506477d3fee69396a6f2d281802759585645009274df15810e                                                                     |
 | BTC    | Bitcoin - Regtest                  | 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206                                                                     |
 | BTG    | Bitcoin Gold - Regtest             | 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206                                                                     |
 | BTX    | Bitcore - Regtest                  | 604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574                                                                     |

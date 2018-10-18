@@ -6059,7 +6059,7 @@
             "symbol": "BSD",
             "name": "BitSend",
             "supply": {
-                "max": null
+                "max": 210000000
             },
             "web": {
                 "websites": [
@@ -6087,7 +6087,9 @@
             "protocol": {
                 "magic": "0xa3d5c2f9"
             },
-            "seeds_dns": [],
+            "seeds_dns": [
+                "seed.mybitsend.com"
+            ],
             "prefixes": {
                 "private": 204,
                 "public": 102,
@@ -6134,12 +6136,7 @@
             "protocol": {
                 "magic": "0x0b110907"
             },
-            "seeds_dns": [
-                "testnet-seed.bitsend.jonasschnelli.ch",
-                "seed.tbtc.petertodd.org",
-                "testnet-seed.bluematt.me",
-                "testnet-seed.bitsend.schildbach.de"
-            ],
+            "seeds_dns": [],
             "prefixes": {
                 "private": 239,
                 "public": 111,
@@ -6168,7 +6165,7 @@
                     }
                 }
             },
-            "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+            "hash_genesis_block": "43f9bd8f69fabb104a127606edc72c9a144da46d27ddb0817fb3462021d9e367",
             "message_magic": "\u0018Bitsend Signed Message:\n",
             "decimals": 8
         },
@@ -6195,7 +6192,7 @@
                     }
                 }
             },
-            "hash_genesis_block": "0000012e1b8843ac9ce8c18603658eaf8895f99d3f5e7e1b7b1686f35e3c087a",
+            "hash_genesis_block": "ae142a92fc1bc3506477d3fee69396a6f2d281802759585645009274df15810e",
             "message_magic": "\u0018Bitsend Signed Message:\n",
             "decimals": 8
         }
@@ -7338,13 +7335,15 @@
             "protocol": {
                 "magic": "0xe4e8bdfd"
             },
-            "seeds_dns": [],
+            "seeds_dns": [
+                "seed.bitcloud.network"
+            ],
             "prefixes": {
                 "private": 153,
                 "public": 25,
                 "scripthash": 5,
                 "bech32": null,
-                "bip44": null,
+                "bip44": 218,
                 "extended": {
                     "xpub": {
                         "public": "0x0488b21e",
@@ -7372,7 +7371,7 @@
                     }
                 }
             },
-            "hash_genesis_block": "00008412c3a4bbf7133c9cfbb8f9041fdd39bc98d1e1527612d10d95ed9b06d1",
+            "hash_genesis_block": "000002d56463941c20eae5cb474cc805b646515d18bc7dc222a0885b206eadb0",
             "message_magic": "\u0018Diamond Signed Message:\n",
             "decimals": 8
         },
@@ -7693,7 +7692,7 @@
     "BTX": {
         "meta": {
             "symbol": "BTX",
-            "name": "Bitcore",
+            "name": "BitCore",
             "supply": {
                 "max": "21000000"
             },
@@ -7725,11 +7724,7 @@
                 "magic": "0xf9beb4d9"
             },
             "seeds_dns": [
-                "seed-a.litecoin.loshan.co.uk",
-                "dnsseed.thrasher.io",
-                "dnsseed.litecointools.com",
-                "dnsseed.litecoinpool.org",
-                "dnsseed.koin-project.com"
+                "seed.bitcore.biz"
             ],
             "prefixes": {
                 "private": 128,
@@ -7737,7 +7732,7 @@
                 "scripthash": 125,
                 "scripthash2": 125,
                 "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
-                "bech32": null,
+                "bech32": "btx",
                 "bip44": 160,
                 "extended": {
                     "xpub": {
@@ -7779,14 +7774,17 @@
             "protocol": {
                 "magic": "0xfdd2c8f1"
             },
-            "seeds_dns": [],
+            "seeds_dns": [
+                "188.68.52.172",
+                "51.15.84.165"
+            ],
             "prefixes": {
                 "private": 239,
                 "public": 111,
                 "scripthash": 196,
                 "scripthash2": 58,
                 "scripthash2_comment": "For LTC, scripthash2 is for newer addresses and, scripthash is legacy. Other coins are probably similar but ymmv",
-                "bech32": null,
+                "bech32": "tbtx",
                 "bip44": 1,
                 "extended": {
                     "xpub": {
@@ -24948,19 +24946,17 @@
             "name": "Megacoin - Mainnet",
             "testnet": false,
             "port": 7951,
-            "port_rpc": 7951,
+            "port_rpc": 7952,
             "protocol": {
                 "magic": "0xede0e4ee"
             },
-            "seeds_dns": [
-                "dnsseed.megacoin.in"
-            ],
+            "seeds_dns": [],
             "prefixes": {
                 "private": 178,
                 "public": 50,
                 "scripthash": 5,
                 "bech32": null,
-                "bip44": null,
+                "bip44": 217,
                 "extended": {
                     "xpub": {
                         "public": "0x0488b21e",
@@ -24989,15 +24985,15 @@
                 }
             },
             "hash_genesis_block": "7520788e2d99eec7cf6cf7315577e1268e177fff94cb0a7caf6a458ceeea9ac2",
-            "message_magic": "\u0019Megacoin Signed Message:\n",
+            "message_magic": "\u0019MegaCoin Signed Message:\n",
             "decimals": 8
         },
         "test": {
             "symbol": "MEC",
             "name": "Megacoin - Testnet",
             "testnet": true,
-            "port": 17951,
-            "port_rpc": 17951,
+            "port": 19444,
+            "port_rpc": 50732,
             "protocol": {
                 "magic": "0xfdf0f4fe"
             },
@@ -25033,8 +25029,8 @@
                     }
                 }
             },
-            "hash_genesis_block": "f9e3f18eaa2404b23c57ed9961d7e777e95a1f2c88dfd373e5ddadc8ed343cc1",
-            "message_magic": "\u0019Megacoin Signed Message:\n",
+            "hash_genesis_block": "7520788e2d99eec7cf6cf7315577e1268e177fff94cb0a7caf6a458ceeea9ac2",
+            "message_magic": "\u0019MegaCoin Signed Message:\n",
             "decimals": 8
         }
     },
@@ -34798,12 +34794,35 @@
                 "private": 23,
                 "public": 63,
                 "scripthash": 21,
-                "bip32": {
-                    "public": "0x997545e2",
-                    "private": "0x997343e3"
-                },
                 "bech32": null,
-                "bip44": null
+                "bip44": null,
+                "extended": {
+                    "xpub": {
+                        "public": "0x997545e2",
+                        "private": "0x997343e3",
+                        "undefined_used_btc": false
+                    },
+                    "ypub": {
+                        "public": "0x049d7cb2",
+                        "private": "0x049d7878",
+                        "undefined_used_btc": true
+                    },
+                    "zpub": {
+                        "public": "0x04b24746",
+                        "private": "0x04b2430c",
+                        "undefined_used_btc": true
+                    },
+                    "Ypub": {
+                        "public": "0x0295b43f",
+                        "private": "0x0295b005",
+                        "undefined_used_btc": true
+                    },
+                    "Zpub": {
+                        "public": "0x02aa7ed3",
+                        "private": "0x02aa7a99",
+                        "undefined_used_btc": true
+                    }
+                }
             },
             "hash_genesis_block": "7a5541643f97ca4bff6cd7b01e3fbea04002760713320a5750276d9b9c71d845",
             "message_magic": "\u0018Stipend Signed Message:\n",
@@ -34823,12 +34842,30 @@
                 "private": 25,
                 "public": 85,
                 "scripthash": 23,
-                "bip32": {
-                    "public": "0x987444e1",
-                    "private": "0x987242e2"
-                },
                 "bech32": null,
-                "bip44": 1
+                "bip44": 1,
+                "extended": {
+                    "xpub": {
+                        "public": "0x987444e1",
+                        "private": "0x987242e2",
+                        "undefined_used_btc": true
+                    },
+                    "ypub": {
+                        "public": "0x044a5262",
+                        "private": "0x044a4e28",
+                        "undefined_used_btc": true
+                    },
+                    "zpub": {
+                        "public": "0x045f1cf6",
+                        "private": "0x045f18bc",
+                        "undefined_used_btc": true
+                    },
+                    "Zpub": {
+                        "public": "0x02575483",
+                        "private": "0x02575048",
+                        "undefined_used_btc": true
+                    }
+                }
             },
             "hash_genesis_block": "e133d1d3f584f1c3f561e7d0606fa87dabb869325a979c2a82e2f3943c0e3370",
             "message_magic": "\u0018Stipend Signed Message:\n",

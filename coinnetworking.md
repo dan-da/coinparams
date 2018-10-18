@@ -76,7 +76,7 @@ https://github.com/dan-da/coinparams
 | BOLI   | Bolivarcoin - Mainnet              |     3893 |     3563 |         0 | 0xfdc3b9de | "\u001cBolivarcoin Signed Message:\n"       |
 | BRO    | Bitradio - Mainnet                 |    32454 |    32455 |         3 | 0xd31a3de4 | "\u0019Bitradio Signed Message:\n"          |
 | BSC    | BowsCoin - Mainnet                 |     8155 |     8145 |         0 | 0xffc4badf | "\u0019bowscoin Signed Message:\n"          |
-| BSD    | BitSend - Mainnet                  |     8886 |     8800 |         0 | 0xa3d5c2f9 | "\u0018Bitsend Signed Message:\n"           |
+| BSD    | BitSend - Mainnet                  |     8886 |     8800 |         1 | 0xa3d5c2f9 | "\u0018Bitsend Signed Message:\n"           |
 | BSR    | BitSoar - Mainnet                  |    40119 |    50119 |         0 | 0x53746942 | "\u0018BitSoar Signed Message:\n"           |
 | BSTY   | GlobalBoost-Y - Mainnet            |     8226 |     8225 |         2 | 0xa2b2e2f2 | "\u001cGlobalboost Signed Message:\n"       |
 | BTA    | Bata - Mainnet                     |     5784 |     5493 |         2 | 0x34c3afeb | "\u0015Bata Signed Message:\n"              |
@@ -86,10 +86,10 @@ https://github.com/dan-da/coinparams
 | BTCP   | Bitcoin Private - Mainnet          |     7933 |     7932 |         2 | 0xa8eaa2cd | "\u001fBitcoinPrivate Signed Message:\n"    |
 | BTCR   | Bitcurrency - Mainnet              |    15814 |    15815 |         3 | 0x70421309 | "\u001cBitCurrency Signed Message:\n"       |
 | BTCZ   | BitcoinZ - Mainnet                 |     1989 |     1979 |         6 | 0x24e92764 | "\u0019BitcoinZ Signed Message:\n"          |
-| BTDX   | Bitcloud - Mainnet                 |     8329 |     8330 |         0 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
+| BTDX   | Bitcloud - Mainnet                 |     8329 |     8330 |         1 | 0xe4e8bdfd | "\u0018Diamond Signed Message:\n"           |
 | BTG    | Bitcoin Gold - Mainnet             |     8338 |     8332 |         3 | 0xe1476d44 | "\u001dBitcoin Gold Signed Message:\n"      |
 | BTGEM  | Bitgem - Mainnet                   |     7692 |     8348 |         1 | 0xe4e8e9e5 | "\u0017BitGem Signed Message:\n"            |
-| BTX    | Bitcore - Mainnet                  |     8555 |     8556 |         5 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
+| BTX    | Bitcore - Mainnet                  |     8555 |     8556 |         1 | 0xf9beb4d9 | "\u0018BitCore Signed Message:\n"           |
 | BUB    | Bubble - Mainnet                   |    15716 |    15719 |         0 | 0xcd2119dd | "\u0017Bubble Signed Message:\n"            |
 | BUMBA  | BumbaCoin - Mainnet                |    20222 |    10111 |         0 | 0xb1c0d2e3 | "\u001bbumbacoin2 Signed Message:\n"        |
 | BUZZ   | BuzzCoin - Mainnet                 |    25128 |    25129 |         0 | 0x07358205 | "\u0019BuzzCoin Signed Message:\n"          |
@@ -228,7 +228,7 @@ https://github.com/dan-da/coinparams
 | MAY    | Theresa May Coin - Mainnet         |    35010 |    35011 |         0 | 0xa4d2f8a6 | "\u001bTheresaMay Signed Message:\n"        |
 | MAZA   | MAZA - Mainnet                     |    12835 |    12832 |         1 | 0xf8b503df | "\u0015Maza Signed Message:\n"              |
 | MCRN   | MACRON - Mainnet                   |    55553 |    55555 |         0 | 0xa4d2f8a6 | "\u0017MACRON Signed Message:\n"            |
-| MEC    | Megacoin - Mainnet                 |     7951 |     7951 |         1 | 0xede0e4ee | "\u0019Megacoin Signed Message:\n"          |
+| MEC    | Megacoin - Mainnet                 |     7951 |     7952 |         0 | 0xede0e4ee | "\u0019MegaCoin Signed Message:\n"          |
 | MEDIC  | MedicCoin - Mainnet                |     2118 |     2117 |         0 | 0x1bd76fc9 | "\u001aMedicCoin Signed Message:\n"         |
 | MEME   | Memetic / PepeCoin - Mainnet       |    29377 |    29376 |         2 | 0x3ac42c2f | "\u0019PepeCoin Signed Message:\n"          |
 | METAL  | MetalCoin - Mainnet                |    22332 |    22333 |         0 | 0xa1a0a2a3 | "\u001aMetalCoin Signed Message:\n"         |
@@ -434,7 +434,7 @@ https://github.com/dan-da/coinparams
 | BOAT   | BOAT - Testnet                     |    33728 |    33882 |         0 | 0x2d3c0f1e         | "\u0019Doubloon Signed Message:\n"          |
 | BOLI   | Bolivarcoin - Testnet              |    13893 |    13563 |         0 | 0xfec4bade         | "\u001cBolivarcoin Signed Message:\n"       |
 | BSC    | BowsCoin - Testnet                 |    18155 |    18145 |         0 | 0xffc4b9de         | "\u0019bowscoin Signed Message:\n"          |
-| BSD    | BitSend - Testnet                  |    18333 |    18800 |         4 | 0x0b110907         | "\u0018Bitsend Signed Message:\n"           |
+| BSD    | BitSend - Testnet                  |    18333 |    18800 |         0 | 0x0b110907         | "\u0018Bitsend Signed Message:\n"           |
 | BSR    | BitSoar - Testnet                  |    50119 |    40119 |         0 | 0xa1a0a2a3         | "\u0018BitSoar Signed Message:\n"           |
 | BSTY   | GlobalBoost-Y - Testnet            |    18226 |    18225 |         1 | 0x                 | "\u001cGlobalboost Signed Message:\n"       |
 | BTA    | Bata - Testnet                     |    33813 |    33812 |         3 | 0xbaadafc5         | "\u0015Bata Signed Message:\n"              |
@@ -447,7 +447,7 @@ https://github.com/dan-da/coinparams
 | BTDX   | Bitcloud - Testnet                 |    51474 |     8329 |         0 | 0x457665ba         | "\u0018Diamond Signed Message:\n"           |
 | BTG    | Bitcoin Gold - Testnet             |    18338 |    18332 |         3 | 0xe2486e45         | "\u001dBitcoin Gold Signed Message:\n"      |
 | BTGEM  | Bitgem - Testnet                   |    17692 |    18348 |         0 | 0xcdf2c0ef         | "\u0017BitGem Signed Message:\n"            |
-| BTX    | Bitcore - Testnet                  |     8666 |    50332 |         0 | 0xfdd2c8f1         | "\u0018BitCore Signed Message:\n"           |
+| BTX    | Bitcore - Testnet                  |     8666 |    50332 |         2 | 0xfdd2c8f1         | "\u0018BitCore Signed Message:\n"           |
 | BUB    | Bubble - Testnet                   |    38881 |    38882 |         0 | 0x08121619         | "\u0017Bubble Signed Message:\n"            |
 | BUMBA  | BumbaCoin - Testnet                |    20202 |    10101 |         0 | 0x                 | "\u001bbumbacoin2 Signed Message:\n"        |
 | BUZZ   | BuzzCoin - Testnet                 |    20114 |    20115 |         0 | 0x1f220530         | "\u0019BuzzCoin Signed Message:\n"          |
@@ -578,7 +578,7 @@ https://github.com/dan-da/coinparams
 | MAY    | Theresa May Coin - Testnet         |    25714 |    25715 |         0 | 0xadf1c2af         | "\u001bTheresaMay Signed Message:\n"        |
 | MAZA   | MAZA - Testnet                     |    11835 |    11832 |         1 | 0x05fea901         | "\u0015Maza Signed Message:\n"              |
 | MCRN   | MACRON - Testnet                   |    25714 |    25715 |         0 | 0xadf1c2af         | "\u0017MACRON Signed Message:\n"            |
-| MEC    | Megacoin - Testnet                 |    17951 |    17951 |         2 | 0xfdf0f4fe         | "\u0019Megacoin Signed Message:\n"          |
+| MEC    | Megacoin - Testnet                 |    19444 |    50732 |         2 | 0xfdf0f4fe         | "\u0019MegaCoin Signed Message:\n"          |
 | MEDIC  | MedicCoin - Testnet                |    12118 |    12117 |         0 | 0x1bd76fc9         | "\u001aMedicCoin Signed Message:\n"         |
 | MEME   | Memetic / PepeCoin - Testnet       |    39377 |    39376 |         0 | 0x2bca3c3f         | "\u0019PepeCoin Signed Message:\n"          |
 | METAL  | MetalCoin - Testnet                |    22330 |    22331 |         0 | 0xa1a0a2a3         | "\u001aMetalCoin Signed Message:\n"         |
