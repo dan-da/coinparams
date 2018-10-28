@@ -9,12 +9,12 @@
             "websites": [
                 "https:\/\/web.freepay.biz\/"
             ],
-            "announcement": null,
+            "announcement": "https://bitcointalk.org/index.php?topic=3267883.msg34055291#msg34055291",
             "source_code": "https:\/\/github.com\/hungyu99\/FreeCoin",
             "explorers": [
                 "https:\/\/explorer.freepay.biz:3001\/"
             ],
-            "coinmarketcap": null,
+            "coinmarketcap": "https://coinmarketcap.com/currencies/free-coin/",
             "message_board": [],
             "chat": []
         },
