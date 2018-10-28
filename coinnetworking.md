@@ -155,6 +155,7 @@ https://github.com/dan-da/coinparams
 | FLO    | FlorinCoin - Mainnet               |     7312 |     7313 |         5 | 0xfdc0a5f1 | "\u001bFlorincoin Signed Message:\n"        |
 | FLT    | FlutterCoin - Mainnet              |     7408 |     7474 |         1 | 0xcfd1e8ea | "\u001cFlutterCoin Signed Message:\n"       |
 | FRC    | Freicoin - Mainnet                 |     8639 |     8638 |         4 | 0x2cfe7e6d | "\u0019Freicoin Signed Message:\n"          |
+| FREE   | Freecoin - Mainnet                 |    25880 |    21880 |         2 | 0xb8bca8a8 | "\u0018Freecoin Signed Message:\n"          |
 | FST    | Fastcoin - Mainnet                 |     9526 |     9527 |         5 | 0xfbc0b6db | "\u0019Fastcoin Signed Message:\n"          |
 | FTC    | Feathercoin - Mainnet              |     9336 |     9337 |         4 | 0x41151a21 | "\u001cFeathercoin Signed Message:\n"       |
 | FTO    | FuturoCoin - Mainnet               |     9009 |     9008 |         2 | 0xCFD2D4C6 | "\u0019DarkCoin Signed Message:\n"          |

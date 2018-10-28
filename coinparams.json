@@ -15633,6 +15633,79 @@
             "decimals": 8
         }
     },
+    "FREE": {
+        "meta": {
+            "symbol": "FREE",
+            "name": "FreeCoin",
+            "supply": {
+                "max": "6000000000"
+            },
+            "web": {
+                "websites": [
+                    "https:\/\/web.freepay.biz\/"
+                ],
+                "announcement": "https:\/\/bitcointalk.org\/index.php?topic=3267883.msg34055291#msg34055291",
+                "source_code": "https:\/\/github.com\/hungyu99\/FreeCoin",
+                "explorers": [
+                    "https:\/\/explorer.freepay.biz:3001\/"
+                ],
+                "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/free-coin\/",
+                "message_board": [],
+                "chat": []
+            },
+            "original_codebase": "bitcoin"
+        },
+        "main": {
+            "symbol": "FREE",
+            "name": "Freecoin - Mainnet",
+            "testnet": false,
+            "port": 25880,
+            "port_rpc": 21880,
+            "protocol": {
+                "magic": "0xb8bca8a8"
+            },
+            "seeds_dns": [
+                "35.200.142.234",
+                "35.229.254.219"
+            ],
+            "prefixes": {
+                "private": 128,
+                "public": 35,
+                "scripthash": 57,
+                "bech32": null,
+                "bip44": 252,
+                "extended": {
+                    "xpub": {
+                        "public": "0x0488b21e",
+                        "private": "0x0488ade4"
+                    },
+                    "ypub": {
+                        "public": "0x049d7cb2",
+                        "private": "0x049d7878",
+                        "undefined_used_btc": true
+                    },
+                    "Ypub": {
+                        "public": "0x0295b43f",
+                        "private": "0x0295b005",
+                        "undefined_used_btc": true
+                    },
+                    "zpub": {
+                        "public": "0x04b24746",
+                        "private": "0x04b2430c",
+                        "undefined_used_btc": true
+                    },
+                    "Zpub": {
+                        "public": "0x02aa7ed3",
+                        "private": "0x02aa7a99",
+                        "undefined_used_btc": true
+                    }
+                }
+            },
+            "hash_genesis_block": "9ba33b76a1c80661bcc3a3ed1571d4fe54e448b42af5f2aa60c9db6b61c6e377",
+            "message_magic": "\u0018Freecoin Signed Message:\n",
+            "decimals": 8
+        }
+    },
     "FST": {
         "meta": {
             "symbol": "FST",

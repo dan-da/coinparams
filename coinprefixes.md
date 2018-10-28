@@ -148,6 +148,7 @@ the values from bitcoin are used.
 | FLO    | FlorinCoin - Mainnet               |     163 |     35 |    8 |             |            |       |        |
 | FLT    | FlutterCoin - Mainnet              |     163 |     35 |   20 |             |            |       |        |
 | FRC    | Freicoin - Mainnet                 |     128 |      0 |    5 |             |            |       |        |
+| FREE   | Freecoin - Mainnet                 |     128 |     35 |   57 |             |            |   252 |        |
 | FST    | Fastcoin - Mainnet                 |     224 |     96 |   20 |             |            |       |        |
 | FTC    | Feathercoin - Mainnet              |     142 |     14 |    5 |             |            |     8 | fc     |
 | FTO    | FuturoCoin - Mainnet               |     164 |     36 |   13 |             |            |       |        |
