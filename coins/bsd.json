@@ -109,7 +109,7 @@
                 }
             }
         },
-        "hash_genesis_block": "43f9bd8f69fabb104a127606edc72c9a144da46d27ddb0817fb3462021d9e367",
+        "hash_genesis_block": "000003a68444b3c63b7882dd7244cd8ce1d11a30809295ab382bfdcab6d45332",
         "message_magic": "\u0018Bitsend Signed Message:\n",
         "decimals": 8
     },
@@ -136,7 +136,7 @@
                 }
             }
         },
-        "hash_genesis_block": "ae142a92fc1bc3506477d3fee69396a6f2d281802759585645009274df15810e",
+        "hash_genesis_block": "00000d500e703fb0d5efc44e6987e2b479bef162c0934d95cdcb5a9808e8d2db",
         "message_magic": "\u0018Bitsend Signed Message:\n",
         "decimals": 8
     }
