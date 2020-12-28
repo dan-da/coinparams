@@ -35,7 +35,7 @@
             "magic": null
         },
         "port": 8090,
-        "port_rpc": 50051,
+        "port_rpc": 50051, 
         "seeds_dns": [],
         "prefixes": {
             "private": "",
