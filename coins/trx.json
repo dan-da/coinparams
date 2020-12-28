@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "symbol": "TRX",
+        "name": "Tronix",
+        "supply": {
+            "max": 100000000000
+        },
+        "web": {
+            "websites": [
+
+                "https:\/\/tron.network\/"
+            ],
+            "announcement": "https:\/\/bitcointalk.org\/index.php?topic=5250664.0",
+            "source_code": "https:\/\/github.com\/tronprotocol",
+            "explorers": [
+                "https:\/\/etherscan.io\/",
+                "https:\/\/tronscan.org\/",
+                "https:\/\/trx.tokenview.com\/"
+            ],
+            "coinmarketcap": "https:\/\/coinmarketcap.com\/currencies\/tron\/",
+            "message_board": [
+                "https:\/\/www.tron.org\/"
+            ],
+            "chat": [
+                "https:\/\/gitter.im\/explore\/tags\/tron"
+            ]
+        },
+        "original_codebase": "tron"
+    },
+    "main": {
+        "symbol": "TRX",
+        "name": "Tron - Mainnet",
+        "testnet": false,
+        "protocol": {
+            "magic": null
+        },
+        "port": 8090,
+        "port_rpc": 50051, 
+        "seeds_dns": [],
+        "prefixes": {
+            "private": "",
+            "public": "",
+            "scripthash": "",
+            "extended": {
+                "xpub": {
+                    "public": "0x0488b21e",
+                    "private": "0x0488ade4"
+                }
+            },
+            "bip44": 195,
+            "bech32": null
+        },
+        "hash_genesis_block": "00000000000000001ebf88508a03865c71d452e25f4d51194196a1d22b6653dc",
+        "decimals": 6,
+        "message_magic": "\u0019Tron Signed Message:\n"
+    },
+    "test": {
+        "symbol": "TRX",
+        "name": "Tron - Testnet",
+        "testnet": true,
+        "protocol": {
+            "magic": null
+        },
+        "port": 8090,
+        "port_rpc": 50051,
+        "seeds_dns": [],
+        "prefixes": {
+            "private": "",
+            "public": "",
+            "scripthash": "",
+            "extended": {
+            },
+            "bip44": 1,
+            "bech32": null
+        },
+        "hash_genesis_block": "0000000000000000de1aa88295e1fcf982742f773e0419c5a9c134c994a9059e",
+        "decimals": 6,
+        "message_magic": "\u0019Tron Signed Message:\n"
+    }
+}
